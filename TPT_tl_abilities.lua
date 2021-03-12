@@ -144,7 +144,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Adts"][1][1] = "BTN\\BTNwakasagi.blp";
 -- atp1 1
-		t["Adts"][3][1] = "|c00FEE952[Unit Information]|r - 와카사기히메[Magic]";
+		t["Adts"][3][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Magic]";
 -- aub1 1
 		t["Adts"][4][1] = "|c00A8F13A[Combination]|r: Fairy[Normal] + Kappa[Normal]\r\
 \r\
@@ -199,7 +199,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Asth"][4][1] = "|c00FEE952[Unit Information]|r - 세키반키[Rare]";
 -- aub1 1
-		t["Asth"][5][1] = "|c00A8F13A[Combination]|r: 와카사기히메[Magic] + Small Devil[Magic] + 도깨비[Normal]\r\
+		t["Asth"][5][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Small Devil[Magic] + 도깨비[Normal]\r\
 \r\
 [공격속도]: 1.2초당 1번\r\
 [이동속도]: 300\r\
@@ -3490,7 +3490,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00O"][5][1] = "|c00ffff00Tewi Inaba|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00O"][6][1] = "Zako + Wriggle Nightbug + 와카사기히메";
+		t["A00O"][6][1] = "Zako + Wriggle Nightbug + Wakasagihime";
 -- ahky
 -- acat
 		t["A00O"][8][1] = "h007,h00H,hpea";
@@ -3556,7 +3556,7 @@ TPT_abilities_loader = function(t)
 		t["A00D"][6][1] = "|c00ffff00Youmu Konpaku|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A00D"][8][1] = "Wriggle Nightbug + 와카사기히메 + Devil";
+		t["A00D"][8][1] = "Wriggle Nightbug + Wakasagihime + Devil";
 -- ahky
 -- alig
 -- atat
@@ -11633,7 +11633,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A007"][5][1] = "|c00ffff00Star Sapphire|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A007"][6][1] = "와카사기히메 + Big Fairy";
+		t["A007"][6][1] = "Wakasagihime + Big Fairy";
 -- ahky
 -- acat
 		t["A007"][8][1] = "hpea,h00E";
@@ -12116,7 +12116,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00M"][5][1] = "|c00ffff00Minoriko Aki|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00M"][6][1] = "Shizuha Aki[Magic] + 와카사기히메[Magic] + Spirit[Normal]";
+		t["A00M"][6][1] = "Shizuha Aki[Magic] + Wakasagihime[Magic] + Spirit[Normal]";
 -- ahky
 -- acat
 		t["A00M"][8][1] = "h00C,hpea,h008";
@@ -13040,7 +13040,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0E1"][3][1] = "|c00FEE952[Unit Information]|r - Youmu Konpaku[Rare]";
 -- aub1 1
-		t["A0E1"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Magic] + 와카사기히메[Magic] + Devil[Normal]\r\
+		t["A0E1"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Magic] + Wakasagihime[Magic] + Devil[Normal]\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 300\r\
@@ -13052,7 +13052,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0E2"][3][1] = "|c00FEE952[Unit Information]|r - Minoriko Aki[Rare]";
 -- aub1 1
-		t["A0E2"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + 와카사기히메[Magic] + Spirit[Normal]\r\
+		t["A0E2"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + Wakasagihime[Magic] + Spirit[Normal]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -13100,7 +13100,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0E6"][3][1] = "|c00FEE952[Unit Information]|r - Tewi Inaba[Rare]";
 -- aub1 1
-		t["A0E6"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + 와카사기히메[Magic] + Wriggle Nightbug[Magic]\r\
+		t["A0E6"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + Wakasagihime[Magic] + Wriggle Nightbug[Magic]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
@@ -13172,7 +13172,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0EC"][3][1] = "|c00FEE952[Unit Information]|r - Star Sapphire[Rare]";
 -- aub1 1
-		t["A0EC"][4][1] = "|c00A8F13A[Combination]|r: 와카사기히메[Magic] + Big Fairy[Magic]\r\
+		t["A0EC"][4][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Big Fairy[Magic]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
@@ -13208,7 +13208,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0EF"][3][1] = "|c00FEE952[Unit Information]|r - Mizuhashi Parsee[Rare]";
 -- aub1 1
-		t["A0EF"][4][1] = "|c00A8F13A[Combination]|r: Devil[Normal] + 와카사기히메[Magic] + Kisume[Magic]\r\
+		t["A0EF"][4][1] = "|c00A8F13A[Combination]|r: Devil[Normal] + Wakasagihime[Magic] + Kisume[Magic]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 335\r\
@@ -16088,7 +16088,7 @@ TPT_abilities_loader = function(t)
 		t["A0D0"][6][1] = "|c00ffff00세키반키|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0D0"][8][1] = "와카사기히메 + 도깨비 + Small Devil";
+		t["A0D0"][8][1] = "Wakasagihime + 도깨비 + Small Devil";
 -- ahky
 -- alig
 -- atat
@@ -19959,7 +19959,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- amat
 -- anam
 -- atp1 1
-		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - 와카사기히메[Phantasm]";
+		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Phantasm]";
 -- aub1 1
 		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 레이우지 우츠호[Epic] + 이마이즈미 카게로[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 워터 솔져(hime phan)\r\
@@ -19986,7 +19986,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A069"][5][1] = "Kisume + 와카사기히메 + Devil";
+		t["A069"][5][1] = "Kisume + Wakasagihime + Devil";
 -- atp1 1
 		t["A069"][6][1] = "|c00ffff00Mizuhashi Parsee|r 조합|c00FF8040[W]|r";
 -- anam

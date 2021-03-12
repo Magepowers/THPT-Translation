@@ -88,7 +88,7 @@ t["hpea"][12] = {};
 -- Source language string already occurred earlier; skipped
 t["hpea"][13] = {};
 -- unam
-t["hpea"][13][0] = "와카사기히메 - |c000000ff매직|r";
+t["hpea"][13][0] = "Wakasagihime - |c000000ff매직|r";
 t["hpea"][14] = {};
 -- utyp [NEW]
 -- Source language string already occurred earlier; skipped
@@ -1993,7 +1993,7 @@ t["nnrg"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["nnrg"][6] = {};
 -- unam
-t["nnrg"][6][0] = "와카사기히메 - |c00FF0080판타즘|r|N|c00FF80FF담수에 사는 인어|r";
+t["nnrg"][6][0] = "Wakasagihime - |c00FF0080판타즘|r|N|c00FF80FF담수에 사는 인어|r";
 t["nnrg"][7] = {};
 -- udty
 -- Source language string already occurred earlier; skipped
@@ -30815,7 +30815,7 @@ t["e03X"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["e03X"][6] = {};
 -- unam
-t["e03X"][6][0] = "와카사기히메|N|c0000FFFF풀뿌리 소속 인어공주|r";
+t["e03X"][6][0] = "Wakasagihime|N|c0000FFFF풀뿌리 소속 인어공주|r";
 t["e03X"][7] = {};
 -- ubui [NEW]
 -- Source language string already occurred earlier; skipped
@@ -31237,7 +31237,7 @@ t["e044"][18] = {};
 t["e045"] = {};
 t["e045"][1] = {};
 -- unam
-t["e045"][1][0] = "[이펙트]와카사기히메";
+t["e045"][1][0] = "[이펙트]Wakasagihime";
 t["e045"][2] = {};
 -- uspa [NEW]
 -- Source language string already occurred earlier; skipped
