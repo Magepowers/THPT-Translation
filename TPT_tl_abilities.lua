@@ -8,25 +8,25 @@ TPT_abilities_loader = function(t)
 		t["Aall"][1][1] = "mechanical,player";
 -- [Assk]
 -- anam
-		t["Assk"][2][1] = "[판타즘_유닛 정보]";
+		t["Assk"][2][1] = "[Phantasm_Unit Information]";
 -- arac
 		t["Assk"][3][1] = "human";
 -- atp1 1
-		t["Assk"][5][1] = "|c00FEE952[유닛 정보]|r - 미즈하시 파르시[판타즘]";
+		t["Assk"][5][1] = "|c00FEE952[Unit Information]|r - 미즈하시 파르시[Phantasm]";
 -- aart
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
-		t["Assk"][7][1] = "|c00A8F13A[조합식]|r: 클라운피스[에픽] + 히에다노 아큐[에픽] + 코치야 사나에[유니크] + 고대와 환상의 조각\r\
+		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 히에다노 아큐[Epic] + 코치야 사나에[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
 [공격속도]: 0.67초당 1번\r\
 [이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- [AOae]
 -- atp1 1
 		t["AOae"][1][1] = "일부『다이렉트 선라이트』";
 -- anam
-		t["AOae"][2][1] = "[아르카나]";
+		t["AOae"][2][1] = "[Arcana]";
 -- aub1 1
 		t["AOae"][3][1] = "*써니 주변 700범위 적의 이동속도를 15% 감소시킵니다.\r\
 *써니 밀크가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 유닛에게 95만의 |c00AC59FF절대 데미지|r를 입히고, 1초간 스턴시킵니다.\r\
@@ -94,7 +94,7 @@ TPT_abilities_loader = function(t)
 		t["AOr2"][5][1] = "『광기』";
 -- aub1 1
 		t["AOr2"][6][1] = "*아군 유닛의 공격속도를 10% 증가 시킵니다.\r\
-*매 6라운드마다 악마 1기를 지급합니다.";
+*매 6라운드마다 Devil 1기를 지급합니다.";
 -- atar 2
 -- atp1 2
 		t["AOr2"][8][1] = "『증폭된 광기』";
@@ -144,25 +144,25 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Adts"][1][1] = "BTN\\BTNwakasagi.blp";
 -- atp1 1
-		t["Adts"][3][1] = "|c00FEE952[유닛 정보]|r - 와카사기히메[매직]";
+		t["Adts"][3][1] = "|c00FEE952[Unit Information]|r - 와카사기히메[Magic]";
 -- aub1 1
-		t["Adts"][4][1] = "|c00A8F13A[조합식]|r: 요정[일반] + 캇파[일반]\r\
+		t["Adts"][4][1] = "|c00A8F13A[Combination]|r: Fairy[Normal] + Kappa[Normal]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- anam
-		t["Adts"][5][1] = "[매직_유닛 정보]";
+		t["Adts"][5][1] = "[Magic_Unit Information]";
 -- [AHds]
 -- atp1 1
 		t["AHds"][4][1] = "『천상』선택|cffffcc00(D)|r";
 -- aub1 1
 		t["AHds"][5][1] = "*천상 미코를 선택합니다.";
 -- anam
-		t["AHds"][6][1] = "[크로니클]";
+		t["AHds"][6][1] = "[Chronicle]";
 -- [Awar]
 -- anam
-		t["Awar"][1][1] = "[판타즘]";
+		t["Awar"][1][1] = "[Phantasm]";
 -- atp1 1
 		t["Awar"][2][1] = "질투『녹색의 눈을 한 보이지 않는 괴물』";
 -- aub1 1
@@ -182,7 +182,7 @@ TPT_abilities_loader = function(t)
 -- amat
 		t["Aroc"][2][1] = "Abilities\\Spells\\Undead\\DeathCoil\\DeathCoilMissile.mdl";
 -- anam
-		t["Aroc"][3][1] = "[레어]";
+		t["Aroc"][3][1] = "[Rare]";
 -- atp1 1
 		t["Aroc"][4][1] = "비두『세븐스 헤드』";
 -- aub1 1
@@ -193,54 +193,54 @@ TPT_abilities_loader = function(t)
 |c00ff2222패널티|r : 공격속도가 느림";
 -- [Asth]
 -- anam
-		t["Asth"][2][1] = "[레어_유닛 정보]";
+		t["Asth"][2][1] = "[Rare_Unit Information]";
 -- aart
 		t["Asth"][3][1] = "BTN\\BTNsekibanki.blp";
 -- atp1 1
-		t["Asth"][4][1] = "|c00FEE952[유닛 정보]|r - 세키반키[레어]";
+		t["Asth"][4][1] = "|c00FEE952[Unit Information]|r - 세키반키[Rare]";
 -- aub1 1
-		t["Asth"][5][1] = "|c00A8F13A[조합식]|r: 와카사기히메[매직] + 소악마[매직] + 도깨비[일반]\r\
+		t["Asth"][5][1] = "|c00A8F13A[Combination]|r: 와카사기히메[Magic] + Small Devil[Magic] + 도깨비[Normal]\r\
 \r\
 [공격속도]: 1.2초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- [Afsh]
 -- aart
 		t["Afsh"][1][1] = "BTN\\BTNKagerou.blp";
 -- atp1 1
-		t["Afsh"][6][1] = "|c00FEE952[유닛 정보]|r - 이마이즈미 카게로[유니크]";
+		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - 이마이즈미 카게로[Unique]";
 -- aub1 1
-		t["Afsh"][7][1] = "|c00A8F13A[조합식]|r: 세키반키[레어] + 카소다니 쿄코[레어] + 메를랑 프리즘리버[레어]\r\
+		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: 세키반키[Rare] + 카소다니 쿄코[Rare] + 메를랑 프리즘리버[Rare]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- anam
-		t["Afsh"][8][1] = "[유니크_유닛 정보]";
+		t["Afsh"][8][1] = "[Unique_Unit Information]";
 -- [Agyv]
 -- aart
 		t["Agyv"][1][1] = "BTN\\BTNBENBEN.blp";
 -- atar 1
 		t["Agyv"][2][1] = "vulnerable";
 -- atp1 1
-		t["Agyv"][3][1] = "|c00FEE952[유닛 정보]|r - 츠쿠모 벤벤[유니크]";
+		t["Agyv"][3][1] = "|c00FEE952[Unit Information]|r - 츠쿠모 벤벤[Unique]";
 -- anam
 -- aub1 1
-		t["Agyv"][5][1] = "|c00A8F13A[조합식]|r: 루나사 프리즘리버[레어] + 세키반키[레어] + 메를란 프리즘리버[레어]\r\
+		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: 루나사 프리즘리버[Rare] + 세키반키[Rare] + 메를란 프리즘리버[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- [AOcr]
 -- atp1 1
 		t["AOcr"][1][1] = "성광『스타 레이저』";
 -- anam
-		t["AOcr"][2][1] = "[레전더리]";
+		t["AOcr"][2][1] = "[Legendary]";
 -- aub1 1
 		t["AOcr"][3][1] = "*스타 사파이어가 공격시 마나를 5 회복합니다. 마나 25를 소모하여 아래의 효과를 발동합니다.\r\
 *대상 유닛과 그 주변 300범위 적에게 125만의 |c00379BFF마법 데미지|r를 입히는 섬광을 발사합니다.\r\
-*|c00C5EA53[조합 시너지]|r말썽쟁이 3요정\r\
--플레이어가 써니 밀크[아르카나]/스타 사파이어[레전더리]/루나 차일드[어센디드]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
+*|c00C5EA53[조합 시너지]|r말썽쟁이 3Fairy\r\
+-플레이어가 써니 밀크[Arcana]/스타 사파이어[Legendary]/루나 차일드[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
 -- aart
 		t["AOcr"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNGenericSpellImmunity.blp";
 -- [ACpv]
@@ -292,10 +292,10 @@ TPT_abilities_loader = function(t)
 		t["SCae"][3][1] = "평곡『기원정사의 종소리』";
 -- aub1 1
 		t["SCae"][4][1] = "＊자신 주변 900 범위의 아군 공격속도를 12% 증가시킨다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.\r\
 ＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 4만의 |c00379BFF마법 피해|r를 가한다.";
 -- anam
-		t["SCae"][5][1] = "[유니크]";
+		t["SCae"][5][1] = "[Unique]";
 -- abuf 1
 		t["SCae"][6][1] = "B025";
 -- [AHad]
@@ -309,7 +309,7 @@ TPT_abilities_loader = function(t)
 *|c00FF80FF[활력]|r - 4초 \r\
 엘리가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- anam
-		t["AHad"][5][1] = "[히스토릭]";
+		t["AHad"][5][1] = "[Historic]";
 -- aart
 		t["AHad"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp";
 -- atp1 2
@@ -320,15 +320,15 @@ TPT_abilities_loader = function(t)
 -- [AEev]
 -- arac
 -- atp1 1
-		t["AEev"][2][1] = "|c00FEE952[유닛 정보]|r - 스쿠나 신묘마루[에픽]";
+		t["AEev"][2][1] = "|c00FEE952[Unit Information]|r - 스쿠나 신묘마루[Epic]";
 -- anam
-		t["AEev"][3][1] = "[에픽_유닛 정보]";
+		t["AEev"][3][1] = "[Epic_Unit Information]";
 -- aub1 1
-		t["AEev"][4][1] = "|c00A8F13A[조합식]|r: 츠쿠모 벤벤[유니크] + 츠쿠모 야츠하시[유니크] + 이마이즈미 카게로우[유니크]\r\
+		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: 츠쿠모 벤벤[Unique] + 츠쿠모 야츠하시[Unique] + 이마이즈미 카게로우[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 유닛 업그레이드 , [강화]에픽 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : [기본]Epic 유닛 업그레이드 , [강화]Epic 유닛 업그레이드";
 -- aart
 		t["AEev"][5][1] = "BTN\\BTNShinmyoumaru.blp";
 -- [AHbh]
@@ -337,7 +337,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AHbh"][2][1] = "등부『파이어플라이 피너미넌』";
 -- anam
-		t["AHbh"][3][1] = "[에픽]";
+		t["AHbh"][3][1] = "[Epic]";
 -- aub1 1
 		t["AHbh"][4][1] = "＊공격 시 10% 확률로 자신 주변 700 범위의 무작위 지점에 반딧불이 빛을 뿜내 주변 300 범위의 적에게 현재 체력 3%의 |c00AC59FF절대 피해|r를 가합니다.";
 -- arac
@@ -403,7 +403,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["ACav"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNNeutralManaShield.blp";
 -- anam
-		t["ACav"][4][1] = "[에픽]세이자_R";
+		t["ACav"][4][1] = "[Epic]세이자_R";
 -- atp1 1
 		t["ACav"][5][1] = "역부『천지유용』";
 -- aub1 1
@@ -612,7 +612,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Aakb"][1][1] = "광부『풀 문 나이트』";
 -- anam
-		t["Aakb"][2][1] = "[어센디드]";
+		t["Aakb"][2][1] = "[Ascended]";
 -- aub1 1
 		t["Aakb"][3][1] = "*공격시 마나를 1 회복합니다. 마나가 100이 됐을때, 대상 지점에 달빛의 힘을 해방시킵니다.\r\
 *대상 주변 550범위 적에게 전체 체력의 4% + 650만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
@@ -648,34 +648,34 @@ TPT_abilities_loader = function(t)
 		t["Arpm"][16][1] = "B013";
 -- [AOw2]
 -- atp1 1
-		t["AOw2"][1][1] = "[유니크] 치르노_R : 999 0.9초 9.9만";
+		t["AOw2"][1][1] = "[Unique] 치르노_R : 999 0.9초 9.9만";
 -- anam
 -- abuf 1
 		t["AOw2"][5][1] = "B028";
 -- atp1 2
-		t["AOw2"][6][1] = "[아르카나] 무라사 : 450 1.4초 75만";
+		t["AOw2"][6][1] = "[Arcana] 무라사 : 450 1.4초 75만";
 -- atar 1
 -- atar 2
 -- atar 3
 -- atp1 3
-		t["AOw2"][11][1] = "[에픽] 아야 : 450 1.8초 75만";
+		t["AOw2"][11][1] = "[Epic] 아야 : 450 1.8초 75만";
 -- atar 4
 -- atp1 4
-		t["AOw2"][14][1] = "[유니크] 세이가 : 800 0.8초 4만5천";
+		t["AOw2"][14][1] = "[Unique] 세이가 : 800 0.8초 4만5천";
 -- atar 5
 -- atp1 5
 		t["AOw2"][17][1] = "[기타] 선대, 스이카 : ";
 -- atar 6
 -- atar 7
 -- atp1 6
-		t["AOw2"][20][1] = "클피 에픽";
+		t["AOw2"][20][1] = "클피 Epic";
 -- atp1 7
 		t["AOw2"][21][1] = "클피 익스텐드";
 -- atar 8
 -- atp1 8
-		t["AOw2"][23][1] = "[에픽] 세이자 : 450 2.5초 -";
+		t["AOw2"][23][1] = "[Epic] 세이자 : 450 2.5초 -";
 -- atp1 9
-		t["AOw2"][24][1] = "[에픽] 레티 : 400 1.6초 80만";
+		t["AOw2"][24][1] = "[Epic] 레티 : 400 1.6초 80만";
 -- atar 9
 -- atar 10
 -- atp1 10
@@ -698,7 +698,7 @@ TPT_abilities_loader = function(t)
 -- atar 16
 -- atar 17
 -- atp1 17
-		t["AOw2"][40][1] = "[무라사 아르카나 마나 스턴]";
+		t["AOw2"][40][1] = "[무라사 Arcana 마나 스턴]";
 -- atar 18
 -- atp1 18
 		t["AOw2"][42][1] = "[토요히메 스턴]";
@@ -713,7 +713,7 @@ TPT_abilities_loader = function(t)
 -- atar 21
 -- atar 22
 -- atp1 22
-		t["AOw2"][50][1] = "[레티 판타즘 노던위너]";
+		t["AOw2"][50][1] = "[레티 Phantasm 노던위너]";
 -- atp1 23
 		t["AOw2"][51][1] = "[팔기 스턴]";
 -- atar 23
@@ -738,10 +738,10 @@ TPT_abilities_loader = function(t)
 		t["AOw2"][65][1] = "[야치에 범위 스턴]";
 -- atar 31
 -- atp1 31
-		t["AOw2"][67][1] = "[레이센 레퀴엠 스턴]";
+		t["AOw2"][67][1] = "[레이센 Requiem 스턴]";
 -- atar 32
 -- atp1 32
-		t["AOw2"][69][1] = "[란 아르카나 스턴]";
+		t["AOw2"][69][1] = "[란 Arcana 스턴]";
 -- atar 33
 -- atp1 33
 		t["AOw2"][71][1] = "[야치에 스턴]";
@@ -757,7 +757,7 @@ TPT_abilities_loader = function(t)
 		t["AOw2"][78][1] = "[엘리스 스턴]";
 -- atar 38
 -- atp1 38
-		t["AOw2"][80][1] = "[아르카나] 우루미 : 500 2초 0만";
+		t["AOw2"][80][1] = "[Arcana] 우루미 : 500 2초 0만";
 -- atar 39
 -- atp1 39
 		t["AOw2"][82][1] = "-";
@@ -772,13 +772,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["ANtr"][3][1] = "|c00FEE952[유닛 정보]|r - 클라운피스[에픽]";
+		t["ANtr"][3][1] = "|c00FEE952[Unit Information]|r - 클라운피스[Epic]";
 -- aub1 1
-		t["ANtr"][4][1] = "|c00A8F13A[조합식]|r: 키신 사구메[유니크] + 릴리 블랙[유니크] + 치르노[마이너스 K]\r\
+		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: 키신 사구메[Unique] + 릴리 블랙[Unique] + 치르노[마이너스 K]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- atar 1
@@ -792,16 +792,16 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Apts"][4][1] = "BTN\\BTNHina.blp";
 -- atp1 1
-		t["Apts"][5][1] = "카기야마 히나[액신] 조합식";
+		t["Apts"][5][1] = "카기야마 히나[액신] Combination";
 -- anam
 -- aub1 1
-		t["Apts"][7][1] = "|c00A8F13A[조합식]|r: 루미아 EX[유니크] + 카기야마 히나[유니크] + 이마이즈미 카게로우[유니크]\r\
+		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: 루미아 EX[Unique] + 카기야마 히나[Unique] + 이마이즈미 카게로우[Unique]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다. 다른 익스텐드 유닛과 다르게, 습득하는 에픽 유닛이 사라지지 않고 익스텐드 유닛이 나타납니다.|r";
+|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다. 다른 익스텐드 유닛과 다르게, 습득하는 Epic 유닛이 사라지지 않고 익스텐드 유닛이 나타납니다.|r";
 -- [ACct]
 -- arac
 -- anam
@@ -923,7 +923,7 @@ TPT_abilities_loader = function(t)
 -- atar 2
 -- atar 1
 -- atp1 3
-		t["ANsi"][14][1] = "[레티 유니크]";
+		t["ANsi"][14][1] = "[레티 Unique]";
 -- [Awrg]
 -- anam
 		t["Awrg"][1][1] = "[테스팅]지형 변화";
@@ -1078,16 +1078,16 @@ TPT_abilities_loader = function(t)
 -- [ANht]
 -- arac
 -- atp1 1
-		t["ANht"][3][1] = "『폭포캇파단원 소집』|cffffcc00(W)|r - 1기 소환 가능";
+		t["ANht"][3][1] = "『폭포Kappa단원 소집』|cffffcc00(W)|r - 1기 소환 가능";
 -- aub1 1
-		t["ANht"][5][1] = "*사용식 능력 : 목재 3을 소모해 폭포캇파단원 한 기를 소집합니다. \r\
+		t["ANht"][5][1] = "*사용식 능력 : 목재 3을 소모해 폭포Kappa단원 한 기를 소집합니다. \r\
 *시전 시간 3초. 쿨다운 135초\r\
-*캇파단원은 영구히 지속되며, 비행가능합니다.";
+*Kappa단원은 영구히 지속되며, 비행가능합니다.";
 -- anam
 -- abuf 1
 		t["ANht"][7][1] = "B02Y";
 -- atp1 2
-		t["ANht"][8][1] = "『폭포캇파단원 소집』|cffffcc00(W)|r - 소환 불가";
+		t["ANht"][8][1] = "『폭포Kappa단원 소집』|cffffcc00(W)|r - 소환 불가";
 -- aub1 2
 -- abuf 2
 -- atar 1
@@ -1173,21 +1173,21 @@ TPT_abilities_loader = function(t)
 		t["ANd2"][1][1] = "BTN\\BTNKeine.blp";
 -- arac
 -- atp1 1
-		t["ANd2"][3][1] = "|c00FEE952[유닛 정보]|r - 카미시라사와 케이네[판타즘]";
+		t["ANd2"][3][1] = "|c00FEE952[Unit Information]|r - 카미시라사와 케이네[Phantasm]";
 -- anam
 -- atar 1
 -- aub1 1
-		t["ANd2"][6][1] = "|c00A8F13A[조합식]|r: 카미시라사와 케이네 EX[에픽] + 후지와라노 모코우[에픽] + 파츄리 널릿지[유니크] + 고대와 환상의 조각\r\
+		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네 EX[Epic] + 후지와라노 모코우[Epic] + 파츄리 널릿지[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 역사를 새기는 자(keine phan)\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
 [이동속도]: 522\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- atar 2
 -- atar 3
 -- atar 4
 -- atp1 2
-		t["ANd2"][10][1] = "폭부『페타 플레어』";
+		t["ANd2"][10][1] = "폭부『페타 플Rare』";
 -- atp1 3
 -- atp1 4
 -- aub1 2
@@ -1262,7 +1262,7 @@ TPT_abilities_loader = function(t)
 -- aub1 7
 		t["AIcs"][32][1] = "*미스티아 야맹증에 걸린 적을 공격시 10% 확률로 선심쓰듯 가시가 많은 칠성 장어구이를 건네줍니다. 장어구이를 건네받은 단일 대상은 야맹증 효과가 해제되며 전체 체력의 0.7% + 70만의 마법 대미지를 입습니다.\r\
 *야맹증에 걸린 적이 장어를 먹어 야맹증이 풀릴때마다 미스티아는 착한아이 스택을 1 얻습니다.\r\
-*착한아이 스택이 21 모일때마다 미스티아의 장어구이집에 손님이 찾아옵니다. 랜덤한 일반 유닛을 획득합니다.";
+*착한아이 스택이 21 모일때마다 미스티아의 장어구이집에 손님이 찾아옵니다. 랜덤한 Normal 유닛을 획득합니다.";
 -- aub1 8
 -- aub1 9
 -- aub1 10
@@ -1288,7 +1288,7 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["Aflk"][5][1] = "[유닛 카운트]";
 -- aub1 1
-		t["Aflk"][6][1] = "생성가능한 일반 유닛의 제한을 표시하는 카운트 입니다.";
+		t["Aflk"][6][1] = "생성가능한 Normal 유닛의 제한을 표시하는 카운트 입니다.";
 -- aub1 2
 -- aub1 3
 -- aub1 4
@@ -1397,7 +1397,7 @@ TPT_abilities_loader = function(t)
 -- [ACcv]
 -- arac
 -- atp1 1
-		t["ACcv"][2][1] = "[레전더리]리니어건 더미";
+		t["ACcv"][2][1] = "[Legendary]리니어건 더미";
 -- anam
 -- asat
 -- amat
@@ -1450,7 +1450,7 @@ TPT_abilities_loader = function(t)
 *위 효과 발동시 대상 주변 400범위에 145만x(0.8~2)의 |c00FF6464물리 데미지|r를 입힙니다. ";
 -- [AHwe]
 -- aub1 1
-		t["AHwe"][2][1] = "조합식 : 키신 사구메 + 클라운 피스 + 키진 세이자 + 목재 5";
+		t["AHwe"][2][1] = "Combination : 키신 사구메 + 클라운 피스 + 키진 세이자 + 목재 5";
 -- anam
 -- Hwe1 1
 -- aart
@@ -1535,15 +1535,15 @@ TPT_abilities_loader = function(t)
 		t["AIba"][3][1] = "BTN\\BTNHacatia.blp";
 -- arac
 -- atp1 1
-		t["AIba"][5][1] = "|c00FEE952[유닛 정보]|r - 헤카티아 라피스라줄리[에픽]";
+		t["AIba"][5][1] = "|c00FEE952[Unit Information]|r - 헤카티아 라피스라줄리[Epic]";
 -- atp1 2
 		t["AIba"][6][1] = "지구『지옥에 내리는 비』- |c0000FFFF익스텐드|r";
 -- aub1 1
-		t["AIba"][7][1] = "|c00A8F13A[조합식]|r: 나가에 이쿠[유니크] + Sㅏ나에[유니크] + 카미시라사와 케이네[유니크]\r\
+		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + Sㅏ나에[Unique] + 카미시라사와 케이네[Unique]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- anam
@@ -1571,15 +1571,15 @@ TPT_abilities_loader = function(t)
 -- [Amgl]
 -- arac
 -- atp1 1
-		t["Amgl"][3][1] = "|c00FEE952[유닛 정보]|r - 호시구마 유기[판타즘]";
+		t["Amgl"][3][1] = "|c00FEE952[Unit Information]|r - 호시구마 유기[Phantasm]";
 -- anam
 -- aub1 1
-		t["Amgl"][5][1] = "|c00A8F13A[조합식]|r: 비상천칙[에픽] + 헤카티아 라피스라줄리[에픽] + 호시구마 유기[유니크] + 고대와 환상의 조각\r\
+		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + 헤카티아 라피스라줄리[Epic] + 호시구마 유기[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 군자불어괴력난신(yuugi phan)\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- aart
 		t["Amgl"][6][1] = "Icon\\Unit\\BTNYuugi_Phan.blp";
 -- [ACbh]
@@ -1636,9 +1636,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["AEst"][3][1] = "『벤토라 집결』- |c00C770F5[W]|r";
+		t["AEst"][3][1] = "『UFO 집결』- |c00C770F5[W]|r";
 -- aub1 1
-		t["AEst"][4][1] = "*1000골드를 소모하여 벤토라를 생성합니다.\r\
+		t["AEst"][4][1] = "*1000골드를 소모하여 UFO를 생성합니다.\r\
 *쿨다운 180초";
 -- aart
 		t["AEst"][6][1] = "Icon\\Unit\\BTNBentoraRainbow_Rare.blp";
@@ -2046,7 +2046,7 @@ TPT_abilities_loader = function(t)
 -- atp1 100
 		t["ANfd"][207][1] = "마계의 신|cffffcc00(R)|r - 현재 마력 100";
 -- aub1 2
-		t["ANfd"][208][1] = "이 스킬을 사용해 악마나 소악마를 흡수할 수 있습니다. 악마 하나당 5, 소악마 하나당 10의 마력을 흡수합니다.\r\
+		t["ANfd"][208][1] = "이 스킬을 사용해 Devil나 Small Devil를 흡수할 수 있습니다. Devil 하나당 5, Small Devil 하나당 10의 마력을 흡수합니다.\r\
 흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 신키의 모든 스킬은 흡수한 마력에 비례해 강해집니다. 신키는 자신이 가진 마력 1당 10000의 추가 물리 데미지를 얻습니다.\r\
 기본적으로 공격속도가 매우 빠릅니다.";
 -- aub1 3
@@ -2152,7 +2152,7 @@ TPT_abilities_loader = function(t)
 -- [Amgr]
 -- arac
 -- aub1 1
-		t["Amgr"][2][1] = "|c00A8F13A[조합식]|r: 도레미 스위트[에픽] + 나마즈[에픽] + 정체불명[유니크] + 고대와 환상의 조각\r\
+		t["Amgr"][2][1] = "|c00A8F13A[Combination]|r: 도레미 스위트[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 350\r\
@@ -2160,11 +2160,11 @@ TPT_abilities_loader = function(t)
 -- aub1 2
 		t["Amgr"][3][1] = "세이자가 공격할 때 14% 확률로 적의 현재 체력과 남은 체력을 뒤바꿉니다. 하지만 뭔가 어설퍼 완벽하게 바꾸지는 못합니다. 적의 체력이 70% 이상일때 발동하며, 적의 체력을 70%로 만듭니다. 50% 이하일시에는 적 현재 체력의 7%의 데미지를 줍니다.보스에게는 적용되지 않습니다.";
 -- anam
-		t["Amgr"][4][1] = "[히스토릭_유닛 정보]";
+		t["Amgr"][4][1] = "[Historic_Unit Information]";
 -- atp1 2
 		t["Amgr"][5][1] = "역전『리버스 하이어라키』- |c0000FFFF익스텐드|r";
 -- atp1 1
-		t["Amgr"][6][1] = "|c00FEE952[유닛 정보]|r - 아사쿠라 리카코[히스토릭]";
+		t["Amgr"][6][1] = "|c00FEE952[Unit Information]|r - 아사쿠라 리카코[Historic]";
 -- aart
 		t["Amgr"][7][1] = "ReplaceableTextures\\CommandButtons\\Rikako\\BTN_UP.blp";
 -- [ANab]
@@ -2184,9 +2184,9 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANdh"][2][1] = "|c00ffff00『오니 대작』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["ANdh"][3][1] = "*호시구마 유기와 대작합니다. 결국 둘다 오니라서 같이 뻗을때까지 마십니다. 호시구마 유기[유니크]에게 사용시 사천왕오의『삼보괴폐』를 획득합니다.\r\
+		t["ANdh"][3][1] = "*호시구마 유기와 대작합니다. 결국 둘다 오니라서 같이 뻗을때까지 마십니다. 호시구마 유기[Unique]에게 사용시 사천왕오의『삼보괴폐』를 획득합니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 호시구마 유기[유니크]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 호시구마 유기[Unique]는 사라집니다.|r";
 -- anam
 		t["ANdh"][4][1] = "[시련]";
 -- abuf 1
@@ -2329,7 +2329,7 @@ TPT_abilities_loader = function(t)
 -- abuf 9
 -- abuf 10
 -- atp1 2
-		t["ANbr"][27][1] = "『요우무 레전더리 단령검』";
+		t["ANbr"][27][1] = "『요우무 Legendary 단령검』";
 -- atp1 3
 		t["ANbr"][28][1] = "『히나 방어력 감소-페인 플로우』";
 -- atp1 4
@@ -2369,9 +2369,9 @@ TPT_abilities_loader = function(t)
 -- [AOwk]
 -- arac
 -- atp1 1
-		t["AOwk"][2][1] = "『레어 유닛 팔기』";
+		t["AOwk"][2][1] = "『Rare 유닛 팔기』";
 -- aub1 1
-		t["AOwk"][3][1] = "*레어 유닛을 판매합니다. 1기의 셀렉터를 지급받습니다. 2초의 시전 시간을 가집니다.\r\
+		t["AOwk"][3][1] = "*Rare 유닛을 판매합니다. 1기의 셀렉터를 지급받습니다. 2초의 시전 시간을 가집니다.\r\
 \r\
 *50% 확률로 나무를 1 추가로 획득합니다.";
 -- anam
@@ -2388,15 +2388,15 @@ TPT_abilities_loader = function(t)
 -- aub1 3
 		t["AOwk"][10][1] = "*특수 유닛을 판매하여 금 1000과 목재 2를 획득합니다.";
 -- atp1 5
-		t["AOwk"][11][1] = "『유니크 유닛 판매』";
+		t["AOwk"][11][1] = "『Unique 유닛 판매』";
 -- aub1 5
-		t["AOwk"][12][1] = "*유니크 유닛을 판매합니다. 2기의 셀렉터를 획득합니다.\r\
+		t["AOwk"][12][1] = "*Unique 유닛을 판매합니다. 2기의 셀렉터를 획득합니다.\r\
 \r\
 *50% 확률로 나무를 1 추가로 획득합니다.";
 -- atp1 6
-		t["AOwk"][13][1] = "『에픽 유닛 판매』";
+		t["AOwk"][13][1] = "『Epic 유닛 판매』";
 -- aub1 6
-		t["AOwk"][14][1] = "*에픽 유닛을 판매합니다. 랜덤한 유니크 유닛 1기와 셀렉터 2기를 지급받습니다.";
+		t["AOwk"][14][1] = "*Epic 유닛을 판매합니다. 랜덤한 Unique 유닛 1기와 셀렉터 2기를 지급받습니다.";
 -- [AId1]
 -- anam
 -- [AId2]
@@ -2418,14 +2418,14 @@ TPT_abilities_loader = function(t)
 -- anam
 -- atar 1
 -- atp1 1
-		t["ACpu"][6][1] = "|c00FEE952[유닛 정보]|r - 하쿠레이 선대무녀[판타즘]";
+		t["ACpu"][6][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 선대무녀[Phantasm]";
 -- aub1 1
-		t["ACpu"][7][1] = "|c00A8F13A[조합식]|r: 메디슨 멜랑콜리[에픽] + 샤메이마루 아야[에픽] + 하쿠레이 레이무[유니크] + 고대와  환상의 조각\r\
+		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + 샤메이마루 아야[Epic] + 하쿠레이 레이무[Unique] + 고대와  환상의 조각\r\
 |c00A8F13A[타이핑]|r: 환상향의 유산(sendai phan)\r\
 \r\
 [공격속도]: 0.56초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- aart
 		t["ACpu"][9][1] = "BTN\\BTNsendai.blp";
 -- [AOws]
@@ -2445,7 +2445,7 @@ TPT_abilities_loader = function(t)
 		t["ACc2"][9][1] = "Abilities\\Weapons\\GreenDragonMissile\\GreenDragonMissile.mdl";
 -- [Awrs]
 -- atp1 1
-		t["Awrs"][1][1] = "|c0080A8E6루미아 어센디드|r";
+		t["Awrs"][1][1] = "|c0080A8E6루미아 Ascended|r";
 -- aub1 1
 		t["Awrs"][2][1] = "루미아 EX + 무라사 + 후토";
 -- anam
@@ -2487,7 +2487,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- [ANsb]
 -- anam
-		t["ANsb"][5][1] = "[조합식 기절]";
+		t["ANsb"][5][1] = "[Combination 기절]";
 -- abuf 1
 		t["ANsb"][8][1] = "Bshs";
 -- atar 1
@@ -2512,21 +2512,21 @@ TPT_abilities_loader = function(t)
 *무라사가 공격시 15% 확률로 대상 적에게 85만의 추가 |c00379BFF마법 데미지|r를 입히고, 2초간 스턴시킵니다.";
 -- [ANta]
 -- aub1 1
-		t["ANta"][1][1] = "|c00A8F13A[조합식]|r: 무라사 미나미츠[에픽] + 성련선[유니크] + 신비술사의 고서\r\
+		t["ANta"][1][1] = "|c00A8F13A[Combination]|r: 무라사 미나미츠[Epic] + 성련선[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 해군대장 푸른물개(murasa arc)\r\
 \r\
 [공격속도]: 0.34초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드 , [기본]에픽 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드 , [기본]Epic 유닛 업그레이드";
 -- arac
 -- aart
 		t["ANta"][4][1] = "BTN\\BTNMurasa.blp";
 -- atar 1
 		t["ANta"][5][1] = "bridge";
 -- anam
-		t["ANta"][6][1] = "[아르카나_유닛 정보]";
+		t["ANta"][6][1] = "[Arcana_Unit Information]";
 -- atp1 1
-		t["ANta"][7][1] = "|c00FEE952[유닛 정보]|r - 무라사 미나미츠[아르카나]";
+		t["ANta"][7][1] = "|c00FEE952[Unit Information]|r - 무라사 미나미츠[Arcana]";
 -- [Arsk]
 -- anam
 		t["Arsk"][3][1] = "[마법 면역]";
@@ -2559,14 +2559,14 @@ TPT_abilities_loader = function(t)
 -- atar 1
 		t["ACce"][1][1] = "neutral,ground";
 -- atp1 1
-		t["ACce"][2][1] = "|c00FEE952[유닛 정보]|r - 쿠로다니 야마메[아르카나]";
+		t["ACce"][2][1] = "|c00FEE952[Unit Information]|r - 쿠로다니 야마메[Arcana]";
 -- aub1 1
-		t["ACce"][3][1] = "|c00A8F13A[조합식]|r: 후타츠이와 마미조[에픽] + 호라이산 카구야[에픽] + 쿠로다니 야마메[레어] + 신비술사의 고서\r\
+		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 호라이산 카구야[Epic] + 쿠로다니 야마메[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 거미는 동물!(yamame arc)\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- anam
 -- aart
 		t["ACce"][7][1] = "BTN\\BTNYamame.blp";
@@ -2702,7 +2702,7 @@ TPT_abilities_loader = function(t)
 		t["AUfu"][6][1] = "『서리 갑옷』";
 -- aub1 1
 		t["AUfu"][7][1] = "*대상 유닛에게『서리 갑옷』을 생성시킵니다. 이 효과를 받은 아군이 입히는 데미지가 12% 상승합니다.\r\
-*레티 화이트락[판타즘]에게 시전시 데미지 증폭률이 12%에서 25%로 증가합니다.\r\
+*레티 화이트락[Phantasm]에게 시전시 데미지 증폭률이 12%에서 25%로 증가합니다.\r\
 |c00FFFF00*주의! 1회용 스킬입니다. 사용시 사라집니다.|r";
 -- auar
 		t["AUfu"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp";
@@ -2739,9 +2739,9 @@ TPT_abilities_loader = function(t)
 -- anam
 -- [AHbn]
 -- atp1 1
-		t["AHbn"][3][1] = "『유니크 소울 추출』|cffffcc00(D)|r ";
+		t["AHbn"][3][1] = "『Unique 소울 추출』|cffffcc00(D)|r ";
 -- aub1 1
-		t["AHbn"][4][1] = "*대상 유니크 유닛을 소울을 추출해냅니다. 1초의 시전 시간이 소요됩니다.\r\
+		t["AHbn"][4][1] = "*대상 Unique 유닛을 소울을 추출해냅니다. 1초의 시전 시간이 소요됩니다.\r\
 *쿨다운 3초";
 -- anam
 -- ahky
@@ -2752,7 +2752,7 @@ TPT_abilities_loader = function(t)
 		t["ACcr"][2][1] = "섭취|cffffcc00(R)|r";
 -- ahky
 -- aub1 1
-		t["ACcr"][4][1] = "*대상 유니크 소울을 섭취합니다. 맛있을지는 모르겠지만...";
+		t["ACcr"][4][1] = "*대상 Unique 소울을 섭취합니다. 맛있을지는 모르겠지만...";
 -- anam
 		t["ACcr"][5][1] = "[섭취]";
 -- [Aply]
@@ -2822,7 +2822,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACs7"][3][1] = "『불안정한 마계의 문』";
 -- aub1 1
-		t["ACs7"][4][1] = "*스킬 사용시 랜덤한 유니크 유닛 1기와 랜덤한 레어 유닛 1기를 창조합니다.\r\
+		t["ACs7"][4][1] = "*스킬 사용시 랜덤한 Unique 유닛 1기와 랜덤한 Rare 유닛 1기를 창조합니다.\r\
 *사용시 삭제됩니다.\r\
 *시전 시간 5초";
 -- ahky
@@ -2842,7 +2842,7 @@ TPT_abilities_loader = function(t)
 		t["ACs7"][17][1] = "『불안정한 마계의 문』- 잔여 횟수 1";
 -- aub1 2
 -- aub1 3
-		t["ACs7"][19][1] = "*스킬 사용시 70% 확률로 유니크 유닛을, 30% 확률로 레어 유닛을 창조합니다.\r\
+		t["ACs7"][19][1] = "*스킬 사용시 70% 확률로 Unique 유닛을, 30% 확률로 Rare 유닛을 창조합니다.\r\
 *최대 4번까지 사용가능합니다.[플레이어 당 최대 7번까지 사용할 수 있습니다.]\r\
 *쿨다운 200초/시전 시간 5초";
 -- aub1 4
@@ -2860,7 +2860,7 @@ TPT_abilities_loader = function(t)
 		t["ANca"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAdvancedUnholyStrength.blp";
 -- aspt
 -- aub1 1
-		t["ANca"][7][1] = "＊일반 공격이 적 주변 450 범위의 적에게 공격력의 40%만큼의 |c00AC59FF절대 피해|r를 가합니다.";
+		t["ANca"][7][1] = "＊Normal 공격이 적 주변 450 범위의 적에게 공격력의 40%만큼의 |c00AC59FF절대 피해|r를 가합니다.";
 -- atar 1
 -- areq
 		t["ANca"][9][1] = "h07L";
@@ -2954,17 +2954,17 @@ TPT_abilities_loader = function(t)
 -- anam
 -- atar 6
 -- atp1 1
-		t["AOcl"][15][1] = "캇파『건조 시리코다마』 - 1개";
+		t["AOcl"][15][1] = "Kappa『건조 시리코다마』 - 1개";
 -- atp1 2
-		t["AOcl"][16][1] = "캇파『건조 시리코다마』 - 2개";
+		t["AOcl"][16][1] = "Kappa『건조 시리코다마』 - 2개";
 -- atp1 3
-		t["AOcl"][17][1] = "캇파『건조 시리코다마』 - 3개";
+		t["AOcl"][17][1] = "Kappa『건조 시리코다마』 - 3개";
 -- atp1 4
-		t["AOcl"][18][1] = "캇파『건조 시리코다마』 - 4개";
+		t["AOcl"][18][1] = "Kappa『건조 시리코다마』 - 4개";
 -- atp1 5
-		t["AOcl"][19][1] = "캇파『건조 시리코다마』 - 5개";
+		t["AOcl"][19][1] = "Kappa『건조 시리코다마』 - 5개";
 -- atp1 6
-		t["AOcl"][20][1] = "캇파『건조 시리코다마』|cffffcc00(Q)|r - 6개";
+		t["AOcl"][20][1] = "Kappa『건조 시리코다마』|cffffcc00(Q)|r - 6개";
 -- aub1 2
 -- aub1 3
 -- aub1 4
@@ -2980,7 +2980,7 @@ TPT_abilities_loader = function(t)
 -- [AEsf]
 -- arac
 -- atp1 1
-		t["AEsf"][3][1] = "사나에 아르카나 조합";
+		t["AEsf"][3][1] = "사나에 Arcana 조합";
 -- aub1 1
 		t["AEsf"][4][1] = "소가노 토지코 카엔뵤우 린 이자요이 사쿠야 스톱워치 환상조각";
 -- anam
@@ -3013,7 +3013,7 @@ TPT_abilities_loader = function(t)
 -- arqa
 -- atar 2
 -- atp1 2
-		t["ACfd"][13][1] = "빙의교환『앱솔루트 루저』- |cffffcc00(D)|r[|c0080A8E6어센디드|r]";
+		t["ACfd"][13][1] = "빙의교환『앱솔루트 루저』- |cffffcc00(D)|r[|c0080A8E6Ascended|r]";
 -- [ANs2]
 -- Nsyu 1
 		t["ANs2"][1][1] = "h061";
@@ -3079,7 +3079,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACs9"][5][1] = "경계『구작결계』|cffffcc00(E)|r";
 -- aub1 1
-		t["ACs9"][6][1] = "*스킬 사용시 랜덤한 히스토릭 유닛을 소환합니다. 190초간 지속됩니다.\r\
+		t["ACs9"][6][1] = "*스킬 사용시 랜덤한 Historic 유닛을 소환합니다. 190초간 지속됩니다.\r\
 *쿨다운 260초\r\
 [40라운드 이전에는 1기, 40라운드 이후에는 2기를 생성합니다.]\r\
 [퓨어 퓨리스 이상에는 무조건 1기만 생성합니다.]";
@@ -3150,7 +3150,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AIcl"][7][1] = "『마음을 읽는 정도의 능력』|c00FF8040[Q]|r";
 -- aub1 1
-		t["AIcl"][8][1] = "*대상 크로니클/히스토릭 유닛의 마나 스킬을 읽어옵니다. 해당 마나 스킬을 더욱 능수능란하게 다룰 수 있게 되어, 마나 소모량이 15% 감소합니다.\r\
+		t["AIcl"][8][1] = "*대상 Chronicle/Historic 유닛의 마나 스킬을 읽어옵니다. 해당 마나 스킬을 더욱 능수능란하게 다룰 수 있게 되어, 마나 소모량이 15% 감소합니다.\r\
 [마나 스킬이 없는 유닛 제외]\r\
 [요리가미 시온 / 키진 세이자 제외]\r\
 *쿨다운 5초";
@@ -3226,8 +3226,8 @@ TPT_abilities_loader = function(t)
 		t["ACcl"][5][1] = "|c00ffff00『반역』|r|c00FF8040[D]|r";
 -- anam
 -- aub1 1
-		t["ACcl"][7][1] = "*유니크 소울에 흡수하여 반역할 힘을 얻습니다.『천양몽궁의 조칙』스킬을 얻습니다.\r\
-*대상이 된 유니크 소울은 제거됩니다.";
+		t["ACcl"][7][1] = "*Unique 소울에 흡수하여 반역할 힘을 얻습니다.『천양몽궁의 조칙』스킬을 얻습니다.\r\
+*대상이 된 Unique 소울은 제거됩니다.";
 -- atar 1
 -- ahky
 -- [ANs3]
@@ -3261,28 +3261,28 @@ TPT_abilities_loader = function(t)
 		t["ACim"][11][1] = "B06O,BEia";
 -- [ANd1]
 -- atp1 1
-		t["ANd1"][1][1] = "|c00FEE952[유닛 정보]|r - 파츄리 널릿지[판타즘]";
+		t["ANd1"][1][1] = "|c00FEE952[Unit Information]|r - 파츄리 널릿지[Phantasm]";
 -- aart
 		t["ANd1"][3][1] = "BTN\\BTNPatch.blp";
 -- anam
 -- aub1 1
-		t["ANd1"][5][1] = "|c00A8F13A[조합식]|r: 야쿠모 란[에픽] + 스쿠나 신묘마루[에픽] + 파츄리 널릿지[유니크] + 고대와 환상의 조각\r\
+		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + 스쿠나 신묘마루[Epic] + 파츄리 널릿지[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 락트 걸(patche phan)\r\
 \r\
 [공격속도]: 0.47초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- arac
 -- [ANdb]
 -- atp1 1
-		t["ANdb"][1][1] = "|c00FEE952[유닛 정보]|r - 카와시로 니토리[판타즘]";
+		t["ANdb"][1][1] = "|c00FEE952[Unit Information]|r - 카와시로 니토리[Phantasm]";
 -- aub1 1
-		t["ANdb"][2][1] = "|c00A8F13A[조합식]|r: 비상천칙[에픽] + 호쥬 누에[에픽] + 카와시로 니토리[매직] + 고대와 환상의 조각\r\
+		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + 호쥬 누에[Epic] + 카와시로 니토리[Magic] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 언더워터 카모플라쥬(nitori phan)\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- aart
 		t["ANdb"][3][1] = "Icon\\Unit\\BTNNitori_Phan.blp";
 -- anam
@@ -3291,16 +3291,16 @@ TPT_abilities_loader = function(t)
 		t["Acdb"][1][1] = "BTN\\BTNLetty.blp";
 -- anam
 -- atp1 1
-		t["Acdb"][3][1] = "|c00FEE952[유닛 정보]|r - 레티 화이트락[판타즘]";
+		t["Acdb"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Phantasm]";
 -- aub1 1
-		t["Acdb"][4][1] = "|c00A8F13A[조합식]|r: 레티 화이트락[에픽] + 모노노베노 후토[에픽] + 야타데라 나루미[유니크] + 고대와 환상의 조각\r\
+		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Epic] + 모노노베노 후토[Epic] + 야타데라 나루미[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 윈터버스터(letty phan)\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 380\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드\r\
 |c0097FF2F[조합 시너지]|r윈터러\r\
--치르노[레전더리]를 보유했을 때, 레티가 동부『노던 위너』를 발동하면 자신의 활력 쿨다운을 5초 감소시킵니다.";
+-치르노[Legendary]를 보유했을 때, 레티가 동부『노던 위너』를 발동하면 자신의 활력 쿨다운을 5초 감소시킵니다.";
 -- [ANd3]
 -- arac
 -- aart
@@ -3333,7 +3333,7 @@ TPT_abilities_loader = function(t)
 -- arac
 		t["A01P"][7][1] = "creeps";
 -- aub1 1
-		t["A01P"][8][1] = "호라이산 카구야[에픽] + 리글 나이트버그[에픽] + 히에다노 아큐[에픽] + 유니크 소울 2개";
+		t["A01P"][8][1] = "호라이산 카구야[Epic] + 리글 나이트버그[Epic] + 히에다노 아큐[Epic] + Unique 소울 2개";
 -- ahky
 -- alig
 		t["A01P"][10][1] = "1,1,1,2,1";
@@ -3349,7 +3349,7 @@ TPT_abilities_loader = function(t)
 		t["A001"][6][1] = "|c00ffff00루미아|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A001"][8][1] = "자코 + 도깨비";
+		t["A001"][8][1] = "Zako + 도깨비";
 -- ahky
 -- alig
 		t["A001"][10][1] = "1,1";
@@ -3363,7 +3363,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A003"][5][1] = "|c00ffff00카와시로 니토리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A003"][6][1] = "캇파 + 인간";
+		t["A003"][6][1] = "Kappa + Human";
 -- ahky
 -- acat
 		t["A003"][8][1] = "h003,h00A";
@@ -3395,7 +3395,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A006"][5][1] = "|c00ffff00루나 차일드|r 조합|c00FF8040[W]|r";
 -- aub1 1
-		t["A006"][6][1] = "리글 나이트버그 + 대요정";
+		t["A006"][6][1] = "리글 나이트버그 + 대Fairy";
 -- ahky
 -- acat
 		t["A006"][8][1] = "h00H,h00E";
@@ -3411,7 +3411,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00B"][5][1] = "|c00ffff00앨리스 마가트로이트|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00B"][6][1] = "인간 + 루미아 + 소신령";
+		t["A00B"][6][1] = "Human + 루미아 + 소신령";
 -- ahky
 -- acat
 		t["A00B"][8][1] = "h00A,h043,h000";
@@ -3426,7 +3426,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00E"][5][1] = "|c00ffff00파츄리 널릿지|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00E"][6][1] = "소악마 + 벤토라 + 요정";
+		t["A00E"][6][1] = "Small Devil + UFO + Fairy";
 -- ahky
 -- acat
 		t["A00E"][8][1] = "h00D,h009,h002";
@@ -3442,7 +3442,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00G"][6][1] = "파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[유니크] + 이자요이 사쿠야[특제 스톱워치] ";
+		t["A00G"][6][1] = "파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + 이자요이 사쿠야[특제 스톱워치] ";
 -- ahky
 -- acat
 		t["A00G"][8][1] = "h019,h03N,h03O";
@@ -3458,7 +3458,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00I"][5][1] = "|c00ffff00오린|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00I"][6][1] = "도깨비 + 키스메 + 소악마";
+		t["A00I"][6][1] = "도깨비 + 키스메 + Small Devil";
 -- ahky
 -- acat
 		t["A00I"][8][1] = "h006,h00K,h00D";
@@ -3474,7 +3474,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00K"][5][1] = "|c00ffff00나즈린|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00K"][6][1] = "벤토라 레인보우 + 하쿠레이 레이무 + 써니 밀크";
+		t["A00K"][6][1] = "UFO 레인보우 + 하쿠레이 레이무 + 써니 밀크";
 -- ahky
 -- acat
 		t["A00K"][8][1] = "h015,h00O,h00J";
@@ -3490,7 +3490,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00O"][5][1] = "|c00ffff00이나바 테위|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00O"][6][1] = "자코 + 리글 나이트버그 + 와카사기히메";
+		t["A00O"][6][1] = "Zako + 리글 나이트버그 + 와카사기히메";
 -- ahky
 -- acat
 		t["A00O"][8][1] = "h007,h00H,hpea";
@@ -3540,7 +3540,7 @@ TPT_abilities_loader = function(t)
 		t["A008"][6][1] = "|c00ffff00소신령|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A008"][8][1] = "혼령 + 악마";
+		t["A008"][8][1] = "Spirit + Devil";
 -- ahky
 -- alig
 -- atat
@@ -3556,7 +3556,7 @@ TPT_abilities_loader = function(t)
 		t["A00D"][6][1] = "|c00ffff00콘파쿠 요우무|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A00D"][8][1] = "리글 나이트버그 + 와카사기히메 + 악마";
+		t["A00D"][8][1] = "리글 나이트버그 + 와카사기히메 + Devil";
 -- ahky
 -- alig
 -- atat
@@ -3617,7 +3617,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A013"][5][1] = "|c00ffff00플랑드르 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A013"][6][1] = "레밀리아 스칼렛[에픽] + 후지와라노 모코우[에픽] + 유령악단[팬텀 앙상블] + 유니크 소울 2개 ";
+		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[팬텀 앙상블] + Unique 소울 2개 ";
 -- ahky
 -- acat
 		t["A013"][8][1] = "h00Y,h02R,h03B,h05U,ehip";
@@ -3633,7 +3633,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A015"][5][1] = "|c00ffff00Sㅏ나에|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A015"][6][1] = "코치야 사나에 + 아키 미노리코 + 타타라 코가사 + 벤토라 그린\r\
+		t["A015"][6][1] = "코치야 사나에 + 아키 미노리코 + 타타라 코가사 + UFO 그린\r\
 ";
 -- ahky
 -- acat
@@ -3650,7 +3650,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A018"][5][1] = "|c00ffff00코메이지 사토리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A018"][6][1] = "코메이지 코이시[에픽] + 시키에이키 야마자나두[에픽] + 레이우지 우츠호 [제어불능] + 유니크 소울 2개";
+		t["A018"][6][1] = "코메이지 코이시[Epic] + 시키에이키 야마자나두[Epic] + 레이우지 우츠호 [제어불능] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A018"][8][1] = "h01N,h01W,h01S,h05U,ehip";
@@ -3682,7 +3682,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01B"][5][1] = "|c00ffff00성련선|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01B"][6][1] = "타타라 코가사 + 코치야 사나에 + 릴리 화이트 + 벤토라 레드\r\
+		t["A01B"][6][1] = "타타라 코가사 + 코치야 사나에 + 릴리 화이트 + UFO 레드\r\
 ";
 -- ahky
 -- acat
@@ -3699,7 +3699,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01C"][5][1] = "|c00ffff00치르노[마이너스 K]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01C"][6][1] = "치르노[레어] + 오쿠[레어] + 홍 메이린[레어]";
+		t["A01C"][6][1] = "치르노[Rare] + 오쿠[Rare] + 홍 메이린[Rare]";
 -- ahky
 -- acat
 		t["A01C"][8][1] = "h00I,h00N,h00R";
@@ -3732,7 +3732,7 @@ TPT_abilities_loader = function(t)
 		t["A012"][5][1] = "|c00ffff00모리야 스와코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A012"][7][1] = "야사카 카나코[에픽] + 샤메이마루 아야[에픽] + 레이우지 우츠호[핵반응 제어불능] + 유니크 소울 2개";
+		t["A012"][7][1] = "야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[핵반응 제어불능] + Unique 소울 2개";
 -- ahky
 -- alig
 -- atat
@@ -3747,7 +3747,7 @@ TPT_abilities_loader = function(t)
 		t["A016"][6][1] = "|c00ffff00카엔뵤 린|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A016"][8][1] = "오린 + 쿠로다니 야마메 + 하쿠레이 레이무[레어]";
+		t["A016"][8][1] = "오린 + 쿠로다니 야마메 + 하쿠레이 레이무[Rare]";
 -- ahky
 -- alig
 -- atat
@@ -3763,7 +3763,7 @@ TPT_abilities_loader = function(t)
 		t["A019"][6][1] = "|c00ffff00정체불명|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A019"][8][1] = "벤토라 레인보우 + 벤토라 레인보우 + 카와시로 니토리";
+		t["A019"][8][1] = "UFO 레인보우 + UFO 레인보우 + 카와시로 니토리";
 -- ahky
 -- alig
 		t["A019"][10][1] = "2,1";
@@ -3780,7 +3780,7 @@ TPT_abilities_loader = function(t)
 		t["A00V"][5][1] = "|c00ffff00오쿠|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A00V"][7][1] = "키스메 + 루미아 + 요정";
+		t["A00V"][7][1] = "키스메 + 루미아 + Fairy";
 -- ahky
 -- alig
 -- atat
@@ -3842,7 +3842,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01H"][5][1] = "|c00ffff00카자미 유카|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01H"][6][1] = "시키에이키 야마자나두[에픽] + 메디슨 멜랑콜리[에픽] + 레티 화이트락[노던 위너] + 유니크 소울 2개";
+		t["A01H"][6][1] = "시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[노던 위너] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A01H"][8][1] = "h01W,h039,h03V,h05U,ehip";
@@ -3938,7 +3938,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01Q"][5][1] = "|c00ffff00야쿠모 유카리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01Q"][6][1] = "야쿠모 란[에픽] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 유니크 소울 2개";
+		t["A01Q"][6][1] = "야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A01Q"][8][1] = "h01T,h03V,h03Z,h05U,ehip";
@@ -3954,7 +3954,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01R"][5][1] = "|c00ffff00히지리 뱌쿠렌|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01R"][6][1] = "토라마루 쇼우[에픽] + 테이레이다 마이[에픽] + 무라사 미나미츠[에픽] + 유니크 소울 2개";
+		t["A01R"][6][1] = "토라마루 쇼우[Epic] + 테이레이다 마이[Epic] + 무라사 미나미츠[Epic] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A01R"][8][1] = "h021,nhym,h03A,h05U,ehip";
@@ -3968,7 +3968,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A01W"][3][1] = "＊공격 시 25% 확률로 대상을 물어뜯어 0.5초 동안 0.05초마다 250의 |c00379BFF마법 피해|r를 가하고 이동속도를 45% 감소시킨다.";
 -- anam
-		t["A01W"][4][1] = "[레어]모미지_R";
+		t["A01W"][4][1] = "[Rare]모미지_R";
 -- aart
 -- [A01X]
 -- arac
@@ -3988,7 +3988,7 @@ TPT_abilities_loader = function(t)
 |c00ff2222제한|r : 이 효과로 적을 죽일 수 없다.";
 -- arac
 -- anam
-		t["A01Y"][6][1] = "[레어]야마메_R";
+		t["A01Y"][6][1] = "[Rare]야마메_R";
 -- atp1 2
 		t["A01Y"][7][1] = "독부『카마키 코마치』Extra";
 -- aub1 2
@@ -3996,7 +3996,7 @@ TPT_abilities_loader = function(t)
 -- [A01Z]
 -- arac
 -- atp1 1
-		t["A01Z"][2][1] = "『플럭 피젼』- |c0080A8E6어센디드|r";
+		t["A01Z"][2][1] = "『플럭 피젼』- |c0080A8E6Ascended|r";
 -- aub1 1
 		t["A01Z"][3][1] = "*시온이 공격시 10% 확률로 자신이 받는 돈을 빈곤운으로 바꾸어 적에게 데미지를 입힙니다. \r\
 *스킬 발동시 금을 0.1% 소모하며, 적 전체 체력의 0.5% + 100만의 |c00FF6464물리 데미지|r를 대상 주변 450범위에 입힙니다.\r\
@@ -4013,9 +4013,9 @@ TPT_abilities_loader = function(t)
 		t["A020"][5][1] = "|c00ffff00『사랑의 실재』|r|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
-		t["A020"][7][1] = "*지루한 나날에 싫증을 느끼던 텐시는 하지 말아야 할 일까지 손을 대고 말았습니다. 나가에 이쿠[유니크]에게 사용시 퀘스트가 완료되며, 요석『천지개벽 프레스』스킬을 획득합니다.\r\
+		t["A020"][7][1] = "*지루한 나날에 싫증을 느끼던 텐시는 하지 말아야 할 일까지 손을 대고 말았습니다. 나가에 이쿠[Unique]에게 사용시 퀘스트가 완료되며, 요석『천지개벽 프레스』스킬을 획득합니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 나가에 이쿠[유니크]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 나가에 이쿠[Unique]는 사라집니다.|r";
 -- aart
 		t["A020"][8][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNRegenerationAura.blp";
 -- [A022]
@@ -4025,7 +4025,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A022"][3][1] = "＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 2천의 |c00379BFF마법 피해|r를 가하고 0.1초간 이동속도를 45% 감소시킨다.";
 -- anam
-		t["A022"][4][1] = "[레어]치르노_R";
+		t["A022"][4][1] = "[Rare]치르노_R";
 -- aart
 		t["A022"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGlacier.blp";
 -- [A023]
@@ -4041,9 +4041,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A024"][6][1] = "ReplaceableTextures\\CommandButtons\\Kana\\BTN_UP.blp";
 -- atp1 1
-		t["A024"][8][1] = "|c00FEE952[유닛 정보]|r - 카나 아나베랄[히스토릭]";
+		t["A024"][8][1] = "|c00FEE952[Unit Information]|r - 카나 아나베랄[Historic]";
 -- aub1 1
-		t["A024"][9][1] = "|c00A8F13A[조합식]|r: 카기야마 히나[에픽] + 호우쥬 누에[에픽] + 카쿠 세이가[유니크] + 고대와 환상의 조각\r\
+		t["A024"][9][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
@@ -4064,12 +4064,12 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A028"][3][1] = "＊공격 시 15% 확률로 대상 주변 500 범위의 적에게 3천의 |c00FF6464물리 피해|r를 가한다.";
 -- anam
-		t["A028"][4][1] = "[레어]앨리스_R";
+		t["A028"][4][1] = "[Rare]앨리스_R";
 -- aart
 		t["A028"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNSelfDestructOn.blp";
 -- [A02A]
 -- anam
-		t["A02A"][1][1] = "[레어]사나에_R";
+		t["A02A"][1][1] = "[Rare]사나에_R";
 -- atp1 1
 		t["A02A"][2][1] = "제비『어지러운 제비 연속뽑기』";
 -- aub1 1
@@ -4084,14 +4084,14 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A029"][3][1] = "＊공격 시 10% 확률로 전방 800 범위의 적에게 1천2백의 |c00379BFF마법 피해|r를 가한다.";
 -- anam
-		t["A029"][4][1] = "[레어]요우무_R";
+		t["A029"][4][1] = "[Rare]요우무_R";
 -- aart
 		t["A029"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNShade.blp";
 -- [A02C]
 -- aub1 1
 		t["A02C"][1][1] = "＊공격 시 20% 확률로 파이어볼을 발사해 대상 주변 450 범위의 적에게 2천의 |c00379BFF마법 피해|r를 가한다.";
 -- anam
-		t["A02C"][3][1] = "[레어]파츄리_R";
+		t["A02C"][3][1] = "[Rare]파츄리_R";
 -- atp1 1
 -- atar 1
 -- arac
@@ -4104,7 +4104,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A02F"][3][1] = "＊공격 시 12.5% 확률로 주먹을 내질러 대상 주변 450 범위의 적에게 2천의 |c00FF6464물리 피해|r를 가하고 0.3초간 기절시킨다.";
 -- anam
-		t["A02F"][4][1] = "[레어]메이링_R";
+		t["A02F"][4][1] = "[Rare]메이링_R";
 -- aart
 		t["A02F"][5][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNSmash.blp";
 -- [A02H]
@@ -4116,7 +4116,7 @@ TPT_abilities_loader = function(t)
 [데미지 비율은 피해를 받는 개체마다가 아닌 발동 당시를 기준으로 랜덤하게 정해집니다.]\r\
 *코이시의 활력 수치가 적을수록 최대 2배까지 데미지가 증폭됩니다.";
 -- anam
-		t["A02H"][4][1] = "[코이시][어센디드]";
+		t["A02H"][4][1] = "[코이시][Ascended]";
 -- aart
 -- [A02L]
 -- anam
@@ -4134,7 +4134,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A02N"][3][1] = "＊공격 시 15% 확률로 좀비 페어리에게 공격 명령을 내려 대상 주변 500 범위의 적에게 3천의 |c00FF6464물리 피해|r를 가한다.";
 -- anam
-		t["A02N"][4][1] = "[레어]오린_R";
+		t["A02N"][4][1] = "[Rare]오린_R";
 -- aart
 		t["A02N"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNDeathCoil.blp";
 -- [A02O]
@@ -4160,7 +4160,7 @@ TPT_abilities_loader = function(t)
 [보스에게는 125만의 |c00379BFF마법 데미지|r를 입힙니다.]\r\
 *자신의 로스트 쿨다운이 15초에서 10초로 감소합니다.";
 -- anam
-		t["A02Q"][4][1] = "[판타즘][케이네]허사『환상향전설』";
+		t["A02Q"][4][1] = "[Phantasm][케이네]허사『환상향전설』";
 -- aart
 		t["A02Q"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNWandOfManaSteal.blp";
 -- [A02R]
@@ -4175,14 +4175,14 @@ TPT_abilities_loader = function(t)
 -- [A02T]
 -- arac
 -- atp1 1
-		t["A02T"][2][1] = "|c00FEE952[유닛 정보]|r - 호라이산 카구야[판타즘]";
+		t["A02T"][2][1] = "|c00FEE952[Unit Information]|r - 호라이산 카구야[Phantasm]";
 -- aub1 1
-		t["A02T"][3][1] = "|c00A8F13A[조합식]|r: 호라이산 카구야[에픽] + 야사카 카나코[에픽] + 달의 조각 + 고대와 환상의 조각\r\
+		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + 야사카 카나코[Epic] + 달의 조각 + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 라스트 엑자일(kaguya phan)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- anam
 -- aart
 		t["A02T"][5][1] = "BTN\\BTNKaguya.blp";
@@ -4193,7 +4193,7 @@ TPT_abilities_loader = function(t)
 		t["A02V"][3][1] = "토부『이나바의 흰 토끼』";
 -- aub1 1
 		t["A02V"][4][1] = "＊자신 주변 500 범위의 적 방어력을 5 감소시킨다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 방어력 감소와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.";
 -- aart
 		t["A02V"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNSpellBreakerMagicDefend.blp";
 -- abuf 1
@@ -4207,7 +4207,7 @@ TPT_abilities_loader = function(t)
 		t["A02V"][11][1] = "*변신 너구리에 깜짝 놀란 주변 650범위 내의 적의 방어력을 35만큼 감소시킵니다.";
 -- [A02W]
 -- anam
-		t["A02W"][1][1] = "[레전더리][치르노]";
+		t["A02W"][1][1] = "[Legendary][치르노]";
 -- aart
 -- arac
 -- atar 1
@@ -4216,21 +4216,21 @@ TPT_abilities_loader = function(t)
 -- [A02X]
 -- arac
 -- aub1 1
-		t["A02X"][2][1] = "＊벤토라 주변 1000 범위의 적 이동속도를 6% 감소시킵니다.";
+		t["A02X"][2][1] = "＊UFO 주변 1000 범위의 적 이동속도를 6% 감소시킵니다.";
 -- atar 1
 -- atat
 		t["A02X"][4][1] = "Abilities\\Spells\\Undead\\UnholyAura\\UnholyAura.mdl";
 -- atp1 1
 		t["A02X"][5][1] = "정체불명『애수의 블루 UFO 습격』";
 -- anam
-		t["A02X"][6][1] = "[매직]";
+		t["A02X"][6][1] = "[Magic]";
 -- aart
 		t["A02X"][7][1] = "Icon\\Unit\\BTNBentoraBlue_Rare.blp";
 -- abuf 1
 		t["A02X"][8][1] = "B006";
 -- [A02Z]
 -- anam
-		t["A02Z"][1][1] = "[레어]벤토라";
+		t["A02Z"][1][1] = "[Rare]UFO";
 -- atp1 1
 		t["A02Z"][2][1] = "정체불명『공포의 레인보우 UFO내습』";
 -- aub1 1
@@ -4240,7 +4240,7 @@ TPT_abilities_loader = function(t)
 -- [A030]
 -- arac
 -- aub1 1
-		t["A030"][2][1] = "벤토라 레인보우 주변 2000범위 내의 적의 이동속도를 7% 감소시킵니다.";
+		t["A030"][2][1] = "UFO 레인보우 주변 2000범위 내의 적의 이동속도를 7% 감소시킵니다.";
 -- atar 1
 -- atat
 -- atp1 1
@@ -4269,20 +4269,20 @@ TPT_abilities_loader = function(t)
 		t["A031"][7][1] = "Icon\\Unit\\BTNBentoraRed_Rare.blp";
 -- [A033]
 -- atp1 1
-		t["A033"][1][1] = "|c00FEE952[유닛 정보]|r - 키진 세이자[크로니클]";
+		t["A033"][1][1] = "|c00FEE952[Unit Information]|r - 키진 세이자[Chronicle]";
 -- aub1 1
-		t["A033"][2][1] = "|c00A8F13A[조합식]|r: 키진 세이자[에픽] + 토라마루 쇼우[에픽] + 리글 나이트버그[에픽] + 유니크 소울 2개\r\
+		t["A033"][2][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 토라마루 쇼우[Epic] + 리글 나이트버그[Epic] + Unique 소울 2개\r\
 \r\
-|c00FAB145[특수 조합식]|r\r\
-*다른 크로니클을 조합했어도 조합할 수 있습니다.\r\
+|c00FAB145[특수 Combination]|r\r\
+*다른 Chronicle을 조합했어도 조합할 수 있습니다.\r\
 *타이핑 : 역습의 아마노자쿠[kijin chro]\r\
-키진 세이자[익스텐드] + 스쿠나 신묘마루[에픽] + 니시다 사토노[에픽] + 테이레이다 마이[에픽]\r\
+키진 세이자[익스텐드] + 스쿠나 신묘마루[Epic] + 니시다 사토노[Epic] + 테이레이다 마이[Epic]\r\
 \r\
 [공격속도]: 0.37초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
 |c00F8BA54[업그레이드]|r : 키진 세이자 업그레이드";
 -- anam
-		t["A033"][3][1] = "[크로니클_유닛 정보]";
+		t["A033"][3][1] = "[Chronicle_Unit Information]";
 -- aart
 		t["A033"][4][1] = "ReplaceableTextures\\CommandButtons\\Kijin\\BTN_UP.blp";
 -- arac
@@ -4295,14 +4295,14 @@ TPT_abilities_loader = function(t)
 [보스에게는 40만의 |c00379BFF마법 데미지|r]\r\
 *위 효과가 발동했을때,『노던 위너』의 활력 쿨다운을 0.3초 감소시킵니다.";
 -- anam
-		t["A034"][4][1] = "[판타즘][레티]";
+		t["A034"][4][1] = "[Phantasm][레티]";
 -- aart
 		t["A034"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNDarkRitual.blp";
 -- [A035]
 -- anam
 -- atar 1
 -- atp1 1
-		t["A035"][4][1] = "|c00ffff00스타 사파이어[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A035"][4][1] = "|c00ffff00스타 사파이어[Legendary]|r 조합|c00FF8040[F]|r";
 -- atp1 2
 		t["A035"][5][1] = "우의『깃옷은 하늘과 같이』- 진화버튼 |c00EEA011W|r";
 -- atp1 3
@@ -4310,7 +4310,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A035"][8][1] = "Icon\\Unit\\BTNStar_Leg.blp";
 -- aub1 1
-		t["A035"][9][1] = "리글 나이트버그[에픽]  + 스타 사파이어[레어] + 써니 밀크[레어] + 루나 차일드[레어] + 유니크 소울 1개 ";
+		t["A035"][9][1] = "리글 나이트버그[Epic]  + 스타 사파이어[Rare] + 써니 밀크[Rare] + 루나 차일드[Rare] + Unique 소울 1개 ";
 -- aub1 3
 		t["A035"][10][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65만의 마법 데미지를 입힙니다.\r\
 \r\
@@ -4933,7 +4933,7 @@ TPT_abilities_loader = function(t)
 		t["A03D"][1][1] = "＊공격 시 10% 확률로 파이어볼을 날려 대상 주변 600 범위의 적에게 5만5천의 |c00379BFF마법 피해|r를 가하고 1초간 기절시킨다.";
 -- anam
 -- atp1 1
-		t["A03D"][4][1] = "일부『로열 플레어』";
+		t["A03D"][4][1] = "일부『로열 플Rare』";
 -- atar 1
 -- arac
 -- aart
@@ -5024,7 +5024,7 @@ TPT_abilities_loader = function(t)
 		t["A03M"][1][1] = "*모미지가 공격시 15% 확률로 자신 주변 650범위를 검으로 휩쓸어냅니다. 적의 전체 체력의 1% + 135만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *위 효과가 발동할 경우 20% 확률로 극대화 효과가 발동합니다. 극대화 효과 발동시 데미지가 [2~3.5배]로 적용됩니다.";
 -- anam
-		t["A03M"][3][1] = "[아르카나][모미지]";
+		t["A03M"][3][1] = "[Arcana][모미지]";
 -- atp1 1
 		t["A03M"][4][1] = "『단풍휩쓸기』";
 -- atar 1
@@ -5104,7 +5104,7 @@ TPT_abilities_loader = function(t)
 -- acat
 		t["A03V"][5][1] = "h033,hlum,h00U";
 -- aub1 1
-		t["A03V"][6][1] = "나마즈[에픽] + 나가에 이쿠[유니크] + 고대와 환상의 조각";
+		t["A03V"][6][1] = "나마즈[Epic] + 나가에 이쿠[Unique] + 고대와 환상의 조각";
 -- atp1 2
 		t["A03V"][8][1] = "극부『뇌운극어』- 진화버튼 |c00EEA011R|r";
 -- atp1 3
@@ -5243,14 +5243,14 @@ TPT_abilities_loader = function(t)
 -- [A041]
 -- arac
 -- atp1 1
-		t["A041"][2][1] = "|c00FEE952[유닛 정보]|r - 루미아[판타즘]";
+		t["A041"][2][1] = "|c00FEE952[Unit Information]|r - 루미아[Phantasm]";
 -- aub1 1
-		t["A041"][3][1] = "|c00A8F13A[조합식]|r: 무라사 미나미츠[에픽] + 니시다 사토노[에픽] + 루미아 EX[유니크] + 고대와 환상의 조각\r\
+		t["A041"][3][1] = "|c00A8F13A[Combination]|r: 무라사 미나미츠[Epic] + 니시다 사토노[Epic] + 루미아 EX[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 다크사이드 오브 더 문(rumia phan)\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- anam
 -- atar 1
 -- atar 2
@@ -5681,9 +5681,9 @@ TPT_abilities_loader = function(t)
 -- atp1 31
 -- aub1 1
 		t["A04C"][97][1] = "＊맵 전체의 자신 유닛 공격속도를 15%, 이동속도를 12% 증가시킨다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 2
-		t["A04C"][98][1] = "20초마다 [20+(유니크 업그레이드*3)]%확률로 아군에게 비사문천의 가호를 내려 20초동안 공격속도를 45% 증가시키고 이동속도를 25% 증가시킵니다.";
+		t["A04C"][98][1] = "20초마다 [20+(Unique 업그레이드*3)]%확률로 아군에게 비사문천의 가호를 내려 20초동안 공격속도를 45% 증가시키고 이동속도를 25% 증가시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -5916,9 +5916,9 @@ TPT_abilities_loader = function(t)
 -- atp1 27
 -- atp1 30
 -- aub1 2
-		t["A04I"][38][1] = "코마치의 일반 공격은 대상의 방어력을 25만큼 감소시킨 후 데미지가 들어갑니다.";
+		t["A04I"][38][1] = "코마치의 Normal 공격은 대상의 방어력을 25만큼 감소시킨 후 데미지가 들어갑니다.";
 -- aub1 3
-		t["A04I"][39][1] = "코마치의 일반 공격은 대상의 방어력을 35만큼 감소시킨 후 데미지가 들어갑니다.";
+		t["A04I"][39][1] = "코마치의 Normal 공격은 대상의 방어력을 35만큼 감소시킨 후 데미지가 들어갑니다.";
 -- aub1 4
 		t["A04I"][40][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 2000의 데미지를 입습니다.";
 -- aub1 6
@@ -6053,7 +6053,7 @@ TPT_abilities_loader = function(t)
 -- [A04N]
 -- arac
 -- atp1 1
-		t["A04N"][2][1] = "USH『궁극 가학인간』";
+		t["A04N"][2][1] = "USH『궁극 가학Human』";
 -- aub1 1
 		t["A04N"][3][1] = "＊공격이 공격력 1배의 범위 피해를 가한다.\r\
 ＊공격 시 50% 확률로 대상에게 3만5천의 |c00FF6464물리 피해|r(기절한 대상은 6만5천의 |c00AC59FF절대 피해|r)를 가한다.";
@@ -6272,13 +6272,13 @@ TPT_abilities_loader = function(t)
 -- [A04O]
 -- arac
 -- atp1 1
-		t["A04O"][2][1] = "|c00FEE952[유닛 정보]|r - 리글 나이트버그[에픽]";
+		t["A04O"][2][1] = "|c00FEE952[Unit Information]|r - 리글 나이트버그[Epic]";
 -- aub1 1
-		t["A04O"][3][1] = "|c00A8F13A[조합식]|r: 사이교우지 유유코[유니크] + Sㅏ나에[유니크] + 이터니티 라바[유니크]\r\
+		t["A04O"][3][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Unique] + Sㅏ나에[Unique] + 이터니티 라바[Unique]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드";
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
 -- anam
 -- aart
 		t["A04O"][5][1] = "BTN\\BTNWriggle.blp";
@@ -6353,7 +6353,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A04T"][3][1] = "＊공격 시 13% 확률로 레바테인을 휘둘러 대상 주변 400 범위의 적에게 전체 체력 0.4% + 120만의 |c00379BFF마법 피해|r를 가합니다.\r\
 ＊|c00C5EA53[조합 시너지]|r핏빛달\r\
--레밀리아 스칼렛[아르카나]가 존재할 경우, 레밀리아가 공격 시 0.5% 확률로 Q.E.D『495년의 파문』을 발동시킵니다.\r\
+-레밀리아 스칼렛[Arcana]가 존재할 경우, 레밀리아가 공격 시 0.5% 확률로 Q.E.D『495년의 파문』을 발동시킵니다.\r\
 [내부 쿨다운은 없습니다.]";
 -- anam
 -- aart
@@ -6518,7 +6518,7 @@ TPT_abilities_loader = function(t)
 		t["A04W"][3][1] = "*하타테가 공격시 마나를 1 회복합니다. 마나가 135가 됐을때, 자신 주변 800범위 적에게 잃은 체력의 15%의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *발동과 동시에 폭풍의 인장을 모두 쌓습니다.";
 -- anam
-		t["A04W"][4][1] = "[어센디드][하타테]";
+		t["A04W"][4][1] = "[Ascended][하타테]";
 -- aart
 -- atp1 2
 		t["A04W"][6][1] = "식신『선호사념』 - |c0000FFFF익스텐드|r";
@@ -6609,7 +6609,7 @@ TPT_abilities_loader = function(t)
 \r\
 *적을 공격시 10% 확률로 요력이 흐르는 점혈을 4번 찔러 횟수당 60만 x (0.5~2.0)의 |c00379BFF마법 데미지|r를 입히고, 2초간 스턴시킵니다.";
 -- anam
-		t["A04Z"][4][1] = "[아르카나][사나에]";
+		t["A04Z"][4][1] = "[Arcana][사나에]";
 -- aart
 		t["A04Z"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp";
 -- atp1 2
@@ -6749,7 +6749,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A057"][3][1] = "유닛 판매 - 적립|cffffcc00(Z)|r";
 -- aub1 1
-		t["A057"][4][1] = "*대상 일반 유닛을 팝니다. 1마리당 1의 카운트가 쌓이며, 3의 카운트가 쌓일시 셀렉터 하나로 교체됩니다.";
+		t["A057"][4][1] = "*대상 Normal 유닛을 팝니다. 1마리당 1의 카운트가 쌓이며, 3의 카운트가 쌓일시 셀렉터 하나로 교체됩니다.";
 -- atar 1
 		t["A057"][6][1] = "invulnerable,organic,player";
 -- aart
@@ -6762,7 +6762,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A058"][4][1] = "유닛 판매 - 확률|cffffcc00(X)|r";
 -- aub1 1
-		t["A058"][5][1] = "*대상 일반/매직 유닛을 팝니다. 40% 확률로 셀렉터 1기를 지급합니다.";
+		t["A058"][5][1] = "*대상 Normal/Magic 유닛을 팝니다. 40% 확률로 셀렉터 1기를 지급합니다.";
 -- aart
 		t["A058"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp";
 -- atar 1
@@ -6898,7 +6898,7 @@ TPT_abilities_loader = function(t)
 		t["A05A"][97][1] = "h06X";
 -- [A05B]
 -- atp1 1
-		t["A05B"][1][1] = "|c00FEE952[유닛 정보]|r - 요리가미 조온[크로니클]";
+		t["A05B"][1][1] = "|c00FEE952[Unit Information]|r - 요리가미 조온[Chronicle]";
 -- anam
 -- aart
 		t["A05B"][3][1] = "ReplaceableTextures\\CommandButtons\\Joon\\BTN_UP.blp";
@@ -6972,7 +6972,7 @@ TPT_abilities_loader = function(t)
 -- aub1 31
 		t["A05B"][63][1] = "공격시 10% 확률로 주변 700범위 20곳에 좀비를 부활시켜 350범위에 0.5초간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
 -- aub1 1
-		t["A05B"][64][1] = "|c00A8F13A[조합식]|r: 카기야마 히나[에픽] + 유령악단[팬텀 앙상블][에픽] + 토라마루 쇼우[에픽] + 유니크 소울 2개\r\
+		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -7018,7 +7018,7 @@ TPT_abilities_loader = function(t)
 		t["A05H"][1][1] = "B00E";
 -- arac
 -- anam
-		t["A05H"][3][1] = "[레전더리][우츠호]";
+		t["A05H"][3][1] = "[Legendary][우츠호]";
 -- atar 1
 		t["A05H"][4][1] = "air,invulnerable,enemies,ground,vulnerable";
 -- atar 2
@@ -7034,7 +7034,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A05I"][7][1] = "*카나 주변 700범위 적의 이동속도를 22% 감소시킵니다.\r\
 *카나가 공격시 10% 확률로 자신 주변 1000범위에 에너지를 흘려보냅니다. 흘려보낸 에너지는 자신 주변 아군과 공명하여 카나 주변 650범위의 적에게 [55만 + 30만*공명한 유닛 수]의 |c00379BFF마법 데미지|r를 입히고 1.2초간 스턴시킵니다.\r\
-*에픽 이상 유닛만 공명합니다. 최대 5기까지 공명합니다.";
+*Epic 이상 유닛만 공명합니다. 최대 5기까지 공명합니다.";
 -- arac
 -- [A05K]
 -- atar 1
@@ -7143,16 +7143,16 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A05K"][107][1] = "|c00FEE952[유닛 정보]|r - 후지와라노 모코우[판타즘]";
+		t["A05K"][107][1] = "|c00FEE952[Unit Information]|r - 후지와라노 모코우[Phantasm]";
 -- aub1 1
-		t["A05K"][108][1] = "|c00A8F13A[조합식]|r: 후지와라노 모코우[에픽] + 야사카 카나코[에픽] + 카미시라사와 케이네[유니크] + 고대와 환상의 조각\r\
+		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + 카미시라사와 케이네[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 키메라 피닉스(mokou phan)\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드\r\
 |c00C5EA53[조합 시너지]|r영원한 환생의 불꽃\r\
--카미시라사와 케이네 EX[에픽 혹은 익스텐드]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 쿨다운이 8초 감소합니다.";
+-카미시라사와 케이네 EX[Epic 혹은 익스텐드]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 쿨다운이 8초 감소합니다.";
 -- aart
 		t["A05K"][109][1] = "BTN\\BTNMoko.blp";
 -- [A05L]
@@ -7161,7 +7161,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A05L"][3][1] = "＊사토리가 스킬『공포최면술』,『카메라 샤이로즈』,『브레인 핑거프린트』중 3번 발동할 때마다 자신 주변 850 범위의 적에게 50만의 |c00379BFF마법 피해|r를 가하고 0.9초간 기절시킨다.\r\
 ＊|c00C5EA53[조합 시너지]|r서드아이 시스터즈\r\
--코메이지 코이시[어센디드]를 보유하고 있을 경우, 잃은 체력 0.3% + 75만의 |c00379BFF마법 피해|r로 변경됩니다.";
+-코메이지 코이시[Ascended]를 보유하고 있을 경우, 잃은 체력 0.3% + 75만의 |c00379BFF마법 피해|r로 변경됩니다.";
 -- atp1 1
 		t["A05L"][4][1] = "『제3의 눈』- 발동 횟수 0번";
 -- aart
@@ -7260,7 +7260,7 @@ TPT_abilities_loader = function(t)
 		t["A05M"][3][1] = "*|c00FF80FF[활력]|r - 7초\r\
 대상 지점에 요력으로 된 화살을 발사합니다. 화살은 폭발하여 잃은 체력의 3.5% + 225만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- anam
-		t["A05M"][4][1] = "[크로니클][세이자]";
+		t["A05M"][4][1] = "[Chronicle][세이자]";
 -- aart
 -- atp1 2
 -- atp1 3
@@ -7452,27 +7452,27 @@ TPT_abilities_loader = function(t)
 -- [A05R]
 -- anam
 -- atp1 1
-		t["A05R"][2][1] = "|c00FEE952[유닛 정보]|r - 히나나위 텐시[크로니클]";
+		t["A05R"][2][1] = "|c00FEE952[Unit Information]|r - 히나나위 텐시[Chronicle]";
 -- aart
 		t["A05R"][3][1] = "Icon\\Unit\\BTNTenshi_Chro.blp";
 -- aub1 1
-		t["A05R"][4][1] = "|c00A8F13A[조합식]|r: 레이우지 우츠호[핵반응 제어불능] + 나마즈[에픽] + 니시다 사토노[에픽] + 유니크 소울 2개\r\
+		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[핵반응 제어불능] + 나마즈[Epic] + 니시다 사토노[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 450\r\
 |c00F8BA54[업그레이드]|r : 히나나이 텐시 업그레이드\r\
 |c0097FF2F[조합 시너지]|r변덕쟁이 아가씨\r\
--나가에 이쿠[아르카나]를 보유시『무념무상의 경지』가 발동할 때, 텐시의 마나를 6% 회복합니다.";
+-나가에 이쿠[Arcana]를 보유시『무념무상의 경지』가 발동할 때, 텐시의 마나를 6% 회복합니다.";
 -- [A05V]
 -- arac
 -- atp1 1
-		t["A05V"][2][1] = "|c00FEE952[유닛 정보]|r - 히에다노 아큐[에픽]";
+		t["A05V"][2][1] = "|c00FEE952[Unit Information]|r - 히에다노 아큐[Epic]";
 -- aub1 1
-		t["A05V"][3][1] = "|c00A8F13A[조합식]|r: 소가노 토지코[유니크] + 레티 화이트락[유니크] + 사이교우지 유유코[유니크]\r\
+		t["A05V"][3][1] = "|c00A8F13A[Combination]|r: 소가노 토지코[Unique] + 레티 화이트락[Unique] + 사이교우지 유유코[Unique]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 522\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -7711,7 +7711,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A06O"][3][1] = "＊1초마다 자신 주변 600 범위의 무작위 적에게 15만의 |c00379BFF마법 피해|r를 가하고 2초간 기절(보스는 1초)시킨다.";
 -- anam
-		t["A06O"][4][1] = "[유니크]나루미_R";
+		t["A06O"][4][1] = "[Unique]나루미_R";
 -- aart
 		t["A06O"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNObsidianStatue.blp";
 -- [A06P]
@@ -8041,15 +8041,15 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A073"][5][1] = "『유닛 구입』|cffffcc00(Q)|r";
 -- aub1 1
-		t["A073"][6][1] = "*대상『레어 유닛』을 금 5000으로 구입합니다.\r\
+		t["A073"][6][1] = "*대상『Rare 유닛』을 금 5000으로 구입합니다.\r\
 [유닛은 방랑상인 방문 1번당 1번만 구매 가능합니다.]";
 -- ahky
 -- aart
 -- atar 2
 -- atp1 2
-		t["A073"][10][1] = "『유닛 구입』|cffffcc00(Q)|r - 유니크 유닛 구매 완료";
+		t["A073"][10][1] = "『유닛 구입』|cffffcc00(Q)|r - Unique 유닛 구매 완료";
 -- aub1 2
-		t["A073"][11][1] = "*대상『레어 유닛』을 금 5000을 지불하고 구입합니다.";
+		t["A073"][11][1] = "*대상『Rare 유닛』을 금 5000을 지불하고 구입합니다.";
 -- [A074]
 -- arac
 -- atp1 1
@@ -8225,7 +8225,7 @@ TPT_abilities_loader = function(t)
 		t["A07S"][6][1] = "|c00ffff00타타라 코가사|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A07S"][8][1] = "카와시로 니토리 + 도깨비 + 벤토라";
+		t["A07S"][8][1] = "카와시로 니토리 + 도깨비 + UFO";
 -- ahky
 -- alig
 -- atat
@@ -8241,7 +8241,7 @@ TPT_abilities_loader = function(t)
 		t["A07T"][6][1] = "|c00ffff00리리카 프리즘리버|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A07T"][8][1] = "벤토라 그린 + 혼령";
+		t["A07T"][8][1] = "UFO 그린 + Spirit";
 -- ahky
 -- atat
 		t["A07T"][10][1] = "h030";
@@ -8257,7 +8257,7 @@ TPT_abilities_loader = function(t)
 		t["A07U"][6][1] = "|c00ffff00루나사 프리즘리버|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A07U"][8][1] = "벤토라 레드 + 혼령";
+		t["A07U"][8][1] = "UFO 레드 + Spirit";
 -- ahky
 -- atat
 		t["A07U"][10][1] = "h032";
@@ -8273,7 +8273,7 @@ TPT_abilities_loader = function(t)
 		t["A07V"][6][1] = "|c00ffff00메를랑 프리즘리버|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A07V"][8][1] = "벤토라 블루 + 혼령";
+		t["A07V"][8][1] = "UFO 블루 + Spirit";
 -- ahky
 -- alig
 -- atat
@@ -8287,7 +8287,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A07W"][5][1] = "|c00ffff00호시구마 유기|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A07W"][6][1] = "미즈하시 파르시 + 쿠로다니 야마메 + 키스메 + 벤토라 레드";
+		t["A07W"][6][1] = "미즈하시 파르시 + 쿠로다니 야마메 + 키스메 + UFO 레드";
 -- ahky
 -- acat
 		t["A07W"][8][1] = "h02Y,h047,h00K,h013";
@@ -8342,7 +8342,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A083"][10][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- aub1 1
-		t["A083"][11][1] = "야사카 카나코[에픽] + 후타츠이와 마미조[에픽] + 정체불명[유니크] + 고대와 환상의 조각 = 코토히메";
+		t["A083"][11][1] = "야사카 카나코[Epic] + 후타츠이와 마미조[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 코토히메";
 -- atp1 2
 		t["A083"][12][1] = "월부『감색의 광몽』- 습득 완료";
 -- aub1 2
@@ -8635,32 +8635,32 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A08E"][34][1] = "＊공격 시 15% 확률로 대상 지점 350 범위의 적에게 4만5천의 |c00FF6464물리 피해|r를 가하고 1초간 이동속도를 45% 감소시킨다.";
 -- aub1 2
-		t["A08E"][35][1] = "30%확률로 적에게 일반 공격의 3배에 해당하는 데미지를 줍니다.";
+		t["A08E"][35][1] = "30%확률로 적에게 Normal 공격의 3배에 해당하는 데미지를 줍니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A08E"][39][1] = "30%확률로 적에게 일반 공격의 4배에 해당하는 데미지를 줍니다.";
+		t["A08E"][39][1] = "30%확률로 적에게 Normal 공격의 4배에 해당하는 데미지를 줍니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A08E"][44][1] = "30%확률로 적에게 일반 공격의 5배에 해당하는 데미지를 줍니다.";
+		t["A08E"][44][1] = "30%확률로 적에게 Normal 공격의 5배에 해당하는 데미지를 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A08E"][49][1] = "30%확률로 적에게 일반 공격의 6배에 해당하는 데미지를 줍니다.";
+		t["A08E"][49][1] = "30%확률로 적에게 Normal 공격의 6배에 해당하는 데미지를 줍니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A08E"][54][1] = "30%확률로 적에게 일반 공격의 7배에 해당하는 데미지를 줍니다.";
+		t["A08E"][54][1] = "30%확률로 적에게 Normal 공격의 7배에 해당하는 데미지를 줍니다.";
 -- aub1 22
-		t["A08E"][55][1] = "30%확률로 적에게 일반 공격의 5.8배에 해당하는 데미지를 줍니다.";
+		t["A08E"][55][1] = "30%확률로 적에게 Normal 공격의 5.8배에 해당하는 데미지를 줍니다.";
 -- aub1 23
 -- aub1 24
 -- aub1 25
@@ -8670,7 +8670,7 @@ TPT_abilities_loader = function(t)
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A08E"][64][1] = "30%확률로 적에게 일반 공격의 7.2배에 해당하는 데미지를 줍니다.";
+		t["A08E"][64][1] = "30%확률로 적에게 Normal 공격의 7.2배에 해당하는 데미지를 줍니다.";
 -- aart
 		t["A08E"][65][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNSeaGiantPulverize.blp";
 -- [A08F]
@@ -8758,7 +8758,7 @@ TPT_abilities_loader = function(t)
 *모코우가 불사조의 힘을 대상 지점에 방출하며, 부활합니다. 대상 주변 550범위 적에게 전체 체력의 4% + 650만의 물리 데미지를 입힙니다.\r\
 *모코우가 부활시 모코우의 스킬 데미지가 1%씩 증가합니다. 최대 20번까지 부활가능하며, 부활 횟수는 스킬 이름 오른쪽에 표시됩니다.\r\
 *|c00C5EA53[조합 시너지]|r영원한 환생의 불꽃\r\
--카미시라사와 케이네 EX[에픽]를 보유하고 있을 경우, 활력 쿨다운이 10초 감소합니다.";
+-카미시라사와 케이네 EX[Epic]를 보유하고 있을 경우, 활력 쿨다운이 10초 감소합니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -8845,8 +8845,8 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A08H"][2][1] = "호우『강바닥 대전쟁』";
 -- aub1 1
-		t["A08H"][3][1] = "*니토리가 공격시 마나를 1씩 회복합니다. 마나가 150이 될 경우 맵 전체 자신의 캇파단과 아군 유닛에게 대전쟁 태세를 명령합니다.\r\
-*10초간『캇파의 환상대폭포』의 마나 회복량이 4에서 6으로 증가합니다.";
+		t["A08H"][3][1] = "*니토리가 공격시 마나를 1씩 회복합니다. 마나가 150이 될 경우 맵 전체 자신의 Kappa단과 아군 유닛에게 대전쟁 태세를 명령합니다.\r\
+*10초간『Kappa의 환상대폭포』의 마나 회복량이 4에서 6으로 증가합니다.";
 -- anam
 		t["A08H"][4][1] = "[니토리]";
 -- aart
@@ -8884,8 +8884,8 @@ TPT_abilities_loader = function(t)
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08H"][36][1] = "*캇파단원의 신념이 든 오이를 적의 후방에 찍습니다.\r\
-*캇파단원이 공격시 마나를 1 회복하며, 마나가 75가 될때마다 진귀한 오이인 '비트오이'를 먹고 폭발합니다. 자신 주변 650범위 내에 있는 적에게 220만의 |c00379BFF마법 데미지|r와 1.8초의 스턴을 입힙니다.[폭발한다고 사라지지는 않습니다.]\r\
+		t["A08H"][36][1] = "*Kappa단원의 신념이 든 오이를 적의 후방에 찍습니다.\r\
+*Kappa단원이 공격시 마나를 1 회복하며, 마나가 75가 될때마다 진귀한 오이인 '비트오이'를 먹고 폭발합니다. 자신 주변 650범위 내에 있는 적에게 220만의 |c00379BFF마법 데미지|r와 1.8초의 스턴을 입힙니다.[폭발한다고 사라지지는 않습니다.]\r\
 *|c00FF80FF[활력]|r - 15초\r\
 대상 유닛의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
 -- aub1 3
@@ -8953,7 +8953,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A08J"][3][1] = "＊공격당한 대상이 보스가 아니라면, 1천5백의 |c00379BFF마법 피해|r를 가한다.";
 -- anam
-		t["A08J"][4][1] = "[레어]미스티아_R";
+		t["A08J"][4][1] = "[Rare]미스티아_R";
 -- aart
 		t["A08J"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGlyph.blp";
 -- atp1 2
@@ -9422,7 +9422,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A08Y"][5][1] = "|c00ffff00야타데라 나루미|r 조합|c00FF8040[F]|r";
 -- aub1 1
-		t["A08Y"][6][1] = "카소다니 쿄코 + 오린[레어] + 리리카 프리즘리버[레어]";
+		t["A08Y"][6][1] = "카소다니 쿄코 + 오린[Rare] + 리리카 프리즘리버[Rare]";
 -- aart
 		t["A08Y"][7][1] = "BTN\\BTNnarumi.blp";
 -- ahky
@@ -9734,7 +9734,7 @@ TPT_abilities_loader = function(t)
 		t["A07Q"][5][1] = "|c00ffff00쿠모이 이치린|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A07Q"][7][1] = "타타라 코가사[레어] + 오쿠[레어] + 스타 사파이어[레어]";
+		t["A07Q"][7][1] = "타타라 코가사[Rare] + 오쿠[Rare] + 스타 사파이어[Rare]";
 -- ahky
 -- alig
 -- atat
@@ -9750,7 +9750,7 @@ TPT_abilities_loader = function(t)
 		t["A097"][5][1] = "|c00ffff00나가에 이쿠|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A097"][7][1] = "써니 밀크 + 타타라 코가사 + 코치야 사나에 + 벤토라 블루\r\
+		t["A097"][7][1] = "써니 밀크 + 타타라 코가사 + 코치야 사나에 + UFO 블루\r\
 ";
 -- ahky
 -- alig
@@ -10127,10 +10127,10 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A09N"][3][1] = "*공격시 10% 확률로 대상 지점에 강렬한 별불꽃을 투하합니다. 별불꽃에 피격된 적은 전체 체력의 0.5% + 100만의 |c00379BFF마법 데미지|r를 입습니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-『속이 시커먼 요정』\r\
-*겉보기와는 다르게 교활한 요정으로, 어느 진영에서든 조합할 수 있습니다.\r\
-*스타 사파이어[레전더리]를 조합할 경우, 진영에서 생성할 수 있는 일반 유닛의 갯수가 초기화됩니다.\r\
-*스타 사파이어[레전더리]는 플레이어당 하나만 조합할 수 있습니다.";
+『속이 시커먼 Fairy』\r\
+*겉보기와는 다르게 교활한 Fairy으로, 어느 진영에서든 조합할 수 있습니다.\r\
+*스타 사파이어[Legendary]를 조합할 경우, 진영에서 생성할 수 있는 Normal 유닛의 갯수가 초기화됩니다.\r\
+*스타 사파이어[Legendary]는 플레이어당 하나만 조합할 수 있습니다.";
 -- anam
 		t["A09N"][4][1] = "[스타]";
 -- aart
@@ -10452,7 +10452,7 @@ TPT_abilities_loader = function(t)
 		t["A0A3"][3][1] = "*케이네가 공격시 9% 확률로 대상 지점 주변 400범위 내의 적의 역사를 뒤틀어 30만의 |c00AC59FF절대 데미지|r를 입히고, 2초간 스턴시킵니다.\r\
 *보스 판정 유닛에게는 44만의 |c00FF6464물리 데미지|r를 확률이 아닌 무조건부로 입히고 0.3초간 스턴시킵니다. ";
 -- anam
-		t["A0A3"][4][1] = "[에픽_사용되지 않음]";
+		t["A0A3"][4][1] = "[Epic_사용되지 않음]";
 -- aart
 		t["A0A3"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNLoad.blp";
 -- atp1 2
@@ -10637,7 +10637,7 @@ TPT_abilities_loader = function(t)
 		t["A0AC"][29][1] = "『엘리 방어력 감소』";
 -- [A0AG]
 -- anam
-		t["A0AG"][1][1] = "『유유코 아르카나 화서』";
+		t["A0AG"][1][1] = "『유유코 Arcana 화서』";
 -- arac
 -- amat
 		t["A0AG"][3][1] = "model\\Butterfly.mdx";
@@ -10653,7 +10653,7 @@ TPT_abilities_loader = function(t)
 		t["A002"][6][1] = "|c00ffff00키스메|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A002"][8][1] = "도깨비 + 캇파";
+		t["A002"][8][1] = "도깨비 + Kappa";
 -- ahky
 -- alig
 -- atat
@@ -10666,7 +10666,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A005"][5][1] = "|c00ffff00쿠로다니 야마메|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A005"][6][1] = "키스메 + 루미아 + 자코";
+		t["A005"][6][1] = "키스메 + 루미아 + Zako";
 -- ahky
 -- acat
 		t["A005"][8][1] = "h00K,h043,h007";
@@ -10840,7 +10840,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A08T"][6][1] = "연금술 - 재연성|cffffcc00(C)|r[체험판]";
 -- aub1 1
-		t["A08T"][7][1] = "목표 일반 유닛을 재연성합니다. 랜덤한 일반 유닛으로 변화합니다.";
+		t["A08T"][7][1] = "목표 Normal 유닛을 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다.";
 -- aart
 		t["A08T"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNTransmute.blp";
 -- atar 1
@@ -10853,7 +10853,7 @@ TPT_abilities_loader = function(t)
 -- atp1 2
 		t["A08T"][16][1] = "연금술 - 재연성|cffffcc00(C)|r[이지 모드]";
 -- atp1 3
-		t["A08T"][17][1] = "연금술 - 재연성|cffffcc00(C)|r[노말 모드]";
+		t["A08T"][17][1] = "연금술 - 재연성|cffffcc00(C)|r[Normal 모드]";
 -- atp1 4
 		t["A08T"][18][1] = "연금술 - 재연성|cffffcc00(C)|r[하드 모드]";
 -- atp1 5
@@ -10863,12 +10863,12 @@ TPT_abilities_loader = function(t)
 -- atp1 7
 		t["A08T"][21][1] = "연금술 - 재연성|cffffcc00(C)|r[퓨어 퓨리스 모드]";
 -- aub1 2
-		t["A08T"][22][1] = "목표 일반 유닛을 100 골드를 소모해 재연성합니다. 랜덤한 일반 유닛으로 변화합니다. 쿨다운 5초";
+		t["A08T"][22][1] = "목표 Normal 유닛을 100 골드를 소모해 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다. 쿨다운 5초";
 -- aub1 3
 -- aub1 4
-		t["A08T"][24][1] = "목표 일반 유닛을 225 골드를 소모해 재연성합니다. 랜덤한 일반 유닛으로 변화합니다. 쿨다운 5초";
+		t["A08T"][24][1] = "목표 Normal 유닛을 225 골드를 소모해 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다. 쿨다운 5초";
 -- aub1 5
-		t["A08T"][25][1] = "목표 일반 유닛을 350 골드를 소모해 재연성합니다. 랜덤한 일반 유닛으로 변화합니다. 쿨다운 5초";
+		t["A08T"][25][1] = "목표 Normal 유닛을 350 골드를 소모해 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다. 쿨다운 5초";
 -- [A0AK]
 -- arac
 -- anam
@@ -10876,7 +10876,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0AK"][3][1] = "연금술 - 분해|cffffcc00(V)|r";
 -- aub1 1
-		t["A0AK"][4][1] = "대상 매직 유닛을 기존의 일반 유닛으로 분해시킵니다. 100골드가 소모됩니다. 쿨다운 40초";
+		t["A0AK"][4][1] = "대상 Magic 유닛을 기존의 Normal 유닛으로 분해시킵니다. 100골드가 소모됩니다. 쿨다운 40초";
 -- aart
 		t["A0AK"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp";
 -- atar 1
@@ -10963,9 +10963,9 @@ TPT_abilities_loader = function(t)
 -- atar 3
 -- [A062]
 -- atp1 1
-		t["A062"][1][1] = "|c00FEE952[유닛 정보]|r - 하니야스신 케이키[크로니클]";
+		t["A062"][1][1] = "|c00FEE952[Unit Information]|r - 하니야스신 케이키[Chronicle]";
 -- aub1 1
-		t["A062"][2][1] = "|c00A8F13A[조합식]|r: 헤카티아 라피스라줄리[에픽] + 후지와라노 모코우[에픽] + 야사카 카나코[에픽] + 유니크 소울 2개\r\
+		t["A062"][2][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 425\r\
@@ -11019,7 +11019,7 @@ TPT_abilities_loader = function(t)
 		t["A0AP"][1][1] = "*|c00FF80FF[활력]|r - 15초\r\
 *마리사가 자신의 마력을 총동원한 최강의 빔을 전방에 발사합니다. 피격당한 적은 666만의 |c00379BFF마법 데미지|r를 입습니다.";
 -- anam
-		t["A0AP"][3][1] = "[아르카나][마리사]마스터 스파크";
+		t["A0AP"][3][1] = "[Arcana][마리사]마스터 스파크";
 -- atp1 1
 -- atar 1
 -- aart
@@ -11080,9 +11080,9 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0AY"][10][1] = "|c00ffff00『유기농법! 유카 씨!』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A0AY"][11][1] = "*유카가 어디선가 배워온 나비 농법으로 꽃을 피워냅니다. 이 스킬을 이터니티 라바[유니크]에게 사용시『도원향』스킬을 얻습니다.\r\
+		t["A0AY"][11][1] = "*유카가 어디선가 배워온 나비 농법으로 꽃을 피워냅니다. 이 스킬을 이터니티 라바[Unique]에게 사용시『도원향』스킬을 얻습니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 이터니티 라바[유니크]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 이터니티 라바[Unique]는 사라집니다.|r";
 -- ahky
 -- [A09Y]
 -- arac
@@ -11180,7 +11180,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0B0"][3][1] = "과학 기술 지원 - 별가루(Star Dust)|cffffcc00(D)|r";
 -- aub1 1
-		t["A0B0"][4][1] = "*캇파들이 만든 최신식 탐지기 스타 더스트를 사용합니다. 20초 동안 대상 범위 내의 투명한 유닛들을 볼 수 있습니다.\r\
+		t["A0B0"][4][1] = "*Kappa들이 만든 최신식 탐지기 스타 더스트를 사용합니다. 20초 동안 대상 범위 내의 투명한 유닛들을 볼 수 있습니다.\r\
 *쿨다운 12초";
 -- aut1 1
 -- auu1 1
@@ -11199,7 +11199,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0B1"][4][1] = "과학 기술 지원 - 로스트(Lost)|cffffcc00(F)|r";
 -- aub1 1
-		t["A0B1"][5][1] = "캇파들이 만든 정체불명의 기계를 대상에게 사용합니다. 맞은 대상은 어디론가 사라져 잊혀져버립니다. 대상 유닛 즉사. 보스몹에게는 통하지 않습니다. 쿨타임 15초";
+		t["A0B1"][5][1] = "Kappa들이 만든 정체불명의 기계를 대상에게 사용합니다. 맞은 대상은 어디론가 사라져 잊혀져버립니다. 대상 유닛 즉사. 보스몹에게는 통하지 않습니다. 쿨타임 15초";
 -- aart
 		t["A0B1"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNVengeanceIncarnate.tga";
 -- ahky
@@ -11256,7 +11256,7 @@ TPT_abilities_loader = function(t)
 		t["A0B5"][5][1] = "|c00ffff00리글 나이트버그|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0B5"][7][1] = "인간 + 자코";
+		t["A0B5"][7][1] = "Human + Zako";
 -- ahky
 -- alig
 -- atat
@@ -11269,10 +11269,10 @@ TPT_abilities_loader = function(t)
 		t["A0B6"][4][1] = "BTN\\BTNKoakuma.blp";
 -- anam
 -- atp1 1
-		t["A0B6"][6][1] = "|c00ffff00소악마|r 조합|c00FF8040[D]|r";
+		t["A0B6"][6][1] = "|c00ffff00Small Devil|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0B6"][8][1] = "악마 + 악마";
+		t["A0B6"][8][1] = "Devil + Devil";
 -- ahky
 -- alig
 		t["A0B6"][10][1] = "2";
@@ -11289,7 +11289,7 @@ TPT_abilities_loader = function(t)
 		t["A0B7"][5][1] = "|c00ffff00서니 밀크|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0B7"][7][1] = "아키 시즈하 + 대요정";
+		t["A0B7"][7][1] = "아키 시즈하 + 대Fairy";
 -- ahky
 -- alig
 -- atat
@@ -11319,7 +11319,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0B9"][5][1] = "|c00ffff00카소다니 쿄코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0B9"][6][1] = "소신령 + 키스메 + 자코";
+		t["A0B9"][6][1] = "소신령 + 키스메 + Zako";
 -- ahky
 -- acat
 		t["A0B9"][8][1] = "h000,h00K,h007";
@@ -11335,7 +11335,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BA"][5][1] = "|c00ffff00이누바시리 모미지|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BA"][6][1] = "카와시로 니토리 + 아키 시즈하 + 캇파";
+		t["A0BA"][6][1] = "카와시로 니토리 + 아키 시즈하 + Kappa";
 -- ahky
 -- acat
 		t["A0BA"][8][1] = "h00F,h00C,h003";
@@ -11367,7 +11367,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BF"][5][1] = "|c00ffff00우사미 렌코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BF"][6][1] = "스타 사파이어 + 이자요이 사쿠야 + 루나 차일드 + 벤토라[일반]";
+		t["A0BF"][6][1] = "스타 사파이어 + 이자요이 사쿠야 + 루나 차일드 + UFO[Normal]";
 -- ahky
 -- acat
 		t["A0BF"][8][1] = "h00U,h00P,h00W,h009";
@@ -11461,7 +11461,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BL"][5][1] = "|c00ffff00비상천칙|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BL"][6][1] = "이부키 스이카[유니크] + 호시구마 유우기[유니크] + 하쿠레이 레이무[호밍]";
+		t["A0BL"][6][1] = "이부키 스이카[Unique] + 호시구마 유우기[Unique] + 하쿠레이 레이무[호밍]";
 -- ahky
 -- acat
 		t["A0BL"][8][1] = "h035,h034,h017";
@@ -11540,7 +11540,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BQ"][5][1] = "|c00ffff00토요사토미미노 미코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BQ"][6][1] = "후타츠이와 마미조[에픽] + 카기야마 히나[액신] + 마에리베리 한[에픽] + 유니크 소울 2개";
+		t["A0BQ"][6][1] = "후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A0BQ"][8][1] = "h041,nanm,h03W,h05U,ehip";
@@ -11556,7 +11556,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BR"][5][1] = "|c00ffff00이바라기 카센|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BR"][6][1] = "나마즈[에픽] + 비상천칙[에픽] + 모노노베노 후토[에픽] + 유니크 소울 2개";
+		t["A0BR"][6][1] = "나마즈[Epic] + 비상천칙[Epic] + 모노노베노 후토[Epic] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A0BR"][8][1] = "h00S,h03U,h03X,h05U,ehip";
@@ -11603,7 +11603,7 @@ TPT_abilities_loader = function(t)
 		t["A040"][6][1] = "|c00ffff00홍 메이링|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A040"][8][1] = "소악마 + 리글 나이트버그 + 도깨비";
+		t["A040"][8][1] = "Small Devil + 리글 나이트버그 + 도깨비";
 -- ahky
 -- alig
 -- atat
@@ -11617,7 +11617,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00F"][5][1] = "|c00ffff00아키 시즈하|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00F"][6][1] = "혼령 + 인간";
+		t["A00F"][6][1] = "Spirit + Human";
 -- ahky
 -- acat
 		t["A00F"][8][1] = "h008,h00A";
@@ -11633,7 +11633,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A007"][5][1] = "|c00ffff00스타 사파이어|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A007"][6][1] = "와카사기히메 + 대요정";
+		t["A007"][6][1] = "와카사기히메 + 대Fairy";
 -- ahky
 -- acat
 		t["A007"][8][1] = "hpea,h00E";
@@ -11661,11 +11661,11 @@ TPT_abilities_loader = function(t)
 -- arac
 -- atar 1
 -- atp1 1
-		t["A0BZ"][4][1] = "흑화『릴리 블랙』- 잔존 요정 3마리";
+		t["A0BZ"][4][1] = "흑화『릴리 블랙』- 잔존 Fairy 3마리";
 -- aub1 1
 		t["A0BZ"][5][1] = "＊자신 주변 650 범위의 적 이동속도를 6% 감소시킨다.\r\
 ＊공격 시 10% 확률로 자신 주변 650 범위의 적에게 4만5천의 |c00379BFF마법 피해|r를 가한다. 이 효과로 적을 죽이면 마력 1 회복한다.\r\
-＊|c0044BBFF[마력]|r - 25 : 요정 1마리 소환 (40 라운드까지)";
+＊|c0044BBFF[마력]|r - 25 : Fairy 1마리 소환 (40 라운드까지)";
 -- aart
 -- abuf 1
 		t["A0BZ"][7][1] = "B01S";
@@ -11676,11 +11676,11 @@ TPT_abilities_loader = function(t)
 -- abuf 3
 -- abuf 4
 -- atp1 2
-		t["A0BZ"][14][1] = "흑화『릴리 블랙』- 잔존 요정 2마리";
+		t["A0BZ"][14][1] = "흑화『릴리 블랙』- 잔존 Fairy 2마리";
 -- atp1 3
-		t["A0BZ"][15][1] = "흑화『릴리 블랙』- 잔존 요정 1마리";
+		t["A0BZ"][15][1] = "흑화『릴리 블랙』- 잔존 Fairy 1마리";
 -- atp1 4
-		t["A0BZ"][16][1] = "흑화『릴리 블랙』- 잔존 요정 0마리";
+		t["A0BZ"][16][1] = "흑화『릴리 블랙』- 잔존 Fairy 0마리";
 -- aub1 2
 -- aub1 3
 -- aub1 4
@@ -11782,7 +11782,7 @@ TPT_abilities_loader = function(t)
 		t["A0C2"][6][1] = "|c00ffff00릴리 화이트|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0C2"][8][1] = "대요정 + 소신령";
+		t["A0C2"][8][1] = "대Fairy + 소신령";
 -- ahky
 -- alig
 -- atat
@@ -11797,7 +11797,7 @@ TPT_abilities_loader = function(t)
 *이 스킬이 발동할때마다『오버플로우』의 활력 쿨다운이 0.2초씩 감소합니다.";
 -- [A0C3]
 -- anam
-		t["A0C3"][1][1] = "[레어]요시카_R";
+		t["A0C3"][1][1] = "[Rare]요시카_R";
 -- atp1 1
 		t["A0C3"][2][1] = "독조『포이즌 레이즈』";
 -- aub1 1
@@ -11811,7 +11811,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A0C5"][3][1] = "＊스타가 별똥별 탄막을 발사해 자신 주변 800 범위의 적에게 0.4초마다 7백의 |c00379BFF마법 피해|r를 가한다.";
 -- anam
-		t["A0C5"][4][1] = "[레어]스타_R";
+		t["A0C5"][4][1] = "[Rare]스타_R";
 -- aart
 -- [A02B]
 -- arac
@@ -12073,7 +12073,7 @@ TPT_abilities_loader = function(t)
 -- aub1 31
 -- [A0CH]
 -- anam
-		t["A0CH"][1][1] = "[유유코 에픽][버터플라이 딜루젼]";
+		t["A0CH"][1][1] = "[유유코 Epic][버터플라이 딜루젼]";
 -- arac
 -- amat
 -- atar 1
@@ -12116,7 +12116,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00M"][5][1] = "|c00ffff00아키 미노리코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00M"][6][1] = "아키 시즈하[매직] + 와카사기히메[매직] + 혼령[일반]";
+		t["A00M"][6][1] = "아키 시즈하[Magic] + 와카사기히메[Magic] + Spirit[Normal]";
 -- ahky
 -- acat
 		t["A00M"][8][1] = "h00C,hpea,h008";
@@ -12130,9 +12130,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A0CK"][4][1] = "BTN\\BTNdai.blp";
 -- atp1 1
-		t["A0CK"][5][1] = "|c00ffff00대요정|r 조합|c00FF8040[D]|r";
+		t["A0CK"][5][1] = "|c00ffff00대Fairy|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0CK"][6][1] = "요정 + 요정";
+		t["A0CK"][6][1] = "Fairy + Fairy";
 -- ahky
 -- acat
 		t["A0CK"][8][1] = "h002";
@@ -12146,7 +12146,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A00J"][3][1] = "＊공격 시 10% 확률로 크게 소리쳐 자신 주변 1000 범위의 적에게 4천5백의 |c00379BFF마법 피해|r를 가한다.";
 -- anam
-		t["A00J"][4][1] = "[레어]쿄코_R";
+		t["A00J"][4][1] = "[Rare]쿄코_R";
 -- aart
 		t["A00J"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNBattleRoar.blp";
 -- [A0BE]
@@ -12485,14 +12485,14 @@ TPT_abilities_loader = function(t)
 -- [A0CV]
 -- anam
 -- aub1 1
-		t["A0CV"][2][1] = "|c00A8F13A[조합식]|r: 이마이즈미 카게로[유니크] + 카엔뵤 린[유니크] + 신비술사의 고서 * 2\r\
+		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: 이마이즈미 카게로[Unique] + 카엔뵤 린[Unique] + 신비술사의 고서 * 2\r\
 |c00A8F13A[타이핑]|r: 귀걸조 조장(yachie arc)\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 375[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- atp1 1
-		t["A0CV"][3][1] = "|c00FEE952[유닛 정보]|r - 킷쵸 야치에[아르카나]";
+		t["A0CV"][3][1] = "|c00FEE952[Unit Information]|r - 킷쵸 야치에[Arcana]";
 -- aart
 		t["A0CV"][4][1] = "Icon\\Unit\\BTNYachie_Arc.blp";
 -- arac
@@ -12901,37 +12901,37 @@ TPT_abilities_loader = function(t)
 		t["A0DP"][1][1] = "naga";
 -- anam
 -- atp1 1
-		t["A0DP"][3][1] = "|c00FEE952[유닛 정보]|r - 아키 시즈하[매직]";
+		t["A0DP"][3][1] = "|c00FEE952[Unit Information]|r - 아키 시즈하[Magic]";
 -- aub1 1
-		t["A0DP"][4][1] = "|c00A8F13A[조합식]|r: 혼령[일반] + 인간[일반]\r\
+		t["A0DP"][4][1] = "|c00A8F13A[Combination]|r: Spirit[Normal] + Human[Normal]\r\
 \r\
 [공격속도]: 1.05초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DQ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DQ"][3][1] = "|c00FEE952[유닛 정보]|r - 키스메[매직]";
+		t["A0DQ"][3][1] = "|c00FEE952[Unit Information]|r - 키스메[Magic]";
 -- aub1 1
-		t["A0DQ"][4][1] = "|c00A8F13A[조합식]|r: 도깨비[일반] + 캇파[일반]\r\
+		t["A0DQ"][4][1] = "|c00A8F13A[Combination]|r: 도깨비[Normal] + Kappa[Normal]\r\
 \r\
 [공격속도]: 1.3초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DR]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DR"][3][1] = "|c00FEE952[유닛 정보]|r - 소악마[매직]";
+		t["A0DR"][3][1] = "|c00FEE952[Unit Information]|r - Small Devil[Magic]";
 -- aub1 1
-		t["A0DR"][4][1] = "|c00A8F13A[조합식]|r: 악마[일반] + 악마[일반]\r\
+		t["A0DR"][4][1] = "|c00A8F13A[Combination]|r: Devil[Normal] + Devil[Normal]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DS]
 -- arac
@@ -12952,413 +12952,413 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0DT"][3][1] = "|c00FEE952[유닛 정보]|r - 리글 나이트버그[매직]";
+		t["A0DT"][3][1] = "|c00FEE952[Unit Information]|r - 리글 나이트버그[Magic]";
 -- aub1 1
-		t["A0DT"][4][1] = "|c00A8F13A[조합식]|r: 인간[일반] + 자코[일반]\r\
+		t["A0DT"][4][1] = "|c00A8F13A[Combination]|r: Human[Normal] + Zako[Normal]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DU]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DU"][3][1] = "|c00FEE952[유닛 정보]|r - 대요정[매직]";
+		t["A0DU"][3][1] = "|c00FEE952[Unit Information]|r - 대Fairy[Magic]";
 -- aub1 1
-		t["A0DU"][4][1] = "|c00A8F13A[조합식]|r: 요정[일반] + 요정[일반]\r\
+		t["A0DU"][4][1] = "|c00A8F13A[Combination]|r: Fairy[Normal] + Fairy[Normal]\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DV]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DV"][3][1] = "|c00FEE952[유닛 정보]|r - 루미아[매직]";
+		t["A0DV"][3][1] = "|c00FEE952[Unit Information]|r - 루미아[Magic]";
 -- aub1 1
-		t["A0DV"][4][1] = "|c00A8F13A[조합식]|r: 자코[일반] + 도깨비[일반]\r\
+		t["A0DV"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + 도깨비[Normal]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DW]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DW"][3][1] = "|c00FEE952[유닛 정보]|r - 소신령[매직]";
+		t["A0DW"][3][1] = "|c00FEE952[Unit Information]|r - 소신령[Magic]";
 -- aub1 1
-		t["A0DW"][4][1] = "|c00A8F13A[조합식]|r: 혼령[일반] + 악마[일반]\r\
+		t["A0DW"][4][1] = "|c00A8F13A[Combination]|r: Spirit[Normal] + Devil[Normal]\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DX]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DX"][3][1] = "|c00FEE952[유닛 정보]|r - 카와시로 니토리[매직]";
+		t["A0DX"][3][1] = "|c00FEE952[Unit Information]|r - 카와시로 니토리[Magic]";
 -- aub1 1
-		t["A0DX"][4][1] = "|c00A8F13A[조합식]|r: 캇파[일반] + 인간[일반]\r\
+		t["A0DX"][4][1] = "|c00A8F13A[Combination]|r: Kappa[Normal] + Human[Normal]\r\
 \r\
 [공격속도]: 0.85초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0DZ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DZ"][3][1] = "|c00FEE952[유닛 정보]|r - 이자요이 사쿠야[판타즘]";
+		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Phantasm]";
 -- aub1 1
-		t["A0DZ"][4][1] = "|c00A8F13A[조합식]|r: 레밀리아 스칼렛[에픽] + 코메이지 코이시[에픽] + 이자요이 사쿠야[유니크] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 악마의 메이드(sakuya phan)\r\
+		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 코메이지 코이시[Epic] + 이자요이 사쿠야[Unique] + 고대와 환상의 조각\r\
+|c00A8F13A[타이핑]|r: Devil의 메이드(sakuya phan)\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- aart
 -- [A0E0]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E0"][3][1] = "|c00FEE952[유닛 정보]|r - 키리사메 마리사[레어]";
+		t["A0E0"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[Rare]";
 -- aub1 1
-		t["A0E0"][4][1] = "|c00A8F13A[조합식]|r: 루미아[매직] + 카와시로 니토리[매직] + 요정[일반]\r\
+		t["A0E0"][4][1] = "|c00A8F13A[Combination]|r: 루미아[Magic] + 카와시로 니토리[Magic] + Fairy[Normal]\r\
 \r\
 [공격속도]: 1.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 		t["A0E0"][5][1] = "BTN\\BTNMarisa.blp";
 -- [A0E1]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E1"][3][1] = "|c00FEE952[유닛 정보]|r - 콘파쿠 요우무[레어]";
+		t["A0E1"][3][1] = "|c00FEE952[Unit Information]|r - 콘파쿠 요우무[Rare]";
 -- aub1 1
-		t["A0E1"][4][1] = "|c00A8F13A[조합식]|r: 리글 나이트버그[매직] + 와카사기히메[매직] + 악마[일반]\r\
+		t["A0E1"][4][1] = "|c00A8F13A[Combination]|r: 리글 나이트버그[Magic] + 와카사기히메[Magic] + Devil[Normal]\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E2]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E2"][3][1] = "|c00FEE952[유닛 정보]|r - 아키 미노리코[레어]";
+		t["A0E2"][3][1] = "|c00FEE952[Unit Information]|r - 아키 미노리코[Rare]";
 -- aub1 1
-		t["A0E2"][4][1] = "|c00A8F13A[조합식]|r: 아키 시즈하[매직] + 와카사기히메[매직] + 혼령[일반]\r\
+		t["A0E2"][4][1] = "|c00A8F13A[Combination]|r: 아키 시즈하[Magic] + 와카사기히메[Magic] + Spirit[Normal]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E3]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E3"][3][1] = "|c00FEE952[유닛 정보]|r - 쿠로다니 야마메[레어]";
+		t["A0E3"][3][1] = "|c00FEE952[Unit Information]|r - 쿠로다니 야마메[Rare]";
 -- aub1 1
-		t["A0E3"][4][1] = "|c00A8F13A[조합식]|r: 키스메[매직] + 루미아[매직] + 자코[일반]\r\
+		t["A0E3"][4][1] = "|c00A8F13A[Combination]|r: 키스메[Magic] + 루미아[Magic] + Zako[Normal]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E4]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E4"][3][1] = "|c00FEE952[유닛 정보]|r - 오쿠[레어]";
+		t["A0E4"][3][1] = "|c00FEE952[Unit Information]|r - 오쿠[Rare]";
 -- aub1 1
-		t["A0E4"][4][1] = "|c00A8F13A[조합식]|r: 키스메[매직] + 루미아[매직] + 요정[일반]\r\
+		t["A0E4"][4][1] = "|c00A8F13A[Combination]|r: 키스메[Magic] + 루미아[Magic] + Fairy[Normal]\r\
 \r\
 [공격속도]: 1.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E5]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E5"][3][1] = "|c00FEE952[유닛 정보]|r - 서니 밀크[레어]";
+		t["A0E5"][3][1] = "|c00FEE952[Unit Information]|r - 서니 밀크[Rare]";
 -- aub1 1
-		t["A0E5"][4][1] = "|c00A8F13A[조합식]|r: 아키 시즈하[매직] + 대요정[매직]\r\
+		t["A0E5"][4][1] = "|c00A8F13A[Combination]|r: 아키 시즈하[Magic] + 대Fairy[Magic]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E6]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E6"][3][1] = "|c00FEE952[유닛 정보]|r - 이나바 테위[레어]";
+		t["A0E6"][3][1] = "|c00FEE952[Unit Information]|r - 이나바 테위[Rare]";
 -- aub1 1
-		t["A0E6"][4][1] = "|c00A8F13A[조합식]|r: 자코[일반] + 와카사기히메[매직] + 리글 나이트버그[매직]\r\
+		t["A0E6"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + 와카사기히메[Magic] + 리글 나이트버그[Magic]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E7]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E7"][3][1] = "|c00FEE952[유닛 정보]|r - 코치야 사나에[레어]";
+		t["A0E7"][3][1] = "|c00FEE952[Unit Information]|r - 코치야 사나에[Rare]";
 -- aub1 1
-		t["A0E7"][4][1] = "|c00A8F13A[조합식]|r: 벤토라 그린[레어] + 아키 시즈하[매직]\r\
+		t["A0E7"][4][1] = "|c00A8F13A[Combination]|r: UFO 그린[Rare] + 아키 시즈하[Magic]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E8]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E8"][3][1] = "|c00FEE952[유닛 정보]|r - 타타라 코가사[레어]";
+		t["A0E8"][3][1] = "|c00FEE952[Unit Information]|r - 타타라 코가사[Rare]";
 -- aub1 1
-		t["A0E8"][4][1] = "|c00A8F13A[조합식]|r: 카와시로 니토리[매직] + 도깨비[일반] + 벤토라[일반]\r\
+		t["A0E8"][4][1] = "|c00A8F13A[Combination]|r: 카와시로 니토리[Magic] + 도깨비[Normal] + UFO[Normal]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0E9]
 -- arac
 -- anam
 -- atp1 1
-		t["A0E9"][3][1] = "|c00FEE952[유닛 정보]|r - 오린[레어]";
+		t["A0E9"][3][1] = "|c00FEE952[Unit Information]|r - 오린[Rare]";
 -- aub1 1
-		t["A0E9"][4][1] = "|c00A8F13A[조합식]|r: 키스메[매직] + 소악마[매직] + 도깨비[일반]\r\
+		t["A0E9"][4][1] = "|c00A8F13A[Combination]|r: 키스메[Magic] + Small Devil[Magic] + 도깨비[Normal]\r\
 \r\
 [공격속도]: 1.25초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EA]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EA"][3][1] = "|c00FEE952[유닛 정보]|r - 미야코 요시카[레어]";
+		t["A0EA"][3][1] = "|c00FEE952[Unit Information]|r - 미야코 요시카[Rare]";
 -- aub1 1
-		t["A0EA"][4][1] = "|c00A8F13A[조합식]|r: 소신령[매직] + 리글 나이트버그[매직] + 도깨비[일반]\r\
+		t["A0EA"][4][1] = "|c00A8F13A[Combination]|r: 소신령[Magic] + 리글 나이트버그[Magic] + 도깨비[Normal]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EB]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EB"][3][1] = "|c00FEE952[유닛 정보]|r - 이누바시리 모미지[레어]";
+		t["A0EB"][3][1] = "|c00FEE952[Unit Information]|r - 이누바시리 모미지[Rare]";
 -- aub1 1
-		t["A0EB"][4][1] = "|c00A8F13A[조합식]|r: 카와시로 니토리[매직] + 아키 시즈하[매직] + 캇파[일반]\r\
+		t["A0EB"][4][1] = "|c00A8F13A[Combination]|r: 카와시로 니토리[Magic] + 아키 시즈하[Magic] + Kappa[Normal]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EC]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EC"][3][1] = "|c00FEE952[유닛 정보]|r - 스타 사파이어[레어]";
+		t["A0EC"][3][1] = "|c00FEE952[Unit Information]|r - 스타 사파이어[Rare]";
 -- aub1 1
-		t["A0EC"][4][1] = "|c00A8F13A[조합식]|r: 와카사기히메[매직] + 대요정[매직]\r\
+		t["A0EC"][4][1] = "|c00A8F13A[Combination]|r: 와카사기히메[Magic] + 대Fairy[Magic]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0ED]
 -- arac
 -- anam
 -- atp1 1
-		t["A0ED"][3][1] = "|c00FEE952[유닛 정보]|r - 치르노[레어]";
+		t["A0ED"][3][1] = "|c00FEE952[Unit Information]|r - 치르노[Rare]";
 -- aub1 1
-		t["A0ED"][4][1] = "|c00A8F13A[조합식]|r: 대요정[매직] + 벤토라 블루[레어]\r\
+		t["A0ED"][4][1] = "|c00A8F13A[Combination]|r: 대Fairy[Magic] + UFO 블루[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EE]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EE"][3][1] = "|c00FEE952[유닛 정보]|r - 앨리스 마가트로이드[레어]";
+		t["A0EE"][3][1] = "|c00FEE952[Unit Information]|r - 앨리스 마가트로이드[Rare]";
 -- aub1 1
-		t["A0EE"][4][1] = "|c00A8F13A[조합식]|r: 인간[일반] + 루미아[매직] + 소신령[매직]\r\
+		t["A0EE"][4][1] = "|c00A8F13A[Combination]|r: Human[Normal] + 루미아[Magic] + 소신령[Magic]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EF]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EF"][3][1] = "|c00FEE952[유닛 정보]|r - 미즈하시 파르시[레어]";
+		t["A0EF"][3][1] = "|c00FEE952[Unit Information]|r - 미즈하시 파르시[Rare]";
 -- aub1 1
-		t["A0EF"][4][1] = "|c00A8F13A[조합식]|r: 악마[일반] + 와카사기히메[매직] + 키스메[매직]\r\
+		t["A0EF"][4][1] = "|c00A8F13A[Combination]|r: Devil[Normal] + 와카사기히메[Magic] + 키스메[Magic]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 335\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EG]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EG"][3][1] = "|c00FEE952[유닛 정보]|r - 릴리 화이트[레어]";
+		t["A0EG"][3][1] = "|c00FEE952[Unit Information]|r - 릴리 화이트[Rare]";
 -- aub1 1
-		t["A0EG"][4][1] = "|c00A8F13A[조합식]|r: 대요정[매직] + 소신령[매직]\r\
+		t["A0EG"][4][1] = "|c00A8F13A[Combination]|r: 대Fairy[Magic] + 소신령[Magic]\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EH]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EH"][3][1] = "|c00FEE952[유닛 정보]|r - 카소다니 쿄코[레어]";
+		t["A0EH"][3][1] = "|c00FEE952[Unit Information]|r - 카소다니 쿄코[Rare]";
 -- aub1 1
-		t["A0EH"][4][1] = "|c00A8F13A[조합식]|r: 소신령[매직] + 키스메[매직] + 자코[일반]\r\
+		t["A0EH"][4][1] = "|c00A8F13A[Combination]|r: 소신령[Magic] + 키스메[Magic] + Zako[Normal]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EI]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EI"][3][1] = "|c00FEE952[유닛 정보]|r - 하쿠레이 레이무[레어]";
+		t["A0EI"][3][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 레이무[Rare]";
 -- aub1 1
-		t["A0EI"][4][1] = "|c00A8F13A[조합식]|r: 아키 시즈하[매직] + 벤토라 레드[레어]\r\
+		t["A0EI"][4][1] = "|c00A8F13A[Combination]|r: 아키 시즈하[Magic] + UFO 레드[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 		t["A0EI"][5][1] = "Icon\\Unit\\BTNReimu_Rare.blp";
 -- [A0EJ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EJ"][3][1] = "|c00FEE952[유닛 정보]|r - 홍 메이링[레어]";
+		t["A0EJ"][3][1] = "|c00FEE952[Unit Information]|r - 홍 메이링[Rare]";
 -- aub1 1
-		t["A0EJ"][4][1] = "|c00A8F13A[조합식]|r: 소악마[매직] + 리글 나이트버그[매직] + 도깨비[일반]\r\
+		t["A0EJ"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + 리글 나이트버그[Magic] + 도깨비[Normal]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EK]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EK"][3][1] = "|c00FEE952[유닛 정보]|r - 미스티아 로렐라이[레어]";
+		t["A0EK"][3][1] = "|c00FEE952[Unit Information]|r - 미스티아 로렐라이[Rare]";
 -- aub1 1
-		t["A0EK"][4][1] = "|c00A8F13A[조합식]|r: 리글 나이트버그[매직] + 루미아[매직] + 요정[일반]\r\
+		t["A0EK"][4][1] = "|c00A8F13A[Combination]|r: 리글 나이트버그[Magic] + 루미아[Magic] + Fairy[Normal]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 		t["A0EK"][5][1] = "BTN\\BTNMystia.blp";
 -- [A0EL]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EL"][3][1] = "|c00FEE952[유닛 정보]|r - 루나 차일드[레어]";
+		t["A0EL"][3][1] = "|c00FEE952[Unit Information]|r - 루나 차일드[Rare]";
 -- aub1 1
-		t["A0EL"][4][1] = "|c00A8F13A[조합식]|r: 대요정[매직]  +리글 나이트버그[매직] \r\
+		t["A0EL"][4][1] = "|c00A8F13A[Combination]|r: 대Fairy[Magic]  +리글 나이트버그[Magic] \r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EM]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EM"][3][1] = "|c00FEE952[유닛 정보]|r - 루나사 프리즘리버[레어]";
+		t["A0EM"][3][1] = "|c00FEE952[Unit Information]|r - 루나사 프리즘리버[Rare]";
 -- aub1 1
-		t["A0EM"][4][1] = "|c00A8F13A[조합식]|r: 벤토라 레드[레어] + 혼령[일반]\r\
+		t["A0EM"][4][1] = "|c00A8F13A[Combination]|r: UFO 레드[Rare] + Spirit[Normal]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EN]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EN"][3][1] = "|c00FEE952[유닛 정보]|r - 리리카 프리즘리버[레어]";
+		t["A0EN"][3][1] = "|c00FEE952[Unit Information]|r - 리리카 프리즘리버[Rare]";
 -- aub1 1
-		t["A0EN"][4][1] = "|c00A8F13A[조합식]|r: 벤토라 그린[레어] + 혼령[일반]\r\
+		t["A0EN"][4][1] = "|c00A8F13A[Combination]|r: UFO 그린[Rare] + Spirit[Normal]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EO]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EO"][3][1] = "|c00FEE952[유닛 정보]|r - 메를랑 프리즘리버[레어]";
+		t["A0EO"][3][1] = "|c00FEE952[Unit Information]|r - 메를랑 프리즘리버[Rare]";
 -- aub1 1
-		t["A0EO"][4][1] = "|c00A8F13A[조합식]|r: 벤토라 블루[레어] + 혼령[일반]\r\
+		t["A0EO"][4][1] = "|c00A8F13A[Combination]|r: UFO 블루[Rare] + Spirit[Normal]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EP]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EP"][3][1] = "|c00FEE952[유닛 정보]|r - 이자요이 사쿠야[레어]";
+		t["A0EP"][3][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Rare]";
 -- aub1 1
-		t["A0EP"][4][1] = "|c00A8F13A[조합식]|r: 소악마[매직] + 소신령[매직] + 인간[일반]\r\
+		t["A0EP"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + 소신령[Magic] + Human[Normal]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EQ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EQ"][3][1] = "|c00FEE952[유닛 정보]|r - 파츄리 널릿지[레어]";
+		t["A0EQ"][3][1] = "|c00FEE952[Unit Information]|r - 파츄리 널릿지[Rare]";
 -- aub1 1
-		t["A0EQ"][4][1] = "|c00A8F13A[조합식]|r: 소악마[매직] + 벤토라[일반] + 요정[일반]\r\
+		t["A0EQ"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + UFO[Normal] + Fairy[Normal]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 365\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0ER]
 -- arac
 -- anam
 -- atp1 1
-		t["A0ER"][3][1] = "|c00FEE952[유닛 정보]|r - 키리사메 마리사[팔괘로]";
+		t["A0ER"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[팔괘로]";
 -- aub1 1
-		t["A0ER"][4][1] = "|c00A8F13A[조합식]|r: 키리사메 마리사[레어] + 파츄리 나우릿지[레어] + 앨리스 마가트로이드[레어]\r\
+		t["A0ER"][4][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Rare] + 파츄리 나우릿지[Rare] + 앨리스 마가트로이드[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0CR]
 -- anam
@@ -13367,375 +13367,375 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0ET"][3][1] = "|c00FEE952[유닛 정보]|r - 사이교우지 유유코[유니크]";
+		t["A0ET"][3][1] = "|c00FEE952[Unit Information]|r - 사이교우지 유유코[Unique]";
 -- aub1 1
-		t["A0ET"][4][1] = "|c00A8F13A[조합식]|r: 콘파쿠 요우무[레어] + 미스티아 로렐라이[레어] + 미야코 요시카[레어]\r\
+		t["A0ET"][4][1] = "|c00A8F13A[Combination]|r: 콘파쿠 요우무[Rare] + 미스티아 로렐라이[Rare] + 미야코 요시카[Rare]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EU]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EU"][3][1] = "|c00FEE952[유닛 정보]|r - 오노즈카 코마치[유니크]";
+		t["A0EU"][3][1] = "|c00FEE952[Unit Information]|r - 오노즈카 코마치[Unique]";
 -- aub1 1
-		t["A0EU"][4][1] = "|c00A8F13A[조합식]|r: 아키 미노리코[레어] + 콘파쿠 요우무[레어] + 미즈하시 파르시[레어]\r\
+		t["A0EU"][4][1] = "|c00A8F13A[Combination]|r: 아키 미노리코[Rare] + 콘파쿠 요우무[Rare] + 미즈하시 파르시[Rare]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EV]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EV"][3][1] = "|c00FEE952[유닛 정보]|r - 나가에 이쿠[유니크]";
+		t["A0EV"][3][1] = "|c00FEE952[Unit Information]|r - 나가에 이쿠[Unique]";
 -- aub1 1
-		t["A0EV"][4][1] = "|c00A8F13A[조합식]|r: 써니 밀크[레어] + 타타라 코가사[레어] + 코치야 사나에[레어] + 벤토라 블루[레어]\r\
+		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: 써니 밀크[Rare] + 타타라 코가사[Rare] + 코치야 사나에[Rare] + UFO 블루[Rare]\r\
 \r\
 [공격속도]: 0.95초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EW]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EW"][3][1] = "|c00FEE952[유닛 정보]|r - 루미아 EX[유니크]";
+		t["A0EW"][3][1] = "|c00FEE952[Unit Information]|r - 루미아 EX[Unique]";
 -- aub1 1
-		t["A0EW"][4][1] = "|c00A8F13A[조합식]|r: 루미아[매직] + 루미아[매직] + 치르노[레어] + 미스티아 로렐라이[레어]\r\
+		t["A0EW"][4][1] = "|c00A8F13A[Combination]|r: 루미아[Magic] + 루미아[Magic] + 치르노[Rare] + 미스티아 로렐라이[Rare]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EX]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EX"][3][1] = "|c00FEE952[유닛 정보]|r - 레이센 우돈게인 이나바[유니크]";
+		t["A0EX"][3][1] = "|c00FEE952[Unit Information]|r - 레이센 우돈게인 이나바[Unique]";
 -- aub1 1
-		t["A0EX"][4][1] = "|c00A8F13A[조합식]|r: 이나바 테위[레어] + 미스티아 로렐라이[레어] + 콘파쿠 요우무[레어]\r\
+		t["A0EX"][4][1] = "|c00A8F13A[Combination]|r: 이나바 테위[Rare] + 미스티아 로렐라이[Rare] + 콘파쿠 요우무[Rare]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EY]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EY"][3][1] = "|c00FEE952[유닛 정보]|r - 카기야마 히나[유니크]";
+		t["A0EY"][3][1] = "|c00FEE952[Unit Information]|r - 카기야마 히나[Unique]";
 -- aub1 1
-		t["A0EY"][4][1] = "|c00A8F13A[조합식]|r: 이누바시리 모미지[레어] + 쿠로다니 야마메[레어] + 이나바 테위[레어]\r\
+		t["A0EY"][4][1] = "|c00A8F13A[Combination]|r: 이누바시리 모미지[Rare] + 쿠로다니 야마메[Rare] + 이나바 테위[Rare]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0EZ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EZ"][3][1] = "|c00FEE952[유닛 정보]|r - 쿠모이 이치린[유니크]";
+		t["A0EZ"][3][1] = "|c00FEE952[Unit Information]|r - 쿠모이 이치린[Unique]";
 -- aub1 1
-		t["A0EZ"][4][1] = "|c00A8F13A[조합식]|r: 타타라 코가사[레어] + 오쿠[레어] + 스타 사파이어[레어]\r\
+		t["A0EZ"][4][1] = "|c00A8F13A[Combination]|r: 타타라 코가사[Rare] + 오쿠[Rare] + 스타 사파이어[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F0]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F0"][3][1] = "|c00FEE952[유닛 정보]|r - Sㅏ나에[유니크]";
+		t["A0F0"][3][1] = "|c00FEE952[Unit Information]|r - Sㅏ나에[Unique]";
 -- aub1 1
-		t["A0F0"][4][1] = "|c00A8F13A[조합식]|r: 코치야 사나에[레어] + 아키 미노리코[레어] + 타타라 코가사[레어] + 벤토라 그린[레어]\r\
+		t["A0F0"][4][1] = "|c00A8F13A[Combination]|r: 코치야 사나에[Rare] + 아키 미노리코[Rare] + 타타라 코가사[Rare] + UFO 그린[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F1]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F1"][3][1] = "|c00FEE952[유닛 정보]|r - 첸[유니크]";
+		t["A0F1"][3][1] = "|c00FEE952[Unit Information]|r - 첸[Unique]";
 -- aub1 1
-		t["A0F1"][4][1] = "|c00A8F13A[조합식]|r: 오린[레어] + 카소다니 쿄코[레어] + 써니 밀크[레어]\r\
+		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: 오린[Rare] + 카소다니 쿄코[Rare] + 써니 밀크[Rare]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F2]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F2"][3][1] = "|c00FEE952[유닛 정보]|r - 카엔뵤 린[유니크]";
+		t["A0F2"][3][1] = "|c00FEE952[Unit Information]|r - 카엔뵤 린[Unique]";
 -- aub1 1
-		t["A0F2"][4][1] = "|c00A8F13A[조합식]|r: 오린[레어] + 쿠로다니 야마메[레어] + 하쿠레이 레이무[레어]\r\
+		t["A0F2"][4][1] = "|c00A8F13A[Combination]|r: 오린[Rare] + 쿠로다니 야마메[Rare] + 하쿠레이 레이무[Rare]\r\
 \r\
 [공격속도]: 1.05초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F3]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F3"][3][1] = "|c00FEE952[유닛 정보]|r - 카쿠 세이가[유니크]";
+		t["A0F3"][3][1] = "|c00FEE952[Unit Information]|r - 카쿠 세이가[Unique]";
 -- aub1 1
-		t["A0F3"][4][1] = "|c00A8F13A[조합식]|r: 미야코 요시카[레어] + 오린[레어] + 세키반키[레어]\r\
+		t["A0F3"][4][1] = "|c00A8F13A[Combination]|r: 미야코 요시카[Rare] + 오린[Rare] + 세키반키[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F4]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F4"][3][1] = "|c00FEE952[유닛 정보]|r - 이부키 스이카[유니크]";
+		t["A0F4"][3][1] = "|c00FEE952[Unit Information]|r - 이부키 스이카[Unique]";
 -- aub1 1
-		t["A0F4"][4][1] = "|c00A8F13A[조합식]|r: 하쿠레이 레이무[레어] + 미스티아 로렐라이[레어] + 홍 메이린[레어]\r\
+		t["A0F4"][4][1] = "|c00A8F13A[Combination]|r: 하쿠레이 레이무[Rare] + 미스티아 로렐라이[Rare] + 홍 메이린[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F5]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F5"][3][1] = "|c00FEE952[유닛 정보]|r - 히메카이도 하타테[유니크]";
+		t["A0F5"][3][1] = "|c00FEE952[Unit Information]|r - 히메카이도 하타테[Unique]";
 -- aub1 1
-		t["A0F5"][4][1] = "|c00A8F13A[조합식]|r: 이누바시리 모미지[레어] + 코치야 사나에[레어] + 아키 미노리코[레어]\r\
+		t["A0F5"][4][1] = "|c00A8F13A[Combination]|r: 이누바시리 모미지[Rare] + 코치야 사나에[Rare] + 아키 미노리코[Rare]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 330\r\
-|c00F8BA54[업그레이드]|r : 유니크 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 유닛 업그레이드";
 -- aart
 -- [A0F6]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F6"][3][1] = "|c00FEE952[유닛 정보]|r - 호시구마 유기[유니크]";
+		t["A0F6"][3][1] = "|c00FEE952[Unit Information]|r - 호시구마 유기[Unique]";
 -- aub1 1
-		t["A0F6"][4][1] = "|c00A8F13A[조합식]|r: 미즈하시 파르시[레어] + 쿠로다니 야마메[레어] + 키스메[매직] + 벤토라 레드[레어]\r\
+		t["A0F6"][4][1] = "|c00A8F13A[Combination]|r: 미즈하시 파르시[Rare] + 쿠로다니 야마메[Rare] + 키스메[Magic] + UFO 레드[Rare]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F7]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F7"][3][1] = "|c00FEE952[유닛 정보]|r - 우사미 렌코[유니크]";
+		t["A0F7"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 렌코[Unique]";
 -- aub1 1
-		t["A0F7"][4][1] = "|c00A8F13A[조합식]|r: 스타 사파이어[레어] + 이자요이 사쿠야[레어] + 루나 차일드[레어] + 벤토라[일반]\r\
+		t["A0F7"][4][1] = "|c00A8F13A[Combination]|r: 스타 사파이어[Rare] + 이자요이 사쿠야[Rare] + 루나 차일드[Rare] + UFO[Normal]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F8]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F8"][3][1] = "|c00FEE952[유닛 정보]|r - 레티 화이트락[유니크]";
+		t["A0F8"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Unique]";
 -- aub1 1
-		t["A0F8"][4][1] = "|c00A8F13A[조합식]|r: 치르노[레어] + 릴리 화이트[레어] + 아키 미노리코[레어]\r\
+		t["A0F8"][4][1] = "|c00A8F13A[Combination]|r: 치르노[Rare] + 릴리 화이트[Rare] + 아키 미노리코[Rare]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0F9]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F9"][3][1] = "|c00FEE952[유닛 정보]|r - 치르노[마이너스 K]";
+		t["A0F9"][3][1] = "|c00FEE952[Unit Information]|r - 치르노[마이너스 K]";
 -- aub1 1
-		t["A0F9"][4][1] = "|c00A8F13A[조합식]|r: 치르노[레어] + 오쿠[레어] + 홍 메이린[레어]\r\
+		t["A0F9"][4][1] = "|c00A8F13A[Combination]|r: 치르노[Rare] + 오쿠[Rare] + 홍 메이린[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FA]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FA"][3][1] = "|c00FEE952[유닛 정보]|r - 소가노 토지코[유니크]";
+		t["A0FA"][3][1] = "|c00FEE952[Unit Information]|r - 소가노 토지코[Unique]";
 -- aub1 1
-		t["A0FA"][4][1] = "|c00A8F13A[조합식]|r: 카소다니 쿄코[레어] + 콘파쿠 요우무[레어] + 미야코 요시카[레어]\r\
+		t["A0FA"][4][1] = "|c00A8F13A[Combination]|r: 카소다니 쿄코[Rare] + 콘파쿠 요우무[Rare] + 미야코 요시카[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FB]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FB"][3][1] = "앨리스 마가트로이드[인형재판] 조합식";
+		t["A0FB"][3][1] = "앨리스 마가트로이드[인형재판] Combination";
 -- aub1 1
-		t["A0FB"][4][1] = "|c00A8F13A[조합식]|r: 앨리스 마가트로이드[레어] + 키리사메 마리사[레어] + 파츄리 나우릿지[레어]\r\
+		t["A0FB"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + 키리사메 마리사[Rare] + 파츄리 나우릿지[Rare]\r\
 \r\
 [공격속도]: 1.05초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FC]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FC"][3][1] = "|c00FEE952[유닛 정보]|r - 릴리 블랙[유니크]";
+		t["A0FC"][3][1] = "|c00FEE952[Unit Information]|r - 릴리 블랙[Unique]";
 -- aub1 1
-		t["A0FC"][4][1] = "|c00A8F13A[조합식]|r: 릴리 화이트[레어] + 치르노[레어] + 카소다니 쿄코[레어]\r\
+		t["A0FC"][4][1] = "|c00A8F13A[Combination]|r: 릴리 화이트[Rare] + 치르노[Rare] + 카소다니 쿄코[Rare]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FD]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FD"][3][1] = "|c00FEE952[유닛 정보]|r - 하쿠레이 레이무[유니크]";
+		t["A0FD"][3][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 레이무[Unique]";
 -- aub1 1
-		t["A0FD"][4][1] = "|c00A8F13A[조합식]|r: 하쿠레이 레이무[레어] + 키리사메 마리사[레어] + 이자요이 사쿠야[레어]\r\
+		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: 하쿠레이 레이무[Rare] + 키리사메 마리사[Rare] + 이자요이 사쿠야[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FE]
 -- arac
 -- anam
-		t["A0FE"][2][1] = "[레전더리_유닛 정보]";
+		t["A0FE"][2][1] = "[Legendary_Unit Information]";
 -- atp1 1
-		t["A0FE"][3][1] = "|c00FEE952[유닛 정보]|r - 샤메이마루 아야[레전더리]";
+		t["A0FE"][3][1] = "|c00FEE952[Unit Information]|r - 샤메이마루 아야[Legendary]";
 -- aub1 1
-		t["A0FE"][4][1] = "|c00A8F13A[조합식]|r: 샤메이마루 아야[에픽] + 이누바시리 모미지[레어] + 카소다니 쿄코[레어] + 유니크 소울 1개\r\
+		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: 샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + 카소다니 쿄코[Rare] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.27초당 1번\r\
 [이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 		t["A0FE"][5][1] = "Icon\\Unit\\BTNAya_Leg.blp";
 -- [A0FF]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FF"][3][1] = "|c00FEE952[유닛 정보]|r - 카미시라사와 케이네[유니크]";
+		t["A0FF"][3][1] = "|c00FEE952[Unit Information]|r - 카미시라사와 케이네[Unique]";
 -- aub1 1
-		t["A0FF"][4][1] = "|c00A8F13A[조합식]|r: 미스티아 로렐라이[레어] + 파츄리 나우릿지[레어] + 이나바 테위[레어]\r\
+		t["A0FF"][4][1] = "|c00A8F13A[Combination]|r: 미스티아 로렐라이[Rare] + 파츄리 나우릿지[Rare] + 이나바 테위[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FG]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FG"][3][1] = "|c00FEE952[유닛 정보]|r - 정체불명[유니크]";
+		t["A0FG"][3][1] = "|c00FEE952[Unit Information]|r - 정체불명[Unique]";
 -- aub1 1
-		t["A0FG"][4][1] = "|c00A8F13A[조합식]|r: 벤토라 레인보우[레어] + 벤토라 레인보우[레어] + 카와시로 니토리[매직]\r\
+		t["A0FG"][4][1] = "|c00A8F13A[Combination]|r: UFO 레인보우[Rare] + UFO 레인보우[Rare] + 카와시로 니토리[Magic]\r\
 \r\
 [공격속도]: 1.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FH]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FH"][3][1] = "파츄리 널릿지[현자의 돌] 조합식";
+		t["A0FH"][3][1] = "파츄리 널릿지[현자의 돌] Combination";
 -- aub1 1
-		t["A0FH"][4][1] = "|c00A8F13A[조합식]|r: 파츄리 널릿지[레어] + 키리사메 마리사[레어] + 앨리스 마가트로이드[레어]\r\
+		t["A0FH"][4][1] = "|c00A8F13A[Combination]|r: 파츄리 널릿지[Rare] + 키리사메 마리사[Rare] + 앨리스 마가트로이드[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FI]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FI"][3][1] = "|c00FEE952[유닛 정보]|r - 이자요이 사쿠야[유니크]";
+		t["A0FI"][3][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Unique]";
 -- aub1 1
-		t["A0FI"][4][1] = "|c00A8F13A[조합식]|r: 이자요이 사쿠야[레어] + 홍 메이린[레어] + 하쿠레이 레이무[레어]\r\
+		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: 이자요이 사쿠야[Rare] + 홍 메이린[Rare] + 하쿠레이 레이무[Rare]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FJ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FJ"][3][1] = "|c00FEE952[유닛 정보]|r - 나즈린[유니크]";
+		t["A0FJ"][3][1] = "|c00FEE952[Unit Information]|r - 나즈린[Unique]";
 -- aub1 1
-		t["A0FJ"][4][1] = "|c00A8F13A[조합식]|r: 벤토라 레인보우[레어] + 하쿠레이 레이무[레어] + 써니 밀크[레어]\r\
+		t["A0FJ"][4][1] = "|c00A8F13A[Combination]|r: UFO 레인보우[Rare] + 하쿠레이 레이무[Rare] + 써니 밀크[Rare]\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FK]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FK"][3][1] = "|c00FEE952[유닛 정보]|r - 성련선[유니크]";
+		t["A0FK"][3][1] = "|c00FEE952[Unit Information]|r - 성련선[Unique]";
 -- aub1 1
-		t["A0FK"][4][1] = "|c00A8F13A[조합식]|r: 타타라 코가사[레어] + 릴리 화이트[레어] + 코치야 사나에[레어] + 벤토라 레드[레어]\r\
+		t["A0FK"][4][1] = "|c00A8F13A[Combination]|r: 타타라 코가사[Rare] + 릴리 화이트[Rare] + 코치야 사나에[Rare] + UFO 레드[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FL]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FL"][3][1] = "|c00FEE952[유닛 정보]|r - 레이라 프리즘리버[유니크]";
+		t["A0FL"][3][1] = "|c00FEE952[Unit Information]|r - 레이라 프리즘리버[Unique]";
 -- aub1 1
-		t["A0FL"][4][1] = "|c00A8F13A[조합식]|r: 루나사 프리즘리버[레어] + 멜란 프리즘리버[레어] + 리리카 프리즘리버[레어] + 소신령[매직]\r\
+		t["A0FL"][4][1] = "|c00A8F13A[Combination]|r: 루나사 프리즘리버[Rare] + 멜란 프리즘리버[Rare] + 리리카 프리즘리버[Rare] + 소신령[Magic]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0FM]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FM"][3][1] = "|c00FEE952[유닛 정보]|r - 레이우지 우츠호[에픽]";
+		t["A0FM"][3][1] = "|c00FEE952[Unit Information]|r - 레이우지 우츠호[Epic]";
 -- aub1 1
-		t["A0FM"][4][1] = "|c00A8F13A[조합식]|r: 카엔뵤우 린[유니크] + 키리사메 마리사[유니크] + 치르노[유니크]\r\
+		t["A0FM"][4][1] = "|c00A8F13A[Combination]|r: 카엔뵤우 린[Unique] + 키리사메 마리사[Unique] + 치르노[Unique]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드";
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
 -- aart
 -- [A0FN]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FN"][3][1] = "|c00FEE952[유닛 정보]|r - 사이교우지 유유코[반혼접][에픽]";
+		t["A0FN"][3][1] = "|c00FEE952[Unit Information]|r - 사이교우지 유유코[반혼접][Epic]";
 -- aub1 1
-		t["A0FN"][4][1] = "|c00A8F13A[조합식]|r: 사이교우지 유유코[유니크] + 오노즈카 코마치[유니크] + 레티 화이트락[유니크]\r\
+		t["A0FN"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Unique] + 오노즈카 코마치[Unique] + 레티 화이트락[Unique]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13743,13 +13743,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FO"][3][1] = "|c00FEE952[유닛 정보]|r - 시키에이키 야마자나두[에픽]";
+		t["A0FO"][3][1] = "|c00FEE952[Unit Information]|r - 시키에이키 야마자나두[Epic]";
 -- aub1 1
-		t["A0FO"][4][1] = "|c00A8F13A[조합식]|r: 오노즈카 코마치[유니크] + 릴리 블랙[유니크] + 레이라 프리즘리버[유니크]\r\
+		t["A0FO"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + 릴리 블랙[Unique] + 레이라 프리즘리버[Unique]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13757,13 +13757,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FP"][3][1] = "|c00FEE952[유닛 정보]|r - 나마즈[에픽]";
+		t["A0FP"][3][1] = "|c00FEE952[Unit Information]|r - 나마즈[Epic]";
 -- aub1 1
-		t["A0FP"][4][1] = "|c00A8F13A[조합식]|r: 나가에 이쿠[유니크] + 이부키 스이카[유니크] + 우사미 렌코[유니크]\r\
+		t["A0FP"][4][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + 이부키 스이카[Unique] + 우사미 렌코[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13771,25 +13771,25 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FQ"][3][1] = "|c00FEE952[유닛 정보]|r - 카미시라사와 케이네 EX[에픽]";
+		t["A0FQ"][3][1] = "|c00FEE952[Unit Information]|r - 카미시라사와 케이네 EX[Epic]";
 -- aub1 1
-		t["A0FQ"][4][1] = "|c00A8F13A[조합식]|r: 카미시라사와 케이네[유니크] + 루미아 EX[유니크] + 파츄리 나우릿지[유니크]\r\
+		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네[Unique] + 루미아 EX[Unique] + 파츄리 나우릿지[Unique]\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드";
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
 -- aart
 -- [A0FR]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FR"][3][1] = "|c00FEE952[유닛 정보]|r - 무라사 미나미츠[에픽]";
+		t["A0FR"][3][1] = "|c00FEE952[Unit Information]|r - 무라사 미나미츠[Epic]";
 -- aub1 1
-		t["A0FR"][4][1] = "|c00A8F13A[조합식]|r: 쿠모이 이치린[유니크] + Sㅏ나에[유니크] + 성련선[유니크]\r\
+		t["A0FR"][4][1] = "|c00A8F13A[Combination]|r: 쿠모이 이치린[Unique] + Sㅏ나에[Unique] + 성련선[Unique]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13797,13 +13797,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FS"][3][1] = "|c00FEE952[유닛 정보]|r - 호라이산 카구야[에픽]";
+		t["A0FS"][3][1] = "|c00FEE952[Unit Information]|r - 호라이산 카구야[Epic]";
 -- aub1 1
-		t["A0FS"][4][1] = "|c00A8F13A[조합식]|r: 레이센 우돈게인 이나바[유니크] + 우사미 렌코[유니크] + 츠쿠모 벤벤[유니크]\r\
+		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 우사미 렌코[Unique] + 츠쿠모 벤벤[Unique]\r\
 \r\
 [공격속도]: 0.76초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13811,13 +13811,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FT"][3][1] = "|c00FEE952[유닛 정보]|r - 야사카 카나코[에픽]";
+		t["A0FT"][3][1] = "|c00FEE952[Unit Information]|r - 야사카 카나코[Epic]";
 -- aub1 1
-		t["A0FT"][4][1] = "|c00A8F13A[조합식]|r: Sㅏ나에[유니크] + 히메카이도 하타테[유니크] + 카기야마 히나[유니크]\r\
+		t["A0FT"][4][1] = "|c00A8F13A[Combination]|r: Sㅏ나에[Unique] + 히메카이도 하타테[Unique] + 카기야마 히나[Unique]\r\
 \r\
 [공격속도]: 0.46초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13826,13 +13826,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FU"][3][1] = "|c00FEE952[유닛 정보]|r - 야쿠모 란[에픽]";
+		t["A0FU"][3][1] = "|c00FEE952[Unit Information]|r - 야쿠모 란[Epic]";
 -- aub1 1
-		t["A0FU"][4][1] = "|c00A8F13A[조합식]|r: 첸[유니크] + 사이교우지 유유코[유니크] + 카엔뵤우 린[유니크]\r\
+		t["A0FU"][4][1] = "|c00A8F13A[Combination]|r: 첸[Unique] + 사이교우지 유유코[Unique] + 카엔뵤우 린[Unique]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13840,13 +13840,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FV"][3][1] = "|c00FEE952[유닛 정보]|r - 코메이지 코이시[에픽]";
+		t["A0FV"][3][1] = "|c00FEE952[Unit Information]|r - 코메이지 코이시[Epic]";
 -- aub1 1
-		t["A0FV"][4][1] = "|c00A8F13A[조합식]|r: 호시구마 유기[유니크] + 카엔뵤우 린[유니크] + 츠쿠모 야츠하시[유니크]\r\
+		t["A0FV"][4][1] = "|c00A8F13A[Combination]|r: 호시구마 유기[Unique] + 카엔뵤우 린[Unique] + 츠쿠모 야츠하시[Unique]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13854,9 +13854,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FW"][3][1] = "|c00FEE952[유닛 정보]|r - 토요사토미미노 미코[크로니클]";
+		t["A0FW"][3][1] = "|c00FEE952[Unit Information]|r - 토요사토미미노 미코[Chronicle]";
 -- aub1 1
-		t["A0FW"][4][1] = "|c00A8F13A[조합식]|r: 후타츠이와 마미조[에픽] + 카기야마 히나[액신] + 마에리베리 한[에픽] + 유니크 소울 2개\r\
+		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.35초당 1번[천상] / 0.4초당 1번[인상]\r\
 [이동속도]: 420\r\
@@ -13866,25 +13866,25 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FX"][3][1] = "|c00FEE952[유닛 정보]|r - 샤메이마루 아야[에픽]";
+		t["A0FX"][3][1] = "|c00FEE952[Unit Information]|r - 샤메이마루 아야[Epic]";
 -- aub1 1
-		t["A0FX"][4][1] = "|c00A8F13A[조합식]|r: 히메카이도 하타테[유니크] + 키리사메 마리사[유니크] + 호시구마 유기[유니크]\r\
+		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + 키리사메 마리사[Unique] + 호시구마 유기[Unique]\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드";
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
 -- aart
 -- [A0FY]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FY"][3][1] = "|c00FEE952[유닛 정보]|r - 비상천칙[에픽]";
+		t["A0FY"][3][1] = "|c00FEE952[Unit Information]|r - 비상천칙[Epic]";
 -- aub1 1
-		t["A0FY"][4][1] = "|c00A8F13A[조합식]|r: 이부키 스이카[유니크] + 호시구마 유기[유니크] + 하쿠레이 레이무[유니크]\r\
+		t["A0FY"][4][1] = "|c00A8F13A[Combination]|r: 이부키 스이카[Unique] + 호시구마 유기[Unique] + 하쿠레이 레이무[Unique]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13892,13 +13892,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FZ"][3][1] = "|c00FEE952[유닛 정보]|r - 마에리베리 한[에픽]";
+		t["A0FZ"][3][1] = "|c00FEE952[Unit Information]|r - 마에리베리 한[Epic]";
 -- aub1 1
-		t["A0FZ"][4][1] = "|c00A8F13A[조합식]|r: 우사미 렌코[유니크] + 정체불명[유니크] + 하쿠레이 레이무[유니크]\r\
+		t["A0FZ"][4][1] = "|c00A8F13A[Combination]|r: 우사미 렌코[Unique] + 정체불명[Unique] + 하쿠레이 레이무[Unique]\r\
 \r\
 [공격속도]: 0.57초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13906,13 +13906,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G0"][3][1] = "|c00FEE952[유닛 정보]|r - 레티 화이트락[에픽]";
+		t["A0G0"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Epic]";
 -- aub1 1
-		t["A0G0"][4][1] = "|c00A8F13A[조합식]|r: 레티 화이트락[유니크] + 치르노[유니크] + 앨리스 마가트로이드[유니크]\r\
+		t["A0G0"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Unique] + 치르노[Unique] + 앨리스 마가트로이드[Unique]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13920,13 +13920,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G1"][3][1] = "|c00FEE952[유닛 정보]|r - 메디슨 멜랑콜리[에픽]";
+		t["A0G1"][3][1] = "|c00FEE952[Unit Information]|r - 메디슨 멜랑콜리[Epic]";
 -- aub1 1
-		t["A0G1"][4][1] = "|c00A8F13A[조합식]|r: 앨리스 마가트로이드[유니크] + 카기야마 히나[유니크] + 첸[유니크]\r\
+		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Unique] + 카기야마 히나[Unique] + 첸[Unique]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13934,13 +13934,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G2"][3][1] = "|c00FEE952[유닛 정보]|r - 모노노베노 후토[에픽]";
+		t["A0G2"][3][1] = "|c00FEE952[Unit Information]|r - 모노노베노 후토[Epic]";
 -- aub1 1
-		t["A0G2"][4][1] = "|c00A8F13A[조합식]|r: 소가노 토지코[유니크] + 성련선[유니크] + 카쿠 세이가[유니크]\r\
+		t["A0G2"][4][1] = "|c00A8F13A[Combination]|r: 소가노 토지코[Unique] + 성련선[Unique] + 카쿠 세이가[Unique]\r\
 \r\
 [공격속도]: 0.58초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13948,13 +13948,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G4"][3][1] = "|c00FEE952[유닛 정보]|r - 후지와라노 모코우[에픽]";
+		t["A0G4"][3][1] = "|c00FEE952[Unit Information]|r - 후지와라노 모코우[Epic]";
 -- aub1 1
-		t["A0G4"][4][1] = "|c00A8F13A[조합식]|r: 카미시라사와 케이네[유니크] + 레이센 우돈게인 이나바[유니크] + 이자요이 사쿠야[유니크]\r\
+		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네[Unique] + 레이센 우돈게인 이나바[Unique] + 이자요이 사쿠야[Unique]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13962,13 +13962,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G5"][3][1] = "|c00FEE952[유닛 정보]|r - 호쥬 누에[에픽]";
+		t["A0G5"][3][1] = "|c00FEE952[Unit Information]|r - 호쥬 누에[Epic]";
 -- aub1 1
-		t["A0G5"][4][1] = "|c00A8F13A[조합식]|r: 정체불명[유니크] + 나즈린[유니크] + 루미아 EX[유니크]\r\
+		t["A0G5"][4][1] = "|c00A8F13A[Combination]|r: 정체불명[Unique] + 나즈린[Unique] + 루미아 EX[Unique]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -13976,13 +13976,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G6"][3][1] = "|c00FEE952[유닛 정보]|r - 토라마루 쇼[에픽]";
+		t["A0G6"][3][1] = "|c00FEE952[Unit Information]|r - 토라마루 쇼[Epic]";
 -- aub1 1
-		t["A0G6"][4][1] = "|c00A8F13A[조합식]|r: 나즈린[유니크] + 첸[유니크] + 쿠모이 이치린[유니크]\r\
+		t["A0G6"][4][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + 첸[Unique] + 쿠모이 이치린[Unique]\r\
 \r\
 [공격속도]: 0.62초당 1번\r\
 [이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -14006,13 +14006,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G8"][3][1] = "|c00FEE952[유닛 정보]|r - 레밀리아 스칼렛[에픽]";
+		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Epic]";
 -- aub1 1
-		t["A0G8"][4][1] = "|c00A8F13A[조합식]|r: 파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[유니크] + 이자요이 사쿠야[특제 스톱워치]\r\
+		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: 파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + 이자요이 사쿠야[특제 스톱워치]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -14020,9 +14020,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G9"][3][1] = "|c00FEE952[유닛 정보]|r - 플랑드르 스칼렛[크로니클]";
+		t["A0G9"][3][1] = "|c00FEE952[Unit Information]|r - 플랑드르 스칼렛[Chronicle]";
 -- aub1 1
-		t["A0G9"][4][1] = "|c00A8F13A[조합식]|r: 레밀리아 스칼렛[에픽] + 후지와라노 모코우[에픽] + 유령악단[에픽] + 유니크 소울 2개\r\
+		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.47초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
@@ -14032,9 +14032,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GA"][3][1] = "|c00FEE952[유닛 정보]|r - 히지리 뱌쿠렌[크로니클]";
+		t["A0GA"][3][1] = "|c00FEE952[Unit Information]|r - 히지리 뱌쿠렌[Chronicle]";
 -- aub1 1
-		t["A0GA"][4][1] = "|c00A8F13A[조합식]|r: 토라마루 쇼우[에픽] + 테이레이다 마이[에픽] + 무라사 미나미츠[에픽] + 유니크 소울 2개\r\
+		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: 토라마루 쇼우[Epic] + 테이레이다 마이[Epic] + 무라사 미나미츠[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -14044,13 +14044,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GB"][3][1] = "|c00FEE952[유닛 정보]|r - 후타츠이와 마미조[에픽]";
+		t["A0GB"][3][1] = "|c00FEE952[Unit Information]|r - 후타츠이와 마미조[Epic]";
 -- aub1 1
-		t["A0GB"][4][1] = "|c00A8F13A[조합식]|r: 카쿠 세이가[유니크] + 소가노 토지코[유니크] + 나가에 이쿠[유니크]\r\
+		t["A0GB"][4][1] = "|c00A8F13A[Combination]|r: 카쿠 세이가[Unique] + 소가노 토지코[Unique] + 나가에 이쿠[Unique]\r\
 \r\
 [공격속도]: 0.53초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -14058,9 +14058,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GC"][3][1] = "|c00FEE952[유닛 정보]|r - 카자미 유카[크로니클]";
+		t["A0GC"][3][1] = "|c00FEE952[Unit Information]|r - 카자미 유카[Chronicle]";
 -- aub1 1
-		t["A0GC"][4][1] = "|c00A8F13A[조합식]|r: 시키에이키 야마자나두[에픽] + 메디슨 멜랑콜리[에픽] + 레티 화이트락[에픽] + 유니크 소울 2개\r\
+		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 400\r\
@@ -14070,9 +14070,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GD"][3][1] = "|c00FEE952[유닛 정보]|r - 이바라키 카센[크로니클]";
+		t["A0GD"][3][1] = "|c00FEE952[Unit Information]|r - 이바라키 카센[Chronicle]";
 -- aub1 1
-		t["A0GD"][4][1] = "|c00A8F13A[조합식]|r: 나마즈[에픽] + 비상천칙[에픽] + 모노노베노 후토[에픽] + 유니크 소울 2개\r\
+		t["A0GD"][4][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 비상천칙[Epic] + 모노노베노 후토[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.33초당 1번\r\
 [이동속도]: 450\r\
@@ -14082,9 +14082,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GE"][3][1] = "|c00FEE952[유닛 정보]|r - 야고코로 에이린[크로니클]";
+		t["A0GE"][3][1] = "|c00FEE952[Unit Information]|r - 야고코로 에이린[Chronicle]";
 -- aub1 1
-		t["A0GE"][4][1] = "|c00A8F13A[조합식]|r: 호라이산 카구야[에픽] + 리글 나이트버그[에픽] + 히에다노 아큐[에픽] + 유니크 소울 2개\r\
+		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + 리글 나이트버그[Epic] + 히에다노 아큐[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450\r\
@@ -14094,9 +14094,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GF"][3][1] = "|c00FEE952[유닛 정보]|r - 모리야 스와코[크로니클]";
+		t["A0GF"][3][1] = "|c00FEE952[Unit Information]|r - 모리야 스와코[Chronicle]";
 -- aub1 1
-		t["A0GF"][4][1] = "|c00A8F13A[조합식]|r: 야사카 카나코[에픽] + 샤메이마루 아야[에픽] + 레이우지 우츠호[에픽] + 유니크 소울 2개\r\
+		t["A0GF"][4][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 450\r\
@@ -14106,9 +14106,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GG"][3][1] = "|c00FEE952[유닛 정보]|r - 야쿠모 유카리[크로니클]";
+		t["A0GG"][3][1] = "|c00FEE952[Unit Information]|r - 야쿠모 유카리[Chronicle]";
 -- aub1 1
-		t["A0GG"][4][1] = "|c00A8F13A[조합식]|r: 야쿠모 란[에픽] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 유니크 소울 2개\r\
+		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -14120,9 +14120,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GH"][3][1] = "|c00FEE952[유닛 정보]|r - 코메이지 사토리[크로니클]";
+		t["A0GH"][3][1] = "|c00FEE952[Unit Information]|r - 코메이지 사토리[Chronicle]";
 -- aub1 1
-		t["A0GH"][4][1] = "|c00A8F13A[조합식]|r: 코메이지 코이시[에픽] + 레이우지 우츠호[제어불능] + 시키에이키 야마자나두[에픽] + 유니크 소울 2개\r\
+		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + 레이우지 우츠호[제어불능] + 시키에이키 야마자나두[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -14351,7 +14351,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GZ"][7][1] = "|c00ffff00테이레이다 마이|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0GZ"][8][1] = "야타데라 나루미[유니크] + 이터니티 라바[유니크] + 레티 화이트락[유니크]";
+		t["A0GZ"][8][1] = "야타데라 나루미[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]";
 -- aart
 		t["A0GZ"][9][1] = "BTN\\BTNMai.blp";
 -- alig
@@ -14360,7 +14360,7 @@ TPT_abilities_loader = function(t)
 -- ahky
 -- [A0H0]
 -- anam
-		t["A0H0"][1][1] = "[판타즘,히스토릭 오라]-bora-,";
+		t["A0H0"][1][1] = "[Phantasm,Historic 오라]-bora-,";
 -- arac
 -- atat
 		t["A0H0"][3][1] = "gate keeper.mdx";
@@ -14547,13 +14547,13 @@ TPT_abilities_loader = function(t)
 -- anam
 -- aart
 -- atp1 1
-		t["A0HJ"][4][1] = "|c00FEE952[유닛 정보]|r - 테이레이다 마이[에픽]";
+		t["A0HJ"][4][1] = "|c00FEE952[Unit Information]|r - 테이레이다 마이[Epic]";
 -- aub1 1
-		t["A0HJ"][5][1] = "|c00A8F13A[조합식]|r: 야타데라 나루미[유니크] + 이터니티 라바[유니크] + 레티 화이트락[유니크]\r\
+		t["A0HJ"][5][1] = "|c00A8F13A[Combination]|r: 야타데라 나루미[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 365\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- [A09V]
@@ -14655,12 +14655,12 @@ TPT_abilities_loader = function(t)
 -- atp1 6
 -- aub1 1
 		t["A0HV"][20][1] = "*대상 유닛을 즉사시킵니다.\r\
-[오노즈카 코마치[레전더리] 조합시 쿨다운이 15초로 감소합니다.]\r\
-*매 7라운드마다 혼령을 1기 지급받습니다.\r\
+[오노즈카 코마치[Legendary] 조합시 쿨다운이 15초로 감소합니다.]\r\
+*매 7라운드마다 Spirit을 1기 지급받습니다.\r\
 *쿨다운 25초";
 -- aub1 2
 		t["A0HV"][21][1] = "*대상 유닛을 즉사시킵니다.\r\
-*매 7라운드마다 혼령을 1기 지급받습니다.\r\
+*매 7라운드마다 Spirit을 1기 지급받습니다.\r\
 *쿨다운 18초";
 -- aub1 3
 		t["A0HV"][22][1] = "적에게 그물을 날려 2.6초간 이동을 방지합니다. 마나 소모 6. 쿨타임 17초.";
@@ -14711,7 +14711,7 @@ TPT_abilities_loader = function(t)
 		t["A0HW"][25][1] = "stand";
 -- [A0HX]
 -- anam
-		t["A0HX"][1][1] = "[판타즘][빙어]";
+		t["A0HX"][1][1] = "[Phantasm][빙어]";
 -- atp1 1
 		t["A0HX"][2][1] = "『피할 수 없는 꼬리지느러미』";
 -- aub1 1
@@ -14786,14 +14786,14 @@ TPT_abilities_loader = function(t)
 -- [A076]
 -- arac
 -- atp1 1
-		t["A076"][2][1] = "|c00FEE952[유닛 정보]|r - 아키 미노리코[아르카나]";
+		t["A076"][2][1] = "|c00FEE952[Unit Information]|r - 아키 미노리코[Arcana]";
 -- aub1 1
-		t["A076"][3][1] = "|c00A8F13A[조합식]|r: 나즈린[유니크] + 카소다니 쿄코[레어] + 아키 미노리코[레어] + 신비술사의 고서\r\
+		t["A076"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + 카소다니 쿄코[Rare] + 아키 미노리코[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 신님이라구?(minoriko arc)\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 유닛 업그레이드";
 -- anam
 -- aart
 		t["A076"][5][1] = "Icon\\Unit\\BTNMinoriko_Arc.blp";
@@ -14865,7 +14865,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0I9"][3][1] = "|c00ffff00이부키 스이카|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0I9"][4][1] = "비상천칙[에픽] + 토키코[에픽] + 야쿠모 란[에픽] + 유니크 소울 2개 = 이부키 스이카[크로니클]";
+		t["A0I9"][4][1] = "비상천칙[Epic] + 토키코[Epic] + 야쿠모 란[Epic] + Unique 소울 2개 = 이부키 스이카[Chronicle]";
 -- abuf 1
 -- aart
 -- alig
@@ -14892,7 +14892,7 @@ TPT_abilities_loader = function(t)
 -- atp1 5
 		t["A0IB"][17][1] = "『역습의 길』- |c009C9CE9『구원자』|r";
 -- aub1 2
-		t["A0IB"][18][1] = "*이 스킬을 사용할 경우 자신 주변 1200범위 내에 있는 레어 등급 이하의 유닛을 포섭합니다. 세이자는 포섭한 유닛의 수에 따라 다음과 같은 효과를 얻습니다. 한번 포섭하면, 다시 이 스킬을 사용할때까지 효과가 지속됩니다. 120초의 쿨다운을 가집니다.\r\
+		t["A0IB"][18][1] = "*이 스킬을 사용할 경우 자신 주변 1200범위 내에 있는 Rare 등급 이하의 유닛을 포섭합니다. 세이자는 포섭한 유닛의 수에 따라 다음과 같은 효과를 얻습니다. 한번 포섭하면, 다시 이 스킬을 사용할때까지 효과가 지속됩니다. 120초의 쿨다운을 가집니다.\r\
 『반역자』[1~10기] : 세이자 주변 750범위 아군의 공격속도를 20% 상승시킵니다. 다른 공격속도 증가 효과와 중첩할 수 있습니다.\r\
 『선구자』[11기~18기] : 세이자 주변 750범위 적군의 방어력을 30 감소시킵니다.\r\
 『계몽가』[19기~50기] : 세이자 주변 750범위 아군의 공격력을 50% 상승시킵니다.\r\
@@ -14980,7 +14980,7 @@ TPT_abilities_loader = function(t)
 		t["A08U"][4][1] = "|c00ffff00히나나위 텐시|r 조합|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
-		t["A08U"][6][1] = "레이우지 우츠호 [핵반응 제어불능] + 나마즈[에픽] + 니시다 사토노[에픽] + 유니크 소울 2개";
+		t["A08U"][6][1] = "레이우지 우츠호 [핵반응 제어불능] + 나마즈[Epic] + 니시다 사토노[Epic] + Unique 소울 2개";
 -- acat
 		t["A08U"][7][1] = "h01S,h00S,ufro,h05U,ehip";
 -- aart
@@ -15088,7 +15088,7 @@ TPT_abilities_loader = function(t)
 *거미가 5기 부화할경우, 데미지 타입이 마법이 아닌 절대 데미지로 적용됩니다.\r\
 *거미 1기당 상수 데미지가 100만씩 증가합니다.[5기 기준 500만]";
 -- anam
-		t["A0IH"][4][1] = "[아르카나][야마메]";
+		t["A0IH"][4][1] = "[Arcana][야마메]";
 -- aart
 		t["A0IH"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNThunderLizardEgg.blp";
 -- atp1 2
@@ -15182,7 +15182,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A0HM"][28][1] = "홍 메이린 + 호시구마 유기 + 이마이즈미 카게로우 + 신비술사의 고서";
 -- aub1 2
-		t["A0HM"][29][1] = "아군 유닛의 '상수' 데미지를 증가시켜주는 『영격』입니다. 크로니클,히스토릭,판타즘 유닛을 조합할 시 수치가 3 상승하고, 레전더리 유닛을 조합할 시 수치가 2 상승합니다. 『영격』충전 수 1당 3%의 상수 데미지가 증가합니다.";
+		t["A0HM"][29][1] = "아군 유닛의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm 유닛을 조합할 시 수치가 3 상승하고, Legendary 유닛을 조합할 시 수치가 2 상승합니다. 『영격』충전 수 1당 3%의 상수 데미지가 증가합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -15191,7 +15191,7 @@ TPT_abilities_loader = function(t)
 -- aub1 8
 -- aub1 9
 -- aub1 10
-		t["A0HM"][37][1] = "아군 유닛의 '상수' 데미지를 증가시켜주는 『영격』입니다. 크로니클,히스토릭,판타즘 유닛을 조합할 시 수치가 3 상승하고, 레전더리 유닛을 조합할 시 수치가 2 상승합니다. 『영격』충전 수 1당 4%의 상수 데미지가 증가합니다.";
+		t["A0HM"][37][1] = "아군 유닛의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm 유닛을 조합할 시 수치가 3 상승하고, Legendary 유닛을 조합할 시 수치가 2 상승합니다. 『영격』충전 수 1당 4%의 상수 데미지가 증가합니다.";
 -- aub1 11
 -- alig
 -- acat
@@ -15201,13 +15201,13 @@ TPT_abilities_loader = function(t)
 -- [A0CS]
 -- anam
 -- atp1 1
-		t["A0CS"][2][1] = "|c00FEE952[유닛 정보]|r - 니시다 사토노[에픽]";
+		t["A0CS"][2][1] = "|c00FEE952[Unit Information]|r - 니시다 사토노[Epic]";
 -- aub1 1
-		t["A0CS"][3][1] = "|c00A8F13A[조합식]|r: 키리사메 마리사[유니크] + 키신 사구메[유니크] + 나즈린[유니크]\r\
+		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Unique] + 키신 사구메[Unique] + 나즈린[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350[공중 이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -15348,7 +15348,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- [A0IT]
 -- anam
-		t["A0IT"][1][1] = "[일반]벤토라";
+		t["A0IT"][1][1] = "[Normal]UFO";
 -- arac
 -- aart
 -- auar
@@ -15405,7 +15405,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- aub1 1
-		t["A0JE"][3][1] = "치르노[마이너스 K] + 테레이다 마이[에픽] + 레밀리아 스칼렛[에픽] + 고대와 환상의 조각 = 쿠루미";
+		t["A0JE"][3][1] = "치르노[마이너스 K] + 테레이다 마이[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각 = 쿠루미";
 -- atp1 1
 		t["A0JE"][4][1] = "|c00ffff00쿠루미|r 조합|c00FF8040[F]|r";
 -- aart
@@ -15603,7 +15603,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0JP"][4][1] = "|c00ffff00니시다 사토노|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0JP"][5][1] = "키리사메 마리사[팔괘로] + 키신 사구메[유니크] + 나즈린[유니크]";
+		t["A0JP"][5][1] = "키리사메 마리사[팔괘로] + 키신 사구메[Unique] + 나즈린[Unique]";
 -- aart
 -- arac
 -- ahky
@@ -15725,14 +15725,14 @@ TPT_abilities_loader = function(t)
 -- Osf1 1
 -- anam
 -- atp1 1
-		t["A0JX"][4][1] = "벤토라 해체|cffffcc00(Q)|r";
+		t["A0JX"][4][1] = "UFO 해체|cffffcc00(Q)|r";
 -- ahky
 -- aart
 		t["A0JX"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNRepair.blp";
 -- aub1 1
-		t["A0JX"][7][1] = "＊컬러 벤토라를 해체합니다. 해체는 5초 동안 진행되며 취소할 수 있습니다.\r\
--레드, 블루, 그린 : 일반 벤토라 획득\r\
--레인보우 : 두 종류의 컬러 벤토라 획득";
+		t["A0JX"][7][1] = "＊컬러 UFO를 해체합니다. 해체는 5초 동안 진행되며 취소할 수 있습니다.\r\
+-레드, 블루, 그린 : Normal UFO 획득\r\
+-레인보우 : 두 종류의 컬러 UFO 획득";
 -- [A0JY]
 -- anam
 -- atp1 1
@@ -15869,7 +15869,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0K8"][9][1] = "『호수의 영혼』|cffffcc00(Q)|r";
 -- aub1 1
-		t["A0K8"][10][1] = "*대상 요정[일반]을 대요정[매직]으로 바꿉니다.\r\
+		t["A0K8"][10][1] = "*대상 Fairy[Normal]을 대Fairy[Magic]으로 바꿉니다.\r\
 *쿨다운 240초";
 -- anam
 		t["A0K8"][11][1] = "[진영]안개의 호수_Q";
@@ -15971,7 +15971,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A0KC"][6][1] = "*카나가 공격시 8% 확률로 자신에게 원혼을 심어 공격속도가 60% 증가합니다.\r\
 *원혼은 6초간 지속되며, 원혼이 지속되는 동안 카나가 공격시 활력 쿨다운이 0.5초씩 감소합니다.\r\
-*원혼 지속시간동안 카나가 『쉐도우 레이즈』를 발동시킬 경우 2% 확률로『꿈의 요정』을 소환합니다. 요상하게 생긴 인간과 같은 효과를 가집니다.";
+*원혼 지속시간동안 카나가 『쉐도우 레이즈』를 발동시킬 경우 2% 확률로『꿈의 Fairy』을 소환합니다. 요상하게 생긴 Human과 같은 효과를 가집니다.";
 -- aart
 -- [A0KD]
 -- anam
@@ -16011,7 +16011,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aart
 -- aub1 1
-		t["A0KF"][5][1] = "캇파 + 요정";
+		t["A0KF"][5][1] = "Kappa + Fairy";
 -- atp1 1
 		t["A0KF"][6][1] = "|c00ffff00와카사기히메|r 조합|c00FF8040[F]|r";
 -- anam
@@ -16055,28 +16055,28 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A05X"][3][1] = "|c00FEE952[유닛 정보]|r - 츠쿠모 야츠하시[유니크]";
+		t["A05X"][3][1] = "|c00FEE952[Unit Information]|r - 츠쿠모 야츠하시[Unique]";
 -- aub1 1
-		t["A05X"][4][1] = "|c00A8F13A[조합식]|r: 리리카 프리즘리버[레어] + 세키반키[레어] + 미즈하시 파르시[레어]\r\
+		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: 리리카 프리즘리버[Rare] + 세키반키[Rare] + 미즈하시 파르시[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 		t["A05X"][5][1] = "BTN\\BTNyatsuhashi.blp";
 -- [A05Y]
 -- anam
 -- arac
 -- atp1 1
-		t["A05Y"][3][1] = "|c00FEE952[유닛 정보]|r - 스타 사파이어[레전더리]";
+		t["A05Y"][3][1] = "|c00FEE952[Unit Information]|r - 스타 사파이어[Legendary]";
 -- aub1 1
-		t["A05Y"][4][1] = "|c00A8F13A[조합식]|r: 리글 나이트버그[에픽]  + 스타 사파이어[레어] + 써니 밀크[레어] + 루나 차일드[레어] + 유니크 소울\r\
+		t["A05Y"][4][1] = "|c00A8F13A[Combination]|r: 리글 나이트버그[Epic]  + 스타 사파이어[Rare] + 써니 밀크[Rare] + 루나 차일드[Rare] + Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드\r\
-|c0097FF2F[조합 시너지]|r말썽쟁이 3요정\r\
--플레이어가 써니 밀크[아르카나]/스타 사파이어[레전더리]/루나 차일드[어센디드]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
+|c0097FF2F[조합 시너지]|r말썽쟁이 3Fairy\r\
+-플레이어가 써니 밀크[Arcana]/스타 사파이어[Legendary]/루나 차일드[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
 -- aart
 -- [A0D0]
 -- atar 1
@@ -16088,7 +16088,7 @@ TPT_abilities_loader = function(t)
 		t["A0D0"][6][1] = "|c00ffff00세키반키|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0D0"][8][1] = "와카사기히메 + 도깨비 + 소악마";
+		t["A0D0"][8][1] = "와카사기히메 + 도깨비 + Small Devil";
 -- ahky
 -- alig
 -- atat
@@ -16127,13 +16127,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0DI"][3][1] = "|c00FEE952[유닛 정보]|r - 키진 세이자[에픽]";
+		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - 키진 세이자[Epic]";
 -- aub1 1
-		t["A0DI"][4][1] = "|c00A8F13A[조합식]|r: 이마이즈미 카게로우[유니크] + 키신 사구메[유니크] + 카쿠 세이가[유니크]\r\
+		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: 이마이즈미 카게로우[Unique] + 키신 사구메[Unique] + 카쿠 세이가[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- aart
@@ -16184,9 +16184,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0DN"][3][1] = "|c00FEE952[유닛 정보]|r - 호리카와 라이코[크로니클]";
+		t["A0DN"][3][1] = "|c00FEE952[Unit Information]|r - 호리카와 라이코[Chronicle]";
 -- aub1 1
-		t["A0DN"][4][1] = "|c00A8F13A[조합식]|r: 스쿠나 신묘마루[에픽] + 토키코[에픽] + 호라이산 카구야[에픽] + 유니크 소울 2개\r\
+		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -16203,7 +16203,7 @@ TPT_abilities_loader = function(t)
 		t["A0GN"][5][1] = "|c00ffff00호리카와 라이코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0GN"][7][1] = "스쿠나 신묘마루[에픽] + 토키코[에픽] + 호라이산 카구야[에픽] + 유니크 소울 2개";
+		t["A0GN"][7][1] = "스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + Unique 소울 2개";
 -- ahky
 -- alig
 -- atat
@@ -16233,9 +16233,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0GP"][3][1] = "|c00FEE952[유닛 정보]|r - 우사미 스미레코[크로니클]";
+		t["A0GP"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 스미레코[Chronicle]";
 -- aub1 1
-		t["A0GP"][4][1] = "|c00A8F13A[조합식]|r: 마에리베리 한[에픽] + 후지와라노 모코우[에픽] + 스쿠나 신묘마루[에픽] + 유니크 소울 2개\r\
+		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -16283,7 +16283,7 @@ TPT_abilities_loader = function(t)
 		t["A0IN"][5][1] = "|c00ffff00우사미 스미레코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0IN"][7][1] = "마에리베리 한[에픽] + 후지와라노 모코우[에픽] + 스쿠나 신묘마루[에픽] + 유니크 소울 2개";
+		t["A0IN"][7][1] = "마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + Unique 소울 2개";
 -- ahky
 -- alig
 -- atat
@@ -16292,13 +16292,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0IO"][3][1] = "|c00FEE952[유닛 정보]|r - 콘파쿠 요우무[레전더리]";
+		t["A0IO"][3][1] = "|c00FEE952[Unit Information]|r - 콘파쿠 요우무[Legendary]";
 -- aub1 1
-		t["A0IO"][4][1] = "|c00A8F13A[조합식]|r: 사이교우지 유유코[반혼접] + 레이라 프리즘리버[유니크] + 유니크 소울\r\
+		t["A0IO"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[반혼접] + 레이라 프리즘리버[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 -- [A0IP]
 -- anam
@@ -16364,7 +16364,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J0"][6][1] = "|c00ffff00카나 아나베랄|r 조합|c00FF8040[F]|r";
 -- aub1 1
-		t["A0J0"][7][1] = "카기야마 히나[액신] + 호우쥬 누에[에픽] + 카쿠 세이가[유니크] + 고대와 환상의 조각";
+		t["A0J0"][7][1] = "카기야마 히나[액신] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각";
 -- ahky
 -- arac
 -- alig
@@ -16448,8 +16448,8 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J2"][2][1] = "루나 컨슘|cffffcc00(D)|r";
 -- aub1 1
-		t["A0J2"][3][1] = "*토요히메가 대상 일반 혹은 매직 유닛의 정기를 달의 기운으로 바꿔 흡수합니다.\r\
-*『광기의 달빛』의 공격속도 증가량이 일반 유닛은 1%, 매직 유닛은 2% 증가합니다.\r\
+		t["A0J2"][3][1] = "*토요히메가 대상 Normal 혹은 Magic 유닛의 정기를 달의 기운으로 바꿔 흡수합니다.\r\
+*『광기의 달빛』의 공격속도 증가량이 Normal 유닛은 1%, Magic 유닛은 2% 증가합니다.\r\
 *쿨다운 16초. \r\
 *공격속도 오라는 최대 20%까지 올릴 수 있습니다.";
 -- atar 1
@@ -16755,13 +16755,13 @@ TPT_abilities_loader = function(t)
 -- ata0
 -- [A0J6]
 -- anam
-		t["A0J6"][2][1] = "[유닛정보][크로니클]";
+		t["A0J6"][2][1] = "[유닛정보][Chronicle]";
 -- aart
 		t["A0J6"][3][1] = "ReplaceableTextures\\CommandButtons\\Sunho\\BTN_UP.blp";
 -- atp1 1
-		t["A0J6"][4][1] = "|c00FEE952[유닛 정보]|r - 순호[크로니클]";
+		t["A0J6"][4][1] = "|c00FEE952[Unit Information]|r - 순호[Chronicle]";
 -- aub1 1
-		t["A0J6"][5][1] = "|c00A8F13A[조합식]|r: 클라운피스[에픽] + 유령악단[에픽] + 헤카티아 라피스라줄리[에픽] + 유니크 소울 2개\r\
+		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 425\r\
@@ -16774,7 +16774,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J7"][5][1] = "|c00ffff00순호|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0J7"][6][1] = "클라운피스[에픽] + 유령악단[에픽] + 헤카티아 라피스라줄리[에픽] + 유니크 소울 2개";
+		t["A0J7"][6][1] = "클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A0J7"][8][1] = "h02Q,h03B,edry,h05U,ehip";
@@ -16865,10 +16865,10 @@ TPT_abilities_loader = function(t)
 -- atp1 2
 -- aub1 1
 		t["A04D"][9][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 11% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 2
 		t["A04D"][10][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 12% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aart
 -- abuf 2
 -- atar 3
@@ -16943,28 +16943,28 @@ TPT_abilities_loader = function(t)
 -- atp1 25
 -- aub1 3
 		t["A04D"][83][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 13% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 4
 		t["A04D"][84][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 14% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 5
 		t["A04D"][85][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 15% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 6
 		t["A04D"][86][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 16% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 7
 		t["A04D"][87][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 17% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 8
 		t["A04D"][88][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 18% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 9
 		t["A04D"][89][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 19% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 10
 		t["A04D"][90][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 20% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
 -- aub1 11
 		t["A04D"][91][1] = "*주변 900범위 아군 유닛의 공격속도를 21% 상승시킵니다.";
 -- aub1 12
@@ -17023,13 +17023,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0J9"][3][1] = "|c00FEE952[유닛 정보]|r - 키신 사구메[유니크]";
+		t["A0J9"][3][1] = "|c00FEE952[Unit Information]|r - 키신 사구메[Unique]";
 -- aub1 1
-		t["A0J9"][4][1] = "|c00A8F13A[조합식]|r: 루나 차일드[레어] + 이나바 테위[레어] + 미즈하시 파르시[레어]\r\
+		t["A0J9"][4][1] = "|c00A8F13A[Combination]|r: 루나 차일드[Rare] + 이나바 테위[Rare] + 미즈하시 파르시[Rare]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- aart
 -- [A0JA]
 -- arac
@@ -17066,9 +17066,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aart
 -- aub1 1
-		t["A02K"][5][1] = "사이교우지 유유코[반혼접] + 레이라 프리즘리버[유니크] + 유니크 소울 1개";
+		t["A02K"][5][1] = "사이교우지 유유코[반혼접] + 레이라 프리즘리버[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A02K"][6][1] = "|c00ffff00콘파쿠 요우무[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A02K"][6][1] = "|c00ffff00콘파쿠 요우무[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A02K"][8][1] = "h03Z,h03O,h05U";
@@ -17084,21 +17084,21 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A05Z"][3][1] = "|c00FEE952[유닛 정보]|r - 레이우지 우츠호[레전더리]";
+		t["A05Z"][3][1] = "|c00FEE952[Unit Information]|r - 레이우지 우츠호[Legendary]";
 -- aub1 1
-		t["A05Z"][4][1] = "|c00A8F13A[조합식]|r: 레이우지 우츠호[에픽] +  카엔뵤우 린[유니크] + 유니크 소울 1개\r\
+		t["A05Z"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 -- [A0G3]
 -- arac
 -- aart
 -- aub1 1
-		t["A0G3"][5][1] = "레이우지 우츠호[에픽] +  카엔뵤우 린[유니크] + 유니크 소울 1개";
+		t["A0G3"][5][1] = "레이우지 우츠호[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0G3"][6][1] = "|c00ffff00레이우지 우츠호[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0G3"][6][1] = "|c00ffff00레이우지 우츠호[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0G3"][8][1] = "h01S,h01G,h05U";
@@ -17149,8 +17149,8 @@ TPT_abilities_loader = function(t)
 		t["A0HD"][4][1] = "창부『큐티 대천창』";
 -- aub1 1
 		t["A0HD"][5][1] = "*앨리스가 공격시 마나를 1 회복합니다. 마나가 105가 됐을때 아래의 효과를 발동합니다.\r\
-*자신의 유닛에 키리사메 마리사[유니크]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
-*자신의 유닛에 파츄리 나우릿지[유니크]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
+*자신의 유닛에 키리사메 마리사[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
+*자신의 유닛에 파츄리 나우릿지[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
 *앨리스가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *총 3초간 지속됩니다.";
 -- [A0JT]
@@ -17181,7 +17181,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A0KN"][5][1] = "*세이란은 보스를 공격할때 공격속도가 200% 증가합니다.\r\
 *보스 공격시 20% 확률로 전체 체력의 3% + 200만의  |c00FF6464물리 데미지|r를 입히고, 2초간 기절시킵니다.\r\
-*세이란이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 일반 유닛을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
+*세이란이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 Normal 유닛을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
 [나즈린 , 성련선]\r\
 [자신 라인의 자경단 미션만 해당됩니다.]";
 -- [A0KO]
@@ -17189,19 +17189,19 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0KO"][4][1] = "|c00FEE952[유닛 정보]|r - 야타데라 나루미[유니크]";
+		t["A0KO"][4][1] = "|c00FEE952[Unit Information]|r - 야타데라 나루미[Unique]";
 -- aub1 1
-		t["A0KO"][5][1] = "|c00A8F13A[조합식]|r: 카소다니 쿄코[레어] + 오린[레어] + 리리카 프리즘리버[레어]\r\
+		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: 카소다니 쿄코[Rare] + 오린[Rare] + 리리카 프리즘리버[Rare]\r\
 \r\
 [공격속도]: 3초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- [A0KP]
 -- aart
 		t["A0KP"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp";
 -- arac
 -- anam
-		t["A0KP"][3][1] = "[레전더리][코마치]";
+		t["A0KP"][3][1] = "[Legendary][코마치]";
 -- atp1 1
 		t["A0KP"][4][1] = "지옥『무간의 틈』";
 -- aub1 1
@@ -17212,9 +17212,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0KQ"][4][1] = "|c00FEE952[유닛 정보]|r - 무게츠[히스토릭]";
+		t["A0KQ"][4][1] = "|c00FEE952[Unit Information]|r - 무게츠[Historic]";
 -- aub1 1
-		t["A0KQ"][5][1] = "|c00A8F13A[조합식]|r: 이자요이 사쿠야[유니크] + 토라마루 쇼[에픽] + 마에리베리 한[에픽] + 고대와 환상의 조각\r\
+		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: 이자요이 사쿠야[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 1.2초당 1번\r\
 [이동속도]: 335\r\
@@ -17233,9 +17233,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A0KR"][4][1] = "Icon\\Unit\\BTNCirno_Leg.blp";
 -- aub1 1
-		t["A0KR"][5][1] = "레티 화이트락[노던 위너] + 치르노[마이너스 K] + 유니크 소울 1개";
+		t["A0KR"][5][1] = "레티 화이트락[노던 위너] + 치르노[마이너스 K] + Unique 소울 1개";
 -- atp1 1
-		t["A0KR"][6][1] = "|c00ffff00치르노[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0KR"][6][1] = "|c00ffff00치르노[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0KR"][8][1] = "h03V,h01M,h05U";
@@ -17251,13 +17251,13 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0KS"][3][1] = "|c00FEE952[유닛 정보]|r - 치르노[레전더리]";
+		t["A0KS"][3][1] = "|c00FEE952[Unit Information]|r - 치르노[Legendary]";
 -- aub1 1
-		t["A0KS"][4][1] = "|c00A8F13A[조합식]|r: 레티 화이트락[노던 위너] + 치르노[마이너스 K] + 유니크 소울\r\
+		t["A0KS"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[노던 위너] + 치르노[마이너스 K] + Unique 소울\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 -- [S003]
 -- atar 1
@@ -17271,7 +17271,7 @@ TPT_abilities_loader = function(t)
 *레밀리아가 공격시 5% 확률로 대상 적의 피를 폭발시켜 주변 450범위내의 적에게 공격한 대상 적의 현재 체력의 0.6% + 230만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *위 효과가 발동할 경우 대상 적 1기의 현재 체력을 절반 감소시킵니다.[보스 미적용]";
 -- anam
-		t["S003"][5][1] = "[아르카나][레밀리아]";
+		t["S003"][5][1] = "[Arcana][레밀리아]";
 -- abuf 1
 		t["S003"][6][1] = "B04T";
 -- atat
@@ -17394,9 +17394,9 @@ TPT_abilities_loader = function(t)
 『맛있는 복숭아』\r\
 \r\
 *토요히메의 여유로움은 주변 800범위 자신 소유 유닛의 공격속도를 20% 상승시킵니다.\r\
-[다른 유니크 이하 등급의 공격속도 증가 오라와 함께 적용되지 않습니다.]";
+[다른 Unique 이하 등급의 공격속도 증가 오라와 함께 적용되지 않습니다.]";
 -- anam
-		t["S005"][5][1] = "[아르카나][토요히메]『바다와 산을 잇는 정도의 능력』";
+		t["S005"][5][1] = "[Arcana][토요히메]『바다와 산을 잇는 정도의 능력』";
 -- abuf 1
 		t["S005"][6][1] = "B03Y";
 -- aart
@@ -18035,9 +18035,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0L5"][3][1] = "|c00FEE952[유닛 정보]|r - 사리엘[히스토릭]";
+		t["A0L5"][3][1] = "|c00FEE952[Unit Information]|r - 사리엘[Historic]";
 -- aub1 1
-		t["A0L5"][4][1] = "|c00A8F13A[조합식]|r: 마에리베리 한[에픽] + 도레미 스위트[에픽] + 우사미 렌코[유니크] + 고대와 환상의 조각\r\
+		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 도레미 스위트[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -18049,7 +18049,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A05O"][4][1] = "ReplaceableTextures\\CommandButtons\\Yumemi\\BTN_UP.blp";
 -- aub1 1
-		t["A05O"][5][1] = "헤카티아 라피스라줄리[에픽] + 토키코[에픽] + 츠쿠모 야츠하시[유니크] + 고대와 환상의 조각 = 오카자키 유메미";
+		t["A05O"][5][1] = "헤카티아 라피스라줄리[Epic] + 토키코[Epic] + 츠쿠모 야츠하시[Unique] + 고대와 환상의 조각 = 오카자키 유메미";
 -- atp1 1
 		t["A05O"][6][1] = "|c00ffff00오카자키 유메미|r 조합|c00FF8040[F]|r";
 -- anam
@@ -18137,14 +18137,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A06U"][4][1] = "|c00FEE952[유닛 정보]|r - 코치야 사나에[아르카나]";
+		t["A06U"][4][1] = "|c00FEE952[Unit Information]|r - 코치야 사나에[Arcana]";
 -- aub1 1
-		t["A06U"][5][1] = "|c00A8F13A[조합식]|r: 야사카 카나코[에픽] + 사나에[유니크] + 유니크 소울 * 2 + 신비술사의 고서\r\
+		t["A06U"][5][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 사나에[Unique] + Unique 소울 * 2 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 기적의 미라클(sanae arc)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- [A0JR]
 -- aart
 -- arac
@@ -18189,22 +18189,22 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0L8"][3][1] = "|c00FEE952[유닛 정보]|r - 레밀리아 스칼렛[레전더리]";
+		t["A0L8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Legendary]";
 -- aub1 1
-		t["A0L8"][4][1] = "|c00A8F13A[조합식]|r: 레밀리아 스칼렛[에픽] + 정체불명[유니크] + 이자요이 사쿠야[레어] + 유니크 소울 1개\r\
+		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 정체불명[Unique] + 이자요이 사쿠야[Rare] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 		t["A0L8"][5][1] = "Icon\\Unit\\BTNRemilia_Leg.blp";
 -- [A0KL]
 -- arac
 -- aart
 -- aub1 1
-		t["A0KL"][5][1] = "레밀리아 스칼렛[에픽] + 정체불명[유니크] + 이자요이 사쿠야[레어] + 유니크 소울 1개";
+		t["A0KL"][5][1] = "레밀리아 스칼렛[Epic] + 정체불명[Unique] + 이자요이 사쿠야[Rare] + Unique 소울 1개";
 -- atp1 1
-		t["A0KL"][6][1] = "|c00ffff00레밀리아 스칼렛[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0KL"][6][1] = "|c00ffff00레밀리아 스칼렛[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0KL"][8][1] = "h00Y,h05U,h01J,h00P";
@@ -18220,7 +18220,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- anam
 -- [A0LB]
 -- anam
-		t["A0LB"][1][1] = "[레전더리 오라]";
+		t["A0LB"][1][1] = "[Legendary 오라]";
 -- arac
 -- atat
 		t["A0LB"][3][1] = "HolyAurora.MDX";
@@ -18247,9 +18247,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A05P"][3][1] = "|c00FEE952[유닛 정보]|r - 오카자키 유메미[히스토릭]";
+		t["A05P"][3][1] = "|c00FEE952[Unit Information]|r - 오카자키 유메미[Historic]";
 -- aub1 1
-		t["A05P"][4][1] = "|c00A8F13A[조합식]|r: 헤카티아 라피스라줄리[에픽] + 토키코[에픽] + 츠쿠모 야츠하시[유니크] + 고대와 환상의 조각\r\
+		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 토키코[Epic] + 츠쿠모 야츠하시[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -18259,7 +18259,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0CN"][5][1] = "마에리베리 한[에픽] + 도레미 스위트[에픽] + 우사미 렌코[유니크] + 고대와 환상의 조각 = 사리엘";
+		t["A0CN"][5][1] = "마에리베리 한[Epic] + 도레미 스위트[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각 = 사리엘";
 -- atp1 1
 		t["A0CN"][6][1] = "|c00ffff00사리엘|r 조합|c00FF8040[F]|r";
 -- anam
@@ -18510,7 +18510,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A09D"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNSlowPoison.blp";
 -- anam
-		t["A09D"][4][1] = "[에픽][레전더리]";
+		t["A09D"][4][1] = "[Epic][Legendary]";
 -- atp1 1
 		t["A09D"][5][1] = "독부『신경의 독』";
 -- aub1 1
@@ -18550,7 +18550,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atar 1
 -- aart
 -- anam
-		t["A026"][4][1] = "[판타즘][빙어]와카사기펀치";
+		t["A026"][4][1] = "[Phantasm][빙어]와카사기펀치";
 -- atp1 1
 		t["A026"][5][1] = "『머메이드 펀치』";
 -- aub1 1
@@ -18599,7 +18599,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *전방 900거리 250범위 내에 있는 적에게 185만의 |c00379BFF마법 데미지|r를 입히고 받는 마법 데미지를 15% 증폭시킵니다.\r\
 *기본적으로 시키 주변 750범위 내에 있는 자신 소유 유닛의 공격속도를 17% 상승시킵니다.";
 -- anam
-		t["S007"][5][1] = "[아르카나][시키]텅 오브 울프";
+		t["S007"][5][1] = "[Arcana][시키]텅 오브 울프";
 -- abuf 1
 		t["S007"][6][1] = "B038";
 -- aart
@@ -18609,15 +18609,15 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0AE"][3][1] = "|c00FEE952[유닛 정보]|r - 레이센 우동게인 이나바[레전더리]";
+		t["A0AE"][3][1] = "|c00FEE952[Unit Information]|r - 레이센 우동게인 이나바[Legendary]";
 -- aub1 1
-		t["A0AE"][4][1] = "|c00A8F13A[조합식]|r: 레이센 우돈게인 이나바[유니크] + 호라이산 카구야[에픽] + 유니크 소울 1개\r\
+		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 호라이산 카구야[Epic] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.32초당 1번\r\
 [이동속도]: 380[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
 |c0097FF2F[조합 시너지]|r행운의 토끼 드롭스\r\
--이나바 테위[레어]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
+-이나바 테위[Rare]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
 -- aart
 		t["A0AE"][5][1] = "Icon\\Unit\\BTNUdonge_Leg.blp";
 -- [S008]
@@ -18648,7 +18648,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0H5"][5][1] = "*공격시 10% 확률로 대상 주변 650범위 내의 적에게 125만의 |c00FF6464물리 데미지|r를 입히고, 1.5초간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
 *|c00C5EA53[조합 시너지]|r행운의 토끼 드롭스\r\
--이나바 테위[레어]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
+-이나바 테위[Rare]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
 -- [A0LJ]
 -- aart
 		t["A0LJ"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNFanOfKnives.blp";
@@ -18671,9 +18671,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0LN"][5][1] = "레이센 우동게인 이나바[유니크] + 호라이산 카구야[에픽] + 유니크 소울 1개";
+		t["A0LN"][5][1] = "레이센 우동게인 이나바[Unique] + 호라이산 카구야[Epic] + Unique 소울 1개";
 -- atp1 1
-		t["A0LN"][6][1] = "|c00ffff00레이센 우동게인 이나바[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0LN"][6][1] = "|c00ffff00레이센 우동게인 이나바[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0LN"][8][1] = "h016,h02P,h05U";
@@ -18693,7 +18693,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0LO"][6][1] = "풍신의 축복|cffffcc00(Q)|r";
 -- aub1 1
-		t["A0LO"][7][1] = "*대상 일반 유닛을 랜덤한 일반 혹은 매직 유닛으로 바꿉니다.[벤토라는 등장하지 않습니다.]\r\
+		t["A0LO"][7][1] = "*대상 Normal 유닛을 랜덤한 Normal 혹은 Magic 유닛으로 바꿉니다.[UFO는 등장하지 않습니다.]\r\
 *쿨다운 180초";
 -- aart
 -- atar 1
@@ -18702,7 +18702,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 2
 		t["A0LO"][12][1] = "강화된 풍신의 축복|cffffcc00(Q)|r";
 -- aub1 2
-		t["A0LO"][13][1] = "목표 일반 유닛을 랜덤한 매직 유닛으로 바꿉니다. 쿨다운 160초";
+		t["A0LO"][13][1] = "목표 Normal 유닛을 랜덤한 Magic 유닛으로 바꿉니다. 쿨다운 160초";
 -- [A0LP]
 -- aart
 -- arac
@@ -18748,7 +18748,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0LS"][2][1] = "*자유로운 레이무는 2500 거리를 자유자재로 순간이동 할 수 있습니다.\r\
 *쿨다운 2초";
 -- anam
-		t["A0LS"][3][1] = "[레전더리 레이무]『하늘을 나는 정도의 능력』";
+		t["A0LS"][3][1] = "[Legendary 레이무]『하늘을 나는 정도의 능력』";
 -- arac
 -- asat
 -- ahky
@@ -18758,9 +18758,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A0LT"][4][1] = "Icon\\Unit\\BTNReimu_Leg.blp";
 -- aub1 1
-		t["A0LT"][5][1] = "하쿠레이 레이무[호밍] + 후타츠이와 마미조[에픽] + 유니크 소울 1개";
+		t["A0LT"][5][1] = "하쿠레이 레이무[호밍] + 후타츠이와 마미조[Epic] + Unique 소울 1개";
 -- atp1 1
-		t["A0LT"][6][1] = "|c00ffff00하쿠레이 레이무[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0LT"][6][1] = "|c00ffff00하쿠레이 레이무[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0LT"][8][1] = "h017,h041,h05U";
@@ -18776,13 +18776,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0LU"][3][1] = "|c00FEE952[유닛 정보]|r - 하쿠레이 레이무[레전더리]";
+		t["A0LU"][3][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 레이무[Legendary]";
 -- aub1 1
-		t["A0LU"][4][1] = "|c00A8F13A[조합식]|r: 하쿠레이 레이무[호밍] + 후타츠이와 마미조[에픽] + 유니크 소울\r\
+		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: 하쿠레이 레이무[호밍] + 후타츠이와 마미조[Epic] + Unique 소울\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
 *|c00C5EA53[조합 시너지]|r신사의 멋진 탈 것\r\
 -겐지 할아범[특수]를 보유하고 있을 경우, 신사 진영 능력인『신령강림』의 쿨다운이 300초에서 250초로 감소합니다.";
 -- aart
@@ -18811,9 +18811,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A03Q"][3][1] = "|c00FEE952[유닛 정보]|r - 신키[히스토릭]";
+		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - 신키[Historic]";
 -- aub1 1
-		t["A03Q"][4][1] = "|c00A8F13A[조합식]|r: 앨리스 마가트로이드[인형재판] + 파츄리 나우릿지[현자의 돌] + 키리사메 마리사[레어] + 토라마루 쇼우[에픽] + 고대와 환상의 조각\r\
+		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + 파츄리 나우릿지[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 420\r\
@@ -18824,7 +18824,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + 파츄리 나우릿지[현자의 돌] + 키리사메 마리사[레어] + 토라마루 쇼우[에픽] + 고대와 환상의 조각 = 신키";
+		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + 파츄리 나우릿지[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
 -- atp1 1
 		t["A03R"][6][1] = "|c00ffff00신키|r 조합|c00FF8040[F]|r";
 -- anam
@@ -19329,8 +19329,8 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0GT"][306][1] = "*우츠호가 공격시 10% 확률로 자신의 제어봉에서 칼날 형태의 빔을 발사합니다. 900거리 250범위 내에 있는 적에게 현재 체력의 0.9% + 45만의 물리 데미지를 입힙니다. 이 효과는 보스에게 데미지를 입히지 못합니다.\r\
 *우츠호가 보스 유닛을 공격시 20% 확률로 대상 현재 체력의 1.5% + 45만의 물리 데미지를 입힙니다.";
 -- aub1 3
-		t["A0GT"][307][1] = "신키가 조합되면 자신이 갖고 있는 모든 악마와 소악마가 사라집니다.\r\
-악마 하나당 3, 하급악마와 소악마 하나당 6의 마력을 흡수합니다.\r\
+		t["A0GT"][307][1] = "신키가 조합되면 자신이 갖고 있는 모든 Devil와 Small Devil가 사라집니다.\r\
+Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합니다.\r\
 흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 신키의 모든 스킬은 흡수한 마력에 비례해 강해집니다.\r\
 신키는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻습니다.\r\
 기본적으로 공격속도가 매우 빠릅니다.";
@@ -19505,21 +19505,21 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0I8"][4][1] = "|c00FEE952[유닛 정보]|r - 사카타 네무노[아르카나]";
+		t["A0I8"][4][1] = "|c00FEE952[Unit Information]|r - 사카타 네무노[Arcana]";
 -- aub1 1
-		t["A0I8"][5][1] = "|c00A8F13A[조합식]|r: 카기야마 히나[에픽] + 루나 차일드[레어] + 신비술사의 고서\r\
+		t["A0I8"][5][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 루나 차일드[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 무서운 부엌칼(nemuno arc)\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- [A014]
 -- arac
 -- aart
 -- aub1 1
-		t["A014"][5][1] = "샤메이마루 아야[에픽] + 이누바시리 모미지[레어] + 카소다니 쿄코[레어] + 유니크 소울 1개";
+		t["A014"][5][1] = "샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + 카소다니 쿄코[Rare] + Unique 소울 1개";
 -- atp1 1
-		t["A014"][6][1] = "|c00ffff00샤메이마루 아야[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A014"][6][1] = "|c00ffff00샤메이마루 아야[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A014"][8][1] = "h045,h00V,h01V,h05U";
@@ -19557,7 +19557,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 카나가 공격시 해당 지점에 어둠의 기운을 치솟게 해 주변 300범위 내에 있는 적에게 105만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- [A0LZ]
 -- anam
-		t["A0LZ"][1][1] = "[레전더리][아야][더미]데미지 오라";
+		t["A0LZ"][1][1] = "[Legendary][아야][더미]데미지 오라";
 -- atar 1
 -- arac
 -- atar 2
@@ -19590,13 +19590,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 -- [A0M1]
 -- anam
-		t["A0M1"][2][1] = "[유닛정보][크로니클]하타노 코코로";
+		t["A0M1"][2][1] = "[유닛정보][Chronicle]하타노 코코로";
 -- aart
 		t["A0M1"][3][1] = "ReplaceableTextures\\CommandButtons\\Kokoro\\BTN_UP.blp";
 -- atp1 1
-		t["A0M1"][4][1] = "|c00FEE952[유닛 정보]|r - 하타노 코코로[크로니클]";
+		t["A0M1"][4][1] = "|c00FEE952[Unit Information]|r - 하타노 코코로[Chronicle]";
 -- aub1 1
-		t["A0M1"][5][1] = "|c00A8F13A[조합식]|r: 후타츠이와 마미조[에픽] + 코메이지 코이시[에픽] + 호우쥬 누에[에픽] + 유니크 소울 2개\r\
+		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 300\r\
@@ -19611,7 +19611,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0M2"][5][1] = "|c00ffff00하타노 코코로|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0M2"][7][1] = "후타츠이와 마미조[에픽] + 코메이지 코이시[에픽] + 호우쥬 누에[에픽] + 유니크 소울 2개";
+		t["A0M2"][7][1] = "후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + Unique 소울 2개";
 -- ahky
 -- atat
 		t["A0M2"][11][1] = "h06K";
@@ -19815,14 +19815,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A03L]
 -- atat
 -- anam
-		t["A03L"][4][1] = "[무라사][어센디드]갈림길";
+		t["A03L"][4][1] = "[무라사][Ascended]갈림길";
 -- atp1 1
 		t["A03L"][5][1] = "『갈림길』|cffffcc00[D]|r";
 -- aub1 1
 		t["A03L"][6][1] = "*자신의 배에 탈 선원을 모집합니다. 선원에 따라 무라사의 능력이 달라집니다. 선원을 모집하기 전에는 무라사는 어떤 능력도 발휘하지 못합니다. 갈림길의 대상이 된 선원은 사라집니다.\r\
 [모집가능한 선원]\r\
--키진 세이자[에픽], 스쿠나 신묘마루[에픽] -> |c00379BFF마법 데미지|r의 무라사로 변경\r\
--토라마루 쇼우[에픽],호우쥬 누에[에픽] -> |c00FF6464물리 데미지|r의 무라사로 변경";
+-키진 세이자[Epic], 스쿠나 신묘마루[Epic] -> |c00379BFF마법 데미지|r의 무라사로 변경\r\
+-토라마루 쇼우[Epic],호우쥬 누에[Epic] -> |c00FF6464물리 데미지|r의 무라사로 변경";
 -- aart
 		t["A03L"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp";
 -- atar 1
@@ -19830,9 +19830,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A068]
 -- arac
 -- atp1 1
-		t["A068"][2][1] = "관령『히노 판타즘』";
+		t["A068"][2][1] = "관령『히노 Phantasm』";
 -- anam
-		t["A068"][3][1] = "[레어]메를랑_R";
+		t["A068"][3][1] = "[Rare]메를랑_R";
 -- aub1 1
 		t["A068"][4][1] = "조건 : 공격 시 15%\r\
 유효 범위 : 자신 주변 500\r\
@@ -19842,7 +19842,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A000"][5][1] = "리글 나이트버그 + 루미아 + 요정";
+		t["A000"][5][1] = "리글 나이트버그 + 루미아 + Fairy";
 -- atp1 1
 		t["A000"][6][1] = "|c00ffff00미스티아 로렐라이|r 조합|c00FF8040[D]|r";
 -- anam
@@ -19888,9 +19888,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0BD"][5][1] = "|c00ffff00벤토라 레드|r 조합|c00FF8040[W]|r";
+		t["A0BD"][5][1] = "|c00ffff00UFO 레드|r 조합|c00FF8040[W]|r";
 -- aub1 1
-		t["A0BD"][6][1] = "벤토라 + 벤토라";
+		t["A0BD"][6][1] = "UFO + UFO";
 -- ahky
 -- acat
 		t["A0BD"][8][1] = "h009";
@@ -19904,7 +19904,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0C6"][4][1] = "Icon\\Unit\\BTNBentoraGreen_Rare.blp";
 -- anam
 -- atp1 1
-		t["A0C6"][6][1] = "|c00ffff00벤토라 그린|r 조합|c00FF8040[R]|r";
+		t["A0C6"][6][1] = "|c00ffff00UFO 그린|r 조합|c00FF8040[R]|r";
 -- arac
 -- aub1 1
 -- ahky
@@ -19916,7 +19916,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 -- aub1 1
 -- atp1 1
-		t["A0M7"][6][1] = "|c00ffff00벤토라 블루|r 조합|c00FF8040[E]|r";
+		t["A0M7"][6][1] = "|c00ffff00UFO 블루|r 조합|c00FF8040[E]|r";
 -- anam
 -- acat
 -- alig
@@ -19927,7 +19927,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0CJ"][5][1] = "대요정 + 벤토라 블루";
+		t["A0CJ"][5][1] = "대Fairy + UFO 블루";
 -- atp1 1
 		t["A0CJ"][6][1] = "|c00ffff00치르노|r 조합|c00FF8040[F]|r";
 -- anam
@@ -19959,20 +19959,20 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- amat
 -- anam
 -- atp1 1
-		t["A0CG"][4][1] = "|c00FEE952[유닛 정보]|r - 와카사기히메[판타즘]";
+		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - 와카사기히메[Phantasm]";
 -- aub1 1
-		t["A0CG"][5][1] = "|c00A8F13A[조합식]|r: 키진 세이자[에픽] + 레이우지 우츠호[에픽] + 이마이즈미 카게로[유니크] + 고대와 환상의 조각\r\
+		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 레이우지 우츠호[Epic] + 이마이즈미 카게로[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 워터 솔져(hime phan)\r\
 \r\
 [공격속도]: 0.54초당 1번\r\
 [이동속도]: 522\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- aart
 -- [A0M8]
 -- arac
 -- aart
 -- aub1 1
-		t["A0M8"][5][1] = "요정 + 카와시로 니토리 + 루미아";
+		t["A0M8"][5][1] = "Fairy + 카와시로 니토리 + 루미아";
 -- atp1 1
 		t["A0M8"][6][1] = "|c00ffff00키리사메 마리사|r 조합|c00FF8040[F]|r";
 -- anam
@@ -19986,7 +19986,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A069"][5][1] = "키스메 + 와카사기히메 + 악마";
+		t["A069"][5][1] = "키스메 + 와카사기히메 + Devil";
 -- atp1 1
 		t["A069"][6][1] = "|c00ffff00미즈하시 파르시|r 조합|c00FF8040[W]|r";
 -- anam
@@ -20078,7 +20078,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A07M]
 -- arac
 -- atp1 1
-		t["A07M"][2][1] = "마안『라플라스의 악마』";
+		t["A07M"][2][1] = "마안『라플라스의 Devil』";
 -- aub1 1
 		t["A07M"][3][1] = "*유카리가 공격시 10% 확률로 경계를 열어 적을 포격합니다. 대상 주변 500범위 적에게 전체 체력의 [0.2%~0.4%]의 마법 데미지를 입히고, 2.5초간 스턴시킵니다.";
 -- anam
@@ -20173,7 +20173,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A01T"][6][1] = "변신|cffffcc00(Q)|r";
 -- aub1 1
-		t["A01T"][7][1] = "대상 일반 유닛으로 변신합니다.";
+		t["A01T"][7][1] = "대상 Normal 유닛으로 변신합니다.";
 -- aart
 -- atar 1
 -- ahky
@@ -20183,20 +20183,20 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 2
 		t["A01T"][13][1] = "대상 유닛으로 변신합니다";
 -- aub1 3
-		t["A01T"][14][1] = "*대상 유니크 유닛으로 변신합니다.";
+		t["A01T"][14][1] = "*대상 Unique 유닛으로 변신합니다.";
 -- atar 2
 -- atar 3
 -- atar 4
 -- atp1 4
-		t["A01T"][18][1] = "유니크 유닛 변신|cffffcc00(Q)|r";
+		t["A01T"][18][1] = "Unique 유닛 변신|cffffcc00(Q)|r";
 -- aub1 4
-		t["A01T"][19][1] = "*대상 유니크 유닛으로 변신합니다.\r\
+		t["A01T"][19][1] = "*대상 Unique 유닛으로 변신합니다.\r\
 *자신을 대상으로 할 경우 사라지며, 목재를 5 획득합니다.";
 -- atar 5
 -- atp1 5
-		t["A01T"][21][1] = "유니크 선택|cffffcc00(Q)|r";
+		t["A01T"][21][1] = "Unique 선택|cffffcc00(Q)|r";
 -- aub1 5
-		t["A01T"][22][1] = "*조합식의 대상 유니크 유닛으로 변신합니다.";
+		t["A01T"][22][1] = "*Combination의 대상 Unique 유닛으로 변신합니다.";
 -- atar 6
 -- [S00D]
 -- atar 1
@@ -20217,7 +20217,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A07E"][5][1] = "소악마 + 소신령 + 인간";
+		t["A07E"][5][1] = "Small Devil + 소신령 + Human";
 -- atp1 1
 		t["A07E"][6][1] = "|c00ffff00이자요이 사쿠야|r 조합|c00FF8040[W]|r";
 -- anam
@@ -20231,7 +20231,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A07H"][5][1] = "벤토라 레드 + 아키 시즈하";
+		t["A07H"][5][1] = "UFO 레드 + 아키 시즈하";
 -- atp1 1
 		t["A07H"][6][1] = "|c00ffff00하쿠레이 레이무|r 조합|c00FF8040[D]|r";
 -- anam
@@ -20283,7 +20283,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["S00E"][23][1] = "뱌쿠렌의 모든 스킬은 마스터리 효과를 갖습니다. 각 랭크를 레벨업하는데에는 30번의 스킬 작동이 필요합니다.\r\
 각 스킬은 E,D,C,B,A,S,EX 랭크로 진화합니다. 모든 랭크가 EX로 진화하면 뱌쿠렌의 공격력이 300000 상승합니다.";
 -- atp1 2
-		t["S00E"][24][1] = "빈부『미스찬스 스캐터』- |c0080A8E6어센디드|r";
+		t["S00E"][24][1] = "빈부『미스찬스 스캐터』- |c0080A8E6Ascended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -20342,14 +20342,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A08S]
 -- anam
 -- atp1 1
-		t["A08S"][2][1] = "|c00FEE952[유닛 정보]|r - 나즈린[아르카나]";
+		t["A08S"][2][1] = "|c00FEE952[Unit Information]|r - 나즈린[Arcana]";
 -- aub1 1
-		t["A08S"][3][1] = "|c00A8F13A[조합식]|r: 나즈린[유니크] + 벤토라 레인보우[레어] + 신비술사의 고서\r\
+		t["A08S"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + UFO 레인보우[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 작디작은 현장(nazrin arc)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 유닛 업그레이드";
 -- aart
 		t["A08S"][4][1] = "Icon\\Unit\\BTNNazrin_Arc.blp";
 -- atp1 17
@@ -20439,10 +20439,10 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0AF"][6][1] = "|c00ffff00『냥줍』|r|c00FF8040[F]|r";
 -- aub1 1
-		t["A0AF"][7][1] = "*사토리가 길을 가다가 고양이 하나를 줍습니다. 카엔뵤우 린[유니크]에게 『냥줍』스킬을 사용시 퀘스트가 완료됩니다.\r\
+		t["A0AF"][7][1] = "*사토리가 길을 가다가 고양이 하나를 줍습니다. 카엔뵤우 린[Unique]에게 『냥줍』스킬을 사용시 퀘스트가 완료됩니다.\r\
 *『제 3의 눈』스킬이『마음을 읽는 정도의 능력』으로 변경됩니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 카엔뵤우 린[유니크]은 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 카엔뵤우 린[Unique]은 사라집니다.|r";
 -- aart
 		t["A0AF"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNRegeneration.blp";
 -- atar 1
@@ -20451,9 +20451,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0AH"][3][1] = "|c00FEE952[유닛 정보]|r - 겐게츠[히스토릭]";
+		t["A0AH"][3][1] = "|c00FEE952[Unit Information]|r - 겐게츠[Historic]";
 -- aub1 1
-		t["A0AH"][4][1] = "|c00A8F13A[조합식]|r: 메디슨 멜랑콜리[에픽] + 리글 나이트버그[에픽] + 사이교우지 유유코[유니크]  + 고대와 환상의 조각\r\
+		t["A0AH"][4][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + 리글 나이트버그[Epic] + 사이교우지 유유코[Unique]  + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 420\r\
@@ -20493,7 +20493,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0DA"][5][1] = "메디슨 멜랑콜리[에픽] + 리글 나이트버그[에픽] + 사이교우지 유유코[유니크] + 고대와 환상의 조각 = 겐게츠";
+		t["A0DA"][5][1] = "메디슨 멜랑콜리[Epic] + 리글 나이트버그[Epic] + 사이교우지 유유코[Unique] + 고대와 환상의 조각 = 겐게츠";
 -- atp1 1
 		t["A0DA"][6][1] = "|c00ffff00겐게츠|r 조합|c00FF8040[F]|r";
 -- anam
@@ -20538,7 +20538,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0DY"][6][1] = "h06P";
 -- [A0GV]
 -- anam
-		t["A0GV"][1][1] = "[무라사][어센디드]";
+		t["A0GV"][1][1] = "[무라사][Ascended]";
 -- atp1 1
 		t["A0GV"][2][1] = "『파도의 인도자』";
 -- aub1 1
@@ -20797,9 +20797,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0MD"][3][1] = "|c00FEE952[유닛 정보]|r - 엘리[히스토릭]";
+		t["A0MD"][3][1] = "|c00FEE952[Unit Information]|r - 엘리[Historic]";
 -- aub1 1
-		t["A0MD"][4][1] = "|c00A8F13A[조합식]|r: 시키에이키 야마자나두[에픽] + 카미시라사와 케이네 EX[에픽] + 릴리 블랙[유니크] + 고대와 환상의 조각\r\
+		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 카미시라사와 케이네 EX[Epic] + 릴리 블랙[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 420\r\
@@ -20887,7 +20887,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 1
 		t["A0ME"][7][1] = "*오노즈카 코마치에게 이 스킬을 사용시『포비든 후르츠』스킬을 얻습니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 오노즈카 코마치[유니크]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 오노즈카 코마치[Unique]는 사라집니다.|r";
 -- aart
 -- atar 1
 -- ahky
@@ -21340,12 +21340,12 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- atat
 -- anam
-		t["A04X"][5][1] = "[에픽]란_D";
+		t["A04X"][5][1] = "[Epic]란_D";
 -- atp1 1
 -- aub1 1
-		t["A04X"][7][1] = "*자신의 진영을 마요이 가로 변경합니다. 마요이 가는 현재 진영의 일반 유닛 생성 수를 이어받으며, 다음의 효과를 가집니다.\r\
-[일반 유닛 생성에 목재가 소모되지 않습니다.]\r\
-[레전더리 유닛 조합의 진영 조건을 모두 충족시킵니다.]";
+		t["A04X"][7][1] = "*자신의 진영을 마요이 가로 변경합니다. 마요이 가는 현재 진영의 Normal 유닛 생성 수를 이어받으며, 다음의 효과를 가집니다.\r\
+[Normal 유닛 생성에 목재가 소모되지 않습니다.]\r\
+[Legendary 유닛 조합의 진영 조건을 모두 충족시킵니다.]";
 -- aart
 -- atar 1
 		t["A04X"][9][1] = "structure,invulnerable";
@@ -21587,7 +21587,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A06R"][5][1] = "『영야 되돌리기』 - 밝아오는 세계 -|cffffcc00[F]|r";
 -- aub1 1
-		t["A06R"][6][1] = "*에픽 유닛에게 사용시 랜덤한 다른 에픽 유닛으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
+		t["A06R"][6][1] = "*Epic 유닛에게 사용시 랜덤한 다른 Epic 유닛으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
 *영야 되돌리기를 모두 사용한 경우, 카구야가 공격시 10% 확률로 자신 주변 1200범위의 적을 2.2초간 스턴시키고 1의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aart
 -- atar 1
@@ -21602,7 +21602,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A06R"][14][1] = "『영야 되돌리기』 - 밝아오는 세계 -|cffffcc00(D)|r";
 -- ahky
 -- aub1 2
-		t["A06R"][16][1] = "에픽 유닛에게 사용시 랜덤한 다른 에픽 유닛으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
+		t["A06R"][16][1] = "Epic 유닛에게 사용시 랜덤한 다른 Epic 유닛으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
 \r\
 『영야 되돌리기』 - 아침 아지랑이 -\r\
 『영야 되돌리기』 - 새벽 -\r\
@@ -22059,11 +22059,11 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 11
 -- [A0HY]
 -- atp1 1
-		t["A0HY"][1][1] = "『레드 매직』- 단축키 (D)";
+		t["A0HY"][1][1] = "『레드 Magic』- 단축키 (D)";
 -- aub1 1
 		t["A0HY"][2][1] = "사용한 지점으로 즉시 이동합니다. 거리 2500, 쿨다운 5초";
 -- anam
-		t["A0HY"][3][1] = "[레전더리 레밀리아]안개화";
+		t["A0HY"][3][1] = "[Legendary 레밀리아]안개화";
 -- arac
 -- asat
 		t["A0HY"][5][1] = "Abilities\\Weapons\\HydraliskImpact\\T_HydraliskImpact";
@@ -22077,7 +22077,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A01V"][6][1] = "|c00ffff00『비봉클럽 부원모집중』|r |c00FF8040[D]|r - 0명 포섭";
 -- aub1 1
-		t["A01V"][7][1] = "*환상향을 삼분하고 있는 종교, 신교,도교,불교. 그에 도전장을 내민 스미레코가 비봉클럽의 부원을 모집합니다. 에픽 유닛에게 권유할 수 있으며 3번 포섭할 시 퀘스트가 완료되어 *심비의 에소테릭 세븐*스킬을 얻습니다.";
+		t["A01V"][7][1] = "*환상향을 삼분하고 있는 종교, 신교,도교,불교. 그에 도전장을 내민 스미레코가 비봉클럽의 부원을 모집합니다. Epic 유닛에게 권유할 수 있으며 3번 포섭할 시 퀘스트가 완료되어 *심비의 에소테릭 세븐*스킬을 얻습니다.";
 -- aart
 		t["A01V"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNOrb.blp";
 -- atar 1
@@ -22735,13 +22735,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A09R"][4][1] = "|c00FEE952[유닛 정보]|r - 유령악단[팬텀 앙상블]";
+		t["A09R"][4][1] = "|c00FEE952[Unit Information]|r - 유령악단[팬텀 앙상블]";
 -- aub1 1
-		t["A09R"][5][1] = "|c00A8F13A[조합식]|r: 레이라 프리즘리버[유니크] + 츠쿠모 야츠하시[유니크] + 츠쿠모 벤벤[유니크]\r\
+		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: 레이라 프리즘리버[Unique] + 츠쿠모 야츠하시[Unique] + 츠쿠모 벤벤[Unique]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드";
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
 -- atar 1
 -- atar 2
 -- aart
@@ -22756,7 +22756,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A02E"][5][1] = "『악령의 책』";
 -- aub1 1
-		t["A02E"][6][1] = "*미마를 소유한 플레이어는 일반 유닛을 셀렉터로 뽑을때 30% 확률로 1기 더 지급받습니다.\r\
+		t["A02E"][6][1] = "*미마를 소유한 플레이어는 Normal 유닛을 셀렉터로 뽑을때 30% 확률로 1기 더 지급받습니다.\r\
 [오직 셀렉터로 뽑을 경우에 생성합니다]";
 -- anam
 -- arac
@@ -22774,9 +22774,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A03F"][3][1] = "|c00FEE952[유닛 정보]|r - 미마[히스토릭]";
+		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - 미마[Historic]";
 -- aub1 1
-		t["A03F"][4][1] = "|c00A8F13A[조합식]|r: 카미시라사와 케이네 EX[에픽] + 야쿠모 란[에픽] + 소가노 토지코[유니크] + 고대와 환상의 조각\r\
+		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네 EX[Epic] + 야쿠모 란[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 420\r\
@@ -22788,9 +22788,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A03G"][1][1] = "ReplaceableTextures\\CommandButtons\\Yumeko\\BTN_UP.blp";
 -- anam
 -- atp1 1
-		t["A03G"][3][1] = "|c00FEE952[유닛 정보]|r - 유메코[히스토릭]";
+		t["A03G"][3][1] = "|c00FEE952[Unit Information]|r - 유메코[Historic]";
 -- aub1 1
-		t["A03G"][4][1] = "|c00A8F13A[조합식]|r: 코메이지 코이시[에픽] + 무라사 미나미츠[에픽] + 이자요이 사쿠야[유니크] + 고대와 환상의 조각\r\
+		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + 무라사 미나미츠[Epic] + 이자요이 사쿠야[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.31초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -22800,13 +22800,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 -- anam
 -- atp1 1
-		t["A03H"][3][1] = "|c00FEE952[유닛 정보]|r - 이터니티 라바[유니크]";
+		t["A03H"][3][1] = "|c00FEE952[Unit Information]|r - 이터니티 라바[Unique]";
 -- aub1 1
-		t["A03H"][4][1] = "|c00A8F13A[조합식]|r: 릴리 화이트[레어] + 타타라 코가사[레어] + 루나사 프리즘리버[레어]\r\
+		t["A03H"][4][1] = "|c00A8F13A[Combination]|r: 릴리 화이트[Rare] + 타타라 코가사[Rare] + 루나사 프리즘리버[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
 -- arac
 -- [A03Z]
 -- aart
@@ -22843,20 +22843,20 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0AU"][1][1] = "BTN\\BTNDoremy.blp";
 -- anam
 -- atp1 1
-		t["A0AU"][3][1] = "|c00FEE952[유닛 정보]|r - 도레미 스위트[에픽]";
+		t["A0AU"][3][1] = "|c00FEE952[Unit Information]|r - 도레미 스위트[Epic]";
 -- aub1 1
-		t["A0AU"][4][1] = "|c00A8F13A[조합식]|r: 이터니티 라바[유니크] + 소가노 토지코[유니크] + 야타데라 나루미[유니크]\r\
+		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + 소가노 토지코[Unique] + 야타데라 나루미[Unique]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- arac
 -- [A0DE]
 -- arac
 -- atp1 1
-		t["A0DE"][2][1] = "폭부 『페타 플레어』";
+		t["A0DE"][2][1] = "폭부 『페타 플Rare』";
 -- aub1 1
 		t["A0DE"][3][1] = "*우츠호가 공격시 20% 확률로 대상 지점에 강력한 폭발을 일으켜, 주변 500범위 적을 2초간 스턴시키고 전체 체력의 1% + 150만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- anam
@@ -22930,7 +22930,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0IL"][5][1] = "벤토라 그린 + 아키 시즈하";
+		t["A0IL"][5][1] = "UFO 그린 + 아키 시즈하";
 -- atp1 1
 		t["A0IL"][6][1] = "|c00ffff00코치야 사나에|r 조합|c00FF8040[D]|r";
 -- anam
@@ -22945,9 +22945,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A082"][4][1] = "Icon\\Unit\\BTNNue_Leg.blp";
 -- aub1 1
-		t["A082"][5][1] = "호쥬 누에[에픽] + 성련선[유니크] + 유니크 소울 1개";
+		t["A082"][5][1] = "호쥬 누에[Epic] + 성련선[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A082"][6][1] = "|c00ffff00호쥬 누에[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A082"][6][1] = "|c00ffff00호쥬 누에[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A082"][8][1] = "h01U,h01L,h05U";
@@ -22964,7 +22964,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0IM"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNAcidbomb.blp";
 -- arac
 -- anam
-		t["A0IM"][3][1] = "[레전더리][호우쥬 누에]탄막 키메라";
+		t["A0IM"][3][1] = "[Legendary][호우쥬 누에]탄막 키메라";
 -- atp1 1
 		t["A0IM"][4][1] = "누에부 『탄막 키메라』";
 -- aub1 1
@@ -22976,7 +22976,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0N1"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNLesserRejuvPotion.blp";
 -- arac
 -- anam
-		t["A0N1"][3][1] = "[레전더리][호우쥬 누에]자경";
+		t["A0N1"][3][1] = "[Legendary][호우쥬 누에]자경";
 -- atp1 1
 		t["A0N1"][4][1] = "정체불명 『자경』";
 -- aub1 1
@@ -22989,7 +22989,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0N2"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNWandOfShadowSight.blp";
 -- arac
 -- anam
-		t["A0N2"][3][1] = "[레전더리][호우쥬 누에]헤이안쿄의 악몽";
+		t["A0N2"][3][1] = "[Legendary][호우쥬 누에]헤이안쿄의 악몽";
 -- atp1 1
 -- aub1 1
 		t["A0N2"][5][1] = "*누에가 공격시 25% 확률로 대상 유닛에게 [전체 체력의 2% + 99만]*(0.7~2.2)의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
@@ -22997,15 +22997,15 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0N3]
 -- arac
 -- aub1 1
-		t["A0N3"][2][1] = "|c00A8F13A[조합식]|r: 테이레이다 마이[에픽] + 클라운피스[에픽] + 신비술사의 고서 + 고대와 환상의 조각\r\
+		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: 테이레이다 마이[Epic] + 클라운피스[Epic] + 신비술사의 고서 + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 하니와 커맨더(mayumi arc)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 375\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- atar 1
 -- atp1 1
-		t["A0N3"][5][1] = "|c00FEE952[유닛 정보]|r - 조토구 마유미[아르카나]";
+		t["A0N3"][5][1] = "|c00FEE952[Unit Information]|r - 조토구 마유미[Arcana]";
 -- anam
 -- aart
 		t["A0N3"][7][1] = "Icon\\Unit\\BTNMayumi_Arc.blp";
@@ -23021,13 +23021,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0N4"][3][1] = "|c00FEE952[유닛 정보]|r - 호쥬 누에[레전더리]";
+		t["A0N4"][3][1] = "|c00FEE952[Unit Information]|r - 호쥬 누에[Legendary]";
 -- aub1 1
-		t["A0N4"][4][1] = "|c00A8F13A[조합식]|r: 호쥬 누에[에픽] + 성련선[유니크] + 유니크 소울\r\
+		t["A0N4"][4][1] = "|c00A8F13A[Combination]|r: 호쥬 누에[Epic] + 성련선[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.46초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 -- [A00Y]
 -- atar 1
@@ -23060,13 +23060,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A061"][4][1] = "|c00FEE952[유닛 정보]|r - 마타라 오키나[크로니클]";
+		t["A061"][4][1] = "|c00FEE952[Unit Information]|r - Matara Okino[Chronicle]";
 -- aub1 1
-		t["A061"][5][1] = "|c00A8F13A[조합식]|r: 테이레이다 마이[에픽] + 니시다 사토노[에픽] + 도레미 스위트[에픽] + 유니크 소울 2개\r\
+		t["A061"][5][1] = "|c00A8F13A[Combination]|r: 테이레이다 마이[Epic] + 니시다 사토노[Epic] + 도레미 스위트[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 마타라 오키나 업그레이드";
+|c00F8BA54[업그레이드]|r : Matara Okino 업그레이드";
 -- [A0N6]
 -- anam
 		t["A0N6"][1][1] = "[진영]달의 기술력";
@@ -23091,22 +23091,22 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0N9"][3][1] = "|c00FEE952[유닛 정보]|r - 세이란[레전더리]";
+		t["A0N9"][3][1] = "|c00FEE952[Unit Information]|r - 세이란[Legendary]";
 -- aub1 1
-		t["A0N9"][4][1] = "|c00A8F13A[조합식]|r: 클라운피스[에픽] + 쿠모이 이치린[유니크] + 유니크 소울\r\
+		t["A0N9"][4][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 쿠모이 이치린[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 		t["A0N9"][5][1] = "Icon\\Unit\\BTNSeiran_Leg.blp";
 -- [A0NA]
 -- arac
 -- aart
 -- aub1 1
-		t["A0NA"][5][1] = "클라운피스[에픽] + 쿠모이 이치린[유니크] + 유니크 소울 1개";
+		t["A0NA"][5][1] = "클라운피스[Epic] + 쿠모이 이치린[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0NA"][6][1] = "|c00ffff00세이란[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0NA"][6][1] = "|c00ffff00세이란[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0NA"][8][1] = "h02Q,h036,h05U";
@@ -23122,12 +23122,12 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 -- arac
 -- anam
-		t["A0N7"][3][1] = "[판타즘][파츄리]마나 스킬";
+		t["A0N7"][3][1] = "[Phantasm][파츄리]마나 스킬";
 -- atp1 1
 -- aub1 1
 		t["A0N7"][5][1] = "*공격시 마나를 1 회복합니다. 마나가 250이 됐을때 발동합니다.\r\
 *자신의 위치에 태양을 형상화한 탄막을 생성하여 2.5초 뒤 폭발시킵니다. 태양 주변 800범위 적에게 750만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*로열 플레어에 휘말린 적은 마법에 대항할 능력을 잃어버려 5초간 마법 데미지를 40% 증폭하여 받습니다.";
+*로열 플Rare에 휘말린 적은 마법에 대항할 능력을 잃어버려 5초간 마법 데미지를 40% 증폭하여 받습니다.";
 -- aub1 2
 		t["A0N7"][9][1] = "*공격시 마나를 1 회복합니다. 마나가 200이 됐을때 발동합니다.\r\
 *대상 지점을 회전하는 2개의 탄막을 생성합니다. 탄막 내부의 적은 1초마다 1.5초간 스턴당합니다. 탄막은 총 6초간 유지되며, 내부의 적에게 초당 200만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
@@ -23240,7 +23240,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A06G"][3][1] = "*요리히메가 공격시 마나를 1씩 회복시킵니다.\r\
 *마나가 120이 됐을때 대상 800범위 지점을 별빛의 검기로 베어냅니다. 별빛의 검기로 베어진 적은 1.5초간 스턴당하며 공격한 적의 전체 체력의 2.5% + 300만의 |c00FF6464물리 데미지|r를 입습니다. 별빛의 검기가 사라지고 난 후 3초 후에 후속타로 별빛을 폭발시켜 검기가 있던 위치에서 800범위에 있는 적들에게 150만의 |c00FF6464물리 데미지|r를 추가로 입힙니다.\r\
 *|c00C5EA53[조합 시너지]|r신령을 받드는 몸\r\
--하쿠레이 레이무[호밍]을 보유하고 있을때, 와타츠키노 요리히메[크로니클]을 조합할 경우 히든 스킬 확정 변경";
+-하쿠레이 레이무[호밍]을 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 조합할 경우 히든 스킬 확정 변경";
 -- anam
 		t["A06G"][4][1] = "[요리히메]아마츠미카보시";
 -- aart
@@ -23280,7 +23280,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *별의 신의 힘을 빌어 대상 지점의 모든 것을 베어버립니다. 대상 지점 주변 400범위내의 적에게 전체 체력의 4% + 550만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *게임 오버까지의 카운트가 5개 이하라면 전체 체력 비례 데미지가 8%로 증가합니다.\r\
 *|c00C5EA53[조합 시너지]|r신령을 받드는 몸\r\
--하쿠레이 레이무[호밍]을 보유하고 있을때, 와타츠키노 요리히메[크로니클]을 조합할 경우 히든 스킬 확정 변경";
+-하쿠레이 레이무[호밍]을 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 조합할 경우 히든 스킬 확정 변경";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -23386,9 +23386,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0DM"][3][1] = "|c00FEE952[유닛 정보]|r - 와타츠키노 요리히메[크로니클]";
+		t["A0DM"][3][1] = "|c00FEE952[Unit Information]|r - 와타츠키노 요리히메[Chronicle]";
 -- aub1 1
-		t["A0DM"][4][1] = "|c00A8F13A[조합식]|r: 와타츠키노 토요히메[특수] + 키진 세이자[에픽] + 모노노베노 후토[에픽] + 레이센 우돈게인 이나바[유니크] + 유니크 소울 3개\r\
+		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: 와타츠키노 토요히메[특수] + 키진 세이자[Epic] + 모노노베노 후토[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개\r\
 \r\
 |c00ffff00!주의 : 이 유닛은 조합시 플레이어의 라인존 중앙에 생성됩니다.|r\r\
 \r\
@@ -23396,7 +23396,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 [이동속도]: 350[공중이동 가능]\r\
 |c00F8BA54[업그레이드]|r : 와타츠키노 요리히메 업그레이드\r\
 |c0097FF2F[조합 시너지]|r신령을 받드는 몸\r\
--하쿠레이 레이무[유니크]를 보유하고 있을때, 와타츠키노 요리히메[크로니클]을 조합할 경우 히든 스킬로 확정 변경됩니다.";
+-하쿠레이 레이무[Unique]를 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 조합할 경우 히든 스킬로 확정 변경됩니다.";
 -- aart
 		t["A0DM"][5][1] = "ReplaceableTextures\\CommandButtons\\Yorihime\\BTN_UP.blp";
 -- [A0GI]
@@ -23409,7 +23409,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0GI"][5][1] = "|c00ffff00와타츠키노 요리히메|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0GI"][7][1] = "와타츠키노 토요히메[특수] + 키진 세이자[에픽] + 모노노베노 후토[에픽] + 레이센 우돈게인 이나바[유니크] + 유니크 소울 3개";
+		t["A0GI"][7][1] = "와타츠키노 토요히메[특수] + 키진 세이자[Epic] + 모노노베노 후토[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개";
 -- ahky
 -- atat
 		t["A0GI"][11][1] = "h02X";
@@ -23423,7 +23423,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0HE"][6][1] = "|c00ffff00『달의 수호자』|r|c00FF8040[D]|r";
 -- aub1 1
 		t["A0HE"][7][1] = "*요리히메가 지상의 더러움을 달의 도시에서 차단시키기 위한 수단을 취합니다.\r\
-*자경단 미션 보스인 [초거대요정 - 릴리 빅]에게 사용시 즉사시키고 강신『이시코리도메노미코토』스킬을 얻습니다.";
+*자경단 미션 보스인 [초거대Fairy - 릴리 빅]에게 사용시 즉사시키고 강신『이시코리도메노미코토』스킬을 얻습니다.";
 -- aart
 -- atar 1
 -- ahky
@@ -23460,7 +23460,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atar 3
 -- abuf 3
 -- atp1 3
-		t["A0LK"][16][1] = "[토요 아르카나]";
+		t["A0LK"][16][1] = "[토요 Arcana]";
 -- atp1 4
 		t["A0LK"][18][1] = "[페이탈 블리츠]";
 -- abuf 4
@@ -23655,9 +23655,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A0NE"][4][1] = "Icon\\Unit\\BTNKomachi_Leg.blp";
 -- aub1 1
-		t["A0NE"][5][1] = "오노즈카 코마치[유니크] + 시키에이키 야마자나두[에픽] + 유니크 소울 1개";
+		t["A0NE"][5][1] = "오노즈카 코마치[Unique] + 시키에이키 야마자나두[Epic] + Unique 소울 1개";
 -- atp1 1
-		t["A0NE"][6][1] = "|c00ffff00오노즈카 코마치[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0NE"][6][1] = "|c00ffff00오노즈카 코마치[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0NE"][8][1] = "h01O,h01W,h05U";
@@ -23673,15 +23673,15 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0NF"][3][1] = "|c00FEE952[유닛 정보]|r - 오노즈카 코마치[레전더리]";
+		t["A0NF"][3][1] = "|c00FEE952[Unit Information]|r - 오노즈카 코마치[Legendary]";
 -- aub1 1
-		t["A0NF"][4][1] = "|c00A8F13A[조합식]|r: 오노즈카 코마치[유니크] + 시키에이키 야마자나두[에픽] + 유니크 소울\r\
+		t["A0NF"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + 시키에이키 야마자나두[Epic] + Unique 소울\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
 *|c00C5EA53[조합 시너지]|r농땡이에는 설교를\r\
--시키에이키 야마자나두[아르카나]를 보유하고 있을 경우, 박명『얼마 남지 않은 여생』의 즉사 쿨다운이 15초로 감소합니다. 오노즈카 코마치[레전더리]가 여러기 있을 경우 적용되지 않습니다.";
+-시키에이키 야마자나두[Arcana]를 보유하고 있을 경우, 박명『얼마 남지 않은 여생』의 즉사 쿨다운이 15초로 감소합니다. 오노즈카 코마치[Legendary]가 여러기 있을 경우 적용되지 않습니다.";
 -- aart
 -- [A0NG]
 -- arac
@@ -23775,9 +23775,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- anam
 -- aart
 -- atp1 1
-		t["A0NH"][4][1] = "|c00FEE952[유닛 정보]|r - 이부키 스이카[크로니클]";
+		t["A0NH"][4][1] = "|c00FEE952[Unit Information]|r - 이부키 스이카[Chronicle]";
 -- aub1 1
-		t["A0NH"][5][1] = "|c00A8F13A[조합식]|r: 비상천칙[에픽] +  토키코[에픽] + 야쿠모 란[에픽] + 유니크 소울 2개\r\
+		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] +  토키코[Epic] + 야쿠모 란[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 450\r\
@@ -23789,12 +23789,12 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0NH"][7][1] = "『묵화』-『신검합일 상승경지』";
 -- aub1 2
 -- aub1 3
-		t["A0NH"][9][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 히스토릭 유닛보다 월등한 공격력을 가졌지만 공격속도를 일부 희생했습니다. 업그레이드로 공격속도가 오르지 않으며, 기본적으로 느린 공격속도를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
+		t["A0NH"][9][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic 유닛보다 월등한 공격력을 가졌지만 공격속도를 일부 희생했습니다. 업그레이드로 공격속도가 오르지 않으며, 기본적으로 느린 공격속도를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
 |c00FF0000콘가라가 신검합일의 상승 경지에 이르렀습니다. 공격력이 750000 상승하고, 공격속도가 45% 상승합니다.|r";
 -- atp1 4
 		t["A0NH"][10][1] = "『묵화』-『신검합일 제일경지』";
 -- aub1 4
-		t["A0NH"][11][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 히스토릭 유닛보다 월등한 공격력을 가졌지만 공격속도를 일부 희생했습니다. 업그레이드로 공격속도가 오르지 않으며, 기본적으로 느린 공격속도를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
+		t["A0NH"][11][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic 유닛보다 월등한 공격력을 가졌지만 공격속도를 일부 희생했습니다. 업그레이드로 공격속도가 오르지 않으며, 기본적으로 느린 공격속도를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
 |c00FF0000콘가라가 신검합일의 제일 경지에 이르렀습니다. 공격력이 2500000 상승하고, 공격속도가 25% 상승합니다.|r";
 -- arac
 -- [A0NI]
@@ -23819,9 +23819,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A0NL"][3][1] = "ReplaceableTextures\\CommandButtons\\Kongara\\BTN_UP.blp";
 -- atp1 1
-		t["A0NL"][4][1] = "|c00FEE952[유닛 정보]|r - 콘가라[히스토릭]";
+		t["A0NL"][4][1] = "|c00FEE952[Unit Information]|r - 콘가라[Historic]";
 -- aub1 1
-		t["A0NL"][5][1] = "|c00A8F13A[조합식]|r: 니시다 사토노[에픽] + 이부키 스이카[유니크] + 유니크 소울 3개 + 고대와 환상의 조각\r\
+		t["A0NL"][5][1] = "|c00A8F13A[Combination]|r: 니시다 사토노[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
 [이동속도]: 450\r\
@@ -23831,7 +23831,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0NM"][5][1] = "니시다 사토노[에픽] + 이부키 스이카[유니크] + 유니크 소울 3개 + 고대와 환상의 조각 = 콘가라";
+		t["A0NM"][5][1] = "니시다 사토노[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각 = 콘가라";
 -- atp1 1
 		t["A0NM"][6][1] = "|c00ffff00콘가라|r 조합|c00FF8040[F]|r";
 -- anam
@@ -23868,7 +23868,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- ata0
 -- [A0NS]
 -- anam
-		t["A0NS"][1][1] = "[얼음 요정의 숨결][2레벨 술래]";
+		t["A0NS"][1][1] = "[얼음 Fairy의 숨결][2레벨 술래]";
 -- [A0NT]
 -- aub1 1
 		t["A0NT"][1][1] = "주변 800범위 유닛의 이동속도를 20% 감소시킵니다.";
@@ -24178,7 +24178,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0O1"][6][1] = "운명의 수레바퀴|cffffcc00(F)|r";
 -- aub1 1
-		t["A0O1"][7][1] = "*금 1250, 나무 4을 소모하여 대상 유니크 유닛 1기를 일반~레전더리(진영과는 상관없이 모든 레전더리 유닛)유닛으로 바꿉니다. 확률은 일반/매직/레어/유니크/에픽/레전더리 순서로 15%/15%/25%/30%/14.9%/0.1% 확률입니다. \r\
+		t["A0O1"][7][1] = "*금 1250, 나무 4을 소모하여 대상 Unique 유닛 1기를 Normal~Legendary(진영과는 상관없이 모든 Legendary 유닛)유닛으로 바꿉니다. 확률은 Normal/Magic/Rare/Unique/Epic/Legendary 순서로 15%/15%/25%/30%/14.9%/0.1% 확률입니다. \r\
 *쿨다운 250초";
 -- aart
 -- atar 1
@@ -24283,24 +24283,24 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0O5"][3][1] = "|c00FEE952[유닛 정보]|r - 스쿠나 신묘마루[레전더리]";
+		t["A0O5"][3][1] = "|c00FEE952[Unit Information]|r - 스쿠나 신묘마루[Legendary]";
 -- aub1 1
-		t["A0O5"][4][1] = "|c00A8F13A[조합식]|r: 스쿠나 신묘마루[에픽] + 루미아 EX[유니크] + 유니크 소울\r\
+		t["A0O5"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + 루미아 EX[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
 |c0097FF2F[조합 시너지]|r뒤집어진 소인 공주님\r\
--플레이어가 키진 세이자[크로니클]을 보유하고 있을 경우, 이 유닛의 스킬 데미지가 마법 데미지로 적용됩니다.";
+-플레이어가 키진 세이자[Chronicle]을 보유하고 있을 경우, 이 유닛의 스킬 데미지가 마법 데미지로 적용됩니다.";
 -- aart
 		t["A0O5"][5][1] = "Icon\\Unit\\BTNShinmyou_Leg.blp";
 -- [A0O6]
 -- arac
 -- aart
 -- aub1 1
-		t["A0O6"][5][1] = "스쿠나 신묘마루[에픽] + 루미아 EX[유니크] + 유니크 소울 1개";
+		t["A0O6"][5][1] = "스쿠나 신묘마루[Epic] + 루미아 EX[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0O6"][6][1] = "|c00ffff00스쿠나 신묘마루[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0O6"][6][1] = "|c00ffff00스쿠나 신묘마루[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0O6"][8][1] = "hgry,h01H,h05U";
@@ -24320,7 +24320,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0O7"][5][1] = "『츠쿠모가미 대잔치』";
 -- aub1 1
-		t["A0O7"][6][1] = "*도깨비[일반]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
+		t["A0O7"][6][1] = "*도깨비[Normal]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
 -- abuf 1
 		t["A0O7"][7][1] = "B04P";
 -- abuf 2
@@ -24358,7 +24358,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0OA"][3][1] = "금부『제행무상의 고토소리』";
 -- aub1 1
 		t["A0OA"][4][1] = "＊자신 주변 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
 ＊공격 시 15% 확률로 3초 동안 소리를 탄막으로 소환한다.\r\
 -공격력(|c00FF6464물리|r) : 3만5천\r\
 -공격속도 : 0.4초당 1번";
@@ -24373,7 +24373,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 -- aub1 1
 		t["A0OB"][4][1] = "＊자신 주변 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
 ＊공격 시 10% 확률로 자신 주변 400 범위의 적에게 5만의 |c00FF6464물리 피해|r를 가한다.";
 -- anam
 -- aart
@@ -24440,9 +24440,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0OH"][5][1] = "벤토라 블루 + 벤토라 레드 + 벤토라 그린";
+		t["A0OH"][5][1] = "UFO 블루 + UFO 레드 + UFO 그린";
 -- atp1 1
-		t["A0OH"][6][1] = "|c00ffff00벤토라 레인보우|r 조합|c00FF8040[D]|r";
+		t["A0OH"][6][1] = "|c00ffff00UFO 레인보우|r 조합|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0OH"][8][1] = "h014,h013,h012";
@@ -24471,7 +24471,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A06K"][3][1] = "포효『만월의 울부짖음』";
 -- aub1 1
 		t["A06K"][4][1] = "＊자신 주변 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
 ＊공격 시 20% 확률로 포효하여 자신 주변 400 범위의 적에게 3만의 |c00FF6464물리 피해|r를 가한다.";
 -- anam
 -- aart
@@ -24745,9 +24745,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A09X"][6][1] = "|c00ffff00『모성애? 우정?』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A09X"][7][1] = "*순호가 왠지 모르게 달토끼 한마리를 귀여워하고 싶어합니다. 레이센 우돈게인 이나바[유니크]에게 사용할 경우, 『지상의 더러움의 순화』를 얻습니다.\r\
+		t["A09X"][7][1] = "*순호가 왠지 모르게 달토끼 한마리를 귀여워하고 싶어합니다. 레이센 우돈게인 이나바[Unique]에게 사용할 경우, 『지상의 더러움의 순화』를 얻습니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 레이센 우돈게인 이나바[유니크]은 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 레이센 우돈게인 이나바[Unique]은 사라집니다.|r";
 -- aart
 -- atar 1
 -- ahky
@@ -24771,9 +24771,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A087"][6][1] = "|c00ffff00『윤회화선안』|r|c00FF8040[D]|r";
 -- aub1 1
 		t["A087"][7][1] = "*카센이 선인으로써의 진정한 힘을 끌어내 새로운 눈을 개안합니다. 개안하는데에는 사천왕인 스이카의 피가 필요합니다.\r\
-이부키 스이카[유니크]에게 사용시 퀘스트가 완료됩니다.\r\
+이부키 스이카[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 이부키 스이카[유니크]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 이부키 스이카[Unique]는 사라집니다.|r";
 -- aart
 		t["A087"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNMetamorphosis.blp";
 -- atar 1
@@ -25074,7 +25074,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *시온이 공격시 10% 확률로 대상 지점에 빈곤의 기운을 해방시켜 대상 주변 350범위내의 적에게 잃은 체력의 0.8% + 225만의 물리 데미지를 입힙니다.";
 -- aart
 -- atp1 2
-		t["A0OK"][6][1] = "불운『어서오세요 극빈의 세계에』- |c0080A8E6어센디드|r";
+		t["A0OK"][6][1] = "불운『어서오세요 극빈의 세계에』- |c0080A8E6Ascended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -25184,7 +25184,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *유유코 주변 650범위 내에 있는 적의 이동속도를 30% 감소시킵니다.\r\
 *유유코 주변 650범위 내에 있는 적의 방어력을 24 감소시킵니다.";
 -- anam
-		t["A0OL"][4][1] = "[유유코][아르카나]";
+		t["A0OL"][4][1] = "[유유코][Arcana]";
 -- aart
 -- atp1 2
 -- aub1 2
@@ -25362,7 +25362,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0OQ]
 -- arac
 -- anam
-		t["A0OQ"][2][1] = "[아르카나][마리사]";
+		t["A0OQ"][2][1] = "[Arcana][마리사]";
 -- atp1 1
 		t["A0OQ"][3][1] = "『세번째의 분식마』";
 -- aub1 1
@@ -25571,7 +25571,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *평타 공격시 300범위에 100% 범위 데미지를 입힙니다.\r\
 *공격시 15% 확률로 펜듈럼을 공명시켜 주변 600범위 적에게 45만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- anam
-		t["A0OS"][4][1] = "[아르카나][나즈린]";
+		t["A0OS"][4][1] = "[Arcana][나즈린]";
 -- aart
 -- atp1 2
 		t["A0OS"][7][1] = "역전『체인지 에어 브레이브』";
@@ -26505,7 +26505,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 [플레이어 3] : 파괴의 여우의 힘을 빌립니다. 공격시 10% 확률로 대상 주변 400범위 적에게 전체 체력의 0.2% + 100만의 절대 데미지를 입힙니다.\r\
 [플레이어 4] : 풍작의 여우의 힘을 빌립니다. 공격시 0.6% 확률로 대상 유닛을 즉사시키고, 목재 1을 획득합니다. ";
 -- anam
-		t["S00J"][5][1] = "[아르카나][란]곳쿠리";
+		t["S00J"][5][1] = "[Arcana][란]곳쿠리";
 -- abuf 1
 		t["S00J"][6][1] = "B055";
 -- atar 2
@@ -26661,9 +26661,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atar 1
 -- arac
 -- atp1 1
-		t["A0P6"][4][1] = "|c00ffff00마타라 오키나|r 조합|c00FF8040[D]|r";
+		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P6"][5][1] = "테이레이다 마이[에픽] + 도레미 스위트[에픽] + 니시다 사토노[에픽] + 유니크 소울 2개";
+		t["A0P6"][5][1] = "테이레이다 마이[Epic] + 도레미 스위트[Epic] + 니시다 사토노[Epic] + Unique 소울 2개";
 -- acat
 		t["A0P6"][6][1] = "nhym,uobs,ufro,h05U,ehip";
 -- acap
@@ -26710,17 +26710,17 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 4
 		t["A0P8"][18][1] = "[레미 스턴]";
 -- atp1 5
-		t["A0P8"][19][1] = "[무라사 아르카나 싱커 고스트]";
+		t["A0P8"][19][1] = "[무라사 Arcana 싱커 고스트]";
 -- atp1 6
-		t["A0P8"][20][1] = "[하타테 아르카나 사이코그래피]";
+		t["A0P8"][20][1] = "[하타테 Arcana 사이코그래피]";
 -- atp1 7
-		t["A0P8"][21][1] = "[사구메 판타즘 미사일, 마뎀]";
+		t["A0P8"][21][1] = "[사구메 Phantasm 미사일, 마뎀]";
 -- atp1 8
-		t["A0P8"][22][1] = "[사구메 판타즘 탄관, 마뎀]";
+		t["A0P8"][22][1] = "[사구메 Phantasm 탄관, 마뎀]";
 -- atp1 9
-		t["A0P8"][23][1] = "[레이무 레전더리 확률 스턴]";
+		t["A0P8"][23][1] = "[레이무 Legendary 확률 스턴]";
 -- atp1 10
-		t["A0P8"][24][1] = "[치르노 레전더리, 프리즈 애트모스피어]";
+		t["A0P8"][24][1] = "[치르노 Legendary, 프리즈 애트모스피어]";
 -- Uin4 11
 -- Uin4 12
 -- Uin4 13
@@ -26732,7 +26732,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- Uin4 19
 -- Uin4 20
 -- atp1 11
-		t["A0P8"][35][1] = "[무라사 아르카나 싱커블 보텍스]";
+		t["A0P8"][35][1] = "[무라사 Arcana 싱커블 보텍스]";
 -- atp1 12
 		t["A0P8"][36][1] = "[시키에이키 십왕재판]";
 -- atp1 13
@@ -26951,7 +26951,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *메이링이 공격시 12% 확률로 몸의 기를 폭발시켜 자신 주변 550범위 내에 있는 적에게 잃은 체력의 0.8% + 75만의 |c00FF6464물리 데미지|r를 주고 2초간 스턴시킵니다.\r\
 |c00FF712D[허영갑주]|r + 2";
 -- anam
-		t["A0PD"][5][1] = "[아르카나][홍메이링]";
+		t["A0PD"][5][1] = "[Arcana][홍메이링]";
 -- aart
 -- atp1 2
 -- abuf 1
@@ -26971,7 +26971,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0PE"][5][1] = "코메이지 코이시[에픽] + 무라사 미나미츠[에픽] + 이자요이 사쿠야[특제 스톱워치] + 고대와 환상의 조각 = 유메코";
+		t["A0PE"][5][1] = "코메이지 코이시[Epic] + 무라사 미나미츠[Epic] + 이자요이 사쿠야[특제 스톱워치] + 고대와 환상의 조각 = 유메코";
 -- atp1 1
 		t["A0PE"][6][1] = "|c00ffff00유메코|r 조합|c00FF8040[F]|r";
 -- anam
@@ -27028,7 +27028,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atar 1
 -- aart
 -- anam
-		t["A0PH"][4][1] = "[판타즘][카구야]";
+		t["A0PH"][4][1] = "[Phantasm][카구야]";
 -- atp1 1
 -- aub1 1
 		t["A0PH"][6][1] = "*카구야가 붉은 돌의 힘으로 공격시 1% 확률로 대상 적을 즉사시킵니다. 즉사 효과가 발동시 50% 확률로 셀렉터 한기를 생성합니다.\r\
@@ -27046,7 +27046,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atar 1
 -- aart
 -- anam
-		t["A0PI"][4][1] = "[판타즘][유기]";
+		t["A0PI"][4][1] = "[Phantasm][유기]";
 -- atp1 1
 		t["A0PI"][5][1] = "귀성『괴멸의 포효』";
 -- aub1 1
@@ -27067,7 +27067,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- acat
 -- [A0PJ]
 -- atp1 1
-		t["A0PJ"][1][1] = "수부『캇파의 환상대폭포』";
+		t["A0PJ"][1][1] = "수부『Kappa의 환상대폭포』";
 -- aub1 1
 		t["A0PJ"][2][1] = "*공격시 10% 확률로 대상 지점에 물폭탄을 던져 500범위 적에게 145만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *니토리 주변 1000범위 아군 유닛의 마나를 초당 4씩 회복시킵니다.\r\
@@ -27187,12 +27187,12 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 |c00FF712D[허영갑주]|r + 4";
 -- abuf 2
 -- atp1 2
-		t["S00N"][12][1] = "『최흉최악의 극빈불행신』 - |c0080A8E6어센디드|r";
+		t["S00N"][12][1] = "『최흉최악의 극빈불행신』 - |c0080A8E6Ascended|r";
 -- [A0PM]
 -- arac
 -- aart
 -- aub1 1
-		t["A0PM"][5][1] = "카기야마 히나[액신] + 유령악단[팬텀 앙상블] + 토라마루 쇼우[에픽] + 유니크 소울 2개";
+		t["A0PM"][5][1] = "카기야마 히나[액신] + 유령악단[팬텀 앙상블] + 토라마루 쇼우[Epic] + Unique 소울 2개";
 -- atp1 1
 		t["A0PM"][6][1] = "|c00ffff00요리가미 죠온/시온|r 조합|c00FF8040[D]|r";
 -- anam
@@ -27376,7 +27376,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["S00Q"][4][1] = "*사나에 주변 800범위 아군의 공격속도를 12% 증가시킵니다.\r\
 *사나에가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 자신 주변에 신의 바람을 재현해냅니다. 자신 주변 1500범위 적에게 8초 동안 매 2초마다 1.5초의 스턴을 입히고, 현재 체력의 1% + 전체 체력의 0.5% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *|c00C5EA53[조합 시너지]|r미라클 프로그\r\
--모리야 스와코[크로니클]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
+-모리야 스와코[Chronicle]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
 -- anam
 -- abuf 1
 		t["S00Q"][6][1] = "B05I";
@@ -27438,7 +27438,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0PZ"][5][1] = "야부『문 스틸니스』";
 -- aub1 1
 		t["A0PZ"][6][1] = "＊자신 주변 500 범위의 적 방어력을 5 감소시킨다.\r\
-|c00ff2222[!]제한|r : 유니크 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
 \r\
 |c00959595소리를 지우는 정도의 능력!|r";
 -- abuf 1
@@ -27464,7 +27464,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0Q1"][5][1] = "『마공학 핵』- 결정수 0";
 -- aub1 1
-		t["A0Q1"][6][1] = "*리카코를 조합하기 전에 조합한 유니크 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][6][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 20 + [결정 수*2]만큼 감소시킵니다.\r\
 *리카코의 스킬 데미지가 [결정수*2]%만큼 증가합니다.\r\
 [결정은 최대 10개까지 수집가능합니다]";
@@ -27582,7 +27582,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 10
 -- aub1 11
 -- aub1 12
-		t["A0Q1"][95][1] = "*리카코를 조합하기 전에 조합한 유니크 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][95][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 20 + [결정 수]만큼 감소시킵니다.\r\
 *리카코의 스킬 데미지가 [결정수]%만큼 증가합니다.\r\
 [결정은 최대 20개까지 수집가능합니다]";
@@ -27596,27 +27596,27 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 20
 -- aub1 21
 -- aub1 22
-		t["A0Q1"][105][1] = "*리카코를 조합하기 전에 조합한 유니크 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][105][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 36 감소시킵니다.\r\
 *리카코의 스킬 데미지가 21%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 23
-		t["A0Q1"][106][1] = "*리카코를 조합하기 전에 조합한 유니크 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][106][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 37 감소시킵니다.\r\
 *리카코의 스킬 데미지가 22%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 24
-		t["A0Q1"][107][1] = "*리카코를 조합하기 전에 조합한 유니크 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][107][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 38 감소시킵니다.\r\
 *리카코의 스킬 데미지가 23%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 25
-		t["A0Q1"][108][1] = "*리카코를 조합하기 전에 조합한 유니크 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][108][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 39 감소시킵니다.\r\
 *리카코의 스킬 데미지가 24%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 26
-		t["A0Q1"][109][1] = "*리카코를 조합하기 전에 조합한 유니크 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][109][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 40 감소시킵니다.\r\
 *리카코의 스킬 데미지가 25%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
@@ -27624,7 +27624,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0Q2"][5][1] = "도레미 스위트[에픽] + 나마즈[에픽] + 정체불명[유니크] + 고대와 환상의 조각 = 아사쿠라 리카코";
+		t["A0Q2"][5][1] = "도레미 스위트[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 아사쿠라 리카코";
 -- atp1 1
 		t["A0Q2"][6][1] = "|c00ffff00아사쿠라 리카코|r 조합|c00FF8040[F]|r";
 -- anam
@@ -27684,7 +27684,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0Q7"][6][1] = "|c00ffff00신앙응집|r|c00FF8040[Q]|r";
 -- aub1 1
-		t["A0Q7"][7][1] = "*대상 일반 유닛을 요상하게 생긴 인간[매직]으로 변화시킵니다.\r\
+		t["A0Q7"][7][1] = "*대상 Normal 유닛을 요상하게 생긴 Human[Magic]으로 변화시킵니다.\r\
 *쿨다운 300초";
 -- aart
 -- atar 1
@@ -27692,7 +27692,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 2
 -- atp1 3
 -- aub1 2
-		t["A0Q7"][13][1] = "*대상 일반 유닛을 요상하게 생긴 인간[매직]으로 변화시킵니다.\r\
+		t["A0Q7"][13][1] = "*대상 Normal 유닛을 요상하게 생긴 Human[Magic]으로 변화시킵니다.\r\
 *쿨다운 250초";
 -- aub1 3
 -- atar 2
@@ -27900,7 +27900,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0QD"][24][1] = "B05W";
 -- [A09P]
 -- anam
-		t["A09P"][1][1] = "[레전더리][요우무]";
+		t["A09P"][1][1] = "[Legendary][요우무]";
 -- atp1 1
 		t["A09P"][2][1] = "단령검『성불득탈참』";
 -- aart
@@ -28073,7 +28073,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0QF"][7][1] = "*공격시 20% 확률로 대상 유닛을 2초간 스턴시키고, 현재 체력의 3% + 225만의 마법 데미지를 입힙니다. 대상 주변 300범위에 해당 피해의 25%의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 [보스 유닛 공격시 단일 데미지가 30%만 적용됩니다]\r\
 *스킬 데미지가 20% 증가합니다.\r\
-[아르카나 업그레이드 1회당 스킬 데미지가 2%p 증가합니다]";
+[Arcana 업그레이드 1회당 스킬 데미지가 2%p 증가합니다]";
 -- atar 1
 -- atar 2
 -- atp1 2
@@ -29065,23 +29065,23 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A027"][3][1] = "BTN\\BTNRinnosuke.blp";
 -- anam
 -- atp1 1
-		t["A027"][5][1] = "|c00FEE952[유닛 정보]|r - 모리치카 린노스케[아르카나]";
+		t["A027"][5][1] = "|c00FEE952[Unit Information]|r - 모리치카 린노스케[Arcana]";
 -- aub1 1
-		t["A027"][6][1] = "|c00A8F13A[조합식]|r: 토키코[에픽] + 키리사메 마리사[유니크] + 신비술사의 고서\r\
+		t["A027"][6][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + 키리사메 마리사[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 향림당의 점주(rinno arc)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- abuf 1
 		t["A027"][8][1] = "B06B";
 -- atp1 2
 -- aub1 2
-		t["A027"][10][1] = "|c00A8F13A[조합식]|r: 토키코[에픽] + 키리사메 마리사[유니크] + 신비술사의 고서\r\
+		t["A027"][10][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + 키리사메 마리사[Unique] + 신비술사의 고서\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- abuf 2
 -- atar 2
 -- atar 3
@@ -29103,7 +29103,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- ahky
 -- atar 1
 -- anam
-		t["A02I"][6][1] = "[판타즘][파츄리]현자의 돌";
+		t["A02I"][6][1] = "[Phantasm][파츄리]현자의 돌";
 -- aart
 -- [A02J]
 -- atp1 1
@@ -29331,7 +29331,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *피를 칼날로 만들어 대상 주변 350범위에 있는 적에게 [전체 체력의 3% + 950만]의 |c00379BFF마법 데미지|r를 입히고, 받는 마법 데미지를 10초간 15% 증폭시킵니다.[수치가 같은 마법 데미지 증폭 효과와 함께 적용됩니다]\r\
 *발동시 마나를 모두 회복합니다.\r\
 [사용 효과]\r\
-*대상 유니크 유닛을 흡혈하여 50초간 정지시킵니다. 정지 상태일때는 조합 재료로 사용할 수 없으며, 어떠한 행동도 할 수 없습니다.[유니크 소울 추출은 가능합니다] 이미 정지한 유닛은 흡혈할 수 없습니다.\r\
+*대상 Unique 유닛을 흡혈하여 50초간 정지시킵니다. 정지 상태일때는 조합 재료로 사용할 수 없으며, 어떠한 행동도 할 수 없습니다.[Unique 소울 추출은 가능합니다] 이미 정지한 유닛은 흡혈할 수 없습니다.\r\
 *흡혈시 쿠루미의 활력을 모두 회복합니다.\r\
 *쿨다운 12초 ";
 -- atp1 1
@@ -29488,9 +29488,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A03K]
 -- arac
 -- atp1 1
-		t["A03K"][2][1] = "|c00FEE952[유닛 정보]|r - 쿠루미[히스토릭]";
+		t["A03K"][2][1] = "|c00FEE952[Unit Information]|r - 쿠루미[Historic]";
 -- aub1 1
-		t["A03K"][3][1] = "|c00A8F13A[조합식]|r: 치르노[마이너스 K] + 테이레이다 마이[에픽] + 레밀리아 스칼렛[에픽] + 고대와 환상의 조각\r\
+		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: 치르노[마이너스 K] + 테이레이다 마이[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.43초당 1번\r\
 [이동속도]: 350\r\
@@ -29857,7 +29857,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["S00L"][4][1] = "*자신 주변 800범위 아군의 공격속도를 10% 증가시킵니다.\r\
 *공격시 12% 확률로 자신이 공격한 적의 전체 체력의 0.3% + 165만의 |c00379BFF마법 데미지|r를 대상 주변 350범위에 입힙니다.";
 -- anam
-		t["S00L"][5][1] = "[판타즘][케이네]";
+		t["S00L"][5][1] = "[Phantasm][케이네]";
 -- abuf 1
 		t["S00L"][6][1] = "B00U";
 -- aart
@@ -30209,7 +30209,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A079"][107][1] = "*환상예복이 있는 유닛에게 이 스킬을 사용할 경우, 해당 유닛이 예복 유닛으로 변경됩니다.\r\
 *예복은 플레이어당 한번만 적용가능하며, 예복 적용 요건은 공식 카페의 글을 참고해주세요.\r\
 *주의! 예복이 적용된 유닛은 조합 재료로 사용할 수 없으며, 버프/아이템 등이 사라집니다.\r\
-[크로니클의 경우 업그레이드를 모두 완료해야 예복이 적용됩니다]";
+[Chronicle의 경우 업그레이드를 모두 완료해야 예복이 적용됩니다]";
 -- atp1 2
 		t["A079"][108][1] = "『환상예복』|cffffcc00(F)|r - 사용 완료";
 -- atp1 3
@@ -30586,7 +30586,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A08D"][7][1] = "키진 세이자[에픽] + 리글 나이트버그[에픽] + 토라마루 쇼우[에픽] + 유니크 소울 2개 = 키진 세이자[크로니클]";
+		t["A08D"][7][1] = "키진 세이자[Epic] + 리글 나이트버그[Epic] + 토라마루 쇼우[Epic] + Unique 소울 2개 = 키진 세이자[Chronicle]";
 -- ahky
 -- atat
 		t["A08D"][11][1] = "nlrv";
@@ -30600,7 +30600,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 *이쿠가 공격시 15% 확률로 10번 튕기는 유영탄을 발사하여 적에게 85만의 |c00379BFF마법 데미지|r를 입힙니다. 이 데미지는 튕길때마다 10%씩 증가합니다.\r\
 *이쿠가 보스 유닛을 공격할 경우 50% 확률로 감전시켜 3초간 기절시키고, 90만의 추가 |c00379BFF마법 데미지|r를 입힙니다.";
 -- anam
-		t["S00S"][5][1] = "[아르카나][이쿠]";
+		t["S00S"][5][1] = "[Arcana][이쿠]";
 -- abuf 1
 		t["S00S"][6][1] = "B01O";
 -- aart
@@ -30687,7 +30687,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0AQ"][9][1] = "|cffffcc00유닛 셔플|r";
 -- aub1 1
-		t["A0AQ"][10][1] = "*랜덤한 에픽 유닛으로 다시 생성됩니다.\r\
+		t["A0AQ"][10][1] = "*랜덤한 Epic 유닛으로 다시 생성됩니다.\r\
 *목재 2가 소모됩니다.\r\
 *같은 종류의 유닛이 생성되지 않습니다.";
 -- anam
@@ -30703,30 +30703,30 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 4
 		t["A0AQ"][18][1] = "|cffffcc00유닛 셔플|r - 잔여 횟수 0회";
 -- aub1 2
-		t["A0AQ"][19][1] = "*랜덤한 에픽 유닛으로 다시 생성됩니다.\r\
+		t["A0AQ"][19][1] = "*랜덤한 Epic 유닛으로 다시 생성됩니다.\r\
 *최대 3번까지 사용가능하며, 목재 4가 소모됩니다.\r\
 *같은 종류의 유닛이 생성될 경우, 목재는 소모되지만, 사용 가능 횟수는 소모되지 않습니다.";
 -- aub1 3
 -- aub1 4
 -- Ncl6G5
 -- atp1 5
-		t["A0AQ"][23][1] = "|cffffcc00에픽 유닛 셔플|r";
+		t["A0AQ"][23][1] = "|cffffcc00Epic 유닛 셔플|r";
 -- aub1 5
-		t["A0AQ"][24][1] = "*랜덤한 에픽 유닛으로 다시 생성됩니다.\r\
+		t["A0AQ"][24][1] = "*랜덤한 Epic 유닛으로 다시 생성됩니다.\r\
 *목재 5가 소모됩니다.";
 -- [A0BC]
 -- arac
 -- atar 1
 -- aart
 -- anam
-		t["A0BC"][4][1] = "[어센디드][루나]";
+		t["A0BC"][4][1] = "[Ascended][루나]";
 -- atp1 1
 		t["A0BC"][5][1] = "월부『루나틱 레인』- 낮";
 -- aub1 1
 		t["A0BC"][6][1] = "*주변 800범위 적의 방어력을 45 감소시킵니다.\r\
 |c009292C9밤 보너스|r : 방어력 감소 효과가 45에서 60으로 증가합니다.\r\
 *|c00C5EA53[조합 시너지]|r영원한 밤의 환상향\r\
--야고코로 에이린[크로니클]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
+-야고코로 에이린[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
 -- atat
 -- abuf 1
 		t["A0BC"][8][1] = "B033";
@@ -30737,7 +30737,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0BC"][11][1] = "*주변 800범위 적의 방어력을 60 감소시킵니다.\r\
 |c009292C9밤 보너스|r : 방어력 감소 효과가 45에서 60으로 증가합니다.\r\
 *|c00C5EA53[조합 시너지]|r영원한 밤의 환상향\r\
--야고코로 에이린[크로니클]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
+-야고코로 에이린[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
 -- abuf 2
 -- [A0BS]
 -- anam
@@ -30787,7 +30787,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0CI"][5][1] = "|c00ffff00리글 나이트버그|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0CI"][6][1] = "사이교우지 유유코[유니크] + Sㅏ나에[유니크] + 이터니티 라바[유니크]";
+		t["A0CI"][6][1] = "사이교우지 유유코[Unique] + Sㅏ나에[Unique] + 이터니티 라바[Unique]";
 -- ahky
 -- acat
 		t["A0CI"][8][1] = "h01A,h01F,nbel";
@@ -30819,13 +30819,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0HK]
 -- arac
 -- atp1 1
-		t["A0HK"][2][1] = "|c00FEE952[유닛 정보]|r - 토키코[에픽]";
+		t["A0HK"][2][1] = "|c00FEE952[Unit Information]|r - 토키코[Epic]";
 -- aub1 1
-		t["A0HK"][3][1] = "|c00A8F13A[조합식]|r: 정체불명[유니크] + 릴리 블랙[유니크] + 카쿠 세이가[유니크]\r\
+		t["A0HK"][3][1] = "|c00A8F13A[Combination]|r: 정체불명[Unique] + 릴리 블랙[Unique] + 카쿠 세이가[Unique]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 업그레이드 , [강화]에픽 업그레이드\r\
+|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
 \r\
 |c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
 -- anam
@@ -30901,7 +30901,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0HN"][5][1] = "|c00ffff00토키코|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0HN"][7][1] = "정체불명[유니크] + 릴리 블랙[유니크] + 카쿠 세이가[유니크] = 토키코[에픽]";
+		t["A0HN"][7][1] = "정체불명[Unique] + 릴리 블랙[Unique] + 카쿠 세이가[Unique] = 토키코[Epic]";
 -- ahky
 -- alig
 -- atat
@@ -30918,7 +30918,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0HP"][6][1] = "*써니 주변 700범위 적의 방어력을 35 감소시킵니다.\r\
 *써니 밀크가 공격시 마나를 1 회복합니다. 마나가 60이 됐을때 발동합니다.\r\
 *대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-|c009292C9보너스 효과|r : 자신이 크로니클 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 20% 회복시킵니다.";
+|c009292C9보너스 효과|r : 자신이 Chronicle 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 20% 회복시킵니다.";
 -- abuf 1
 		t["A0HP"][8][1] = "B041";
 -- atar 2
@@ -31222,7 +31222,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0HP"][306][1] = "*써니 주변 700범위 적의 방어력을 16 감소시킵니다.\r\
 *써니 밀크가 공격시 마나를 1 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155만의 물리 데미지를 입힙니다.\r\
-|c009292C9보너스 효과|r : 자신이 크로니클 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
+|c009292C9보너스 효과|r : 자신이 Chronicle 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -31329,7 +31329,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- acat
 		t["A0HT"][5][1] = "h039,h00J,hlum";
 -- aub1 1
-		t["A0HT"][6][1] = "테레이다 마이[에픽]  + 써니 밀크[레어] + 신비술사의 고서[아르카나]";
+		t["A0HT"][6][1] = "테레이다 마이[Epic]  + 써니 밀크[Rare] + 신비술사의 고서[Arcana]";
 -- atp1 2
 -- atp1 3
 -- atp1 4
@@ -32280,7 +32280,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- anam
 -- atat
 -- aart
@@ -32331,7 +32331,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 3
 		t["A0L2"][34][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 1.5 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32344,7 +32344,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 4
 		t["A0L2"][35][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 2 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32357,7 +32357,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 5
 		t["A0L2"][36][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 2.5 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32370,7 +32370,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 6
 		t["A0L2"][37][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 3 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32383,7 +32383,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 7
 		t["A0L2"][38][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 3.5 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32396,7 +32396,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 8
 		t["A0L2"][39][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 4 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32408,7 +32408,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[크로니클]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- [A0LL]
 -- anam
 		t["A0LL"][1][1] = "[엘룬]아큐 증폭[25%]";
@@ -32447,7 +32447,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0LR"][24][1] = "nwzr";
 -- [A0LW]
 -- anam
-		t["A0LW"][1][1] = "[판타즘][레티]노던 위너";
+		t["A0LW"][1][1] = "[Phantasm][레티]노던 위너";
 -- atp1 1
 -- aub1 1
 		t["A0LW"][3][1] = "*|c00FF80FF[활력]|r - 35초\r\
@@ -32459,9 +32459,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 -- [A0LY]
 -- anam
-		t["A0LY"][1][1] = "[히스토릭][엘룬]";
+		t["A0LY"][1][1] = "[Historic][엘룬]";
 -- atp1 1
-		t["A0LY"][2][1] = "『천사와 악마』";
+		t["A0LY"][2][1] = "『천사와 Devil』";
 -- aub1 1
 		t["A0LY"][3][1] = "*겐게츠가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는 마법 데미지를 20% 증폭시키며, 110만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *발동시 겐게츠의 마나를 3 회복시킵니다.";
@@ -32505,20 +32505,20 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0MY"][3][1] = "|c00FEE952[유닛 정보]|r - 쿠로코마 사키[레전더리]";
+		t["A0MY"][3][1] = "|c00FEE952[Unit Information]|r - 쿠로코마 사키[Legendary]";
 -- aub1 1
-		t["A0MY"][4][1] = "|c00A8F13A[조합식]|r: 이마이즈미 카게로우[유니크] + 카미시라사와 케이네 EX[에픽] +  유니크 소울\r\
+		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: 이마이즈미 카게로우[Unique] + 카미시라사와 케이네 EX[Epic] +  Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 		t["A0MY"][5][1] = "BTN\\BTNSaki.blp";
 -- [A0N5]
 -- atp1 1
-		t["A0N5"][4][1] = "|c00ffff00쿠로코마 사키[레전더리]|r 조합|c00FF8040[F]|r";
+		t["A0N5"][4][1] = "|c00ffff00쿠로코마 사키[Legendary]|r 조합|c00FF8040[F]|r";
 -- aub1 1
-		t["A0N5"][5][1] = "이마이즈미 카게로우[유니크] + 카미사라사와 케이네 EX[에픽] + 유니크 소울 1개";
+		t["A0N5"][5][1] = "이마이즈미 카게로우[Unique] + 카미사라사와 케이네 EX[Epic] + Unique 소울 1개";
 -- anam
 -- arac
 -- aart
@@ -32648,7 +32648,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0QJ"][5][1] = "|c00ffff00하니야스신 케이키|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0QJ"][7][1] = "헤카티아 라피스라줄리[에픽] + 후지와라노 모코우[에픽] + 야사카 카나코[에픽] + 유니크 소울 2개";
+		t["A0QJ"][7][1] = "헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + Unique 소울 2개";
 -- ahky
 -- atat
 		t["A0QJ"][11][1] = "h07M";
@@ -33002,7 +33002,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0QV"][5][1] = "이자요이 사쿠야[유니크] + 토라마루 쇼[에픽] + 마에리베리 한[에픽] + 고대와 환상의 조각 = 무게츠";
+		t["A0QV"][5][1] = "이자요이 사쿠야[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각 = 무게츠";
 -- atp1 1
 		t["A0QV"][6][1] = "|c00ffff00무게츠|r 조합|c00FF8040[D]|r";
 -- anam
@@ -33017,14 +33017,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A03O"][3][1] = "|c00FEE952[유닛 정보]|r - 키신 사구메[판타즘]";
+		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - 키신 사구메[Phantasm]";
 -- aub1 1
-		t["A03O"][4][1] = "|c00A8F13A[조합식]|r: 클라운피스[에픽] + 키진 세이자[에픽] + 키신 사구메[유니크] + 고대와 환상의 조각\r\
+		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 키진 세이자[Epic] + 키신 사구메[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
 [공격속도]: 0.49초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- aart
 -- [A03T]
 -- aart
@@ -33052,30 +33052,30 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A03U"][3][1] = "|c00FEE952[유닛 정보]|r - 이누바시리 모미지[아르카나]";
+		t["A03U"][3][1] = "|c00FEE952[Unit Information]|r - 이누바시리 모미지[Arcana]";
 -- aub1 1
-		t["A03U"][4][1] = "|c00A8F13A[조합식]|r: 스쿠나 신묘마루[에픽] + 샤메이마루 아야[에픽] + 히메카이도 하타테[유니크] + 이누바시리 모미지[레어] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
+		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + 샤메이마루 아야[Epic] + 히메카이도 하타테[Unique] + 이누바시리 모미지[Rare] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 완료형 변체도(momiji arc)\r\
 \r\
 [공격속도]: 0.25초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- aart
 		t["A03U"][5][1] = "BTN\\BTNMomijiArc.blp";
 -- [A05J]
 -- arac
 -- anam
 -- atp1 1
-		t["A05J"][3][1] = "|c00FEE952[유닛 정보]|r - 키리사메 마리사[아르카나]";
+		t["A05J"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[Arcana]";
 -- aub1 1
-		t["A05J"][4][1] = "|c00A8F13A[조합식]|r: 앨리스 마가트로이드[레어] + 키리사메 마리사[레어] + 하쿠레이 레이무[레어] + 신비술사의 고서 * 2\r\
+		t["A05J"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + 키리사메 마리사[Rare] + 하쿠레이 레이무[Rare] + 신비술사의 고서 * 2\r\
 |c00A8F13A[타이핑]|r: 디어 마이 프렌드(marisa arc)\r\
 \r\
 [공격속도]: 0.41초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드\r\
 |c00C5EA53[조합 시너지]|r기적의 마법!\r\
--이 스킬은 코치야 사나에[아르카나]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
+-이 스킬은 코치야 사나에[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
 -- aart
 		t["A05J"][5][1] = "Icon\\Unit\\BTNMarisa_Arc.blp";
 -- [A0HH]
@@ -33084,95 +33084,95 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0HH"][4][1] = "|c00FEE952[유닛 정보]|r - 모토오리 코스즈[아르카나]";
+		t["A0HH"][4][1] = "|c00FEE952[Unit Information]|r - 모토오리 코스즈[Arcana]";
 -- aub1 1
-		t["A0HH"][5][1] = "|c00A8F13A[조합식]|r: 히에다노 아큐[에픽] + 카미시라사와 케이네[유니크] + 신비술사의 고서\r\
+		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: 히에다노 아큐[Epic] + 카미시라사와 케이네[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 스즈나안의 영광(kosuzu arc)\r\
 \r\
 [공격속도]: 0.22초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- [A0HI]
 -- aart
 		t["A0HI"][1][1] = "BTN\\BTNToyohime.blp";
 -- arac
 -- anam
 -- atp1 1
-		t["A0HI"][4][1] = "|c00FEE952[유닛 정보]|r - 와타츠키노 토요히메[아르카나]";
+		t["A0HI"][4][1] = "|c00FEE952[Unit Information]|r - 와타츠키노 토요히메[Arcana]";
 -- aub1 1
-		t["A0HI"][5][1] = "|c00A8F13A[조합식]|r: 테이레이다 마이[에픽] + 와타츠키노 토요히메[특수] + 신비술사의 고서\r\
+		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: 테이레이다 마이[Epic] + 와타츠키노 토요히메[특수] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 달의 선견자(toyohime arc)\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- [A0HL]
 -- aart
 -- arac
 -- anam
 -- atp1 1
-		t["A0HL"][4][1] = "|c00FEE952[유닛 정보]|r - 사이교우지 유유코[아르카나]";
+		t["A0HL"][4][1] = "|c00FEE952[Unit Information]|r - 사이교우지 유유코[Arcana]";
 -- aub1 1
-		t["A0HL"][5][1] = "|c00A8F13A[조합식]|r: 사이교우지 유유코[에픽] + 콘파쿠 요우무[레어] + 누군가의 시체 + 신비술사의 고서\r\
+		t["A0HL"][5][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Epic] + 콘파쿠 요우무[Rare] + 누군가의 시체 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 백옥루의 망령(yuyuko arc)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드\r\
 |c00C5EA53[조합 시너지]|r벚꽃나비\r\
--콘파쿠 요우무[레전더리]를 보유하고 있을 경우, 마나 스킬 발동시 25% 확률로 마나를 모두 회복합니다.";
+-콘파쿠 요우무[Legendary]를 보유하고 있을 경우, 마나 스킬 발동시 25% 확률로 마나를 모두 회복합니다.";
 -- [A0HO]
 -- aart
 		t["A0HO"][1][1] = "Icon\\Unit\\BTNHatate_Arc.blp";
 -- arac
 -- anam
 -- atp1 1
-		t["A0HO"][4][1] = "|c00FEE952[유닛 정보]|r - 히메카이도 하타테[아르카나]";
+		t["A0HO"][4][1] = "|c00FEE952[Unit Information]|r - 히메카이도 하타테[Arcana]";
 -- aub1 1
-		t["A0HO"][5][1] = "|c00A8F13A[조합식]|r: 히메카이도 하타테[유니크] + 카와시로 니토리[매직] + 신비술사의 고서\r\
+		t["A0HO"][5][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + 카와시로 니토리[Magic] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 텐구 허밋퍼플(hatate arc)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 유니크 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 유닛 업그레이드";
 -- [A0HS]
 -- aart
 		t["A0HS"][1][1] = "Icon\\Unit\\BTNShikieiki_Arc.blp";
 -- arac
 -- anam
 -- atp1 1
-		t["A0HS"][4][1] = "|c00FEE952[유닛 정보]|r - 시키에이키 야마자나두[아르카나]";
+		t["A0HS"][4][1] = "|c00FEE952[Unit Information]|r - 시키에이키 야마자나두[Arcana]";
 -- aub1 1
-		t["A0HS"][5][1] = "|c00A8F13A[조합식]|r: 시키에이키 야마자나두[에픽] + 토라마루 쇼[에픽] + 유니크 소울 * 2 + 신비술사의 고서\r\
+		t["A0HS"][5][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 토라마루 쇼[Epic] + Unique 소울 * 2 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 고마우신 말씀(shiki arc)\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- [A0I3]
 -- aart
 -- arac
 -- anam
 -- atp1 1
-		t["A0I3"][4][1] = "|c00FEE952[유닛 정보]|r - 홍 메이링[아르카나]";
+		t["A0I3"][4][1] = "|c00FEE952[Unit Information]|r - 홍 메이링[Arcana]";
 -- aub1 1
-		t["A0I3"][5][1] = "|c00A8F13A[조합식]|r: 호시구마 유기[유니크] + 이마이즈미 카게로[유니크] + 홍 메이링[레어] + 신비술사의 고서\r\
+		t["A0I3"][5][1] = "|c00A8F13A[Combination]|r: 호시구마 유기[Unique] + 이마이즈미 카게로[Unique] + 홍 메이링[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 잠꾸러기 문지기(meiling arc)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 유니크 이하 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Unique 이하 유닛 업그레이드";
 -- [A0JC]
 -- arac
 -- atp1 1
-		t["A0JC"][2][1] = "|c00FEE952[유닛 정보]|r - 우사미 렌코[판타즘]";
+		t["A0JC"][2][1] = "|c00FEE952[Unit Information]|r - 우사미 렌코[Phantasm]";
 -- aub1 1
-		t["A0JC"][3][1] = "|c00A8F13A[조합식]|r: 마에리베리 한[에픽] + 비상천칙[에픽] + 우사미 렌코[유니크] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 판타즘 체이서(renko phan)\r\
+		t["A0JC"][3][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 비상천칙[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각\r\
+|c00A8F13A[타이핑]|r: Phantasm 체이서(renko phan)\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- anam
 -- aart
 -- atp1 2
@@ -33239,14 +33239,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0JG]
 -- anam
 -- atp1 1
-		t["A0JG"][2][1] = "|c00FEE952[유닛 정보]|r - 나가에 이쿠[아르카나]";
+		t["A0JG"][2][1] = "|c00FEE952[Unit Information]|r - 나가에 이쿠[Arcana]";
 -- aub1 1
-		t["A0JG"][3][1] = "|c00A8F13A[조합식]|r: 나가에 이쿠[유니크] + 스타 사파이어[레어] + 신비술사의 고서\r\
+		t["A0JG"][3][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + 스타 사파이어[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 검은 바다에 붉음을(iku arc)\r\
 \r\
 [공격속도]: 0.41초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드 , 유니크 이하 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드 , Unique 이하 유닛 업그레이드";
 -- aart
 		t["A0JG"][4][1] = "Icon\\Unit\\BTNIku_Arc.blp";
 -- atp1 17
@@ -33313,14 +33313,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0K7]
 -- anam
 -- atp1 1
-		t["A0K7"][2][1] = "|c00FEE952[유닛 정보]|r - 링고[아르카나]";
+		t["A0K7"][2][1] = "|c00FEE952[Unit Information]|r - 링고[Arcana]";
 -- aub1 1
-		t["A0K7"][3][1] = "|c00A8F13A[조합식]|r: 레이센 우동게인 이나바[유니크] + 이나바 테위[레어] + 신비술사의 고서\r\
+		t["A0K7"][3][1] = "|c00A8F13A[Combination]|r: 레이센 우동게인 이나바[Unique] + 이나바 테위[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 귤색의 이글래빗(ringo arc)\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- aart
 		t["A0K7"][4][1] = "Icon\\Unit\\BTNRingo_Arc.blp";
 -- atp1 17
@@ -33387,14 +33387,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0KE]
 -- anam
 -- atp1 1
-		t["A0KE"][2][1] = "|c00FEE952[유닛 정보]|r - 카소다니 쿄코[아르카나]";
+		t["A0KE"][2][1] = "|c00FEE952[Unit Information]|r - 카소다니 쿄코[Arcana]";
 -- aub1 1
-		t["A0KE"][3][1] = "|c00A8F13A[조합식]|r: 리글 나이트버그[에픽] + 카소다니 쿄코[레어] + 신비술사의 고서\r\
+		t["A0KE"][3][1] = "|c00A8F13A[Combination]|r: 리글 나이트버그[Epic] + 카소다니 쿄코[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 얌전한 야마비코(kyouko arc)\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드\r\
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드\r\
 |c00C5EA53[조합 시너지]|r환상향의 개들\r\
 -코마노 아운[특수]를 보유하고 있을 경우, 4라운드마다 목재를 1 획득합니다.";
 -- aart
@@ -33462,13 +33462,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0MV]
 -- anam
 -- atp1 1
-		t["A0MV"][2][1] = "|c00FEE952[유닛 정보]|r - 서니 밀크[아르카나]";
+		t["A0MV"][2][1] = "|c00FEE952[Unit Information]|r - 서니 밀크[Arcana]";
 -- aub1 1
-		t["A0MV"][3][1] = "|c00A8F13A[조합식]|r: 메디슨 멜랑콜리[에픽] + 서니 밀크[레어] + 신비술사의 고서\r\
+		t["A0MV"][3][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + 서니 밀크[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 선라이트 오버드라이브(sunny arc)\r\
 [공격속도]: 0.58초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- aart
 		t["A0MV"][4][1] = "Icon\\Unit\\BTNSunny_Arc.blp";
 -- atp1 17
@@ -33535,14 +33535,14 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0MZ]
 -- anam
 -- atp1 1
-		t["A0MZ"][2][1] = "|c00FEE952[유닛 정보]|r - 니와타리 쿠타카[아르카나]";
+		t["A0MZ"][2][1] = "|c00FEE952[Unit Information]|r - 니와타리 쿠타카[Arcana]";
 -- aub1 1
-		t["A0MZ"][3][1] = "|c00A8F13A[조합식]|r: 모노노베노 후토[에픽] + 미스티아 로렐라이[레어] + 신비술사의 고서\r\
+		t["A0MZ"][3][1] = "|c00A8F13A[Combination]|r: 모노노베노 후토[Epic] + 미스티아 로렐라이[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 지옥의 새(kutaka arc)\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- aart
 		t["A0MZ"][4][1] = "Icon\\Unit\\BTNKutaka_Arc.blp";
 -- atp1 17
@@ -33636,9 +33636,9 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 -- arac
 -- atp1 1
-		t["S00V"][3][1] = "|c00FEE952[유닛 정보]|r - 하쿠레이 레이무[크로니클]";
+		t["S00V"][3][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 레이무[Chronicle]";
 -- aub1 1
-		t["S00V"][4][1] = "|c00A8F13A[조합식]|r: 하쿠레이 레이무[유니크] + 야쿠모 란[에픽] + 호우쥬 누에[에픽] + 유니크 소울 5개\r\
+		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: 하쿠레이 레이무[Unique] + 야쿠모 란[Epic] + 호우쥬 누에[Epic] + Unique 소울 5개\r\
 \r\
 [공격속도]: 0.46초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
@@ -33658,7 +33658,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0QY"][3][1] = "＊레이무 주변 600 범위의 적 방어력을 25 감소시킵니다.\r\
 ＊레이무 주변 600 범위의 적 이동속도를 50% 감소시킵니다.\r\
-|c00ff2222[!]제한|r : 하쿠레이 레이무[레전더리]의 몽부『봉마진』이랑 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : 하쿠레이 레이무[Legendary]의 몽부『봉마진』이랑 중첩되지 않습니다.\r\
 ────────────────\r\
 주부『명주암투』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
@@ -33707,7 +33707,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A0R1"][7][1] = "하쿠레이 레이무[유니크] + 야쿠모 란[에픽] + 호우쥬 누에[에픽] + 유니크 소울 5개";
+		t["A0R1"][7][1] = "하쿠레이 레이무[Unique] + 야쿠모 란[Epic] + 호우쥬 누에[Epic] + Unique 소울 5개";
 -- ahky
 -- atat
 		t["A0R1"][11][1] = "nmgd";
@@ -33796,7 +33796,7 @@ nhym,h02Q,hlum,e03C";
 *야치에 주변 800범위 적의 방어력을 35 감소시킵니다.\r\
 *야치에가 공격시 마나를 1 회복합니다. 마나가 128이 됐을때, 전체 체력의 4%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.";
 -- anam
-		t["A0RA"][4][1] = "[아르카나][야치에]";
+		t["A0RA"][4][1] = "[Arcana][야치에]";
 -- aart
 -- atp1 2
 -- aub1 2
@@ -33887,7 +33887,7 @@ nhym,h02Q,hlum,e03C";
 *대상 유닛 주변 600범위내에 있는 적의 현재 체력의 3.5% + 225만의 |c00379BFF마법|r/|c00AC59FF절대|r 복합 데미지를 입히고, 이후 받는 마법 데미지를 15% 증폭시킵니다.\r\
 [절반은 마법 / 절반은 절대 데미지로 적용됩니다]";
 -- anam
-		t["S00W"][5][1] = "[아르카나][토요히메]정화패";
+		t["S00W"][5][1] = "[Arcana][토요히메]정화패";
 -- abuf 1
 -- aart
 -- [A0RC]
@@ -33908,7 +33908,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 4
 -- [A0RD]
 -- anam
-		t["A0RD"][1][1] = "[레전더리][엘룬]";
+		t["A0RD"][1][1] = "[Legendary][엘룬]";
 -- atp1 1
 -- aub1 1
 		t["A0RD"][3][1] = "*치르노가 공격시 마나를 9 회복합니다. 마나가 999가 됐을때, 자신 주변 900범위 적의 다리를 얼려 5초간 기절시킵니다. 이 효과를 받은 적은 이후 마법 데미지를 20% 증폭하여 받습니다.";
@@ -34537,7 +34537,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 5
 -- [A0NJ]
 -- anam
-		t["A0NJ"][1][1] = "[아르카나][란]";
+		t["A0NJ"][1][1] = "[Arcana][란]";
 -- atp1 1
 -- aub1 1
 		t["A0NJ"][3][1] = "*|c00FF80FF[활력]|r - [2초~5초]\r\
@@ -34556,14 +34556,14 @@ nhym,h02Q,hlum,e03C";
 -- aub1 2
 -- [A0RL]
 -- atp1 1
-		t["A0RL"][1][1] = "|c00FEE952[유닛 정보]|r - 야쿠모 란[아르카나]";
+		t["A0RL"][1][1] = "|c00FEE952[Unit Information]|r - 야쿠모 란[Arcana]";
 -- aub1 1
-		t["A0RL"][2][1] = "|c00A8F13A[조합식]|r: 야쿠모 란[익스텐드] + 첸[유니크] + 정체불명[유니크] + 신비술사의 고서\r\
+		t["A0RL"][2][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[익스텐드] + 첸[Unique] + 정체불명[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 책사 구미호(ran arc)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- anam
 -- aart
 -- atar 1
@@ -34594,7 +34594,7 @@ nhym,h02Q,hlum,e03C";
 		t["A032"][6][1] = "『꿈의 끝』|cffffcc00(R)|r - 모인 꿈 0개";
 -- aub1 1
 		t["A032"][7][1] = "*마쿠라 주변 700범위 적의 전체 체력을 초당 0.5% 감소시킵니다.\r\
-*마쿠라는 유니크 소울을 흡수하여 꿈의 양분으로 삼아 강력해집니다. 이 스킬을 사용하여 유니크 소울을 흡수할 수 있으며, 최대 9개까지 흡수 가능합니다.\r\
+*마쿠라는 Unique 소울을 흡수하여 꿈의 양분으로 삼아 강력해집니다. 이 스킬을 사용하여 Unique 소울을 흡수할 수 있으며, 최대 9개까지 흡수 가능합니다.\r\
 [흡수한 꿈 3개마다 마쿠라의 능력이 강화됩니다.]\r\
 [꿈을 흡수할때마다 공격속도가 10% 상승합니다.]\r\
 [꿈 9개 흡수시 강화]\r\
@@ -34760,14 +34760,14 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0QP]
 -- aub1 1
-		t["A0QP"][1][1] = "|c00A8F13A[조합식]|r: 야사카 카나코[에픽] + 후타츠이와 마미조[에픽] + 정체불명[유니크] + 고대와 환상의 조각\r\
+		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 후타츠이와 마미조[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.36초당 1번\r\
 [이동속도]: 450\r\
 |c00F8BA54[업그레이드]|r : 코토히메 업그레이드";
 -- atar 1
 -- atp1 1
-		t["A0QP"][4][1] = "|c00FEE952[유닛 정보]|r - 코토히메[히스토릭]";
+		t["A0QP"][4][1] = "|c00FEE952[Unit Information]|r - 코토히메[Historic]";
 -- anam
 -- aart
 -- abuf 1
@@ -34924,7 +34924,7 @@ nhym,h02Q,hlum,e03C";
 *사용시 금 2000을 소모하여 목재를 1 획득합니다. 최대 4번까지 사용가능합니다.\r\
 *코마치가 2기 이상이라면 발동하지 않습니다.";
 -- anam
-		t["A0IY"][4][1] = "[레전더리][코마치]사자선별의 낫";
+		t["A0IY"][4][1] = "[Legendary][코마치]사자선별의 낫";
 -- atar 1
 -- aart
 -- atp1 2
@@ -35435,7 +35435,7 @@ nhym,h02Q,hlum,e03C";
 |c00FF6464홀수 라운드|r : 거센 바람을 일으켜 자신 주변 700 범위의 적 방어력을 25 감소시킵니다.\r\
 |c00379BFF짝수 라운드|r : 공격 시 10% 확률로 풍압탄을 날려 대상 주변 400 범위의 적에게 95만의 |c00379BFF마법 피해|r를 가하고 받는 마법 피해를 10% |c0000FFFF증폭|r시킵니다.";
 -- atp1 2
-		t["A045"][9][1] = "역풍『인간금제의 길』- 홀수";
+		t["A045"][9][1] = "역풍『Human금제의 길』- 홀수";
 -- aub1 2
 		t["A045"][10][1] = "＊거센 바람을 일으켜 자신 주변 700 범위의 적 방어력을 25 감소시킵니다.";
 -- abuf 2
@@ -35566,7 +35566,7 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 		t["A0RU"][2][1] = "nonancient,player";
 -- anam
-		t["A0RU"][5][1] = "[판타즘 테이커 추가 방어력]";
+		t["A0RU"][5][1] = "[Phantasm 테이커 추가 방어력]";
 -- aart
 -- abuf 1
 		t["A0RU"][8][1] = "B079";
@@ -35720,7 +35720,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0CZ"][2][1] = "『마술사 메리』";
 -- aub1 1
 		t["A0CZ"][3][1] = "＊|c0044BBFF[마력]|r - 100 : 공격 시 마력 1 회복, 자신 주변 500 범위의 무작위 아군에게 신비한 경계를 들여다보는 힘을 부여합니다. 10초 동안 공격력이 45만 증가하고 1초마다 마력을 2% 회복시킵니다.\r\
-＊대상은 |c00B77615레전더리|r/|c0000FF40아르카나|r/|c00FF0080판타즘|r/|c00FF0000히스토릭|r/|c0080A8E6어센디드|r/|c00808080크로니클|r 등급으로 한정됩니다.\r\
+＊대상은 |c00B77615Legendary|r/|c0000FF40Arcana|r/|c00FF0080Phantasm|r/|c00FF0000Historic|r/|c0080A8E6Ascended|r/|c00808080Chronicle|r 등급으로 한정됩니다.\r\
 |c00ff2222[!]제한|r : 회복을 받지 않는 유닛은 제외되며, 지속 도중 다시 발동하지 않습니다. ";
 -- anam
 -- aart
@@ -36259,7 +36259,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 31
 -- [A0R3]
 -- anam
-		t["A0R3"][1][1] = "[메리 레퀴엠 공속]";
+		t["A0R3"][1][1] = "[메리 Requiem 공속]";
 -- [A0R5]
 -- atar 1
 -- anam
@@ -36282,14 +36282,14 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- anam
 -- atp1 1
-		t["A0R6"][4][1] = "|c00FEE952[유닛 정보]|r - 이나바 테위[판타즘]";
+		t["A0R6"][4][1] = "|c00FEE952[Unit Information]|r - 이나바 테위[Phantasm]";
 -- aub1 1
-		t["A0R6"][5][1] = "|c00A8F13A[조합식]|r: 호라이산 카구야[에픽] + 클라운피스[에픽] + 이나바 테위[레어] + 고대와 환상의 조각\r\
+		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + 클라운피스[Epic] + 이나바 테위[Rare] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 에인션트 듀퍼(tewi phan)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 325\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- atar 1
 -- atar 2
 -- aart
@@ -36317,7 +36317,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0RX"][6][1] = "차부『오오나무치 님의 약』- |c00FF8040[W]|r";
 -- aub1 1
-		t["A0RX"][7][1] = "*테위가 공격시 마나를 1 회복합니다. 테위가 마나가 100이 될 경우, 이 스킬을 사용하여 대상 아군에게 뭔지 모를 약을 먹일 수 있습니다.[유니크 이하 유닛에게는 투여할 수 없습니다.]\r\
+		t["A0RX"][7][1] = "*테위가 공격시 마나를 1 회복합니다. 테위가 마나가 100이 될 경우, 이 스킬을 사용하여 대상 아군에게 뭔지 모를 약을 먹일 수 있습니다.[Unique 이하 유닛에게는 투여할 수 없습니다.]\r\
 *아군에게 토끼신의 힘을 불어넣어 평타 공격력을 10만 증가시킵니다. 유닛 하나당 최대 3번까지 사용할 수 있습니다.\r\
 *테위 자신에게는 사용할 수 없습니다.\r\
 [테위는 이 스킬 이외의 마나 회복을 받지 않습니다.]\r\
@@ -36328,7 +36328,7 @@ nhym,h02Q,hlum,e03C";
 -- areq
 -- [A0RY]
 -- anam
-		t["A0RY"][1][1] = "[판타즘]테위";
+		t["A0RY"][1][1] = "[Phantasm]테위";
 -- [A0RZ]
 -- anam
 -- atar 1
@@ -36356,9 +36356,9 @@ nhym,h02Q,hlum,e03C";
 -- aart
 		t["A0S0"][3][1] = "ReplaceableTextures\\CommandButtons\\Meira\\BTN_UP.blp";
 -- atp1 1
-		t["A0S0"][4][1] = "|c00FEE952[유닛 정보]|r - 메이라[히스토릭]";
+		t["A0S0"][4][1] = "|c00FEE952[Unit Information]|r - 메이라[Historic]";
 -- aub1 1
-		t["A0S0"][5][1] = "|c00A8F13A[조합식]|r: 유령악단[팬텀 앙상블] + 레이우지 우츠호[에픽] + 루미아 EX[유니크] + 고대와 환상의 조각\r\
+		t["A0S0"][5][1] = "|c00A8F13A[Combination]|r: 유령악단[팬텀 앙상블] + 레이우지 우츠호[Epic] + 루미아 EX[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450\r\
@@ -36417,7 +36417,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0S3"][5][1] = "유령악단[에픽] + 레이우지 우츠호[에픽] + 루미아 EX[유니크] + 고대와 환상의 조각";
+		t["A0S3"][5][1] = "유령악단[Epic] + 레이우지 우츠호[Epic] + 루미아 EX[Unique] + 고대와 환상의 조각";
 -- atp1 1
 		t["A0S3"][6][1] = "|c00ffff00메이라|r 조합|c00FF8040[D]|r";
 -- anam
@@ -36467,7 +36467,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0HQ"][6][1] = "u006";
 -- [A039]
 -- anam
-		t["A039"][1][1] = "[엘룬] [에픽_유닛 정보]";
+		t["A039"][1][1] = "[엘룬] [Epic_Unit Information]";
 -- atp1 1
 -- aub1 1
 -- atar 2
@@ -36494,7 +36494,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 2
 -- [A0QO]
 -- anam
-		t["A0QO"][1][1] = "[아르카나]미노리코_R";
+		t["A0QO"][1][1] = "[Arcana]미노리코_R";
 -- atar 1
 -- arac
 -- aart
@@ -36587,13 +36587,13 @@ nhym,h02Q,hlum,e03C";
 		t["A0S8"][6][1] = "『히히이로카네 셉터』- |c00FF8040[E]|r";
 -- aub1 1
 		t["A0S8"][7][1] = "＊히히이로카네를 바깥 세계에서 흘러들어온 기묘한 셉터랑 개조해 그 물건을 대상에게 건네줍니다. 사실 아무 힘이 없지만 소유주에게 굉장한 고양감을 선사해줍니다.\r\
-＊크로니클 유닛에게만 줄 수 있으며,특정 스킬을 강화합니다.\r\
+＊Chronicle 유닛에게만 줄 수 있으며,특정 스킬을 강화합니다.\r\
 ＊대상에 따라『도구의 이름과 용도를 아는 정도의 능력』를 강화합니다.\r\
 -|c00FF6464물리|r : 방어력 감소 수치가 30으로 증가\r\
 -|c00379BFF마법|r : 공격속도 증가 수치가 18%로 증가\r\
-＊히히이로카네 셉터 강화 효과가 있는 유닛은 조합식의 유닛 인벤토리에 히히이로카네 셉터를 소지하고 있습니다.\r\
+＊히히이로카네 셉터 강화 효과가 있는 유닛은 Combination의 유닛 인벤토리에 히히이로카네 셉터를 소지하고 있습니다.\r\
 [히히이로카네 셉터는 아이템 형식이며, 부여시 떨어뜨릴 수 없습니다.]\r\
-|c00FFFF00*히히이로카네 셉터는 맵 하단 조합식의 크로니클 유닛 중 셉터를 소유한 유닛만 부여할 수 있습니다.|r";
+|c00FFFF00*히히이로카네 셉터는 맵 하단 Combination의 Chronicle 유닛 중 셉터를 소유한 유닛만 부여할 수 있습니다.|r";
 -- ahky
 -- aart
 		t["A0S8"][9][1] = "ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp";
@@ -36624,14 +36624,14 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 -- arac
 -- atp1 1
-		t["S00X"][3][1] = "|c00FEE952[유닛 정보]|r - 레밀리아 스칼렛[아르카나]";
+		t["S00X"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Arcana]";
 -- aub1 1
-		t["S00X"][4][1] = "|c00A8F13A[조합식]|r: 레밀리아 스칼렛[에픽] + 파츄리 널릿지[유니크]  + 신비술사의 고서\r\
+		t["S00X"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 파츄리 널릿지[Unique]  + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 장미를 죽이는 카밀라(remi arc)\r\
 \r\
 [공격속도]: 0.34초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]에픽 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : [기본]Epic 유닛 업그레이드";
 -- anam
 -- abuf 1
 		t["S00X"][6][1] = "B07K";
@@ -36669,14 +36669,14 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SC]
 -- atp1 1
-		t["A0SC"][1][1] = "|c00FEE952[유닛 정보]|r - 쿠모이 이치린[판타즘]";
+		t["A0SC"][1][1] = "|c00FEE952[Unit Information]|r - 쿠모이 이치린[Phantasm]";
 -- aub1 1
-		t["A0SC"][2][1] = "|c00A8F13A[조합식]|r: 사이교우지 유유코[에픽] + 호라이산 카구야[에픽] + 쿠모이 이치린[유니크] + 고대와 환상의 조각\r\
+		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Epic] + 호라이산 카구야[Epic] + 쿠모이 이치린[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 구름 승려(ichirin phan)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- anam
 -- aart
 		t["A0SC"][5][1] = "Icon\\Unit\\BTNIchirin_Phan.blp";
@@ -37631,7 +37631,7 @@ nhym,h02Q,hlum,e03C";
 -- aart
 -- [A0K6]
 -- atp1 1
-		t["A0K6"][1][1] = "|c00FEE952[유닛 정보]|r - 요리가미 시온[크로니클]";
+		t["A0K6"][1][1] = "|c00FEE952[Unit Information]|r - 요리가미 시온[Chronicle]";
 -- anam
 -- aart
 		t["A0K6"][3][1] = "Icon\\Unit\\BTNShion_Chro.blp";
@@ -37696,7 +37696,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0K6"][64][1] = "|c00A8F13A[조합식]|r: 카기야마 히나[에픽] + 유령악단[팬텀 앙상블][에픽] + 토라마루 쇼우[에픽] + 유니크 소울 2개\r\
+		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.50초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -37705,14 +37705,14 @@ nhym,h02Q,hlum,e03C";
 -- [A0SL]
 -- arac
 -- atp1 1
-		t["A0SL"][2][1] = "|c00FEE952[유닛 정보]|r - 소가노 토지코[판타즘]";
+		t["A0SL"][2][1] = "|c00FEE952[Unit Information]|r - 소가노 토지코[Phantasm]";
 -- aub1 1
-		t["A0SL"][3][1] = "|c00A8F13A[조합식]|r: 나마즈[에픽] + 유령악단[에픽] + 소가노 토지코[유니크] + 고대와 환상의 조각\r\
+		t["A0SL"][3][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 유령악단[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 망령은 말하지 않는다(tojiko phan)\r\
 \r\
 [공격속도]: 0.41초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- anam
 -- aart
 -- atp1 2
@@ -37931,9 +37931,9 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- anam
 -- atp1 1
-		t["A0SQ"][107][1] = "|c00FEE952[유닛 정보]|r - 사츠키 린[판타즘]";
+		t["A0SQ"][107][1] = "|c00FEE952[Unit Information]|r - 사츠키 린[Phantasm]";
 -- aub1 1
-		t["A0SQ"][108][1] = "|c00A8F13A[조합식]|r: 유니크 소울 * 4 + 고대와 환상의 조각 * 2\r\
+		t["A0SQ"][108][1] = "|c00A8F13A[Combination]|r: Unique 소울 * 4 + 고대와 환상의 조각 * 2\r\
 |c00A8F13A[타이핑]|r: 인셉션 걸(satsuki phan)\r\
 \r\
 [공격속도]: 없음\r\
@@ -37950,9 +37950,9 @@ nhym,h02Q,hlum,e03C";
 		t["A0SR"][5][1] = "Icon\\Unit\\BTNMikoH_Chro.blp";
 -- [A0SS]
 -- atp1 1
-		t["A0SS"][1][1] = "|c00FEE952[유닛 정보]|r - 요리가미 시온[어센디드]";
+		t["A0SS"][1][1] = "|c00FEE952[Unit Information]|r - 요리가미 시온[Ascended]";
 -- anam
-		t["A0SS"][2][1] = "[어센디드_유닛 정보]";
+		t["A0SS"][2][1] = "[Ascended_Unit Information]";
 -- aart
 		t["A0SS"][3][1] = "ReplaceableTextures\\CommandButtons\\Shion\\BTN_UP.blp";
 -- atp1 2
@@ -38016,7 +38016,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0SS"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0SS"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -38024,7 +38024,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0ST]
 -- atp1 1
-		t["A0ST"][1][1] = "|c00FEE952[유닛 정보]|r - 샤메이마루 아야[어센디드]";
+		t["A0ST"][1][1] = "|c00FEE952[Unit Information]|r - 샤메이마루 아야[Ascended]";
 -- anam
 -- aart
 		t["A0ST"][3][1] = "Icon\\Unit\\BTNAya_Asc.blp";
@@ -38089,15 +38089,15 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0ST"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0ST"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.27초당 1번\r\
 [이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- arac
 -- [A0SU]
 -- atp1 1
-		t["A0SU"][1][1] = "|c00FEE952[유닛 정보]|r - 히메카이도 하타테[어센디드]";
+		t["A0SU"][1][1] = "|c00FEE952[Unit Information]|r - 히메카이도 하타테[Ascended]";
 -- anam
 -- aart
 -- atp1 2
@@ -38161,15 +38161,15 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0SU"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0SU"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.24초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- arac
 -- [A0SV]
 -- atp1 1
-		t["A0SV"][1][1] = "|c00FEE952[유닛 정보]|r - 루나 차일드[어센디드]";
+		t["A0SV"][1][1] = "|c00FEE952[Unit Information]|r - 루나 차일드[Ascended]";
 -- anam
 -- aart
 		t["A0SV"][3][1] = "Icon\\Unit\\BTNLuna_Asc.blp";
@@ -38234,7 +38234,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0SV"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0SV"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 450\r\
@@ -38242,7 +38242,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SW]
 -- atp1 1
-		t["A0SW"][1][1] = "|c00FEE952[유닛 정보]|r - 유메와타리 마쿠라[어센디드]";
+		t["A0SW"][1][1] = "|c00FEE952[Unit Information]|r - 유메와타리 마쿠라[Ascended]";
 -- anam
 -- aart
 		t["A0SW"][3][1] = "Icon\\Unit\\BTNMakura_Asc.blp";
@@ -38307,7 +38307,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0SW"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0SW"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.37초당 1번\r\
 [이동속도]: 400\r\
@@ -38315,7 +38315,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SX]
 -- atp1 1
-		t["A0SX"][1][1] = "|c00FEE952[유닛 정보]|r - 앨리스 마가트로이드[어센디드]";
+		t["A0SX"][1][1] = "|c00FEE952[Unit Information]|r - 앨리스 마가트로이드[Ascended]";
 -- anam
 -- aart
 		t["A0SX"][3][1] = "Icon\\Unit\\BTNAlice_Asc.blp";
@@ -38380,7 +38380,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0SX"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0SX"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 325[공중이동 가능]\r\
@@ -38388,7 +38388,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SY]
 -- atp1 1
-		t["A0SY"][1][1] = "|c00FEE952[유닛 정보]|r - 히에다노 아큐[어센디드]";
+		t["A0SY"][1][1] = "|c00FEE952[Unit Information]|r - 히에다노 아큐[Ascended]";
 -- anam
 -- aart
 		t["A0SY"][3][1] = "Icon\\Unit\\BTNAkyuu_Asc.blp";
@@ -38453,7 +38453,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0SY"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0SY"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 없음\r\
 [이동속도]: 350\r\
@@ -38461,7 +38461,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SZ]
 -- atp1 1
-		t["A0SZ"][1][1] = "|c00FEE952[유닛 정보]|r - 이슈아 나자레누스[어센디드]";
+		t["A0SZ"][1][1] = "|c00FEE952[Unit Information]|r - 이슈아 나자레누스[Ascended]";
 -- anam
 -- aart
 		t["A0SZ"][3][1] = "BTN\\BTNIesua.blp";
@@ -38526,7 +38526,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0SZ"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0SZ"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.21초당 1번\r\
 [이동속도]: 355\r\
@@ -38534,7 +38534,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0T0]
 -- atp1 1
-		t["A0T0"][1][1] = "|c00FEE952[유닛 정보]|r - 코메이지 코이시[어센디드]";
+		t["A0T0"][1][1] = "|c00FEE952[Unit Information]|r - 코메이지 코이시[Ascended]";
 -- anam
 -- aart
 		t["A0T0"][3][1] = "Icon\\Unit\\BTNKoishi_Asc.blp";
@@ -38599,15 +38599,15 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0T0"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0T0"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.40초당 1번\r\
 [이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 강화 에픽 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : 강화 Epic 유닛 업그레이드";
 -- arac
 -- [A0T1]
 -- atp1 1
-		t["A0T1"][1][1] = "|c00FEE952[유닛 정보]|r - 레이우지 우츠호[어센디드]";
+		t["A0T1"][1][1] = "|c00FEE952[Unit Information]|r - 레이우지 우츠호[Ascended]";
 -- anam
 -- aart
 		t["A0T1"][3][1] = "Icon\\Unit\\BTNUtsuho_Asc.blp";
@@ -38672,7 +38672,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0T1"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0T1"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 350\r\
@@ -38680,7 +38680,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0T2]
 -- atp1 1
-		t["A0T2"][1][1] = "|c00FEE952[유닛 정보]|r - 하쿠레이 선대무녀[어센디드]";
+		t["A0T2"][1][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 선대무녀[Ascended]";
 -- anam
 -- aart
 		t["A0T2"][3][1] = "Icon\\Unit\\BTNSendai_Asc.blp";
@@ -38745,15 +38745,15 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0T2"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0T2"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 판타즘 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
 -- arac
 -- [A0T3]
 -- atp1 1
-		t["A0T3"][1][1] = "|c00FEE952[유닛 정보]|r -마에리베리 한[어센디드]";
+		t["A0T3"][1][1] = "|c00FEE952[Unit Information]|r -마에리베리 한[Ascended]";
 -- anam
 -- aart
 		t["A0T3"][3][1] = "Icon\\Unit\\BTNMaribel_Asc.blp";
@@ -38818,7 +38818,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0T3"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0T3"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 450\r\
@@ -38826,7 +38826,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0T4]
 -- atp1 1
-		t["A0T4"][1][1] = "|c00FEE952[유닛 정보]|r - 무라사 미나미츠[어센디드]";
+		t["A0T4"][1][1] = "|c00FEE952[Unit Information]|r - 무라사 미나미츠[Ascended]";
 -- anam
 -- aart
 		t["A0T4"][3][1] = "Icon\\Unit\\BTNMurasa_Asc.blp";
@@ -38891,15 +38891,15 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0T4"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0T4"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- arac
 -- [A0T5]
 -- atp1 1
-		t["A0T5"][1][1] = "|c00FEE952[유닛 정보]|r - 이자요이 사쿠야[어센디드]";
+		t["A0T5"][1][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Ascended]";
 -- anam
 -- aart
 		t["A0T5"][3][1] = "Icon\\Unit\\BTNSakuya_Req.blp";
@@ -38964,7 +38964,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0T5"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0T5"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.25초당 1번\r\
 [이동속도]: 400\r\
@@ -38974,18 +38974,18 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- anam
 -- atp1 1
-		t["A0T6"][3][1] = "|c00FEE952[유닛 정보]|r - 메디슨 멜랑콜리[레전더리]";
+		t["A0T6"][3][1] = "|c00FEE952[Unit Information]|r - 메디슨 멜랑콜리[Legendary]";
 -- aub1 1
-		t["A0T6"][4][1] = "|c00A8F13A[조합식]|r: 메디슨 멜랑콜리[에픽] + 카기야마 히나[유니크] + 유니크 소울\r\
+		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + 카기야마 히나[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 레전더리 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
 -- aart
 		t["A0T6"][5][1] = "Icon\\Unit\\BTNMedicine_Leg.blp";
 -- [A0T8]
 -- anam
-		t["A0T8"][1][1] = "[에픽] 란_R 선택";
+		t["A0T8"][1][1] = "[Epic] 란_R 선택";
 -- arac
 -- spb1A1
 		t["A0T8"][3][1] = "A0ML,A0MJ";
@@ -39066,7 +39066,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TE"][5][1] = "|c00ffff00『다수의 청원을 들어주다』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A0TE"][6][1] = "＊인간이 10명일 때 사용 시 스킬『명을 받들면 반드시 공경하라』를 획득합니다.";
+		t["A0TE"][6][1] = "＊Human이 10명일 때 사용 시 스킬『명을 받들면 반드시 공경하라』를 획득합니다.";
 -- ahky
 -- [A0TD]
 -- arac
@@ -39116,9 +39116,9 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0TI"][5][1] = "|c00ffff00메디슨 멜랑콜리[레전더리]|r 조합|c00FF8040[D]|r";
+		t["A0TI"][5][1] = "|c00ffff00메디슨 멜랑콜리[Legendary]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0TI"][6][1] = "메디슨 멜랑콜리[에픽] +  카기야마 히나[유니크] + 유니크 소울";
+		t["A0TI"][6][1] = "메디슨 멜랑콜리[Epic] +  카기야마 히나[Unique] + Unique 소울";
 -- ahky
 -- acat
 		t["A0TI"][8][1] = "h039,h02N,h05U";
@@ -39622,7 +39622,7 @@ nhym,h02Q,hlum,e03C";
 -- spb1A1
 		t["A0TS"][3][1] = "A0TX,A0TY,A0U0,A0TZ";
 -- aub1 1
-		t["A0TS"][4][1] = "＊[사용식 능력] : 악마의 계약으로 이익을 줌과 동시에 대가를 가져갑니다. 계약이 성사되면 이 스킬은 사라집니다. 같은 계약을 하면 대가만 지불합니다.\r\
+		t["A0TS"][4][1] = "＊[사용식 능력] : Devil의 계약으로 이익을 줌과 동시에 대가를 가져갑니다. 계약이 성사되면 이 스킬은 사라집니다. 같은 계약을 하면 대가만 지불합니다.\r\
 -익스텐드 부적을 하나 갖지만, 자신 소유 유닛의 공격속도를 20% 감소시킨다.\r\
 -자신 주변 500 범위의 아군 공격속도를 40% 증가시키지만, 적의 이동속도를 60% 증가시킨다.\r\
 -마경『비나의 폐허』에 허영갑주 60과 받는 마법 피해 45% 증폭 효과가 추가되지만, 자신의 유닛 카운트를 20 감소시킨다.\r\
@@ -39661,9 +39661,9 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- anam
 -- atp1 1
-		t["A0TW"][3][1] = "|c00FEE952[유닛 정보]|r - 엘리스[히스토릭]";
+		t["A0TW"][3][1] = "|c00FEE952[Unit Information]|r - 엘리스[Historic]";
 -- aub1 1
-		t["A0TW"][4][1] = "|c00A8F13A[조합식]|r: 레밀리아 스칼렛[에픽] + 헤카티아 라피스라줄리[에픽] + 릴리 블랙[유니크] + 고대와 환상의 조각\r\
+		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + 릴리 블랙[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 450\r\
@@ -39782,7 +39782,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0U7"][5][1] = "레밀리아 스칼렛[에픽] + 헤카티아 라피스라줄리[에픽] + 릴리 블랙[유니크] + 고대와 환상의 조각";
+		t["A0U7"][5][1] = "레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + 릴리 블랙[Unique] + 고대와 환상의 조각";
 -- atp1 1
 		t["A0U7"][6][1] = "|c00ffff00엘리스|r 조합|c00FF8040[D]|r";
 -- anam
@@ -39833,7 +39833,7 @@ nhym,h02Q,hlum,e03C";
 		t["A00Q"][24][1] = "n00G";
 -- [A00R]
 -- anam
-		t["A00R"][1][1] = "[레퀴엠]";
+		t["A00R"][1][1] = "[Requiem]";
 -- arac
 -- atp1 1
 		t["A00R"][3][1] = "내 차례군, 드로우!|cffffcc00[D]|r";
@@ -39875,8 +39875,8 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0UB"][4][1] = "＊[사용식 능력] : 목재 3을 소모하고 발동합니다.\r\
 ＊같은 등급 유닛 2기를 선택해 제물로 바쳐 무작위 상위 유닛을 소환합니다.\r\
--유니크 유닛 2기 제물 : 에픽 유닛 1기 소환\r\
--에픽 유닛 2기 제물 : 히스토릭/판타즘 1기 소환";
+-Unique 유닛 2기 제물 : Epic 유닛 1기 소환\r\
+-Epic 유닛 2기 제물 : Historic/Phantasm 1기 소환";
 -- ahky
 -- areq
 -- Ncl6G1
@@ -39889,7 +39889,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0UC"][3][1] = "함정 카드 : 죽음의 덱 파괴 바이러스 |cffffcc00[E]|r";
 -- aub1 1
-		t["A0UC"][4][1] = "＊[사용식 능력] : 레어 이상의 유닛을 소모하고 발동합니다.\r\
+		t["A0UC"][4][1] = "＊[사용식 능력] : Rare 이상의 유닛을 소모하고 발동합니다.\r\
 ＊대상 유닛을 폭사시켜 주변 600 범위의 보스를 제외한 적을 감염시켜 1초마다 전체 체력 3%의 |c00AC59FF절대 피해|r를 가합니다. 감염된 적의 체력이 20% 이하라면, 즉사시키고 다시 주변의 적을 감염시킵니다. 감염은 중첩되지 않으며 라운드가 지나면 치료됩니다.";
 -- ahky
 -- areq
@@ -39923,9 +39923,9 @@ nhym,h02Q,hlum,e03C";
 -- aart
 -- [A0UE]
 -- atp1 1
-		t["A0UE"][1][1] = "|c00FEE952[유닛 정보]|r - 카이바 세토[레퀴엠]";
+		t["A0UE"][1][1] = "|c00FEE952[Unit Information]|r - 카이바 세토[Requiem]";
 -- anam
-		t["A0UE"][2][1] = "[레퀴엠_유닛 정보]";
+		t["A0UE"][2][1] = "[Requiem_Unit Information]";
 -- aart
 		t["A0UE"][3][1] = "Icon\\Unit\\BTNKaiba_Req.blp";
 -- atp1 2
@@ -40170,15 +40170,15 @@ nhym,h02Q,hlum,e03C";
 -- [A0UT]
 -- arac
 -- aub1 1
-		t["A0UT"][2][1] = "|c00A8F13A[조합식]|r: 나마즈[에픽] + 야타데라 나루미[유니크] + 신비술사의 고서\r\
+		t["A0UT"][2][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 야타데라 나루미[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 죄업의 소(urumi arc)\r\
 \r\
 [공격속도]: 0.33초당 1번\r\
 [이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : 아르카나 유닛 업그레이드";
+|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
 -- atar 1
 -- atp1 1
-		t["A0UT"][5][1] = "|c00FEE952[유닛 정보]|r - 우시자키 우루미[아르카나]";
+		t["A0UT"][5][1] = "|c00FEE952[Unit Information]|r - 우시자키 우루미[Arcana]";
 -- anam
 -- aart
 		t["A0UT"][7][1] = "Icon\\Unit\\BTNUrumi_Arc.blp";
@@ -40271,7 +40271,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 7
 -- atar 8
 -- atp1 8
-		t["A0UZ"][22][1] = "[세이자 에픽 스턴]";
+		t["A0UZ"][22][1] = "[세이자 Epic 스턴]";
 -- atp1 9
 		t["A0UZ"][23][1] = "[레티 노던 위너 스턴]";
 -- atar 9
@@ -40356,7 +40356,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0V2"][3][1] = "스 씨|cffffcc00(W)|r";
 -- aub1 1
-		t["A0V2"][4][1] = "＊|c00A8F13A[조건]|r : 레전더리 조합 횟수 100회\r\
+		t["A0V2"][4][1] = "＊|c00A8F13A[조건]|r : Legendary 조합 횟수 100회\r\
 ＊언제나 메디슨 곁을 떠나지 않는 친구, 스입니다.";
 -- ahky
 -- areq
@@ -40394,7 +40394,7 @@ nhym,h02Q,hlum,e03C";
 		t["A01S"][8][1] = "B01G";
 -- [A0TQ]
 -- atp1 1
-		t["A0TQ"][1][1] = "|c00FEE952[유닛 정보]|r - 이바라키 카센[어센디드]";
+		t["A0TQ"][1][1] = "|c00FEE952[Unit Information]|r - 이바라키 카센[Ascended]";
 -- anam
 -- aart
 		t["A0TQ"][3][1] = "Icon\\Unit\\BTNKasen_Asc.blp";
@@ -40459,7 +40459,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0TQ"][64][1] = "|c00A8F13A[조합식]|r: ?\r\
+		t["A0TQ"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [공격속도]: 0.31초당 1번\r\
 [이동속도]: 450\r\
