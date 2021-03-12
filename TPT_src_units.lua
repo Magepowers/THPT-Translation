@@ -214,7 +214,7 @@ t["hkni"][17] = {};
 t["hrif"] = {};
 t["hrif"][1] = {};
 -- unam
-t["hrif"][1][0] = "츠쿠모 벤벤 - |c00808040유니크|r";
+t["hrif"][1][0] = "Tsukumo Benben - |c00808040유니크|r";
 t["hrif"][2] = {};
 -- utip [NEW]
 -- Source language string already occurred earlier; skipped

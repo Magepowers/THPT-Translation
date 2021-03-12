@@ -223,7 +223,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 		t["Agyv"][2][1] = "vulnerable";
 -- atp1 1
-		t["Agyv"][3][1] = "|c00FEE952[Unit Information]|r - 츠쿠모 벤벤[Unique]";
+		t["Agyv"][3][1] = "|c00FEE952[Unit Information]|r - Tsukumo Benben[Unique]";
 -- anam
 -- aub1 1
 		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + Sekibanki[Rare] + 메를란 프리즘리버[Rare]\r\
@@ -324,7 +324,7 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["AEev"][3][1] = "[Epic_Unit Information]";
 -- aub1 1
-		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: 츠쿠모 벤벤[Unique] + 츠쿠모 야츠하시[Unique] + 이마이즈미 카게로우[Unique]\r\
+		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Tsukumo Benben[Unique] + 츠쿠모 야츠하시[Unique] + 이마이즈미 카게로우[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -3922,7 +3922,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01O"][5][1] = "|c00ffff00유령악단[팬텀 앙상블]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01O"][6][1] = "레이라 프리즘리버 + 츠쿠모 야츠하시 + 츠쿠모 벤벤";
+		t["A01O"][6][1] = "레이라 프리즘리버 + 츠쿠모 야츠하시 + Tsukumo Benben";
 -- ahky
 -- acat
 		t["A01O"][8][1] = "h03O,hmtm,hrif";
@@ -7757,7 +7757,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A06S"][5][1] = "|c00ffff00호라이산 카구야|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A06S"][6][1] = "레이센 우돈게인 이나바 + 우사미 렌코 + 츠쿠모 벤벤";
+		t["A06S"][6][1] = "레이센 우돈게인 이나바 + 우사미 렌코 + Tsukumo Benben";
 -- ahky
 -- acat
 		t["A06S"][8][1] = "h016,h03S,hrif";
@@ -13799,7 +13799,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FS"][3][1] = "|c00FEE952[Unit Information]|r - 호라이산 카구야[Epic]";
 -- aub1 1
-		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 우사미 렌코[Unique] + 츠쿠모 벤벤[Unique]\r\
+		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 우사미 렌코[Unique] + Tsukumo Benben[Unique]\r\
 \r\
 [공격속도]: 0.76초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -16145,7 +16145,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DK"][5][1] = "|c00ffff00스쿠나 신묘마루|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DK"][6][1] = "츠쿠모 벤벤 + 츠쿠모 야츠하시 + 이마이즈미 카게로우";
+		t["A0DK"][6][1] = "Tsukumo Benben + 츠쿠모 야츠하시 + 이마이즈미 카게로우";
 -- ahky
 -- acat
 		t["A0DK"][8][1] = "hrif,hmtm,hkni";
@@ -22737,7 +22737,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A09R"][4][1] = "|c00FEE952[Unit Information]|r - 유령악단[팬텀 앙상블]";
 -- aub1 1
-		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: 레이라 프리즘리버[Unique] + 츠쿠모 야츠하시[Unique] + 츠쿠모 벤벤[Unique]\r\
+		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: 레이라 프리즘리버[Unique] + 츠쿠모 야츠하시[Unique] + Tsukumo Benben[Unique]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\

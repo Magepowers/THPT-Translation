@@ -478,7 +478,7 @@ t["Agyv"][2] = {};
 t["Agyv"][2][0] = "vulnerable";
 t["Agyv"][3] = {};
 -- atp1 1
-t["Agyv"][3][0] = "|c00FEE952[유닛 정보]|r - 츠쿠모 벤벤[유니크]";
+t["Agyv"][3][0] = "|c00FEE952[유닛 정보]|r - Tsukumo Benben[유니크]";
 t["Agyv"][4] = {};
 -- anam
 -- Source language string already occurred earlier; skipped
@@ -653,7 +653,7 @@ t["AEev"][3] = {};
 t["AEev"][3][0] = "[에픽_유닛 정보]";
 t["AEev"][4] = {};
 -- aub1 1
-t["AEev"][4][0] = "|c00A8F13A[조합식]|r: 츠쿠모 벤벤[유니크] + 츠쿠모 야츠하시[유니크] + Imaizumi Kagerou우[유니크]\r\
+t["AEev"][4][0] = "|c00A8F13A[조합식]|r: Tsukumo Benben[유니크] + 츠쿠모 야츠하시[유니크] + Imaizumi Kagerou우[유니크]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -9408,7 +9408,7 @@ t["A01O"][5] = {};
 t["A01O"][5][0] = "|c00ffff00유령악단[팬텀 앙상블]|r 조합|c00FF8040[D]|r";
 t["A01O"][6] = {};
 -- aub1 1
-t["A01O"][6][0] = "레이라 프리즘리버 + 츠쿠모 야츠하시 + 츠쿠모 벤벤";
+t["A01O"][6][0] = "레이라 프리즘리버 + 츠쿠모 야츠하시 + Tsukumo Benben";
 t["A01O"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -18802,7 +18802,7 @@ t["A06S"][5] = {};
 t["A06S"][5][0] = "|c00ffff00호라이산 카구야|r 조합|c00FF8040[D]|r";
 t["A06S"][6] = {};
 -- aub1 1
-t["A06S"][6][0] = "레이센 우돈게인 이나바 + 우사미 렌코 + 츠쿠모 벤벤";
+t["A06S"][6][0] = "레이센 우돈게인 이나바 + 우사미 렌코 + Tsukumo Benben";
 t["A06S"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -32820,7 +32820,7 @@ t["A0FS"][3] = {};
 t["A0FS"][3][0] = "|c00FEE952[유닛 정보]|r - 호라이산 카구야[에픽]";
 t["A0FS"][4] = {};
 -- aub1 1
-t["A0FS"][4][0] = "|c00A8F13A[조합식]|r: 레이센 우돈게인 이나바[유니크] + 우사미 렌코[유니크] + 츠쿠모 벤벤[유니크]\r\
+t["A0FS"][4][0] = "|c00A8F13A[조합식]|r: 레이센 우돈게인 이나바[유니크] + 우사미 렌코[유니크] + Tsukumo Benben[유니크]\r\
 \r\
 [공격속도]: 0.76초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -38185,7 +38185,7 @@ t["A0KI"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0KI"][5] = {};
 -- atp1 1
-t["A0KI"][5][0] = "|c00ffff00츠쿠모 벤벤|r 조합|c00FF8040[D]|r";
+t["A0KI"][5][0] = "|c00ffff00Tsukumo Benben|r 조합|c00FF8040[D]|r";
 t["A0KI"][6] = {};
 -- aub1 1
 t["A0KI"][6][0] = "루나사 프리즘리버 + Sekibanki + 메를란 프리즘리버";
@@ -38409,7 +38409,7 @@ t["A0DK"][5] = {};
 t["A0DK"][5][0] = "|c00ffff00스쿠나 신묘마루|r 조합|c00FF8040[D]|r";
 t["A0DK"][6] = {};
 -- aub1 1
-t["A0DK"][6][0] = "츠쿠모 벤벤 + 츠쿠모 야츠하시 + Imaizumi Kagerou우";
+t["A0DK"][6][0] = "Tsukumo Benben + 츠쿠모 야츠하시 + Imaizumi Kagerou우";
 t["A0DK"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -55404,7 +55404,7 @@ t["A09R"][4] = {};
 t["A09R"][4][0] = "|c00FEE952[유닛 정보]|r - 유령악단[팬텀 앙상블]";
 t["A09R"][5] = {};
 -- aub1 1
-t["A09R"][5][0] = "|c00A8F13A[조합식]|r: 레이라 프리즘리버[유니크] + 츠쿠모 야츠하시[유니크] + 츠쿠모 벤벤[유니크]\r\
+t["A09R"][5][0] = "|c00A8F13A[조합식]|r: 레이라 프리즘리버[유니크] + 츠쿠모 야츠하시[유니크] + Tsukumo Benben[유니크]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
