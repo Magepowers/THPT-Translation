@@ -3333,7 +3333,7 @@ TPT_abilities_loader = function(t)
 -- arac
 		t["A01P"][7][1] = "creeps";
 -- aub1 1
-		t["A01P"][8][1] = "호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + 히에다노 아큐[Epic] + Unique 소울 2개";
+		t["A01P"][8][1] = "호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + 히에다노 아큐[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 		t["A01P"][10][1] = "1,1,1,2,1";
@@ -3617,7 +3617,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A013"][5][1] = "|c00ffff00플랑드르 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[팬텀 앙상블] + Unique 소울 2개 ";
+		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[팬텀 앙상블] + 2 Unique Souls  ";
 -- ahky
 -- acat
 		t["A013"][8][1] = "h00Y,h02R,h03B,h05U,ehip";
@@ -3650,7 +3650,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A018"][5][1] = "|c00ffff00코메이지 사토리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A018"][6][1] = "코메이지 코이시[Epic] + 시키에이키 야마자나두[Epic] + 레이우지 우츠호 [제어불능] + Unique 소울 2개";
+		t["A018"][6][1] = "코메이지 코이시[Epic] + 시키에이키 야마자나두[Epic] + 레이우지 우츠호 [제어불능] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A018"][8][1] = "h01N,h01W,h01S,h05U,ehip";
@@ -3732,7 +3732,7 @@ TPT_abilities_loader = function(t)
 		t["A012"][5][1] = "|c00ffff00모리야 스와코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A012"][7][1] = "야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[핵반응 제어불능] + Unique 소울 2개";
+		t["A012"][7][1] = "야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[핵반응 제어불능] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -3842,7 +3842,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01H"][5][1] = "|c00ffff00카자미 유카|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01H"][6][1] = "시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[노던 위너] + Unique 소울 2개";
+		t["A01H"][6][1] = "시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[노던 위너] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01H"][8][1] = "h01W,h039,h03V,h05U,ehip";
@@ -3938,7 +3938,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01Q"][5][1] = "|c00ffff00야쿠모 유카리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01Q"][6][1] = "야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + Unique 소울 2개";
+		t["A01Q"][6][1] = "야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01Q"][8][1] = "h01T,h03V,h03Z,h05U,ehip";
@@ -3954,7 +3954,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01R"][5][1] = "|c00ffff00히지리 뱌쿠렌|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01R"][6][1] = "토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + Unique 소울 2개";
+		t["A01R"][6][1] = "토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01R"][8][1] = "h021,nhym,h03A,h05U,ehip";
@@ -4271,7 +4271,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A033"][1][1] = "|c00FEE952[Unit Information]|r - 키진 세이자[Chronicle]";
 -- aub1 1
-		t["A033"][2][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 토라마루 쇼우[Epic] + Wriggle Nightbug[Epic] + Unique 소울 2개\r\
+		t["A033"][2][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 토라마루 쇼우[Epic] + Wriggle Nightbug[Epic] + 2 Unique Souls \r\
 \r\
 |c00FAB145[특수 Combination]|r\r\
 *다른 Chronicle을 조합했어도 조합할 수 있습니다.\r\
@@ -6972,7 +6972,7 @@ TPT_abilities_loader = function(t)
 -- aub1 31
 		t["A05B"][63][1] = "공격시 10% 확률로 주변 700범위 20곳에 좀비를 부활시켜 350범위에 0.5초간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
 -- aub1 1
-		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + Unique 소울 2개\r\
+		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -7456,7 +7456,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A05R"][3][1] = "Icon\\Unit\\BTNTenshi_Chro.blp";
 -- aub1 1
-		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + Unique 소울 2개\r\
+		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 450\r\
@@ -10965,7 +10965,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A062"][1][1] = "|c00FEE952[Unit Information]|r - 하니야스신 케이키[Chronicle]";
 -- aub1 1
-		t["A062"][2][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + Unique 소울 2개\r\
+		t["A062"][2][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 425\r\
@@ -11540,7 +11540,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BQ"][5][1] = "|c00ffff00토요사토미미노 미코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BQ"][6][1] = "후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + Unique 소울 2개";
+		t["A0BQ"][6][1] = "후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0BQ"][8][1] = "h041,nanm,h03W,h05U,ehip";
@@ -11556,7 +11556,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BR"][5][1] = "|c00ffff00이바라기 카센|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BR"][6][1] = "나마즈[Epic] + 비상천칙[Epic] + Mononobe no Futo[Epic] + Unique 소울 2개";
+		t["A0BR"][6][1] = "나마즈[Epic] + 비상천칙[Epic] + Mononobe no Futo[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0BR"][8][1] = "h00S,h03U,h03X,h05U,ehip";
@@ -13856,7 +13856,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FW"][3][1] = "|c00FEE952[Unit Information]|r - 토요사토미미노 미코[Chronicle]";
 -- aub1 1
-		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + Unique 소울 2개\r\
+		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.35초당 1번[천상] / 0.4초당 1번[인상]\r\
 [이동속도]: 420\r\
@@ -14022,7 +14022,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0G9"][3][1] = "|c00FEE952[Unit Information]|r - 플랑드르 스칼렛[Chronicle]";
 -- aub1 1
-		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[Epic] + Unique 소울 2개\r\
+		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.47초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
@@ -14034,7 +14034,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GA"][3][1] = "|c00FEE952[Unit Information]|r - 히지리 뱌쿠렌[Chronicle]";
 -- aub1 1
-		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: 토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + Unique 소울 2개\r\
+		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: 토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -14060,7 +14060,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GC"][3][1] = "|c00FEE952[Unit Information]|r - 카자미 유카[Chronicle]";
 -- aub1 1
-		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[Epic] + Unique 소울 2개\r\
+		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 400\r\
@@ -14072,7 +14072,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GD"][3][1] = "|c00FEE952[Unit Information]|r - 이바라키 카센[Chronicle]";
 -- aub1 1
-		t["A0GD"][4][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 비상천칙[Epic] + Mononobe no Futo[Epic] + Unique 소울 2개\r\
+		t["A0GD"][4][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 비상천칙[Epic] + Mononobe no Futo[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.33초당 1번\r\
 [이동속도]: 450\r\
@@ -14084,7 +14084,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GE"][3][1] = "|c00FEE952[Unit Information]|r - 야고코로 에이린[Chronicle]";
 -- aub1 1
-		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + 히에다노 아큐[Epic] + Unique 소울 2개\r\
+		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + 히에다노 아큐[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450\r\
@@ -14096,7 +14096,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GF"][3][1] = "|c00FEE952[Unit Information]|r - 모리야 스와코[Chronicle]";
 -- aub1 1
-		t["A0GF"][4][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[Epic] + Unique 소울 2개\r\
+		t["A0GF"][4][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 450\r\
@@ -14108,7 +14108,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GG"][3][1] = "|c00FEE952[Unit Information]|r - 야쿠모 유카리[Chronicle]";
 -- aub1 1
-		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + Unique 소울 2개\r\
+		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -14122,7 +14122,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GH"][3][1] = "|c00FEE952[Unit Information]|r - 코메이지 사토리[Chronicle]";
 -- aub1 1
-		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + 레이우지 우츠호[제어불능] + 시키에이키 야마자나두[Epic] + Unique 소울 2개\r\
+		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + 레이우지 우츠호[제어불능] + 시키에이키 야마자나두[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -14865,7 +14865,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0I9"][3][1] = "|c00ffff00이부키 스이카|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0I9"][4][1] = "비상천칙[Epic] + 토키코[Epic] + 야쿠모 란[Epic] + Unique 소울 2개 = 이부키 스이카[Chronicle]";
+		t["A0I9"][4][1] = "비상천칙[Epic] + 토키코[Epic] + 야쿠모 란[Epic] + 2 Unique Souls  = 이부키 스이카[Chronicle]";
 -- abuf 1
 -- aart
 -- alig
@@ -14980,7 +14980,7 @@ TPT_abilities_loader = function(t)
 		t["A08U"][4][1] = "|c00ffff00히나나위 텐시|r 조합|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
-		t["A08U"][6][1] = "레이우지 우츠호 [핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + Unique 소울 2개";
+		t["A08U"][6][1] = "레이우지 우츠호 [핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
 -- acat
 		t["A08U"][7][1] = "h01S,h00S,ufro,h05U,ehip";
 -- aart
@@ -16186,7 +16186,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DN"][3][1] = "|c00FEE952[Unit Information]|r - 호리카와 라이코[Chronicle]";
 -- aub1 1
-		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + Unique 소울 2개\r\
+		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -16203,7 +16203,7 @@ TPT_abilities_loader = function(t)
 		t["A0GN"][5][1] = "|c00ffff00호리카와 라이코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0GN"][7][1] = "스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + Unique 소울 2개";
+		t["A0GN"][7][1] = "스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -16235,7 +16235,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GP"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 스미레코[Chronicle]";
 -- aub1 1
-		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + Unique 소울 2개\r\
+		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -16283,7 +16283,7 @@ TPT_abilities_loader = function(t)
 		t["A0IN"][5][1] = "|c00ffff00우사미 스미레코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0IN"][7][1] = "마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + Unique 소울 2개";
+		t["A0IN"][7][1] = "마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -16761,7 +16761,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J6"][4][1] = "|c00FEE952[Unit Information]|r - 순호[Chronicle]";
 -- aub1 1
-		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + Unique 소울 2개\r\
+		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 425\r\
@@ -16774,7 +16774,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J7"][5][1] = "|c00ffff00순호|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0J7"][6][1] = "클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + Unique 소울 2개";
+		t["A0J7"][6][1] = "클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0J7"][8][1] = "h02Q,h03B,edry,h05U,ehip";
@@ -19596,7 +19596,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0M1"][4][1] = "|c00FEE952[Unit Information]|r - 하타노 코코로[Chronicle]";
 -- aub1 1
-		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + Unique 소울 2개\r\
+		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 300\r\
@@ -19611,7 +19611,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0M2"][5][1] = "|c00ffff00하타노 코코로|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0M2"][7][1] = "후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + Unique 소울 2개";
+		t["A0M2"][7][1] = "후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls ";
 -- ahky
 -- atat
 		t["A0M2"][11][1] = "h06K";
@@ -23062,7 +23062,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A061"][4][1] = "|c00FEE952[Unit Information]|r - Matara Okino[Chronicle]";
 -- aub1 1
-		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + Doremy Sweet[Epic] + Unique 소울 2개\r\
+		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + Doremy Sweet[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -23777,7 +23777,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0NH"][4][1] = "|c00FEE952[Unit Information]|r - 이부키 스이카[Chronicle]";
 -- aub1 1
-		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] +  토키코[Epic] + 야쿠모 란[Epic] + Unique 소울 2개\r\
+		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] +  토키코[Epic] + 야쿠모 란[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 450\r\
@@ -26663,7 +26663,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P6"][5][1] = "Teireida Mai[Epic] + Doremy Sweet[Epic] + Nishida Satono[Epic] + Unique 소울 2개";
+		t["A0P6"][5][1] = "Teireida Mai[Epic] + Doremy Sweet[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
 -- acat
 		t["A0P6"][6][1] = "nhym,uobs,ufro,h05U,ehip";
 -- acap
@@ -27192,7 +27192,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0PM"][5][1] = "카기야마 히나[액신] + 유령악단[팬텀 앙상블] + 토라마루 쇼우[Epic] + Unique 소울 2개";
+		t["A0PM"][5][1] = "카기야마 히나[액신] + 유령악단[팬텀 앙상블] + 토라마루 쇼우[Epic] + 2 Unique Souls ";
 -- atp1 1
 		t["A0PM"][6][1] = "|c00ffff00요리가미 죠온/시온|r 조합|c00FF8040[D]|r";
 -- anam
@@ -30586,7 +30586,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A08D"][7][1] = "키진 세이자[Epic] + Wriggle Nightbug[Epic] + 토라마루 쇼우[Epic] + Unique 소울 2개 = 키진 세이자[Chronicle]";
+		t["A08D"][7][1] = "키진 세이자[Epic] + Wriggle Nightbug[Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls  = 키진 세이자[Chronicle]";
 -- ahky
 -- atat
 		t["A08D"][11][1] = "nlrv";
@@ -32648,7 +32648,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0QJ"][5][1] = "|c00ffff00하니야스신 케이키|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0QJ"][7][1] = "헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + Unique 소울 2개";
+		t["A0QJ"][7][1] = "헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + 2 Unique Souls ";
 -- ahky
 -- atat
 		t["A0QJ"][11][1] = "h07M";
@@ -37696,7 +37696,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + Unique 소울 2개\r\
+		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.50초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
