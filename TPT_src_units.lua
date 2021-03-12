@@ -495,7 +495,7 @@ t["hspt"][1] = {};
 t["hspt"][1][0] = "Y_komachi_d.mdl";
 t["hspt"][2] = {};
 -- unam
-t["hspt"][2][0] = "오노즈카 코마치 - |c00804040레전더리|r|N|c00FF9393삼도천의 물길 안내인|r";
+t["hspt"][2][0] = "오노즈카 코마치 - |c00804040Legendary|r|N|c00FF9393삼도천의 물길 안내인|r";
 t["hspt"][3] = {};
 -- urac
 -- Source language string already occurred earlier; skipped
@@ -565,7 +565,7 @@ t["hsor"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["hsor"][7] = {};
 -- unam
-t["hsor"][7][0] = "Sukuna Shinmyoumaru - |c00804040레전더리|r|N|c00FF9393검신 릴리퍼트|r";
+t["hsor"][7][0] = "Sukuna Shinmyoumaru - |c00804040Legendary|r|N|c00FF9393검신 릴리퍼트|r";
 t["hsor"][8] = {};
 -- uabi
 t["hsor"][8][0] = "AInv,Avul,A03P,A0O3,A0P2,A0O5,A0LB";
@@ -7779,7 +7779,7 @@ t["nrdr"][6][0] = "Smite Blue.mdl";
 t["eshd"] = {};
 t["eshd"][1] = {};
 -- unam
-t["eshd"][1][0] = "스타 사파이어 - |c00804040레전더리|r|N|c00FF9393여명의 성위|r";
+t["eshd"][1][0] = "스타 사파이어 - |c00804040Legendary|r|N|c00FF9393여명의 성위|r";
 t["eshd"][2] = {};
 -- upgr
 -- Source language string already occurred earlier; skipped
@@ -7914,7 +7914,7 @@ t["nrzs"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["nrzs"][3] = {};
 -- unam
-t["nrzs"][3][0] = "쿠로코마 사키 - |c00804040레전더리|r|N|c00FF9393경아조 조장|r";
+t["nrzs"][3][0] = "쿠로코마 사키 - |c00804040Legendary|r|N|c00FF9393경아조 조장|r";
 t["nrzs"][4] = {};
 -- umdl
 t["nrzs"][4][0] = "Y_Saki.mdl";
@@ -23323,7 +23323,7 @@ t["h05G"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["h05G"][6] = {};
 -- unam
-t["h05G"][6][0] = "콘파쿠 요우무 - |c00804040레전더리|r|N|c00FF9393창천의 정원사|r";
+t["h05G"][6][0] = "콘파쿠 요우무 - |c00804040Legendary|r|N|c00FF9393창천의 정원사|r";
 t["h05G"][7] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -23912,7 +23912,7 @@ t["h05T"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h05T"][7] = {};
 -- unam
-t["h05T"][7][0] = "레이우지 우츠호 - |c00804040레전더리|r|N|c00FF9393뜨겁게 고뇌하는 신의 불|r";
+t["h05T"][7][0] = "레이우지 우츠호 - |c00804040Legendary|r|N|c00FF9393뜨겁게 고뇌하는 신의 불|r";
 t["h05T"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -24007,7 +24007,7 @@ t["h05V"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h05V"][7] = {};
 -- unam
-t["h05V"][7][0] = "치르노 - |c00804040레전더리|r|N|c00FF9393호수의 빙정|r";
+t["h05V"][7][0] = "치르노 - |c00804040Legendary|r|N|c00FF9393호수의 빙정|r";
 t["h05V"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -24274,7 +24274,7 @@ t["h065"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["h065"][6] = {};
 -- unam
-t["h065"][6][0] = "레밀리아 스칼렛 - |c00804040레전더리|r|N|c00FF9393영원히 어린 붉은 달|r";
+t["h065"][6][0] = "레밀리아 스칼렛 - |c00804040Legendary|r|N|c00FF9393영원히 어린 붉은 달|r";
 t["h065"][7] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -24495,7 +24495,7 @@ t["h06A"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["h06A"][6] = {};
 -- unam
-t["h06A"][6][0] = "레이센 우동게인 이나바 - |c00804040레전더리|r|N|c00FF9393광기의 눈동자|r";
+t["h06A"][6][0] = "레이센 우동게인 이나바 - |c00804040Legendary|r|N|c00FF9393광기의 눈동자|r";
 t["h06A"][7] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -24587,7 +24587,7 @@ t["h06C"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h06C"][7] = {};
 -- unam
-t["h06C"][7][0] = "하쿠레이 레이무 - |c00804040레전더리|r|N|c00FF9393낙원의 멋진 무녀|r";
+t["h06C"][7][0] = "하쿠레이 레이무 - |c00804040Legendary|r|N|c00FF9393낙원의 멋진 무녀|r";
 t["h06C"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -24811,7 +24811,7 @@ t["h06H"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h06H"][7] = {};
 -- unam
-t["h06H"][7][0] = "샤메이마루 아야 - |c00804040레전더리|r|N|c00FF9393풍신소녀|r";
+t["h06H"][7][0] = "샤메이마루 아야 - |c00804040Legendary|r|N|c00FF9393풍신소녀|r";
 t["h06H"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -26536,7 +26536,7 @@ t["h072"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["h072"][5] = {};
 -- unam
-t["h072"][5][0] = "세이란 - |c00804040레전더리|r|N|c00FF9393옅은 남색의 이글래빗|r";
+t["h072"][5][0] = "세이란 - |c00804040Legendary|r|N|c00FF9393옅은 남색의 이글래빗|r";
 t["h072"][6] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -26802,7 +26802,7 @@ t["h077"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["h077"][6] = {};
 -- unam
-t["h077"][6][0] = "호쥬 누에 - |c00804040레전더리|r|N|c00FF9393정체불명의 정체|r";
+t["h077"][6][0] = "호쥬 누에 - |c00804040Legendary|r|N|c00FF9393정체불명의 정체|r";
 t["h077"][7] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -27516,7 +27516,7 @@ t["h04D"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h04D"][7] = {};
 -- unam
-t["h04D"][7][0] = "샤메이마루 아야 - |c00804040레전더리|r,|c0080A8E6어센디드|r|N바람의 대텐구";
+t["h04D"][7][0] = "샤메이마루 아야 - |c00804040Legendary|r,|c0080A8E6어센디드|r|N바람의 대텐구";
 t["h04D"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -28380,7 +28380,7 @@ t["h07O"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["h07O"][6] = {};
 -- unam
-t["h07O"][6][0] = "콘파쿠 요우무 - |c00804040레전더리|r|N|c00FF9393겨울벚꽃의 정원사|r";
+t["h07O"][6][0] = "콘파쿠 요우무 - |c00804040Legendary|r|N|c00FF9393겨울벚꽃의 정원사|r";
 t["h07O"][7] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -30059,7 +30059,7 @@ t["h07Z"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h07Z"][7] = {};
 -- unam
-t["h07Z"][7][0] = "치르노 - |c00804040레전더리|r|N|c00FF9393어드벤트 페어리|r";
+t["h07Z"][7][0] = "치르노 - |c00804040Legendary|r|N|c00FF9393어드벤트 페어리|r";
 t["h07Z"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -30460,7 +30460,7 @@ t["h083"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["h083"][6] = {};
 -- unam
-t["h083"][6][0] = "메디슨 멜랑콜리 - |c00804040레전더리|r|N|c00FF9393자그마한 스위트 포이즌|r";
+t["h083"][6][0] = "메디슨 멜랑콜리 - |c00804040Legendary|r|N|c00FF9393자그마한 스위트 포이즌|r";
 t["h083"][7] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
