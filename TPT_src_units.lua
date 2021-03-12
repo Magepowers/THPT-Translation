@@ -195,7 +195,7 @@ t["hkni"][12] = {};
 -- Source language string already occurred earlier; skipped
 t["hkni"][13] = {};
 -- unam
-t["hkni"][13][0] = "Imaizumi Kagerou우 - |c00808040유니크|r";
+t["hkni"][13][0] = "Imaizumi Kagerou우 - |c00808040Unique|r";
 t["hkni"][14] = {};
 -- uhot [NEW]
 -- Source language string already occurred earlier; skipped
@@ -214,7 +214,7 @@ t["hkni"][17] = {};
 t["hrif"] = {};
 t["hrif"][1] = {};
 -- unam
-t["hrif"][1][0] = "Tsukumo Benben - |c00808040유니크|r";
+t["hrif"][1][0] = "Tsukumo Benben - |c00808040Unique|r";
 t["hrif"][2] = {};
 -- utip [NEW]
 -- Source language string already occurred earlier; skipped
@@ -299,7 +299,7 @@ t["hmtm"][13] = {};
 -- Source language string already occurred earlier; skipped
 t["hmtm"][14] = {};
 -- unam
-t["hmtm"][14][0] = "Tsukumo Yatsuhashi - |c00808040유니크|r";
+t["hmtm"][14][0] = "Tsukumo Yatsuhashi - |c00808040Unique|r";
 t["hmtm"][15] = {};
 -- uhot [NEW]
 -- Source language string already occurred earlier; skipped
@@ -3526,7 +3526,7 @@ t["nbel"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["nbel"][3] = {};
 -- unam
-t["nbel"][3][0] = "이터니티 라바 - |c00808040유니크|r";
+t["nbel"][3][0] = "이터니티 라바 - |c00808040Unique|r";
 t["nbel"][4] = {};
 -- udty
 -- Source language string already occurred earlier; skipped
@@ -3785,7 +3785,7 @@ t["hbew"][1] = {};
 t["hbew"][1][0] = "narumi3.mdl";
 t["hbew"][2] = {};
 -- unam
-t["hbew"][2][0] = "야타데라 나루미 - |c00808040유니크|r";
+t["hbew"][2][0] = "야타데라 나루미 - |c00808040Unique|r";
 t["hbew"][3] = {};
 -- uico
 t["hbew"][3][0] = "BTN\\BTNnarumi.blp";
@@ -10292,7 +10292,7 @@ t["h00T"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h00T"][7] = {};
 -- unam
-t["h00T"][7][0] = "나즈린 - |c00808040유니크|r";
+t["h00T"][7][0] = "나즈린 - |c00808040Unique|r";
 t["h00T"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -10938,7 +10938,7 @@ t["h017"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h017"][7] = {};
 -- unam
-t["h017"][7][0] = "하쿠레이 레이무[호밍] - |c00808040유니크|r";
+t["h017"][7][0] = "하쿠레이 레이무[호밍] - |c00808040Unique|r";
 t["h017"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -10990,7 +10990,7 @@ t["h016"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h016"][7] = {};
 -- unam
-t["h016"][7][0] = "레이센 우동게인 이나바 - |c00808040유니크|r";
+t["h016"][7][0] = "레이센 우동게인 이나바 - |c00808040Unique|r";
 t["h016"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11039,7 +11039,7 @@ t["h018"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h018"][7] = {};
 -- unam
-t["h018"][7][0] = "키리사메 마리사[팔괘로] - |c00808040유니크|r";
+t["h018"][7][0] = "키리사메 마리사[팔괘로] - |c00808040Unique|r";
 t["h018"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11088,7 +11088,7 @@ t["h019"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h019"][7] = {};
 -- unam
-t["h019"][7][0] = "파츄리 널릿지[현자의 돌] - |c00808040유니크|r";
+t["h019"][7][0] = "파츄리 널릿지[현자의 돌] - |c00808040Unique|r";
 t["h019"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11137,7 +11137,7 @@ t["h01A"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01A"][7] = {};
 -- unam
-t["h01A"][7][0] = "사이교우지 유유코 - |c00808040유니크|r";
+t["h01A"][7][0] = "사이교우지 유유코 - |c00808040Unique|r";
 t["h01A"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11336,7 +11336,7 @@ t["h01F"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01F"][7] = {};
 -- unam
-t["h01F"][7][0] = "Sㅏ나에 - |c00808040유니크|r";
+t["h01F"][7][0] = "Sㅏ나에 - |c00808040Unique|r";
 t["h01F"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11394,7 +11394,7 @@ t["h01G"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01G"][7] = {};
 -- unam
-t["h01G"][7][0] = "Kaenbyou Rin - |c00808040유니크|r";
+t["h01G"][7][0] = "Kaenbyou Rin - |c00808040Unique|r";
 t["h01G"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11446,7 +11446,7 @@ t["h01H"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01H"][7] = {};
 -- unam
-t["h01H"][7][0] = "루미아 EX - |c00808040유니크|r";
+t["h01H"][7][0] = "루미아 EX - |c00808040Unique|r";
 t["h01H"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11553,7 +11553,7 @@ t["h01J"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01J"][7] = {};
 -- unam
-t["h01J"][7][0] = "정체불명 - |c00808040유니크|r";
+t["h01J"][7][0] = "정체불명 - |c00808040Unique|r";
 t["h01J"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11602,7 +11602,7 @@ t["h01K"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01K"][7] = {};
 -- unam
-t["h01K"][7][0] = "첸 - |c00808040유니크|r";
+t["h01K"][7][0] = "첸 - |c00808040Unique|r";
 t["h01K"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11651,7 +11651,7 @@ t["h01L"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01L"][7] = {};
 -- unam
-t["h01L"][7][0] = "성련선 - |c00808040유니크|r";
+t["h01L"][7][0] = "성련선 - |c00808040Unique|r";
 t["h01L"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11700,7 +11700,7 @@ t["h01M"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01M"][7] = {};
 -- unam
-t["h01M"][7][0] = "치르노 [마이너스 K] - |c00808040유니크|r";
+t["h01M"][7][0] = "치르노 [마이너스 K] - |c00808040Unique|r";
 t["h01M"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11801,7 +11801,7 @@ t["h01O"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01O"][7] = {};
 -- unam
-t["h01O"][7][0] = "오노즈카 코마치 - |c00808040유니크|r";
+t["h01O"][7][0] = "오노즈카 코마치 - |c00808040Unique|r";
 t["h01O"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -11853,7 +11853,7 @@ t["h01P"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01P"][7] = {};
 -- unam
-t["h01P"][7][0] = "카미시라사와 케이네 - |c00808040유니크|r";
+t["h01P"][7][0] = "카미시라사와 케이네 - |c00808040Unique|r";
 t["h01P"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -17038,7 +17038,7 @@ t["h02N"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h02N"][7] = {};
 -- unam
-t["h02N"][7][0] = "카기야마 히나 - |c00808040유니크|r";
+t["h02N"][7][0] = "카기야마 히나 - |c00808040Unique|r";
 t["h02N"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -17758,7 +17758,7 @@ t["h033"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h033"][7] = {};
 -- unam
-t["h033"][7][0] = "나가에 이쿠 - |c00808040유니크|r";
+t["h033"][7][0] = "나가에 이쿠 - |c00808040Unique|r";
 t["h033"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -17804,7 +17804,7 @@ t["h034"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h034"][7] = {};
 -- unam
-t["h034"][7][0] = "호시구마 유우기 - |c00808040유니크|r";
+t["h034"][7][0] = "호시구마 유우기 - |c00808040Unique|r";
 t["h034"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -17853,7 +17853,7 @@ t["h035"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h035"][7] = {};
 -- unam
-t["h035"][7][0] = "이부키 스이카 - |c00808040유니크|r";
+t["h035"][7][0] = "이부키 스이카 - |c00808040Unique|r";
 t["h035"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -17902,7 +17902,7 @@ t["h036"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h036"][7] = {};
 -- unam
-t["h036"][7][0] = "쿠모이 이치린 - |c00808040유니크|r";
+t["h036"][7][0] = "쿠모이 이치린 - |c00808040Unique|r";
 t["h036"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -17951,7 +17951,7 @@ t["h037"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h037"][7] = {};
 -- unam
-t["h037"][7][0] = "레티 화이트락 - |c00808040유니크|r";
+t["h037"][7][0] = "레티 화이트락 - |c00808040Unique|r";
 t["h037"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -18825,7 +18825,7 @@ t["h03N"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h03N"][7] = {};
 -- unam
-t["h03N"][7][0] = "이자요이 사쿠야[특제 스톱워치] - |c00808040유니크|r";
+t["h03N"][7][0] = "이자요이 사쿠야[특제 스톱워치] - |c00808040Unique|r";
 t["h03N"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -18874,7 +18874,7 @@ t["h03O"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h03O"][7] = {};
 -- unam
-t["h03O"][7][0] = "레이라 프리즘리버 - |c00808040유니크|r";
+t["h03O"][7][0] = "레이라 프리즘리버 - |c00808040Unique|r";
 t["h03O"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -19046,7 +19046,7 @@ t["h03Q"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h03Q"][7] = {};
 -- unam
-t["h03Q"][7][0] = "히메카이도 하타테 - |c00808040유니크|r";
+t["h03Q"][7][0] = "히메카이도 하타테 - |c00808040Unique|r";
 t["h03Q"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -19095,7 +19095,7 @@ t["h03R"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h03R"][7] = {};
 -- unam
-t["h03R"][7][0] = "릴리 블랙 - |c00808040유니크|r";
+t["h03R"][7][0] = "릴리 블랙 - |c00808040Unique|r";
 t["h03R"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -19150,7 +19150,7 @@ t["h03S"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h03S"][7] = {};
 -- unam
-t["h03S"][7][0] = "우사미 렌코 - |c00808040유니크|r";
+t["h03S"][7][0] = "우사미 렌코 - |c00808040Unique|r";
 t["h03S"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -19199,7 +19199,7 @@ t["h03T"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h03T"][7] = {};
 -- unam
-t["h03T"][7][0] = "카쿠 세이가 - |c00808040유니크|r";
+t["h03T"][7][0] = "카쿠 세이가 - |c00808040Unique|r";
 t["h03T"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -19640,7 +19640,7 @@ t["h042"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h042"][7] = {};
 -- unam
-t["h042"][7][0] = "소가노 토지코 - |c00808040유니크|r";
+t["h042"][7][0] = "소가노 토지코 - |c00808040Unique|r";
 t["h042"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -19983,7 +19983,7 @@ t["h048"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h048"][7] = {};
 -- unam
-t["h048"][7][0] = "앨리스 마가트로이드[인형재판] - |c00808040유니크|r";
+t["h048"][7][0] = "앨리스 마가트로이드[인형재판] - |c00808040Unique|r";
 t["h048"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -23725,7 +23725,7 @@ t["h05P"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h05P"][7] = {};
 -- unam
-t["h05P"][7][0] = "키신 사구메 - |c00808040유니크|r";
+t["h05P"][7][0] = "키신 사구메 - |c00808040Unique|r";
 t["h05P"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -23955,7 +23955,7 @@ t["h05U"][2] = {};
 t["h05U"][2][0] = "Objects\\InventoryItems\\CrystalShard\\CrystalShard.mdl";
 t["h05U"][3] = {};
 -- unam
-t["h05U"][3][0] = "『유니크 소울』 - |c00808040유니크|r";
+t["h05U"][3][0] = "『유니크 소울』 - |c00808040Unique|r";
 t["h05U"][4] = {};
 -- upgr [NEW]
 -- Source language string already occurred earlier; skipped
