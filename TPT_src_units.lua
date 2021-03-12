@@ -3893,7 +3893,7 @@ t["osw1"][10] = {};
 t["uobs"] = {};
 t["uobs"][1] = {};
 -- unam
-t["uobs"][1][0] = "도레미 스위트 - |c00400080에픽|r";
+t["uobs"][1][0] = "Doremy Sweet - |c00400080에픽|r";
 t["uobs"][2] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -29714,7 +29714,7 @@ t["e03P"][10][0] = "R00C,Roar";
 t["u006"] = {};
 t["u006"][1] = {};
 -- unam
-t["u006"][1][0] = "도레미 스위트 - |c0000FFFF익스텐드|r";
+t["u006"][1][0] = "Doremy Sweet - |c0000FFFF익스텐드|r";
 t["u006"][2] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped

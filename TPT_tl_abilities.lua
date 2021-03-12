@@ -2152,7 +2152,7 @@ TPT_abilities_loader = function(t)
 -- [Amgr]
 -- arac
 -- aub1 1
-		t["Amgr"][2][1] = "|c00A8F13A[Combination]|r: 도레미 스위트[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
+		t["Amgr"][2][1] = "|c00A8F13A[Combination]|r: Doremy Sweet[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 350\r\
@@ -18037,7 +18037,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0L5"][3][1] = "|c00FEE952[Unit Information]|r - 사리엘[Historic]";
 -- aub1 1
-		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 도레미 스위트[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각\r\
+		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + Doremy Sweet[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -18259,7 +18259,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0CN"][5][1] = "마에리베리 한[Epic] + 도레미 스위트[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각 = 사리엘";
+		t["A0CN"][5][1] = "마에리베리 한[Epic] + Doremy Sweet[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각 = 사리엘";
 -- atp1 1
 		t["A0CN"][6][1] = "|c00ffff00사리엘|r 조합|c00FF8040[F]|r";
 -- anam
@@ -18489,7 +18489,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- [A0LG]
 -- anam
 -- aub1 1
-		t["A0LG"][3][1] = "고서+토요히메+도레미 스위트";
+		t["A0LG"][3][1] = "고서+토요히메+Doremy Sweet";
 -- abuf 1
 -- atar 1
 -- acat
@@ -22843,7 +22843,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0AU"][1][1] = "BTN\\BTNDoremy.blp";
 -- anam
 -- atp1 1
-		t["A0AU"][3][1] = "|c00FEE952[Unit Information]|r - 도레미 스위트[Epic]";
+		t["A0AU"][3][1] = "|c00FEE952[Unit Information]|r - Doremy Sweet[Epic]";
 -- aub1 1
 		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + 소가노 토지코[Unique] + 야타데라 나루미[Unique]\r\
 \r\
@@ -23062,7 +23062,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A061"][4][1] = "|c00FEE952[Unit Information]|r - Matara Okino[Chronicle]";
 -- aub1 1
-		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + 도레미 스위트[Epic] + Unique 소울 2개\r\
+		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + Doremy Sweet[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -26663,7 +26663,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P6"][5][1] = "Teireida Mai[Epic] + 도레미 스위트[Epic] + Nishida Satono[Epic] + Unique 소울 2개";
+		t["A0P6"][5][1] = "Teireida Mai[Epic] + Doremy Sweet[Epic] + Nishida Satono[Epic] + Unique 소울 2개";
 -- acat
 		t["A0P6"][6][1] = "nhym,uobs,ufro,h05U,ehip";
 -- acap
@@ -26692,7 +26692,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- anam
 		t["A0P8"][2][1] = "[인페르날]";
 -- atp1 1
-		t["A0P8"][4][1] = "[도레미 스위트, 익스텐드]";
+		t["A0P8"][4][1] = "[Doremy Sweet, 익스텐드]";
 -- arac
 -- Uin4 2
 -- Uin4 3
@@ -26743,9 +26743,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0P9"][5][1] = "|c00ffff00도레미 스위트|r 조합|c00FF8040[D]|r";
+		t["A0P9"][5][1] = "|c00ffff00Doremy Sweet|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P9"][6][1] = "이터니티 라바 + 소가노 토지코 + 야타데라 나루미 = 도레미 스위트";
+		t["A0P9"][6][1] = "이터니티 라바 + 소가노 토지코 + 야타데라 나루미 = Doremy Sweet";
 -- ahky
 -- acat
 		t["A0P9"][8][1] = "hbew,h042,nbel";
@@ -27624,7 +27624,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0Q2"][5][1] = "도레미 스위트[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 아사쿠라 리카코";
+		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 아사쿠라 리카코";
 -- atp1 1
 		t["A0Q2"][6][1] = "|c00ffff00아사쿠라 리카코|r 조합|c00FF8040[F]|r";
 -- anam

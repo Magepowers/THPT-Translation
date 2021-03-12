@@ -5027,7 +5027,7 @@ t["Amgr"][1] = {};
 -- Source language string already occurred earlier; skipped
 t["Amgr"][2] = {};
 -- aub1 1
-t["Amgr"][2][0] = "|c00A8F13A[조합식]|r: 도레미 스위트[에픽] + 나마즈[에픽] + 정체불명[유니크] + 고대와 환상의 조각\r\
+t["Amgr"][2][0] = "|c00A8F13A[조합식]|r: Doremy Sweet[에픽] + 나마즈[에픽] + 정체불명[유니크] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 350\r\
@@ -43142,7 +43142,7 @@ t["A0L5"][3] = {};
 t["A0L5"][3][0] = "|c00FEE952[유닛 정보]|r - 사리엘[히스토릭]";
 t["A0L5"][4] = {};
 -- aub1 1
-t["A0L5"][4][0] = "|c00A8F13A[조합식]|r: 마에리베리 한[에픽] + 도레미 스위트[에픽] + 우사미 렌코[유니크] + 고대와 환상의 조각\r\
+t["A0L5"][4][0] = "|c00A8F13A[조합식]|r: 마에리베리 한[에픽] + Doremy Sweet[에픽] + 우사미 렌코[유니크] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -43738,7 +43738,7 @@ t["A0CN"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0CN"][5] = {};
 -- aub1 1
-t["A0CN"][5][0] = "마에리베리 한[에픽] + 도레미 스위트[에픽] + 우사미 렌코[유니크] + 고대와 환상의 조각 = 사리엘";
+t["A0CN"][5][0] = "마에리베리 한[에픽] + Doremy Sweet[에픽] + 우사미 렌코[유니크] + 고대와 환상의 조각 = 사리엘";
 t["A0CN"][6] = {};
 -- atp1 1
 t["A0CN"][6][0] = "|c00ffff00사리엘|r 조합|c00FF8040[F]|r";
@@ -44368,7 +44368,7 @@ t["A0LG"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["A0LG"][3] = {};
 -- aub1 1
-t["A0LG"][3][0] = "고서+토요히메+도레미 스위트";
+t["A0LG"][3][0] = "고서+토요히메+Doremy Sweet";
 t["A0LG"][4] = {};
 -- aeat [NEW]
 -- Source language string already occurred earlier; skipped
@@ -55681,7 +55681,7 @@ t["A0AU"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["A0AU"][3] = {};
 -- atp1 1
-t["A0AU"][3][0] = "|c00FEE952[유닛 정보]|r - 도레미 스위트[에픽]";
+t["A0AU"][3][0] = "|c00FEE952[유닛 정보]|r - Doremy Sweet[에픽]";
 t["A0AU"][4] = {};
 -- aub1 1
 t["A0AU"][4][0] = "|c00A8F13A[조합식]|r: 이터니티 라바[유니크] + 소가노 토지코[유니크] + 야타데라 나루미[유니크]\r\
@@ -56186,7 +56186,7 @@ t["A061"][4] = {};
 t["A061"][4][0] = "|c00FEE952[유닛 정보]|r - 마타라 오키나[크로니클]";
 t["A061"][5] = {};
 -- aub1 1
-t["A061"][5][0] = "|c00A8F13A[조합식]|r: Teireida Mai[에픽] + Nishida Satono[에픽] + 도레미 스위트[에픽] + 유니크 소울 2개\r\
+t["A061"][5][0] = "|c00A8F13A[조합식]|r: Teireida Mai[에픽] + Nishida Satono[에픽] + Doremy Sweet[에픽] + 유니크 소울 2개\r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -65881,7 +65881,7 @@ t["A0P6"][4] = {};
 t["A0P6"][4][0] = "|c00ffff00마타라 오키나|r 조합|c00FF8040[D]|r";
 t["A0P6"][5] = {};
 -- aub1 1
-t["A0P6"][5][0] = "Teireida Mai[에픽] + 도레미 스위트[에픽] + Nishida Satono[에픽] + 유니크 소울 2개";
+t["A0P6"][5][0] = "Teireida Mai[에픽] + Doremy Sweet[에픽] + Nishida Satono[에픽] + 유니크 소울 2개";
 t["A0P6"][6] = {};
 -- acat
 t["A0P6"][6][0] = "nhym,uobs,ufro,h05U,ehip";
@@ -65956,7 +65956,7 @@ t["A0P8"][3] = {};
 -- Source language string already occurred earlier; skipped
 t["A0P8"][4] = {};
 -- atp1 1
-t["A0P8"][4][0] = "[도레미 스위트, 익스텐드]";
+t["A0P8"][4][0] = "[Doremy Sweet, 익스텐드]";
 t["A0P8"][5] = {};
 -- aub1 1 [NEW]
 -- Source language string already occurred earlier; skipped
@@ -66074,10 +66074,10 @@ t["A0P9"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0P9"][5] = {};
 -- atp1 1
-t["A0P9"][5][0] = "|c00ffff00도레미 스위트|r 조합|c00FF8040[D]|r";
+t["A0P9"][5][0] = "|c00ffff00Doremy Sweet|r 조합|c00FF8040[D]|r";
 t["A0P9"][6] = {};
 -- aub1 1
-t["A0P9"][6][0] = "이터니티 라바 + 소가노 토지코 + 야타데라 나루미 = 도레미 스위트";
+t["A0P9"][6][0] = "이터니티 라바 + 소가노 토지코 + 야타데라 나루미 = Doremy Sweet";
 t["A0P9"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -68326,7 +68326,7 @@ t["A0Q2"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0Q2"][5] = {};
 -- aub1 1
-t["A0Q2"][5][0] = "도레미 스위트[에픽] + 나마즈[에픽] + 정체불명[유니크] + 고대와 환상의 조각 = 아사쿠라 리카코";
+t["A0Q2"][5][0] = "Doremy Sweet[에픽] + 나마즈[에픽] + 정체불명[유니크] + 고대와 환상의 조각 = 아사쿠라 리카코";
 t["A0Q2"][6] = {};
 -- atp1 1
 t["A0Q2"][6][0] = "|c00ffff00아사쿠라 리카코|r 조합|c00FF8040[F]|r";

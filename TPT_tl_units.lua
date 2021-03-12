@@ -1204,7 +1204,7 @@ TPT_units_loader = function(t)
 -- ua1w
 -- [uobs]
 -- unam
-		t["uobs"][1][1] = "도레미 스위트 - |c00400080Epic|r";
+		t["uobs"][1][1] = "Doremy Sweet - |c00400080Epic|r";
 -- upgr
 -- umdl
 		t["uobs"][8][1] = "doremi.mdl";
@@ -8630,7 +8630,7 @@ TPT_units_loader = function(t)
 		t["e03P"][10][1] = "R00C,Roar";
 -- [u006]
 -- unam
-		t["u006"][1][1] = "도레미 스위트 - |c0000FFFFExtended|r";
+		t["u006"][1][1] = "Doremy Sweet - |c0000FFFFExtended|r";
 -- upgr
 -- umdl
 -- uabi
