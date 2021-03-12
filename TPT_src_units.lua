@@ -5006,7 +5006,7 @@ t["ufro"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["ufro"][3] = {};
 -- unam
-t["ufro"][3][0] = "니시다 사토노 - |c00400080에픽|r";
+t["ufro"][3][0] = "Nishida Satono - |c00400080에픽|r";
 t["ufro"][4] = {};
 -- upgr
 -- Source language string already occurred earlier; skipped
@@ -28212,7 +28212,7 @@ t["u001"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["u001"][3] = {};
 -- unam
-t["u001"][3][0] = "니시다 사토노 - |c0000FFFF익스텐드|r";
+t["u001"][3][0] = "Nishida Satono - |c0000FFFF익스텐드|r";
 t["u001"][4] = {};
 -- upgr
 -- Source language string already occurred earlier; skipped

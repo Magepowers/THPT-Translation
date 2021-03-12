@@ -4276,7 +4276,7 @@ TPT_abilities_loader = function(t)
 |c00FAB145[특수 Combination]|r\r\
 *다른 Chronicle을 조합했어도 조합할 수 있습니다.\r\
 *타이핑 : 역습의 아마노자쿠[kijin chro]\r\
-키진 세이자[익스텐드] + 스쿠나 신묘마루[Epic] + 니시다 사토노[Epic] + Teireida Mai[Epic]\r\
+키진 세이자[익스텐드] + 스쿠나 신묘마루[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
 \r\
 [공격속도]: 0.37초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -5245,7 +5245,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A041"][2][1] = "|c00FEE952[Unit Information]|r - Rumia[Phantasm]";
 -- aub1 1
-		t["A041"][3][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + 니시다 사토노[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
+		t["A041"][3][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + Nishida Satono[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 다크사이드 오브 더 문(rumia phan)\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
@@ -7456,7 +7456,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A05R"][3][1] = "Icon\\Unit\\BTNTenshi_Chro.blp";
 -- aub1 1
-		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[핵반응 제어불능] + 나마즈[Epic] + 니시다 사토노[Epic] + Unique 소울 2개\r\
+		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 450\r\
@@ -14980,7 +14980,7 @@ TPT_abilities_loader = function(t)
 		t["A08U"][4][1] = "|c00ffff00히나나위 텐시|r 조합|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
-		t["A08U"][6][1] = "레이우지 우츠호 [핵반응 제어불능] + 나마즈[Epic] + 니시다 사토노[Epic] + Unique 소울 2개";
+		t["A08U"][6][1] = "레이우지 우츠호 [핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + Unique 소울 2개";
 -- acat
 		t["A08U"][7][1] = "h01S,h00S,ufro,h05U,ehip";
 -- aart
@@ -15201,7 +15201,7 @@ TPT_abilities_loader = function(t)
 -- [A0CS]
 -- anam
 -- atp1 1
-		t["A0CS"][2][1] = "|c00FEE952[Unit Information]|r - 니시다 사토노[Epic]";
+		t["A0CS"][2][1] = "|c00FEE952[Unit Information]|r - Nishida Satono[Epic]";
 -- aub1 1
 		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Unique] + 키신 사구메[Unique] + 나즈린[Unique]\r\
 \r\
@@ -15601,7 +15601,7 @@ TPT_abilities_loader = function(t)
 -- anam
 -- atar 1
 -- atp1 1
-		t["A0JP"][4][1] = "|c00ffff00니시다 사토노|r 조합|c00FF8040[D]|r";
+		t["A0JP"][4][1] = "|c00ffff00Nishida Satono|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A0JP"][5][1] = "키리사메 마리사[팔괘로] + 키신 사구메[Unique] + 나즈린[Unique]";
 -- aart
@@ -23062,7 +23062,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A061"][4][1] = "|c00FEE952[Unit Information]|r - Matara Okino[Chronicle]";
 -- aub1 1
-		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + 니시다 사토노[Epic] + 도레미 스위트[Epic] + Unique 소울 2개\r\
+		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + 도레미 스위트[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -23821,7 +23821,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0NL"][4][1] = "|c00FEE952[Unit Information]|r - 콘가라[Historic]";
 -- aub1 1
-		t["A0NL"][5][1] = "|c00A8F13A[Combination]|r: 니시다 사토노[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각\r\
+		t["A0NL"][5][1] = "|c00A8F13A[Combination]|r: Nishida Satono[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
 [이동속도]: 450\r\
@@ -23831,7 +23831,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0NM"][5][1] = "니시다 사토노[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각 = 콘가라";
+		t["A0NM"][5][1] = "Nishida Satono[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각 = 콘가라";
 -- atp1 1
 		t["A0NM"][6][1] = "|c00ffff00콘가라|r 조합|c00FF8040[F]|r";
 -- anam
@@ -26663,7 +26663,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P6"][5][1] = "Teireida Mai[Epic] + 도레미 스위트[Epic] + 니시다 사토노[Epic] + Unique 소울 2개";
+		t["A0P6"][5][1] = "Teireida Mai[Epic] + 도레미 스위트[Epic] + Nishida Satono[Epic] + Unique 소울 2개";
 -- acat
 		t["A0P6"][6][1] = "nhym,uobs,ufro,h05U,ehip";
 -- acap

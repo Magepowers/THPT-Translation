@@ -1561,7 +1561,7 @@ TPT_units_loader = function(t)
 -- upgr
 -- [ufro]
 -- unam
-		t["ufro"][3][1] = "니시다 사토노 - |c00400080Epic|r";
+		t["ufro"][3][1] = "Nishida Satono - |c00400080Epic|r";
 -- upgr
 -- uhrt
 -- ua1w
@@ -8223,7 +8223,7 @@ TPT_units_loader = function(t)
 -- ua1t
 -- [u001]
 -- unam
-		t["u001"][3][1] = "니시다 사토노 - |c0000FFFFExtended|r";
+		t["u001"][3][1] = "Nishida Satono - |c0000FFFFExtended|r";
 -- upgr
 -- uhrt
 -- ua1w
