@@ -647,7 +647,7 @@ t["AEev"][1] = {};
 -- Source language string already occurred earlier; skipped
 t["AEev"][2] = {};
 -- atp1 1
-t["AEev"][2][0] = "|c00FEE952[유닛 정보]|r - 스쿠나 신묘마루[에픽]";
+t["AEev"][2][0] = "|c00FEE952[유닛 정보]|r - Sukuna Shinmyoumaru[에픽]";
 t["AEev"][3] = {};
 -- anam
 t["AEev"][3][0] = "[에픽_유닛 정보]";
@@ -7970,7 +7970,7 @@ t["ANd1"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["ANd1"][5] = {};
 -- aub1 1
-t["ANd1"][5][0] = "|c00A8F13A[조합식]|r: 야쿠모 란[에픽] + 스쿠나 신묘마루[에픽] + 파츄리 널릿지[유니크] + 고대와 환상의 조각\r\
+t["ANd1"][5][0] = "|c00A8F13A[조합식]|r: 야쿠모 란[에픽] + Sukuna Shinmyoumaru[에픽] + 파츄리 널릿지[유니크] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 락트 걸(patche phan)\r\
 \r\
 [공격속도]: 0.47초당 1번\r\
@@ -10161,7 +10161,7 @@ t["A033"][2][0] = "|c00A8F13A[조합식]|r: 키진 세이자[에픽] + 토라마
 |c00FAB145[특수 조합식]|r\r\
 *다른 크로니클을 조합했어도 조합할 수 있습니다.\r\
 *타이핑 : 역습의 아마노자쿠[kijin chro]\r\
-키진 세이자[익스텐드] + 스쿠나 신묘마루[에픽] + Nishida Satono[에픽] + Teireida Mai[에픽]\r\
+키진 세이자[익스텐드] + Sukuna Shinmyoumaru[에픽] + Nishida Satono[에픽] + Teireida Mai[에픽]\r\
 \r\
 [공격속도]: 0.37초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -38406,7 +38406,7 @@ t["A0DK"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0DK"][5] = {};
 -- atp1 1
-t["A0DK"][5][0] = "|c00ffff00스쿠나 신묘마루|r 조합|c00FF8040[D]|r";
+t["A0DK"][5][0] = "|c00ffff00Sukuna Shinmyoumaru|r 조합|c00FF8040[D]|r";
 t["A0DK"][6] = {};
 -- aub1 1
 t["A0DK"][6][0] = "Tsukumo Benben + 츠쿠모 야츠하시 + Imaizumi Kagerou우";
@@ -38514,7 +38514,7 @@ t["A0DN"][3] = {};
 t["A0DN"][3][0] = "|c00FEE952[유닛 정보]|r - 호리카와 라이코[크로니클]";
 t["A0DN"][4] = {};
 -- aub1 1
-t["A0DN"][4][0] = "|c00A8F13A[조합식]|r: 스쿠나 신묘마루[에픽] + 토키코[에픽] + 호라이산 카구야[에픽] + 유니크 소울 2개\r\
+t["A0DN"][4][0] = "|c00A8F13A[조합식]|r: Sukuna Shinmyoumaru[에픽] + 토키코[에픽] + 호라이산 카구야[에픽] + 유니크 소울 2개\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -38546,7 +38546,7 @@ t["A0GN"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["A0GN"][7] = {};
 -- aub1 1
-t["A0GN"][7][0] = "스쿠나 신묘마루[에픽] + 토키코[에픽] + 호라이산 카구야[에픽] + 유니크 소울 2개";
+t["A0GN"][7][0] = "Sukuna Shinmyoumaru[에픽] + 토키코[에픽] + 호라이산 카구야[에픽] + 유니크 소울 2개";
 t["A0GN"][8] = {};
 -- aani [NEW]
 -- Source language string already occurred earlier; skipped
@@ -38623,7 +38623,7 @@ t["A0GP"][3] = {};
 t["A0GP"][3][0] = "|c00FEE952[유닛 정보]|r - 우사미 스미레코[크로니클]";
 t["A0GP"][4] = {};
 -- aub1 1
-t["A0GP"][4][0] = "|c00A8F13A[조합식]|r: 마에리베리 한[에픽] + 후지와라노 모코우[에픽] + 스쿠나 신묘마루[에픽] + 유니크 소울 2개\r\
+t["A0GP"][4][0] = "|c00A8F13A[조합식]|r: 마에리베리 한[에픽] + 후지와라노 모코우[에픽] + Sukuna Shinmyoumaru[에픽] + 유니크 소울 2개\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -38726,7 +38726,7 @@ t["A0IN"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["A0IN"][7] = {};
 -- aub1 1
-t["A0IN"][7][0] = "마에리베리 한[에픽] + 후지와라노 모코우[에픽] + 스쿠나 신묘마루[에픽] + 유니크 소울 2개";
+t["A0IN"][7][0] = "마에리베리 한[에픽] + 후지와라노 모코우[에픽] + Sukuna Shinmyoumaru[에픽] + 유니크 소울 2개";
 t["A0IN"][8] = {};
 -- aani [NEW]
 -- Source language string already occurred earlier; skipped
@@ -47605,7 +47605,7 @@ t["A03L"][6] = {};
 -- aub1 1
 t["A03L"][6][0] = "*자신의 배에 탈 선원을 모집합니다. 선원에 따라 무라사의 능력이 달라집니다. 선원을 모집하기 전에는 무라사는 어떤 능력도 발휘하지 못합니다. 갈림길의 대상이 된 선원은 사라집니다.\r\
 [모집가능한 선원]\r\
--키진 세이자[에픽], 스쿠나 신묘마루[에픽] -> |c00379BFF마법 데미지|r의 무라사로 변경\r\
+-키진 세이자[에픽], Sukuna Shinmyoumaru[에픽] -> |c00379BFF마법 데미지|r의 무라사로 변경\r\
 -토라마루 쇼우[에픽],호우쥬 누에[에픽] -> |c00FF6464물리 데미지|r의 무라사로 변경";
 t["A03L"][7] = {};
 -- aart
@@ -59461,10 +59461,10 @@ t["A0O5"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["A0O5"][3] = {};
 -- atp1 1
-t["A0O5"][3][0] = "|c00FEE952[유닛 정보]|r - 스쿠나 신묘마루[레전더리]";
+t["A0O5"][3][0] = "|c00FEE952[유닛 정보]|r - Sukuna Shinmyoumaru[레전더리]";
 t["A0O5"][4] = {};
 -- aub1 1
-t["A0O5"][4][0] = "|c00A8F13A[조합식]|r: 스쿠나 신묘마루[에픽] + 루미아 EX[유니크] + 유니크 소울\r\
+t["A0O5"][4][0] = "|c00A8F13A[조합식]|r: Sukuna Shinmyoumaru[에픽] + 루미아 EX[유니크] + 유니크 소울\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
@@ -59492,10 +59492,10 @@ t["A0O6"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0O6"][5] = {};
 -- aub1 1
-t["A0O6"][5][0] = "스쿠나 신묘마루[에픽] + 루미아 EX[유니크] + 유니크 소울 1개";
+t["A0O6"][5][0] = "Sukuna Shinmyoumaru[에픽] + 루미아 EX[유니크] + 유니크 소울 1개";
 t["A0O6"][6] = {};
 -- atp1 1
-t["A0O6"][6][0] = "|c00ffff00스쿠나 신묘마루[레전더리]|r 조합|c00FF8040[F]|r";
+t["A0O6"][6][0] = "|c00ffff00Sukuna Shinmyoumaru[레전더리]|r 조합|c00FF8040[F]|r";
 t["A0O6"][7] = {};
 -- anam
 -- Source language string already occurred earlier; skipped
@@ -83511,7 +83511,7 @@ t["A03U"][3] = {};
 t["A03U"][3][0] = "|c00FEE952[유닛 정보]|r - 이누바시리 모미지[아르카나]";
 t["A03U"][4] = {};
 -- aub1 1
-t["A03U"][4][0] = "|c00A8F13A[조합식]|r: 스쿠나 신묘마루[에픽] + 샤메이마루 아야[에픽] + 히메카이도 하타테[유니크] + 이누바시리 모미지[레어] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
+t["A03U"][4][0] = "|c00A8F13A[조합식]|r: Sukuna Shinmyoumaru[에픽] + 샤메이마루 아야[에픽] + 히메카이도 하타테[유니크] + 이누바시리 모미지[레어] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 완료형 변체도(momiji arc)\r\
 \r\
 [공격속도]: 0.25초당 1번\r\

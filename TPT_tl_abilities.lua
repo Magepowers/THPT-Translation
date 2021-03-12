@@ -320,7 +320,7 @@ TPT_abilities_loader = function(t)
 -- [AEev]
 -- arac
 -- atp1 1
-		t["AEev"][2][1] = "|c00FEE952[Unit Information]|r - 스쿠나 신묘마루[Epic]";
+		t["AEev"][2][1] = "|c00FEE952[Unit Information]|r - Sukuna Shinmyoumaru[Epic]";
 -- anam
 		t["AEev"][3][1] = "[Epic_Unit Information]";
 -- aub1 1
@@ -3266,7 +3266,7 @@ TPT_abilities_loader = function(t)
 		t["ANd1"][3][1] = "BTN\\BTNPatch.blp";
 -- anam
 -- aub1 1
-		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + 스쿠나 신묘마루[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
+		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + Sukuna Shinmyoumaru[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 락트 걸(patche phan)\r\
 \r\
 [공격속도]: 0.47초당 1번\r\
@@ -4276,7 +4276,7 @@ TPT_abilities_loader = function(t)
 |c00FAB145[특수 Combination]|r\r\
 *다른 Chronicle을 조합했어도 조합할 수 있습니다.\r\
 *타이핑 : 역습의 아마노자쿠[kijin chro]\r\
-키진 세이자[익스텐드] + 스쿠나 신묘마루[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
+키진 세이자[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
 \r\
 [공격속도]: 0.37초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -16186,7 +16186,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DN"][3][1] = "|c00FEE952[Unit Information]|r - 호리카와 라이코[Chronicle]";
 -- aub1 1
-		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls \r\
+		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -16203,7 +16203,7 @@ TPT_abilities_loader = function(t)
 		t["A0GN"][5][1] = "|c00ffff00호리카와 라이코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0GN"][7][1] = "스쿠나 신묘마루[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls ";
+		t["A0GN"][7][1] = "Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -16235,7 +16235,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GP"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 스미레코[Chronicle]";
 -- aub1 1
-		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + 2 Unique Souls \r\
+		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 후지와라노 모코우[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -16283,7 +16283,7 @@ TPT_abilities_loader = function(t)
 		t["A0IN"][5][1] = "|c00ffff00우사미 스미레코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0IN"][7][1] = "마에리베리 한[Epic] + 후지와라노 모코우[Epic] + 스쿠나 신묘마루[Epic] + 2 Unique Souls ";
+		t["A0IN"][7][1] = "마에리베리 한[Epic] + 후지와라노 모코우[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -19821,7 +19821,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A03L"][6][1] = "*자신의 배에 탈 선원을 모집합니다. 선원에 따라 Murasa의 능력이 달라집니다. 선원을 모집하기 전에는 Murasa는 어떤 능력도 발휘하지 못합니다. 갈림길의 대상이 된 선원은 사라집니다.\r\
 [모집가능한 선원]\r\
--키진 세이자[Epic], 스쿠나 신묘마루[Epic] -> |c00379BFF마법 데미지|r의 Murasa로 변경\r\
+-키진 세이자[Epic], Sukuna Shinmyoumaru[Epic] -> |c00379BFF마법 데미지|r의 Murasa로 변경\r\
 -토라마루 쇼우[Epic],호우쥬 누에[Epic] -> |c00FF6464물리 데미지|r의 Murasa로 변경";
 -- aart
 		t["A03L"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp";
@@ -24283,9 +24283,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A0O5"][3][1] = "|c00FEE952[Unit Information]|r - 스쿠나 신묘마루[Legendary]";
+		t["A0O5"][3][1] = "|c00FEE952[Unit Information]|r - Sukuna Shinmyoumaru[Legendary]";
 -- aub1 1
-		t["A0O5"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + Rumia EX[Unique] + Unique 소울\r\
+		t["A0O5"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Rumia EX[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
@@ -24298,7 +24298,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0O6"][5][1] = "스쿠나 신묘마루[Epic] + Rumia EX[Unique] + Unique 소울 1개";
+		t["A0O6"][5][1] = "Sukuna Shinmyoumaru[Epic] + Rumia EX[Unique] + Unique 소울 1개";
 -- atp1 1
 		t["A0O6"][6][1] = "|c00ffff00스쿠나 신묘마루[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -33054,7 +33054,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03U"][3][1] = "|c00FEE952[Unit Information]|r - 이누바시리 모미지[Arcana]";
 -- aub1 1
-		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: 스쿠나 신묘마루[Epic] + 샤메이마루 아야[Epic] + 히메카이도 하타테[Unique] + 이누바시리 모미지[Rare] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
+		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + 샤메이마루 아야[Epic] + 히메카이도 하타테[Unique] + 이누바시리 모미지[Rare] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 완료형 변체도(momiji arc)\r\
 \r\
 [공격속도]: 0.25초당 1번\r\

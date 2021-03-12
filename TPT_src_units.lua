@@ -421,7 +421,7 @@ t["hgry"][14] = {};
 -- Source language string already occurred earlier; skipped
 t["hgry"][15] = {};
 -- unam
-t["hgry"][15][0] = "스쿠나 신묘마루 - |c00400080에픽|r";
+t["hgry"][15][0] = "Sukuna Shinmyoumaru - |c00400080에픽|r";
 t["hgry"][16] = {};
 -- ua1m
 t["hgry"][16][0] = " .mdl";
@@ -565,7 +565,7 @@ t["hsor"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["hsor"][7] = {};
 -- unam
-t["hsor"][7][0] = "스쿠나 신묘마루 - |c00804040레전더리|r|N|c00FF9393검신 릴리퍼트|r";
+t["hsor"][7][0] = "Sukuna Shinmyoumaru - |c00804040레전더리|r|N|c00FF9393검신 릴리퍼트|r";
 t["hsor"][8] = {};
 -- uabi
 t["hsor"][8][0] = "AInv,Avul,A03P,A0O3,A0P2,A0O5,A0LB";
@@ -904,7 +904,7 @@ t["okod"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["okod"][3] = {};
 -- unam
-t["okod"][3][0] = "스쿠나 신묘마루 - |c0000FFFF익스텐드|r";
+t["okod"][3][0] = "Sukuna Shinmyoumaru - |c0000FFFF익스텐드|r";
 t["okod"][4] = {};
 -- uhot [NEW]
 -- Source language string already occurred earlier; skipped
@@ -27249,7 +27249,7 @@ t["h07F"][12] = {};
 t["h07F"][12][0] = "휘침성 선택|cffffcc00(C)|r";
 t["h07F"][13] = {};
 -- utub
-t["h07F"][13][0] = "진영을 휘침성으로 선택합니다. 스쿠나 신묘마루[레전더리]의 조합이 가능해집니다.\r\
+t["h07F"][13][0] = "진영을 휘침성으로 선택합니다. Sukuna Shinmyoumaru[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r츠쿠모가미 대잔치\r\
 -도깨비[일반]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
