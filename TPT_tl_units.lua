@@ -2500,7 +2500,7 @@ TPT_units_loader = function(t)
 		t["nrzb"][5][1] = "kudaka2.mdl";
 -- [nwzr]
 -- unam
-		t["nwzr"][3][1] = "히에다노 아큐 - |c0080A8E6Ascended|N기억의 기록|r";
+		t["nwzr"][3][1] = "Hieda no Akyuu - |c0080A8E6Ascended|N기억의 기록|r";
 -- usnd
 -- urac
 -- uico
@@ -3774,7 +3774,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01Q"][7][1] = "히에다노 아큐 - |c00400080Epic|r";
+		t["h01Q"][7][1] = "Hieda no Akyuu - |c00400080Epic|r";
 -- ua1m
 -- umdl
 -- uico
@@ -6515,7 +6515,7 @@ TPT_units_loader = function(t)
 -- urac
 -- utyp
 -- unam
-		t["e039"][4][1] = "히에다노 아큐 - |c0000FFFFExtended|r";
+		t["e039"][4][1] = "Hieda no Akyuu - |c0000FFFFExtended|r";
 -- upgr
 -- umvt
 -- umdl

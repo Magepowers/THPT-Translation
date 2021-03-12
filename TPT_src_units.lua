@@ -7882,7 +7882,7 @@ t["nwzr"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["nwzr"][3] = {};
 -- unam
-t["nwzr"][3][0] = "히에다노 아큐 - |c0080A8E6어센디드|N기억의 기록|r";
+t["nwzr"][3][0] = "Hieda no Akyuu - |c0080A8E6어센디드|N기억의 기록|r";
 t["nwzr"][4] = {};
 -- usnd
 -- Source language string already occurred earlier; skipped
@@ -11902,7 +11902,7 @@ t["h01Q"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01Q"][7] = {};
 -- unam
-t["h01Q"][7][0] = "히에다노 아큐 - |c00400080에픽|r";
+t["h01Q"][7][0] = "Hieda no Akyuu - |c00400080에픽|r";
 t["h01Q"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -21866,7 +21866,7 @@ t["e039"][3] = {};
 -- Source language string already occurred earlier; skipped
 t["e039"][4] = {};
 -- unam
-t["e039"][4][0] = "히에다노 아큐 - |c0000FFFF익스텐드|r";
+t["e039"][4][0] = "Hieda no Akyuu - |c0000FFFF익스텐드|r";
 t["e039"][5] = {};
 -- ubui [NEW]
 -- Source language string already occurred earlier; skipped

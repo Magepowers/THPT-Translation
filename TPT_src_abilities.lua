@@ -46,7 +46,7 @@ t["Assk"][6] = {};
 t["Assk"][6][0] = "BTN\\BTNParsee.blp";
 t["Assk"][7] = {};
 -- aub1 1
-t["Assk"][7][0] = "|c00A8F13A[조합식]|r: Clownpiece[에픽] + 히에다노 아큐[에픽] + 코치야 사나에[유니크] + 고대와 환상의 조각\r\
+t["Assk"][7][0] = "|c00A8F13A[조합식]|r: Clownpiece[에픽] + Hieda no Akyuu[에픽] + 코치야 사나에[유니크] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
 [공격속도]: 0.67초당 1번\r\
@@ -8106,7 +8106,7 @@ t["A01P"][7] = {};
 t["A01P"][7][0] = "creeps";
 t["A01P"][8] = {};
 -- aub1 1
-t["A01P"][8][0] = "호라이산 카구야[에픽] + 리글 나이트버그[에픽] + 히에다노 아큐[에픽] + 유니크 소울 2개";
+t["A01P"][8][0] = "호라이산 카구야[에픽] + 리글 나이트버그[에픽] + Hieda no Akyuu[에픽] + 유니크 소울 2개";
 t["A01P"][9] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -18043,7 +18043,7 @@ t["A05V"][1] = {};
 -- Source language string already occurred earlier; skipped
 t["A05V"][2] = {};
 -- atp1 1
-t["A05V"][2][0] = "|c00FEE952[유닛 정보]|r - 히에다노 아큐[에픽]";
+t["A05V"][2][0] = "|c00FEE952[유닛 정보]|r - Hieda no Akyuu[에픽]";
 t["A05V"][3] = {};
 -- aub1 1
 t["A05V"][3][0] = "|c00A8F13A[조합식]|r: 소가노 토지코[유니크] + 레티 화이트락[유니크] + 사이교우지 유유코[유니크]\r\
@@ -33338,7 +33338,7 @@ t["A0GE"][3] = {};
 t["A0GE"][3][0] = "|c00FEE952[유닛 정보]|r - 야고코로 에이린[크로니클]";
 t["A0GE"][4] = {};
 -- aub1 1
-t["A0GE"][4][0] = "|c00A8F13A[조합식]|r: 호라이산 카구야[에픽] + 리글 나이트버그[에픽] + 히에다노 아큐[에픽] + 유니크 소울 2개\r\
+t["A0GE"][4][0] = "|c00A8F13A[조합식]|r: 호라이산 카구야[에픽] + 리글 나이트버그[에픽] + Hieda no Akyuu[에픽] + 유니크 소울 2개\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450\r\
@@ -38071,7 +38071,7 @@ t["A0KH"][3] = {};
 -- Source language string already occurred earlier; skipped
 t["A0KH"][4] = {};
 -- atp1 1
-t["A0KH"][4][0] = "|c00ffff00히에다노 아큐|r 조합|c00FF8040[D]|r";
+t["A0KH"][4][0] = "|c00ffff00Hieda no Akyuu|r 조합|c00FF8040[D]|r";
 t["A0KH"][5] = {};
 -- aub1 1
 t["A0KH"][5][0] = "소가노 토지코 + 레티 화이트락 + 사이교우지 유유코";
@@ -83564,7 +83564,7 @@ t["A0HH"][4] = {};
 t["A0HH"][4][0] = "|c00FEE952[유닛 정보]|r - 모토오리 코스즈[아르카나]";
 t["A0HH"][5] = {};
 -- aub1 1
-t["A0HH"][5][0] = "|c00A8F13A[조합식]|r: 히에다노 아큐[에픽] + 카미시라사와 케이네[유니크] + 신비술사의 고서\r\
+t["A0HH"][5][0] = "|c00A8F13A[조합식]|r: Hieda no Akyuu[에픽] + 카미시라사와 케이네[유니크] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 스즈나안의 영광(kosuzu arc)\r\
 \r\
 [공격속도]: 0.22초당 1번\r\
@@ -98174,7 +98174,7 @@ t["A0SX"][65] = {};
 t["A0SY"] = {};
 t["A0SY"][1] = {};
 -- atp1 1
-t["A0SY"][1][0] = "|c00FEE952[유닛 정보]|r - 히에다노 아큐[어센디드]";
+t["A0SY"][1][0] = "|c00FEE952[유닛 정보]|r - Hieda no Akyuu[어센디드]";
 t["A0SY"][2] = {};
 -- anam
 -- Source language string already occurred earlier; skipped

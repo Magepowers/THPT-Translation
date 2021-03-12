@@ -16,7 +16,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
-		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 히에다노 아큐[Epic] + Kochiya Sanae[Unique] + 고대와 환상의 조각\r\
+		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Hieda no Akyuu[Epic] + Kochiya Sanae[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
 [공격속도]: 0.67초당 1번\r\
@@ -3333,7 +3333,7 @@ TPT_abilities_loader = function(t)
 -- arac
 		t["A01P"][7][1] = "creeps";
 -- aub1 1
-		t["A01P"][8][1] = "호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + 히에다노 아큐[Epic] + 2 Unique Souls ";
+		t["A01P"][8][1] = "호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 		t["A01P"][10][1] = "1,1,1,2,1";
@@ -7466,7 +7466,7 @@ TPT_abilities_loader = function(t)
 -- [A05V]
 -- arac
 -- atp1 1
-		t["A05V"][2][1] = "|c00FEE952[Unit Information]|r - 히에다노 아큐[Epic]";
+		t["A05V"][2][1] = "|c00FEE952[Unit Information]|r - Hieda no Akyuu[Epic]";
 -- aub1 1
 		t["A05V"][3][1] = "|c00A8F13A[Combination]|r: 소가노 토지코[Unique] + 레티 화이트락[Unique] + 사이교우지 유유코[Unique]\r\
 \r\
@@ -14084,7 +14084,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GE"][3][1] = "|c00FEE952[Unit Information]|r - 야고코로 에이린[Chronicle]";
 -- aub1 1
-		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + 히에다노 아큐[Epic] + 2 Unique Souls \r\
+		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450\r\
@@ -15998,7 +15998,7 @@ TPT_abilities_loader = function(t)
 		t["A0KH"][2][1] = "h042,h01A,h037";
 -- atar 1
 -- atp1 1
-		t["A0KH"][4][1] = "|c00ffff00히에다노 아큐|r 조합|c00FF8040[D]|r";
+		t["A0KH"][4][1] = "|c00ffff00Hieda no Akyuu|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A0KH"][5][1] = "소가노 토지코 + 레티 화이트락 + 사이교우지 유유코";
 -- anam
@@ -33086,7 +33086,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0HH"][4][1] = "|c00FEE952[Unit Information]|r - 모토오리 코스즈[Arcana]";
 -- aub1 1
-		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: 히에다노 아큐[Epic] + 카미시라사와 케이네[Unique] + 신비술사의 고서\r\
+		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: Hieda no Akyuu[Epic] + 카미시라사와 케이네[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 스즈나안의 영광(kosuzu arc)\r\
 \r\
 [공격속도]: 0.22초당 1번\r\
@@ -38388,7 +38388,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SY]
 -- atp1 1
-		t["A0SY"][1][1] = "|c00FEE952[Unit Information]|r - 히에다노 아큐[Ascended]";
+		t["A0SY"][1][1] = "|c00FEE952[Unit Information]|r - Hieda no Akyuu[Ascended]";
 -- anam
 -- aart
 		t["A0SY"][3][1] = "Icon\\Unit\\BTNAkyuu_Asc.blp";
