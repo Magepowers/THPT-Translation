@@ -324,7 +324,7 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["AEev"][3][1] = "[Epic_Unit Information]";
 -- aub1 1
-		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Tsukumo Benben[Unique] + Tsukumo Yatsuhashi[Unique] + 이마이즈미 카게로우[Unique]\r\
+		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Tsukumo Benben[Unique] + Tsukumo Yatsuhashi[Unique] + Imaizumi Kagerou[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -795,7 +795,7 @@ TPT_abilities_loader = function(t)
 		t["Apts"][5][1] = "카기야마 히나[액신] Combination";
 -- anam
 -- aub1 1
-		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: Rumia EX[Unique] + 카기야마 히나[Unique] + 이마이즈미 카게로우[Unique]\r\
+		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: Rumia EX[Unique] + 카기야마 히나[Unique] + Imaizumi Kagerou[Unique]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 350\r\
@@ -3505,7 +3505,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00P"][5][1] = "|c00ffff00카기야마 히나[액신]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00P"][6][1] = "Rumia EX + 카기야마 히나 + 이마이즈미 카게로우";
+		t["A00P"][6][1] = "Rumia EX + 카기야마 히나 + Imaizumi Kagerou";
 -- ahky
 -- acat
 		t["A00P"][8][1] = "h01H,h02N,hkni";
@@ -15180,7 +15180,7 @@ TPT_abilities_loader = function(t)
 -- atp1 11
 		t["A0HM"][27][1] = "『영격』- |c00FF0000충전|r 10";
 -- aub1 1
-		t["A0HM"][28][1] = "Hong Meiling + 호시구마 유기 + 이마이즈미 카게로우 + 신비술사의 고서";
+		t["A0HM"][28][1] = "Hong Meiling + 호시구마 유기 + Imaizumi Kagerou + 신비술사의 고서";
 -- aub1 2
 		t["A0HM"][29][1] = "아군 유닛의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm 유닛을 조합할 시 수치가 3 상승하고, Legendary 유닛을 조합할 시 수치가 2 상승합니다. 『영격』충전 수 1당 3%의 상수 데미지가 증가합니다.";
 -- aub1 3
@@ -16116,7 +16116,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DH"][5][1] = "|c00ffff00키진 세이자|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DH"][6][1] = "이마이즈미 카게로우 + 키신 사구메 + 카쿠 세이가";
+		t["A0DH"][6][1] = "Imaizumi Kagerou + 키신 사구메 + 카쿠 세이가";
 -- ahky
 -- acat
 		t["A0DH"][8][1] = "hkni,h05P,h03T";
@@ -16129,7 +16129,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - 키진 세이자[Epic]";
 -- aub1 1
-		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: 이마이즈미 카게로우[Unique] + 키신 사구메[Unique] + 카쿠 세이가[Unique]\r\
+		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + 키신 사구메[Unique] + 카쿠 세이가[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -16145,7 +16145,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DK"][5][1] = "|c00ffff00스쿠나 신묘마루|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DK"][6][1] = "Tsukumo Benben + Tsukumo Yatsuhashi + 이마이즈미 카게로우";
+		t["A0DK"][6][1] = "Tsukumo Benben + Tsukumo Yatsuhashi + Imaizumi Kagerou";
 -- ahky
 -- acat
 		t["A0DK"][8][1] = "hrif,hmtm,hkni";
@@ -32507,7 +32507,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MY"][3][1] = "|c00FEE952[Unit Information]|r - 쿠로코마 사키[Legendary]";
 -- aub1 1
-		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: 이마이즈미 카게로우[Unique] + 카미시라사와 케이네 EX[Epic] +  Unique 소울\r\
+		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + 카미시라사와 케이네 EX[Epic] +  Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
@@ -32518,7 +32518,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0N5"][4][1] = "|c00ffff00쿠로코마 사키[Legendary]|r 조합|c00FF8040[F]|r";
 -- aub1 1
-		t["A0N5"][5][1] = "이마이즈미 카게로우[Unique] + 카미사라사와 케이네 EX[Epic] + Unique 소울 1개";
+		t["A0N5"][5][1] = "Imaizumi Kagerou[Unique] + 카미사라사와 케이네 EX[Epic] + Unique 소울 1개";
 -- anam
 -- arac
 -- aart
