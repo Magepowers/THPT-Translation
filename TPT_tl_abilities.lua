@@ -16,7 +16,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
-		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 히에다노 아큐[Epic] + Sanae Kochiya[Unique] + 고대와 환상의 조각\r\
+		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 히에다노 아큐[Epic] + Kochiya Sanae[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
 [공격속도]: 0.67초당 1번\r\
@@ -210,7 +210,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - 이마이즈미 카게로[Unique]";
 -- aub1 1
-		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: 세키반키[Rare] + Kyouko Kasodani[Rare] + Merlin Prismriver[Rare]\r\
+		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: 세키반키[Rare] + Kasodani Kyouko[Rare] + Merlin Prismriver[Rare]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -3275,9 +3275,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- [ANdb]
 -- atp1 1
-		t["ANdb"][1][1] = "|c00FEE952[Unit Information]|r - Nitori Kawashiro[Phantasm]";
+		t["ANdb"][1][1] = "|c00FEE952[Unit Information]|r - Kawashiro Nitori[Phantasm]";
 -- aub1 1
-		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + 호쥬 누에[Epic] + Nitori Kawashiro[Magic] + 고대와 환상의 조각\r\
+		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + 호쥬 누에[Epic] + Kawashiro Nitori[Magic] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 언더워터 카모플라쥬(nitori phan)\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
@@ -3361,7 +3361,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A003"][5][1] = "|c00ffff00Nitori Kawashiro|r 조합|c00FF8040[D]|r";
+		t["A003"][5][1] = "|c00ffff00Kawashiro Nitori|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A003"][6][1] = "Kappa + Human";
 -- ahky
@@ -3633,7 +3633,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A015"][5][1] = "|c00ffff00Sㅏ나에|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A015"][6][1] = "Sanae Kochiya + Minoriko Aki + 타타라 코가사 + Green UFO\r\
+		t["A015"][6][1] = "Kochiya Sanae + Minoriko Aki + 타타라 코가사 + Green UFO\r\
 ";
 -- ahky
 -- acat
@@ -3666,7 +3666,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01A"][5][1] = "|c00ffff00첸|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01A"][6][1] = "Orin + Kyouko Kasodani + Sunny Milk";
+		t["A01A"][6][1] = "Orin + Kasodani Kyouko + Sunny Milk";
 -- ahky
 -- acat
 		t["A01A"][8][1] = "h00Q,h00J,h00V";
@@ -3682,7 +3682,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01B"][5][1] = "|c00ffff00성련선|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01B"][6][1] = "타타라 코가사 + Sanae Kochiya + Lily White + Red UFO\r\
+		t["A01B"][6][1] = "타타라 코가사 + Kochiya Sanae + Lily White + Red UFO\r\
 ";
 -- ahky
 -- acat
@@ -3763,7 +3763,7 @@ TPT_abilities_loader = function(t)
 		t["A019"][6][1] = "|c00ffff00정체불명|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A019"][8][1] = "Rainbow UFO + Rainbow UFO + Nitori Kawashiro";
+		t["A019"][8][1] = "Rainbow UFO + Rainbow UFO + Kawashiro Nitori";
 -- ahky
 -- alig
 		t["A019"][10][1] = "2,1";
@@ -8225,7 +8225,7 @@ TPT_abilities_loader = function(t)
 		t["A07S"][6][1] = "|c00ffff00타타라 코가사|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A07S"][8][1] = "Nitori Kawashiro + 도깨비 + UFO";
+		t["A07S"][8][1] = "Kawashiro Nitori + 도깨비 + UFO";
 -- ahky
 -- alig
 -- atat
@@ -9422,7 +9422,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A08Y"][5][1] = "|c00ffff00야타데라 나루미|r 조합|c00FF8040[F]|r";
 -- aub1 1
-		t["A08Y"][6][1] = "Kyouko Kasodani + Orin[Rare] + Lyrica Prismriver[Rare]";
+		t["A08Y"][6][1] = "Kasodani Kyouko + Orin[Rare] + Lyrica Prismriver[Rare]";
 -- aart
 		t["A08Y"][7][1] = "BTN\\BTNnarumi.blp";
 -- ahky
@@ -9750,7 +9750,7 @@ TPT_abilities_loader = function(t)
 		t["A097"][5][1] = "|c00ffff00나가에 이쿠|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A097"][7][1] = "써니 밀크 + 타타라 코가사 + Sanae Kochiya + Blue UFO\r\
+		t["A097"][7][1] = "써니 밀크 + 타타라 코가사 + Kochiya Sanae + Blue UFO\r\
 ";
 -- ahky
 -- alig
@@ -11317,7 +11317,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A0B9"][4][1] = "BTN\\BTNKyouko.blp";
 -- atp1 1
-		t["A0B9"][5][1] = "|c00ffff00Kyouko Kasodani|r 조합|c00FF8040[D]|r";
+		t["A0B9"][5][1] = "|c00ffff00Kasodani Kyouko|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A0B9"][6][1] = "Small Divine Spirit + Kisume + Zako";
 -- ahky
@@ -11335,7 +11335,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BA"][5][1] = "|c00ffff00이누바시리 모미지|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BA"][6][1] = "Nitori Kawashiro + Shizuha Aki + Kappa";
+		t["A0BA"][6][1] = "Kawashiro Nitori + Shizuha Aki + Kappa";
 -- ahky
 -- acat
 		t["A0BA"][8][1] = "h00F,h00C,h003";
@@ -11398,7 +11398,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BH"][5][1] = "|c00ffff00릴리 블랙|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BH"][6][1] = "Lily White + Cirno + Kyouko Kasodani";
+		t["A0BH"][6][1] = "Lily White + Cirno + Kasodani Kyouko";
 -- ahky
 -- acat
 		t["A0BH"][8][1] = "h044,h00I,h00V";
@@ -11414,7 +11414,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BI"][5][1] = "|c00ffff00소가노 토지코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BI"][6][1] = "Kyouko Kasodani + Youmu Konpaku + Yoshika Miyako";
+		t["A0BI"][6][1] = "Kasodani Kyouko + Youmu Konpaku + Yoshika Miyako";
 -- ahky
 -- acat
 		t["A0BI"][8][1] = "h00V,h00Z,h001";
@@ -12365,7 +12365,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0CL"][5][1] = "|c00ffff00히메카이도 하타테|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0CL"][6][1] = "이누바시리 모미지 + Sanae Kochiya + Minoriko Aki";
+		t["A0CL"][6][1] = "이누바시리 모미지 + Kochiya Sanae + Minoriko Aki";
 -- ahky
 -- acat
 		t["A0CL"][8][1] = "h01V,h046,h011";
@@ -13000,7 +13000,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0DX"][3][1] = "|c00FEE952[Unit Information]|r - Nitori Kawashiro[Magic]";
+		t["A0DX"][3][1] = "|c00FEE952[Unit Information]|r - Kawashiro Nitori[Magic]";
 -- aub1 1
 		t["A0DX"][4][1] = "|c00A8F13A[Combination]|r: Kappa[Normal] + Human[Normal]\r\
 \r\
@@ -13027,7 +13027,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0E0"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[Rare]";
 -- aub1 1
-		t["A0E0"][4][1] = "|c00A8F13A[Combination]|r: Rumia[Magic] + Nitori Kawashiro[Magic] + Fairy[Normal]\r\
+		t["A0E0"][4][1] = "|c00A8F13A[Combination]|r: Rumia[Magic] + Kawashiro Nitori[Magic] + Fairy[Normal]\r\
 \r\
 [공격속도]: 1.8초당 1번\r\
 [이동속도]: 300\r\
@@ -13110,7 +13110,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0E7"][3][1] = "|c00FEE952[Unit Information]|r - Sanae Kochiya[Rare]";
+		t["A0E7"][3][1] = "|c00FEE952[Unit Information]|r - Kochiya Sanae[Rare]";
 -- aub1 1
 		t["A0E7"][4][1] = "|c00A8F13A[Combination]|r: Green UFO[Rare] + Shizuha Aki[Magic]\r\
 \r\
@@ -13124,7 +13124,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0E8"][3][1] = "|c00FEE952[Unit Information]|r - 타타라 코가사[Rare]";
 -- aub1 1
-		t["A0E8"][4][1] = "|c00A8F13A[Combination]|r: Nitori Kawashiro[Magic] + 도깨비[Normal] + UFO[Normal]\r\
+		t["A0E8"][4][1] = "|c00A8F13A[Combination]|r: Kawashiro Nitori[Magic] + 도깨비[Normal] + UFO[Normal]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
@@ -13160,7 +13160,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0EB"][3][1] = "|c00FEE952[Unit Information]|r - 이누바시리 모미지[Rare]";
 -- aub1 1
-		t["A0EB"][4][1] = "|c00A8F13A[Combination]|r: Nitori Kawashiro[Magic] + Shizuha Aki[Magic] + Kappa[Normal]\r\
+		t["A0EB"][4][1] = "|c00A8F13A[Combination]|r: Kawashiro Nitori[Magic] + Shizuha Aki[Magic] + Kappa[Normal]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -13230,7 +13230,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0EH"][3][1] = "|c00FEE952[Unit Information]|r - Kyouko Kasodani[Rare]";
+		t["A0EH"][3][1] = "|c00FEE952[Unit Information]|r - Kasodani Kyouko[Rare]";
 -- aub1 1
 		t["A0EH"][4][1] = "|c00A8F13A[Combination]|r: Small Divine Spirit[Magic] + Kisume[Magic] + Zako[Normal]\r\
 \r\
@@ -13393,7 +13393,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0EV"][3][1] = "|c00FEE952[Unit Information]|r - 나가에 이쿠[Unique]";
 -- aub1 1
-		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: 써니 밀크[Rare] + 타타라 코가사[Rare] + Sanae Kochiya[Rare] + Blue UFO[Rare]\r\
+		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: 써니 밀크[Rare] + 타타라 코가사[Rare] + Kochiya Sanae[Rare] + Blue UFO[Rare]\r\
 \r\
 [공격속도]: 0.95초당 1번\r\
 [이동속도]: 300\r\
@@ -13453,7 +13453,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0F0"][3][1] = "|c00FEE952[Unit Information]|r - Sㅏ나에[Unique]";
 -- aub1 1
-		t["A0F0"][4][1] = "|c00A8F13A[Combination]|r: Sanae Kochiya[Rare] + Minoriko Aki[Rare] + 타타라 코가사[Rare] + Green UFO[Rare]\r\
+		t["A0F0"][4][1] = "|c00A8F13A[Combination]|r: Kochiya Sanae[Rare] + Minoriko Aki[Rare] + 타타라 코가사[Rare] + Green UFO[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
@@ -13465,7 +13465,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0F1"][3][1] = "|c00FEE952[Unit Information]|r - 첸[Unique]";
 -- aub1 1
-		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Kyouko Kasodani[Rare] + 써니 밀크[Rare]\r\
+		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Kasodani Kyouko[Rare] + 써니 밀크[Rare]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -13513,7 +13513,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0F5"][3][1] = "|c00FEE952[Unit Information]|r - 히메카이도 하타테[Unique]";
 -- aub1 1
-		t["A0F5"][4][1] = "|c00A8F13A[Combination]|r: 이누바시리 모미지[Rare] + Sanae Kochiya[Rare] + Minoriko Aki[Rare]\r\
+		t["A0F5"][4][1] = "|c00A8F13A[Combination]|r: 이누바시리 모미지[Rare] + Kochiya Sanae[Rare] + Minoriko Aki[Rare]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 330\r\
@@ -13573,7 +13573,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FA"][3][1] = "|c00FEE952[Unit Information]|r - 소가노 토지코[Unique]";
 -- aub1 1
-		t["A0FA"][4][1] = "|c00A8F13A[Combination]|r: Kyouko Kasodani[Rare] + Youmu Konpaku[Rare] + Yoshika Miyako[Rare]\r\
+		t["A0FA"][4][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Youmu Konpaku[Rare] + Yoshika Miyako[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 300\r\
@@ -13597,7 +13597,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FC"][3][1] = "|c00FEE952[Unit Information]|r - 릴리 블랙[Unique]";
 -- aub1 1
-		t["A0FC"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Cirno[Rare] + Kyouko Kasodani[Rare]\r\
+		t["A0FC"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Cirno[Rare] + Kasodani Kyouko[Rare]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -13622,7 +13622,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FE"][3][1] = "|c00FEE952[Unit Information]|r - 샤메이마루 아야[Legendary]";
 -- aub1 1
-		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: 샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + Kyouko Kasodani[Rare] + Unique 소울 1개\r\
+		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: 샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.27초당 1번\r\
 [이동속도]: 500[공중이동 가능]\r\
@@ -13647,7 +13647,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FG"][3][1] = "|c00FEE952[Unit Information]|r - 정체불명[Unique]";
 -- aub1 1
-		t["A0FG"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Rainbow UFO[Rare] + Nitori Kawashiro[Magic]\r\
+		t["A0FG"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Rainbow UFO[Rare] + Kawashiro Nitori[Magic]\r\
 \r\
 [공격속도]: 1.5초당 1번\r\
 [이동속도]: 300\r\
@@ -13695,7 +13695,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FK"][3][1] = "|c00FEE952[Unit Information]|r - 성련선[Unique]";
 -- aub1 1
-		t["A0FK"][4][1] = "|c00A8F13A[Combination]|r: 타타라 코가사[Rare] + Lily White[Rare] + Sanae Kochiya[Rare] + Red UFO[Rare]\r\
+		t["A0FK"][4][1] = "|c00A8F13A[Combination]|r: 타타라 코가사[Rare] + Lily White[Rare] + Kochiya Sanae[Rare] + Red UFO[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -14788,7 +14788,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A076"][2][1] = "|c00FEE952[Unit Information]|r - Minoriko Aki[Arcana]";
 -- aub1 1
-		t["A076"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Kyouko Kasodani[Rare] + Minoriko Aki[Rare] + 신비술사의 고서\r\
+		t["A076"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Kasodani Kyouko[Rare] + Minoriko Aki[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 신님이라구?(minoriko arc)\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
@@ -16029,7 +16029,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KG"][5][1] = "|c00ffff00이마이즈미 카게로우|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KG"][6][1] = "세키반키 + Kyouko Kasodani + 메를란 프리즘리버";
+		t["A0KG"][6][1] = "세키반키 + Kasodani Kyouko + 메를란 프리즘리버";
 -- ahky
 -- acat
 		t["A0KG"][8][1] = "hfoo,h00V,h031";
@@ -17191,7 +17191,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KO"][4][1] = "|c00FEE952[Unit Information]|r - 야타데라 나루미[Unique]";
 -- aub1 1
-		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: Kyouko Kasodani[Rare] + Orin[Rare] + Lyrica Prismriver[Rare]\r\
+		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Orin[Rare] + Lyrica Prismriver[Rare]\r\
 \r\
 [공격속도]: 3초당 1번\r\
 [이동속도]: 350\r\
@@ -18137,7 +18137,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A06U"][4][1] = "|c00FEE952[Unit Information]|r - Sanae Kochiya[Arcana]";
+		t["A06U"][4][1] = "|c00FEE952[Unit Information]|r - Kochiya Sanae[Arcana]";
 -- aub1 1
 		t["A06U"][5][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 사나에[Unique] + Unique 소울 * 2 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 기적의 미라클(sanae arc)\r\
@@ -19517,7 +19517,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A014"][5][1] = "샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + Kyouko Kasodani[Rare] + Unique 소울 1개";
+		t["A014"][5][1] = "샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개";
 -- atp1 1
 		t["A014"][6][1] = "|c00ffff00샤메이마루 아야[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -19972,7 +19972,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0M8"][5][1] = "Fairy + Nitori Kawashiro + Rumia";
+		t["A0M8"][5][1] = "Fairy + Kawashiro Nitori + Rumia";
 -- atp1 1
 		t["A0M8"][6][1] = "|c00ffff00키리사메 마리사|r 조합|c00FF8040[F]|r";
 -- anam
@@ -22932,7 +22932,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0IL"][5][1] = "Green UFO + Shizuha Aki";
 -- atp1 1
-		t["A0IL"][6][1] = "|c00ffff00Sanae Kochiya|r 조합|c00FF8040[D]|r";
+		t["A0IL"][6][1] = "|c00ffff00Kochiya Sanae|r 조합|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0IL"][8][1] = "h00C,h012";
@@ -33075,7 +33075,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 [이동속도]: 522[공중이동 가능]\r\
 |c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드\r\
 |c00C5EA53[조합 시너지]|r기적의 마법!\r\
--이 스킬은 Sanae Kochiya[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
+-이 스킬은 Kochiya Sanae[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
 -- aart
 		t["A05J"][5][1] = "Icon\\Unit\\BTNMarisa_Arc.blp";
 -- [A0HH]
@@ -33129,7 +33129,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0HO"][4][1] = "|c00FEE952[Unit Information]|r - 히메카이도 하타테[Arcana]";
 -- aub1 1
-		t["A0HO"][5][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + Nitori Kawashiro[Magic] + 신비술사의 고서\r\
+		t["A0HO"][5][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + Kawashiro Nitori[Magic] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 텐구 허밋퍼플(hatate arc)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
@@ -33387,9 +33387,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A0KE]
 -- anam
 -- atp1 1
-		t["A0KE"][2][1] = "|c00FEE952[Unit Information]|r - Kyouko Kasodani[Arcana]";
+		t["A0KE"][2][1] = "|c00FEE952[Unit Information]|r - Kasodani Kyouko[Arcana]";
 -- aub1 1
-		t["A0KE"][3][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic] + Kyouko Kasodani[Rare] + 신비술사의 고서\r\
+		t["A0KE"][3][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic] + Kasodani Kyouko[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 얌전한 야마비코(kyouko arc)\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
