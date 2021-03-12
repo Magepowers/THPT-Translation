@@ -2027,7 +2027,7 @@ t["nnrg"][15] = {};
 t["nhea"] = {};
 t["nhea"][1] = {};
 -- unam
-t["nhea"][1][0] = "미즈하시 파르시 - |c00FF0080판타즘|r|N|c00FF80FF지각 아래의 질투심|r";
+t["nhea"][1][0] = "Mizuhashi Parsee - |c00FF0080판타즘|r|N|c00FF80FF지각 아래의 질투심|r";
 t["nhea"][2] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -14789,7 +14789,7 @@ t["e014"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["e014"][7] = {};
 -- unam
-t["e014"][7][0] = "WAVE40 - 미즈하시 파르시";
+t["e014"][7][0] = "WAVE40 - Mizuhashi Parsee";
 t["e014"][8] = {};
 -- ubui [NEW]
 -- Source language string already occurred earlier; skipped
@@ -17507,7 +17507,7 @@ t["h02Y"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h02Y"][7] = {};
 -- unam
-t["h02Y"][7][0] = "미즈하시 파르시 - |c00ffff00레어|r";
+t["h02Y"][7][0] = "Mizuhashi Parsee - |c00ffff00레어|r";
 t["h02Y"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped

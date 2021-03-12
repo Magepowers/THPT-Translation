@@ -40,7 +40,7 @@ t["Assk"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["Assk"][5] = {};
 -- atp1 1
-t["Assk"][5][0] = "|c00FEE952[유닛 정보]|r - 미즈하시 파르시[판타즘]";
+t["Assk"][5][0] = "|c00FEE952[유닛 정보]|r - Mizuhashi Parsee[판타즘]";
 t["Assk"][6] = {};
 -- aart
 t["Assk"][6][0] = "BTN\\BTNParsee.blp";
@@ -9133,7 +9133,7 @@ t["A01D"][7] = {};
 -- Source language string already occurred earlier; skipped
 t["A01D"][8] = {};
 -- aub1 1
-t["A01D"][8][0] = "아키 미노리코 + 콘파쿠 요우무 + 미즈하시 파르시";
+t["A01D"][8][0] = "아키 미노리코 + 콘파쿠 요우무 + Mizuhashi Parsee";
 t["A01D"][9] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -20174,7 +20174,7 @@ t["A07W"][5] = {};
 t["A07W"][5][0] = "|c00ffff00호시구마 유기|r 조합|c00FF8040[D]|r";
 t["A07W"][6] = {};
 -- aub1 1
-t["A07W"][6][0] = "미즈하시 파르시 + 쿠로다니 야마메 + 키스메 + 벤토라 레드";
+t["A07W"][6][0] = "Mizuhashi Parsee + 쿠로다니 야마메 + 키스메 + 벤토라 레드";
 t["A07W"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -31698,7 +31698,7 @@ t["A0EF"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["A0EF"][3] = {};
 -- atp1 1
-t["A0EF"][3][0] = "|c00FEE952[유닛 정보]|r - 미즈하시 파르시[레어]";
+t["A0EF"][3][0] = "|c00FEE952[유닛 정보]|r - Mizuhashi Parsee[레어]";
 t["A0EF"][4] = {};
 -- aub1 1
 t["A0EF"][4][0] = "|c00A8F13A[조합식]|r: 악마[일반] + 와카사기히메[매직] + 키스메[매직]\r\
@@ -32030,7 +32030,7 @@ t["A0EU"][3] = {};
 t["A0EU"][3][0] = "|c00FEE952[유닛 정보]|r - 오노즈카 코마치[유니크]";
 t["A0EU"][4] = {};
 -- aub1 1
-t["A0EU"][4][0] = "|c00A8F13A[조합식]|r: 아키 미노리코[레어] + 콘파쿠 요우무[레어] + 미즈하시 파르시[레어]\r\
+t["A0EU"][4][0] = "|c00A8F13A[조합식]|r: 아키 미노리코[레어] + 콘파쿠 요우무[레어] + Mizuhashi Parsee[레어]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -32306,7 +32306,7 @@ t["A0F6"][3] = {};
 t["A0F6"][3][0] = "|c00FEE952[유닛 정보]|r - 호시구마 유기[유니크]";
 t["A0F6"][4] = {};
 -- aub1 1
-t["A0F6"][4][0] = "|c00A8F13A[조합식]|r: 미즈하시 파르시[레어] + 쿠로다니 야마메[레어] + 키스메[매직] + 벤토라 레드[레어]\r\
+t["A0F6"][4][0] = "|c00A8F13A[조합식]|r: Mizuhashi Parsee[레어] + 쿠로다니 야마메[레어] + 키스메[매직] + 벤토라 레드[레어]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350\r\
@@ -38219,7 +38219,7 @@ t["A05X"][3] = {};
 t["A05X"][3][0] = "|c00FEE952[유닛 정보]|r - 츠쿠모 야츠하시[유니크]";
 t["A05X"][4] = {};
 -- aub1 1
-t["A05X"][4][0] = "|c00A8F13A[조합식]|r: 리리카 프리즘리버[레어] + 세키반키[레어] + 미즈하시 파르시[레어]\r\
+t["A05X"][4][0] = "|c00A8F13A[조합식]|r: 리리카 프리즘리버[레어] + 세키반키[레어] + Mizuhashi Parsee[레어]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -38310,7 +38310,7 @@ t["A0DG"][5] = {};
 t["A0DG"][5][0] = "|c00ffff00츠쿠모 야츠하시|r 조합|c00FF8040[D]|r";
 t["A0DG"][6] = {};
 -- aub1 1
-t["A0DG"][6][0] = "리리카 프리즘리버 + 세키반키 + 미즈하시 파르시";
+t["A0DG"][6][0] = "리리카 프리즘리버 + 세키반키 + Mizuhashi Parsee";
 t["A0DG"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -40502,7 +40502,7 @@ t["A0J9"][3] = {};
 t["A0J9"][3][0] = "|c00FEE952[유닛 정보]|r - 키신 사구메[유니크]";
 t["A0J9"][4] = {};
 -- aub1 1
-t["A0J9"][4][0] = "|c00A8F13A[조합식]|r: 루나 차일드[레어] + 이나바 테위[레어] + 미즈하시 파르시[레어]\r\
+t["A0J9"][4][0] = "|c00A8F13A[조합식]|r: 루나 차일드[레어] + 이나바 테위[레어] + Mizuhashi Parsee[레어]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -40528,7 +40528,7 @@ t["A0JA"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0JA"][5] = {};
 -- aub1 1
-t["A0JA"][5][0] = "루나 차일드 + 이나바 테위 + 미즈하시 파르시";
+t["A0JA"][5][0] = "루나 차일드 + 이나바 테위 + Mizuhashi Parsee";
 t["A0JA"][6] = {};
 -- atp1 1
 t["A0JA"][6][0] = "|c00ffff00키신 사구메|r 조합|c00FF8040[D]|r";
@@ -48030,7 +48030,7 @@ t["A069"][5] = {};
 t["A069"][5][0] = "키스메 + 와카사기히메 + 악마";
 t["A069"][6] = {};
 -- atp1 1
-t["A069"][6][0] = "|c00ffff00미즈하시 파르시|r 조합|c00FF8040[W]|r";
+t["A069"][6][0] = "|c00ffff00Mizuhashi Parsee|r 조합|c00FF8040[W]|r";
 t["A069"][7] = {};
 -- anam
 -- Source language string already occurred earlier; skipped

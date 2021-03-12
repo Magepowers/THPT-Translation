@@ -12,7 +12,7 @@ TPT_abilities_loader = function(t)
 -- arac
 		t["Assk"][3][1] = "human";
 -- atp1 1
-		t["Assk"][5][1] = "|c00FEE952[Unit Information]|r - 미즈하시 파르시[Phantasm]";
+		t["Assk"][5][1] = "|c00FEE952[Unit Information]|r - Mizuhashi Parsee[Phantasm]";
 -- aart
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
@@ -3796,7 +3796,7 @@ TPT_abilities_loader = function(t)
 		t["A01D"][6][1] = "|c00ffff00오노즈카 코마치|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A01D"][8][1] = "Minoriko Aki + Youmu Konpaku + 미즈하시 파르시";
+		t["A01D"][8][1] = "Minoriko Aki + Youmu Konpaku + Mizuhashi Parsee";
 -- ahky
 -- alig
 -- atat
@@ -8287,7 +8287,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A07W"][5][1] = "|c00ffff00호시구마 유기|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A07W"][6][1] = "미즈하시 파르시 + Yamame Kurodani + Kisume + Red UFO";
+		t["A07W"][6][1] = "Mizuhashi Parsee + Yamame Kurodani + Kisume + Red UFO";
 -- ahky
 -- acat
 		t["A07W"][8][1] = "h02Y,h047,h00K,h013";
@@ -13206,7 +13206,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0EF"][3][1] = "|c00FEE952[Unit Information]|r - 미즈하시 파르시[Rare]";
+		t["A0EF"][3][1] = "|c00FEE952[Unit Information]|r - Mizuhashi Parsee[Rare]";
 -- aub1 1
 		t["A0EF"][4][1] = "|c00A8F13A[Combination]|r: Devil[Normal] + 와카사기히메[Magic] + Kisume[Magic]\r\
 \r\
@@ -13381,7 +13381,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0EU"][3][1] = "|c00FEE952[Unit Information]|r - 오노즈카 코마치[Unique]";
 -- aub1 1
-		t["A0EU"][4][1] = "|c00A8F13A[Combination]|r: Minoriko Aki[Rare] + Youmu Konpaku[Rare] + 미즈하시 파르시[Rare]\r\
+		t["A0EU"][4][1] = "|c00A8F13A[Combination]|r: Minoriko Aki[Rare] + Youmu Konpaku[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -13525,7 +13525,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0F6"][3][1] = "|c00FEE952[Unit Information]|r - 호시구마 유기[Unique]";
 -- aub1 1
-		t["A0F6"][4][1] = "|c00A8F13A[Combination]|r: 미즈하시 파르시[Rare] + Yamame Kurodani[Rare] + Kisume[Magic] + Red UFO[Rare]\r\
+		t["A0F6"][4][1] = "|c00A8F13A[Combination]|r: Mizuhashi Parsee[Rare] + Yamame Kurodani[Rare] + Kisume[Magic] + Red UFO[Rare]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350\r\
@@ -16057,7 +16057,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A05X"][3][1] = "|c00FEE952[Unit Information]|r - 츠쿠모 야츠하시[Unique]";
 -- aub1 1
-		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: Lyrica Prismriver[Rare] + 세키반키[Rare] + 미즈하시 파르시[Rare]\r\
+		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: Lyrica Prismriver[Rare] + 세키반키[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -16101,7 +16101,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DG"][5][1] = "|c00ffff00츠쿠모 야츠하시|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DG"][6][1] = "Lyrica Prismriver + 세키반키 + 미즈하시 파르시";
+		t["A0DG"][6][1] = "Lyrica Prismriver + 세키반키 + Mizuhashi Parsee";
 -- ahky
 -- acat
 		t["A0DG"][8][1] = "h030,hfoo,h02Y";
@@ -17025,7 +17025,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J9"][3][1] = "|c00FEE952[Unit Information]|r - 키신 사구메[Unique]";
 -- aub1 1
-		t["A0J9"][4][1] = "|c00A8F13A[Combination]|r: Luna Child[Rare] + Tewi Inaba[Rare] + 미즈하시 파르시[Rare]\r\
+		t["A0J9"][4][1] = "|c00A8F13A[Combination]|r: Luna Child[Rare] + Tewi Inaba[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -17035,7 +17035,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aart
 -- aub1 1
-		t["A0JA"][5][1] = "Luna Child + Tewi Inaba + 미즈하시 파르시";
+		t["A0JA"][5][1] = "Luna Child + Tewi Inaba + Mizuhashi Parsee";
 -- atp1 1
 		t["A0JA"][6][1] = "|c00ffff00키신 사구메|r 조합|c00FF8040[D]|r";
 -- anam
@@ -19988,7 +19988,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A069"][5][1] = "Kisume + 와카사기히메 + Devil";
 -- atp1 1
-		t["A069"][6][1] = "|c00ffff00미즈하시 파르시|r 조합|c00FF8040[W]|r";
+		t["A069"][6][1] = "|c00ffff00Mizuhashi Parsee|r 조합|c00FF8040[W]|r";
 -- anam
 -- acat
 		t["A069"][8][1] = "h00K,hpea,h004";
