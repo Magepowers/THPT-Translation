@@ -450,7 +450,7 @@ TPT_items_loader = function(t)
 -- iico
 		t["mcou"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNMoonStone.blp";
 -- utub
-		t["mcou"][4][1] = "|c000080FF이 악기는 나랑 별로 안어울리는데... - 메를란 프리즘리버|r\r\
+		t["mcou"][4][1] = "|c000080FF이 악기는 나랑 별로 안어울리는데... - Merlin Prismriver|r\r\
 \r\
 |c0000FF00\r\
 *주변 600범위 적의 방어력을 22 감소시킵니다.\r\

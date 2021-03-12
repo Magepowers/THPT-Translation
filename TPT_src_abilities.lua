@@ -484,7 +484,7 @@ t["Agyv"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["Agyv"][5] = {};
 -- aub1 1
-t["Agyv"][5][0] = "|c00A8F13A[조합식]|r: 루나사 프리즘리버[레어] + Sekibanki[레어] + 메를란 프리즘리버[레어]\r\
+t["Agyv"][5][0] = "|c00A8F13A[조합식]|r: 루나사 프리즘리버[레어] + Sekibanki[레어] + Merlin Prismriver[레어]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -26934,7 +26934,7 @@ t["A0AW"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["A0AW"][7] = {};
 -- aub1 1
-t["A0AW"][7][0] = "루나사 프리즘리버 + 메를란 프리즘리버 + 리리카 프리즘리버 + 소신령";
+t["A0AW"][7][0] = "루나사 프리즘리버 + Merlin Prismriver + 리리카 프리즘리버 + 소신령";
 t["A0AW"][8] = {};
 -- aani [NEW]
 -- Source language string already occurred earlier; skipped
@@ -38151,7 +38151,7 @@ t["A0KG"][5] = {};
 t["A0KG"][5][0] = "|c00ffff00Imaizumi Kagerou우|r 조합|c00FF8040[D]|r";
 t["A0KG"][6] = {};
 -- aub1 1
-t["A0KG"][6][0] = "Sekibanki + 카소다니 쿄코 + 메를란 프리즘리버";
+t["A0KG"][6][0] = "Sekibanki + 카소다니 쿄코 + Merlin Prismriver";
 t["A0KG"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -38188,7 +38188,7 @@ t["A0KI"][5] = {};
 t["A0KI"][5][0] = "|c00ffff00Tsukumo Benben|r 조합|c00FF8040[D]|r";
 t["A0KI"][6] = {};
 -- aub1 1
-t["A0KI"][6][0] = "루나사 프리즘리버 + Sekibanki + 메를란 프리즘리버";
+t["A0KI"][6][0] = "루나사 프리즘리버 + Sekibanki + Merlin Prismriver";
 t["A0KI"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped

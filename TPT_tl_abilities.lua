@@ -226,7 +226,7 @@ TPT_abilities_loader = function(t)
 		t["Agyv"][3][1] = "|c00FEE952[Unit Information]|r - Tsukumo Benben[Unique]";
 -- anam
 -- aub1 1
-		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + Sekibanki[Rare] + 메를란 프리즘리버[Rare]\r\
+		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + Sekibanki[Rare] + Merlin Prismriver[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -11061,7 +11061,7 @@ TPT_abilities_loader = function(t)
 		t["A0AW"][5][1] = "|c00ffff00레이라 프리즘리버|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0AW"][7][1] = "Lunasa Prismriver + 메를란 프리즘리버 + Lyrica Prismriver + Small Divine Spirit";
+		t["A0AW"][7][1] = "Lunasa Prismriver + Merlin Prismriver + Lyrica Prismriver + Small Divine Spirit";
 -- ahky
 -- alig
 -- atat
@@ -16029,7 +16029,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KG"][5][1] = "|c00ffff00이마이즈미 카게로우|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KG"][6][1] = "Sekibanki + Kasodani Kyouko + 메를란 프리즘리버";
+		t["A0KG"][6][1] = "Sekibanki + Kasodani Kyouko + Merlin Prismriver";
 -- ahky
 -- acat
 		t["A0KG"][8][1] = "hfoo,h00V,h031";
@@ -16044,7 +16044,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KI"][5][1] = "|c00ffff00츠쿠모 벤벤|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KI"][6][1] = "Lunasa Prismriver + Sekibanki + 메를란 프리즘리버";
+		t["A0KI"][6][1] = "Lunasa Prismriver + Sekibanki + Merlin Prismriver";
 -- ahky
 -- acat
 		t["A0KI"][8][1] = "h032,hfoo,h031";
