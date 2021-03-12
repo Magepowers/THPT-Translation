@@ -140,7 +140,7 @@ t["hfoo"][11] = {};
 -- Source language string already occurred earlier; skipped
 t["hfoo"][12] = {};
 -- unam
-t["hfoo"][12][0] = "세키반키 - |c00ffff00레어|r";
+t["hfoo"][12][0] = "Sekibanki - |c00ffff00레어|r";
 t["hfoo"][13] = {};
 -- uhot [NEW]
 -- Source language string already occurred earlier; skipped

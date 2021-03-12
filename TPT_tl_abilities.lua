@@ -197,7 +197,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Asth"][3][1] = "BTN\\BTNsekibanki.blp";
 -- atp1 1
-		t["Asth"][4][1] = "|c00FEE952[Unit Information]|r - 세키반키[Rare]";
+		t["Asth"][4][1] = "|c00FEE952[Unit Information]|r - Sekibanki[Rare]";
 -- aub1 1
 		t["Asth"][5][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Small Devil[Magic] + 도깨비[Normal]\r\
 \r\
@@ -210,7 +210,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - 이마이즈미 카게로[Unique]";
 -- aub1 1
-		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: 세키반키[Rare] + Kasodani Kyouko[Rare] + Merlin Prismriver[Rare]\r\
+		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: Sekibanki[Rare] + Kasodani Kyouko[Rare] + Merlin Prismriver[Rare]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -226,7 +226,7 @@ TPT_abilities_loader = function(t)
 		t["Agyv"][3][1] = "|c00FEE952[Unit Information]|r - 츠쿠모 벤벤[Unique]";
 -- anam
 -- aub1 1
-		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + 세키반키[Rare] + 메를란 프리즘리버[Rare]\r\
+		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + Sekibanki[Rare] + 메를란 프리즘리버[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -11353,7 +11353,7 @@ TPT_abilities_loader = function(t)
 		t["A00L"][6][1] = "|c00ffff00카쿠 세이가|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A00L"][8][1] = "Yoshika Miyako + Orin + 세키반키";
+		t["A00L"][8][1] = "Yoshika Miyako + Orin + Sekibanki";
 -- ahky
 -- alig
 -- atat
@@ -13489,7 +13489,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0F3"][3][1] = "|c00FEE952[Unit Information]|r - 카쿠 세이가[Unique]";
 -- aub1 1
-		t["A0F3"][4][1] = "|c00A8F13A[Combination]|r: Yoshika Miyako[Rare] + Orin[Rare] + 세키반키[Rare]\r\
+		t["A0F3"][4][1] = "|c00A8F13A[Combination]|r: Yoshika Miyako[Rare] + Orin[Rare] + Sekibanki[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -16029,7 +16029,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KG"][5][1] = "|c00ffff00이마이즈미 카게로우|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KG"][6][1] = "세키반키 + Kasodani Kyouko + 메를란 프리즘리버";
+		t["A0KG"][6][1] = "Sekibanki + Kasodani Kyouko + 메를란 프리즘리버";
 -- ahky
 -- acat
 		t["A0KG"][8][1] = "hfoo,h00V,h031";
@@ -16044,7 +16044,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KI"][5][1] = "|c00ffff00츠쿠모 벤벤|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KI"][6][1] = "Lunasa Prismriver + 세키반키 + 메를란 프리즘리버";
+		t["A0KI"][6][1] = "Lunasa Prismriver + Sekibanki + 메를란 프리즘리버";
 -- ahky
 -- acat
 		t["A0KI"][8][1] = "h032,hfoo,h031";
@@ -16057,7 +16057,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A05X"][3][1] = "|c00FEE952[Unit Information]|r - 츠쿠모 야츠하시[Unique]";
 -- aub1 1
-		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: Lyrica Prismriver[Rare] + 세키반키[Rare] + Mizuhashi Parsee[Rare]\r\
+		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: Lyrica Prismriver[Rare] + Sekibanki[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
 [공격속도]: 0.8초당 1번\r\
 [이동속도]: 300\r\
@@ -16101,7 +16101,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DG"][5][1] = "|c00ffff00츠쿠모 야츠하시|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DG"][6][1] = "Lyrica Prismriver + 세키반키 + Mizuhashi Parsee";
+		t["A0DG"][6][1] = "Lyrica Prismriver + Sekibanki + Mizuhashi Parsee";
 -- ahky
 -- acat
 		t["A0DG"][8][1] = "h030,hfoo,h02Y";
