@@ -3620,7 +3620,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01G"][7][1] = "카엔뵤 린 - |c00808040Unique|r";
+		t["h01G"][7][1] = "Kaenbyou Rin - |c00808040Unique|r";
 -- ua1m
 -- umdl
 		t["h01G"][11][1] = "orin.mdl";

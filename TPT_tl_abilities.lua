@@ -12485,7 +12485,7 @@ TPT_abilities_loader = function(t)
 -- [A0CV]
 -- anam
 -- aub1 1
-		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + 카엔뵤 린[Unique] + 신비술사의 고서 * 2\r\
+		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kaenbyou Rin[Unique] + 신비술사의 고서 * 2\r\
 |c00A8F13A[타이핑]|r: 귀걸조 조장(yachie arc)\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
@@ -13475,7 +13475,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0F2"][3][1] = "|c00FEE952[Unit Information]|r - 카엔뵤 린[Unique]";
+		t["A0F2"][3][1] = "|c00FEE952[Unit Information]|r - Kaenbyou Rin[Unique]";
 -- aub1 1
 		t["A0F2"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Yamame Kurodani[Rare] + Hakurei Reimu[Rare]\r\
 \r\

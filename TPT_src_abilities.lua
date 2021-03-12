@@ -9013,7 +9013,7 @@ t["A016"][5] = {};
 -- Source language string already occurred earlier; skipped
 t["A016"][6] = {};
 -- atp1 1
-t["A016"][6][0] = "|c00ffff00카엔뵤 린|r 조합|c00FF8040[F]|r";
+t["A016"][6][0] = "|c00ffff00Kaenbyou Rin|r 조합|c00FF8040[F]|r";
 t["A016"][7] = {};
 -- arac
 -- Source language string already occurred earlier; skipped
@@ -30234,7 +30234,7 @@ t["A0CV"][1] = {};
 -- Source language string already occurred earlier; skipped
 t["A0CV"][2] = {};
 -- aub1 1
-t["A0CV"][2][0] = "|c00A8F13A[조합식]|r: Imaizumi Kagerou[유니크] + 카엔뵤 린[유니크] + 신비술사의 고서 * 2\r\
+t["A0CV"][2][0] = "|c00A8F13A[조합식]|r: Imaizumi Kagerou[유니크] + Kaenbyou Rin[유니크] + 신비술사의 고서 * 2\r\
 |c00A8F13A[타이핑]|r: 귀걸조 조장(yachie arc)\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
@@ -32211,7 +32211,7 @@ t["A0F2"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["A0F2"][3] = {};
 -- atp1 1
-t["A0F2"][3][0] = "|c00FEE952[유닛 정보]|r - 카엔뵤 린[유니크]";
+t["A0F2"][3][0] = "|c00FEE952[유닛 정보]|r - Kaenbyou Rin[유니크]";
 t["A0F2"][4] = {};
 -- aub1 1
 t["A0F2"][4][0] = "|c00A8F13A[조합식]|r: 오린[레어] + 쿠로다니 야마메[레어] + 하쿠레이 레이무[레어]\r\

@@ -11394,7 +11394,7 @@ t["h01G"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h01G"][7] = {};
 -- unam
-t["h01G"][7][0] = "카엔뵤 린 - |c00808040유니크|r";
+t["h01G"][7][0] = "Kaenbyou Rin - |c00808040유니크|r";
 t["h01G"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
