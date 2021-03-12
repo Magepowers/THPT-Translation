@@ -17234,7 +17234,7 @@ t["h02Q"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h02Q"][7] = {};
 -- unam
-t["h02Q"][7][0] = "클라운피스 - |c00400080에픽|r";
+t["h02Q"][7][0] = "Clownpiece - |c00400080에픽|r";
 t["h02Q"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped
@@ -27375,7 +27375,7 @@ t["h07I"][6] = {};
 -- Source language string already occurred earlier; skipped
 t["h07I"][7] = {};
 -- unam
-t["h07I"][7][0] = "클라운피스 - |c0000FFFF익스텐드|r";
+t["h07I"][7][0] = "Clownpiece - |c0000FFFF익스텐드|r";
 t["h07I"][8] = {};
 -- utub [NEW]
 -- Source language string already occurred earlier; skipped

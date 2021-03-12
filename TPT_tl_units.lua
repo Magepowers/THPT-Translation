@@ -5230,7 +5230,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h02Q"][7][1] = "클라운피스 - |c00400080Epic|r";
+		t["h02Q"][7][1] = "Clownpiece - |c00400080Epic|r";
 -- ua1m
 		t["h02Q"][10][1] = "Abilities\\Weapons\\LordofFlameMissile\\LordofFlameMissile.mdl";
 -- umdl
@@ -8004,7 +8004,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h07I"][7][1] = "클라운피스 - |c0000FFFFExtended|r";
+		t["h07I"][7][1] = "Clownpiece - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico

@@ -133,7 +133,7 @@ TPT_buffs_loader = function(t)
 -- fube
 		t["Bpxf"][2][1] = "타올라라!";
 -- fnam
-		t["Bpxf"][3][1] = "[클라운피스]";
+		t["Bpxf"][3][1] = "[Clownpiece]";
 -- [BOeq]
 -- fart
 		t["BOeq"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNIceShard.blp";

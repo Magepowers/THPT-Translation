@@ -16,7 +16,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
-		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 히에다노 아큐[Epic] + Kochiya Sanae[Unique] + 고대와 환상의 조각\r\
+		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 히에다노 아큐[Epic] + Kochiya Sanae[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
 [공격속도]: 0.67초당 1번\r\
@@ -772,7 +772,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["ANtr"][3][1] = "|c00FEE952[Unit Information]|r - 클라운피스[Epic]";
+		t["ANtr"][3][1] = "|c00FEE952[Unit Information]|r - Clownpiece[Epic]";
 -- aub1 1
 		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: 키신 사구메[Unique] + 릴리 블랙[Unique] + Cirno[마이너스 K]\r\
 \r\
@@ -4791,7 +4791,7 @@ TPT_abilities_loader = function(t)
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A03A"][98][1] = "*클라운피스 주변 900범위 적의 이동속도를 16% 감소시킵니다.\r\
+		t["A03A"][98][1] = "*Clownpiece 주변 900범위 적의 이동속도를 16% 감소시킵니다.\r\
 *공격시 11% 확률로 공격한 적 주변 450범위에 불꽃의 폭발을 일으킵니다. 이 폭발은 범위 내의 적에게 적 현재 체력의 0.6% + 50만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aub1 3
 		t["A03A"][99][1] = "주변 600범위의 적군의 이동속도를 8% 떨어뜨립니다.";
@@ -16761,7 +16761,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J6"][4][1] = "|c00FEE952[Unit Information]|r - 순호[Chronicle]";
 -- aub1 1
-		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls \r\
+		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 425\r\
@@ -16774,7 +16774,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J7"][5][1] = "|c00ffff00순호|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0J7"][6][1] = "클라운피스[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls ";
+		t["A0J7"][6][1] = "Clownpiece[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0J7"][8][1] = "h02Q,h03B,edry,h05U,ehip";
@@ -17011,7 +17011,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A0D6"][5][1] = "키신 사구메 + 릴리 블랙 + Cirno[마이너스 K]";
 -- atp1 1
-		t["A0D6"][6][1] = "|c00ffff00클라운피스|r 조합|c00FF8040[D]|r";
+		t["A0D6"][6][1] = "|c00ffff00Clownpiece|r 조합|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0D6"][8][1] = "h05P,h03R,h01M";
@@ -22997,7 +22997,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A0N3]
 -- arac
 -- aub1 1
-		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + 클라운피스[Epic] + 신비술사의 고서 + 고대와 환상의 조각\r\
+		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Clownpiece[Epic] + 신비술사의 고서 + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 하니와 커맨더(mayumi arc)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
@@ -23093,7 +23093,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0N9"][3][1] = "|c00FEE952[Unit Information]|r - 세이란[Legendary]";
 -- aub1 1
-		t["A0N9"][4][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 쿠모이 이치린[Unique] + Unique 소울\r\
+		t["A0N9"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 쿠모이 이치린[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
@@ -23104,7 +23104,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0NA"][5][1] = "클라운피스[Epic] + 쿠모이 이치린[Unique] + Unique 소울 1개";
+		t["A0NA"][5][1] = "Clownpiece[Epic] + 쿠모이 이치린[Unique] + Unique 소울 1개";
 -- atp1 1
 		t["A0NA"][6][1] = "|c00ffff00세이란[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -33019,7 +33019,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - 키신 사구메[Phantasm]";
 -- aub1 1
-		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: 클라운피스[Epic] + 키진 세이자[Epic] + 키신 사구메[Unique] + 고대와 환상의 조각\r\
+		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 키진 세이자[Epic] + 키신 사구메[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
 [공격속도]: 0.49초당 1번\r\
@@ -36284,7 +36284,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0R6"][4][1] = "|c00FEE952[Unit Information]|r - Tewi Inaba[Phantasm]";
 -- aub1 1
-		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + 클라운피스[Epic] + Tewi Inaba[Rare] + 고대와 환상의 조각\r\
+		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 에인션트 듀퍼(tewi phan)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
