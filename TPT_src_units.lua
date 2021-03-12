@@ -195,7 +195,7 @@ t["hkni"][12] = {};
 -- Source language string already occurred earlier; skipped
 t["hkni"][13] = {};
 -- unam
-t["hkni"][13][0] = "이마이즈미 카게로우 - |c00808040유니크|r";
+t["hkni"][13][0] = "Imaizumi Kagerou우 - |c00808040유니크|r";
 t["hkni"][14] = {};
 -- uhot [NEW]
 -- Source language string already occurred earlier; skipped

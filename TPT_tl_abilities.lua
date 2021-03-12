@@ -208,7 +208,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Afsh"][1][1] = "BTN\\BTNKagerou.blp";
 -- atp1 1
-		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - 이마이즈미 카게로[Unique]";
+		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - Imaizumi Kagerou[Unique]";
 -- aub1 1
 		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: Sekibanki[Rare] + Kasodani Kyouko[Rare] + Merlin Prismriver[Rare]\r\
 \r\
@@ -12485,7 +12485,7 @@ TPT_abilities_loader = function(t)
 -- [A0CV]
 -- anam
 -- aub1 1
-		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: 이마이즈미 카게로[Unique] + 카엔뵤 린[Unique] + 신비술사의 고서 * 2\r\
+		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + 카엔뵤 린[Unique] + 신비술사의 고서 * 2\r\
 |c00A8F13A[타이핑]|r: 귀걸조 조장(yachie arc)\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
@@ -19961,7 +19961,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Phantasm]";
 -- aub1 1
-		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 레이우지 우츠호[Epic] + 이마이즈미 카게로[Unique] + 고대와 환상의 조각\r\
+		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 레이우지 우츠호[Epic] + Imaizumi Kagerou[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 워터 솔져(hime phan)\r\
 \r\
 [공격속도]: 0.54초당 1번\r\
@@ -33156,7 +33156,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0I3"][4][1] = "|c00FEE952[Unit Information]|r - Hong Meiling[Arcana]";
 -- aub1 1
-		t["A0I3"][5][1] = "|c00A8F13A[Combination]|r: 호시구마 유기[Unique] + 이마이즈미 카게로[Unique] + Hong Meiling[Rare] + 신비술사의 고서\r\
+		t["A0I3"][5][1] = "|c00A8F13A[Combination]|r: 호시구마 유기[Unique] + Imaizumi Kagerou[Unique] + Hong Meiling[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 잠꾸러기 문지기(meiling arc)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
