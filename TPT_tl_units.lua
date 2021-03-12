@@ -1179,7 +1179,7 @@ TPT_units_loader = function(t)
 -- urac
 -- [nhym]
 -- unam
-		t["nhym"][3][1] = "테이레이다 마이 - |c00400080Epic|r";
+		t["nhym"][3][1] = "Teireida Mai - |c00400080Epic|r";
 -- ua1m
 -- ua1t
 -- uabi
@@ -1194,7 +1194,7 @@ TPT_units_loader = function(t)
 -- [osw1]
 -- upgr
 -- unam
-		t["osw1"][2][1] = "테이레이다 마이 - |c0000FFFFExtended|r";
+		t["osw1"][2][1] = "Teireida Mai - |c0000FFFFExtended|r";
 -- uico
 -- umdl
 -- ua1t

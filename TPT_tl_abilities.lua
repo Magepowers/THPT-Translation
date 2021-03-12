@@ -3954,7 +3954,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01R"][5][1] = "|c00ffff00히지리 뱌쿠렌|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01R"][6][1] = "토라마루 쇼우[Epic] + 테이레이다 마이[Epic] + Murasa 미나미츠[Epic] + Unique 소울 2개";
+		t["A01R"][6][1] = "토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + Unique 소울 2개";
 -- ahky
 -- acat
 		t["A01R"][8][1] = "h021,nhym,h03A,h05U,ehip";
@@ -4276,7 +4276,7 @@ TPT_abilities_loader = function(t)
 |c00FAB145[특수 Combination]|r\r\
 *다른 Chronicle을 조합했어도 조합할 수 있습니다.\r\
 *타이핑 : 역습의 아마노자쿠[kijin chro]\r\
-키진 세이자[익스텐드] + 스쿠나 신묘마루[Epic] + 니시다 사토노[Epic] + 테이레이다 마이[Epic]\r\
+키진 세이자[익스텐드] + 스쿠나 신묘마루[Epic] + 니시다 사토노[Epic] + Teireida Mai[Epic]\r\
 \r\
 [공격속도]: 0.37초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -14034,7 +14034,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GA"][3][1] = "|c00FEE952[Unit Information]|r - 히지리 뱌쿠렌[Chronicle]";
 -- aub1 1
-		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: 토라마루 쇼우[Epic] + 테이레이다 마이[Epic] + Murasa 미나미츠[Epic] + Unique 소울 2개\r\
+		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: 토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -14349,7 +14349,7 @@ TPT_abilities_loader = function(t)
 		t["A0GZ"][4][1] = "hbew,nbel,h037";
 -- arac
 -- atp1 1
-		t["A0GZ"][7][1] = "|c00ffff00테이레이다 마이|r 조합|c00FF8040[D]|r";
+		t["A0GZ"][7][1] = "|c00ffff00Teireida Mai|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A0GZ"][8][1] = "야타데라 나루미[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]";
 -- aart
@@ -14547,7 +14547,7 @@ TPT_abilities_loader = function(t)
 -- anam
 -- aart
 -- atp1 1
-		t["A0HJ"][4][1] = "|c00FEE952[Unit Information]|r - 테이레이다 마이[Epic]";
+		t["A0HJ"][4][1] = "|c00FEE952[Unit Information]|r - Teireida Mai[Epic]";
 -- aub1 1
 		t["A0HJ"][5][1] = "|c00A8F13A[Combination]|r: 야타데라 나루미[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]\r\
 \r\
@@ -22997,7 +22997,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A0N3]
 -- arac
 -- aub1 1
-		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: 테이레이다 마이[Epic] + 클라운피스[Epic] + 신비술사의 고서 + 고대와 환상의 조각\r\
+		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + 클라운피스[Epic] + 신비술사의 고서 + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 하니와 커맨더(mayumi arc)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
@@ -23062,7 +23062,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A061"][4][1] = "|c00FEE952[Unit Information]|r - Matara Okino[Chronicle]";
 -- aub1 1
-		t["A061"][5][1] = "|c00A8F13A[Combination]|r: 테이레이다 마이[Epic] + 니시다 사토노[Epic] + 도레미 스위트[Epic] + Unique 소울 2개\r\
+		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + 니시다 사토노[Epic] + 도레미 스위트[Epic] + Unique 소울 2개\r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -26663,7 +26663,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P6"][5][1] = "테이레이다 마이[Epic] + 도레미 스위트[Epic] + 니시다 사토노[Epic] + Unique 소울 2개";
+		t["A0P6"][5][1] = "Teireida Mai[Epic] + 도레미 스위트[Epic] + 니시다 사토노[Epic] + Unique 소울 2개";
 -- acat
 		t["A0P6"][6][1] = "nhym,uobs,ufro,h05U,ehip";
 -- acap
@@ -29490,7 +29490,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03K"][2][1] = "|c00FEE952[Unit Information]|r - 쿠루미[Historic]";
 -- aub1 1
-		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[마이너스 K] + 테이레이다 마이[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각\r\
+		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[마이너스 K] + Teireida Mai[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.43초당 1번\r\
 [이동속도]: 350\r\
@@ -33100,7 +33100,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0HI"][4][1] = "|c00FEE952[Unit Information]|r - 와타츠키노 토요히메[Arcana]";
 -- aub1 1
-		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: 테이레이다 마이[Epic] + 와타츠키노 토요히메[특수] + 신비술사의 고서\r\
+		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + 와타츠키노 토요히메[특수] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 달의 선견자(toyohime arc)\r\
 \r\
 [공격속도]: 0.45초당 1번\r\

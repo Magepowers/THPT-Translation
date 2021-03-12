@@ -3825,7 +3825,7 @@ t["nhym"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["nhym"][3] = {};
 -- unam
-t["nhym"][3][0] = "테이레이다 마이 - |c00400080에픽|r";
+t["nhym"][3][0] = "Teireida Mai - |c00400080에픽|r";
 t["nhym"][4] = {};
 -- ua1m
 -- Source language string already occurred earlier; skipped
@@ -3862,7 +3862,7 @@ t["osw1"][1] = {};
 -- Source language string already occurred earlier; skipped
 t["osw1"][2] = {};
 -- unam
-t["osw1"][2][0] = "테이레이다 마이 - |c0000FFFF익스텐드|r";
+t["osw1"][2][0] = "Teireida Mai - |c0000FFFF익스텐드|r";
 t["osw1"][3] = {};
 -- uico
 -- Source language string already occurred earlier; skipped
