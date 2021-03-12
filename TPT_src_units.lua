@@ -299,7 +299,7 @@ t["hmtm"][13] = {};
 -- Source language string already occurred earlier; skipped
 t["hmtm"][14] = {};
 -- unam
-t["hmtm"][14][0] = "츠쿠모 야츠하시 - |c00808040유니크|r";
+t["hmtm"][14][0] = "Tsukumo Yatsuhashi - |c00808040유니크|r";
 t["hmtm"][15] = {};
 -- uhot [NEW]
 -- Source language string already occurred earlier; skipped

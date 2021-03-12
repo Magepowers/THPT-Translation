@@ -653,7 +653,7 @@ t["AEev"][3] = {};
 t["AEev"][3][0] = "[에픽_유닛 정보]";
 t["AEev"][4] = {};
 -- aub1 1
-t["AEev"][4][0] = "|c00A8F13A[조합식]|r: Tsukumo Benben[유니크] + 츠쿠모 야츠하시[유니크] + Imaizumi Kagerou우[유니크]\r\
+t["AEev"][4][0] = "|c00A8F13A[조합식]|r: Tsukumo Benben[유니크] + Tsukumo Yatsuhashi[유니크] + Imaizumi Kagerou우[유니크]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -9164,7 +9164,7 @@ t["A01F"][5] = {};
 t["A01F"][5][0] = "|c00ffff00코메이지 코이시|r 조합|c00FF8040[D]|r";
 t["A01F"][6] = {};
 -- aub1 1
-t["A01F"][6][0] = "호시구마 유우기 + 카엔뵤우 린 + 츠쿠모 야츠하시";
+t["A01F"][6][0] = "호시구마 유우기 + 카엔뵤우 린 + Tsukumo Yatsuhashi";
 t["A01F"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -9408,7 +9408,7 @@ t["A01O"][5] = {};
 t["A01O"][5][0] = "|c00ffff00유령악단[팬텀 앙상블]|r 조합|c00FF8040[D]|r";
 t["A01O"][6] = {};
 -- aub1 1
-t["A01O"][6][0] = "레이라 프리즘리버 + 츠쿠모 야츠하시 + Tsukumo Benben";
+t["A01O"][6][0] = "레이라 프리즘리버 + Tsukumo Yatsuhashi + Tsukumo Benben";
 t["A01O"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -32895,7 +32895,7 @@ t["A0FV"][3] = {};
 t["A0FV"][3][0] = "|c00FEE952[유닛 정보]|r - 코메이지 코이시[에픽]";
 t["A0FV"][4] = {};
 -- aub1 1
-t["A0FV"][4][0] = "|c00A8F13A[조합식]|r: 호시구마 유기[유니크] + 카엔뵤우 린[유니크] + 츠쿠모 야츠하시[유니크]\r\
+t["A0FV"][4][0] = "|c00A8F13A[조합식]|r: 호시구마 유기[유니크] + 카엔뵤우 린[유니크] + Tsukumo Yatsuhashi[유니크]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -38216,7 +38216,7 @@ t["A05X"][2] = {};
 -- Source language string already occurred earlier; skipped
 t["A05X"][3] = {};
 -- atp1 1
-t["A05X"][3][0] = "|c00FEE952[유닛 정보]|r - 츠쿠모 야츠하시[유니크]";
+t["A05X"][3][0] = "|c00FEE952[유닛 정보]|r - Tsukumo Yatsuhashi[유니크]";
 t["A05X"][4] = {};
 -- aub1 1
 t["A05X"][4][0] = "|c00A8F13A[조합식]|r: 리리카 프리즘리버[레어] + Sekibanki[레어] + Mizuhashi Parsee[레어]\r\
@@ -38307,7 +38307,7 @@ t["A0DG"][4] = {};
 -- Source language string already occurred earlier; skipped
 t["A0DG"][5] = {};
 -- atp1 1
-t["A0DG"][5][0] = "|c00ffff00츠쿠모 야츠하시|r 조합|c00FF8040[D]|r";
+t["A0DG"][5][0] = "|c00ffff00Tsukumo Yatsuhashi|r 조합|c00FF8040[D]|r";
 t["A0DG"][6] = {};
 -- aub1 1
 t["A0DG"][6][0] = "리리카 프리즘리버 + Sekibanki + Mizuhashi Parsee";
@@ -38409,7 +38409,7 @@ t["A0DK"][5] = {};
 t["A0DK"][5][0] = "|c00ffff00Sukuna Shinmyoumaru|r 조합|c00FF8040[D]|r";
 t["A0DK"][6] = {};
 -- aub1 1
-t["A0DK"][6][0] = "Tsukumo Benben + 츠쿠모 야츠하시 + Imaizumi Kagerou우";
+t["A0DK"][6][0] = "Tsukumo Benben + Tsukumo Yatsuhashi + Imaizumi Kagerou우";
 t["A0DK"][7] = {};
 -- ahky
 -- Source language string already occurred earlier; skipped
@@ -43168,7 +43168,7 @@ t["A05O"][4] = {};
 t["A05O"][4][0] = "ReplaceableTextures\\CommandButtons\\Yumemi\\BTN_UP.blp";
 t["A05O"][5] = {};
 -- aub1 1
-t["A05O"][5][0] = "헤카티아 라피스라줄리[에픽] + 토키코[에픽] + 츠쿠모 야츠하시[유니크] + 고대와 환상의 조각 = 오카자키 유메미";
+t["A05O"][5][0] = "헤카티아 라피스라줄리[에픽] + 토키코[에픽] + Tsukumo Yatsuhashi[유니크] + 고대와 환상의 조각 = 오카자키 유메미";
 t["A05O"][6] = {};
 -- atp1 1
 t["A05O"][6][0] = "|c00ffff00오카자키 유메미|r 조합|c00FF8040[F]|r";
@@ -43712,7 +43712,7 @@ t["A05P"][3] = {};
 t["A05P"][3][0] = "|c00FEE952[유닛 정보]|r - 오카자키 유메미[히스토릭]";
 t["A05P"][4] = {};
 -- aub1 1
-t["A05P"][4][0] = "|c00A8F13A[조합식]|r: 헤카티아 라피스라줄리[에픽] + 토키코[에픽] + 츠쿠모 야츠하시[유니크] + 고대와 환상의 조각\r\
+t["A05P"][4][0] = "|c00A8F13A[조합식]|r: 헤카티아 라피스라줄리[에픽] + 토키코[에픽] + Tsukumo Yatsuhashi[유니크] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -55404,7 +55404,7 @@ t["A09R"][4] = {};
 t["A09R"][4][0] = "|c00FEE952[유닛 정보]|r - 유령악단[팬텀 앙상블]";
 t["A09R"][5] = {};
 -- aub1 1
-t["A09R"][5][0] = "|c00A8F13A[조합식]|r: 레이라 프리즘리버[유니크] + 츠쿠모 야츠하시[유니크] + Tsukumo Benben[유니크]\r\
+t["A09R"][5][0] = "|c00A8F13A[조합식]|r: 레이라 프리즘리버[유니크] + Tsukumo Yatsuhashi[유니크] + Tsukumo Benben[유니크]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\

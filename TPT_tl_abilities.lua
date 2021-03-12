@@ -324,7 +324,7 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["AEev"][3][1] = "[Epic_Unit Information]";
 -- aub1 1
-		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Tsukumo Benben[Unique] + 츠쿠모 야츠하시[Unique] + 이마이즈미 카게로우[Unique]\r\
+		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Tsukumo Benben[Unique] + Tsukumo Yatsuhashi[Unique] + 이마이즈미 카게로우[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -3810,7 +3810,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01F"][5][1] = "|c00ffff00코메이지 코이시|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01F"][6][1] = "호시구마 유우기 + 카엔뵤우 린 + 츠쿠모 야츠하시";
+		t["A01F"][6][1] = "호시구마 유우기 + 카엔뵤우 린 + Tsukumo Yatsuhashi";
 -- ahky
 -- acat
 		t["A01F"][8][1] = "h034,h01G,hmtm";
@@ -3922,7 +3922,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01O"][5][1] = "|c00ffff00유령악단[팬텀 앙상블]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01O"][6][1] = "레이라 프리즘리버 + 츠쿠모 야츠하시 + Tsukumo Benben";
+		t["A01O"][6][1] = "레이라 프리즘리버 + Tsukumo Yatsuhashi + Tsukumo Benben";
 -- ahky
 -- acat
 		t["A01O"][8][1] = "h03O,hmtm,hrif";
@@ -13842,7 +13842,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FV"][3][1] = "|c00FEE952[Unit Information]|r - 코메이지 코이시[Epic]";
 -- aub1 1
-		t["A0FV"][4][1] = "|c00A8F13A[Combination]|r: 호시구마 유기[Unique] + 카엔뵤우 린[Unique] + 츠쿠모 야츠하시[Unique]\r\
+		t["A0FV"][4][1] = "|c00A8F13A[Combination]|r: 호시구마 유기[Unique] + 카엔뵤우 린[Unique] + Tsukumo Yatsuhashi[Unique]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -16055,7 +16055,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A05X"][3][1] = "|c00FEE952[Unit Information]|r - 츠쿠모 야츠하시[Unique]";
+		t["A05X"][3][1] = "|c00FEE952[Unit Information]|r - Tsukumo Yatsuhashi[Unique]";
 -- aub1 1
 		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: Lyrica Prismriver[Rare] + Sekibanki[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
@@ -16145,7 +16145,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DK"][5][1] = "|c00ffff00스쿠나 신묘마루|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DK"][6][1] = "Tsukumo Benben + 츠쿠모 야츠하시 + 이마이즈미 카게로우";
+		t["A0DK"][6][1] = "Tsukumo Benben + Tsukumo Yatsuhashi + 이마이즈미 카게로우";
 -- ahky
 -- acat
 		t["A0DK"][8][1] = "hrif,hmtm,hkni";
@@ -18049,7 +18049,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A05O"][4][1] = "ReplaceableTextures\\CommandButtons\\Yumemi\\BTN_UP.blp";
 -- aub1 1
-		t["A05O"][5][1] = "헤카티아 라피스라줄리[Epic] + 토키코[Epic] + 츠쿠모 야츠하시[Unique] + 고대와 환상의 조각 = 오카자키 유메미";
+		t["A05O"][5][1] = "헤카티아 라피스라줄리[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각 = 오카자키 유메미";
 -- atp1 1
 		t["A05O"][6][1] = "|c00ffff00오카자키 유메미|r 조합|c00FF8040[F]|r";
 -- anam
@@ -18249,7 +18249,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A05P"][3][1] = "|c00FEE952[Unit Information]|r - 오카자키 유메미[Historic]";
 -- aub1 1
-		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 토키코[Epic] + 츠쿠모 야츠하시[Unique] + 고대와 환상의 조각\r\
+		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -22737,7 +22737,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A09R"][4][1] = "|c00FEE952[Unit Information]|r - 유령악단[팬텀 앙상블]";
 -- aub1 1
-		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: 레이라 프리즘리버[Unique] + 츠쿠모 야츠하시[Unique] + Tsukumo Benben[Unique]\r\
+		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: 레이라 프리즘리버[Unique] + Tsukumo Yatsuhashi[Unique] + Tsukumo Benben[Unique]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
