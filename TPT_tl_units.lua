@@ -580,7 +580,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- [Hamg]
 -- upro
-		t["Hamg"][5][1] = "하쿠레이 레이무";
+		t["Hamg"][5][1] = "Hakurei Reimu";
 -- unam
 		t["Hamg"][6][1] = "|c00FF0000양아치 무녀|r";
 -- urac
@@ -1276,7 +1276,7 @@ TPT_units_loader = function(t)
 		t["emtg"][1][1] = "AInv,Avul,A0PD,A0I3,A0H3";
 -- urac
 -- unam
-		t["emtg"][3][1] = "홍 메이링 - |c0054EB67Arcana|r|N|c00FFA275홍마관의 문지기|r";
+		t["emtg"][3][1] = "Hong Meiling - |c0054EB67Arcana|r|N|c00FFA275홍마관의 문지기|r";
 -- upgr
 		t["emtg"][8][1] = "R010,R007";
 -- umdl
@@ -1311,7 +1311,7 @@ TPT_units_loader = function(t)
 -- ualp
 -- urac
 -- unam
-		t["otbk"][6][1] = "루나 차일드 - |c0080A8E6Ascended|N조용한 달빛|r";
+		t["otbk"][6][1] = "Luna Child - |c0080A8E6Ascended|N조용한 달빛|r";
 -- ua1w
 -- ua1m
 		t["otbk"][13][1] = "MoonSpear.mdl";
@@ -1407,7 +1407,7 @@ TPT_units_loader = function(t)
 -- ucun
 -- ucut
 -- unam
-		t["nnsw"][10][1] = "아키 미노리코 -|c0054EB67Arcana|r|N|c00FFA275풍요로움과 결실의 상징|r";
+		t["nnsw"][10][1] = "Minoriko Aki -|c0054EB67Arcana|r|N|c00FFA275풍요로움과 결실의 상징|r";
 -- upgr
 		t["nnsw"][11][1] = "R007,R010";
 -- urac
@@ -1541,7 +1541,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["even"][1][1] = "Y_Nitori.mdl";
 -- unam
-		t["even"][2][1] = "카와시로 니토리 - |c00FF0080Phantasm|r|N|c00FF80FF물속의 엔지니어|r";
+		t["even"][2][1] = "Nitori Kawashiro - |c00FF0080Phantasm|r|N|c00FF80FF물속의 엔지니어|r";
 -- uico
 		t["even"][3][1] = "Icon\\Unit\\BTNNitori_Phan.blp";
 -- uabi
@@ -1778,7 +1778,7 @@ TPT_units_loader = function(t)
 -- usnd
 -- [nmdr]
 -- unam
-		t["nmdr"][3][1] = "루미아 - |c00FF0080Phantasm|r|N|c00FF80FF어둠에 숨은 요괴|r";
+		t["nmdr"][3][1] = "Rumia - |c00FF0080Phantasm|r|N|c00FF80FF어둠에 숨은 요괴|r";
 -- ua1t
 -- usnd
 -- urac
@@ -1796,17 +1796,17 @@ TPT_units_loader = function(t)
 -- uabi
 -- usnd
 -- unam
-		t["nwld"][4][1] = "[루미아]중첩역설";
+		t["nwld"][4][1] = "[Rumia]중첩역설";
 -- umdl
 		t["nwld"][6][1] = "Darksoul.mdl";
 -- [nwwd]
 -- unam
-		t["nwwd"][3][1] = "[루미아]중첩역설 베기";
+		t["nwwd"][3][1] = "[Rumia]중첩역설 베기";
 -- uabi
 -- umdl
 -- [nwzd]
 -- unam
-		t["nwzd"][3][1] = "[루미아]디머케이션 암흑";
+		t["nwzd"][3][1] = "[Rumia]디머케이션 암흑";
 -- usnd
 -- umvt
 -- uabi
@@ -1818,7 +1818,7 @@ TPT_units_loader = function(t)
 		t["ndtr"][1][1] = "zaomiao.mdl";
 -- urac
 -- unam
-		t["ndtr"][3][1] = "코치야 사나에 - |c0054EB67Arcana|r|N|c00FFA275산의 새로운 신님|r";
+		t["ndtr"][3][1] = "Sanae Kochiya - |c0054EB67Arcana|r|N|c00FFA275산의 새로운 신님|r";
 -- upgr
 -- ua1m
 		t["ndtr"][8][1] = "Abilities\\Weapons\\SludgeMissile\\SludgeMissile.mdl";
@@ -1916,7 +1916,7 @@ TPT_units_loader = function(t)
 -- [ndrj]
 -- urac
 -- unam
-		t["ndrj"][2][1] = "쿠로다니 야마메 - |c0000FF40Arcana|r|N|c00FFA275지저의 츠치구모|r";
+		t["ndrj"][2][1] = "Yamame Kurodani - |c0000FF40Arcana|r|N|c00FFA275지저의 츠치구모|r";
 -- ua1m
 		t["ndrj"][3][1] = "Abilities\\Weapons\\CryptFiendMissile\\CryptFiendMissile.mdl";
 -- umdl
@@ -2142,7 +2142,7 @@ TPT_units_loader = function(t)
 -- usnd
 -- urac
 -- unam
-		t["nass"][3][1] = "파츄리 널릿지 - |c00FF0080Phantasm|r|N|c00FF80FF지식과 그늘의 소녀|r";
+		t["nass"][3][1] = "Patchouli Knowledge - |c00FF0080Phantasm|r|N|c00FF80FF지식과 그늘의 소녀|r";
 -- upgr
 -- ua1m
 		t["nass"][7][1] = "Abilities\\Weapons\\BloodElfMissile\\BloodElfMissile.mdl";
@@ -2321,7 +2321,7 @@ TPT_units_loader = function(t)
 -- urac
 -- ua1g
 -- unam
-		t["nrvl"][6][1] = "리글 나이트버그 - |c00400080Epic|r";
+		t["nrvl"][6][1] = "Wriggle Nightbug - |c00400080Epic|r";
 -- upgr
 -- uarm
 -- umdl
@@ -2348,7 +2348,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- umvt
 -- unam
-		t["ubsp"][5][1] = "카소다니 쿄코 - |c0054EB67Arcana|r|N|c00FFA275평범진부한 야마비코\r\
+		t["ubsp"][5][1] = "Kyouko Kasodani - |c0054EB67Arcana|r|N|c00FFA275평범진부한 야마비코\r\
 	\r\
 |r";
 -- upgr
@@ -2378,7 +2378,7 @@ TPT_units_loader = function(t)
 		t["nhrq"][1][1] = "arcanebomb.mdl";
 -- [nwzg]
 -- unam
-		t["nwzg"][3][1] = "[서니 밀크]빔";
+		t["nwzg"][3][1] = "[Sunny Milk]빔";
 -- ua1w
 -- ua1t
 -- umvt
@@ -2388,7 +2388,7 @@ TPT_units_loader = function(t)
 -- umdl
 -- [noga]
 -- unam
-		t["noga"][3][1] = "서니 밀크 - |c0054EB67Arcana|r|N|c00FFA275반짝이는 햇빛|r";
+		t["noga"][3][1] = "Sunny Milk - |c0054EB67Arcana|r|N|c00FFA275반짝이는 햇빛|r";
 -- ua1t
 -- uabi
 		t["noga"][5][1] = "AInv,Avul,A0H3,AOae,A0HP,A0MV";
@@ -2409,7 +2409,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["nwat"][1][1] = "star.mdl";
 -- unam
-		t["nwat"][2][1] = "|c0017B5C6스타 사파이어|r|N|c00F8F489별의 수호자|r";
+		t["nwat"][2][1] = "|c0017B5C6Star Sapphire|r|N|c00F8F489별의 수호자|r";
 -- udty
 		t["nwat"][6][1] = "divine";
 -- ua1t
@@ -2462,7 +2462,7 @@ TPT_units_loader = function(t)
 		t["nrdr"][6][1] = "Smite Blue.mdl";
 -- [eshd]
 -- unam
-		t["eshd"][1][1] = "스타 사파이어 - |c00804040Legendary|r|N|c00FF9393여명의 성위|r";
+		t["eshd"][1][1] = "Star Sapphire - |c00804040Legendary|r|N|c00FF9393여명의 성위|r";
 -- upgr
 -- ua1m
 -- uabi
@@ -2595,7 +2595,7 @@ TPT_units_loader = function(t)
 -- [nmgd]
 -- urac
 -- unam
-		t["nmgd"][2][1] = "|c0017B5C6하쿠레이 레이무|r - |c00808080Chronicle|r|N|c00F8F489낙원의 멋진 무녀|r";
+		t["nmgd"][2][1] = "|c0017B5C6Hakurei Reimu|r - |c00808080Chronicle|r|N|c00F8F489낙원의 멋진 무녀|r";
 -- uico
 		t["nmgd"][5][1] = "Icon\\Unit\\BTNReimu_Chro.blp";
 -- uabi
@@ -3031,7 +3031,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00B"][7][1] = "요상하게 생긴 Human - |c000000ffMagic|r";
+		t["h00B"][7][1] = "Strange-looking Human - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 		t["h00B"][11][1] = "Y_human.mdl";
@@ -3046,7 +3046,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00C"][7][1] = "아키 시즈하 - |c000000ffMagic|r";
+		t["h00C"][7][1] = "Shizuha Aki - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 		t["h00C"][11][1] = "AkiShizuha3.mdl";
@@ -3078,7 +3078,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00E"][7][1] = "대Fairy - |c000000ffMagic|r";
+		t["h00E"][7][1] = "Big Fairy - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 		t["h00E"][11][1] = "Y_Daiyousei.mdl";
@@ -3095,7 +3095,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00F"][7][1] = "카와시로 니토리 - |c000000ffMagic|r";
+		t["h00F"][7][1] = "Nitori Kawashiro - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3109,7 +3109,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00H"][7][1] = "리글 나이트버그 - |c000000ffMagic|r";
+		t["h00H"][7][1] = "Wriggle Nightbug - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3123,7 +3123,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00J"][7][1] = "서니 밀크 - |c00ffff00Rare|r";
+		t["h00J"][7][1] = "Sunny Milk - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3139,7 +3139,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00I"][7][1] = "치르노 - |c00ffff00Rare|r";
+		t["h00I"][7][1] = "Cirno - |c00ffff00Rare|r";
 -- ua1m
 		t["h00I"][10][1] = "Abilities\\Weapons\\LichMissile\\LichMissile.mdl";
 -- umdl
@@ -3155,7 +3155,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00K"][7][1] = "키스메 - |c000000ffMagic|r";
+		t["h00K"][7][1] = "Kisume - |c000000ffMagic|r";
 -- ua1m
 		t["h00K"][10][1] = "Abilities\\Spells\\Orc\\Ensnare\\EnsnareMissile.mdl";
 -- uico
@@ -3187,7 +3187,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00M"][7][1] = "앨리스 마가트로이트 - |c00ffff00Rare|r";
+		t["h00M"][7][1] = "Alice Margatroid - |c00ffff00Rare|r";
 -- ua1m
 		t["h00M"][10][1] = "units\\critters\\Frog\\Frog.mdl";
 -- umdl
@@ -3203,7 +3203,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00N"][7][1] = "홍 메이링 - |c00ffff00Rare|r";
+		t["h00N"][7][1] = "Hong Meiling - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3216,7 +3216,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00O"][7][1] = "하쿠레이 레이무 - |c00ffff00Rare|r";
+		t["h00O"][7][1] = "Hakurei Reimu - |c00ffff00Rare|r";
 -- ua1m
 		t["h00O"][10][1] = "Abilities\\Spells\\NightElf\\FanOfKnives\\FanOfKnivesMissile.mdl";
 -- umdl
@@ -3244,7 +3244,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00Q"][7][1] = "오린 - |c00ffff00Rare|r";
+		t["h00Q"][7][1] = "Orin - |c00ffff00Rare|r";
 -- ua1m
 		t["h00Q"][10][1] = "Abilities\\Weapons\\MeatwagonMissile\\MeatwagonMissile.mdl";
 -- umdl
@@ -3260,7 +3260,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00R"][7][1] = "오쿠 - |c00ffff00Rare|r";
+		t["h00R"][7][1] = "Okuu - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 		t["h00R"][11][1] = "oku.mdl";
@@ -3308,7 +3308,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00U"][7][1] = "스타 사파이어 - |c00ffff00Rare|r";
+		t["h00U"][7][1] = "Star Sapphire - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3322,7 +3322,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00V"][7][1] = "카소다니 쿄코 - |c00ffff00Rare|r";
+		t["h00V"][7][1] = "Kyouko Kasodani - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3335,7 +3335,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00W"][7][1] = "루나 차일드 - |c00ffff00Rare|r";
+		t["h00W"][7][1] = "Luna Child - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3349,7 +3349,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00X"][7][1] = "이나바 테위 - |c00ffff00Rare|r";
+		t["h00X"][7][1] = "Tewi Inaba - |c00ffff00Rare|r";
 -- ua1m
 		t["h00X"][10][1] = "Abilities\\Spells\\Undead\\AbsorbMana\\AbsorbManaBirthMissile.mdl";
 -- umdl
@@ -3381,7 +3381,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00Z"][7][1] = "콘파쿠 요우무 - |c00ffff00Rare|r";
+		t["h00Z"][7][1] = "Youmu Konpaku - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 		t["h00Z"][11][1] = "@Y_Model_Youmu.mdl";
@@ -3396,7 +3396,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h010"][7][1] = "파츄리 널릿지 - |c00ffff00Rare|r";
+		t["h010"][7][1] = "Patchouli Knowledge - |c00ffff00Rare|r";
 -- ua1m
 		t["h010"][10][1] = "Abilities\\Weapons\\FireBallMissile\\FireBallMissile.mdl";
 -- umdl
@@ -3410,7 +3410,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h011"][7][1] = "코치야 사나에 - |c00ffff00Rare|r";
+		t["h011"][7][1] = "Sanae Kochiya - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3423,7 +3423,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h012"][7][1] = "UFO 그린 - |c00ffff00Rare|r";
+		t["h012"][7][1] = "Green UFO - |c00ffff00Rare|r";
 -- ua1m
 		t["h012"][10][1] = "Abilities\\Spells\\Other\\BlackArrow\\BlackArrowMissile.mdl";
 -- umdl
@@ -3438,7 +3438,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h013"][7][1] = "UFO 레드 - |c00ffff00Rare|r";
+		t["h013"][7][1] = "Red UFO - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3452,7 +3452,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h014"][7][1] = "UFO 블루 - |c00ffff00Rare|r";
+		t["h014"][7][1] = "Blue UFO - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3466,7 +3466,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h015"][7][1] = "UFO 레인보우 - |c00ffff00Rare|r";
+		t["h015"][7][1] = "Rainbow UFO - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3480,7 +3480,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h017"][7][1] = "하쿠레이 레이무[호밍] - |c00808040Unique|r";
+		t["h017"][7][1] = "Hakurei Reimu[호밍] - |c00808040Unique|r";
 -- ua1m
 		t["h017"][10][1] = "Abilities\\Weapons\\MurgulMagicMissile\\MurgulMagicMissile.mdl";
 -- umdl
@@ -3525,7 +3525,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h019"][7][1] = "파츄리 널릿지[현자의 돌] - |c00808040Unique|r";
+		t["h019"][7][1] = "Patchouli Knowledge[현자의 돌] - |c00808040Unique|r";
 -- umdl
 -- uico
 -- uabi
@@ -3636,7 +3636,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01H"][7][1] = "루미아 EX - |c00808040Unique|r";
+		t["h01H"][7][1] = "Rumia EX - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3716,7 +3716,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01M"][7][1] = "치르노 [마이너스 K] - |c00808040Unique|r";
+		t["h01M"][7][1] = "Cirno [마이너스 K] - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -4009,7 +4009,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- utyp
 -- unam
-		t["e00A"][6][1] = "WAVE10 - 대Fairy";
+		t["e00A"][6][1] = "WAVE10 - Big Fairy";
 -- upgr
 -- umdl
 -- uabi
@@ -4052,7 +4052,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h025"][6][1] = "콘파쿠 요우무 |c000000a0반혼|r";
+		t["h025"][6][1] = "Youmu Konpaku |c000000a0반혼|r";
 -- ua1m
 -- umdl
 		t["h025"][10][1] = "CrescentSlashREd.mdl";
@@ -4312,7 +4312,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00K"][7][1] = "WAVE20 - 키스메";
+		t["e00K"][7][1] = "WAVE20 - Kisume";
 -- upgr
 -- umdl
 -- uarm
@@ -4362,7 +4362,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00O"][7][1] = "WAVE24 - 카와시로 니토리";
+		t["e00O"][7][1] = "WAVE24 - Nitori Kawashiro";
 -- upgr
 -- umdl
 		t["e00O"][12][1] = "units\\creeps\\GoblinSapper\\GoblinSapper.mdl";
@@ -4375,7 +4375,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00P"][7][1] = "WAVE25 - 스타 사파이어";
+		t["e00P"][7][1] = "WAVE25 - Star Sapphire";
 -- upgr
 -- umdl
 		t["e00P"][12][1] = "units\\human\\HeroBloodElf\\HeroBloodElf.mdl";
@@ -4388,7 +4388,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00Q"][7][1] = "WAVE26 - 서니 밀크";
+		t["e00Q"][7][1] = "WAVE26 - Sunny Milk";
 -- upgr
 -- umdl
 		t["e00Q"][12][1] = "units\\creeps\\ForestTrollShadowPriest\\ForestTrollShadowPriest.mdl";
@@ -4401,7 +4401,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00R"][7][1] = "WAVE27 - 루나 차일드";
+		t["e00R"][7][1] = "WAVE27 - Luna Child";
 -- upgr
 -- umdl
 		t["e00R"][12][1] = "units\\creeps\\GnollWarden\\GnollWarden.mdl";
@@ -4414,7 +4414,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00S"][7][1] = "WAVE28 - 아키 시즈하";
+		t["e00S"][7][1] = "WAVE28 - Shizuha Aki";
 -- upgr
 -- umdl
 		t["e00S"][12][1] = "units\\undead\\SkeletonMage\\SkeletonMage.mdl";
@@ -4440,7 +4440,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00U"][7][1] = "WAVE30 - 루미아";
+		t["e00U"][7][1] = "WAVE30 - Rumia";
 -- upgr
 -- umdl
 		t["e00U"][12][1] = "units\\creeps\\SatyrTrickster\\SatyrTrickster.mdl";
@@ -4451,7 +4451,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h02H"][7][1] = "UFO 컬러 - |c00ffff00Rare|r";
+		t["h02H"][7][1] = "Color UFO - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 		t["h02H"][11][1] = "Objects\\RandomObject\\RandomObject.mdl";
@@ -4480,7 +4480,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00W"][7][1] = "WAVE32 - 리글 나이트버그";
+		t["e00W"][7][1] = "WAVE32 - Wriggle Nightbug";
 -- upgr
 -- umdl
 		t["e00W"][12][1] = "units\\undead\\scarab\\scarab.mdl";
@@ -4493,7 +4493,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00X"][7][1] = "WAVE33 - 아키 미노리코";
+		t["e00X"][7][1] = "WAVE33 - Minoriko Aki";
 -- upgr
 -- umdl
 		t["e00X"][12][1] = "units\\creeps\\satyrhellcaller\\satyrhellcaller.mdl";
@@ -4506,7 +4506,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00Y"][7][1] = "WAVE34 - 쿠로다니 야마메";
+		t["e00Y"][7][1] = "WAVE34 - Yamame Kurodani";
 -- upgr
 -- umdl
 		t["e00Y"][12][1] = "units\\creeps\\SpiderBlue\\SpiderBlue.mdl";
@@ -4532,7 +4532,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e010"][7][1] = "WAVE36 - 치르노";
+		t["e010"][7][1] = "WAVE36 - Cirno";
 -- upgr
 -- umdl
 		t["e010"][12][1] = "units\\creeps\\BansheeGhost\\BansheeGhost.mdl";
@@ -4557,7 +4557,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e012"][7][1] = "WAVE38 - 미스티아 로렐라이";
+		t["e012"][7][1] = "WAVE38 - Mystia Lorelei";
 -- upgr
 -- umdl
 		t["e012"][12][1] = "units\\creeps\\WarEagle\\WarEagle.mdl";
@@ -4702,7 +4702,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01C"][7][1] = "WAVE42 - 홍 메이링";
+		t["e01C"][7][1] = "WAVE42 - Hong Meiling";
 -- upgr
 -- umdl
 		t["e01C"][12][1] = "units\\orc\\Grunt\\Grunt.mdl";
@@ -4715,7 +4715,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01D"][7][1] = "WAVE43 - 앨리스 마가트로이트";
+		t["e01D"][7][1] = "WAVE43 - Alice Margatroid";
 -- upgr
 -- umdl
 		t["e01D"][12][1] = "units\\orc\\OrcWarlockGuldan\\OrcWarlockGuldan.mdl";
@@ -4779,7 +4779,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01I"][7][1] = "WAVE48 - 파츄리 널릿지";
+		t["e01I"][7][1] = "WAVE48 - Patchouli Knowledge";
 -- upgr
 -- umdl
 		t["e01I"][12][1] = "units\\undead\\Kelthuzad\\Kelthuzad.mdl";
@@ -4792,7 +4792,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01J"][7][1] = "WAVE49 - 루나사 프리즘리버";
+		t["e01J"][7][1] = "WAVE49 - Lunasa Prismriver";
 -- upgr
 -- umdl
 		t["e01J"][12][1] = "units\\undead\\Ghoul\\Ghoul.mdl";
@@ -4804,7 +4804,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01K"][7][1] = "WAVE50 - 메를랑 프리즘리버";
+		t["e01K"][7][1] = "WAVE50 - Merlin Prismriver";
 -- upgr
 -- umdl
 		t["e01K"][12][1] = "units\\creeps\\KoboldGeomancer\\KoboldGeomancer.mdl";
@@ -4817,7 +4817,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01L"][7][1] = "WAVE51 - 리리카 프리즘리버";
+		t["e01L"][7][1] = "WAVE51 - Lyrica Prismriver";
 -- upgr
 -- umdl
 		t["e01L"][12][1] = "units\\creeps\\Kobold\\Kobold.mdl";
@@ -4882,7 +4882,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01Q"][7][1] = "WAVE56 - 콘파쿠 요우무";
+		t["e01Q"][7][1] = "WAVE56 - Youmu Konpaku";
 -- upgr
 		t["e01Q"][9][1] = "R00N,R01U,R01R,R004,R000,R001,R002,R020";
 -- umdl
@@ -4896,7 +4896,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01R"][7][1] = "WAVE57 - 이나바 테위";
+		t["e01R"][7][1] = "WAVE57 - Tewi Inaba";
 -- upgr
 -- umdl
 -- uarm
@@ -4920,7 +4920,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01T"][7][1] = "WAVE59 - 코치야 사나에";
+		t["e01T"][7][1] = "WAVE59 - Sanae Kochiya";
 -- upgr
 -- umdl
 -- uarm
@@ -5031,7 +5031,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e022"][7][1] = "WAVE68 - 오린";
+		t["e022"][7][1] = "WAVE68 - Orin";
 -- upgr
 -- umdl
 -- uarm
@@ -5335,7 +5335,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h030"][7][1] = "리리카 프리즘리버 - |c00ffff00Rare|r";
+		t["h030"][7][1] = "Lyrica Prismriver - |c00ffff00Rare|r";
 -- ua1m
 		t["h030"][10][1] = "effect\\MusicTarget.mdl";
 -- umdl
@@ -5351,7 +5351,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h031"][7][1] = "메를랑 프리즘리버 - |c00ffff00Rare|r";
+		t["h031"][7][1] = "Merlin Prismriver - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 		t["h031"][11][1] = "Merlin_Runasa.mdl";
@@ -5366,7 +5366,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h032"][7][1] = "루나사 프리즘리버 - |c00ffff00Rare|r";
+		t["h032"][7][1] = "Lunasa Prismriver - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -5711,7 +5711,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h000"][7][1] = "소신령 - |c000000ffMagic|r";
+		t["h000"][7][1] = "Small Divine Spirit - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 		t["h000"][11][1] = "units\\creeps\\VoidWalker\\VoidWalker.mdl";
@@ -5726,7 +5726,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h001"][7][1] = "미야코 요시카 - |c00ffff00Rare|r";
+		t["h001"][7][1] = "Yoshika Miyako - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 		t["h001"][11][1] = "yoshika.mdl";
@@ -5799,7 +5799,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03U"][7][1] = "모노노베노 후토 - |c00400080Epic|r";
+		t["h03U"][7][1] = "Mononobe no Futo - |c00400080Epic|r";
 -- ua1m
 		t["h03U"][10][1] = "Abilities\\Spells\\Undead\\OrbOfDeath\\AnnihilationMissile.mdl";
 -- umdl
@@ -5938,7 +5938,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h043"][7][1] = "루미아 - |c000000ffMagic|r";
+		t["h043"][7][1] = "Rumia - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 -- uico
@@ -5951,7 +5951,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h005"][7][1] = "미스티아 로렐라이 - |c00ffff00Rare|r";
+		t["h005"][7][1] = "Mystia Lorelei - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 		t["h005"][11][1] = "mystia2.mdl";
@@ -5966,7 +5966,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h044"][7][1] = "릴리 화이트 - |c00ffff00Rare|r";
+		t["h044"][7][1] = "Lily White - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -5995,7 +5995,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h046"][7][1] = "아키 미노리코 - |c00ffff00Rare|r";
+		t["h046"][7][1] = "Minoriko Aki - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -6009,7 +6009,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h047"][7][1] = "쿠로다니 야마메 - |c00ffff00Rare|r";
+		t["h047"][7][1] = "Yamame Kurodani - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -6131,7 +6131,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02J"][6][1] = "『하쿠레이 레이무』|N|c0000FFFF낙원의 멋진 무녀|r";
+		t["e02J"][6][1] = "『Hakurei Reimu』|N|c0000FFFF낙원의 멋진 무녀|r";
 -- umdl
 -- [e02K]
 -- urac
@@ -6163,7 +6163,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02M"][7][1] = "WAVE78 - 하쿠레이 레이무";
+		t["e02M"][7][1] = "WAVE78 - Hakurei Reimu";
 -- upgr
 -- umdl
 -- uarm
@@ -6240,7 +6240,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02P"][6][1] = "퀘스트 몬스터 - 치르노";
+		t["e02P"][6][1] = "퀘스트 몬스터 - Cirno";
 -- upgr
 -- umvt
 -- umdl
@@ -6264,7 +6264,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02R"][7][1] = "WAVE81 - 카소다니 쿄코";
+		t["e02R"][7][1] = "WAVE81 - Kyouko Kasodani";
 -- upgr
 -- umdl
 		t["e02R"][12][1] = "units\\demon\\EredarWarlockPurple\\EredarWarlockPurple.mdl";
@@ -6276,7 +6276,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02S"][7][1] = "WAVE82 - 미야코 요시카";
+		t["e02S"][7][1] = "WAVE82 - Yoshika Miyako";
 -- upgr
 -- umdl
 		t["e02S"][12][1] = "units\\undead\\Abomination\\Abomination.mdl";
@@ -6310,7 +6310,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- utyp
 -- unam
-		t["e02V"][6][1] = "WAVE85 - 모노노베노 후토";
+		t["e02V"][6][1] = "WAVE85 - Mononobe no Futo";
 -- upgr
 -- umdl
 		t["e02V"][11][1] = "units\\undead\\KelThuzadGhost\\KelThuzadGhost.mdl";
@@ -6533,7 +6533,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e03A"][6][1] = "퀘스트 몬스터 - 초거대Fairy - 릴리 빅";
+		t["e03A"][6][1] = "퀘스트 몬스터 - 초거Big Fairy - 릴리 빅";
 -- upgr
 -- umvt
 -- umdl
@@ -6615,7 +6615,7 @@ TPT_units_loader = function(t)
 -- [h04X]
 -- uhrt
 -- unam
-		t["h04X"][6][1] = "파츄리 널릿지|N|c0000FFFF움직이지 않는 대도서관|r";
+		t["h04X"][6][1] = "Patchouli Knowledge|N|c0000FFFF움직이지 않는 대도서관|r";
 -- ua1m
 -- umdl
 -- uico
@@ -6676,10 +6676,10 @@ TPT_units_loader = function(t)
 -- utip
 		t["h04W"][12][1] = "하쿠레이 신사 선택|cffffcc00(Q)|r";
 -- utub
-		t["h04W"][13][1] = "진영을 하쿠레이 신사로 선택합니다. 또한 하쿠레이 레이무[Legendary]의 조합이 가능해집니다.\r\
+		t["h04W"][13][1] = "진영을 하쿠레이 신사로 선택합니다. 또한 Hakurei Reimu[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r신령강림\r\
--대상 Normal 유닛을 요상하게 생긴 Human으로 변화시킵니다.";
+-대상 Normal 유닛을 Strange-looking Human으로 변화시킵니다.";
 -- uhot
 		t["h04W"][14][1] = "Q";
 -- utra
@@ -6757,7 +6757,7 @@ TPT_units_loader = function(t)
 -- utip
 		t["h053"][13][1] = "백옥루 선택|cffffcc00(A)|r";
 -- utub
-		t["h053"][14][1] = "진영을 백옥루로 선택합니다. 콘파쿠 요우무[Legendary]의 조합이 가능해집니다.\r\
+		t["h053"][14][1] = "진영을 백옥루로 선택합니다. Youmu Konpaku[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r저주령\r\
 -자신 라인 유닛의 방어력을 10 감소시킵니다.";
@@ -6793,10 +6793,10 @@ TPT_units_loader = function(t)
 -- uhot
 		t["h055"][12][1] = "R";
 -- utub
-		t["h055"][13][1] = "진영을 안개의 호수로 선택합니다. 또한 치르노[Legendary]의 조합이 가능해집니다.\r\
+		t["h055"][13][1] = "진영을 안개의 호수로 선택합니다. 또한 Cirno[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r호수의 영혼\r\
-*대상 Fairy[Normal]을 대Fairy[Magic]으로 바꿉니다.\r\
+*대상 Fairy[Normal]을 Big Fairy[Magic]으로 바꿉니다.\r\
 *쿨다운 240초";
 -- utip
 		t["h055"][14][1] = "안개의 호수 선택|cffffcc00(R)|r";
@@ -6938,7 +6938,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h05G"][6][1] = "콘파쿠 요우무 - |c00804040Legendary|r|N|c00FF9393창천의 정원사|r";
+		t["h05G"][6][1] = "Youmu Konpaku - |c00804040Legendary|r|N|c00FF9393창천의 정원사|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7113,7 +7113,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h05V"][7][1] = "치르노 - |c00804040Legendary|r|N|c00FF9393호수의 빙정|r";
+		t["h05V"][7][1] = "Cirno - |c00804040Legendary|r|N|c00FF9393호수의 빙정|r";
 -- ua1m
 		t["h05V"][10][1] = "Abilities\\Weapons\\ZigguratFrostMissile\\ZigguratFrostMissile.mdl";
 -- umdl
@@ -7129,7 +7129,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["h05W"][3][1] = "Doodads\\Icecrown\\Rocks\\Icecrown_Crystal\\Icecrown_Crystal2.mdl";
 -- unam
-		t["h05W"][4][1] = "[치르노]";
+		t["h05W"][4][1] = "[Cirno]";
 -- uico
 -- utyp
 -- [h05X]
@@ -7257,7 +7257,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06C"][7][1] = "하쿠레이 레이무 - |c00804040Legendary|r|N|c00FF9393낙원의 멋진 무녀|r";
+		t["h06C"][7][1] = "Hakurei Reimu - |c00804040Legendary|r|N|c00FF9393낙원의 멋진 무녀|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7273,7 +7273,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["h06D"][3][1] = "TBPReimuAura.mdl";
 -- unam
-		t["h06D"][4][1] = "[하쿠레이 레이무]대결계 더미";
+		t["h06D"][4][1] = "[Hakurei Reimu]대결계 더미";
 -- uico
 -- utyp
 -- usnd
@@ -7401,7 +7401,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01X"][7][1] = "모노노베노 후토 - |c0000FFFFExtended|r";
+		t["h01X"][7][1] = "Mononobe no Futo - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8098,7 +8098,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["h060"][2][1] = "Units\\Human\\Phoenix\\PhoenixEgg.mdl";
 -- unam
-		t["h060"][3][1] = "『신앙의 결정』 - |c00ffff00Rare|r";
+		t["h060"][3][1] = "『Judgement of Faith』 - |c00ffff00Rare|r";
 -- uico
 -- urac
 -- usnd
@@ -8265,7 +8265,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h07O"][6][1] = "콘파쿠 요우무 - |c00804040Legendary|r|N|c00FF9393겨울벚꽃의 정원사|r";
+		t["h07O"][6][1] = "Youmu Konpaku - |c00804040Legendary|r|N|c00FF9393겨울벚꽃의 정원사|r";
 -- ua1m
 -- umdl
 		t["h07O"][10][1] = "TPTPACK\\yaomeng.mdl";
@@ -8425,7 +8425,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- urac
 -- unam
-		t["n004"][8][1] = "치르노 인형|N|c00FF80C0호수의 빙정 인형|r";
+		t["n004"][8][1] = "Cirno 인형|N|c00FF80C0호수의 빙정 인형|r";
 -- uabi
 -- umdl
 -- uico
@@ -8458,7 +8458,7 @@ TPT_units_loader = function(t)
 -- usnd
 -- urac
 -- unam
-		t["n008"][3][1] = "파츄리 널릿지 - |c00FF0080Phantasm|r|N|c00FF80FF수영장 파티 마법사|r";
+		t["n008"][3][1] = "Patchouli Knowledge - |c00FF0080Phantasm|r|N|c00FF80FF수영장 파티 마법사|r";
 -- upgr
 -- ua1m
 -- uabi
@@ -8545,7 +8545,7 @@ TPT_units_loader = function(t)
 -- urac
 -- ua1g
 -- unam
-		t["n00A"][6][1] = "리글 나이트버그 - |c0000FFFFExtended|r";
+		t["n00A"][6][1] = "Wriggle Nightbug - |c0000FFFFExtended|r";
 -- upgr
 -- uarm
 -- umdl
@@ -8605,7 +8605,7 @@ TPT_units_loader = function(t)
 -- ubui
 -- upgr
 -- unam
-		t["u005"][10][1] = "이나바 테위 - |c00FF0080Phantasm|r|N|c00FF80FF행운을 부르는 거짓말토끼|r";
+		t["u005"][10][1] = "Tewi Inaba - |c00FF0080Phantasm|r|N|c00FF80FF행운을 부르는 거짓말토끼|r";
 -- ua1t
 -- ucs1
 -- umdl
@@ -8715,7 +8715,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h07Z"][7][1] = "치르노 - |c00804040Legendary|r|N|c00FF9393어드벤트 페어리|r";
+		t["h07Z"][7][1] = "Cirno - |c00804040Legendary|r|N|c00FF9393어드벤트 페어리|r";
 -- ua1m
 -- umdl
 		t["h07Z"][11][1] = "TPTPACK\\Model_Cirno_Adventure.mdl";
@@ -8742,7 +8742,7 @@ TPT_units_loader = function(t)
 -- [n00C]
 -- urac
 -- unam
-		t["n00C"][2][1] = "|c0017B5C6하쿠레이 레이무|r - |c00808080Chronicle|r|N|c00F8F489흉악한 재앙의 무녀|r";
+		t["n00C"][2][1] = "|c0017B5C6Hakurei Reimu|r - |c00808080Chronicle|r|N|c00F8F489흉악한 재앙의 무녀|r";
 -- uico
 -- uabi
 -- umdl
@@ -8769,7 +8769,7 @@ TPT_units_loader = function(t)
 -- uabi
 -- urac
 -- unam
-		t["e03T"][3][1] = "홍 메이링 - |c0054EB67Arcana|r|N|c00FFA275일기당천의 무투가|r";
+		t["e03T"][3][1] = "Hong Meiling - |c0054EB67Arcana|r|N|c00FFA275일기당천의 무투가|r";
 -- upgr
 -- uico
 -- umdl
@@ -8891,7 +8891,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- urac
 -- unam
-		t["u009"][7][1] = "미스티아 로렐라이 - |c0054EB67Arcana|r|N|c00FFA275칠성장어 가게 주인|r";
+		t["u009"][7][1] = "Mystia Lorelei - |c0054EB67Arcana|r|N|c00FFA275칠성장어 가게 주인|r";
 -- upgr
 -- umvt
 -- ua1g
