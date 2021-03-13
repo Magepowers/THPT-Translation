@@ -56,7 +56,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 1
 		t["Rhan"][2][1] = "E";
 -- gtp1 1
-		t["Rhan"][3][1] = "요리가미 죠온/시온 업그레이드|cffffcc00(E)|r - 1Lv";
+		t["Rhan"][3][1] = "요리가미 죠온/시온 Upgrade|cffffcc00(E)|r - 1Lv";
 -- ghk1 2
 -- ghk1 3
 -- ghk1 4
@@ -72,15 +72,15 @@ TPT_upgrades_loader = function(t)
 -- gef2
 		t["Rhan"][14][1] = "rats";
 -- gtp1 2
-		t["Rhan"][15][1] = "요리가미 죠온/시온 업그레이드|cffffcc00(E)|r - 2Lv";
+		t["Rhan"][15][1] = "요리가미 죠온/시온 Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["Rhan"][16][1] = "요리가미 죠온/시온 업그레이드|cffffcc00(E)|r - 3Lv";
+		t["Rhan"][16][1] = "요리가미 죠온/시온 Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["Rhan"][17][1] = "요리가미 죠온/시온 업그레이드|cffffcc00(E)|r - 4Lv";
+		t["Rhan"][17][1] = "요리가미 죠온/시온 Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["Rhan"][18][1] = "요리가미 죠온/시온 업그레이드|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["Rhan"][18][1] = "요리가미 죠온/시온 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gnam 1
-		t["Rhan"][19][1] = "요리가미 죠온/시온 업그레이드[E]";
+		t["Rhan"][19][1] = "요리가미 죠온/시온 Upgrade[E]";
 -- gnam 2
 -- gnam 4
 -- gnam 5
@@ -88,7 +88,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 1
 		t["Rhan"][24][1] = "요리가미 죠온/시온의 공격력을 25000 증가시키고 공격속도를 15% 증가시킵니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 빙의교환『앱솔루트 루저』를 사용할 수 있게 됩니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 빙의교환『앱솔루트 루저』를 사용할 수 있게 됩니다.";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -98,7 +98,7 @@ TPT_upgrades_loader = function(t)
 -- greq 5
 -- [Rhfs]
 -- gtp1 1
-		t["Rhfs"][1][1] = "요리가미 조온/시온 업그레이드 마스터";
+		t["Rhfs"][1][1] = "요리가미 조온/시온 Upgrade 마스터";
 -- gnam 1
 -- [Rhlh]
 -- gef1
@@ -115,27 +115,27 @@ TPT_upgrades_loader = function(t)
 -- ghk1 9
 -- ghk1 10
 -- gtp1 1
-		t["Rhlh"][15][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 1Lv";
+		t["Rhlh"][15][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 1Lv";
 -- gtp1 2
-		t["Rhlh"][16][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 2Lv";
+		t["Rhlh"][16][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["Rhlh"][17][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 3Lv";
+		t["Rhlh"][17][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["Rhlh"][18][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 4Lv";
+		t["Rhlh"][18][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["Rhlh"][19][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 5Lv";
+		t["Rhlh"][19][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 5Lv";
 -- gtp1 6
-		t["Rhlh"][20][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 6Lv";
+		t["Rhlh"][20][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 6Lv";
 -- gtp1 7
-		t["Rhlh"][21][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 7Lv";
+		t["Rhlh"][21][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 7Lv";
 -- gtp1 8
-		t["Rhlh"][22][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 8Lv";
+		t["Rhlh"][22][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 8Lv";
 -- gtp1 9
-		t["Rhlh"][23][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 9Lv";
+		t["Rhlh"][23][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 9Lv";
 -- gtp1 10
-		t["Rhlh"][24][1] = "아르카나 유닛 업그레이드|cffffcc00(S)|r - 10Lv";
+		t["Rhlh"][24][1] = "아르카나 유닛 Upgrade|cffffcc00(S)|r - 10Lv";
 -- gnam 1
-		t["Rhlh"][25][1] = "아르카나 유닛 업그레이드";
+		t["Rhlh"][25][1] = "아르카나 유닛 Upgrade";
 -- gnam 2
 -- gnam 3
 -- gnam 4
@@ -147,14 +147,14 @@ TPT_upgrades_loader = function(t)
 -- gnam 10
 -- gub1 1
 		t["Rhlh"][35][1] = "*아르카나 유닛의 공격력을 6000, 공격속도를 5% 증가시킵니다.\r\
-*스킬 툴팁에 특정 업그레이드를 받는다고 별도로 명시된 유닛은 \"아르카나 유닛 업그레이드\"의 효과를 받지 않습니다.";
+*스킬 툴팁에 특정 Upgrade를 받는다고 별도로 명시된 유닛은 \"아르카나 유닛 Upgrade\"의 효과를 받지 않습니다.";
 -- gub1 2
 -- gub1 3
 -- gub1 4
 -- gub1 5
 -- gub1 6
 		t["Rhlh"][40][1] = "*아르카나 유닛의 공격력을 6000, 공격속도를 8% 증가시킵니다.\r\
-*스킬 툴팁에 특정 업그레이드를 받는다고 별도로 명시된 유닛은 \"아르카나 유닛 업그레이드\"의 효과를 받지 않습니다.";
+*스킬 툴팁에 특정 Upgrade를 받는다고 별도로 명시된 유닛은 \"아르카나 유닛 Upgrade\"의 효과를 받지 않습니다.";
 -- gub1 7
 -- gub1 8
 -- gub1 10
@@ -180,7 +180,7 @@ TPT_upgrades_loader = function(t)
 -- gef1
 -- gef2
 -- gtp1 1
-		t["Rhla"][3][1] = "아사쿠라 리카코 업그레이드|cffffcc00(R)|r - 1Lv";
+		t["Rhla"][3][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 1Lv";
 -- ghk1 1
 		t["Rhla"][4][1] = "R";
 -- ghk1 2
@@ -188,15 +188,15 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rhla"][9][1] = "아사쿠라 리카코 업그레이드|cffffcc00(R)|r - 2Lv";
+		t["Rhla"][9][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["Rhla"][10][1] = "아사쿠라 리카코 업그레이드|cffffcc00(R)|r - 3Lv";
+		t["Rhla"][10][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["Rhla"][11][1] = "아사쿠라 리카코 업그레이드|cffffcc00(R)|r - 4Lv";
+		t["Rhla"][11][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["Rhla"][12][1] = "아사쿠라 리카코 업그레이드|cffffcc00(R)|r - 5Lv";
+		t["Rhla"][12][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 5Lv";
 -- gnam 1
-		t["Rhla"][13][1] = "아사쿠라 리카코 업그레이드[R]";
+		t["Rhla"][13][1] = "아사쿠라 리카코 Upgrade[R]";
 -- gnam 2
 -- gnam 3
 -- gnam 4
@@ -204,7 +204,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 1
 		t["Rhla"][18][1] = "리카코의 공격력이 15000 증가하며, 공격속도가 12% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 리카코가 공격시 활력 쿨다운을 0.1초 감소시킵니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 리카코가 공격시 활력 쿨다운을 0.1초 감소시킵니다.";
 -- greq 2
 		t["Rhla"][19][1] = "ngzc";
 -- greq 3
@@ -223,11 +223,11 @@ TPT_upgrades_loader = function(t)
 -- greq 5
 -- [Rhar]
 -- gnam 1
-		t["Rhar"][1][1] = "[세이란 강화 탄알]";
+		t["Rhar"][1][1] = "[Seiran 강화 탄알]";
 -- gtp1 1
 		t["Rhar"][2][1] = "강화 탄알 튜닝|cffffcc00(Q)|r - 1Lv";
 -- gub1 1
-		t["Rhar"][3][1] = "*세이란의 기본 공격력을 20000 증가시킵니다.";
+		t["Rhar"][3][1] = "*Seiran의 기본 공격력을 20000 증가시킵니다.";
 -- gef1
 -- gar1 1
 		t["Rhar"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNHumanArtilleryUpOne.blp";
@@ -314,7 +314,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 4
 -- gub1 5
 -- gub1 6
-		t["Rhar"][71][1] = "*세이란의 기본 공격력을 5000 증가시킵니다.";
+		t["Rhar"][71][1] = "*Seiran의 기본 공격력을 5000 증가시킵니다.";
 -- gub1 7
 -- gub1 8
 -- gub1 9
@@ -433,13 +433,13 @@ TPT_upgrades_loader = function(t)
 -- gtp1 20
 		t["Rhme"][63][1] = "서포팅 기어 튜닝|cffffcc00(E)|r - 20Lv";
 -- gub1 1
-		t["Rhme"][64][1] = "*세이란의 마나 회복 속도를 40% 증가시키고,『스피드 스트라이크』의 발동 확률이 2%p 증가합니다.";
+		t["Rhme"][64][1] = "*Seiran의 마나 회복 속도를 40% 증가시키고,『스피드 스트라이크』의 발동 확률이 2%p 증가합니다.";
 -- gub1 2
 -- gub1 3
 -- gub1 4
 -- gub1 5
 -- gub1 6
-		t["Rhme"][69][1] = "*세이란의 마나 회복 속도를 10% 증가시키고,『스피드 스트라이크』의 발동 확률이 0.2%p 증가합니다.";
+		t["Rhme"][69][1] = "*Seiran의 마나 회복 속도를 10% 증가시키고,『스피드 스트라이크』의 발동 확률이 0.2%p 증가합니다.";
 -- gub1 7
 -- gub1 8
 -- gub1 9
@@ -455,7 +455,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 19
 -- gub1 20
 -- gnam 1
-		t["Rhme"][84][1] = "[서포팅 기어 업그레이드]";
+		t["Rhme"][84][1] = "[서포팅 기어 Upgrade]";
 -- gnam 2
 -- gnam 3
 -- gnam 4
@@ -486,7 +486,7 @@ TPT_upgrades_loader = function(t)
 		t["Rhss"][5][1] = "[정교화 탄알집]";
 -- gef1
 -- gub1 1
-		t["Rhss"][7][1] = "*세이란의 공격속도를 8% 증가시킵니다.";
+		t["Rhss"][7][1] = "*Seiran의 공격속도를 8% 증가시킵니다.";
 -- gar1 2
 -- gar1 3
 -- gar1 4
@@ -511,7 +511,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 4
 -- gub1 5
 -- gub1 6
-		t["Rhss"][31][1] = "*세이란의 공격속도를 2% 증가시킵니다.";
+		t["Rhss"][31][1] = "*Seiran의 공격속도를 2% 증가시킵니다.";
 -- gub1 7
 -- gub1 8
 -- gub1 9
@@ -593,8 +593,8 @@ TPT_upgrades_loader = function(t)
 -- ghk1 1
 -- gub1 1
 		t["Rhcd"][5][1] = "*토끼들을 전투광으로 만드는 당근즙을 투여합니다.\r\
-*세이란의 공격속도가 35% 증가합니다.\r\
-*세이란의 공격력이 15만 증가합니다.";
+*Seiran의 공격속도가 35% 증가합니다.\r\
+*Seiran의 공격력이 15만 증가합니다.";
 -- gnam 1
 		t["Rhcd"][6][1] = "[전투자극당근]";
 -- gef1
@@ -606,16 +606,16 @@ TPT_upgrades_loader = function(t)
 -- gnam 2
 -- [Rhgb]
 -- gtp1 1
-		t["Rhgb"][1][1] = "하니야스신 케이키 업그레이드|cffffcc00(D)|r - 1Lv";
+		t["Rhgb"][1][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 1Lv";
 -- gub1 1
 		t["Rhgb"][2][1] = "케이키의 공격력이 15000 , 공격속도가 12% 증가합니다. 『조형술』들의 데미지가 3% 증가합니다.\r\
 \r\
-|c00FF0000업그레이드 마스터 효과|r : 하니와『우상 인마 조형술』을 사용할 수 있게 됩니다.";
+|c00FF0000Upgrade 마스터 효과|r : 하니와『우상 인마 조형술』을 사용할 수 있게 됩니다.";
 -- ghk1 1
 		t["Rhgb"][3][1] = "D";
 -- gef1
 -- gnam 1
-		t["Rhgb"][5][1] = "하니야스신 케이키 업그레이드[D]";
+		t["Rhgb"][5][1] = "하니야스신 케이키 Upgrade[D]";
 -- gef2
 -- greq 1
 		t["Rhgb"][7][1] = "h07M";
@@ -626,13 +626,13 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rhgb"][13][1] = "하니야스신 케이키 업그레이드|cffffcc00(D)|r - 2Lv";
+		t["Rhgb"][13][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 2Lv";
 -- gtp1 3
-		t["Rhgb"][14][1] = "하니야스신 케이키 업그레이드|cffffcc00(D)|r - 3Lv";
+		t["Rhgb"][14][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 3Lv";
 -- gtp1 4
-		t["Rhgb"][15][1] = "하니야스신 케이키 업그레이드|cffffcc00(D)|r - 4Lv";
+		t["Rhgb"][15][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 4Lv";
 -- gtp1 5
-		t["Rhgb"][16][1] = "하니야스신 케이키 업그레이드|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["Rhgb"][16][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -653,13 +653,13 @@ TPT_upgrades_loader = function(t)
 -- gar1 1
 		t["Rhfc"][1][1] = "ReplaceableTextures\\CommandButtons\\mugetsu\\BTN_UP.blp";
 -- gtp1 1
-		t["Rhfc"][2][1] = "무게츠 업그레이드|cffffcc00(F)|r - 1Lv";
+		t["Rhfc"][2][1] = "무게츠 Upgrade|cffffcc00(F)|r - 1Lv";
 -- ghk1 1
 		t["Rhfc"][3][1] = "F";
 -- greq 1
 		t["Rhfc"][4][1] = "nrel";
 -- gnam 1
-		t["Rhfc"][5][1] = "무게츠 업그레이드[F]";
+		t["Rhfc"][5][1] = "무게츠 Upgrade[F]";
 -- gar1 2
 -- gar1 3
 -- gar1 4
@@ -669,17 +669,17 @@ TPT_upgrades_loader = function(t)
 -- greq 4
 -- greq 5
 -- gtp1 2
-		t["Rhfc"][14][1] = "무게츠 업그레이드|cffffcc00(F)|r - 2Lv";
+		t["Rhfc"][14][1] = "무게츠 Upgrade|cffffcc00(F)|r - 2Lv";
 -- gtp1 3
-		t["Rhfc"][15][1] = "무게츠 업그레이드|cffffcc00(F)|r - 3Lv";
+		t["Rhfc"][15][1] = "무게츠 Upgrade|cffffcc00(F)|r - 3Lv";
 -- gtp1 4
-		t["Rhfc"][16][1] = "무게츠 업그레이드|cffffcc00(F)|r - 4Lv";
+		t["Rhfc"][16][1] = "무게츠 Upgrade|cffffcc00(F)|r - 4Lv";
 -- gtp1 5
-		t["Rhfc"][17][1] = "무게츠 업그레이드|cffffcc00(F)|r - |c00ff0000마스터|r";
+		t["Rhfc"][17][1] = "무게츠 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gub1 1
 		t["Rhfc"][18][1] = "『트라움 샷』에 현재 체력 0.01%의 절대 피해가 추가됩니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『트라움 샷』발동시 마나 5~10을 돌려받습니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『트라움 샷』발동시 마나 5~10을 돌려받습니다.";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -697,7 +697,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 1
 		t["Rhfl"][1][1] = "ReplaceableTextures\\CommandButtons\\reimu\\BTN_UP.blp";
 -- gtp1 1
-		t["Rhfl"][2][1] = "하쿠레이 레이무 업그레이드|cffffcc00(Q)|r - 1Lv";
+		t["Rhfl"][2][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 1Lv";
 -- ghk1 1
 -- gef1
 -- gef2
@@ -712,23 +712,23 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rhfl"][15][1] = "하쿠레이 레이무 업그레이드|cffffcc00(Q)|r - 2Lv";
+		t["Rhfl"][15][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["Rhfl"][16][1] = "하쿠레이 레이무 업그레이드|cffffcc00(Q)|r - 3Lv";
+		t["Rhfl"][16][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["Rhfl"][17][1] = "하쿠레이 레이무 업그레이드|cffffcc00(Q)|r - 4Lv";
+		t["Rhfl"][17][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["Rhfl"][18][1] = "하쿠레이 레이무 업그레이드|cffffcc00(Q)|r - |c00ff0000마스터|r";
+		t["Rhfl"][18][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
 -- gnam 1
-		t["Rhfl"][19][1] = "하쿠레이 레이무 업그레이드[Q]";
+		t["Rhfl"][19][1] = "하쿠레이 레이무 Upgrade[Q]";
 -- gnam 2
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gub1 1
-		t["Rhfl"][24][1] = "*레이무의 공격력이 50000 , 공격속도가 12% 증가합니다. 공격시 활력 쿨다운이 [업그레이드 횟수 * 0.04초] 회복합니다\r\
+		t["Rhfl"][24][1] = "*레이무의 공격력이 50000 , 공격속도가 12% 증가합니다. 공격시 활력 쿨다운이 [Upgrade 횟수 * 0.04초] 회복합니다\r\
 \r\
-|c00FF0000업그레이드 마스터 효과|r : 대결계『하쿠레이 탄막결계』가 발동할 경우, 체력이 20% 이하인 적을 즉사시킵니다.";
+|c00FF0000Upgrade 마스터 효과|r : 대결계『하쿠레이 탄막결계』가 발동할 경우, 체력이 20% 이하인 적을 즉사시킵니다.";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -742,7 +742,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 2
 -- ghk1 3
 -- gtp1 1
-		t["Rome"][4][1] = "코토히메 업그레이드|cffffcc00(W)|r - 1Lv";
+		t["Rome"][4][1] = "코토히메 Upgrade|cffffcc00(W)|r - 1Lv";
 -- gar1 1
 		t["Rome"][5][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- gar1 3
@@ -758,15 +758,15 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rome"][16][1] = "코토히메 업그레이드|cffffcc00(W)|r - 2Lv";
+		t["Rome"][16][1] = "코토히메 Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["Rome"][17][1] = "코토히메 업그레이드|cffffcc00(W)|r - 3Lv";
+		t["Rome"][17][1] = "코토히메 Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["Rome"][18][1] = "코토히메 업그레이드|cffffcc00(W)|r - 4Lv";
+		t["Rome"][18][1] = "코토히메 Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["Rome"][19][1] = "코토히메 업그레이드|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["Rome"][19][1] = "코토히메 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gnam 1
-		t["Rome"][20][1] = "코토히메 업그레이드[W]";
+		t["Rome"][20][1] = "코토히메 Upgrade[W]";
 -- gnam 2
 -- gnam 3
 -- gnam 4
@@ -774,7 +774,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 1
 		t["Rome"][25][1] = "코토히메의 공격속도를 10% 증가시킵니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『도망칠 수 없어요!』를 사용할 수 있게 되며,『조용히 하세요!』의 발동 필요 조건 횟수가 6회에서 5회로 감소합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『도망칠 수 없어요!』를 사용할 수 있게 되며,『조용히 하세요!』의 발동 필요 조건 횟수가 6회에서 5회로 감소합니다.";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -787,7 +787,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 2
 -- ghk1 3
 -- gtp1 1
-		t["Roar"][4][1] = "메이라 업그레이드|cffffcc00(E)|r - 1Lv";
+		t["Roar"][4][1] = "메이라 Upgrade|cffffcc00(E)|r - 1Lv";
 -- greq 2
 		t["Roar"][5][1] = "e03P";
 -- greq 3
@@ -796,7 +796,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 2
 -- gar1 3
 -- gnam 1
-		t["Roar"][10][1] = "메이라 업그레이드[E]";
+		t["Roar"][10][1] = "메이라 Upgrade[E]";
 -- gnam 2
 -- gnam 3
 -- gar1 4
@@ -804,17 +804,17 @@ TPT_upgrades_loader = function(t)
 -- gef1
 -- gef2
 -- gtp1 2
-		t["Roar"][17][1] = "메이라 업그레이드|cffffcc00(E)|r - 2Lv";
+		t["Roar"][17][1] = "메이라 Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["Roar"][18][1] = "메이라 업그레이드|cffffcc00(E)|r - 3Lv";
+		t["Roar"][18][1] = "메이라 Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["Roar"][19][1] = "메이라 업그레이드|cffffcc00(E)|r - 4Lv";
+		t["Roar"][19][1] = "메이라 Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["Roar"][20][1] = "메이라 업그레이드|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["Roar"][20][1] = "메이라 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gub1 1
 		t["Roar"][21][1] = "메이라의 공격력을 25000. 공격속도를 10% 증가시킵니다.『어둠의 힘』의 전체 체력 비례 데미지가 0.5%p 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 공격시 마나 회복량이 1에서 1.5로 증가하며, 활력 쿨다운을 0.2초 회복합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 공격시 마나 회복량이 1에서 1.5로 증가하며, 활력 쿨다운을 0.2초 회복합니다.";
 -- ghk1 4
 -- ghk1 5
 -- gub1 2
@@ -839,7 +839,7 @@ TPT_upgrades_loader = function(t)
 -- gef2
 -- [R005]
 -- gnam 1
-		t["R005"][1][1] = "레어 유닛 업그레이드";
+		t["R005"][1][1] = "레어 유닛 Upgrade";
 -- gef1
 -- gub1 1
 		t["R005"][3][1] = "레어 등급 유닛의 공격력과 공격속도를 증가 시킵니다.";
@@ -938,7 +938,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 40
 -- gnam 39
 -- gnam 41
-		t["R005"][96][1] = "일반 유닛 업그레이드";
+		t["R005"][96][1] = "일반 유닛 Upgrade";
 -- gnam 42
 -- gnam 44
 -- gnam 45
@@ -949,85 +949,85 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R005"][106][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv1";
+		t["R005"][106][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv1";
 -- gtp1 2
-		t["R005"][107][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv2";
+		t["R005"][107][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv2";
 -- gtp1 3
-		t["R005"][108][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv3";
+		t["R005"][108][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv3";
 -- gtp1 4
-		t["R005"][109][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv4";
+		t["R005"][109][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv4";
 -- gtp1 5
-		t["R005"][110][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv5";
+		t["R005"][110][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv5";
 -- gtp1 6
-		t["R005"][111][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv6";
+		t["R005"][111][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv6";
 -- gtp1 7
-		t["R005"][112][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv7";
+		t["R005"][112][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv7";
 -- gtp1 8
-		t["R005"][113][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv8";
+		t["R005"][113][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv8";
 -- gtp1 9
-		t["R005"][114][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv9";
+		t["R005"][114][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv9";
 -- gtp1 10
-		t["R005"][115][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv10";
+		t["R005"][115][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv10";
 -- gtp1 11
-		t["R005"][116][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv11";
+		t["R005"][116][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv11";
 -- gtp1 12
-		t["R005"][117][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv12";
+		t["R005"][117][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv12";
 -- gtp1 13
-		t["R005"][118][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv13";
+		t["R005"][118][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv13";
 -- gtp1 15
-		t["R005"][119][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv15";
+		t["R005"][119][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv15";
 -- gtp1 14
-		t["R005"][120][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv14";
+		t["R005"][120][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv14";
 -- gtp1 16
-		t["R005"][121][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv16";
+		t["R005"][121][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv16";
 -- gtp1 17
-		t["R005"][122][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv17";
+		t["R005"][122][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv17";
 -- gtp1 18
-		t["R005"][123][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv18";
+		t["R005"][123][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv18";
 -- gtp1 19
-		t["R005"][124][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv19";
+		t["R005"][124][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv19";
 -- gtp1 20
-		t["R005"][125][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv20";
+		t["R005"][125][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv20";
 -- gtp1 21
-		t["R005"][126][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv21";
+		t["R005"][126][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv21";
 -- gtp1 22
-		t["R005"][127][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv22";
+		t["R005"][127][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv22";
 -- gtp1 23
-		t["R005"][128][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv23";
+		t["R005"][128][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv23";
 -- gtp1 25
-		t["R005"][129][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv25";
+		t["R005"][129][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv25";
 -- gtp1 24
-		t["R005"][130][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv24";
+		t["R005"][130][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv24";
 -- gtp1 27
-		t["R005"][131][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv27";
+		t["R005"][131][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv27";
 -- gtp1 26
-		t["R005"][132][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv26";
+		t["R005"][132][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv26";
 -- gtp1 28
-		t["R005"][133][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv28";
+		t["R005"][133][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv28";
 -- gtp1 29
-		t["R005"][134][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv29";
+		t["R005"][134][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv29";
 -- gtp1 30
-		t["R005"][135][1] = "레어 유닛 업그레이드|cffffcc00(E)|r - Lv30";
+		t["R005"][135][1] = "레어 유닛 Upgrade|cffffcc00(E)|r - Lv30";
 -- gtp1 31
-		t["R005"][136][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv31";
+		t["R005"][136][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv31";
 -- gtp1 32
-		t["R005"][137][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv32";
+		t["R005"][137][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv32";
 -- gtp1 33
-		t["R005"][138][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv33";
+		t["R005"][138][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv33";
 -- gtp1 34
-		t["R005"][139][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv34";
+		t["R005"][139][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv34";
 -- gtp1 35
-		t["R005"][140][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv35";
+		t["R005"][140][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv35";
 -- gtp1 36
-		t["R005"][141][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv36";
+		t["R005"][141][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv36";
 -- gtp1 37
-		t["R005"][142][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv37";
+		t["R005"][142][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv37";
 -- gtp1 38
-		t["R005"][143][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv38";
+		t["R005"][143][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv38";
 -- gtp1 39
-		t["R005"][144][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv39";
+		t["R005"][144][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv39";
 -- gtp1 40
-		t["R005"][145][1] = "레어 유닛 업그레이드|cffffcc00(W)|r - Lv40";
+		t["R005"][145][1] = "레어 유닛 Upgrade|cffffcc00(W)|r - Lv40";
 -- gtp1 41
 -- gtp1 42
 -- gtp1 44
@@ -1224,105 +1224,105 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R006"][106][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv1";
+		t["R006"][106][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv1";
 -- gtp1 2
-		t["R006"][107][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv2";
+		t["R006"][107][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv2";
 -- gtp1 3
-		t["R006"][108][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv3";
+		t["R006"][108][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv3";
 -- gtp1 4
-		t["R006"][109][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv4";
+		t["R006"][109][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv4";
 -- gtp1 5
-		t["R006"][110][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv5";
+		t["R006"][110][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv5";
 -- gtp1 6
-		t["R006"][111][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv6";
+		t["R006"][111][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv6";
 -- gtp1 7
-		t["R006"][112][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv7";
+		t["R006"][112][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv7";
 -- gtp1 8
-		t["R006"][113][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv8";
+		t["R006"][113][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv8";
 -- gtp1 9
-		t["R006"][114][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv9";
+		t["R006"][114][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv9";
 -- gtp1 10
-		t["R006"][115][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv10";
+		t["R006"][115][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv10";
 -- gtp1 11
-		t["R006"][116][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv11";
+		t["R006"][116][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv11";
 -- gtp1 12
-		t["R006"][117][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv12";
+		t["R006"][117][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv12";
 -- gtp1 13
-		t["R006"][118][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv13";
+		t["R006"][118][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv13";
 -- gtp1 15
-		t["R006"][119][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv15";
+		t["R006"][119][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv15";
 -- gtp1 14
-		t["R006"][120][1] = "일반 유닛 업그레이드|cffffcc00(Q)|r - Lv14";
+		t["R006"][120][1] = "일반 유닛 Upgrade|cffffcc00(Q)|r - Lv14";
 -- gtp1 16
-		t["R006"][121][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv16";
+		t["R006"][121][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv16";
 -- gtp1 17
-		t["R006"][122][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv17";
+		t["R006"][122][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv17";
 -- gtp1 18
-		t["R006"][123][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv18";
+		t["R006"][123][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv18";
 -- gtp1 19
-		t["R006"][124][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv19";
+		t["R006"][124][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv19";
 -- gtp1 20
-		t["R006"][125][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv20";
+		t["R006"][125][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv20";
 -- gtp1 21
-		t["R006"][126][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv21";
+		t["R006"][126][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv21";
 -- gtp1 22
-		t["R006"][127][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv22";
+		t["R006"][127][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv22";
 -- gtp1 23
-		t["R006"][128][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv23";
+		t["R006"][128][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv23";
 -- gtp1 25
-		t["R006"][129][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv25";
+		t["R006"][129][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv25";
 -- gtp1 24
-		t["R006"][130][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv24";
+		t["R006"][130][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv24";
 -- gtp1 27
-		t["R006"][131][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv27";
+		t["R006"][131][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv27";
 -- gtp1 26
-		t["R006"][132][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv26";
+		t["R006"][132][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv26";
 -- gtp1 28
-		t["R006"][133][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv28";
+		t["R006"][133][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv28";
 -- gtp1 29
-		t["R006"][134][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv29";
+		t["R006"][134][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv29";
 -- gtp1 30
-		t["R006"][135][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv30";
+		t["R006"][135][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv30";
 -- gtp1 31
-		t["R006"][136][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv31";
+		t["R006"][136][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv31";
 -- gtp1 32
-		t["R006"][137][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv32";
+		t["R006"][137][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv32";
 -- gtp1 33
-		t["R006"][138][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv33";
+		t["R006"][138][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv33";
 -- gtp1 34
-		t["R006"][139][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv34";
+		t["R006"][139][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv34";
 -- gtp1 35
-		t["R006"][140][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv35";
+		t["R006"][140][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv35";
 -- gtp1 36
-		t["R006"][141][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv36";
+		t["R006"][141][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv36";
 -- gtp1 37
-		t["R006"][142][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv37";
+		t["R006"][142][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv37";
 -- gtp1 38
-		t["R006"][143][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv38";
+		t["R006"][143][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv38";
 -- gtp1 39
-		t["R006"][144][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv39";
+		t["R006"][144][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv39";
 -- gtp1 40
-		t["R006"][145][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv40";
+		t["R006"][145][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv40";
 -- gtp1 41
-		t["R006"][146][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv41";
+		t["R006"][146][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv41";
 -- gtp1 42
-		t["R006"][147][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv42";
+		t["R006"][147][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv42";
 -- gtp1 44
-		t["R006"][148][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv44";
+		t["R006"][148][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv44";
 -- gtp1 43
-		t["R006"][149][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv43";
+		t["R006"][149][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv43";
 -- gtp1 45
-		t["R006"][150][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv45";
+		t["R006"][150][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv45";
 -- gtp1 47
-		t["R006"][151][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv47";
+		t["R006"][151][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv47";
 -- gtp1 46
-		t["R006"][152][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv46";
+		t["R006"][152][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv46";
 -- gtp1 48
-		t["R006"][153][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv48";
+		t["R006"][153][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv48";
 -- gtp1 49
-		t["R006"][154][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv49";
+		t["R006"][154][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv49";
 -- gtp1 50
-		t["R006"][155][1] = "일반, 매직 유닛 업그레이드|cffffcc00(Q)|r - Lv50";
+		t["R006"][155][1] = "일반, 매직 유닛 Upgrade|cffffcc00(Q)|r - Lv50";
 -- gef2
 -- gub1 3
 -- gub1 2
@@ -1425,7 +1425,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 50
 -- [R007]
 -- gnam 1
-		t["R007"][1][1] = "유니크 이하 업그레이드";
+		t["R007"][1][1] = "유니크 이하 Upgrade";
 -- gef1
 -- gub1 1
 		t["R007"][3][1] = "*매직 유닛의 공격력을 33 , 공격속도를 1% 증가시킵니다.[최대 5번까지 적용]\r\
@@ -1503,7 +1503,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 19
 -- gnam 20
 -- gnam 21
-		t["R007"][76][1] = "유니크 등급 업그레이드";
+		t["R007"][76][1] = "유니크 등급 Upgrade";
 -- gnam 22
 -- gnam 23
 -- gnam 24
@@ -1534,65 +1534,65 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R007"][106][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv1";
+		t["R007"][106][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv1";
 -- gtp1 2
-		t["R007"][107][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv2";
+		t["R007"][107][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv2";
 -- gtp1 3
-		t["R007"][108][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv3";
+		t["R007"][108][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv3";
 -- gtp1 4
-		t["R007"][109][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv4";
+		t["R007"][109][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv4";
 -- gtp1 5
-		t["R007"][110][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv5";
+		t["R007"][110][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv5";
 -- gtp1 6
-		t["R007"][111][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv6";
+		t["R007"][111][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv6";
 -- gtp1 7
-		t["R007"][112][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv7";
+		t["R007"][112][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv7";
 -- gtp1 8
-		t["R007"][113][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv8";
+		t["R007"][113][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv8";
 -- gtp1 9
-		t["R007"][114][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv9";
+		t["R007"][114][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv9";
 -- gtp1 10
-		t["R007"][115][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv10";
+		t["R007"][115][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv10";
 -- gtp1 11
-		t["R007"][116][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv11";
+		t["R007"][116][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv11";
 -- gtp1 12
-		t["R007"][117][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv12";
+		t["R007"][117][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv12";
 -- gtp1 13
-		t["R007"][118][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv13";
+		t["R007"][118][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv13";
 -- gtp1 15
-		t["R007"][119][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv15";
+		t["R007"][119][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv15";
 -- gtp1 14
-		t["R007"][120][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv14";
+		t["R007"][120][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv14";
 -- gtp1 16
-		t["R007"][121][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv16";
+		t["R007"][121][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv16";
 -- gtp1 17
-		t["R007"][122][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv17";
+		t["R007"][122][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv17";
 -- gtp1 18
-		t["R007"][123][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv18";
+		t["R007"][123][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv18";
 -- gtp1 19
-		t["R007"][124][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv19";
+		t["R007"][124][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv19";
 -- gtp1 20
-		t["R007"][125][1] = "유니크 등급 이하 업그레이드|cffffcc00(Q)|r - Lv20";
+		t["R007"][125][1] = "유니크 등급 이하 Upgrade|cffffcc00(Q)|r - Lv20";
 -- gtp1 21
-		t["R007"][126][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv21";
+		t["R007"][126][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv21";
 -- gtp1 22
-		t["R007"][127][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv22";
+		t["R007"][127][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv22";
 -- gtp1 23
-		t["R007"][128][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv23";
+		t["R007"][128][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv23";
 -- gtp1 25
-		t["R007"][129][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv25";
+		t["R007"][129][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv25";
 -- gtp1 24
-		t["R007"][130][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv24";
+		t["R007"][130][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv24";
 -- gtp1 27
-		t["R007"][131][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv27";
+		t["R007"][131][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv27";
 -- gtp1 26
-		t["R007"][132][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv26";
+		t["R007"][132][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv26";
 -- gtp1 28
-		t["R007"][133][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv28";
+		t["R007"][133][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv28";
 -- gtp1 29
-		t["R007"][134][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv29";
+		t["R007"][134][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv29";
 -- gtp1 30
-		t["R007"][135][1] = "유니크 등급 업그레이드|cffffcc00(R)|r - Lv30";
+		t["R007"][135][1] = "유니크 등급 Upgrade|cffffcc00(R)|r - Lv30";
 -- gtp1 31
 -- gtp1 32
 -- gtp1 33
@@ -1749,7 +1749,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R008"][60][1] = "S나에 업그레이드";
+		t["R008"][60][1] = "S나에 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -1795,45 +1795,45 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R008"][105][1] = "코메이지 사토리 업그레이드|cffffcc00(E)|r - 1Lv";
+		t["R008"][105][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 1Lv";
 -- gtp1 2
-		t["R008"][106][1] = "코메이지 사토리 업그레이드|cffffcc00(E)|r - 2Lv";
+		t["R008"][106][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R008"][107][1] = "코메이지 사토리 업그레이드|cffffcc00(E)|r - 3Lv";
+		t["R008"][107][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R008"][108][1] = "코메이지 사토리 업그레이드|cffffcc00(E)|r - 4Lv";
+		t["R008"][108][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R008"][109][1] = "코메이지 사토리 업그레이드|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["R008"][109][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R008"][110][1] = "S나에 업그레이드 - 6Lv";
+		t["R008"][110][1] = "S나에 Upgrade - 6Lv";
 -- gtp1 7
-		t["R008"][111][1] = "S나에 업그레이드 - 7Lv";
+		t["R008"][111][1] = "S나에 Upgrade - 7Lv";
 -- gtp1 8
-		t["R008"][112][1] = "S나에 업그레이드 - 8Lv";
+		t["R008"][112][1] = "S나에 Upgrade - 8Lv";
 -- gtp1 9
-		t["R008"][113][1] = "S나에 업그레이드 - 9Lv";
+		t["R008"][113][1] = "S나에 Upgrade - 9Lv";
 -- gtp1 10
-		t["R008"][114][1] = "S나에 업그레이드 - 10Lv";
+		t["R008"][114][1] = "S나에 Upgrade - 10Lv";
 -- gtp1 11
-		t["R008"][115][1] = "S나에 업그레이드 - 11Lv";
+		t["R008"][115][1] = "S나에 Upgrade - 11Lv";
 -- gtp1 12
-		t["R008"][116][1] = "S나에 업그레이드 - 12Lv";
+		t["R008"][116][1] = "S나에 Upgrade - 12Lv";
 -- gtp1 13
-		t["R008"][117][1] = "S나에 업그레이드 - 13Lv";
+		t["R008"][117][1] = "S나에 Upgrade - 13Lv";
 -- gtp1 15
-		t["R008"][118][1] = "S나에 업그레이드 - 15Lv";
+		t["R008"][118][1] = "S나에 Upgrade - 15Lv";
 -- gtp1 14
-		t["R008"][119][1] = "S나에 업그레이드 - 14Lv";
+		t["R008"][119][1] = "S나에 Upgrade - 14Lv";
 -- gtp1 16
-		t["R008"][120][1] = "S나에 업그레이드 - 16Lv";
+		t["R008"][120][1] = "S나에 Upgrade - 16Lv";
 -- gtp1 17
-		t["R008"][121][1] = "S나에 업그레이드 - 17Lv";
+		t["R008"][121][1] = "S나에 Upgrade - 17Lv";
 -- gtp1 18
-		t["R008"][122][1] = "S나에 업그레이드 - 18Lv";
+		t["R008"][122][1] = "S나에 Upgrade - 18Lv";
 -- gtp1 19
-		t["R008"][123][1] = "S나에 업그레이드 - 19Lv";
+		t["R008"][123][1] = "S나에 Upgrade - 19Lv";
 -- gtp1 20
-		t["R008"][124][1] = "S나에 업그레이드 - |c00ff0000마스터|r";
+		t["R008"][124][1] = "S나에 Upgrade - |c00ff0000마스터|r";
 -- gtp1 21
 -- gtp1 22
 -- gtp1 23
@@ -1867,7 +1867,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R008"][155][1] = "『브레인 핑거프린트』를 제외한 사토리의 스킬 공격력이 6% 상승합니다. 사토리의 공격속도가 15% 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r :\r\
+|c00FF0000*Upgrade 마스터 효과|r :\r\
 *|c00FF80FF[활력]|r - 4초\r\
 공격한 유닛의 현재 체력을 50% 감소시킵니다.[보스 미적용]";
 -- gub1 2
@@ -1997,13 +1997,13 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00B"][59][1] = "플랑드르 스칼렛 업그레이드";
+		t["R00B"][59][1] = "플랑드르 스칼렛 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
 -- gnam 10
 -- gnam 12
-		t["R00B"][64][1] = "토라마루 쇼 업그레이드";
+		t["R00B"][64][1] = "토라마루 쇼 Upgrade";
 -- gnam 11
 -- gnam 13
 -- gnam 15
@@ -2044,35 +2044,35 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00B"][104][1] = "플랑드르 스칼렛 업그레이드|cffffcc00(Q)|r - 1Lv";
+		t["R00B"][104][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 1Lv";
 -- gtp1 2
-		t["R00B"][105][1] = "플랑드르 스칼렛 업그레이드|cffffcc00(Q)|r - 2Lv";
+		t["R00B"][105][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["R00B"][106][1] = "플랑드르 스칼렛 업그레이드|cffffcc00(Q)|r - 3Lv";
+		t["R00B"][106][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["R00B"][107][1] = "플랑드르 스칼렛 업그레이드|cffffcc00(Q)|r - 4Lv";
+		t["R00B"][107][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["R00B"][108][1] = "플랑드르 스칼렛 업그레이드|cffffcc00(Q)|r - c00ff0000마스터|r";
+		t["R00B"][108][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - c00ff0000마스터|r";
 -- gtp1 6
-		t["R00B"][109][1] = "플랑드르 스칼렛 업그레이드 - 6Lv";
+		t["R00B"][109][1] = "플랑드르 스칼렛 Upgrade - 6Lv";
 -- gtp1 7
-		t["R00B"][110][1] = "플랑드르 스칼렛 업그레이드 - 7Lv";
+		t["R00B"][110][1] = "플랑드르 스칼렛 Upgrade - 7Lv";
 -- gtp1 8
-		t["R00B"][111][1] = "플랑드르 스칼렛 업그레이드 - 8Lv";
+		t["R00B"][111][1] = "플랑드르 스칼렛 Upgrade - 8Lv";
 -- gtp1 9
-		t["R00B"][112][1] = "플랑드르 스칼렛 업그레이드 - 9Lv";
+		t["R00B"][112][1] = "플랑드르 스칼렛 Upgrade - 9Lv";
 -- gtp1 10
-		t["R00B"][113][1] = "플랑드르 스칼렛 업그레이드 - |c00ff0000마스터|r";
+		t["R00B"][113][1] = "플랑드르 스칼렛 Upgrade - |c00ff0000마스터|r";
 -- gtp1 11
-		t["R00B"][114][1] = "토라마루 쇼 업그레이드 - 11Lv";
+		t["R00B"][114][1] = "토라마루 쇼 Upgrade - 11Lv";
 -- gtp1 12
-		t["R00B"][115][1] = "토라마루 쇼 업그레이드 - 12Lv";
+		t["R00B"][115][1] = "토라마루 쇼 Upgrade - 12Lv";
 -- gtp1 13
-		t["R00B"][116][1] = "토라마루 쇼 업그레이드 - 13Lv";
+		t["R00B"][116][1] = "토라마루 쇼 Upgrade - 13Lv";
 -- gtp1 15
-		t["R00B"][117][1] = "토라마루 쇼 업그레이드 - |c00ff0000마스터|r";
+		t["R00B"][117][1] = "토라마루 쇼 Upgrade - |c00ff0000마스터|r";
 -- gtp1 14
-		t["R00B"][118][1] = "토라마루 쇼 업그레이드 - 14Lv";
+		t["R00B"][118][1] = "토라마루 쇼 Upgrade - 14Lv";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
@@ -2111,7 +2111,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00B"][154][1] = "데미지가 20000 증가하고, 공격속도가 10% 빨라지며, 금기『레바테인』의 화염폭발 데미지가 7% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 금기『카고메카고메』로 지정된 술래가 공격시 5% 확률로『카고메카고메』의 파장 효과가 발동합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 금기『카고메카고메』로 지정된 술래가 공격시 5% 확률로『카고메카고메』의 파장 효과가 발동합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -2223,7 +2223,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00C"][55][1] = "레이우지 우츠호 업그레이드";
+		t["R00C"][55][1] = "Utsuho Reiuji Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -2273,35 +2273,35 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00C"][104][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 1Lv";
+		t["R00C"][104][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 1Lv";
 -- gtp1 2
-		t["R00C"][105][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 2Lv";
+		t["R00C"][105][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 2Lv";
 -- gtp1 3
-		t["R00C"][106][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 3Lv";
+		t["R00C"][106][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 3Lv";
 -- gtp1 4
-		t["R00C"][107][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 4Lv";
+		t["R00C"][107][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 4Lv";
 -- gtp1 5
-		t["R00C"][108][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 5Lv";
+		t["R00C"][108][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 5Lv";
 -- gtp1 6
-		t["R00C"][109][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 6Lv";
+		t["R00C"][109][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 6Lv";
 -- gtp1 7
-		t["R00C"][110][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 7Lv";
+		t["R00C"][110][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 7Lv";
 -- gtp1 8
-		t["R00C"][111][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 8Lv";
+		t["R00C"][111][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 8Lv";
 -- gtp1 9
-		t["R00C"][112][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - 9Lv";
+		t["R00C"][112][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - 9Lv";
 -- gtp1 10
-		t["R00C"][113][1] = "레이우지 우츠호 업그레이드|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["R00C"][113][1] = "Utsuho Reiuji Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gtp1 11
-		t["R00C"][114][1] = "피코 우츠호 업그레이드 - 11Lv";
+		t["R00C"][114][1] = "피코 우츠호 Upgrade - 11Lv";
 -- gtp1 12
-		t["R00C"][115][1] = "피코 우츠호 업그레이드 - 12Lv";
+		t["R00C"][115][1] = "피코 우츠호 Upgrade - 12Lv";
 -- gtp1 13
-		t["R00C"][116][1] = "피코 우츠호 업그레이드 - 13Lv";
+		t["R00C"][116][1] = "피코 우츠호 Upgrade - 13Lv";
 -- gtp1 15
-		t["R00C"][117][1] = "피코 우츠호 업그레이드 - |c00ff0000마스터|r";
+		t["R00C"][117][1] = "피코 우츠호 Upgrade - |c00ff0000마스터|r";
 -- gtp1 14
-		t["R00C"][118][1] = "피코 우츠호 업그레이드 - 14Lv";
+		t["R00C"][118][1] = "피코 우츠호 Upgrade - 14Lv";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
@@ -2450,12 +2450,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00D"][55][1] = "와타츠키노 요리히메 업그레이드[F]";
+		t["R00D"][55][1] = "와타츠키노 요리히메 Upgrade[F]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00D"][59][1] = "야쿠모 란 업그레이드[F]";
+		t["R00D"][59][1] = "야쿠모 란 Upgrade[F]";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -2501,25 +2501,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00D"][104][1] = "와타츠키노 요리히메 업그레이드|cffffcc00(F)|r - 1Lv";
+		t["R00D"][104][1] = "와타츠키노 요리히메 Upgrade|cffffcc00(F)|r - 1Lv";
 -- gtp1 2
-		t["R00D"][105][1] = "와타츠키노 요리히메 업그레이드|cffffcc00(F)|r - 2Lv";
+		t["R00D"][105][1] = "와타츠키노 요리히메 Upgrade|cffffcc00(F)|r - 2Lv";
 -- gtp1 3
-		t["R00D"][106][1] = "와타츠키노 요리히메 업그레이드|cffffcc00(F)|r - 3Lv";
+		t["R00D"][106][1] = "와타츠키노 요리히메 Upgrade|cffffcc00(F)|r - 3Lv";
 -- gtp1 4
-		t["R00D"][107][1] = "와타츠키노 요리히메 업그레이드|cffffcc00(F)|r - 4Lv";
+		t["R00D"][107][1] = "와타츠키노 요리히메 Upgrade|cffffcc00(F)|r - 4Lv";
 -- gtp1 5
-		t["R00D"][108][1] = "와타츠키노 요리히메 업그레이드|cffffcc00(F)|r - |c00ff0000마스터|r";
+		t["R00D"][108][1] = "와타츠키노 요리히메 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R00D"][109][1] = "야쿠모 란 업그레이드|cffffcc00(F)|r - 6Lv";
+		t["R00D"][109][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 6Lv";
 -- gtp1 7
-		t["R00D"][110][1] = "야쿠모 란 업그레이드|cffffcc00(F)|r - 7Lv";
+		t["R00D"][110][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 7Lv";
 -- gtp1 8
-		t["R00D"][111][1] = "야쿠모 란 업그레이드|cffffcc00(F)|r - 8Lv";
+		t["R00D"][111][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 8Lv";
 -- gtp1 9
-		t["R00D"][112][1] = "야쿠모 란 업그레이드|cffffcc00(F)|r - 9Lv";
+		t["R00D"][112][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 9Lv";
 -- gtp1 10
-		t["R00D"][113][1] = "야쿠모 란 업그레이드|cffffcc00(F)|r - |c00ff0000마스터|r";
+		t["R00D"][113][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -2563,7 +2563,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00D"][154][1] = "요리히메의 공격력이 25000, 공격속도가 12% 상승하며, 모든 스킬이 발동할 확률이 2%씩 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : \r\
+|c00FF0000*Upgrade 마스터 효과|r : \r\
 *|c00FF80FF[활력]|r - 12초\r\
 요리히메가 신령의 기운을 몸에 담아 해방시켜 적의 더러운 기운을 모두 씻어냅니다. 1.5초간 주변 800범위 적의 방어력을 200 감소시킵니다.\r\
 [보스 제외]";
@@ -2684,7 +2684,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00E"][59][1] = "아야 공격속도 업그레이드";
+		t["R00E"][59][1] = "아야 공격속도 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -2730,25 +2730,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00E"][104][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 1Lv";
+		t["R00E"][104][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R00E"][105][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 2Lv";
+		t["R00E"][105][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R00E"][106][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 3Lv";
+		t["R00E"][106][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R00E"][107][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 4Lv";
+		t["R00E"][107][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R00E"][108][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 5Lv";
+		t["R00E"][108][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 5Lv";
 -- gtp1 6
-		t["R00E"][109][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 6Lv";
+		t["R00E"][109][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 6Lv";
 -- gtp1 7
-		t["R00E"][110][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 7Lv";
+		t["R00E"][110][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 7Lv";
 -- gtp1 8
-		t["R00E"][111][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 8Lv";
+		t["R00E"][111][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 8Lv";
 -- gtp1 9
-		t["R00E"][112][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - 9Lv";
+		t["R00E"][112][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - 9Lv";
 -- gtp1 10
-		t["R00E"][113][1] = "호쥬 누에 업그레이드|cffffcc00(R)|r - |c00ff0000마스터|r";
+		t["R00E"][113][1] = "Nue Houjuu Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -2904,14 +2904,14 @@ TPT_upgrades_loader = function(t)
 -- gnam 3
 -- gnam 4
 -- gnam 5
-		t["R00F"][58][1] = "코메이지 코이시 업그레이드[E]";
+		t["R00F"][58][1] = "코메이지 코이시 Upgrade[E]";
 -- gnam 6
 -- gnam 7
 -- gnam 8
 -- gnam 9
 -- gnam 10
 -- gnam 12
-		t["R00F"][64][1] = "코메이지 코이시 업그레이드";
+		t["R00F"][64][1] = "코메이지 코이시 Upgrade";
 -- gnam 11
 -- gnam 13
 -- gnam 15
@@ -2952,35 +2952,35 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00F"][104][1] = "마타라 오키나 업그레이드|cffffcc00(D)|r - 봄";
+		t["R00F"][104][1] = "마타라 오키나 Upgrade|cffffcc00(D)|r - 봄";
 -- gtp1 2
-		t["R00F"][105][1] = "마타라 오키나 업그레이드|cffffcc00(D)|r - 여름";
+		t["R00F"][105][1] = "마타라 오키나 Upgrade|cffffcc00(D)|r - 여름";
 -- gtp1 3
-		t["R00F"][106][1] = "마타라 오키나 업그레이드|cffffcc00(D)|r - 가을";
+		t["R00F"][106][1] = "마타라 오키나 Upgrade|cffffcc00(D)|r - 가을";
 -- gtp1 4
-		t["R00F"][107][1] = "마타라 오키나 업그레이드|cffffcc00(D)|r - 겨울";
+		t["R00F"][107][1] = "마타라 오키나 Upgrade|cffffcc00(D)|r - 겨울";
 -- gtp1 5
-		t["R00F"][108][1] = "코메이지 코이시 업그레이드|cffffcc00(E)|r - 5Lv";
+		t["R00F"][108][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 5Lv";
 -- gtp1 6
-		t["R00F"][109][1] = "코메이지 코이시 업그레이드|cffffcc00(E)|r - 6Lv";
+		t["R00F"][109][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 6Lv";
 -- gtp1 7
-		t["R00F"][110][1] = "코메이지 코이시 업그레이드|cffffcc00(E)|r - 7Lv";
+		t["R00F"][110][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 7Lv";
 -- gtp1 8
-		t["R00F"][111][1] = "코메이지 코이시 업그레이드|cffffcc00(E)|r - 8Lv";
+		t["R00F"][111][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 8Lv";
 -- gtp1 9
-		t["R00F"][112][1] = "코메이지 코이시 업그레이드|cffffcc00(E)|r - 9Lv";
+		t["R00F"][112][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 9Lv";
 -- gtp1 10
-		t["R00F"][113][1] = "코메이지 코이시 업그레이드|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["R00F"][113][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gtp1 11
-		t["R00F"][114][1] = "코메이지 코이시 업그레이드 - 11Lv";
+		t["R00F"][114][1] = "코메이지 코이시 Upgrade - 11Lv";
 -- gtp1 12
-		t["R00F"][115][1] = "코메이지 코이시 업그레이드 - 12Lv";
+		t["R00F"][115][1] = "코메이지 코이시 Upgrade - 12Lv";
 -- gtp1 13
-		t["R00F"][116][1] = "코메이지 코이시 업그레이드 - 13Lv";
+		t["R00F"][116][1] = "코메이지 코이시 Upgrade - 13Lv";
 -- gtp1 15
-		t["R00F"][117][1] = "코메이지 코이시 업그레이드 - |c00ff0000마스터|r";
+		t["R00F"][117][1] = "코메이지 코이시 Upgrade - |c00ff0000마스터|r";
 -- gtp1 14
-		t["R00F"][118][1] = "코메이지 코이시 업그레이드 - 14Lv";
+		t["R00F"][118][1] = "코메이지 코이시 Upgrade - 14Lv";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
@@ -3183,7 +3183,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00G"][104][1] = "코메이지 공격력 업그레이드";
+		t["R00G"][104][1] = "코메이지 공격력 Upgrade";
 -- gtp1 2
 -- gtp1 3
 -- gtp1 4
@@ -3247,10 +3247,10 @@ TPT_upgrades_loader = function(t)
 -- gef2
 -- [R00O]
 -- gnam 1
-		t["R00O"][1][1] = "판타즘 유닛 업그레이드";
+		t["R00O"][1][1] = "판타즘 유닛 Upgrade";
 -- gef1
 -- gtp1 1
-		t["R00O"][3][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv1";
+		t["R00O"][3][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv1";
 -- gub1 1
 		t["R00O"][4][1] = "판타즘 등급 유닛의 공격력을 20000, 공격속도를 9% 증가시킵니다.";
 -- ghk1 1
@@ -3268,13 +3268,13 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["R00O"][18][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv2";
+		t["R00O"][18][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv2";
 -- gtp1 3
-		t["R00O"][19][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv3";
+		t["R00O"][19][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv3";
 -- gtp1 4
-		t["R00O"][20][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv4";
+		t["R00O"][20][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv4";
 -- gtp1 5
-		t["R00O"][21][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv5";
+		t["R00O"][21][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv5";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -3289,15 +3289,15 @@ TPT_upgrades_loader = function(t)
 -- ghk1 9
 -- ghk1 10
 -- gtp1 6
-		t["R00O"][35][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv6";
+		t["R00O"][35][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv6";
 -- gtp1 7
-		t["R00O"][36][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv7";
+		t["R00O"][36][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv7";
 -- gtp1 8
-		t["R00O"][37][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv8";
+		t["R00O"][37][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv8";
 -- gtp1 9
-		t["R00O"][38][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv9";
+		t["R00O"][38][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv9";
 -- gtp1 10
-		t["R00O"][39][1] = "판타즘 유닛 업그레이드|cffffcc00(A)|r - Lv10";
+		t["R00O"][39][1] = "판타즘 유닛 Upgrade|cffffcc00(A)|r - Lv10";
 -- gub1 6
 		t["R00O"][40][1] = "판타즘 등급 유닛의 공격력을 10000, 공격속도를 9% 증가시킵니다.";
 -- gub1 7
@@ -3364,7 +3364,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00P"][55][1] = "호라이산 카구야 업그레이드";
+		t["R00P"][55][1] = "호라이산 카구야 Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -3416,23 +3416,23 @@ TPT_upgrades_loader = function(t)
 -- gtp1 1
 		t["R00P"][104][1] = "레전더리 클리어 강화";
 -- gtp1 2
-		t["R00P"][105][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 2Lv";
+		t["R00P"][105][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R00P"][106][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 3Lv";
+		t["R00P"][106][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R00P"][107][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 4Lv";
+		t["R00P"][107][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R00P"][108][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 5Lv";
+		t["R00P"][108][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 5Lv";
 -- gtp1 6
-		t["R00P"][109][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 6Lv";
+		t["R00P"][109][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 6Lv";
 -- gtp1 7
-		t["R00P"][110][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 7Lv";
+		t["R00P"][110][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 7Lv";
 -- gtp1 8
-		t["R00P"][111][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 8Lv";
+		t["R00P"][111][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 8Lv";
 -- gtp1 9
-		t["R00P"][112][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - 9Lv";
+		t["R00P"][112][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 9Lv";
 -- gtp1 10
-		t["R00P"][113][1] = "호라이산 카구야 업그레이드|cffffcc00(E)|r - c00ff0000마스터|r";
+		t["R00P"][113][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -3585,7 +3585,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00Q"][55][1] = "유메코 업그레이드[Q]";
+		t["R00Q"][55][1] = "유메코 Upgrade[Q]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -3595,7 +3595,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 9
 -- gnam 10
 -- gnam 12
-		t["R00Q"][64][1] = "후지와라노 모코우 업그레이드";
+		t["R00Q"][64][1] = "후지와라노 모코우 Upgrade";
 -- gnam 11
 -- gnam 13
 -- gnam 15
@@ -3636,35 +3636,35 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00Q"][104][1] = "유메코 업그레이드|cffffcc00(Q)|r - 1Lv";
+		t["R00Q"][104][1] = "유메코 Upgrade|cffffcc00(Q)|r - 1Lv";
 -- gtp1 2
-		t["R00Q"][105][1] = "유메코 업그레이드|cffffcc00(Q)|r - 2Lv";
+		t["R00Q"][105][1] = "유메코 Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["R00Q"][106][1] = "유메코 업그레이드|cffffcc00(Q)|r - 3Lv";
+		t["R00Q"][106][1] = "유메코 Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["R00Q"][107][1] = "유메코 업그레이드|cffffcc00(Q)|r - 4Lv";
+		t["R00Q"][107][1] = "유메코 Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["R00Q"][108][1] = "유메코 업그레이드|cffffcc00(Q)|r - c00ff0000마스터|r";
+		t["R00Q"][108][1] = "유메코 Upgrade|cffffcc00(Q)|r - c00ff0000마스터|r";
 -- gtp1 6
-		t["R00Q"][109][1] = "후지와라노 모코우 업그레이드|cffffcc00(F)|r - 6Lv";
+		t["R00Q"][109][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 6Lv";
 -- gtp1 7
-		t["R00Q"][110][1] = "후지와라노 모코우 업그레이드|cffffcc00(F)|r - 7Lv";
+		t["R00Q"][110][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 7Lv";
 -- gtp1 8
-		t["R00Q"][111][1] = "후지와라노 모코우 업그레이드|cffffcc00(F)|r - 8Lv";
+		t["R00Q"][111][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 8Lv";
 -- gtp1 9
-		t["R00Q"][112][1] = "후지와라노 모코우 업그레이드|cffffcc00(F)|r - 9Lv";
+		t["R00Q"][112][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 9Lv";
 -- gtp1 10
-		t["R00Q"][113][1] = "후지와라노 모코우 업그레이드|cffffcc00(F)|r - |c00ff0000마스터|r";
+		t["R00Q"][113][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gtp1 11
-		t["R00Q"][114][1] = "후지와라노 모코우 업그레이드 - 11Lv";
+		t["R00Q"][114][1] = "후지와라노 모코우 Upgrade - 11Lv";
 -- gtp1 12
-		t["R00Q"][115][1] = "후지와라노 모코우 업그레이드 - 12Lv";
+		t["R00Q"][115][1] = "후지와라노 모코우 Upgrade - 12Lv";
 -- gtp1 13
-		t["R00Q"][116][1] = "후지와라노 모코우 업그레이드 - 13Lv";
+		t["R00Q"][116][1] = "후지와라노 모코우 Upgrade - 13Lv";
 -- gtp1 15
-		t["R00Q"][117][1] = "후지와라노 모코우 업그레이드 - |c00ff0000마스터|r";
+		t["R00Q"][117][1] = "후지와라노 모코우 Upgrade - |c00ff0000마스터|r";
 -- gtp1 14
-		t["R00Q"][118][1] = "후지와라노 모코우 업그레이드 - 14Lv";
+		t["R00Q"][118][1] = "후지와라노 모코우 Upgrade - 14Lv";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
@@ -3704,7 +3704,7 @@ TPT_upgrades_loader = function(t)
 		t["R00Q"][154][1] = "*유메코의 공격력이 25000, 공격속도가 10% 증가합니다.\r\
 *『체인 리액션』의 데미지가 3% 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『소로우 램넌트』발동시 마나를 10~35% 되돌려받습니다. 20% 확률로 마나를 모두 되돌려받습니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『소로우 램넌트』발동시 마나를 10~35% 되돌려받습니다. 20% 확률로 마나를 모두 되돌려받습니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -3820,12 +3820,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00R"][55][1] = "히지리 뱌쿠렌 업그레이드[R]";
+		t["R00R"][55][1] = "히지리 뱌쿠렌 Upgrade[R]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00R"][59][1] = "히지리 뱌쿠렌 업그레이드";
+		t["R00R"][59][1] = "히지리 뱌쿠렌 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -3871,15 +3871,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00R"][104][1] = "히지리 뱌쿠렌 업그레이드|cffffcc00(R)|r - 1Lv";
+		t["R00R"][104][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R00R"][105][1] = "히지리 뱌쿠렌 업그레이드|cffffcc00(R)|r - 2Lv";
+		t["R00R"][105][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R00R"][106][1] = "히지리 뱌쿠렌 업그레이드|cffffcc00(R)|r - 3Lv";
+		t["R00R"][106][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R00R"][107][1] = "히지리 뱌쿠렌 업그레이드|cffffcc00(R)|r - 4Lv";
+		t["R00R"][107][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R00R"][108][1] = "히지리 뱌쿠렌 업그레이드|cffffcc00(R)|r - |c00ff0000마스터|r";
+		t["R00R"][108][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -3928,7 +3928,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00R"][154][1] = "*공격력이 3만 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 뱌쿠렌이 봉인된 힘을 모두 끌어내어, 초인의 EX 등급을 제한을 해금합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 뱌쿠렌이 봉인된 힘을 모두 끌어내어, 초인의 EX 등급을 제한을 해금합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -4083,15 +4083,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00T"][104][1] = "야쿠모 유카리 업그레이드|cffffcc00(W)|r - 1Lv";
+		t["R00T"][104][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 1Lv";
 -- gtp1 2
-		t["R00T"][105][1] = "야쿠모 유카리 업그레이드|cffffcc00(W)|r - 2Lv";
+		t["R00T"][105][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["R00T"][106][1] = "야쿠모 유카리 업그레이드|cffffcc00(W)|r - 3Lv";
+		t["R00T"][106][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["R00T"][107][1] = "야쿠모 유카리 업그레이드|cffffcc00(W)|r - 4Lv";
+		t["R00T"][107][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["R00T"][108][1] = "야쿠모 유카리 업그레이드|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R00T"][108][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4142,9 +4142,9 @@ TPT_upgrades_loader = function(t)
 \r\
 1) 마안『라플라스의 악마』의 발동 확률이 1% 상승합니다.\r\
 2)『파동과 입자의 경계』의 공격력이 100000 상승합니다\r\
-3) 유카리가 공격시 업그레이드 수*0.1의 마나를 추가로 회복합니다.\r\
+3) 유카리가 공격시 Upgrade 수*0.1의 마나를 추가로 회복합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r: 팔기『모든 것을 둘로 나누는 것』의 체력 보정 효과가 발동할 경우, 자신의 마나를 5% 회복합니다.";
+|c00FF0000*Upgrade 마스터 효과|r: 팔기『모든 것을 둘로 나누는 것』의 체력 보정 효과가 발동할 경우, 자신의 마나를 5% 회복합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -4196,7 +4196,7 @@ TPT_upgrades_loader = function(t)
 -- greq 5
 -- [R00U]
 -- gnam 1
-		t["R00U"][1][1] = "카자미 유카 업그레이드[Q]";
+		t["R00U"][1][1] = "카자미 유카 Upgrade[Q]";
 -- gef1
 -- ghk1 1
 -- greq 1
@@ -4303,15 +4303,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00U"][105][1] = "카자미 유카 업그레이드|cffffcc00(Q)|r - 1Lv";
+		t["R00U"][105][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 1Lv";
 -- gtp1 2
-		t["R00U"][106][1] = "카자미 유카 업그레이드|cffffcc00(Q)|r - 2Lv";
+		t["R00U"][106][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["R00U"][107][1] = "카자미 유카 업그레이드|cffffcc00(Q)|r - 3Lv";
+		t["R00U"][107][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["R00U"][108][1] = "카자미 유카 업그레이드|cffffcc00(Q)|r - 4Lv";
+		t["R00U"][108][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["R00U"][109][1] = "카자미 유카 업그레이드|cffffcc00(Q)|r - |c00ff0000마스터|r";
+		t["R00U"][109][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4360,7 +4360,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00U"][155][1] = "공격력을 25000 , 공격속도를 18%만큼 증가시킵니다. 유카의『플라워 듀얼 스파크』의 체력 비례 데미지가 0.3%p 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 맵 전체 적의 방어력을 12% 감소시키는 『밤의 해바라기』능력이 활성화됩니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 맵 전체 적의 방어력을 12% 감소시키는 『밤의 해바라기』능력이 활성화됩니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -4517,15 +4517,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00V"][105][1] = "야고코로 에이린 업그레이드|cffffcc00(W)|r - 1Lv";
+		t["R00V"][105][1] = "야고코로 에이린 Upgrade|cffffcc00(W)|r - 1Lv";
 -- gtp1 2
-		t["R00V"][106][1] = "야고코로 에이린 업그레이드|cffffcc00(W)|r - 2Lv";
+		t["R00V"][106][1] = "야고코로 에이린 Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["R00V"][107][1] = "야고코로 에이린 업그레이드|cffffcc00(W)|r - 3Lv";
+		t["R00V"][107][1] = "야고코로 에이린 Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["R00V"][108][1] = "야고코로 에이린 업그레이드|cffffcc00(W)|r - 4Lv";
+		t["R00V"][108][1] = "야고코로 에이린 Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["R00V"][109][1] = "야고코로 에이린 업그레이드|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R00V"][109][1] = "야고코로 에이린 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4574,7 +4574,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00V"][155][1] = "야고코로 에이린의 공격력를 10000, 공격속도를 12%만큼 증가시킵니다.『천망지망포접의 법』의 발동 확률이 1%씩 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 유닛 카운트가『생명유희~라이프 게임~』으로 증가하기 이전의 게임 오버 카운트를 넘었다면, 스킬 데미지가 75% 증가합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 유닛 카운트가『생명유희~라이프 게임~』으로 증가하기 이전의 게임 오버 카운트를 넘었다면, 스킬 데미지가 75% 증가합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -4731,15 +4731,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00W"][105][1] = "모리야 스와코 업그레이드|cffffcc00(S)|r - 1Lv";
+		t["R00W"][105][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 1Lv";
 -- gtp1 2
-		t["R00W"][106][1] = "모리야 스와코 업그레이드|cffffcc00(S)|r - 2Lv";
+		t["R00W"][106][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R00W"][107][1] = "모리야 스와코 업그레이드|cffffcc00(S)|r - 3Lv";
+		t["R00W"][107][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R00W"][108][1] = "모리야 스와코 업그레이드|cffffcc00(S)|r - 4Lv";
+		t["R00W"][108][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R00W"][109][1] = "모리야 스와코 업그레이드|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R00W"][109][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4788,7 +4788,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00W"][155][1] = "*모리야 스와코의 공격력을 35000 증가시키고 공격속도를 15% 상승시킵니다. 추가로 『테나가아시나가님』의 발동 확률이 1% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : *스와코가 자신의 영역에 발을 들이는 적에게 저주를 내립니다. 라인존에 나타나는 적이 받는 마법 데미지를 12% 증폭시키고, 체력을 7% 감소시킵니다.";
+|c00FF0000*Upgrade 마스터 효과|r : *스와코가 자신의 영역에 발을 들이는 적에게 저주를 내립니다. 라인존에 나타나는 적이 받는 마법 데미지를 12% 증폭시키고, 체력을 7% 감소시킵니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -4896,12 +4896,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00X"][55][1] = "카나 아나베랄 업그레이드[S]";
+		t["R00X"][55][1] = "카나 아나베랄 Upgrade[S]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00X"][59][1] = "야사카 카나코 업그레이드";
+		t["R00X"][59][1] = "야사카 카나코 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -4947,25 +4947,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00X"][104][1] = "카나 아나베랄 업그레이드|cffffcc00(S)|r - 1Lv";
+		t["R00X"][104][1] = "카나 아나베랄 Upgrade|cffffcc00(S)|r - 1Lv";
 -- gtp1 2
-		t["R00X"][105][1] = "카나 아나베랄 업그레이드|cffffcc00(S)|r - 2Lv";
+		t["R00X"][105][1] = "카나 아나베랄 Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R00X"][106][1] = "카나 아나베랄 업그레이드|cffffcc00(S)|r - 3Lv";
+		t["R00X"][106][1] = "카나 아나베랄 Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R00X"][107][1] = "카나 아나베랄 업그레이드|cffffcc00(S)|r - 4Lv";
+		t["R00X"][107][1] = "카나 아나베랄 Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R00X"][108][1] = "카나 아나베랄 업그레이드|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R00X"][108][1] = "카나 아나베랄 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R00X"][109][1] = "야사카 카나코 업그레이드|cffffcc00(A)|r - 6Lv";
+		t["R00X"][109][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 6Lv";
 -- gtp1 7
-		t["R00X"][110][1] = "야사카 카나코 업그레이드|cffffcc00(A)|r - 7Lv";
+		t["R00X"][110][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 7Lv";
 -- gtp1 8
-		t["R00X"][111][1] = "야사카 카나코 업그레이드|cffffcc00(A)|r - 8Lv";
+		t["R00X"][111][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 8Lv";
 -- gtp1 9
-		t["R00X"][112][1] = "야사카 카나코 업그레이드|cffffcc00(A)|r - 9Lv";
+		t["R00X"][112][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 9Lv";
 -- gtp1 10
-		t["R00X"][113][1] = "야사카 카나코 업그레이드|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R00X"][113][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -5007,9 +5007,9 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R00X"][154][1] = "*카나의 공격속도가 10% 증가하고, 카나가 공격시 [업그레이드 횟수*5]%의 확률로 대상 유닛에게 『쉐도우 레이즈』로 쌓은 영혼 수 * 5만의 마법 데미지를 입힙니다.\r\
+		t["R00X"][154][1] = "*카나의 공격속도가 10% 증가하고, 카나가 공격시 [Upgrade 횟수*5]%의 확률로 대상 유닛에게 『쉐도우 레이즈』로 쌓은 영혼 수 * 5만의 마법 데미지를 입힙니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『폴터 가이스트』지속시간 동안『Lost Dream』을 발동할 경우, 10% 확률로 꿈의 요정을 생성합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『폴터 가이스트』지속시간 동안『Lost Dream』을 발동할 경우, 10% 확률로 꿈의 요정을 생성합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -5128,7 +5128,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00Y"][59][1] = "유령악단[팬텀 앙상블] 업그레이드";
+		t["R00Y"][59][1] = "유령악단[팬텀 앙상블] Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -5174,25 +5174,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00Y"][104][1] = "신키 업그레이드|cffffcc00(F)|r - 1Lv";
+		t["R00Y"][104][1] = "신키 Upgrade|cffffcc00(F)|r - 1Lv";
 -- gtp1 2
-		t["R00Y"][105][1] = "신키 업그레이드|cffffcc00(F)|r - 2Lv";
+		t["R00Y"][105][1] = "신키 Upgrade|cffffcc00(F)|r - 2Lv";
 -- gtp1 3
-		t["R00Y"][106][1] = "신키 업그레이드|cffffcc00(F)|r - 3Lv";
+		t["R00Y"][106][1] = "신키 Upgrade|cffffcc00(F)|r - 3Lv";
 -- gtp1 4
-		t["R00Y"][107][1] = "신키 업그레이드|cffffcc00(F)|r - 4Lv";
+		t["R00Y"][107][1] = "신키 Upgrade|cffffcc00(F)|r - 4Lv";
 -- gtp1 5
-		t["R00Y"][108][1] = "신키 업그레이드|cffffcc00(F)|r - 5Lv";
+		t["R00Y"][108][1] = "신키 Upgrade|cffffcc00(F)|r - 5Lv";
 -- gtp1 6
-		t["R00Y"][109][1] = "유령악단[팬텀 앙상블] 업그레이드|cffffcc00(W)|r - 6Lv";
+		t["R00Y"][109][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 6Lv";
 -- gtp1 7
-		t["R00Y"][110][1] = "유령악단[팬텀 앙상블] 업그레이드|cffffcc00(W)|r - 7Lv";
+		t["R00Y"][110][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 7Lv";
 -- gtp1 8
-		t["R00Y"][111][1] = "유령악단[팬텀 앙상블] 업그레이드|cffffcc00(W)|r - 8Lv";
+		t["R00Y"][111][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 8Lv";
 -- gtp1 9
-		t["R00Y"][112][1] = "유령악단[팬텀 앙상블] 업그레이드|cffffcc00(W)|r - 9Lv";
+		t["R00Y"][112][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 9Lv";
 -- gtp1 10
-		t["R00Y"][113][1] = "유령악단[팬텀 앙상블] 업그레이드|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R00Y"][113][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -5236,7 +5236,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00Y"][154][1] = "신키의 공격력이 15000, 공격속도가 12% 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 공격시 마나를 1 회복합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 공격시 마나를 1 회복합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -5348,7 +5348,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R010"][55][1] = "메디슨 멜랑꼴리 업그레이드[S]";
+		t["R010"][55][1] = "메디슨 멜랑꼴리 Upgrade[S]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -5398,23 +5398,23 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 2
-		t["R010"][105][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 2Lv";
+		t["R010"][105][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R010"][106][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 3Lv";
+		t["R010"][106][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R010"][107][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 4Lv";
+		t["R010"][107][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R010"][108][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 5Lv";
+		t["R010"][108][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 5Lv";
 -- gtp1 6
-		t["R010"][109][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 6Lv";
+		t["R010"][109][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 6Lv";
 -- gtp1 7
-		t["R010"][110][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 7Lv";
+		t["R010"][110][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 7Lv";
 -- gtp1 8
-		t["R010"][111][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 8Lv";
+		t["R010"][111][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 8Lv";
 -- gtp1 9
-		t["R010"][112][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - 9Lv";
+		t["R010"][112][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - 9Lv";
 -- gtp1 10
-		t["R010"][113][1] = "메디슨 멜랑꼴리 업그레이드|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R010"][113][1] = "메디슨 멜랑꼴리 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -5610,7 +5610,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R011"][104][1] = "에픽 업그레이드[마뎀]";
+		t["R011"][104][1] = "에픽 Upgrade[마뎀]";
 -- gtp1 2
 -- gtp1 3
 -- gtp1 4
@@ -5754,7 +5754,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R012"][53][1] = "레밀리아 스칼렛 업그레이드";
+		t["R012"][53][1] = "레밀리아 스칼렛 Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -5804,23 +5804,23 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 2
-		t["R012"][103][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 2Lv";
+		t["R012"][103][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R012"][104][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 3Lv";
+		t["R012"][104][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R012"][105][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 4Lv";
+		t["R012"][105][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R012"][106][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 5Lv";
+		t["R012"][106][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 5Lv";
 -- gtp1 6
-		t["R012"][107][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 6Lv";
+		t["R012"][107][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 6Lv";
 -- gtp1 7
-		t["R012"][108][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 7Lv";
+		t["R012"][108][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 7Lv";
 -- gtp1 8
-		t["R012"][109][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 8Lv";
+		t["R012"][109][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 8Lv";
 -- gtp1 9
-		t["R012"][110][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - 9Lv";
+		t["R012"][110][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - 9Lv";
 -- gtp1 10
-		t["R012"][111][1] = "레밀리아 스칼렛 업그레이드|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R012"][111][1] = "레밀리아 스칼렛 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -5969,7 +5969,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00J"][55][1] = "익스텐드 유닛 업그레이드";
+		t["R00J"][55][1] = "익스텐드 유닛 Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -6019,25 +6019,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00J"][104][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 1Lv";
+		t["R00J"][104][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 1Lv";
 -- gtp1 2
-		t["R00J"][105][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 2Lv";
+		t["R00J"][105][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 2Lv";
 -- gtp1 3
-		t["R00J"][106][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 3Lv";
+		t["R00J"][106][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 3Lv";
 -- gtp1 4
-		t["R00J"][107][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 4Lv";
+		t["R00J"][107][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 4Lv";
 -- gtp1 5
-		t["R00J"][108][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 5Lv";
+		t["R00J"][108][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 5Lv";
 -- gtp1 6
-		t["R00J"][109][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 6Lv";
+		t["R00J"][109][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 6Lv";
 -- gtp1 7
-		t["R00J"][110][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 7Lv";
+		t["R00J"][110][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 7Lv";
 -- gtp1 8
-		t["R00J"][111][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 8Lv";
+		t["R00J"][111][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 8Lv";
 -- gtp1 9
-		t["R00J"][112][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - 9Lv";
+		t["R00J"][112][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - 9Lv";
 -- gtp1 10
-		t["R00J"][113][1] = "모노노베노 후토 업그레이드|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["R00J"][113][1] = "모노노베노 후토 Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -6193,7 +6193,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00L"][59][1] = "사이교우지 유유코 업그레이드";
+		t["R00L"][59][1] = "사이교우지 유유코 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -6239,25 +6239,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00L"][104][1] = "순호 업그레이드|cffffcc00(E)|r - 1Lv";
+		t["R00L"][104][1] = "순호 Upgrade|cffffcc00(E)|r - 1Lv";
 -- gtp1 2
-		t["R00L"][105][1] = "순호 업그레이드|cffffcc00(E)|r - 2Lv";
+		t["R00L"][105][1] = "순호 Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R00L"][106][1] = "순호 업그레이드|cffffcc00(E)|r - 3Lv";
+		t["R00L"][106][1] = "순호 Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R00L"][107][1] = "순호 업그레이드|cffffcc00(E)|r - 4Lv";
+		t["R00L"][107][1] = "순호 Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R00L"][108][1] = "순호 업그레이드|cffffcc00(E)|r - c00ff0000마스터|r";
+		t["R00L"][108][1] = "순호 Upgrade|cffffcc00(E)|r - c00ff0000마스터|r";
 -- gtp1 6
-		t["R00L"][109][1] = "사이교우지 유유코 업그레이드|cffffcc00(D)|r - 6Lv";
+		t["R00L"][109][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 6Lv";
 -- gtp1 7
-		t["R00L"][110][1] = "사이교우지 유유코 업그레이드|cffffcc00(D)|r - 7Lv";
+		t["R00L"][110][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 7Lv";
 -- gtp1 8
-		t["R00L"][111][1] = "사이교우지 유유코 업그레이드|cffffcc00(D)|r - 8Lv";
+		t["R00L"][111][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 8Lv";
 -- gtp1 9
-		t["R00L"][112][1] = "사이교우지 유유코 업그레이드|cffffcc00(D)|r - 9Lv";
+		t["R00L"][112][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 9Lv";
 -- gtp1 10
-		t["R00L"][113][1] = "사이교우지 유유코 업그레이드|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["R00L"][113][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -6301,7 +6301,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00L"][154][1] = "순호의 공격력이 25000, 공격속도가 16% 상승합니다.『떨며 얼어붙는 별』의 발동 확률이 0.5% 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『손바닥의 순광』,『떨며 얼어붙는 별』의 스킬 데미지가 20% 상승합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『손바닥의 순광』,『떨며 얼어붙는 별』의 스킬 데미지가 20% 상승합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -6416,12 +6416,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01D"][55][1] = "호리카와 라이코 업그레이드[A]";
+		t["R01D"][55][1] = "호리카와 라이코 Upgrade[A]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R01D"][59][1] = "토요사토미미노 미코 업그레이드";
+		t["R01D"][59][1] = "토요사토미미노 미코 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -6467,25 +6467,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01D"][104][1] = "호리카와 라이코 업그레이드|cffffcc00(A)|r - 1Lv";
+		t["R01D"][104][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 1Lv";
 -- gtp1 2
-		t["R01D"][105][1] = "호리카와 라이코 업그레이드|cffffcc00(A)|r - 2Lv";
+		t["R01D"][105][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R01D"][106][1] = "호리카와 라이코 업그레이드|cffffcc00(A)|r - 3Lv";
+		t["R01D"][106][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R01D"][107][1] = "호리카와 라이코 업그레이드|cffffcc00(A)|r - 4Lv";
+		t["R01D"][107][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R01D"][108][1] = "호리카와 라이코 업그레이드|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R01D"][108][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R01D"][109][1] = "토요사토미미노 미코 업그레이드|cffffcc00(S)|r - 6Lv";
+		t["R01D"][109][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 6Lv";
 -- gtp1 7
-		t["R01D"][110][1] = "토요사토미미노 미코 업그레이드|cffffcc00(S)|r - 7Lv";
+		t["R01D"][110][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 7Lv";
 -- gtp1 8
-		t["R01D"][111][1] = "토요사토미미노 미코 업그레이드|cffffcc00(S)|r - 8Lv";
+		t["R01D"][111][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 8Lv";
 -- gtp1 9
-		t["R01D"][112][1] = "토요사토미미노 미코 업그레이드|cffffcc00(S)|r - 9Lv";
+		t["R01D"][112][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 9Lv";
 -- gtp1 10
-		t["R01D"][113][1] = "토요사토미미노 미코 업그레이드|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R01D"][113][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -6529,7 +6529,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01D"][154][1] = "라이코의 공격속도가 16% 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 오버차지 최대치 효과가 발동한 후 최초 데미지가 아닌 오버차지 1스택으로 돌아갑니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 오버차지 최대치 효과가 발동한 후 최초 데미지가 아닌 오버차지 1스택으로 돌아갑니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -6642,7 +6642,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01E"][55][1] = "레티 화이트락 업그레이드";
+		t["R01E"][55][1] = "레티 화이트락 Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -6692,23 +6692,23 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 2
-		t["R01E"][105][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 2Lv";
+		t["R01E"][105][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R01E"][106][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 3Lv";
+		t["R01E"][106][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R01E"][107][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 4Lv";
+		t["R01E"][107][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R01E"][108][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 5Lv";
+		t["R01E"][108][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 5Lv";
 -- gtp1 6
-		t["R01E"][109][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 6Lv";
+		t["R01E"][109][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 6Lv";
 -- gtp1 7
-		t["R01E"][110][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 7Lv";
+		t["R01E"][110][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 7Lv";
 -- gtp1 8
-		t["R01E"][111][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 8Lv";
+		t["R01E"][111][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 8Lv";
 -- gtp1 9
-		t["R01E"][112][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - 9Lv";
+		t["R01E"][112][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - 9Lv";
 -- gtp1 10
-		t["R01E"][113][1] = "레티 화이트락 업그레이드|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R01E"][113][1] = "레티 화이트락 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -6801,7 +6801,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 10
 -- [R01G]
 -- gnam 1
-		t["R01G"][1][1] = "토요사토미미노 미코 업그레이드[Q]";
+		t["R01G"][1][1] = "토요사토미미노 미코 Upgrade[Q]";
 -- gef1
 -- ghk1 1
 -- greq 1
@@ -6908,15 +6908,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01G"][105][1] = "토요사토미미노 미코 업그레이드|cffffcc00(Q)|r - 1Lv";
+		t["R01G"][105][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 1Lv";
 -- gtp1 2
-		t["R01G"][106][1] = "토요사토미미노 미코 업그레이드|cffffcc00(Q)|r - 2Lv";
+		t["R01G"][106][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["R01G"][107][1] = "토요사토미미노 미코 업그레이드|cffffcc00(Q)|r - 3Lv";
+		t["R01G"][107][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["R01G"][108][1] = "토요사토미미노 미코 업그레이드|cffffcc00(Q)|r - 4Lv";
+		t["R01G"][108][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["R01G"][109][1] = "토요사토미미노 미코 업그레이드|cffffcc00(Q)|r - |c00ff0000마스터|r";
+		t["R01G"][109][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -6967,7 +6967,7 @@ TPT_upgrades_loader = function(t)
 『천상』 : 『황금의 검 지팡구』가 발동할 확률을 1% 상승시킵니다.\r\
 『인상』 : 『권선징악은 옛적의 옳으신 말씀이니』의 발동 확률을 1% 상승시킵니다. \r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r \r\
+|c00FF0000*Upgrade 마스터 효과|r \r\
 『천상』:『특별히 양쪽 모두 고르게 해주마』의 퍼센트 데미지가 5%p 증가합니다.\r\
 『인상』: 『거스름이 없음을 으뜸으로 여기라』의 소모 마나가 200에서 120으로 감소합니다.";
 -- gub1 2
@@ -7020,7 +7020,7 @@ TPT_upgrades_loader = function(t)
 -- greq 5
 -- [R01H]
 -- gnam 1
-		t["R01H"][1][1] = "이바라기 카센 업그레이드[W]";
+		t["R01H"][1][1] = "이바라기 카센 Upgrade[W]";
 -- gef1
 -- ghk1 1
 -- greq 1
@@ -7123,15 +7123,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01H"][101][1] = "이바라기 카센 업그레이드|cffffcc00(W)|r - 1Lv";
+		t["R01H"][101][1] = "이바라기 카센 Upgrade|cffffcc00(W)|r - 1Lv";
 -- gtp1 2
-		t["R01H"][102][1] = "이바라기 카센 업그레이드|cffffcc00(W)|r - 2Lv";
+		t["R01H"][102][1] = "이바라기 카센 Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["R01H"][103][1] = "이바라기 카센 업그레이드|cffffcc00(W)|r - 3Lv";
+		t["R01H"][103][1] = "이바라기 카센 Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["R01H"][104][1] = "이바라기 카센 업그레이드|cffffcc00(W)|r - 4Lv";
+		t["R01H"][104][1] = "이바라기 카센 Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["R01H"][105][1] = "이바라기 카센 업그레이드|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R01H"][105][1] = "이바라기 카센 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -7180,7 +7180,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01H"][151][1] = "카센의 공격력을 35000 상승시키고, 공격속도를 15% 상승시키며,『미속의 무코』의 요구 마나가 10 감소합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 카센이 공격시 15% 확률로 대상 유닛을 자신의 위치로 끌어옵니다.끌어온 대상은 3초간 스턴 효과를 입고, 3% 확률로『의완 프로테우스』의 즉사 효과를 적용받습니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 카센이 공격시 15% 확률로 대상 유닛을 자신의 위치로 끌어옵니다.끌어온 대상은 3초간 스턴 효과를 입고, 3% 확률로『의완 프로테우스』의 즉사 효과를 적용받습니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -7292,12 +7292,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01I"][55][1] = "히나나위 텐시 업그레이드[A]";
+		t["R01I"][55][1] = "히나나위 텐시 Upgrade[A]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R01I"][59][1] = "샤메이마루 아야 업그레이드";
+		t["R01I"][59][1] = "Aya Shameimaru Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -7343,25 +7343,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01I"][104][1] = "히나나위 텐시 업그레이드|cffffcc00(A)|r - 1Lv";
+		t["R01I"][104][1] = "히나나위 텐시 Upgrade|cffffcc00(A)|r - 1Lv";
 -- gtp1 2
-		t["R01I"][105][1] = "히나나위 텐시 업그레이드|cffffcc00(A)|r - 2Lv";
+		t["R01I"][105][1] = "히나나위 텐시 Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R01I"][106][1] = "히나나위 텐시 업그레이드|cffffcc00(A)|r - 3Lv";
+		t["R01I"][106][1] = "히나나위 텐시 Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R01I"][107][1] = "히나나위 텐시 업그레이드|cffffcc00(A)|r - 4Lv";
+		t["R01I"][107][1] = "히나나위 텐시 Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R01I"][108][1] = "히나나위 텐시 업그레이드|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R01I"][108][1] = "히나나위 텐시 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R01I"][109][1] = "샤메이마루 아야 업그레이드|cffffcc00(E)|r - 6Lv";
+		t["R01I"][109][1] = "Aya Shameimaru Upgrade|cffffcc00(E)|r - 6Lv";
 -- gtp1 7
-		t["R01I"][110][1] = "샤메이마루 아야 업그레이드|cffffcc00(E)|r - 7Lv";
+		t["R01I"][110][1] = "Aya Shameimaru Upgrade|cffffcc00(E)|r - 7Lv";
 -- gtp1 8
-		t["R01I"][111][1] = "샤메이마루 아야 업그레이드|cffffcc00(E)|r - 8Lv";
+		t["R01I"][111][1] = "Aya Shameimaru Upgrade|cffffcc00(E)|r - 8Lv";
 -- gtp1 9
-		t["R01I"][112][1] = "샤메이마루 아야 업그레이드|cffffcc00(E)|r - 9Lv";
+		t["R01I"][112][1] = "Aya Shameimaru Upgrade|cffffcc00(E)|r - 9Lv";
 -- gtp1 10
-		t["R01I"][113][1] = "샤메이마루 아야 업그레이드|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["R01I"][113][1] = "Aya Shameimaru Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -7403,9 +7403,9 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R01I"][154][1] = "*공격력이 25000, 공격 속도가 12% 증가합니다. 텐시가 공격시 업그레이드 횟수 * 0.3의 마나를 추가로 회복합니다.\r\
+		t["R01I"][154][1] = "*공격력이 25000, 공격 속도가 12% 증가합니다. 텐시가 공격시 Upgrade 횟수 * 0.3의 마나를 추가로 회복합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『무념무상의 경지』의 지속시간 도중에도 『무념무상의 경지』가 발동 가능하도록 변경됩니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『무념무상의 경지』의 지속시간 도중에도 『무념무상의 경지』가 발동 가능하도록 변경됩니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -7467,7 +7467,7 @@ TPT_upgrades_loader = function(t)
 -- gef1
 -- [R01K]
 -- gnam 1
-		t["R01K"][1][1] = "매직 유닛 업그레이드";
+		t["R01K"][1][1] = "매직 유닛 Upgrade";
 -- gef1
 -- gub1 1
 		t["R01K"][3][1] = "매직 등급 유닛의 공격력과 공격속도를 증가 시킵니다.";
@@ -7573,35 +7573,35 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01K"][106][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv1";
+		t["R01K"][106][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv1";
 -- gtp1 2
-		t["R01K"][107][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv2";
+		t["R01K"][107][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv2";
 -- gtp1 3
-		t["R01K"][108][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv3";
+		t["R01K"][108][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv3";
 -- gtp1 4
-		t["R01K"][109][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv4";
+		t["R01K"][109][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv4";
 -- gtp1 5
-		t["R01K"][110][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv5";
+		t["R01K"][110][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv5";
 -- gtp1 6
-		t["R01K"][111][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv6";
+		t["R01K"][111][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv6";
 -- gtp1 7
-		t["R01K"][112][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv7";
+		t["R01K"][112][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv7";
 -- gtp1 8
-		t["R01K"][113][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv8";
+		t["R01K"][113][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv8";
 -- gtp1 9
-		t["R01K"][114][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv9";
+		t["R01K"][114][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv9";
 -- gtp1 10
-		t["R01K"][115][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv10";
+		t["R01K"][115][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv10";
 -- gtp1 11
-		t["R01K"][116][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv11";
+		t["R01K"][116][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv11";
 -- gtp1 12
-		t["R01K"][117][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv12";
+		t["R01K"][117][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv12";
 -- gtp1 13
-		t["R01K"][118][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv13";
+		t["R01K"][118][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv13";
 -- gtp1 15
-		t["R01K"][119][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv15";
+		t["R01K"][119][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv15";
 -- gtp1 14
-		t["R01K"][120][1] = "매직 유닛 업그레이드|cffffcc00(W)|r - Lv14";
+		t["R01K"][120][1] = "매직 유닛 Upgrade|cffffcc00(W)|r - Lv14";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
@@ -7748,11 +7748,11 @@ TPT_upgrades_loader = function(t)
 -- gnam 1
 -- gef1
 -- gtp1 1
-		t["R01M"][3][1] = "키진 세이자 업그레이드|cffffcc00(S)|r - 1Lv";
+		t["R01M"][3][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 1Lv";
 -- gub1 1
 		t["R01M"][4][1] = "*세이자의 공격력이 25000 증가하고, 공격속도가 14% 증가합니다. 『이블 인 더 미러』의 발동 확률이 1%씩 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『체인지 에어 브레이브』발동시 마나를 30~70 돌려받습니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『체인지 에어 브레이브』발동시 마나를 30~70 돌려받습니다.";
 -- ghk1 1
 -- greq 1
 		t["R01M"][6][1] = "e03M";
@@ -7769,13 +7769,13 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gtp1 2
-		t["R01M"][18][1] = "키진 세이자 업그레이드|cffffcc00(S)|r - 2Lv";
+		t["R01M"][18][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R01M"][19][1] = "키진 세이자 업그레이드|cffffcc00(S)|r - 3Lv";
+		t["R01M"][19][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R01M"][20][1] = "키진 세이자 업그레이드|cffffcc00(S)|r - 4Lv";
+		t["R01M"][20][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R01M"][21][1] = "키진 세이자 업그레이드|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R01M"][21][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -7896,25 +7896,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01Q"][104][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 1Lv";
+		t["R01Q"][104][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 1Lv";
 -- gtp1 2
-		t["R01Q"][105][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 2Lv";
+		t["R01Q"][105][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["R01Q"][106][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 3Lv";
+		t["R01Q"][106][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["R01Q"][107][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 4Lv";
+		t["R01Q"][107][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["R01Q"][108][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 5Lv";
+		t["R01Q"][108][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 5Lv";
 -- gtp1 6
-		t["R01Q"][109][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 6Lv";
+		t["R01Q"][109][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 6Lv";
 -- gtp1 7
-		t["R01Q"][110][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 7Lv";
+		t["R01Q"][110][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 7Lv";
 -- gtp1 8
-		t["R01Q"][111][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 8Lv";
+		t["R01Q"][111][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 8Lv";
 -- gtp1 9
-		t["R01Q"][112][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 9Lv";
+		t["R01Q"][112][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 9Lv";
 -- gtp1 10
-		t["R01Q"][113][1] = "[기본]에픽 업그레이드|cffffcc00(W)|r - 10Lv";
+		t["R01Q"][113][1] = "[기본]에픽 Upgrade|cffffcc00(W)|r - 10Lv";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -8068,12 +8068,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01S"][55][1] = "이부키 스이카 업그레이드[W]";
+		t["R01S"][55][1] = "이부키 스이카 Upgrade[W]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R01S"][59][1] = "이슈아 나자레누스 업그레이드";
+		t["R01S"][59][1] = "이슈아 나자레누스 Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -8119,25 +8119,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01S"][104][1] = "이부키 스이카 업그레이드|cffffcc00(W)|r - 1Lv";
+		t["R01S"][104][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 1Lv";
 -- gtp1 2
-		t["R01S"][105][1] = "이부키 스이카 업그레이드|cffffcc00(W)|r - 2Lv";
+		t["R01S"][105][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["R01S"][106][1] = "이부키 스이카 업그레이드|cffffcc00(W)|r - 3Lv";
+		t["R01S"][106][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["R01S"][107][1] = "이부키 스이카 업그레이드|cffffcc00(W)|r - 4Lv";
+		t["R01S"][107][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["R01S"][108][1] = "이부키 스이카 업그레이드|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R01S"][108][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R01S"][109][1] = "비루코 업그레이드|cffffcc00(S)|r - 6Lv";
+		t["R01S"][109][1] = "비루코 Upgrade|cffffcc00(S)|r - 6Lv";
 -- gtp1 7
-		t["R01S"][110][1] = "비루코 업그레이드|cffffcc00(S)|r - 7Lv";
+		t["R01S"][110][1] = "비루코 Upgrade|cffffcc00(S)|r - 7Lv";
 -- gtp1 8
-		t["R01S"][111][1] = "비루코 업그레이드|cffffcc00(S)|r - 8Lv";
+		t["R01S"][111][1] = "비루코 Upgrade|cffffcc00(S)|r - 8Lv";
 -- gtp1 9
-		t["R01S"][112][1] = "비루코 업그레이드|cffffcc00(S)|r - 9Lv";
+		t["R01S"][112][1] = "비루코 Upgrade|cffffcc00(S)|r - 9Lv";
 -- gtp1 10
-		t["R01S"][113][1] = "비루코 업그레이드|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R01S"][113][1] = "비루코 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -8181,7 +8181,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01S"][154][1] = "*스이카의 공격력이 75000, 공격속도가 8% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 귀부『미싱파워』의 방어 무시 데미지가 35% 증가합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 귀부『미싱파워』의 방어 무시 데미지가 35% 증가합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -8295,7 +8295,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01F"][55][1] = "우사미 스미레코 업그레이드[R]";
+		t["R01F"][55][1] = "우사미 스미레코 Upgrade[R]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -8345,15 +8345,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01F"][104][1] = "우사미 스미레코 업그레이드|cffffcc00(R)|r - 1Lv";
+		t["R01F"][104][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R01F"][105][1] = "우사미 스미레코 업그레이드|cffffcc00(R)|r - 2Lv";
+		t["R01F"][105][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R01F"][106][1] = "우사미 스미레코 업그레이드|cffffcc00(R)|r - 3Lv";
+		t["R01F"][106][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R01F"][107][1] = "우사미 스미레코 업그레이드|cffffcc00(R)|r - 4Lv";
+		t["R01F"][107][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R01F"][108][1] = "우사미 스미레코 업그레이드|cffffcc00(R)|r - |c00ff0000마스터|r";
+		t["R01F"][108][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -8402,7 +8402,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01F"][154][1] = "*공격력이 25000 , 공격속도가 14% 증가하고, 『3D 프린터건』의 발동 확률이 2% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『현세의 오컬티션』발동시 스미레코의 마나를 4 회복시킵니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『현세의 오컬티션』발동시 스미레코의 마나를 4 회복시킵니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -8505,7 +8505,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01T"][52][1] = "이바라기 카센 업그레이드";
+		t["R01T"][52][1] = "이바라기 카센 Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -8657,7 +8657,7 @@ TPT_upgrades_loader = function(t)
 -- gef2
 -- [R00A]
 -- gnam 1
-		t["R00A"][1][1] = "레전더리 유닛 업그레이드";
+		t["R00A"][1][1] = "레전더리 유닛 Upgrade";
 -- gef1
 -- gub1 1
 		t["R00A"][3][1] = "레전더리 유닛들의 공격력을 10000, 공격속도를 12% 상승시킵니다.";
@@ -8724,7 +8724,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 9
 -- gnam 10
 -- gnam 12
-		t["R00A"][66][1] = "에픽 유닛 업그레이드";
+		t["R00A"][66][1] = "에픽 유닛 Upgrade";
 -- gnam 11
 -- gnam 13
 -- gnam 15
@@ -8765,45 +8765,45 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00A"][106][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv1";
+		t["R00A"][106][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv1";
 -- gtp1 2
-		t["R00A"][107][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv2";
+		t["R00A"][107][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv2";
 -- gtp1 3
-		t["R00A"][108][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv3";
+		t["R00A"][108][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv3";
 -- gtp1 4
-		t["R00A"][109][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv4";
+		t["R00A"][109][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv4";
 -- gtp1 5
-		t["R00A"][110][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv5";
+		t["R00A"][110][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv5";
 -- gtp1 6
-		t["R00A"][111][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv6";
+		t["R00A"][111][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv6";
 -- gtp1 7
-		t["R00A"][112][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv7";
+		t["R00A"][112][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv7";
 -- gtp1 8
-		t["R00A"][113][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv8";
+		t["R00A"][113][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv8";
 -- gtp1 9
-		t["R00A"][114][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv9";
+		t["R00A"][114][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv9";
 -- gtp1 10
-		t["R00A"][115][1] = "레전더리 업그레이드|cffffcc00(R)|r - Lv10";
+		t["R00A"][115][1] = "레전더리 Upgrade|cffffcc00(R)|r - Lv10";
 -- gtp1 11
-		t["R00A"][116][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv11";
+		t["R00A"][116][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv11";
 -- gtp1 12
-		t["R00A"][117][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv12";
+		t["R00A"][117][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv12";
 -- gtp1 13
-		t["R00A"][118][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv13";
+		t["R00A"][118][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv13";
 -- gtp1 15
-		t["R00A"][119][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv15";
+		t["R00A"][119][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv15";
 -- gtp1 14
-		t["R00A"][120][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv14";
+		t["R00A"][120][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv14";
 -- gtp1 16
-		t["R00A"][121][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv16";
+		t["R00A"][121][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv16";
 -- gtp1 17
-		t["R00A"][122][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv17";
+		t["R00A"][122][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv17";
 -- gtp1 18
-		t["R00A"][123][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv18";
+		t["R00A"][123][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv18";
 -- gtp1 19
-		t["R00A"][124][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv19";
+		t["R00A"][124][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv19";
 -- gtp1 20
-		t["R00A"][125][1] = "유니크 등급 이하 업그레이드|cffffcc00(R)|r - Lv20";
+		t["R00A"][125][1] = "유니크 등급 이하 Upgrade|cffffcc00(R)|r - Lv20";
 -- gtp1 21
 -- gtp1 22
 -- gtp1 23
@@ -9355,7 +9355,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01X"][55][1] = "오카자키 유메미 업그레이드[R]";
+		t["R01X"][55][1] = "오카자키 유메미 Upgrade[R]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -9405,15 +9405,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01X"][104][1] = "오카자키 유메미 업그레이드|cffffcc00(R)|r - 1Lv";
+		t["R01X"][104][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R01X"][105][1] = "오카자키 유메미 업그레이드|cffffcc00(R)|r - 2Lv";
+		t["R01X"][105][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R01X"][106][1] = "오카자키 유메미 업그레이드|cffffcc00(R)|r - 3Lv";
+		t["R01X"][106][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R01X"][107][1] = "오카자키 유메미 업그레이드|cffffcc00(R)|r - 4Lv";
+		t["R01X"][107][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R01X"][108][1] = "오카자키 유메미 업그레이드|cffffcc00(R)|r - |c00ff0000마스터|r";
+		t["R01X"][108][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -9461,8 +9461,8 @@ TPT_upgrades_loader = function(t)
 -- gtp1 50
 -- gub1 3
 		t["R01X"][154][1] = "*데미지가 30000 증가하고, 공격속도가 12% 상승합니다.\r\
-|c00FF0000*업그레이드 마스터 효과|r : 청소용 메이드로봇『루코토』를 생성합니다.\r\
-[주의! 오카자키 유메미[히스토릭]이 존재하지 않을때 업그레이드를 마스터할 경우 루코토가 생성되지 않습니다.]";
+|c00FF0000*Upgrade 마스터 효과|r : 청소용 메이드로봇『루코토』를 생성합니다.\r\
+[주의! 오카자키 유메미[히스토릭]이 존재하지 않을때 Upgrade를 마스터할 경우 루코토가 생성되지 않습니다.]";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -9619,15 +9619,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01Y"][104][1] = "사리엘 업그레이드|cffffcc00(A)|r - 1Lv";
+		t["R01Y"][104][1] = "사리엘 Upgrade|cffffcc00(A)|r - 1Lv";
 -- gtp1 2
-		t["R01Y"][105][1] = "사리엘 업그레이드|cffffcc00(A)|r - 2Lv";
+		t["R01Y"][105][1] = "사리엘 Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R01Y"][106][1] = "사리엘 업그레이드|cffffcc00(A)|r - 3Lv";
+		t["R01Y"][106][1] = "사리엘 Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R01Y"][107][1] = "사리엘 업그레이드|cffffcc00(A)|r - 4Lv";
+		t["R01Y"][107][1] = "사리엘 Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R01Y"][108][1] = "사리엘 업그레이드|cffffcc00(A)|r - 5Lv";
+		t["R01Y"][108][1] = "사리엘 Upgrade|cffffcc00(A)|r - 5Lv";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -9676,7 +9676,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01Y"][154][1] = "*공격속도가 12% 상승합니다. 공격시 회복하는 마나가 0.4 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『달빛쇄도』발동시 필요한 『죽음의 무도』스택이 10에서 7로 감소합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『달빛쇄도』발동시 필요한 『죽음의 무도』스택이 10에서 7로 감소합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -9784,7 +9784,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01Z"][55][1] = "하타노 코코로 업그레이드[D]";
+		t["R01Z"][55][1] = "하타노 코코로 Upgrade[D]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -9834,15 +9834,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01Z"][104][1] = "하타노 코코로 업그레이드|cffffcc00(D)|r - 1Lv";
+		t["R01Z"][104][1] = "하타노 코코로 Upgrade|cffffcc00(D)|r - 1Lv";
 -- gtp1 2
-		t["R01Z"][105][1] = "하타노 코코로 업그레이드|cffffcc00(D)|r - 2Lv";
+		t["R01Z"][105][1] = "하타노 코코로 Upgrade|cffffcc00(D)|r - 2Lv";
 -- gtp1 3
-		t["R01Z"][106][1] = "하타노 코코로 업그레이드|cffffcc00(D)|r - 3Lv";
+		t["R01Z"][106][1] = "하타노 코코로 Upgrade|cffffcc00(D)|r - 3Lv";
 -- gtp1 4
-		t["R01Z"][107][1] = "하타노 코코로 업그레이드|cffffcc00(D)|r - 4Lv";
+		t["R01Z"][107][1] = "하타노 코코로 Upgrade|cffffcc00(D)|r - 4Lv";
 -- gtp1 5
-		t["R01Z"][108][1] = "하타노 코코로 업그레이드|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["R01Z"][108][1] = "하타노 코코로 Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -9891,7 +9891,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01Z"][154][1] = "공격력이 75000 상승하고, 공격 속도가 25% 증가합니다. \r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『수수께끼의 석가면』을 사용할 수 있게 됩니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『수수께끼의 석가면』을 사용할 수 있게 됩니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -10068,45 +10068,45 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R021"][106][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv1";
+		t["R021"][106][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv1";
 -- gtp1 2
-		t["R021"][107][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv2";
+		t["R021"][107][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv2";
 -- gtp1 3
-		t["R021"][108][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv3";
+		t["R021"][108][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv3";
 -- gtp1 4
-		t["R021"][109][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv4";
+		t["R021"][109][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv4";
 -- gtp1 5
-		t["R021"][110][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv5";
+		t["R021"][110][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv5";
 -- gtp1 6
-		t["R021"][111][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv6";
+		t["R021"][111][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv6";
 -- gtp1 7
-		t["R021"][112][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv7";
+		t["R021"][112][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv7";
 -- gtp1 8
-		t["R021"][113][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv8";
+		t["R021"][113][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv8";
 -- gtp1 9
-		t["R021"][114][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv9";
+		t["R021"][114][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv9";
 -- gtp1 10
-		t["R021"][115][1] = "[강화]에픽 유닛 업그레이드|cffffcc00(E)|r - Lv10";
+		t["R021"][115][1] = "[강화]에픽 유닛 Upgrade|cffffcc00(E)|r - Lv10";
 -- gtp1 11
-		t["R021"][116][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv11";
+		t["R021"][116][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv11";
 -- gtp1 12
-		t["R021"][117][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv12";
+		t["R021"][117][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv12";
 -- gtp1 13
-		t["R021"][118][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv13";
+		t["R021"][118][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv13";
 -- gtp1 15
-		t["R021"][119][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv15";
+		t["R021"][119][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv15";
 -- gtp1 14
-		t["R021"][120][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv14";
+		t["R021"][120][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv14";
 -- gtp1 16
-		t["R021"][121][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv16";
+		t["R021"][121][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv16";
 -- gtp1 17
-		t["R021"][122][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv17";
+		t["R021"][122][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv17";
 -- gtp1 18
-		t["R021"][123][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv18";
+		t["R021"][123][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv18";
 -- gtp1 19
-		t["R021"][124][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv19";
+		t["R021"][124][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv19";
 -- gtp1 20
-		t["R021"][125][1] = "에픽 유닛 업그레이드|cffffcc00(R)|r - Lv20";
+		t["R021"][125][1] = "에픽 유닛 Upgrade|cffffcc00(R)|r - Lv20";
 -- gtp1 21
 -- gtp1 22
 -- gtp1 23
@@ -10265,7 +10265,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00H"][55][1] = "겐게츠 업그레이드[S]";
+		t["R00H"][55][1] = "겐게츠 Upgrade[S]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -10315,15 +10315,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00H"][104][1] = "겐게츠 업그레이드|cffffcc00(S)|r - 1Lv";
+		t["R00H"][104][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 1Lv";
 -- gtp1 2
-		t["R00H"][105][1] = "겐게츠 업그레이드|cffffcc00(S)|r - 2Lv";
+		t["R00H"][105][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R00H"][106][1] = "겐게츠 업그레이드|cffffcc00(S)|r - 3Lv";
+		t["R00H"][106][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R00H"][107][1] = "겐게츠 업그레이드|cffffcc00(S)|r - 4Lv";
+		t["R00H"][107][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R00H"][108][1] = "겐게츠 업그레이드|cffffcc00(S)|r - c00ff0000마스터|r";
+		t["R00H"][108][1] = "겐게츠 Upgrade|cffffcc00(S)|r - c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -10372,7 +10372,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00H"][154][1] = "겐게츠의 공격력이 15000 증가하며, 공격속도가 10% 증가합니다. 겐게츠의 스킬이 발동할 확률이 0.5% 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『천사와 악마』의 마법 데미지 증폭률이 20%에서 30%로 증가합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『천사와 악마』의 마법 데미지 증폭률이 20%에서 30%로 증가합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -10534,15 +10534,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00M"][104][1] = "엘리 업그레이드|cffffcc00(E)|r - 1Lv";
+		t["R00M"][104][1] = "엘리 Upgrade|cffffcc00(E)|r - 1Lv";
 -- gtp1 2
-		t["R00M"][105][1] = "엘리 업그레이드|cffffcc00(E)|r - 2Lv";
+		t["R00M"][105][1] = "엘리 Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R00M"][106][1] = "엘리 업그레이드|cffffcc00(E)|r - 3Lv";
+		t["R00M"][106][1] = "엘리 Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R00M"][107][1] = "엘리 업그레이드|cffffcc00(E)|r - 4Lv";
+		t["R00M"][107][1] = "엘리 Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R00M"][108][1] = "엘리 업그레이드|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["R00M"][108][1] = "엘리 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -10591,7 +10591,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00M"][154][1] = "엘리의 공격력이 50000 증가하며, 공격속도가 12% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『몽환관의 단두대』의 허영갑주 효과가 12에서 20으로 증가합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『몽환관의 단두대』의 허영갑주 효과가 12에서 20으로 증가합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -10757,15 +10757,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00S"][104][1] = "콘가라 업그레이드|cffffcc00(D)|r - 1Lv";
+		t["R00S"][104][1] = "콘가라 Upgrade|cffffcc00(D)|r - 1Lv";
 -- gtp1 2
-		t["R00S"][105][1] = "콘가라 업그레이드|cffffcc00(D)|r - 2Lv";
+		t["R00S"][105][1] = "콘가라 Upgrade|cffffcc00(D)|r - 2Lv";
 -- gtp1 3
-		t["R00S"][106][1] = "콘가라 업그레이드|cffffcc00(D)|r - 3Lv";
+		t["R00S"][106][1] = "콘가라 Upgrade|cffffcc00(D)|r - 3Lv";
 -- gtp1 4
-		t["R00S"][107][1] = "콘가라 업그레이드|cffffcc00(D)|r - 4Lv";
+		t["R00S"][107][1] = "콘가라 Upgrade|cffffcc00(D)|r - 4Lv";
 -- gtp1 5
-		t["R00S"][108][1] = "콘가라 업그레이드|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["R00S"][108][1] = "콘가라 Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -10814,7 +10814,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00S"][154][1] = "*공격력이 35000 상승하고, 공격속도가 12% 상승합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r :\r\
+|c00FF0000*Upgrade 마스터 효과|r :\r\
 비검『육도의 갈림길』이 첫번째 발동시 감정통제 상태에 들어갑니다. 두번째 발동시 2번 연속으로 비검『육도의 갈림길』을 사용합니다.";
 -- gub1 2
 -- gub1 4
@@ -10976,15 +10976,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R013"][104][1] = "미마 업그레이드|cffffcc00(F)|r - 1Lv";
+		t["R013"][104][1] = "미마 Upgrade|cffffcc00(F)|r - 1Lv";
 -- gtp1 2
-		t["R013"][105][1] = "미마 업그레이드|cffffcc00(F)|r - 2Lv";
+		t["R013"][105][1] = "미마 Upgrade|cffffcc00(F)|r - 2Lv";
 -- gtp1 3
-		t["R013"][106][1] = "미마 업그레이드|cffffcc00(F)|r - 3Lv";
+		t["R013"][106][1] = "미마 Upgrade|cffffcc00(F)|r - 3Lv";
 -- gtp1 4
-		t["R013"][107][1] = "미마 업그레이드|cffffcc00(F)|r - 4Lv";
+		t["R013"][107][1] = "미마 Upgrade|cffffcc00(F)|r - 4Lv";
 -- gtp1 5
-		t["R013"][108][1] = "미마 업그레이드|cffffcc00(F)|r - 5Lv";
+		t["R013"][108][1] = "미마 Upgrade|cffffcc00(F)|r - 5Lv";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -11034,7 +11034,7 @@ TPT_upgrades_loader = function(t)
 		t["R013"][154][1] = "*미마의 공격속도가 10% , 스킬 공격력이 4% 증가합니다.\r\
 『마력파장』은 스킬 공격력이 증가하지 않는 대신, 발동 확률이 1% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『오중마법진』의 데미지가 50% 증가합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『오중마법진』의 데미지가 50% 증가합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -11199,15 +11199,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R014"][104][1] = "쿠루미 업그레이드|cffffcc00(A)|r - 1Lv";
+		t["R014"][104][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 1Lv";
 -- gtp1 2
-		t["R014"][105][1] = "쿠루미 업그레이드|cffffcc00(A)|r - 2Lv";
+		t["R014"][105][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R014"][106][1] = "쿠루미 업그레이드|cffffcc00(A)|r - 3Lv";
+		t["R014"][106][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R014"][107][1] = "쿠루미 업그레이드|cffffcc00(A)|r - 4Lv";
+		t["R014"][107][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R014"][108][1] = "쿠루미 업그레이드|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R014"][108][1] = "쿠루미 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -11256,7 +11256,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R014"][154][1] = "*공격력이 20000, 공격 속도가 10% 증가합니다. 추가로 『고갈』의 발동 확률이 3%씩 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r :\r\
+|c00FF0000*Upgrade 마스터 효과|r :\r\
 『홍향곡』으로 유니크 유닛을 흡혈할 경우, 대상 유닛을 정지시키지 않습니다.[조합 재료 사용 불가는 유지됩니다.]";
 -- gub1 2
 -- gub1 4
@@ -11505,7 +11505,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 39
 -- gub1 40
 -- gnam 1
-		t["R016"][194][1] = "[인형_업그레이드] 호라이";
+		t["R016"][194][1] = "[인형_Upgrade] 호라이";
 -- ghk1 2
 -- ghk1 3
 -- ghk1 4
@@ -11707,7 +11707,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 39
 -- gub1 40
 -- gnam 1
-		t["R017"][194][1] = "[인형_업그레이드] 스";
+		t["R017"][194][1] = "[인형_Upgrade] 스";
 -- ghk1 2
 -- ghk1 3
 -- ghk1 4
@@ -11823,15 +11823,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R015"][104][1] = "엘리스 업그레이드|cffffcc00(R)|r - 1Lv";
+		t["R015"][104][1] = "엘리스 Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R015"][105][1] = "엘리스 업그레이드|cffffcc00(R)|r - 2Lv";
+		t["R015"][105][1] = "엘리스 Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R015"][106][1] = "엘리스 업그레이드|cffffcc00(R)|r - 3Lv";
+		t["R015"][106][1] = "엘리스 Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R015"][107][1] = "엘리스 업그레이드|cffffcc00(R)|r - 4Lv";
+		t["R015"][107][1] = "엘리스 Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R015"][108][1] = "엘리스 업그레이드|cffffcc00(R)|r - 5Lv";
+		t["R015"][108][1] = "엘리스 Upgrade|cffffcc00(R)|r - 5Lv";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -11880,7 +11880,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R015"][154][1] = "＊엘리스의 공격속도가 13% 증가합니다.\r\
 \r\
-|c00FF0000*업그레이드 마스터 효과|r : 『클리포트 컨트렉트』를 사용할 수 있습니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『클리포트 컨트렉트』를 사용할 수 있습니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -12318,7 +12318,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 39
 -- gub1 40
 -- gnam 1
-		t["R01B"][194][1] = "[인형_업그레이드] 금발의 소녀";
+		t["R01B"][194][1] = "[인형_Upgrade] 금발의 소녀";
 -- ghk1 2
 -- ghk1 3
 -- ghk1 4

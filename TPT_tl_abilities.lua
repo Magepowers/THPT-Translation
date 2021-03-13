@@ -2402,7 +2402,7 @@ TPT_abilities_loader = function(t)
 -- [AId2]
 -- anam
 -- atp1 1
-		t["AId2"][2][1] = "『세이란 아머 브레이크』";
+		t["AId2"][2][1] = "『Seiran 아머 브레이크』";
 -- atp1 2
 		t["AId2"][3][1] = "『카센 아머 브레이크』";
 -- [ACr1]
@@ -2420,7 +2420,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACpu"][6][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 선대무녀[Phantasm]";
 -- aub1 1
-		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + 샤메이마루 아야[Epic] + Hakurei Reimu[Unique] + 고대와  환상의 조각\r\
+		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Aya Shameimaru[Epic] + Hakurei Reimu[Unique] + 고대와  환상의 조각\r\
 |c00A8F13A[타이핑]|r: 환상향의 유산(sendai phan)\r\
 \r\
 [공격속도]: 0.56초당 1번\r\
@@ -3277,7 +3277,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANdb"][1][1] = "|c00FEE952[Unit Information]|r - Kawashiro Nitori[Phantasm]";
 -- aub1 1
-		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + 호쥬 누에[Epic] + Kawashiro Nitori[Magic] + 고대와 환상의 조각\r\
+		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + Nue Houjuu[Epic] + Kawashiro Nitori[Magic] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 언더워터 카모플라쥬(nitori phan)\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
@@ -3377,7 +3377,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A004"][4][1] = "BTN\\BTNReisen.blp";
 -- atp1 1
-		t["A004"][5][1] = "|c00ffff00레이센 우동게인 이나바|r 조합|c00FF8040[D]|r";
+		t["A004"][5][1] = "|c00ffff00Reisen Udongein Inaba|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A004"][6][1] = "Tewi Inaba + Mystia Lorelei + Youmu Konpaku";
 -- ahky
@@ -3650,7 +3650,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A018"][5][1] = "|c00ffff00코메이지 사토리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A018"][6][1] = "코메이지 코이시[Epic] + 시키에이키 야마자나두[Epic] + 레이우지 우츠호 [제어불능] + 2 Unique Souls ";
+		t["A018"][6][1] = "코메이지 코이시[Epic] + 시키에이키 야마자나두[Epic] + Utsuho Reiuji [제어불능] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A018"][8][1] = "h01N,h01W,h01S,h05U,ehip";
@@ -3732,7 +3732,7 @@ TPT_abilities_loader = function(t)
 		t["A012"][5][1] = "|c00ffff00모리야 스와코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A012"][7][1] = "야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[핵반응 제어불능] + 2 Unique Souls ";
+		t["A012"][7][1] = "야사카 카나코[Epic] + Aya Shameimaru[Epic] + Utsuho Reiuji[핵반응 제어불능] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -3842,7 +3842,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01H"][5][1] = "|c00ffff00카자미 유카|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01H"][6][1] = "시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[노던 위너] + 2 Unique Souls ";
+		t["A01H"][6][1] = "시키에이키 야마자나두[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[노던 위너] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01H"][8][1] = "h01W,h039,h03V,h05U,ehip";
@@ -3857,7 +3857,7 @@ TPT_abilities_loader = function(t)
 		t["A01I"][3][1] = "Icon\\Unit\\BTNUtsuho_Leg.blp";
 -- anam
 -- atp1 1
-		t["A01I"][5][1] = "|c00ffff00레이우지 우츠호 핵반응 제어불능|r 조합|c00FF8040[D]|r";
+		t["A01I"][5][1] = "|c00ffff00Utsuho Reiuji 핵반응 제어불능|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A01I"][7][1] = "카엔뵤우 린 + 키리사메 마리사[팔괘로] + Cirno[마이너스 K]";
@@ -3888,7 +3888,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01K"][4][1] = "BTN\\BTNNue.blp";
 -- atp1 1
-		t["A01K"][5][1] = "|c00ffff00호쥬 누에|r 조합|c00FF8040[D]|r";
+		t["A01K"][5][1] = "|c00ffff00Nue Houjuu|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A01K"][6][1] = "정체불명 + Rumia EX + 나즈린";
 -- ahky
@@ -7456,7 +7456,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A05R"][3][1] = "Icon\\Unit\\BTNTenshi_Chro.blp";
 -- aub1 1
-		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls \r\
+		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: Utsuho Reiuji[핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 450\r\
@@ -11475,7 +11475,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A0BM"][4][1] = "BTN\\BTNAya.blp";
 -- atp1 1
-		t["A0BM"][5][1] = "|c00ffff00샤메이마루 아야|r 조합|c00FF8040[D]|r";
+		t["A0BM"][5][1] = "|c00ffff00Aya Shameimaru|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BM"][6][1] = "히메카이도 하타테 + 키리사메 마리사[팔괘로] + 호시구마 유기";
 -- ahky
@@ -13620,9 +13620,9 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["A0FE"][2][1] = "[Legendary_Unit Information]";
 -- atp1 1
-		t["A0FE"][3][1] = "|c00FEE952[Unit Information]|r - 샤메이마루 아야[Legendary]";
+		t["A0FE"][3][1] = "|c00FEE952[Unit Information]|r - Aya Shameimaru[Legendary]";
 -- aub1 1
-		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: 샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개\r\
+		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: Aya Shameimaru[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.27초당 1번\r\
 [이동속도]: 500[공중이동 가능]\r\
@@ -13717,7 +13717,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FM"][3][1] = "|c00FEE952[Unit Information]|r - 레이우지 우츠호[Epic]";
+		t["A0FM"][3][1] = "|c00FEE952[Unit Information]|r - Utsuho Reiuji[Epic]";
 -- aub1 1
 		t["A0FM"][4][1] = "|c00A8F13A[Combination]|r: 카엔뵤우 린[Unique] + 키리사메 마리사[Unique] + Cirno[Unique]\r\
 \r\
@@ -13866,7 +13866,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FX"][3][1] = "|c00FEE952[Unit Information]|r - 샤메이마루 아야[Epic]";
+		t["A0FX"][3][1] = "|c00FEE952[Unit Information]|r - Aya Shameimaru[Epic]";
 -- aub1 1
 		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + 키리사메 마리사[Unique] + 호시구마 유기[Unique]\r\
 \r\
@@ -13920,7 +13920,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G1"][3][1] = "|c00FEE952[Unit Information]|r - 메디슨 멜랑콜리[Epic]";
+		t["A0G1"][3][1] = "|c00FEE952[Unit Information]|r - Medicine Melancholy[Epic]";
 -- aub1 1
 		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Unique] + 카기야마 히나[Unique] + 첸[Unique]\r\
 \r\
@@ -13962,7 +13962,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G5"][3][1] = "|c00FEE952[Unit Information]|r - 호쥬 누에[Epic]";
+		t["A0G5"][3][1] = "|c00FEE952[Unit Information]|r - Nue Houjuu[Epic]";
 -- aub1 1
 		t["A0G5"][4][1] = "|c00A8F13A[Combination]|r: 정체불명[Unique] + 나즈린[Unique] + Rumia EX[Unique]\r\
 \r\
@@ -14060,7 +14060,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GC"][3][1] = "|c00FEE952[Unit Information]|r - 카자미 유카[Chronicle]";
 -- aub1 1
-		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 메디슨 멜랑콜리[Epic] + 레티 화이트락[Epic] + 2 Unique Souls \r\
+		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 400\r\
@@ -14096,7 +14096,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GF"][3][1] = "|c00FEE952[Unit Information]|r - 모리야 스와코[Chronicle]";
 -- aub1 1
-		t["A0GF"][4][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 샤메이마루 아야[Epic] + 레이우지 우츠호[Epic] + 2 Unique Souls \r\
+		t["A0GF"][4][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + Aya Shameimaru[Epic] + Utsuho Reiuji[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 450\r\
@@ -14122,7 +14122,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GH"][3][1] = "|c00FEE952[Unit Information]|r - 코메이지 사토리[Chronicle]";
 -- aub1 1
-		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + 레이우지 우츠호[제어불능] + 시키에이키 야마자나두[Epic] + 2 Unique Souls \r\
+		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + Utsuho Reiuji[제어불능] + 시키에이키 야마자나두[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -14980,7 +14980,7 @@ TPT_abilities_loader = function(t)
 		t["A08U"][4][1] = "|c00ffff00히나나위 텐시|r 조합|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
-		t["A08U"][6][1] = "레이우지 우츠호 [핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
+		t["A08U"][6][1] = "Utsuho Reiuji [핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
 -- acat
 		t["A08U"][7][1] = "h01S,h00S,ufro,h05U,ehip";
 -- aart
@@ -17084,9 +17084,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A05Z"][3][1] = "|c00FEE952[Unit Information]|r - 레이우지 우츠호[Legendary]";
+		t["A05Z"][3][1] = "|c00FEE952[Unit Information]|r - Utsuho Reiuji[Legendary]";
 -- aub1 1
-		t["A05Z"][4][1] = "|c00A8F13A[Combination]|r: 레이우지 우츠호[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개\r\
+		t["A05Z"][4][1] = "|c00A8F13A[Combination]|r: Utsuho Reiuji[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -17096,9 +17096,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aart
 -- aub1 1
-		t["A0G3"][5][1] = "레이우지 우츠호[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개";
+		t["A0G3"][5][1] = "Utsuho Reiuji[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0G3"][6][1] = "|c00ffff00레이우지 우츠호[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0G3"][6][1] = "|c00ffff00Utsuho Reiuji[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0G3"][8][1] = "h01S,h01G,h05U";
@@ -17179,9 +17179,9 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KN"][4][1] = "탄부『래빗 팔코너』";
 -- aub1 1
-		t["A0KN"][5][1] = "*세이란은 보스를 공격할때 공격속도가 200% 증가합니다.\r\
+		t["A0KN"][5][1] = "*Seiran은 보스를 공격할때 공격속도가 200% 증가합니다.\r\
 *보스 공격시 20% 확률로 전체 체력의 3% + 200만의  |c00FF6464물리 데미지|r를 입히고, 2초간 기절시킵니다.\r\
-*세이란이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 Normal 유닛을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
+*Seiran이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 Normal 유닛을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
 [나즈린 , 성련선]\r\
 [자신 라인의 자경단 미션만 해당됩니다.]";
 -- [A0KO]
@@ -18609,7 +18609,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0AE"][3][1] = "|c00FEE952[Unit Information]|r - 레이센 우동게인 이나바[Legendary]";
+		t["A0AE"][3][1] = "|c00FEE952[Unit Information]|r - Reisen Udongein Inaba[Legendary]";
 -- aub1 1
 		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 호라이산 카구야[Epic] + Unique 소울 1개\r\
 \r\
@@ -18671,9 +18671,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0LN"][5][1] = "레이센 우동게인 이나바[Unique] + 호라이산 카구야[Epic] + Unique 소울 1개";
+		t["A0LN"][5][1] = "Reisen Udongein Inaba[Unique] + 호라이산 카구야[Epic] + Unique 소울 1개";
 -- atp1 1
-		t["A0LN"][6][1] = "|c00ffff00레이센 우동게인 이나바[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0LN"][6][1] = "|c00ffff00Reisen Udongein Inaba[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0LN"][8][1] = "h016,h02P,h05U";
@@ -19517,9 +19517,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A014"][5][1] = "샤메이마루 아야[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개";
+		t["A014"][5][1] = "Aya Shameimaru[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개";
 -- atp1 1
-		t["A014"][6][1] = "|c00ffff00샤메이마루 아야[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A014"][6][1] = "|c00ffff00Aya Shameimaru[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A014"][8][1] = "h045,h00V,h01V,h05U";
@@ -19961,7 +19961,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Phantasm]";
 -- aub1 1
-		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 레이우지 우츠호[Epic] + Imaizumi Kagerou[Unique] + 고대와 환상의 조각\r\
+		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + Utsuho Reiuji[Epic] + Imaizumi Kagerou[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 워터 솔져(hime phan)\r\
 \r\
 [공격속도]: 0.54초당 1번\r\
@@ -20453,7 +20453,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0AH"][3][1] = "|c00FEE952[Unit Information]|r - 겐게츠[Historic]";
 -- aub1 1
-		t["A0AH"][4][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique]  + 고대와 환상의 조각\r\
+		t["A0AH"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique]  + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 420\r\
@@ -20493,7 +20493,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0DA"][5][1] = "메디슨 멜랑콜리[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique] + 고대와 환상의 조각 = 겐게츠";
+		t["A0DA"][5][1] = "Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique] + 고대와 환상의 조각 = 겐게츠";
 -- atp1 1
 		t["A0DA"][6][1] = "|c00ffff00겐게츠|r 조합|c00FF8040[F]|r";
 -- anam
@@ -22945,9 +22945,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A082"][4][1] = "Icon\\Unit\\BTNNue_Leg.blp";
 -- aub1 1
-		t["A082"][5][1] = "호쥬 누에[Epic] + 성련선[Unique] + Unique 소울 1개";
+		t["A082"][5][1] = "Nue Houjuu[Epic] + 성련선[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A082"][6][1] = "|c00ffff00호쥬 누에[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A082"][6][1] = "|c00ffff00Nue Houjuu[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A082"][8][1] = "h01U,h01L,h05U";
@@ -23021,9 +23021,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A0N4"][3][1] = "|c00FEE952[Unit Information]|r - 호쥬 누에[Legendary]";
+		t["A0N4"][3][1] = "|c00FEE952[Unit Information]|r - Nue Houjuu[Legendary]";
 -- aub1 1
-		t["A0N4"][4][1] = "|c00A8F13A[Combination]|r: 호쥬 누에[Epic] + 성련선[Unique] + Unique 소울\r\
+		t["A0N4"][4][1] = "|c00A8F13A[Combination]|r: Nue Houjuu[Epic] + 성련선[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.46초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -23091,7 +23091,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A0N9"][3][1] = "|c00FEE952[Unit Information]|r - 세이란[Legendary]";
+		t["A0N9"][3][1] = "|c00FEE952[Unit Information]|r - Seiran[Legendary]";
 -- aub1 1
 		t["A0N9"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 쿠모이 이치린[Unique] + Unique 소울\r\
 \r\
@@ -23106,7 +23106,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0NA"][5][1] = "Clownpiece[Epic] + 쿠모이 이치린[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0NA"][6][1] = "|c00ffff00세이란[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0NA"][6][1] = "|c00ffff00Seiran[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0NA"][8][1] = "h02Q,h036,h05U";
@@ -25667,9 +25667,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0OZ"][5][1] = "탄부『독수리는 가차없이 쏘았다』";
 -- aub1 1
-		t["A0OZ"][6][1] = "*세이란 주변 1100범위 적의 방어력을 25 감소시킵니다.\r\
-*세이란의 공격은 대상 주변 350범위의 스플래쉬 데미지로 적용됩니다.\r\
-*세이란이 공격시 마나를 2 회복합니다. 마나가 50이 됐을때, 전방의 적을 관통하는 탄알을 발사하여 보스 이외의 적에게 현재 체력의 3%의 물리 데미지 + 200만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
+		t["A0OZ"][6][1] = "*Seiran 주변 1100범위 적의 방어력을 25 감소시킵니다.\r\
+*Seiran의 공격은 대상 주변 350범위의 스플래쉬 데미지로 적용됩니다.\r\
+*Seiran이 공격시 마나를 2 회복합니다. 마나가 50이 됐을때, 전방의 적을 관통하는 탄알을 발사하여 보스 이외의 적에게 현재 체력의 3%의 물리 데미지 + 200만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 [보스 공격시에는 1의 마나가 회복됩니다.]";
 -- abuf 1
 		t["A0OZ"][8][1] = "B053";
@@ -32505,7 +32505,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A0MY"][3][1] = "|c00FEE952[Unit Information]|r - 쿠로코마 사키[Legendary]";
+		t["A0MY"][3][1] = "|c00FEE952[Unit Information]|r - Saki Kurokama[Legendary]";
 -- aub1 1
 		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + 카미시라사와 케이네 EX[Epic] +  Unique 소울\r\
 \r\
@@ -32516,7 +32516,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0MY"][5][1] = "BTN\\BTNSaki.blp";
 -- [A0N5]
 -- atp1 1
-		t["A0N5"][4][1] = "|c00ffff00쿠로코마 사키[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0N5"][4][1] = "|c00ffff00Saki Kurokama[Legendary]|r 조합|c00FF8040[F]|r";
 -- aub1 1
 		t["A0N5"][5][1] = "Imaizumi Kagerou[Unique] + 카미사라사와 케이네 EX[Epic] + Unique 소울 1개";
 -- anam
@@ -33054,7 +33054,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03U"][3][1] = "|c00FEE952[Unit Information]|r - 이누바시리 모미지[Arcana]";
 -- aub1 1
-		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + 샤메이마루 아야[Epic] + 히메카이도 하타테[Unique] + 이누바시리 모미지[Rare] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
+		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Aya Shameimaru[Epic] + 히메카이도 하타테[Unique] + 이누바시리 모미지[Rare] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 완료형 변체도(momiji arc)\r\
 \r\
 [공격속도]: 0.25초당 1번\r\
@@ -33315,7 +33315,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0K7"][2][1] = "|c00FEE952[Unit Information]|r - 링고[Arcana]";
 -- aub1 1
-		t["A0K7"][3][1] = "|c00A8F13A[Combination]|r: 레이센 우동게인 이나바[Unique] + Tewi Inaba[Rare] + 신비술사의 고서\r\
+		t["A0K7"][3][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Tewi Inaba[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 귤색의 이글래빗(ringo arc)\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
@@ -33464,7 +33464,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MV"][2][1] = "|c00FEE952[Unit Information]|r - Sunny Milk[Arcana]";
 -- aub1 1
-		t["A0MV"][3][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + Sunny Milk[Rare] + 신비술사의 고서\r\
+		t["A0MV"][3][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Sunny Milk[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 선라이트 오버드라이브(sunny arc)\r\
 [공격속도]: 0.58초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -34021,9 +34021,9 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0DJ]
 -- anam
-		t["A0DJ"][1][1] = "[세이란 공속]";
+		t["A0DJ"][1][1] = "[Seiran 공속]";
 -- atp1 2
-		t["A0DJ"][2][1] = "[세이란]";
+		t["A0DJ"][2][1] = "[Seiran]";
 -- atp1 3
 		t["A0DJ"][3][1] = "[마이]";
 -- [A0QN]
@@ -36358,7 +36358,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0S0"][4][1] = "|c00FEE952[Unit Information]|r - 메이라[Historic]";
 -- aub1 1
-		t["A0S0"][5][1] = "|c00A8F13A[Combination]|r: 유령악단[팬텀 앙상블] + 레이우지 우츠호[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
+		t["A0S0"][5][1] = "|c00A8F13A[Combination]|r: 유령악단[팬텀 앙상블] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450\r\
@@ -36417,7 +36417,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0S3"][5][1] = "유령악단[Epic] + 레이우지 우츠호[Epic] + Rumia EX[Unique] + 고대와 환상의 조각";
+		t["A0S3"][5][1] = "유령악단[Epic] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각";
 -- atp1 1
 		t["A0S3"][6][1] = "|c00ffff00메이라|r 조합|c00FF8040[D]|r";
 -- anam
@@ -38024,7 +38024,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0ST]
 -- atp1 1
-		t["A0ST"][1][1] = "|c00FEE952[Unit Information]|r - 샤메이마루 아야[Ascended]";
+		t["A0ST"][1][1] = "|c00FEE952[Unit Information]|r - Aya Shameimaru[Ascended]";
 -- anam
 -- aart
 		t["A0ST"][3][1] = "Icon\\Unit\\BTNAya_Asc.blp";
@@ -38607,7 +38607,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0T1]
 -- atp1 1
-		t["A0T1"][1][1] = "|c00FEE952[Unit Information]|r - 레이우지 우츠호[Ascended]";
+		t["A0T1"][1][1] = "|c00FEE952[Unit Information]|r - Utsuho Reiuji[Ascended]";
 -- anam
 -- aart
 		t["A0T1"][3][1] = "Icon\\Unit\\BTNUtsuho_Asc.blp";
@@ -38974,9 +38974,9 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- anam
 -- atp1 1
-		t["A0T6"][3][1] = "|c00FEE952[Unit Information]|r - 메디슨 멜랑콜리[Legendary]";
+		t["A0T6"][3][1] = "|c00FEE952[Unit Information]|r - Medicine Melancholy[Legendary]";
 -- aub1 1
-		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: 메디슨 멜랑콜리[Epic] + 카기야마 히나[Unique] + Unique 소울\r\
+		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + 카기야마 히나[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -39116,9 +39116,9 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0TI"][5][1] = "|c00ffff00메디슨 멜랑콜리[Legendary]|r 조합|c00FF8040[D]|r";
+		t["A0TI"][5][1] = "|c00ffff00Medicine Melancholy[Legendary]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0TI"][6][1] = "메디슨 멜랑콜리[Epic] +  카기야마 히나[Unique] + Unique 소울";
+		t["A0TI"][6][1] = "Medicine Melancholy[Epic] +  카기야마 히나[Unique] + Unique 소울";
 -- ahky
 -- acat
 		t["A0TI"][8][1] = "h039,h02N,h05U";

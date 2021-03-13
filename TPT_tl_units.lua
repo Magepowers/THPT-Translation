@@ -1889,7 +1889,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["hwtw"][2][1] = "buildings\\human\\Workshop\\Workshop.mdl";
 -- unam
-		t["hwtw"][5][1] = "[세이란 서포팅 베이]";
+		t["hwtw"][5][1] = "[Seiran 서포팅 베이]";
 -- ures
 		t["hwtw"][8][1] = "Rhar,Rhme,Rhss,Rhcd";
 -- [odes]
@@ -2514,7 +2514,7 @@ TPT_units_loader = function(t)
 -- usnd
 -- urac
 -- unam
-		t["nrzs"][3][1] = "쿠로코마 사키 - |c00804040Legendary|r|N|c00FF9393경아조 조장|r";
+		t["nrzs"][3][1] = "Saki Kurokama - |c00804040Legendary|r|N|c00FF9393경아조 조장|r";
 -- umdl
 		t["nrzs"][4][1] = "Y_Saki.mdl";
 -- uabi
@@ -3496,7 +3496,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h016"][7][1] = "레이센 우동게인 이나바 - |c00808040Unique|r";
+		t["h016"][7][1] = "Reisen Udongein Inaba - |c00808040Unique|r";
 -- ua1m
 		t["h016"][10][1] = "Abilities\\Spells\\Human\\StormBolt\\StormBoltMissile.mdl";
 -- umdl
@@ -3787,7 +3787,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h01S"][6][1] = "레이우지 우츠호[핵반응 제어불능] - |c00400080Epic|r";
+		t["h01S"][6][1] = "Utsuho Reiuji[핵반응 제어불능] - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h01S"][10][1] = "hero_utsuho.mdl";
@@ -3818,7 +3818,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01U"][7][1] = "호쥬 누에 - |c00400080Epic|r";
+		t["h01U"][7][1] = "Nue Houjuu - |c00400080Epic|r";
 -- ua1m
 -- umdl
 -- uico
@@ -4830,7 +4830,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01M"][7][1] = "WAVE52 - 샤메이마루 아야";
+		t["e01M"][7][1] = "WAVE52 - Aya Shameimaru";
 -- upgr
 -- umdl
 		t["e01M"][12][1] = "units\\orc\\HeadHunter\\HeadHunter_V1.mdl";
@@ -4908,7 +4908,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01S"][7][1] = "WAVE58 - 레이센 우동게인 이나바";
+		t["e01S"][7][1] = "WAVE58 - Reisen Udongein Inaba";
 -- upgr
 -- umdl
 -- uarm
@@ -5043,7 +5043,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e023"][7][1] = "WAVE69 - 레이우지 우츠호";
+		t["e023"][7][1] = "WAVE69 - Utsuho Reiuji";
 -- upgr
 -- umdl
 -- uarm
@@ -5466,7 +5466,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h039"][6][1] = "메디슨 멜랑콜리 - |c00400080Epic|r";
+		t["h039"][6][1] = "Medicine Melancholy - |c00400080Epic|r";
 -- ua1m
 		t["h039"][9][1] = "Abilities\\Weapons\\ChimaeraAcidMissile\\ChimaeraAcidMissile.mdl";
 -- umdl
@@ -5618,7 +5618,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- [o003]
 -- unam
-		t["o003"][1][1] = "세이란 샷건";
+		t["o003"][1][1] = "Seiran 샷건";
 -- ua1g
 -- ua1w
 -- uabi
@@ -5980,7 +5980,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h045"][7][1] = "샤메이마루 아야 - |c00400080Epic|r";
+		t["h045"][7][1] = "Aya Shameimaru - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h045"][11][1] = "Aya.mdl";
@@ -6695,7 +6695,7 @@ TPT_units_loader = function(t)
 -- utip
 		t["h04Z"][12][1] = "요괴의 산 선택|cffffcc00(E)|r";
 -- utub
-		t["h04Z"][13][1] = "진영을 요괴의 산으로 선택합니다. 또한 샤메이마루 아야[Legendary]의 조합이 가능해집니다.\r\
+		t["h04Z"][13][1] = "진영을 요괴의 산으로 선택합니다. 또한 Aya Shameimaru[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r풍신의 축복\r\
 -Normal 유닛 1기에게 사용시, 랜덤한 Normal 혹은 Magic 유닛으로 바꿉니다.\r\
@@ -6716,7 +6716,7 @@ TPT_units_loader = function(t)
 -- utip
 		t["h051"][12][1] = "지령전 선택|cffffcc00(W)|r";
 -- utub
-		t["h051"][13][1] = "진영을 지령전으로 선택합니다. 레이우지 우츠호[Legendary]의 조합이 가능해집니다.\r\
+		t["h051"][13][1] = "진영을 지령전으로 선택합니다. Utsuho Reiuji[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r스테어웨이 투 헬\r\
 -포도주의 강화버전인 스테어웨이 투 헬을 사용할 수 있게 됩니다. 지령전에서 사용하는 스킬로, 향림당의 포도주와는 별도로 사용가능하지만 버프는 함께 적용되지 않습니다.";
@@ -7089,7 +7089,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h05T"][7][1] = "레이우지 우츠호 - |c00804040Legendary|r|N|c00FF9393뜨겁게 고뇌하는 신의 불|r";
+		t["h05T"][7][1] = "Utsuho Reiuji - |c00804040Legendary|r|N|c00FF9393뜨겁게 고뇌하는 신의 불|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7232,7 +7232,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h06A"][6][1] = "레이센 우동게인 이나바 - |c00804040Legendary|r|N|c00FF9393광기의 눈동자|r";
+		t["h06A"][6][1] = "Reisen Udongein Inaba - |c00804040Legendary|r|N|c00FF9393광기의 눈동자|r";
 -- ua1m
 		t["h06A"][9][1] = "BeamMissile.mdl";
 -- umdl
@@ -7316,7 +7316,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06H"][7][1] = "샤메이마루 아야 - |c00804040Legendary|r|N|c00FF9393풍신소녀|r";
+		t["h06H"][7][1] = "Aya Shameimaru - |c00804040Legendary|r|N|c00FF9393풍신소녀|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7705,7 +7705,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h05Z"][6][1] = "메디슨 멜랑콜리 - |c0000FFFFExtended|r";
+		t["h05Z"][6][1] = "Medicine Melancholy - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7767,7 +7767,7 @@ TPT_units_loader = function(t)
 -- [h072]
 -- upgr
 -- unam
-		t["h072"][5][1] = "세이란 - |c00804040Legendary|r|N|c00FF9393옅은 남색의 이글래빗|r";
+		t["h072"][5][1] = "Seiran - |c00804040Legendary|r|N|c00FF9393옅은 남색의 이글래빗|r";
 -- ua1m
 -- umdl
 		t["h072"][9][1] = "Y_Seiran_d.mdl";
@@ -7841,7 +7841,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h077"][6][1] = "호쥬 누에 - |c00804040Legendary|r|N|c00FF9393정체불명의 정체|r";
+		t["h077"][6][1] = "Nue Houjuu - |c00804040Legendary|r|N|c00FF9393정체불명의 정체|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7887,7 +7887,7 @@ TPT_units_loader = function(t)
 		t["h07A"][9][1] = "[진영]달의 도시";
 -- umki
 -- utub
-		t["h07A"][13][1] = "진영을 달의 도시로 선택합니다. 세이란[Legendary]의 조합이 가능해집니다.\r\
+		t["h07A"][13][1] = "진영을 달의 도시로 선택합니다. Seiran[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r 달의 기술력\r\
 -아군 유닛의 공격력을 5% 증가시킵니다.\r\
@@ -8042,7 +8042,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h04D"][7][1] = "샤메이마루 아야 - |c00804040Legendary|r,|c0080A8E6Ascended|r|N바람의 대텐구";
+		t["h04D"][7][1] = "Aya Shameimaru - |c00804040Legendary|r,|c0080A8E6Ascended|r|N바람의 대텐구";
 -- ua1m
 -- umdl
 -- uico
@@ -8138,7 +8138,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h07K"][6][1] = "레이우지 우츠호[핵반응 제어불능] - |c0000FFFFExtended|r";
+		t["h07K"][6][1] = "Utsuho Reiuji[핵반응 제어불능] - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8208,7 +8208,7 @@ TPT_units_loader = function(t)
 -- uani
 -- [h07N]
 -- unam
-		t["h07N"][5][1] = "레이우지 우츠호 - |c0080A8E6Ascended|N뜨겁고 괴로운 신의 불꽃|r";
+		t["h07N"][5][1] = "Utsuho Reiuji - |c0080A8E6Ascended|N뜨겁고 괴로운 신의 불꽃|r";
 -- ua1m
 -- umdl
 		t["h07N"][9][1] = "Y_Utsuho_dh.mdl";
@@ -8517,7 +8517,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h07V"][7][1] = "샤메이마루 아야 - |c0000FFFFExtended|r";
+		t["h07V"][7][1] = "Aya Shameimaru - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8530,7 +8530,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h07W"][7][1] = "호쥬 누에 - |c0000FFFFExtended|r";
+		t["h07W"][7][1] = "Nue Houjuu - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8821,7 +8821,7 @@ TPT_units_loader = function(t)
 -- utip
 		t["h082"][12][1] = "이름 없는 언덕 선택|cffffcc00(V)|r";
 -- utub
-		t["h082"][13][1] = "진영을 이름 없는 언덕으로 선택합니다. 메디슨 멜랑콜리[Legendary]의 조합이 가능해집니다.\r\
+		t["h082"][13][1] = "진영을 이름 없는 언덕으로 선택합니다. Medicine Melancholy[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r콘발라톡신\r\
 -1초마다 자신 유닛의 활력을 1% 회복합니다.";
@@ -8832,7 +8832,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h083"][6][1] = "메디슨 멜랑콜리 - |c00804040Legendary|r|N|c00FF9393자그마한 스위트 포이즌|r";
+		t["h083"][6][1] = "Medicine Melancholy - |c00804040Legendary|r|N|c00FF9393자그마한 스위트 포이즌|r";
 -- ua1m
 -- umdl
 -- uico
@@ -9105,7 +9105,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [e04C]
 -- unam
-		t["e04C"][1][1] = "연회 인형|N|c00FF80C0세이란|r";
+		t["e04C"][1][1] = "연회 인형|N|c00FF80C0Seiran|r";
 -- uabi
 		t["e04C"][7][1] = "A0UH,A0CR,Avul";
 -- uhrt
@@ -9138,7 +9138,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [e04F]
 -- unam
-		t["e04F"][1][1] = "연회 인형|N|c00FF80C0호쥬 누에|r";
+		t["e04F"][1][1] = "연회 인형|N|c00FF80C0Nue Houjuu|r";
 -- uabi
 		t["e04F"][7][1] = "A0UK,A0CR,Avul";
 -- uhrt
