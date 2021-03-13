@@ -2561,7 +2561,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACce"][2][1] = "|c00FEE952[Unit Information]|r - Yamame Kurodani[Arcana]";
 -- aub1 1
-		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + 호라이산 카구야[Epic] + Yamame Kurodani[Rare] + 신비술사의 고서\r\
+		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Houraisan Kaguya[Epic] + Yamame Kurodani[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 거미는 동물!(yamame arc)\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
@@ -3333,7 +3333,7 @@ TPT_abilities_loader = function(t)
 -- arac
 		t["A01P"][7][1] = "creeps";
 -- aub1 1
-		t["A01P"][8][1] = "호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls ";
+		t["A01P"][8][1] = "Houraisan Kaguya[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 		t["A01P"][10][1] = "1,1,1,2,1";
@@ -4175,9 +4175,9 @@ TPT_abilities_loader = function(t)
 -- [A02T]
 -- arac
 -- atp1 1
-		t["A02T"][2][1] = "|c00FEE952[Unit Information]|r - 호라이산 카구야[Phantasm]";
+		t["A02T"][2][1] = "|c00FEE952[Unit Information]|r - Houraisan Kaguya[Phantasm]";
 -- aub1 1
-		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + 야사카 카나코[Epic] + 달의 조각 + 고대와 환상의 조각\r\
+		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + 야사카 카나코[Epic] + 달의 조각 + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 라스트 엑자일(kaguya phan)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
@@ -13797,7 +13797,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0FS"][3][1] = "|c00FEE952[Unit Information]|r - 호라이산 카구야[Epic]";
+		t["A0FS"][3][1] = "|c00FEE952[Unit Information]|r - Houraisan Kaguya[Epic]";
 -- aub1 1
 		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 우사미 렌코[Unique] + Tsukumo Benben[Unique]\r\
 \r\
@@ -14084,7 +14084,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0GE"][3][1] = "|c00FEE952[Unit Information]|r - 야고코로 에이린[Chronicle]";
 -- aub1 1
-		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls \r\
+		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450\r\
@@ -16186,7 +16186,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0DN"][3][1] = "|c00FEE952[Unit Information]|r - 호리카와 라이코[Chronicle]";
 -- aub1 1
-		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls \r\
+		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -16203,7 +16203,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0GN"][5][1] = "|c00ffff00호리카와 라이코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0GN"][7][1] = "Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + 호라이산 카구야[Epic] + 2 Unique Souls ";
+		t["A0GN"][7][1] = "Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -18611,7 +18611,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0AE"][3][1] = "|c00FEE952[Unit Information]|r - Reisen Udongein Inaba[Legendary]";
 -- aub1 1
-		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 호라이산 카구야[Epic] + Unique 소울 1개\r\
+		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + Houraisan Kaguya[Epic] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.32초당 1번\r\
 [이동속도]: 380[공중이동 가능]\r\
@@ -18671,7 +18671,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0LN"][5][1] = "Reisen Udongein Inaba[Unique] + 호라이산 카구야[Epic] + Unique 소울 1개";
+		t["A0LN"][5][1] = "Reisen Udongein Inaba[Unique] + Houraisan Kaguya[Epic] + Unique 소울 1개";
 -- atp1 1
 		t["A0LN"][6][1] = "|c00ffff00Reisen Udongein Inaba[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -36284,7 +36284,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0R6"][4][1] = "|c00FEE952[Unit Information]|r - Tewi Inaba[Phantasm]";
 -- aub1 1
-		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: 호라이산 카구야[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + 고대와 환상의 조각\r\
+		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 에인션트 듀퍼(tewi phan)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
@@ -36671,7 +36671,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0SC"][1][1] = "|c00FEE952[Unit Information]|r - 쿠모이 이치린[Phantasm]";
 -- aub1 1
-		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Epic] + 호라이산 카구야[Epic] + 쿠모이 이치린[Unique] + 고대와 환상의 조각\r\
+		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Epic] + Houraisan Kaguya[Epic] + 쿠모이 이치린[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 구름 승려(ichirin phan)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\

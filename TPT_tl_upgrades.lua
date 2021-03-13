@@ -3364,7 +3364,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00P"][55][1] = "호라이산 카구야 Upgrade";
+		t["R00P"][55][1] = "Houraisan Kaguya Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -3416,23 +3416,23 @@ TPT_upgrades_loader = function(t)
 -- gtp1 1
 		t["R00P"][104][1] = "레전더리 클리어 강화";
 -- gtp1 2
-		t["R00P"][105][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 2Lv";
+		t["R00P"][105][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R00P"][106][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 3Lv";
+		t["R00P"][106][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R00P"][107][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 4Lv";
+		t["R00P"][107][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R00P"][108][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 5Lv";
+		t["R00P"][108][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 5Lv";
 -- gtp1 6
-		t["R00P"][109][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 6Lv";
+		t["R00P"][109][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 6Lv";
 -- gtp1 7
-		t["R00P"][110][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 7Lv";
+		t["R00P"][110][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 7Lv";
 -- gtp1 8
-		t["R00P"][111][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 8Lv";
+		t["R00P"][111][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 8Lv";
 -- gtp1 9
-		t["R00P"][112][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - 9Lv";
+		t["R00P"][112][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - 9Lv";
 -- gtp1 10
-		t["R00P"][113][1] = "호라이산 카구야 Upgrade|cffffcc00(E)|r - c00ff0000마스터|r";
+		t["R00P"][113][1] = "Houraisan Kaguya Upgrade|cffffcc00(E)|r - c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13

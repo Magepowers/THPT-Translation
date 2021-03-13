@@ -284,7 +284,7 @@ t["|c00FFB0FF쿠모이 이치린[판타즘]|r : 봤지? 내가 슬레이브 다�
 t["BGMS\\\\Special\\\\SpeIchirinPhan.mp3"] = "BGMS\\\\Special\\\\SpeIchirinPhan.mp3";
 t["|c00FFB0FFFujiwara no Mokou[판타즘]|r : 카구야는 어디냐! 숨지 말고 튀어나와!!"] = "|c00FFB0FFFujiwara no Mokou[판타즘]|r : 카구야는 어디냐! 숨지 말고 튀어나와!!";
 t["BGMS\\\\Special\\\\SpeMokouPhan.mp3"] = "BGMS\\\\Special\\\\SpeMokouPhan.mp3";
-t["|c00FFB0FF호라이산 카구야[판타즘]|r : 모코우, 내 난제를 풀기엔 넌 너무 멍청해"] = "|c00FFB0FF호라이산 카구야[판타즘]|r : 모코우, 내 난제를 풀기엔 넌 너무 멍청해";
+t["|c00FFB0FFHouraisan Kaguya[판타즘]|r : 모코우, 내 난제를 풀기엔 넌 너무 멍청해"] = "|c00FFB0FFHouraisan Kaguya[판타즘]|r : 모코우, 내 난제를 풀기엔 넌 너무 멍청해";
 t["BGMS\\\\Special\\\\SpeKaguyaPhan.mp3"] = "BGMS\\\\Special\\\\SpeKaguyaPhan.mp3";
 t["|c00FFB0FF토요사토미미노 미코[천상]|r : 후토, 네 발상은 언제나 지나도 케케묵었어."] = "|c00FFB0FF토요사토미미노 미코[천상]|r : 후토, 네 발상은 언제나 지나도 케케묵었어.";
 t["BGMS\\\\Special\\\\SpeMikoHito.mp3"] = "BGMS\\\\Special\\\\SpeMikoHito.mp3";
@@ -861,7 +861,7 @@ t["|c00FF00FFKamishirasawa Keine EX|r  : 나는 반요의 정수다!"] = "|c00FF
 t["|c00FF00FF코메이지 코이시|r  : 상기의 길, 그 끝에서 난 만족을 찾겠다."] = "|c00FF00FF코메이지 코이시|r  : 상기의 길, 그 끝에서 난 만족을 찾겠다.";
 t["|c00FF00FFClownpiece|r  : It's Lunatic Time!"] = "|c00FF00FFClownpiece|r  : It's Lunatic Time!";
 t["|c00FF00FF토라마루 쇼우|r  : 돈이 모이는구나. 역시 투자는 분산 투자야."] = "|c00FF00FF토라마루 쇼우|r  : 돈이 모이는구나. 역시 투자는 분산 투자야.";
-t["|c00FF00FF호라이산 카구야|r  : 미인이란 나를 보고 하는 말이지."] = "|c00FF00FF호라이산 카구야|r  : 미인이란 나를 보고 하는 말이지.";
+t["|c00FF00FFHouraisan Kaguya|r  : 미인이란 나를 보고 하는 말이지."] = "|c00FF00FFHouraisan Kaguya|r  : 미인이란 나를 보고 하는 말이지.";
 t["|c00FF00FF호쥬 누에|r  : 내가 누구냐고? 알 필요 없다."] = "|c00FF00FF호쥬 누에|r  : 내가 누구냐고? 알 필요 없다.";
 t["|c00FF00FFFujiwara no Mokou|r  : 나는. 생명과 희망을 불러온다."] = "|c00FF00FFFujiwara no Mokou|r  : 나는. 생명과 희망을 불러온다.";
 t["|c00FF00FF나마즈|r  : 저녁메뉴 메기매운탕이라고...?"] = "|c00FF00FF나마즈|r  : 저녁메뉴 메기매운탕이라고...?";
@@ -935,7 +935,7 @@ t["|c00FF0080와카사기히메[판타즘]|r : 빙어라도 거슬러오를 수 
 t["|c00FF0080Mizuhashi Parsee[판타즘]|r : 나를 물로 보지 마라, 나는 젤러시 슈프림이다."] = "|c00FF0080Mizuhashi Parsee[판타즘]|r : 나를 물로 보지 마라, 나는 젤러시 슈프림이다.";
 t["|c00FF0080하쿠레이 선대무녀[판타즘]|r : 오늘, 우리는 되찾으리라. 우리의 환상향과! 우리의 유산을!"] = "|c00FF0080하쿠레이 선대무녀[판타즘]|r : 오늘, 우리는 되찾으리라. 우리의 환상향과! 우리의 유산을!";
 t["|c00FF0080Kamishirasawa Keine[판타즘]|r : 마셔라... 역사를 손에 넣어라..."] = "|c00FF0080Kamishirasawa Keine[판타즘]|r : 마셔라... 역사를 손에 넣어라...";
-t["|c00FF0080호라이산 카구야[판타즘]|r : 강한 자일수록 아름답지, 힘껏 발버둥치다 죽어라."] = "|c00FF0080호라이산 카구야[판타즘]|r : 강한 자일수록 아름답지, 힘껏 발버둥치다 죽어라.";
+t["|c00FF0080Houraisan Kaguya[판타즘]|r : 강한 자일수록 아름답지, 힘껏 발버둥치다 죽어라."] = "|c00FF0080Houraisan Kaguya[판타즘]|r : 강한 자일수록 아름답지, 힘껏 발버둥치다 죽어라.";
 t["|c00FF0080카와시로 니토리[판타즘]|r : 비밀이라니. 아껴두면 무슨 소용이야."] = "|c00FF0080카와시로 니토리[판타즘]|r : 비밀이라니. 아껴두면 무슨 소용이야.";
 t["|c00FF0080루미아[판타즘]|r : 오늘 밤. 루미아가 사냥에 나선다."] = "|c00FF0080루미아[판타즘]|r : 오늘 밤. 루미아가 사냥에 나선다.";
 t["|c00FF0080레티 화이트락[판타즘]|r : 레티는 정말 바보였습니다! 겨울이었다면~ 하고 생각하는 자가 진정한 톱이 될 수 있을 리가 없어요!"] = "|c00FF0080레티 화이트락[판타즘]|r : 레티는 정말 바보였습니다! 겨울이었다면~ 하고 생각하는 자가 진정한 톱이 될 수 있을 리가 없어요!";
