@@ -3522,7 +3522,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00W"][5][1] = "|c00ffff00Hakurei Reimu[호밍]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00W"][6][1] = "Hakurei Reimu + 키리사메 마리사 + Izayoi Sakuya";
+		t["A00W"][6][1] = "Hakurei Reimu + Marisa Kirisame + Izayoi Sakuya";
 -- ahky
 -- acat
 		t["A00W"][8][1] = "h00O,h00L,h00P";
@@ -3568,9 +3568,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00T"][4][1] = "Icon\\Unit\\BTNMarisa_Uniq.blp";
 -- atp1 1
-		t["A00T"][5][1] = "|c00ffff00키리사메 마리사[팔괘로]|r 조합|c00FF8040[D]|r";
+		t["A00T"][5][1] = "|c00ffff00Marisa Kirisame[팔괘로]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00T"][6][1] = "키리사메 마리사 + 앨리스 마가트로이드 + Patchouli Knowledge";
+		t["A00T"][6][1] = "Marisa Kirisame + 앨리스 마가트로이드 + Patchouli Knowledge";
 -- ahky
 -- acat
 		t["A00T"][8][1] = "h00L,h00M,h010";
@@ -3585,7 +3585,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00Z"][5][1] = "|c00ffff00Patchouli Knowledge[Philosopher's Stone]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00Z"][6][1] = "Patchouli Knowledge + 키리사메 마리사 + 앨리스 마가트로이드";
+		t["A00Z"][6][1] = "Patchouli Knowledge + Marisa Kirisame + 앨리스 마가트로이드";
 -- ahky
 -- acat
 		t["A00Z"][8][1] = "h010,h00M,h00L";
@@ -3860,7 +3860,7 @@ TPT_abilities_loader = function(t)
 		t["A01I"][5][1] = "|c00ffff00Utsuho Reiuji 핵반응 제어불능|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A01I"][7][1] = "카엔뵤우 린 + 키리사메 마리사[팔괘로] + Cirno[Minus K]";
+		t["A01I"][7][1] = "카엔뵤우 린 + Marisa Kirisame[팔괘로] + Cirno[Minus K]";
 -- ahky
 -- alig
 -- atat
@@ -7745,10 +7745,10 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A06P"][27][1] = "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp";
 -- aub1 1
-		t["A06P"][28][1] = "*키리사메 마리사[팔괘로]에 스킬 사용시 퀘스트가 완료됩니다.『아나키 불렛 헬』스킬을 습득합니다.\r\
+		t["A06P"][28][1] = "*Marisa Kirisame[팔괘로]에 스킬 사용시 퀘스트가 완료됩니다.『아나키 불렛 헬』스킬을 습득합니다.\r\
 \r\
 |c0080FF00보라! 들으라! 이야기하라! 비신의 진정한 마력이 너의 장애가 되리라!|r\r\
-|c00ffff00!주의 : 대상이 된 키리사메 마리사[팔괘로]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Marisa Kirisame[팔괘로]는 사라집니다.|r";
 -- [A06S]
 -- arac
 -- anam
@@ -11382,7 +11382,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0BG"][5][1] = "|c00ffff00앨리스 마가트로이드[인형재판]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BG"][6][1] = "앨리스 마가트로이드 + 키리사메 마리사 + Patchouli Knowledge";
+		t["A0BG"][6][1] = "앨리스 마가트로이드 + Marisa Kirisame + Patchouli Knowledge";
 -- ahky
 -- acat
 		t["A0BG"][8][1] = "h00M,h00L,h010";
@@ -11477,7 +11477,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0BM"][5][1] = "|c00ffff00Aya Shameimaru|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BM"][6][1] = "히메카이도 하타테 + 키리사메 마리사[팔괘로] + Hoshiguma Yuugi";
+		t["A0BM"][6][1] = "히메카이도 하타테 + Marisa Kirisame[팔괘로] + Hoshiguma Yuugi";
 -- ahky
 -- acat
 		t["A0BM"][8][1] = "h03Q,h018,h034";
@@ -13025,7 +13025,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0E0"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[Rare]";
+		t["A0E0"][3][1] = "|c00FEE952[Unit Information]|r - Marisa Kirisame[Rare]";
 -- aub1 1
 		t["A0E0"][4][1] = "|c00A8F13A[Combination]|r: Rumia[Magic] + Kawashiro Nitori[Magic] + Fairy[Normal]\r\
 \r\
@@ -13352,9 +13352,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0ER"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[팔괘로]";
+		t["A0ER"][3][1] = "|c00FEE952[Unit Information]|r - Marisa Kirisame[팔괘로]";
 -- aub1 1
-		t["A0ER"][4][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Rare] + Patchouli Knowledge[Rare] + 앨리스 마가트로이드[Rare]\r\
+		t["A0ER"][4][1] = "|c00A8F13A[Combination]|r: Marisa Kirisame[Rare] + Patchouli Knowledge[Rare] + 앨리스 마가트로이드[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
@@ -13585,7 +13585,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FB"][3][1] = "앨리스 마가트로이드[인형재판] Combination";
 -- aub1 1
-		t["A0FB"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + 키리사메 마리사[Rare] + Patchouli Knowledge[Rare]\r\
+		t["A0FB"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + Marisa Kirisame[Rare] + Patchouli Knowledge[Rare]\r\
 \r\
 [공격속도]: 1.05초당 1번\r\
 [이동속도]: 300\r\
@@ -13609,7 +13609,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FD"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Unique]";
 -- aub1 1
-		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + 키리사메 마리사[Rare] + Izayoi Sakuya[Rare]\r\
+		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Marisa Kirisame[Rare] + Izayoi Sakuya[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -13659,7 +13659,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FH"][3][1] = "Patchouli Knowledge[Philosopher's Stone] Combination";
 -- aub1 1
-		t["A0FH"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Rare] + 키리사메 마리사[Rare] + 앨리스 마가트로이드[Rare]\r\
+		t["A0FH"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Rare] + Marisa Kirisame[Rare] + 앨리스 마가트로이드[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
@@ -13719,7 +13719,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FM"][3][1] = "|c00FEE952[Unit Information]|r - Utsuho Reiuji[Epic]";
 -- aub1 1
-		t["A0FM"][4][1] = "|c00A8F13A[Combination]|r: 카엔뵤우 린[Unique] + 키리사메 마리사[Unique] + Cirno[Unique]\r\
+		t["A0FM"][4][1] = "|c00A8F13A[Combination]|r: 카엔뵤우 린[Unique] + Marisa Kirisame[Unique] + Cirno[Unique]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
@@ -13868,7 +13868,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FX"][3][1] = "|c00FEE952[Unit Information]|r - Aya Shameimaru[Epic]";
 -- aub1 1
-		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + 키리사메 마리사[Unique] + Hoshiguma Yuugi[Unique]\r\
+		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + Marisa Kirisame[Unique] + Hoshiguma Yuugi[Unique]\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -15203,7 +15203,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0CS"][2][1] = "|c00FEE952[Unit Information]|r - Nishida Satono[Epic]";
 -- aub1 1
-		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Unique] + Kishin Sagume[Unique] + 나즈린[Unique]\r\
+		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: Marisa Kirisame[Unique] + Kishin Sagume[Unique] + 나즈린[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350[공중 이동 가능]\r\
@@ -15603,7 +15603,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0JP"][4][1] = "|c00ffff00Nishida Satono|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0JP"][5][1] = "키리사메 마리사[팔괘로] + Kishin Sagume[Unique] + 나즈린[Unique]";
+		t["A0JP"][5][1] = "Marisa Kirisame[팔괘로] + Kishin Sagume[Unique] + 나즈린[Unique]";
 -- aart
 -- arac
 -- ahky
@@ -17149,7 +17149,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0HD"][4][1] = "창부『큐티 대천창』";
 -- aub1 1
 		t["A0HD"][5][1] = "*앨리스가 공격시 마나를 1 회복합니다. 마나가 105가 됐을때 아래의 효과를 발동합니다.\r\
-*자신의 유닛에 키리사메 마리사[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
+*자신의 유닛에 Marisa Kirisame[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
 *자신의 유닛에 Patchouli Knowledge[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
 *앨리스가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *총 3초간 지속됩니다.";
@@ -18813,7 +18813,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - 신키[Historic]";
 -- aub1 1
-		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
+		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 420\r\
@@ -18824,7 +18824,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
+		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
 -- atp1 1
 		t["A03R"][6][1] = "|c00ffff00신키|r 조합|c00FF8040[F]|r";
 -- anam
@@ -19974,7 +19974,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0M8"][5][1] = "Fairy + Kawashiro Nitori + Rumia";
 -- atp1 1
-		t["A0M8"][6][1] = "|c00ffff00키리사메 마리사|r 조합|c00FF8040[F]|r";
+		t["A0M8"][6][1] = "|c00ffff00Marisa Kirisame|r 조합|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0M8"][8][1] = "h002,h043,h00F";
@@ -29067,7 +29067,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A027"][5][1] = "|c00FEE952[Unit Information]|r - 모리치카 린노스케[Arcana]";
 -- aub1 1
-		t["A027"][6][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + 키리사메 마리사[Unique] + 신비술사의 고서\r\
+		t["A027"][6][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + Marisa Kirisame[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 향림당의 점주(rinno arc)\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
@@ -29077,7 +29077,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A027"][8][1] = "B06B";
 -- atp1 2
 -- aub1 2
-		t["A027"][10][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + 키리사메 마리사[Unique] + 신비술사의 고서\r\
+		t["A027"][10][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + Marisa Kirisame[Unique] + 신비술사의 고서\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -33066,9 +33066,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A05J"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[Arcana]";
+		t["A05J"][3][1] = "|c00FEE952[Unit Information]|r - Marisa Kirisame[Arcana]";
 -- aub1 1
-		t["A05J"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + 키리사메 마리사[Rare] + Hakurei Reimu[Rare] + 신비술사의 고서 * 2\r\
+		t["A05J"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + Marisa Kirisame[Rare] + Hakurei Reimu[Rare] + 신비술사의 고서 * 2\r\
 |c00A8F13A[타이핑]|r: 디어 마이 프렌드(marisa arc)\r\
 \r\
 [공격속도]: 0.41초당 1번\r\
