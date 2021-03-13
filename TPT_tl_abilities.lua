@@ -1535,7 +1535,7 @@ TPT_abilities_loader = function(t)
 		t["AIba"][3][1] = "BTN\\BTNHacatia.blp";
 -- arac
 -- atp1 1
-		t["AIba"][5][1] = "|c00FEE952[Unit Information]|r - 헤카티아 라피스라줄리[Epic]";
+		t["AIba"][5][1] = "|c00FEE952[Unit Information]|r - Hecatia Lapislazuli[Epic]";
 -- atp1 2
 		t["AIba"][6][1] = "지구『지옥에 내리는 비』- |c0000FFFF익스텐드|r";
 -- aub1 1
@@ -1574,7 +1574,7 @@ TPT_abilities_loader = function(t)
 		t["Amgl"][3][1] = "|c00FEE952[Unit Information]|r - 호시구마 유기[Phantasm]";
 -- anam
 -- aub1 1
-		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + 헤카티아 라피스라줄리[Epic] + 호시구마 유기[Unique] + 고대와 환상의 조각\r\
+		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + Hecatia Lapislazuli[Epic] + 호시구마 유기[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 군자불어괴력난신(yuugi phan)\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
@@ -10965,7 +10965,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A062"][1][1] = "|c00FEE952[Unit Information]|r - 하니야스신 케이키[Chronicle]";
 -- aub1 1
-		t["A062"][2][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls \r\
+		t["A062"][2][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 425\r\
@@ -16761,7 +16761,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0J6"][4][1] = "|c00FEE952[Unit Information]|r - 순호[Chronicle]";
 -- aub1 1
-		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls \r\
+		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 유령악단[Epic] + Hecatia Lapislazuli[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 425\r\
@@ -16774,7 +16774,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0J7"][5][1] = "|c00ffff00순호|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0J7"][6][1] = "Clownpiece[Epic] + 유령악단[Epic] + 헤카티아 라피스라줄리[Epic] + 2 Unique Souls ";
+		t["A0J7"][6][1] = "Clownpiece[Epic] + 유령악단[Epic] + Hecatia Lapislazuli[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0J7"][8][1] = "h02Q,h03B,edry,h05U,ehip";
@@ -18049,7 +18049,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A05O"][4][1] = "ReplaceableTextures\\CommandButtons\\Yumemi\\BTN_UP.blp";
 -- aub1 1
-		t["A05O"][5][1] = "헤카티아 라피스라줄리[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각 = 오카자키 유메미";
+		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각 = 오카자키 유메미";
 -- atp1 1
 		t["A05O"][6][1] = "|c00ffff00오카자키 유메미|r 조합|c00FF8040[F]|r";
 -- anam
@@ -18249,7 +18249,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A05P"][3][1] = "|c00FEE952[Unit Information]|r - 오카자키 유메미[Historic]";
 -- aub1 1
-		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각\r\
+		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -32648,7 +32648,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0QJ"][5][1] = "|c00ffff00하니야스신 케이키|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0QJ"][7][1] = "헤카티아 라피스라줄리[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls ";
+		t["A0QJ"][7][1] = "Hecatia Lapislazuli[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls ";
 -- ahky
 -- atat
 		t["A0QJ"][11][1] = "h07M";
@@ -39663,7 +39663,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TW"][3][1] = "|c00FEE952[Unit Information]|r - 엘리스[Historic]";
 -- aub1 1
-		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
+		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 450\r\
@@ -39782,7 +39782,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0U7"][5][1] = "레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + Lily Black[Unique] + 고대와 환상의 조각";
+		t["A0U7"][5][1] = "레밀리아 스칼렛[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각";
 -- atp1 1
 		t["A0U7"][6][1] = "|c00ffff00엘리스|r 조합|c00FF8040[D]|r";
 -- anam
