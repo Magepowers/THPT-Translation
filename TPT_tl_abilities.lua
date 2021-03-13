@@ -199,7 +199,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Asth"][4][1] = "|c00FEE952[Unit Information]|r - Sekibanki[Rare]";
 -- aub1 1
-		t["Asth"][5][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Small Devil[Magic] + 도깨비[Normal]\r\
+		t["Asth"][5][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Small Devil[Magic] + Goblin[Normal]\r\
 \r\
 [공격속도]: 1.2초당 1번\r\
 [이동속도]: 300\r\
@@ -3349,7 +3349,7 @@ TPT_abilities_loader = function(t)
 		t["A001"][6][1] = "|c00ffff00Rumia|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A001"][8][1] = "Zako + 도깨비";
+		t["A001"][8][1] = "Zako + Goblin";
 -- ahky
 -- alig
 		t["A001"][10][1] = "1,1";
@@ -3458,7 +3458,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00I"][5][1] = "|c00ffff00Orin|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00I"][6][1] = "도깨비 + Kisume + Small Devil";
+		t["A00I"][6][1] = "Goblin + Kisume + Small Devil";
 -- ahky
 -- acat
 		t["A00I"][8][1] = "h006,h00K,h00D";
@@ -6997,7 +6997,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- aub1 1
 		t["A05E"][2][1] = "*스이카 주변 1000범위 적의 이동속도를 45% 감소시킵니다.\r\
-*공격시 20% 확률로 도깨비 안개를 여러겹 겹쳐 전방에 있는 적에게 180만의 |c00AC59FF절대 데미지|r를 입힙니다.";
+*공격시 20% 확률로 Goblin 안개를 여러겹 겹쳐 전방에 있는 적에게 180만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- atar 1
 -- atat
 -- atp1 1
@@ -8225,7 +8225,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A07S"][6][1] = "|c00ffff00타타라 코가사|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A07S"][8][1] = "Kawashiro Nitori + 도깨비 + UFO";
+		t["A07S"][8][1] = "Kawashiro Nitori + Goblin + UFO";
 -- ahky
 -- alig
 -- atat
@@ -10653,7 +10653,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A002"][6][1] = "|c00ffff00Kisume|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A002"][8][1] = "도깨비 + Kappa";
+		t["A002"][8][1] = "Goblin + Kappa";
 -- ahky
 -- alig
 -- atat
@@ -11305,7 +11305,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0B8"][6][1] = "|c00ffff00Yoshika Miyako|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0B8"][8][1] = "Small Divine Spirit + Wriggle Nightbug + 도깨비";
+		t["A0B8"][8][1] = "Small Divine Spirit + Wriggle Nightbug + Goblin";
 -- ahky
 -- alig
 -- atat
@@ -11603,7 +11603,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A040"][6][1] = "|c00ffff00Hong Meiling|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A040"][8][1] = "Small Devil + Wriggle Nightbug + 도깨비";
+		t["A040"][8][1] = "Small Devil + Wriggle Nightbug + Goblin";
 -- ahky
 -- alig
 -- atat
@@ -12915,7 +12915,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0DQ"][3][1] = "|c00FEE952[Unit Information]|r - Kisume[Magic]";
 -- aub1 1
-		t["A0DQ"][4][1] = "|c00A8F13A[Combination]|r: 도깨비[Normal] + Kappa[Normal]\r\
+		t["A0DQ"][4][1] = "|c00A8F13A[Combination]|r: Goblin[Normal] + Kappa[Normal]\r\
 \r\
 [공격속도]: 1.3초당 1번\r\
 [이동속도]: 300\r\
@@ -12978,7 +12978,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0DV"][3][1] = "|c00FEE952[Unit Information]|r - Rumia[Magic]";
 -- aub1 1
-		t["A0DV"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + 도깨비[Normal]\r\
+		t["A0DV"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + Goblin[Normal]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
@@ -13124,7 +13124,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0E8"][3][1] = "|c00FEE952[Unit Information]|r - 타타라 코가사[Rare]";
 -- aub1 1
-		t["A0E8"][4][1] = "|c00A8F13A[Combination]|r: Kawashiro Nitori[Magic] + 도깨비[Normal] + UFO[Normal]\r\
+		t["A0E8"][4][1] = "|c00A8F13A[Combination]|r: Kawashiro Nitori[Magic] + Goblin[Normal] + UFO[Normal]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
@@ -13136,7 +13136,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0E9"][3][1] = "|c00FEE952[Unit Information]|r - Orin[Rare]";
 -- aub1 1
-		t["A0E9"][4][1] = "|c00A8F13A[Combination]|r: Kisume[Magic] + Small Devil[Magic] + 도깨비[Normal]\r\
+		t["A0E9"][4][1] = "|c00A8F13A[Combination]|r: Kisume[Magic] + Small Devil[Magic] + Goblin[Normal]\r\
 \r\
 [공격속도]: 1.25초당 1번\r\
 [이동속도]: 300\r\
@@ -13148,7 +13148,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0EA"][3][1] = "|c00FEE952[Unit Information]|r - Yoshika Miyako[Rare]";
 -- aub1 1
-		t["A0EA"][4][1] = "|c00A8F13A[Combination]|r: Small Divine Spirit[Magic] + Wriggle Nightbug[Magic] + 도깨비[Normal]\r\
+		t["A0EA"][4][1] = "|c00A8F13A[Combination]|r: Small Divine Spirit[Magic] + Wriggle Nightbug[Magic] + Goblin[Normal]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
@@ -13257,7 +13257,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0EJ"][3][1] = "|c00FEE952[Unit Information]|r - Hong Meiling[Rare]";
 -- aub1 1
-		t["A0EJ"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + Wriggle Nightbug[Magic] + 도깨비[Normal]\r\
+		t["A0EJ"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + Wriggle Nightbug[Magic] + Goblin[Normal]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -16088,7 +16088,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0D0"][6][1] = "|c00ffff00세키반키|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0D0"][8][1] = "Wakasagihime + 도깨비 + Small Devil";
+		t["A0D0"][8][1] = "Wakasagihime + Goblin + Small Devil";
 -- ahky
 -- alig
 -- atat
@@ -24320,7 +24320,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0O7"][5][1] = "『츠쿠모가미 대잔치』";
 -- aub1 1
-		t["A0O7"][6][1] = "*도깨비[Normal]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
+		t["A0O7"][6][1] = "*Goblin[Normal]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
 -- abuf 1
 		t["A0O7"][7][1] = "B04P";
 -- abuf 2

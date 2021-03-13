@@ -1061,13 +1061,13 @@ TPT_items_loader = function(t)
 -- icla
 -- [I02K]
 -- unam
-		t["I02K"][1][1] = "[진영]도깨비 소환";
+		t["I02K"][1][1] = "[진영]Goblin 소환";
 -- iico
 		t["I02K"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNSkeletalOrc.blp";
 -- utip
-		t["I02K"][4][1] = "도깨비 소환|cffffcc00(C)|r";
+		t["I02K"][4][1] = "Goblin 소환|cffffcc00(C)|r";
 -- utub
-		t["I02K"][5][1] = "도깨비를 하나 소환합니다.";
+		t["I02K"][5][1] = "Goblin를 하나 소환합니다.";
 -- ides
 -- ifil
 -- uhot
@@ -1260,7 +1260,7 @@ TPT_items_loader = function(t)
 -- ureq
 -- [I012]
 -- unam
-		t["I012"][1][1] = "[목재가 드는]도깨비 소환";
+		t["I012"][1][1] = "[목재가 드는]Goblin 소환";
 -- iico
 -- utip
 -- utub
@@ -1436,7 +1436,7 @@ TPT_items_loader = function(t)
 		t["I01S"][5][1] = "진영을 휘침성으로 선택합니다. Sukuna Shinmyoumaru[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r츠쿠모가미 대잔치\r\
--도깨비[일반]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
+-Goblin[일반]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
 -- ides
 -- ifil
 -- uhot

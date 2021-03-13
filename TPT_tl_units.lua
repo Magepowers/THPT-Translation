@@ -1966,11 +1966,11 @@ TPT_units_loader = function(t)
 		t["ndrv"][12][1] = "Icon\\Unit\\BTNSatsuki_Phan.blp";
 -- [nbal]
 -- unam
-		t["nbal"][1][1] = "[Gold Only]도깨비";
+		t["nbal"][1][1] = "[Gold Only]Goblin";
 -- utub
-		t["nbal"][2][1] = "도깨비를 하나 소환합니다.";
+		t["nbal"][2][1] = "Goblin를 하나 소환합니다.";
 -- utip
-		t["nbal"][3][1] = "도깨비 소환|cffffcc00(C)|r";
+		t["nbal"][3][1] = "Goblin 소환|cffffcc00(C)|r";
 -- uhot
 		t["nbal"][4][1] = "C";
 -- usnd
@@ -2945,7 +2945,7 @@ TPT_units_loader = function(t)
 -- upgr
 -- utip
 -- unam
-		t["h006"][7][1] = "도깨비 - Normal";
+		t["h006"][7][1] = "Goblin - Normal";
 -- utub
 -- uhot
 -- ua1m
@@ -4274,7 +4274,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e00H"][7][1] = "WAVE17 - 작은 도깨비";
+		t["e00H"][7][1] = "WAVE17 - 작은 Goblin";
 -- upgr
 -- umdl
 		t["e00H"][12][1] = "Units\\Creeps\\EarthPandarenBrewmaster\\EarthPandarenBrewmaster.mdl";
@@ -7975,7 +7975,7 @@ TPT_units_loader = function(t)
 		t["h07F"][13][1] = "진영을 휘침성으로 선택합니다. Sukuna Shinmyoumaru[Legendary]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r츠쿠모가미 대잔치\r\
--도깨비[Normal]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
+-Goblin[Normal]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
 -- uhot
 -- utra
 -- [h07G]
