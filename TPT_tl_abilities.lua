@@ -3442,7 +3442,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00G"][6][1] = "파츄리 나우릿지[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치] ";
+		t["A00G"][6][1] = "Patchouli Knowledge[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치] ";
 -- ahky
 -- acat
 		t["A00G"][8][1] = "h019,h03N,h03O";
@@ -3570,7 +3570,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00T"][5][1] = "|c00ffff00키리사메 마리사[팔괘로]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00T"][6][1] = "키리사메 마리사 + 앨리스 마가트로이드 + 파츄리 나우릿지";
+		t["A00T"][6][1] = "키리사메 마리사 + 앨리스 마가트로이드 + Patchouli Knowledge";
 -- ahky
 -- acat
 		t["A00T"][8][1] = "h00L,h00M,h010";
@@ -3714,7 +3714,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01E"][5][1] = "|c00ffff00카미시라사와 케이네|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01E"][6][1] = "Mystia Lorelei + 파츄리 나우릿지 + Tewi Inaba";
+		t["A01E"][6][1] = "Mystia Lorelei + Patchouli Knowledge + Tewi Inaba";
 -- ahky
 -- acat
 		t["A01E"][8][1] = "h005,h010,h00X";
@@ -9811,7 +9811,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A09B"][5][1] = "|c00ffff00카미시라사와 케이네 Ex|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A09B"][6][1] = "Kamishirasawa Keine + Rumia EX + 파츄리 나우릿지[현자의 돌]";
+		t["A09B"][6][1] = "Kamishirasawa Keine + Rumia EX + Patchouli Knowledge[현자의 돌]";
 -- ahky
 -- acat
 		t["A09B"][8][1] = "h01P,h01H,h019";
@@ -13354,7 +13354,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0ER"][3][1] = "|c00FEE952[Unit Information]|r - 키리사메 마리사[팔괘로]";
 -- aub1 1
-		t["A0ER"][4][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Rare] + 파츄리 나우릿지[Rare] + 앨리스 마가트로이드[Rare]\r\
+		t["A0ER"][4][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Rare] + Patchouli Knowledge[Rare] + 앨리스 마가트로이드[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
@@ -13585,7 +13585,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FB"][3][1] = "앨리스 마가트로이드[인형재판] Combination";
 -- aub1 1
-		t["A0FB"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + 키리사메 마리사[Rare] + 파츄리 나우릿지[Rare]\r\
+		t["A0FB"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + 키리사메 마리사[Rare] + Patchouli Knowledge[Rare]\r\
 \r\
 [공격속도]: 1.05초당 1번\r\
 [이동속도]: 300\r\
@@ -13635,7 +13635,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FF"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine[Unique]";
 -- aub1 1
-		t["A0FF"][4][1] = "|c00A8F13A[Combination]|r: Mystia Lorelei[Rare] + 파츄리 나우릿지[Rare] + Tewi Inaba[Rare]\r\
+		t["A0FF"][4][1] = "|c00A8F13A[Combination]|r: Mystia Lorelei[Rare] + Patchouli Knowledge[Rare] + Tewi Inaba[Rare]\r\
 \r\
 [공격속도]: 1초당 1번\r\
 [이동속도]: 300\r\
@@ -13773,7 +13773,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FQ"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine EX[Epic]";
 -- aub1 1
-		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + Rumia EX[Unique] + 파츄리 나우릿지[Unique]\r\
+		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + Rumia EX[Unique] + Patchouli Knowledge[Unique]\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 300\r\
@@ -14008,7 +14008,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Epic]";
 -- aub1 1
-		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: 파츄리 나우릿지[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
+		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -17150,7 +17150,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0HD"][5][1] = "*앨리스가 공격시 마나를 1 회복합니다. 마나가 105가 됐을때 아래의 효과를 발동합니다.\r\
 *자신의 유닛에 키리사메 마리사[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
-*자신의 유닛에 파츄리 나우릿지[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
+*자신의 유닛에 Patchouli Knowledge[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
 *앨리스가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *총 3초간 지속됩니다.";
 -- [A0JT]
@@ -18813,7 +18813,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - 신키[Historic]";
 -- aub1 1
-		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + 파츄리 나우릿지[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
+		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + Patchouli Knowledge[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 420\r\
@@ -18824,7 +18824,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + 파츄리 나우릿지[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
+		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + Patchouli Knowledge[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
 -- atp1 1
 		t["A03R"][6][1] = "|c00ffff00신키|r 조합|c00FF8040[F]|r";
 -- anam

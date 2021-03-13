@@ -119,7 +119,7 @@ TPT_items_loader = function(t)
 -- iico
 		t["hval"][6][1] = "BTN\\BTNtriple.blp";
 -- utub
-		t["hval"][7][1] = "|c000080FF마법의 모든 깨달음이 이 구슬안에 담겨있어 - 파츄리 나우릿지|r\r\
+		t["hval"][7][1] = "|c000080FF마법의 모든 깨달음이 이 구슬안에 담겨있어 - Patchouli Knowledge|r\r\
 \r\
 |c0000FF00주변 650범위 적의 이동속도 25% 감소.\r\
 주변 650범위 적의 방어력 10% 감소.\r\
