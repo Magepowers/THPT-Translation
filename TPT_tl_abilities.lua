@@ -1173,11 +1173,11 @@ TPT_abilities_loader = function(t)
 		t["ANd2"][1][1] = "BTN\\BTNKeine.blp";
 -- arac
 -- atp1 1
-		t["ANd2"][3][1] = "|c00FEE952[Unit Information]|r - 카미시라사와 케이네[Phantasm]";
+		t["ANd2"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine[Phantasm]";
 -- anam
 -- atar 1
 -- aub1 1
-		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네 EX[Epic] + 후지와라노 모코우[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
+		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + 후지와라노 모코우[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 역사를 새기는 자(keine phan)\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
@@ -1539,7 +1539,7 @@ TPT_abilities_loader = function(t)
 -- atp1 2
 		t["AIba"][6][1] = "지구『지옥에 내리는 비』- |c0000FFFF익스텐드|r";
 -- aub1 1
-		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + Sㅏ나에[Unique] + 카미시라사와 케이네[Unique]\r\
+		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + Sㅏ나에[Unique] + Kamishirasawa Keine[Unique]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 350\r\
@@ -7145,14 +7145,14 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A05K"][107][1] = "|c00FEE952[Unit Information]|r - 후지와라노 모코우[Phantasm]";
 -- aub1 1
-		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + 카미시라사와 케이네[Unique] + 고대와 환상의 조각\r\
+		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + Kamishirasawa Keine[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 키메라 피닉스(mokou phan)\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
 |c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드\r\
 |c00C5EA53[조합 시너지]|r영원한 환생의 불꽃\r\
--카미시라사와 케이네 EX[Epic 혹은 익스텐드]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 쿨다운이 8초 감소합니다.";
+-Kamishirasawa Keine EX[Epic 혹은 익스텐드]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 쿨다운이 8초 감소합니다.";
 -- aart
 		t["A05K"][109][1] = "BTN\\BTNMoko.blp";
 -- [A05L]
@@ -8135,7 +8135,7 @@ TPT_abilities_loader = function(t)
 		t["A077"][5][1] = "|c00ffff00후지와라노 모코우|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A077"][7][1] = "카미시라사와 케이네 + 레이센 우돈게인 이나바 + 이자요이 사쿠야[특제 스톱워치]";
+		t["A077"][7][1] = "Kamishirasawa Keine + 레이센 우돈게인 이나바 + 이자요이 사쿠야[특제 스톱워치]";
 -- ahky
 -- alig
 -- atat
@@ -8758,7 +8758,7 @@ TPT_abilities_loader = function(t)
 *모코우가 불사조의 힘을 대상 지점에 방출하며, 부활합니다. 대상 주변 550범위 적에게 전체 체력의 4% + 650만의 물리 데미지를 입힙니다.\r\
 *모코우가 부활시 모코우의 스킬 데미지가 1%씩 증가합니다. 최대 20번까지 부활가능하며, 부활 횟수는 스킬 이름 오른쪽에 표시됩니다.\r\
 *|c00C5EA53[조합 시너지]|r영원한 환생의 불꽃\r\
--카미시라사와 케이네 EX[Epic]를 보유하고 있을 경우, 활력 쿨다운이 10초 감소합니다.";
+-Kamishirasawa Keine EX[Epic]를 보유하고 있을 경우, 활력 쿨다운이 10초 감소합니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -9811,7 +9811,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A09B"][5][1] = "|c00ffff00카미시라사와 케이네 Ex|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A09B"][6][1] = "카미시라사와 케이네 + Rumia EX + 파츄리 나우릿지[현자의 돌]";
+		t["A09B"][6][1] = "Kamishirasawa Keine + Rumia EX + 파츄리 나우릿지[현자의 돌]";
 -- ahky
 -- acat
 		t["A09B"][8][1] = "h01P,h01H,h019";
@@ -10367,7 +10367,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["A0A2"][3][1] = "＊공격 시 20% 확률로 전체 체력 5%(보스 0.5%)의 피해를 가합니다. 체력이 50% 이상이라면 |c00FF6464물리 피해|r로, 체력이 50% 미만이라면 |c00AC59FF절대 피해|r로 가합니다.\r\
 ＊|c0044BBFF[마력]|r - 100 : 공격 시 마력 1 회복, 자신 주변 600 범위의 아군의 마력을 10% 회복시킵니다.\r\
-|c00ff2222[!]제한|r : 카미시라사와 케이네 EX는 다른 마력 회복을 받지 않습니다.";
+|c00ff2222[!]제한|r : Kamishirasawa Keine EX는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -13633,7 +13633,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FF"][3][1] = "|c00FEE952[Unit Information]|r - 카미시라사와 케이네[Unique]";
+		t["A0FF"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine[Unique]";
 -- aub1 1
 		t["A0FF"][4][1] = "|c00A8F13A[Combination]|r: Mystia Lorelei[Rare] + 파츄리 나우릿지[Rare] + Tewi Inaba[Rare]\r\
 \r\
@@ -13771,9 +13771,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FQ"][3][1] = "|c00FEE952[Unit Information]|r - 카미시라사와 케이네 EX[Epic]";
+		t["A0FQ"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine EX[Epic]";
 -- aub1 1
-		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네[Unique] + Rumia EX[Unique] + 파츄리 나우릿지[Unique]\r\
+		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + Rumia EX[Unique] + 파츄리 나우릿지[Unique]\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 300\r\
@@ -13950,7 +13950,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0G4"][3][1] = "|c00FEE952[Unit Information]|r - 후지와라노 모코우[Epic]";
 -- aub1 1
-		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네[Unique] + 레이센 우돈게인 이나바[Unique] + 이자요이 사쿠야[Unique]\r\
+		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + 레이센 우돈게인 이나바[Unique] + 이자요이 사쿠야[Unique]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
@@ -20783,7 +20783,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A0MC"][4][1] = "ReplaceableTextures\\CommandButtons\\Elly\\BTN_UP.blp";
 -- aub1 1
-		t["A0MC"][5][1] = "시키에이키 야마자나두 + 카미시라사와 케이네 EX + Lily Black + 고대와 환상의 조각 = 엘리";
+		t["A0MC"][5][1] = "시키에이키 야마자나두 + Kamishirasawa Keine EX + Lily Black + 고대와 환상의 조각 = 엘리";
 -- atp1 1
 		t["A0MC"][6][1] = "|c00ffff00엘리|r 조합|c00FF8040[F]|r";
 -- anam
@@ -20799,7 +20799,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MD"][3][1] = "|c00FEE952[Unit Information]|r - 엘리[Historic]";
 -- aub1 1
-		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 카미시라사와 케이네 EX[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
+		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + Kamishirasawa Keine EX[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 420\r\
@@ -22776,7 +22776,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - 미마[Historic]";
 -- aub1 1
-		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: 카미시라사와 케이네 EX[Epic] + 야쿠모 란[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
+		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + 야쿠모 란[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 420\r\
@@ -22916,7 +22916,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0IK"][5][1] = "카미시라사와 케이네 Ex + 야쿠모 란 + 소가노 토지코 + 고대와 환상의 조각 = 미마";
+		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + 야쿠모 란 + 소가노 토지코 + 고대와 환상의 조각 = 미마";
 -- atp1 1
 		t["A0IK"][6][1] = "|c00ffff00미마|r 조합|c00FF8040[F]|r";
 -- anam
@@ -24425,7 +24425,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0OF"][5][1] = "|c00ffff00헤카티아 라피스라줄리|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0OF"][7][1] = "나가에 이쿠 + Sㅏ나에 + 카미시라사와 케이네";
+		t["A0OF"][7][1] = "나가에 이쿠 + Sㅏ나에 + Kamishirasawa Keine";
 -- ahky
 -- alig
 -- atat
@@ -32507,7 +32507,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MY"][3][1] = "|c00FEE952[Unit Information]|r - Saki Kurokama[Legendary]";
 -- aub1 1
-		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + 카미시라사와 케이네 EX[Epic] +  Unique 소울\r\
+		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kamishirasawa Keine EX[Epic] +  Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
@@ -33086,7 +33086,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0HH"][4][1] = "|c00FEE952[Unit Information]|r - 모토오리 코스즈[Arcana]";
 -- aub1 1
-		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: Hieda no Akyuu[Epic] + 카미시라사와 케이네[Unique] + 신비술사의 고서\r\
+		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: Hieda no Akyuu[Epic] + Kamishirasawa Keine[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 스즈나안의 영광(kosuzu arc)\r\
 \r\
 [공격속도]: 0.22초당 1번\r\
@@ -35492,7 +35492,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0RT"][3][1] = "＊1초마다 케이네 주변 700 범위의 자신을 제외한 아군 활력을 2% / 마력을 1% 회복시킵니다.\r\
 ＊|c00FF80FF[활력]|r - 45초 : 밤일 시 활력 회복, 대상 주변 600 범위의 적 역사를 편집하여 체력이 15% 이하인 적을 즉사시킵니다.\r\
-|c00ff2222[!]제한|r : 보스는 적용되지 않습니다. 카미시라사와 케이네 EX는 다른 활력 회복을 받지 않습니다.";
+|c00ff2222[!]제한|r : 보스는 적용되지 않습니다. Kamishirasawa Keine EX는 다른 활력 회복을 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 3
