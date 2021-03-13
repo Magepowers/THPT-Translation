@@ -1450,7 +1450,7 @@ TPT_abilities_loader = function(t)
 *위 효과 발동시 대상 주변 400범위에 145만x(0.8~2)의 |c00FF6464물리 데미지|r를 입힙니다. ";
 -- [AHwe]
 -- aub1 1
-		t["AHwe"][2][1] = "Combination : Kishin Sagume + 클라운 피스 + Kijin Seija + 목재 5";
+		t["AHwe"][2][1] = "Combination : Kishin Sagume + Clownpiece + Kijin Seija + 목재 5";
 -- anam
 -- Hwe1 1
 -- aart
