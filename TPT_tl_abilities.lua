@@ -2982,7 +2982,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AEsf"][3][1] = "사나에 Arcana 조합";
 -- aub1 1
-		t["AEsf"][4][1] = "소가노 토지코 카엔뵤우 린 이자요이 사쿠야 스톱워치 환상조각";
+		t["AEsf"][4][1] = "소가노 토지코 카엔뵤우 린 Izayoi Sakuya 스톱워치 환상조각";
 -- anam
 -- areq
 -- acat
@@ -3442,7 +3442,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00G"][6][1] = "파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + 이자요이 사쿠야[특제 스톱워치] ";
+		t["A00G"][6][1] = "파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + Izayoi Sakuya[특제 스톱워치] ";
 -- ahky
 -- acat
 		t["A00G"][8][1] = "h019,h03N,h03O";
@@ -3522,7 +3522,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00W"][5][1] = "|c00ffff00Hakurei Reimu[호밍]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00W"][6][1] = "Hakurei Reimu + 키리사메 마리사 + 이자요이 사쿠야";
+		t["A00W"][6][1] = "Hakurei Reimu + 키리사메 마리사 + Izayoi Sakuya";
 -- ahky
 -- acat
 		t["A00W"][8][1] = "h00O,h00L,h00P";
@@ -8135,7 +8135,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A077"][5][1] = "|c00ffff00후지와라노 모코우|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A077"][7][1] = "Kamishirasawa Keine + 레이센 우돈게인 이나바 + 이자요이 사쿠야[특제 스톱워치]";
+		t["A077"][7][1] = "Kamishirasawa Keine + 레이센 우돈게인 이나바 + Izayoi Sakuya[특제 스톱워치]";
 -- ahky
 -- alig
 -- atat
@@ -10998,7 +10998,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0AN"][5][1] = "|c00ffff00이자요이 사쿠야[특제 스톱워치]|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0AN"][7][1] = "이자요이 사쿠야 + Hong Meiling + Hakurei Reimu";
+		t["A0AN"][7][1] = "Izayoi Sakuya + Hong Meiling + Hakurei Reimu";
 -- aani
 -- ahky
 -- alig
@@ -11367,7 +11367,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0BF"][5][1] = "|c00ffff00우사미 렌코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BF"][6][1] = "Star Sapphire + 이자요이 사쿠야 + Luna Child + UFO[Normal]";
+		t["A0BF"][6][1] = "Star Sapphire + Izayoi Sakuya + Luna Child + UFO[Normal]";
 -- ahky
 -- acat
 		t["A0BF"][8][1] = "h00U,h00P,h00W,h009";
@@ -13012,9 +13012,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Phantasm]";
+		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Phantasm]";
 -- aub1 1
-		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 코메이지 코이시[Epic] + 이자요이 사쿠야[Unique] + 고대와 환상의 조각\r\
+		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 코메이지 코이시[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: Devil의 메이드(sakuya phan)\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
@@ -13328,7 +13328,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0EP"][3][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Rare]";
+		t["A0EP"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Rare]";
 -- aub1 1
 		t["A0EP"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + Small Divine Spirit[Magic] + Human[Normal]\r\
 \r\
@@ -13537,7 +13537,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0F7"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 렌코[Unique]";
 -- aub1 1
-		t["A0F7"][4][1] = "|c00A8F13A[Combination]|r: Star Sapphire[Rare] + 이자요이 사쿠야[Rare] + Luna Child[Rare] + UFO[Normal]\r\
+		t["A0F7"][4][1] = "|c00A8F13A[Combination]|r: Star Sapphire[Rare] + Izayoi Sakuya[Rare] + Luna Child[Rare] + UFO[Normal]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
@@ -13609,7 +13609,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FD"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Unique]";
 -- aub1 1
-		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + 키리사메 마리사[Rare] + 이자요이 사쿠야[Rare]\r\
+		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + 키리사메 마리사[Rare] + Izayoi Sakuya[Rare]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -13669,9 +13669,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0FI"][3][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Unique]";
+		t["A0FI"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Unique]";
 -- aub1 1
-		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: 이자요이 사쿠야[Rare] + Hong Meiling[Rare] + Hakurei Reimu[Rare]\r\
+		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Rare] + Hong Meiling[Rare] + Hakurei Reimu[Rare]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300\r\
@@ -13950,7 +13950,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G4"][3][1] = "|c00FEE952[Unit Information]|r - Fujiwara no Mokou[Epic]";
 -- aub1 1
-		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + 레이센 우돈게인 이나바[Unique] + 이자요이 사쿠야[Unique]\r\
+		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + 레이센 우돈게인 이나바[Unique] + Izayoi Sakuya[Unique]\r\
 \r\
 [공격속도]: 0.65초당 1번\r\
 [이동속도]: 300\r\
@@ -14008,7 +14008,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Epic]";
 -- aub1 1
-		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: 파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + 이자요이 사쿠야[특제 스톱워치]\r\
+		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: 파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -17214,7 +17214,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0KQ"][4][1] = "|c00FEE952[Unit Information]|r - 무게츠[Historic]";
 -- aub1 1
-		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: 이자요이 사쿠야[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각\r\
+		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 1.2초당 1번\r\
 [이동속도]: 335\r\
@@ -18191,7 +18191,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0L8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Legendary]";
 -- aub1 1
-		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 정체불명[Unique] + 이자요이 사쿠야[Rare] + Unique 소울 1개\r\
+		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 정체불명[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개\r\
 \r\
 [공격속도]: 0.3초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -18202,7 +18202,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0KL"][5][1] = "레밀리아 스칼렛[Epic] + 정체불명[Unique] + 이자요이 사쿠야[Rare] + Unique 소울 1개";
+		t["A0KL"][5][1] = "레밀리아 스칼렛[Epic] + 정체불명[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개";
 -- atp1 1
 		t["A0KL"][6][1] = "|c00ffff00레밀리아 스칼렛[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -22790,7 +22790,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03G"][3][1] = "|c00FEE952[Unit Information]|r - 유메코[Historic]";
 -- aub1 1
-		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + 이자요이 사쿠야[Unique] + 고대와 환상의 조각\r\
+		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.31초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -26971,7 +26971,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0PE"][5][1] = "코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + 이자요이 사쿠야[특제 스톱워치] + 고대와 환상의 조각 = 유메코";
+		t["A0PE"][5][1] = "코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[특제 스톱워치] + 고대와 환상의 조각 = 유메코";
 -- atp1 1
 		t["A0PE"][6][1] = "|c00ffff00유메코|r 조합|c00FF8040[F]|r";
 -- anam
@@ -33002,7 +33002,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0QV"][5][1] = "이자요이 사쿠야[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각 = 무게츠";
+		t["A0QV"][5][1] = "Izayoi Sakuya[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각 = 무게츠";
 -- atp1 1
 		t["A0QV"][6][1] = "|c00ffff00무게츠|r 조합|c00FF8040[D]|r";
 -- anam
@@ -38899,7 +38899,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0T5]
 -- atp1 1
-		t["A0T5"][1][1] = "|c00FEE952[Unit Information]|r - 이자요이 사쿠야[Ascended]";
+		t["A0T5"][1][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Ascended]";
 -- anam
 -- aart
 		t["A0T5"][3][1] = "Icon\\Unit\\BTNSakuya_Req.blp";
