@@ -792,10 +792,10 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Apts"][4][1] = "BTN\\BTNHina.blp";
 -- atp1 1
-		t["Apts"][5][1] = "카기야마 히나[액신] Combination";
+		t["Apts"][5][1] = "Kagiyama Hina[액신] Combination";
 -- anam
 -- aub1 1
-		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: Rumia EX[Unique] + 카기야마 히나[Unique] + Imaizumi Kagerou[Unique]\r\
+		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: Rumia EX[Unique] + Kagiyama Hina[Unique] + Imaizumi Kagerou[Unique]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 350\r\
@@ -3505,7 +3505,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00P"][5][1] = "|c00ffff00카기야마 히나[액신]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00P"][6][1] = "Rumia EX + 카기야마 히나 + Imaizumi Kagerou";
+		t["A00P"][6][1] = "Rumia EX + Kagiyama Hina + Imaizumi Kagerou";
 -- ahky
 -- acat
 		t["A00P"][8][1] = "h01H,h02N,hkni";
@@ -4043,7 +4043,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A024"][8][1] = "|c00FEE952[Unit Information]|r - 카나 아나베랄[Historic]";
 -- aub1 1
-		t["A024"][9][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각\r\
+		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
@@ -6972,7 +6972,7 @@ TPT_abilities_loader = function(t)
 -- aub1 31
 		t["A05B"][63][1] = "공격시 10% 확률로 주변 700범위 20곳에 좀비를 부활시켜 350범위에 0.5초간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
 -- aub1 1
-		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
+		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.38초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -9827,7 +9827,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A09C"][5][1] = "|c00ffff00메디슨 멜랑꼴리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A09C"][6][1] = "앨리스 마가트로이드[인형재판] + 카기야마 히나 + 첸";
+		t["A09C"][6][1] = "앨리스 마가트로이드[인형재판] + Kagiyama Hina + 첸";
 -- ahky
 -- acat
 		t["A09C"][8][1] = "h048,h02N,h01K";
@@ -11540,7 +11540,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BQ"][5][1] = "|c00ffff00토요사토미미노 미코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BQ"][6][1] = "후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + 2 Unique Souls ";
+		t["A0BQ"][6][1] = "후타츠이와 마미조[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0BQ"][8][1] = "h041,nanm,h03W,h05U,ehip";
@@ -13427,7 +13427,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0EY"][3][1] = "|c00FEE952[Unit Information]|r - 카기야마 히나[Unique]";
+		t["A0EY"][3][1] = "|c00FEE952[Unit Information]|r - Kagiyama Hina[Unique]";
 -- aub1 1
 		t["A0EY"][4][1] = "|c00A8F13A[Combination]|r: 이누바시리 모미지[Rare] + Yamame Kurodani[Rare] + Tewi Inaba[Rare]\r\
 \r\
@@ -13813,7 +13813,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FT"][3][1] = "|c00FEE952[Unit Information]|r - 야사카 카나코[Epic]";
 -- aub1 1
-		t["A0FT"][4][1] = "|c00A8F13A[Combination]|r: Sㅏ나에[Unique] + 히메카이도 하타테[Unique] + 카기야마 히나[Unique]\r\
+		t["A0FT"][4][1] = "|c00A8F13A[Combination]|r: Sㅏ나에[Unique] + 히메카이도 하타테[Unique] + Kagiyama Hina[Unique]\r\
 \r\
 [공격속도]: 0.46초당 1번\r\
 [이동속도]: 300\r\
@@ -13856,7 +13856,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FW"][3][1] = "|c00FEE952[Unit Information]|r - 토요사토미미노 미코[Chronicle]";
 -- aub1 1
-		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 카기야마 히나[액신] + 마에리베리 한[Epic] + 2 Unique Souls \r\
+		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.35초당 1번[천상] / 0.4초당 1번[인상]\r\
 [이동속도]: 420\r\
@@ -13922,7 +13922,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0G1"][3][1] = "|c00FEE952[Unit Information]|r - Medicine Melancholy[Epic]";
 -- aub1 1
-		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Unique] + 카기야마 히나[Unique] + 첸[Unique]\r\
+		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Unique] + Kagiyama Hina[Unique] + 첸[Unique]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300\r\
@@ -16364,7 +16364,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0J0"][6][1] = "|c00ffff00카나 아나베랄|r 조합|c00FF8040[F]|r";
 -- aub1 1
-		t["A0J0"][7][1] = "카기야마 히나[액신] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각";
+		t["A0J0"][7][1] = "Kagiyama Hina[액신] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각";
 -- ahky
 -- arac
 -- alig
@@ -19507,7 +19507,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0I8"][4][1] = "|c00FEE952[Unit Information]|r - 사카타 네무노[Arcana]";
 -- aub1 1
-		t["A0I8"][5][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + Luna Child[Rare] + 신비술사의 고서\r\
+		t["A0I8"][5][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Luna Child[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 무서운 부엌칼(nemuno arc)\r\
 \r\
 [공격속도]: 0.38초당 1번\r\
@@ -19871,7 +19871,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A009"][4][1] = "|c00ffff00야사카 카나코|r 조합|c00FF8040[F]|r";
 -- aub1 1
-		t["A009"][5][1] = "히메카이도 하타테 + Sㅏ나에 + 카기야마 히나";
+		t["A009"][5][1] = "히메카이도 하타테 + Sㅏ나에 + Kagiyama Hina";
 -- ahky
 -- aart
 -- alig
@@ -27192,7 +27192,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0PM"][5][1] = "카기야마 히나[액신] + 유령악단[팬텀 앙상블] + 토라마루 쇼우[Epic] + 2 Unique Souls ";
+		t["A0PM"][5][1] = "Kagiyama Hina[액신] + 유령악단[팬텀 앙상블] + 토라마루 쇼우[Epic] + 2 Unique Souls ";
 -- atp1 1
 		t["A0PM"][6][1] = "|c00ffff00요리가미 죠온/시온|r 조합|c00FF8040[D]|r";
 -- anam
@@ -37696,7 +37696,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: 카기야마 히나[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
+		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.50초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -38976,7 +38976,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0T6"][3][1] = "|c00FEE952[Unit Information]|r - Medicine Melancholy[Legendary]";
 -- aub1 1
-		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + 카기야마 히나[Unique] + Unique 소울\r\
+		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Kagiyama Hina[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
@@ -39118,7 +39118,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TI"][5][1] = "|c00ffff00Medicine Melancholy[Legendary]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0TI"][6][1] = "Medicine Melancholy[Epic] +  카기야마 히나[Unique] + Unique 소울";
+		t["A0TI"][6][1] = "Medicine Melancholy[Epic] +  Kagiyama Hina[Unique] + Unique 소울";
 -- ahky
 -- acat
 		t["A0TI"][8][1] = "h039,h02N,h05U";
