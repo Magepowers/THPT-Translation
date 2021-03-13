@@ -1450,7 +1450,7 @@ TPT_abilities_loader = function(t)
 *위 효과 발동시 대상 주변 400범위에 145만x(0.8~2)의 |c00FF6464물리 데미지|r를 입힙니다. ";
 -- [AHwe]
 -- aub1 1
-		t["AHwe"][2][1] = "Combination : Kishin Sagume + 클라운 피스 + 키진 세이자 + 목재 5";
+		t["AHwe"][2][1] = "Combination : Kishin Sagume + 클라운 피스 + Kijin Seija + 목재 5";
 -- anam
 -- Hwe1 1
 -- aart
@@ -3152,7 +3152,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["AIcl"][8][1] = "*대상 Chronicle/Historic 유닛의 마나 스킬을 읽어옵니다. 해당 마나 스킬을 더욱 능수능란하게 다룰 수 있게 되어, 마나 소모량이 15% 감소합니다.\r\
 [마나 스킬이 없는 유닛 제외]\r\
-[요리가미 시온 / 키진 세이자 제외]\r\
+[요리가미 시온 / Kijin Seija 제외]\r\
 *쿨다운 5초";
 -- ahky
 -- atar 2
@@ -4269,18 +4269,18 @@ TPT_abilities_loader = function(t)
 		t["A031"][7][1] = "Icon\\Unit\\BTNBentoraRed_Rare.blp";
 -- [A033]
 -- atp1 1
-		t["A033"][1][1] = "|c00FEE952[Unit Information]|r - 키진 세이자[Chronicle]";
+		t["A033"][1][1] = "|c00FEE952[Unit Information]|r - Kijin Seija[Chronicle]";
 -- aub1 1
-		t["A033"][2][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + 토라마루 쇼우[Epic] + Wriggle Nightbug[Epic] + 2 Unique Souls \r\
+		t["A033"][2][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + 토라마루 쇼우[Epic] + Wriggle Nightbug[Epic] + 2 Unique Souls \r\
 \r\
 |c00FAB145[특수 Combination]|r\r\
 *다른 Chronicle을 조합했어도 조합할 수 있습니다.\r\
 *타이핑 : 역습의 아마노자쿠[kijin chro]\r\
-키진 세이자[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
+Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
 \r\
 [공격속도]: 0.37초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 키진 세이자 업그레이드";
+|c00F8BA54[업그레이드]|r : Kijin Seija 업그레이드";
 -- anam
 		t["A033"][3][1] = "[Chronicle_Unit Information]";
 -- aart
@@ -16127,7 +16127,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - 키진 세이자[Epic]";
+		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - Kijin Seija[Epic]";
 -- aub1 1
 		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kishin Sagume[Unique] + 카쿠 세이가[Unique]\r\
 \r\
@@ -19821,7 +19821,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A03L"][6][1] = "*자신의 배에 탈 선원을 모집합니다. 선원에 따라 Murasa의 능력이 달라집니다. 선원을 모집하기 전에는 Murasa는 어떤 능력도 발휘하지 못합니다. 갈림길의 대상이 된 선원은 사라집니다.\r\
 [모집가능한 선원]\r\
--키진 세이자[Epic], Sukuna Shinmyoumaru[Epic] -> |c00379BFF마법 데미지|r의 Murasa로 변경\r\
+-Kijin Seija[Epic], Sukuna Shinmyoumaru[Epic] -> |c00379BFF마법 데미지|r의 Murasa로 변경\r\
 -토라마루 쇼우[Epic],호우쥬 누에[Epic] -> |c00FF6464물리 데미지|r의 Murasa로 변경";
 -- aart
 		t["A03L"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp";
@@ -19961,7 +19961,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Phantasm]";
 -- aub1 1
-		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: 키진 세이자[Epic] + Utsuho Reiuji[Epic] + Imaizumi Kagerou[Unique] + 고대와 환상의 조각\r\
+		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + Utsuho Reiuji[Epic] + Imaizumi Kagerou[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 워터 솔져(hime phan)\r\
 \r\
 [공격속도]: 0.54초당 1번\r\
@@ -23388,7 +23388,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0DM"][3][1] = "|c00FEE952[Unit Information]|r - 와타츠키노 요리히메[Chronicle]";
 -- aub1 1
-		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: 와타츠키노 토요히메[특수] + 키진 세이자[Epic] + Mononobe no Futo[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개\r\
+		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: 와타츠키노 토요히메[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개\r\
 \r\
 |c00ffff00!주의 : 이 유닛은 조합시 플레이어의 라인존 중앙에 생성됩니다.|r\r\
 \r\
@@ -23409,7 +23409,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0GI"][5][1] = "|c00ffff00와타츠키노 요리히메|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0GI"][7][1] = "와타츠키노 토요히메[특수] + 키진 세이자[Epic] + Mononobe no Futo[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개";
+		t["A0GI"][7][1] = "와타츠키노 토요히메[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개";
 -- ahky
 -- atat
 		t["A0GI"][11][1] = "h02X";
@@ -24291,7 +24291,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 [이동속도]: 420[공중이동 가능]\r\
 |c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
 |c0097FF2F[조합 시너지]|r뒤집어진 소인 공주님\r\
--플레이어가 키진 세이자[Chronicle]을 보유하고 있을 경우, 이 유닛의 스킬 데미지가 마법 데미지로 적용됩니다.";
+-플레이어가 Kijin Seija[Chronicle]을 보유하고 있을 경우, 이 유닛의 스킬 데미지가 마법 데미지로 적용됩니다.";
 -- aart
 		t["A0O5"][5][1] = "Icon\\Unit\\BTNShinmyou_Leg.blp";
 -- [A0O6]
@@ -30586,7 +30586,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A08D"][7][1] = "키진 세이자[Epic] + Wriggle Nightbug[Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls  = 키진 세이자[Chronicle]";
+		t["A08D"][7][1] = "Kijin Seija[Epic] + Wriggle Nightbug[Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls  = Kijin Seija[Chronicle]";
 -- ahky
 -- atat
 		t["A08D"][11][1] = "nlrv";
@@ -33019,7 +33019,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - Kishin Sagume[Phantasm]";
 -- aub1 1
-		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 키진 세이자[Epic] + Kishin Sagume[Unique] + 고대와 환상의 조각\r\
+		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Kijin Seija[Epic] + Kishin Sagume[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
 [공격속도]: 0.49초당 1번\r\

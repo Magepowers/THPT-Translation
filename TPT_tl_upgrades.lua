@@ -7748,7 +7748,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 1
 -- gef1
 -- gtp1 1
-		t["R01M"][3][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 1Lv";
+		t["R01M"][3][1] = "Kijin Seija Upgrade|cffffcc00(S)|r - 1Lv";
 -- gub1 1
 		t["R01M"][4][1] = "*세이자의 공격력이 25000 증가하고, 공격속도가 14% 증가합니다. 『이블 인 더 미러』의 발동 확률이 1%씩 증가합니다.\r\
 \r\
@@ -7769,13 +7769,13 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gtp1 2
-		t["R01M"][18][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 2Lv";
+		t["R01M"][18][1] = "Kijin Seija Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R01M"][19][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 3Lv";
+		t["R01M"][19][1] = "Kijin Seija Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R01M"][20][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - 4Lv";
+		t["R01M"][20][1] = "Kijin Seija Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R01M"][21][1] = "키진 세이자 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R01M"][21][1] = "Kijin Seija Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gub1 2
 -- gub1 3
 -- gub1 4
