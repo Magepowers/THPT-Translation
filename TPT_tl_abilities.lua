@@ -3266,7 +3266,7 @@ TPT_abilities_loader = function(t)
 		t["ANd1"][3][1] = "BTN\\BTNPatch.blp";
 -- anam
 -- aub1 1
-		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + Sukuna Shinmyoumaru[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
+		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + Sukuna Shinmyoumaru[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 락트 걸(patche phan)\r\
 \r\
 [공격속도]: 0.47초당 1번\r\
@@ -3938,7 +3938,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01Q"][5][1] = "|c00ffff00야쿠모 유카리|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01Q"][6][1] = "야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls ";
+		t["A01Q"][6][1] = "Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01Q"][8][1] = "h01T,h03V,h03Z,h05U,ehip";
@@ -13826,7 +13826,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0FU"][3][1] = "|c00FEE952[Unit Information]|r - 야쿠모 란[Epic]";
+		t["A0FU"][3][1] = "|c00FEE952[Unit Information]|r - Yakumo Ran[Epic]";
 -- aub1 1
 		t["A0FU"][4][1] = "|c00A8F13A[Combination]|r: 첸[Unique] + 사이교우지 유유코[Unique] + 카엔뵤우 린[Unique]\r\
 \r\
@@ -14108,7 +14108,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0GG"][3][1] = "|c00FEE952[Unit Information]|r - 야쿠모 유카리[Chronicle]";
 -- aub1 1
-		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls \r\
+		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 300\r\
@@ -14865,7 +14865,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0I9"][3][1] = "|c00ffff00이부키 스이카|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0I9"][4][1] = "비상천칙[Epic] + 토키코[Epic] + 야쿠모 란[Epic] + 2 Unique Souls  = 이부키 스이카[Chronicle]";
+		t["A0I9"][4][1] = "비상천칙[Epic] + 토키코[Epic] + Yakumo Ran[Epic] + 2 Unique Souls  = 이부키 스이카[Chronicle]";
 -- abuf 1
 -- aart
 -- alig
@@ -22776,7 +22776,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - 미마[Historic]";
 -- aub1 1
-		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + 야쿠모 란[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
+		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Yakumo Ran[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 420\r\
@@ -22916,7 +22916,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + 야쿠모 란 + 소가노 토지코 + 고대와 환상의 조각 = 미마";
+		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + 소가노 토지코 + 고대와 환상의 조각 = 미마";
 -- atp1 1
 		t["A0IK"][6][1] = "|c00ffff00미마|r 조합|c00FF8040[F]|r";
 -- anam
@@ -23777,7 +23777,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0NH"][4][1] = "|c00FEE952[Unit Information]|r - 이부키 스이카[Chronicle]";
 -- aub1 1
-		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] +  토키코[Epic] + 야쿠모 란[Epic] + 2 Unique Souls \r\
+		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] +  토키코[Epic] + Yakumo Ran[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 450\r\
@@ -33638,7 +33638,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["S00V"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Chronicle]";
 -- aub1 1
-		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Unique] + 야쿠모 란[Epic] + 호우쥬 누에[Epic] + Unique 소울 5개\r\
+		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Unique] + Yakumo Ran[Epic] + 호우쥬 누에[Epic] + Unique 소울 5개\r\
 \r\
 [공격속도]: 0.46초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
@@ -33707,7 +33707,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A0R1"][7][1] = "Hakurei Reimu[Unique] + 야쿠모 란[Epic] + 호우쥬 누에[Epic] + Unique 소울 5개";
+		t["A0R1"][7][1] = "Hakurei Reimu[Unique] + Yakumo Ran[Epic] + 호우쥬 누에[Epic] + Unique 소울 5개";
 -- ahky
 -- atat
 		t["A0R1"][11][1] = "nmgd";
@@ -34556,9 +34556,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 2
 -- [A0RL]
 -- atp1 1
-		t["A0RL"][1][1] = "|c00FEE952[Unit Information]|r - 야쿠모 란[Arcana]";
+		t["A0RL"][1][1] = "|c00FEE952[Unit Information]|r - Yakumo Ran[Arcana]";
 -- aub1 1
-		t["A0RL"][2][1] = "|c00A8F13A[Combination]|r: 야쿠모 란[익스텐드] + 첸[Unique] + 정체불명[Unique] + 신비술사의 고서\r\
+		t["A0RL"][2][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[익스텐드] + 첸[Unique] + 정체불명[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 책사 구미호(ran arc)\r\
 \r\
 [공격속도]: 0.4초당 1번\r\

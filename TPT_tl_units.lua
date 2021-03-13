@@ -2674,7 +2674,7 @@ TPT_units_loader = function(t)
 -- [nmrv]
 -- urac
 -- unam
-		t["nmrv"][2][1] = "야쿠모 란 - |c0054EB67Arcana|r|N|c00FFA275검은 책사 구미호|r";
+		t["nmrv"][2][1] = "Yakumo Ran - |c0054EB67Arcana|r|N|c00FFA275검은 책사 구미호|r";
 -- upgr
 -- ua1w
 -- ua1t
@@ -3803,7 +3803,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01T"][7][1] = "야쿠모 란 - |c00400080Epic|r";
+		t["h01T"][7][1] = "Yakumo Ran - |c00400080Epic|r";
 -- ua1m
 		t["h01T"][10][1] = "Units\\Creeps\\StormPandarenBrewmaster\\StormPandarenBrewmaster_Missile.mdl";
 -- umdl
@@ -5122,7 +5122,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02A"][7][1] = "WAVE76 - 야쿠모 란";
+		t["e02A"][7][1] = "WAVE76 - Yakumo Ran";
 -- upgr
 -- umdl
 -- uarm
@@ -7626,7 +7626,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h06T"][6][1] = "야쿠모 란 - |c0000FFFFExtended|r";
+		t["h06T"][6][1] = "Yakumo Ran - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico

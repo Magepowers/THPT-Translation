@@ -2455,7 +2455,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00D"][59][1] = "야쿠모 란 Upgrade[F]";
+		t["R00D"][59][1] = "Yakumo Ran Upgrade[F]";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -2511,15 +2511,15 @@ TPT_upgrades_loader = function(t)
 -- gtp1 5
 		t["R00D"][108][1] = "와타츠키노 요리히메 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R00D"][109][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 6Lv";
+		t["R00D"][109][1] = "Yakumo Ran Upgrade|cffffcc00(F)|r - 6Lv";
 -- gtp1 7
-		t["R00D"][110][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 7Lv";
+		t["R00D"][110][1] = "Yakumo Ran Upgrade|cffffcc00(F)|r - 7Lv";
 -- gtp1 8
-		t["R00D"][111][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 8Lv";
+		t["R00D"][111][1] = "Yakumo Ran Upgrade|cffffcc00(F)|r - 8Lv";
 -- gtp1 9
-		t["R00D"][112][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - 9Lv";
+		t["R00D"][112][1] = "Yakumo Ran Upgrade|cffffcc00(F)|r - 9Lv";
 -- gtp1 10
-		t["R00D"][113][1] = "야쿠모 란 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
+		t["R00D"][113][1] = "Yakumo Ran Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
