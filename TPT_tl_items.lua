@@ -26,7 +26,7 @@ TPT_items_loader = function(t)
 -- iico
 		t["brac"][3][1] = "BTN\\BTNchanc.blp";
 -- utub
-		t["brac"][4][1] = "|c000080FF이윽고 온 환상향이 천둥번개로 뒤덮일것이다! - 나가에 이쿠|r\r\
+		t["brac"][4][1] = "|c000080FF이윽고 온 환상향이 천둥번개로 뒤덮일것이다! - Nagae Iku|r\r\
 \r\
 |c0000FF00자신 주변 700범위 아군의 공격속도 20% 증가\r\
 착용한 유닛의 이동속도를 최대치로 만듬\r\

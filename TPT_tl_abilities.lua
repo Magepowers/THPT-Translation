@@ -1539,7 +1539,7 @@ TPT_abilities_loader = function(t)
 -- atp1 2
 		t["AIba"][6][1] = "지구『지옥에 내리는 비』- |c0000FFFF익스텐드|r";
 -- aub1 1
-		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + Sㅏ나에[Unique] + Kamishirasawa Keine[Unique]\r\
+		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + Sㅏ나에[Unique] + Kamishirasawa Keine[Unique]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 350\r\
@@ -4013,9 +4013,9 @@ TPT_abilities_loader = function(t)
 		t["A020"][5][1] = "|c00ffff00『사랑의 실재』|r|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
-		t["A020"][7][1] = "*지루한 나날에 싫증을 느끼던 텐시는 하지 말아야 할 일까지 손을 대고 말았습니다. 나가에 이쿠[Unique]에게 사용시 퀘스트가 완료되며, 요석『천지개벽 프레스』스킬을 획득합니다.\r\
+		t["A020"][7][1] = "*지루한 나날에 싫증을 느끼던 텐시는 하지 말아야 할 일까지 손을 대고 말았습니다. Nagae Iku[Unique]에게 사용시 퀘스트가 완료되며, 요석『천지개벽 프레스』스킬을 획득합니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 나가에 이쿠[Unique]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Nagae Iku[Unique]는 사라집니다.|r";
 -- aart
 		t["A020"][8][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNRegenerationAura.blp";
 -- [A022]
@@ -5104,7 +5104,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- acat
 		t["A03V"][5][1] = "h033,hlum,h00U";
 -- aub1 1
-		t["A03V"][6][1] = "나마즈[Epic] + 나가에 이쿠[Unique] + 고대와 환상의 조각";
+		t["A03V"][6][1] = "나마즈[Epic] + Nagae Iku[Unique] + 고대와 환상의 조각";
 -- atp1 2
 		t["A03V"][8][1] = "극부『뇌운극어』- 진화버튼 |c00EEA011R|r";
 -- atp1 3
@@ -7462,7 +7462,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 [이동속도]: 450\r\
 |c00F8BA54[업그레이드]|r : 히나나이 텐시 업그레이드\r\
 |c0097FF2F[조합 시너지]|r변덕쟁이 아가씨\r\
--나가에 이쿠[Arcana]를 보유시『무념무상의 경지』가 발동할 때, 텐시의 마나를 6% 회복합니다.";
+-Nagae Iku[Arcana]를 보유시『무념무상의 경지』가 발동할 때, 텐시의 마나를 6% 회복합니다.";
 -- [A05V]
 -- arac
 -- atp1 1
@@ -9780,7 +9780,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A099"][5][1] = "|c00ffff00나마즈|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A099"][6][1] = "나가에 이쿠 + 이부키 스이카 + 우사미 렌코";
+		t["A099"][6][1] = "Nagae Iku + 이부키 스이카 + 우사미 렌코";
 -- ahky
 -- acat
 		t["A099"][8][1] = "h033,h035,h03S";
@@ -11445,7 +11445,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0BK"][5][1] = "|c00ffff00후타츠이와 마미조|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BK"][6][1] = "카쿠 세이가 + 소가노 토지코 + 나가에 이쿠";
+		t["A0BK"][6][1] = "카쿠 세이가 + 소가노 토지코 + Nagae Iku";
 -- ahky
 -- acat
 		t["A0BK"][8][1] = "h03T,h042,h033";
@@ -13391,7 +13391,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0EV"][3][1] = "|c00FEE952[Unit Information]|r - 나가에 이쿠[Unique]";
+		t["A0EV"][3][1] = "|c00FEE952[Unit Information]|r - Nagae Iku[Unique]";
 -- aub1 1
 		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: 써니 밀크[Rare] + 타타라 코가사[Rare] + Kochiya Sanae[Rare] + Blue UFO[Rare]\r\
 \r\
@@ -13759,7 +13759,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FP"][3][1] = "|c00FEE952[Unit Information]|r - 나마즈[Epic]";
 -- aub1 1
-		t["A0FP"][4][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + 이부키 스이카[Unique] + 우사미 렌코[Unique]\r\
+		t["A0FP"][4][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + 이부키 스이카[Unique] + 우사미 렌코[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300\r\
@@ -14046,7 +14046,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0GB"][3][1] = "|c00FEE952[Unit Information]|r - 후타츠이와 마미조[Epic]";
 -- aub1 1
-		t["A0GB"][4][1] = "|c00A8F13A[Combination]|r: 카쿠 세이가[Unique] + 소가노 토지코[Unique] + 나가에 이쿠[Unique]\r\
+		t["A0GB"][4][1] = "|c00A8F13A[Combination]|r: 카쿠 세이가[Unique] + 소가노 토지코[Unique] + Nagae Iku[Unique]\r\
 \r\
 [공격속도]: 0.53초당 1번\r\
 [이동속도]: 300\r\
@@ -24425,7 +24425,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0OF"][5][1] = "|c00ffff00헤카티아 라피스라줄리|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0OF"][7][1] = "나가에 이쿠 + Sㅏ나에 + Kamishirasawa Keine";
+		t["A0OF"][7][1] = "Nagae Iku + Sㅏ나에 + Kamishirasawa Keine";
 -- ahky
 -- alig
 -- atat
@@ -33239,9 +33239,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A0JG]
 -- anam
 -- atp1 1
-		t["A0JG"][2][1] = "|c00FEE952[Unit Information]|r - 나가에 이쿠[Arcana]";
+		t["A0JG"][2][1] = "|c00FEE952[Unit Information]|r - Nagae Iku[Arcana]";
 -- aub1 1
-		t["A0JG"][3][1] = "|c00A8F13A[Combination]|r: 나가에 이쿠[Unique] + Star Sapphire[Rare] + 신비술사의 고서\r\
+		t["A0JG"][3][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + Star Sapphire[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 검은 바다에 붉음을(iku arc)\r\
 \r\
 [공격속도]: 0.41초당 1번\r\
