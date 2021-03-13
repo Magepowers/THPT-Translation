@@ -3442,7 +3442,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00G"][6][1] = "Patchouli Knowledge[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치] ";
+		t["A00G"][6][1] = "Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치] ";
 -- ahky
 -- acat
 		t["A00G"][8][1] = "h019,h03N,h03O";
@@ -3583,7 +3583,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A00Z"][5][1] = "|c00ffff00Patchouli Knowledge[현자의 돌]|r 조합|c00FF8040[D]|r";
+		t["A00Z"][5][1] = "|c00ffff00Patchouli Knowledge[Philosopher's Stone]|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A00Z"][6][1] = "Patchouli Knowledge + 키리사메 마리사 + 앨리스 마가트로이드";
 -- ahky
@@ -6700,7 +6700,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A050"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGem.blp";
 -- [A051]
 -- anam
-		t["A051"][1][1] = "현자의 돌 이펙트";
+		t["A051"][1][1] = "Philosopher's Stone 이펙트";
 -- arac
 -- ata0
 		t["A051"][3][1] = "origin";
@@ -9811,7 +9811,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A09B"][5][1] = "|c00ffff00카미시라사와 케이네 Ex|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A09B"][6][1] = "Kamishirasawa Keine + Rumia EX + Patchouli Knowledge[현자의 돌]";
+		t["A09B"][6][1] = "Kamishirasawa Keine + Rumia EX + Patchouli Knowledge[Philosopher's Stone]";
 -- ahky
 -- acat
 		t["A09B"][8][1] = "h01P,h01H,h019";
@@ -13657,7 +13657,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0FH"][3][1] = "Patchouli Knowledge[현자의 돌] Combination";
+		t["A0FH"][3][1] = "Patchouli Knowledge[Philosopher's Stone] Combination";
 -- aub1 1
 		t["A0FH"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Rare] + 키리사메 마리사[Rare] + 앨리스 마가트로이드[Rare]\r\
 \r\
@@ -14008,7 +14008,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Epic]";
 -- aub1 1
-		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
+		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -18813,7 +18813,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - 신키[Historic]";
 -- aub1 1
-		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + Patchouli Knowledge[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
+		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
 [이동속도]: 420\r\
@@ -18824,7 +18824,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + Patchouli Knowledge[현자의 돌] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
+		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + 키리사메 마리사[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
 -- atp1 1
 		t["A03R"][6][1] = "|c00ffff00신키|r 조합|c00FF8040[F]|r";
 -- anam
@@ -29103,7 +29103,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- ahky
 -- atar 1
 -- anam
-		t["A02I"][6][1] = "[Phantasm][파츄리]현자의 돌";
+		t["A02I"][6][1] = "[Phantasm][파츄리]Philosopher's Stone";
 -- aart
 -- [A02J]
 -- atp1 1

@@ -3525,7 +3525,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h019"][7][1] = "Patchouli Knowledge[현자의 돌] - |c00808040Unique|r";
+		t["h019"][7][1] = "Patchouli Knowledge[Philosopher's Stone] - |c00808040Unique|r";
 -- umdl
 -- uico
 -- uabi
