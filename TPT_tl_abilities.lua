@@ -3442,7 +3442,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00G"][6][1] = "파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + Izayoi Sakuya[특제 스톱워치] ";
+		t["A00G"][6][1] = "파츄리 나우릿지[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치] ";
 -- ahky
 -- acat
 		t["A00G"][8][1] = "h019,h03N,h03O";
@@ -3906,7 +3906,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01L"][5][1] = "|c00ffff00시키에이키 야마자나두|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01L"][6][1] = "오노즈카 코마치 + Lily Black + 레이라 프리즘리버";
+		t["A01L"][6][1] = "오노즈카 코마치 + Lily Black + Layla Prismriver";
 -- ahky
 -- acat
 		t["A01L"][8][1] = "h01O,h03R,h03O";
@@ -3922,7 +3922,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01O"][5][1] = "|c00ffff00유령악단[팬텀 앙상블]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01O"][6][1] = "레이라 프리즘리버 + Tsukumo Yatsuhashi + Tsukumo Benben";
+		t["A01O"][6][1] = "Layla Prismriver + Tsukumo Yatsuhashi + Tsukumo Benben";
 -- ahky
 -- acat
 		t["A01O"][8][1] = "h03O,hmtm,hrif";
@@ -13705,7 +13705,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0FL"][3][1] = "|c00FEE952[Unit Information]|r - 레이라 프리즘리버[Unique]";
+		t["A0FL"][3][1] = "|c00FEE952[Unit Information]|r - Layla Prismriver[Unique]";
 -- aub1 1
 		t["A0FL"][4][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + 멜란 프리즘리버[Rare] + Lyrica Prismriver[Rare] + Small Divine Spirit[Magic]\r\
 \r\
@@ -13745,7 +13745,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FO"][3][1] = "|c00FEE952[Unit Information]|r - 시키에이키 야마자나두[Epic]";
 -- aub1 1
-		t["A0FO"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + Lily Black[Unique] + 레이라 프리즘리버[Unique]\r\
+		t["A0FO"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + Lily Black[Unique] + Layla Prismriver[Unique]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
@@ -14008,7 +14008,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Epic]";
 -- aub1 1
-		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: 파츄리 나우릿지[현자의 돌] + 레이라 프리즘리버[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
+		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: 파츄리 나우릿지[현자의 돌] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -16294,7 +16294,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0IO"][3][1] = "|c00FEE952[Unit Information]|r - Youmu Konpaku[Legendary]";
 -- aub1 1
-		t["A0IO"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[반혼접] + 레이라 프리즘리버[Unique] + Unique 소울\r\
+		t["A0IO"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[반혼접] + Layla Prismriver[Unique] + Unique 소울\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 500[공중이동 가능]\r\
@@ -17066,7 +17066,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- aart
 -- aub1 1
-		t["A02K"][5][1] = "사이교우지 유유코[반혼접] + 레이라 프리즘리버[Unique] + Unique 소울 1개";
+		t["A02K"][5][1] = "사이교우지 유유코[반혼접] + Layla Prismriver[Unique] + Unique 소울 1개";
 -- atp1 1
 		t["A02K"][6][1] = "|c00ffff00Youmu Konpaku[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -22737,7 +22737,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A09R"][4][1] = "|c00FEE952[Unit Information]|r - 유령악단[팬텀 앙상블]";
 -- aub1 1
-		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: 레이라 프리즘리버[Unique] + Tsukumo Yatsuhashi[Unique] + Tsukumo Benben[Unique]\r\
+		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: Layla Prismriver[Unique] + Tsukumo Yatsuhashi[Unique] + Tsukumo Benben[Unique]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\

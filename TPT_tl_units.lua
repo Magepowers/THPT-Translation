@@ -4741,7 +4741,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01F"][7][1] = "WAVE45 - 레이라 프리즘리버";
+		t["e01F"][7][1] = "WAVE45 - Layla Prismriver";
 -- upgr
 -- umdl
 -- uarm
@@ -5689,7 +5689,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03O"][7][1] = "레이라 프리즘리버 - |c00808040Unique|r";
+		t["h03O"][7][1] = "Layla Prismriver - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
