@@ -3503,7 +3503,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A00P"][5][1] = "|c00ffff00카기야마 히나[액신]|r 조합|c00FF8040[D]|r";
+		t["A00P"][5][1] = "|c00ffff00Kagiyama Hina[액신]|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A00P"][6][1] = "Rumia EX + Kagiyama Hina + Imaizumi Kagerou";
 -- ahky
@@ -12785,7 +12785,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0DO"][6][1] = "|c00ffff00카기야마 히나|r 조합|c00FF8040[F]|r";
+		t["A0DO"][6][1] = "|c00ffff00Kagiyama Hina|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0DO"][8][1] = "이누바시리 모미지 + Yamame Kurodani + Tewi Inaba";
