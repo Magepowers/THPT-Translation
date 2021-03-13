@@ -774,7 +774,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANtr"][3][1] = "|c00FEE952[Unit Information]|r - Clownpiece[Epic]";
 -- aub1 1
-		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: Kishin Sagume[Unique] + Lily Black[Unique] + Cirno[마이너스 K]\r\
+		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: Kishin Sagume[Unique] + Lily Black[Unique] + Cirno[Minus K]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
@@ -3697,7 +3697,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01C"][4][1] = "BTN\\BTNCirno.blp";
 -- atp1 1
-		t["A01C"][5][1] = "|c00ffff00Cirno[마이너스 K]|r 조합|c00FF8040[D]|r";
+		t["A01C"][5][1] = "|c00ffff00Cirno[Minus K]|r 조합|c00FF8040[D]|r";
 -- aub1 1
 		t["A01C"][6][1] = "Cirno[Rare] + Okuu[Rare] + Hong Meiling[Rare]";
 -- ahky
@@ -3860,7 +3860,7 @@ TPT_abilities_loader = function(t)
 		t["A01I"][5][1] = "|c00ffff00Utsuho Reiuji 핵반응 제어불능|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A01I"][7][1] = "카엔뵤우 린 + 키리사메 마리사[팔괘로] + Cirno[마이너스 K]";
+		t["A01I"][7][1] = "카엔뵤우 린 + 키리사메 마리사[팔괘로] + Cirno[Minus K]";
 -- ahky
 -- alig
 -- atat
@@ -11508,7 +11508,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0BO"][5][1] = "|c00ffff00레티 화이트락[노던 위너]|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BO"][6][1] = "레티 화이트락 + Cirno[마이너스 K] + 앨리스 마가트로이드[인형재판]";
+		t["A0BO"][6][1] = "레티 화이트락 + Cirno[Minus K] + 앨리스 마가트로이드[인형재판]";
 -- ahky
 -- acat
 		t["A0BO"][8][1] = "h037,h01M,h048";
@@ -13559,7 +13559,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0F9"][3][1] = "|c00FEE952[Unit Information]|r - Cirno[마이너스 K]";
+		t["A0F9"][3][1] = "|c00FEE952[Unit Information]|r - Cirno[Minus K]";
 -- aub1 1
 		t["A0F9"][4][1] = "|c00A8F13A[Combination]|r: Cirno[Rare] + Okuu[Rare] + Hong Meiling[Rare]\r\
 \r\
@@ -15405,7 +15405,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- aub1 1
-		t["A0JE"][3][1] = "Cirno[마이너스 K] + 테레이다 마이[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각 = 쿠루미";
+		t["A0JE"][3][1] = "Cirno[Minus K] + 테레이다 마이[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각 = 쿠루미";
 -- atp1 1
 		t["A0JE"][4][1] = "|c00ffff00쿠루미|r 조합|c00FF8040[F]|r";
 -- aart
@@ -17009,7 +17009,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aart
 -- aub1 1
-		t["A0D6"][5][1] = "Kishin Sagume + Lily Black + Cirno[마이너스 K]";
+		t["A0D6"][5][1] = "Kishin Sagume + Lily Black + Cirno[Minus K]";
 -- atp1 1
 		t["A0D6"][6][1] = "|c00ffff00Clownpiece|r 조합|c00FF8040[D]|r";
 -- anam
@@ -17233,7 +17233,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A0KR"][4][1] = "Icon\\Unit\\BTNCirno_Leg.blp";
 -- aub1 1
-		t["A0KR"][5][1] = "레티 화이트락[노던 위너] + Cirno[마이너스 K] + Unique 소울 1개";
+		t["A0KR"][5][1] = "레티 화이트락[노던 위너] + Cirno[Minus K] + Unique 소울 1개";
 -- atp1 1
 		t["A0KR"][6][1] = "|c00ffff00Cirno[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -17253,7 +17253,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0KS"][3][1] = "|c00FEE952[Unit Information]|r - Cirno[Legendary]";
 -- aub1 1
-		t["A0KS"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[노던 위너] + Cirno[마이너스 K] + Unique 소울\r\
+		t["A0KS"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[노던 위너] + Cirno[Minus K] + Unique 소울\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 420[공중이동 가능]\r\
@@ -29490,7 +29490,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03K"][2][1] = "|c00FEE952[Unit Information]|r - 쿠루미[Historic]";
 -- aub1 1
-		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[마이너스 K] + Teireida Mai[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각\r\
+		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Teireida Mai[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.43초당 1번\r\
 [이동속도]: 350\r\

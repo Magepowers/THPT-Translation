@@ -3716,7 +3716,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01M"][7][1] = "Cirno [마이너스 K] - |c00808040Unique|r";
+		t["h01M"][7][1] = "Cirno [Minus K] - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
