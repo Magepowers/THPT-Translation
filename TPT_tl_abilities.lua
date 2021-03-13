@@ -774,7 +774,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANtr"][3][1] = "|c00FEE952[Unit Information]|r - Clownpiece[Epic]";
 -- aub1 1
-		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: 키신 사구메[Unique] + 릴리 블랙[Unique] + Cirno[마이너스 K]\r\
+		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: Kishin Sagume[Unique] + 릴리 블랙[Unique] + Cirno[마이너스 K]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
@@ -1450,7 +1450,7 @@ TPT_abilities_loader = function(t)
 *위 효과 발동시 대상 주변 400범위에 145만x(0.8~2)의 |c00FF6464물리 데미지|r를 입힙니다. ";
 -- [AHwe]
 -- aub1 1
-		t["AHwe"][2][1] = "Combination : 키신 사구메 + 클라운 피스 + 키진 세이자 + 목재 5";
+		t["AHwe"][2][1] = "Combination : Kishin Sagume + 클라운 피스 + 키진 세이자 + 목재 5";
 -- anam
 -- Hwe1 1
 -- aart
@@ -15203,7 +15203,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0CS"][2][1] = "|c00FEE952[Unit Information]|r - Nishida Satono[Epic]";
 -- aub1 1
-		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Unique] + 키신 사구메[Unique] + 나즈린[Unique]\r\
+		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: 키리사메 마리사[Unique] + Kishin Sagume[Unique] + 나즈린[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 350[공중 이동 가능]\r\
@@ -15603,7 +15603,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0JP"][4][1] = "|c00ffff00Nishida Satono|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0JP"][5][1] = "키리사메 마리사[팔괘로] + 키신 사구메[Unique] + 나즈린[Unique]";
+		t["A0JP"][5][1] = "키리사메 마리사[팔괘로] + Kishin Sagume[Unique] + 나즈린[Unique]";
 -- aart
 -- arac
 -- ahky
@@ -16116,7 +16116,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DH"][5][1] = "|c00ffff00키진 세이자|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DH"][6][1] = "Imaizumi Kagerou + 키신 사구메 + 카쿠 세이가";
+		t["A0DH"][6][1] = "Imaizumi Kagerou + Kishin Sagume + 카쿠 세이가";
 -- ahky
 -- acat
 		t["A0DH"][8][1] = "hkni,h05P,h03T";
@@ -16129,7 +16129,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - 키진 세이자[Epic]";
 -- aub1 1
-		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + 키신 사구메[Unique] + 카쿠 세이가[Unique]\r\
+		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kishin Sagume[Unique] + 카쿠 세이가[Unique]\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -17009,7 +17009,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aart
 -- aub1 1
-		t["A0D6"][5][1] = "키신 사구메 + 릴리 블랙 + Cirno[마이너스 K]";
+		t["A0D6"][5][1] = "Kishin Sagume + 릴리 블랙 + Cirno[마이너스 K]";
 -- atp1 1
 		t["A0D6"][6][1] = "|c00ffff00Clownpiece|r 조합|c00FF8040[D]|r";
 -- anam
@@ -17023,7 +17023,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0J9"][3][1] = "|c00FEE952[Unit Information]|r - 키신 사구메[Unique]";
+		t["A0J9"][3][1] = "|c00FEE952[Unit Information]|r - Kishin Sagume[Unique]";
 -- aub1 1
 		t["A0J9"][4][1] = "|c00A8F13A[Combination]|r: Luna Child[Rare] + Tewi Inaba[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
@@ -33017,9 +33017,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - 키신 사구메[Phantasm]";
+		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - Kishin Sagume[Phantasm]";
 -- aub1 1
-		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 키진 세이자[Epic] + 키신 사구메[Unique] + 고대와 환상의 조각\r\
+		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 키진 세이자[Epic] + Kishin Sagume[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
 [공격속도]: 0.49초당 1번\r\
