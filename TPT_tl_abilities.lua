@@ -2561,7 +2561,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACce"][2][1] = "|c00FEE952[Unit Information]|r - Yamame Kurodani[Arcana]";
 -- aub1 1
-		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 호라이산 카구야[Epic] + Yamame Kurodani[Rare] + 신비술사의 고서\r\
+		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + 호라이산 카구야[Epic] + Yamame Kurodani[Rare] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 거미는 동물!(yamame arc)\r\
 \r\
 [공격속도]: 0.55초당 1번\r\
@@ -8342,7 +8342,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A083"][10][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- aub1 1
-		t["A083"][11][1] = "야사카 카나코[Epic] + 후타츠이와 마미조[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 코토히메";
+		t["A083"][11][1] = "야사카 카나코[Epic] + Futatsuiwa Mamizou[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 코토히메";
 -- atp1 2
 		t["A083"][12][1] = "월부『감색의 광몽』- 습득 완료";
 -- aub1 2
@@ -11540,7 +11540,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0BQ"][5][1] = "|c00ffff00토요사토미미노 미코|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BQ"][6][1] = "후타츠이와 마미조[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls ";
+		t["A0BQ"][6][1] = "Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0BQ"][8][1] = "h041,nanm,h03W,h05U,ehip";
@@ -13856,7 +13856,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FW"][3][1] = "|c00FEE952[Unit Information]|r - 토요사토미미노 미코[Chronicle]";
 -- aub1 1
-		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls \r\
+		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.35초당 1번[천상] / 0.4초당 1번[인상]\r\
 [이동속도]: 420\r\
@@ -14044,7 +14044,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0GB"][3][1] = "|c00FEE952[Unit Information]|r - 후타츠이와 마미조[Epic]";
+		t["A0GB"][3][1] = "|c00FEE952[Unit Information]|r - Futatsuiwa Mamizou[Epic]";
 -- aub1 1
 		t["A0GB"][4][1] = "|c00A8F13A[Combination]|r: 카쿠 세이가[Unique] + 소가노 토지코[Unique] + Nagae Iku[Unique]\r\
 \r\
@@ -18758,7 +18758,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A0LT"][4][1] = "Icon\\Unit\\BTNReimu_Leg.blp";
 -- aub1 1
-		t["A0LT"][5][1] = "Hakurei Reimu[호밍] + 후타츠이와 마미조[Epic] + Unique 소울 1개";
+		t["A0LT"][5][1] = "Hakurei Reimu[호밍] + Futatsuiwa Mamizou[Epic] + Unique 소울 1개";
 -- atp1 1
 		t["A0LT"][6][1] = "|c00ffff00Hakurei Reimu[Legendary]|r 조합|c00FF8040[F]|r";
 -- anam
@@ -18778,7 +18778,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0LU"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Legendary]";
 -- aub1 1
-		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[호밍] + 후타츠이와 마미조[Epic] + Unique 소울\r\
+		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[호밍] + Futatsuiwa Mamizou[Epic] + Unique 소울\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -19596,7 +19596,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0M1"][4][1] = "|c00FEE952[Unit Information]|r - 하타노 코코로[Chronicle]";
 -- aub1 1
-		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: 후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls \r\
+		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 300\r\
@@ -19611,7 +19611,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0M2"][5][1] = "|c00ffff00하타노 코코로|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0M2"][7][1] = "후타츠이와 마미조[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls ";
+		t["A0M2"][7][1] = "Futatsuiwa Mamizou[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls ";
 -- ahky
 -- atat
 		t["A0M2"][11][1] = "h06K";
@@ -34760,7 +34760,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0QP]
 -- aub1 1
-		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 후타츠이와 마미조[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
+		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + Futatsuiwa Mamizou[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.36초당 1번\r\
 [이동속도]: 450\r\

@@ -5905,7 +5905,7 @@ TPT_units_loader = function(t)
 -- [h041]
 -- upgr
 -- unam
-		t["h041"][5][1] = "후타츠이와 마미조 - |c00400080Epic|r";
+		t["h041"][5][1] = "Futatsuiwa Mamizou - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h041"][9][1] = "Mamizou.mdl";
@@ -6345,7 +6345,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- utyp
 -- unam
-		t["e02Y"][6][1] = "WAVE88 - 후타츠이와 마미조";
+		t["e02Y"][6][1] = "WAVE88 - Futatsuiwa Mamizou";
 -- upgr
 -- umdl
 		t["e02Y"][11][1] = "units\\nightelf\\DruidoftheClaw\\DruidoftheClaw.mdl";
@@ -6454,7 +6454,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e035"][4][1] = "A0QR,Avul,A0GB,A0CU,A0DB,S00O";
 -- unam
-		t["e035"][6][1] = "후타츠이와 마미조 - |c0000FFFFExtended|r";
+		t["e035"][6][1] = "Futatsuiwa Mamizou - |c0000FFFFExtended|r";
 -- upgr
 -- umdl
 -- umvt
