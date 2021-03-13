@@ -5676,7 +5676,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03N"][7][1] = "Izayoi Sakuya[특제 스톱워치] - |c00808040Unique|r";
+		t["h03N"][7][1] = "Izayoi Sakuya[Special Stopwatch] - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico

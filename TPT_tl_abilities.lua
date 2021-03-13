@@ -3442,7 +3442,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00G"][6][1] = "Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치] ";
+		t["A00G"][6][1] = "Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch] ";
 -- ahky
 -- acat
 		t["A00G"][8][1] = "h019,h03N,h03O";
@@ -8135,7 +8135,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A077"][5][1] = "|c00ffff00후지와라노 모코우|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A077"][7][1] = "Kamishirasawa Keine + 레이센 우돈게인 이나바 + Izayoi Sakuya[특제 스톱워치]";
+		t["A077"][7][1] = "Kamishirasawa Keine + 레이센 우돈게인 이나바 + Izayoi Sakuya[Special Stopwatch]";
 -- ahky
 -- alig
 -- atat
@@ -10995,7 +10995,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0AN"][5][1] = "|c00ffff00이자요이 사쿠야[특제 스톱워치]|r 조합|c00FF8040[D]|r";
+		t["A0AN"][5][1] = "|c00ffff00이자요이 사쿠야[Special Stopwatch]|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0AN"][7][1] = "Izayoi Sakuya + Hong Meiling + Hakurei Reimu";
@@ -14008,7 +14008,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Epic]";
 -- aub1 1
-		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[특제 스톱워치]\r\
+		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch]\r\
 \r\
 [공격속도]: 0.45초당 1번\r\
 [이동속도]: 300[공중이동 가능]\r\
@@ -26971,7 +26971,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0PE"][5][1] = "코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[특제 스톱워치] + 고대와 환상의 조각 = 유메코";
+		t["A0PE"][5][1] = "코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Special Stopwatch] + 고대와 환상의 조각 = 유메코";
 -- atp1 1
 		t["A0PE"][6][1] = "|c00ffff00유메코|r 조합|c00FF8040[F]|r";
 -- anam
