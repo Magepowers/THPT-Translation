@@ -1166,7 +1166,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["hbew"][1][1] = "narumi3.mdl";
 -- unam
-		t["hbew"][2][1] = "야타데라 나루미 - |c00808040Unique|r";
+		t["hbew"][2][1] = "Yatadera Narumi - |c00808040Unique|r";
 -- uico
 		t["hbew"][3][1] = "BTN\\BTNnarumi.blp";
 -- uabi

@@ -3293,7 +3293,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Acdb"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Phantasm]";
 -- aub1 1
-		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Epic] + Mononobe no Futo[Epic] + 야타데라 나루미[Unique] + 고대와 환상의 조각\r\
+		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Epic] + Mononobe no Futo[Epic] + Yatadera Narumi[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 윈터버스터(letty phan)\r\
 \r\
 [공격속도]: 0.35초당 1번\r\
@@ -14351,7 +14351,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0GZ"][7][1] = "|c00ffff00Teireida Mai|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0GZ"][8][1] = "야타데라 나루미[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]";
+		t["A0GZ"][8][1] = "Yatadera Narumi[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]";
 -- aart
 		t["A0GZ"][9][1] = "BTN\\BTNMai.blp";
 -- alig
@@ -14549,7 +14549,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0HJ"][4][1] = "|c00FEE952[Unit Information]|r - Teireida Mai[Epic]";
 -- aub1 1
-		t["A0HJ"][5][1] = "|c00A8F13A[Combination]|r: 야타데라 나루미[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]\r\
+		t["A0HJ"][5][1] = "|c00A8F13A[Combination]|r: Yatadera Narumi[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 365\r\
@@ -17189,7 +17189,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A0KO"][4][1] = "|c00FEE952[Unit Information]|r - 야타데라 나루미[Unique]";
+		t["A0KO"][4][1] = "|c00FEE952[Unit Information]|r - Yatadera Narumi[Unique]";
 -- aub1 1
 		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Orin[Rare] + Lyrica Prismriver[Rare]\r\
 \r\
@@ -22845,7 +22845,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0AU"][3][1] = "|c00FEE952[Unit Information]|r - Doremy Sweet[Epic]";
 -- aub1 1
-		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + 소가노 토지코[Unique] + 야타데라 나루미[Unique]\r\
+		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + 소가노 토지코[Unique] + Yatadera Narumi[Unique]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 400[공중이동 가능]\r\
@@ -26745,7 +26745,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0P9"][5][1] = "|c00ffff00Doremy Sweet|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P9"][6][1] = "이터니티 라바 + 소가노 토지코 + 야타데라 나루미 = Doremy Sweet";
+		t["A0P9"][6][1] = "이터니티 라바 + 소가노 토지코 + Yatadera Narumi = Doremy Sweet";
 -- ahky
 -- acat
 		t["A0P9"][8][1] = "hbew,h042,nbel";
@@ -40170,7 +40170,7 @@ nhym,h02Q,hlum,e03C";
 -- [A0UT]
 -- arac
 -- aub1 1
-		t["A0UT"][2][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 야타데라 나루미[Unique] + 신비술사의 고서\r\
+		t["A0UT"][2][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + Yatadera Narumi[Unique] + 신비술사의 고서\r\
 |c00A8F13A[타이핑]|r: 죄업의 소(urumi arc)\r\
 \r\
 [공격속도]: 0.33초당 1번\r\
