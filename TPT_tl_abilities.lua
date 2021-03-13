@@ -29,7 +29,7 @@ TPT_abilities_loader = function(t)
 		t["AOae"][2][1] = "[Arcana]";
 -- aub1 1
 		t["AOae"][3][1] = "*써니 주변 700범위 적의 이동속도를 15% 감소시킵니다.\r\
-*써니 밀크가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 유닛에게 95만의 |c00AC59FF절대 데미지|r를 입히고, 1초간 스턴시킵니다.\r\
+*Sunny Milk가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 유닛에게 95만의 |c00AC59FF절대 데미지|r를 입히고, 1초간 스턴시킵니다.\r\
 [시간이 낮일 경우, 스턴 시간이 3초로 증가합니다.]";
 -- aart
 		t["AOae"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp";
@@ -41,7 +41,7 @@ TPT_abilities_loader = function(t)
 -- atar 2
 -- aub1 2
 		t["AOae"][10][1] = "*써니 주변 700범위 적의 이동속도를 30% 감소시킵니다.\r\
-*써니 밀크가 공격시 10% 확률로 전방으로 눈이 멀정도로 강력한 햇빛을 발사합니다. 전방 650범위 유닛에게 85만의 절대 데미지를 입히고, 1.5초간 스턴시킵니다.\r\
+*Sunny Milk가 공격시 10% 확률로 전방으로 눈이 멀정도로 강력한 햇빛을 발사합니다. 전방 650범위 유닛에게 85만의 절대 데미지를 입히고, 1.5초간 스턴시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
 [햇빛 보너스] : 낮일 경우 허영갑주 수치가 4로 증가하며, 이동속도 감소 효과가 22%에서 30%로 증가합니다.";
 -- atp1 2
@@ -240,7 +240,7 @@ TPT_abilities_loader = function(t)
 		t["AOcr"][3][1] = "*Star Sapphire가 공격시 마나를 5 회복합니다. 마나 25를 소모하여 아래의 효과를 발동합니다.\r\
 *대상 유닛과 그 주변 300범위 적에게 125만의 |c00379BFF마법 데미지|r를 입히는 섬광을 발사합니다.\r\
 *|c00C5EA53[조합 시너지]|r말썽쟁이 3Fairy\r\
--플레이어가 써니 밀크[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
+-플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
 -- aart
 		t["AOcr"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNGenericSpellImmunity.blp";
 -- [ACpv]
@@ -3474,7 +3474,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A00K"][5][1] = "|c00ffff00나즈린|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A00K"][6][1] = "Rainbow UFO + Hakurei Reimu + 써니 밀크";
+		t["A00K"][6][1] = "Rainbow UFO + Hakurei Reimu + Sunny Milk";
 -- ahky
 -- acat
 		t["A00K"][8][1] = "h015,h00O,h00J";
@@ -4310,7 +4310,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A035"][8][1] = "Icon\\Unit\\BTNStar_Leg.blp";
 -- aub1 1
-		t["A035"][9][1] = "Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + 써니 밀크[Rare] + Luna Child[Rare] + Unique 소울 1개 ";
+		t["A035"][9][1] = "Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + Sunny Milk[Rare] + Luna Child[Rare] + Unique 소울 1개 ";
 -- aub1 3
 		t["A035"][10][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65만의 마법 데미지를 입힙니다.\r\
 \r\
@@ -9750,7 +9750,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A097"][5][1] = "|c00ffff00나가에 이쿠|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A097"][7][1] = "써니 밀크 + 타타라 코가사 + Kochiya Sanae + Blue UFO\r\
+		t["A097"][7][1] = "Sunny Milk + 타타라 코가사 + Kochiya Sanae + Blue UFO\r\
 ";
 -- ahky
 -- alig
@@ -13393,7 +13393,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0EV"][3][1] = "|c00FEE952[Unit Information]|r - Nagae Iku[Unique]";
 -- aub1 1
-		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: 써니 밀크[Rare] + 타타라 코가사[Rare] + Kochiya Sanae[Rare] + Blue UFO[Rare]\r\
+		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: Sunny Milk[Rare] + 타타라 코가사[Rare] + Kochiya Sanae[Rare] + Blue UFO[Rare]\r\
 \r\
 [공격속도]: 0.95초당 1번\r\
 [이동속도]: 300\r\
@@ -13465,7 +13465,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0F1"][3][1] = "|c00FEE952[Unit Information]|r - 첸[Unique]";
 -- aub1 1
-		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Kasodani Kyouko[Rare] + 써니 밀크[Rare]\r\
+		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Kasodani Kyouko[Rare] + Sunny Milk[Rare]\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 300\r\
@@ -13683,7 +13683,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FJ"][3][1] = "|c00FEE952[Unit Information]|r - 나즈린[Unique]";
 -- aub1 1
-		t["A0FJ"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Hakurei Reimu[Rare] + 써니 밀크[Rare]\r\
+		t["A0FJ"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Hakurei Reimu[Rare] + Sunny Milk[Rare]\r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 300\r\
@@ -16070,13 +16070,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A05Y"][3][1] = "|c00FEE952[Unit Information]|r - Star Sapphire[Legendary]";
 -- aub1 1
-		t["A05Y"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + 써니 밀크[Rare] + Luna Child[Rare] + Unique 소울\r\
+		t["A05Y"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + Sunny Milk[Rare] + Luna Child[Rare] + Unique 소울\r\
 \r\
 [공격속도]: 0.5초당 1번\r\
 [이동속도]: 350[공중이동 가능]\r\
 |c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
 |c0097FF2F[조합 시너지]|r말썽쟁이 3Fairy\r\
--플레이어가 써니 밀크[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
+-플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
 -- aart
 -- [A0D0]
 -- atar 1
@@ -30916,7 +30916,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HP"][5][1] = "순광『페이탈 플래쉬』";
 -- aub1 1
 		t["A0HP"][6][1] = "*써니 주변 700범위 적의 방어력을 35 감소시킵니다.\r\
-*써니 밀크가 공격시 마나를 1 회복합니다. 마나가 60이 됐을때 발동합니다.\r\
+*Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 60이 됐을때 발동합니다.\r\
 *대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 |c009292C9보너스 효과|r : 자신이 Chronicle 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 20% 회복시킵니다.";
 -- abuf 1
@@ -31220,7 +31220,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 100
 -- aub1 2
 		t["A0HP"][306][1] = "*써니 주변 700범위 적의 방어력을 16 감소시킵니다.\r\
-*써니 밀크가 공격시 마나를 1 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
+*Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155만의 물리 데미지를 입힙니다.\r\
 |c009292C9보너스 효과|r : 자신이 Chronicle 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
 -- aub1 3
@@ -31329,7 +31329,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- acat
 		t["A0HT"][5][1] = "h039,h00J,hlum";
 -- aub1 1
-		t["A0HT"][6][1] = "테레이다 마이[Epic]  + 써니 밀크[Rare] + 신비술사의 고서[Arcana]";
+		t["A0HT"][6][1] = "테레이다 마이[Epic]  + Sunny Milk[Rare] + 신비술사의 고서[Arcana]";
 -- atp1 2
 -- atp1 3
 -- atp1 4

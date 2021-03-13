@@ -242,7 +242,7 @@ t["|c00FFB0FF이슈아 나자레누스[어센디드]|r : 이 여자의 죄, 그�
 t["|c00FFB0FF이슈아 나자레누스[어센디드]|r : 이 여자의 죄, 그것은 탐욕. 검을 든 자는 반드시 섬에 의해 멸망하리라."] = "|c00FFB0FF이슈아 나자레누스[어센디드]|r : 이 여자의 죄, 그것은 탐욕. 검을 든 자는 반드시 섬에 의해 멸망하리라.";
 t["|c00FFB0FF이슈아 나자레누스[어센디드]|r : 이 여자의 죄, 그것은 나태. 기회가 있어도 알려고도 않는 것이 죄이리라."] = "|c00FFB0FF이슈아 나자레누스[어센디드]|r : 이 여자의 죄, 그것은 나태. 기회가 있어도 알려고도 않는 것이 죄이리라.";
 t["BGMS\\\\Special\\\\SpeIesuaAsc.mp3"] = "BGMS\\\\Special\\\\SpeIesuaAsc.mp3";
-t["|c00FFB0FF써니 밀크[아르카나]|r : 일광욕한 성과를 지금 보여주마!"] = "|c00FFB0FF써니 밀크[아르카나]|r : 일광욕한 성과를 지금 보여주마!";
+t["|c00FFB0FFSunny Milk[아르카나]|r : 일광욕한 성과를 지금 보여주마!"] = "|c00FFB0FFSunny Milk[아르카나]|r : 일광욕한 성과를 지금 보여주마!";
 t["BGMS\\\\Special\\\\SpeSunnyArc.mp3"] = "BGMS\\\\Special\\\\SpeSunnyArc.mp3";
 t["|c00FFB0FF사리엘[히스토릭]|r : 연옥과 같은 이 전장에서 쓰러져 죽을 떄까지 이름을 날려라!"] = "|c00FFB0FF사리엘[히스토릭]|r : 연옥과 같은 이 전장에서 쓰러져 죽을 떄까지 이름을 날려라!";
 t["BGMS\\\\Special\\\\SpeSariel.mp3"] = "BGMS\\\\Special\\\\SpeSariel.mp3";
