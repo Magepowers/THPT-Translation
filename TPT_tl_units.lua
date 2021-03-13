@@ -5755,7 +5755,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03R"][7][1] = "릴리 블랙 - |c00808040Unique|r";
+		t["h03R"][7][1] = "Lily Black - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico

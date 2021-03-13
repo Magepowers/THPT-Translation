@@ -774,7 +774,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANtr"][3][1] = "|c00FEE952[Unit Information]|r - Clownpiece[Epic]";
 -- aub1 1
-		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: Kishin Sagume[Unique] + 릴리 블랙[Unique] + Cirno[마이너스 K]\r\
+		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: Kishin Sagume[Unique] + Lily Black[Unique] + Cirno[마이너스 K]\r\
 \r\
 [공격속도]: 0.75초당 1번\r\
 [이동속도]: 300\r\
@@ -3906,7 +3906,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01L"][5][1] = "|c00ffff00시키에이키 야마자나두|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A01L"][6][1] = "오노즈카 코마치 + 릴리 블랙 + 레이라 프리즘리버";
+		t["A01L"][6][1] = "오노즈카 코마치 + Lily Black + 레이라 프리즘리버";
 -- ahky
 -- acat
 		t["A01L"][8][1] = "h01O,h03R,h03O";
@@ -13595,7 +13595,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0FC"][3][1] = "|c00FEE952[Unit Information]|r - 릴리 블랙[Unique]";
+		t["A0FC"][3][1] = "|c00FEE952[Unit Information]|r - Lily Black[Unique]";
 -- aub1 1
 		t["A0FC"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Cirno[Rare] + Kasodani Kyouko[Rare]\r\
 \r\
@@ -13745,7 +13745,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0FO"][3][1] = "|c00FEE952[Unit Information]|r - 시키에이키 야마자나두[Epic]";
 -- aub1 1
-		t["A0FO"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + 릴리 블랙[Unique] + 레이라 프리즘리버[Unique]\r\
+		t["A0FO"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + Lily Black[Unique] + 레이라 프리즘리버[Unique]\r\
 \r\
 [공격속도]: 0.9초당 1번\r\
 [이동속도]: 300\r\
@@ -17009,7 +17009,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aart
 -- aub1 1
-		t["A0D6"][5][1] = "Kishin Sagume + 릴리 블랙 + Cirno[마이너스 K]";
+		t["A0D6"][5][1] = "Kishin Sagume + Lily Black + Cirno[마이너스 K]";
 -- atp1 1
 		t["A0D6"][6][1] = "|c00ffff00Clownpiece|r 조합|c00FF8040[D]|r";
 -- anam
@@ -20783,7 +20783,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A0MC"][4][1] = "ReplaceableTextures\\CommandButtons\\Elly\\BTN_UP.blp";
 -- aub1 1
-		t["A0MC"][5][1] = "시키에이키 야마자나두 + 카미시라사와 케이네 EX + 릴리 블랙 + 고대와 환상의 조각 = 엘리";
+		t["A0MC"][5][1] = "시키에이키 야마자나두 + 카미시라사와 케이네 EX + Lily Black + 고대와 환상의 조각 = 엘리";
 -- atp1 1
 		t["A0MC"][6][1] = "|c00ffff00엘리|r 조합|c00FF8040[F]|r";
 -- anam
@@ -20799,7 +20799,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MD"][3][1] = "|c00FEE952[Unit Information]|r - 엘리[Historic]";
 -- aub1 1
-		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 카미시라사와 케이네 EX[Epic] + 릴리 블랙[Unique] + 고대와 환상의 조각\r\
+		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 카미시라사와 케이네 EX[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.42초당 1번\r\
 [이동속도]: 420\r\
@@ -30821,7 +30821,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0HK"][2][1] = "|c00FEE952[Unit Information]|r - 토키코[Epic]";
 -- aub1 1
-		t["A0HK"][3][1] = "|c00A8F13A[Combination]|r: 정체불명[Unique] + 릴리 블랙[Unique] + 카쿠 세이가[Unique]\r\
+		t["A0HK"][3][1] = "|c00A8F13A[Combination]|r: 정체불명[Unique] + Lily Black[Unique] + 카쿠 세이가[Unique]\r\
 \r\
 [공격속도]: 0.7초당 1번\r\
 [이동속도]: 450\r\
@@ -30901,7 +30901,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HN"][5][1] = "|c00ffff00토키코|r 조합|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0HN"][7][1] = "정체불명[Unique] + 릴리 블랙[Unique] + 카쿠 세이가[Unique] = 토키코[Epic]";
+		t["A0HN"][7][1] = "정체불명[Unique] + Lily Black[Unique] + 카쿠 세이가[Unique] = 토키코[Epic]";
 -- ahky
 -- alig
 -- atat
@@ -39663,7 +39663,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TW"][3][1] = "|c00FEE952[Unit Information]|r - 엘리스[Historic]";
 -- aub1 1
-		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + 릴리 블랙[Unique] + 고대와 환상의 조각\r\
+		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
 [공격속도]: 0.6초당 1번\r\
 [이동속도]: 450\r\
@@ -39782,7 +39782,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0U7"][5][1] = "레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + 릴리 블랙[Unique] + 고대와 환상의 조각";
+		t["A0U7"][5][1] = "레밀리아 스칼렛[Epic] + 헤카티아 라피스라줄리[Epic] + Lily Black[Unique] + 고대와 환상의 조각";
 -- atp1 1
 		t["A0U7"][6][1] = "|c00ffff00엘리스|r 조합|c00FF8040[D]|r";
 -- anam
