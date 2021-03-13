@@ -1177,7 +1177,7 @@ TPT_abilities_loader = function(t)
 -- anam
 -- atar 1
 -- aub1 1
-		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + 후지와라노 모코우[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
+		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Fujiwara no Mokou[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 역사를 새기는 자(keine phan)\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
@@ -3617,7 +3617,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A013"][5][1] = "|c00ffff00플랑드르 스칼렛|r 조합|c00FF8040[D]|r";
 -- aub1 1
-		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[팬텀 앙상블] + 2 Unique Souls  ";
+		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + 유령악단[팬텀 앙상블] + 2 Unique Souls  ";
 -- ahky
 -- acat
 		t["A013"][8][1] = "h00Y,h02R,h03B,h05U,ehip";
@@ -7143,9 +7143,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A05K"][107][1] = "|c00FEE952[Unit Information]|r - 후지와라노 모코우[Phantasm]";
+		t["A05K"][107][1] = "|c00FEE952[Unit Information]|r - Fujiwara no Mokou[Phantasm]";
 -- aub1 1
-		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + Kamishirasawa Keine[Unique] + 고대와 환상의 조각\r\
+		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + Kamishirasawa Keine[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[타이핑]|r: 키메라 피닉스(mokou phan)\r\
 \r\
 [공격속도]: 0.28초당 1번\r\
@@ -10965,7 +10965,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A062"][1][1] = "|c00FEE952[Unit Information]|r - 하니야스신 케이키[Chronicle]";
 -- aub1 1
-		t["A062"][2][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + 2 Unique Souls \r\
+		t["A062"][2][1] = "|c00A8F13A[Combination]|r: 헤카티아 라피스라줄리[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.44초당 1번\r\
 [이동속도]: 425\r\
@@ -13948,7 +13948,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A0G4"][3][1] = "|c00FEE952[Unit Information]|r - 후지와라노 모코우[Epic]";
+		t["A0G4"][3][1] = "|c00FEE952[Unit Information]|r - Fujiwara no Mokou[Epic]";
 -- aub1 1
 		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + 레이센 우돈게인 이나바[Unique] + 이자요이 사쿠야[Unique]\r\
 \r\
@@ -14022,7 +14022,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0G9"][3][1] = "|c00FEE952[Unit Information]|r - 플랑드르 스칼렛[Chronicle]";
 -- aub1 1
-		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 후지와라노 모코우[Epic] + 유령악단[Epic] + 2 Unique Souls \r\
+		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + 유령악단[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.47초당 1번\r\
 [이동속도]: 522[공중이동 가능]\r\
@@ -16235,7 +16235,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A0GP"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 스미레코[Chronicle]";
 -- aub1 1
-		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 후지와라노 모코우[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls \r\
+		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls \r\
 \r\
 [공격속도]: 0.4초당 1번\r\
 [이동속도]: 450[공중이동 가능]\r\
@@ -16283,7 +16283,7 @@ TPT_abilities_loader = function(t)
 		t["A0IN"][5][1] = "|c00ffff00우사미 스미레코|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0IN"][7][1] = "마에리베리 한[Epic] + 후지와라노 모코우[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls ";
+		t["A0IN"][7][1] = "마에리베리 한[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -32648,7 +32648,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0QJ"][5][1] = "|c00ffff00하니야스신 케이키|r 조합|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0QJ"][7][1] = "헤카티아 라피스라줄리[Epic] + 후지와라노 모코우[Epic] + 야사카 카나코[Epic] + 2 Unique Souls ";
+		t["A0QJ"][7][1] = "헤카티아 라피스라줄리[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls ";
 -- ahky
 -- atat
 		t["A0QJ"][11][1] = "h07M";

@@ -3595,7 +3595,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 9
 -- gnam 10
 -- gnam 12
-		t["R00Q"][64][1] = "후지와라노 모코우 Upgrade";
+		t["R00Q"][64][1] = "Fujiwara no Mokou Upgrade";
 -- gnam 11
 -- gnam 13
 -- gnam 15
@@ -3646,25 +3646,25 @@ TPT_upgrades_loader = function(t)
 -- gtp1 5
 		t["R00Q"][108][1] = "유메코 Upgrade|cffffcc00(Q)|r - c00ff0000마스터|r";
 -- gtp1 6
-		t["R00Q"][109][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 6Lv";
+		t["R00Q"][109][1] = "Fujiwara no Mokou Upgrade|cffffcc00(F)|r - 6Lv";
 -- gtp1 7
-		t["R00Q"][110][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 7Lv";
+		t["R00Q"][110][1] = "Fujiwara no Mokou Upgrade|cffffcc00(F)|r - 7Lv";
 -- gtp1 8
-		t["R00Q"][111][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 8Lv";
+		t["R00Q"][111][1] = "Fujiwara no Mokou Upgrade|cffffcc00(F)|r - 8Lv";
 -- gtp1 9
-		t["R00Q"][112][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - 9Lv";
+		t["R00Q"][112][1] = "Fujiwara no Mokou Upgrade|cffffcc00(F)|r - 9Lv";
 -- gtp1 10
-		t["R00Q"][113][1] = "후지와라노 모코우 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
+		t["R00Q"][113][1] = "Fujiwara no Mokou Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gtp1 11
-		t["R00Q"][114][1] = "후지와라노 모코우 Upgrade - 11Lv";
+		t["R00Q"][114][1] = "Fujiwara no Mokou Upgrade - 11Lv";
 -- gtp1 12
-		t["R00Q"][115][1] = "후지와라노 모코우 Upgrade - 12Lv";
+		t["R00Q"][115][1] = "Fujiwara no Mokou Upgrade - 12Lv";
 -- gtp1 13
-		t["R00Q"][116][1] = "후지와라노 모코우 Upgrade - 13Lv";
+		t["R00Q"][116][1] = "Fujiwara no Mokou Upgrade - 13Lv";
 -- gtp1 15
-		t["R00Q"][117][1] = "후지와라노 모코우 Upgrade - |c00ff0000마스터|r";
+		t["R00Q"][117][1] = "Fujiwara no Mokou Upgrade - |c00ff0000마스터|r";
 -- gtp1 14
-		t["R00Q"][118][1] = "후지와라노 모코우 Upgrade - 14Lv";
+		t["R00Q"][118][1] = "Fujiwara no Mokou Upgrade - 14Lv";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
