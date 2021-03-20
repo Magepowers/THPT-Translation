@@ -3277,7 +3277,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00S"][7][1] = "나마즈 - |c00400080Epic|r";
+		t["h00S"][7][1] = "Namazu - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h00S"][11][1] = "namazu.mdl";
@@ -3553,7 +3553,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01B"][7][1] = "야사카 카나코 - |c00400080Epic|r";
+		t["h01B"][7][1] = "Kanako Yasaka - |c00400080Epic|r";
 -- ua1m
 		t["h01B"][10][1] = "Abilities\\Weapons\\ProcMissile\\ProcMissile.mdl";
 -- umdl
@@ -3731,7 +3731,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01N"][7][1] = "코메이지 코이시 - |c00400080Epic|r";
+		t["h01N"][7][1] = "Koishi Komeiji - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h01N"][11][1] = "@Y_Model_Koishi.mdl";
@@ -3846,7 +3846,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h021"][7][1] = "토라마루 쇼 - |c00400080Epic|r";
+		t["h021"][7][1] = "Sho Toramaru - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h021"][11][1] = "ToramaruSyou2.mdl";
@@ -4607,7 +4607,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e015"][3][1] = "A0M0,A0IX,A0A0,A095";
 -- unam
-		t["e015"][5][1] = "코메이지 코이시 - |c00008080닫힌 사랑의 눈동자|r|N라운드 제한 : 57";
+		t["e015"][5][1] = "Koishi Komeiji - |c00008080닫힌 사랑의 눈동자|r|N라운드 제한 : 57";
 -- upgr
 		t["e015"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhpm,R01L";
 -- umdl
@@ -4689,7 +4689,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01B"][7][1] = "WAVE41 - 타타라 코가사";
+		t["e01B"][7][1] = "WAVE41 - Kogasa Tatara";
 -- upgr
 -- umdl
 		t["e01B"][12][1] = "units\\naga\\HeroNagaSeawitch\\HeroNagaSeawitch.mdl";
@@ -4956,7 +4956,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01W"][7][1] = "WAVE62 - 토라마루 쇼";
+		t["e01W"][7][1] = "WAVE62 - Sho Toramaru";
 -- upgr
 -- umdl
 		t["e01W"][12][1] = "units\\nightelf\\HeroMoonPriestess\\HeroMoonPriestess.mdl";
@@ -5019,7 +5019,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e021"][7][1] = "WAVE67 - 야사카 카나코";
+		t["e021"][7][1] = "WAVE67 - Kanako Yasaka";
 -- upgr
 -- umdl
 -- uarm
@@ -5111,7 +5111,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e029"][7][1] = "WAVE75 - 코메이지 코이시";
+		t["e029"][7][1] = "WAVE75 - Koishi Komeiji";
 -- upgr
 -- umdl
 -- uarm
@@ -5320,7 +5320,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h02Z"][7][1] = "타타라 코가사 - |c00ffff00Rare|r";
+		t["h02Z"][7][1] = "Kogasa Tatara - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 		t["h02Z"][11][1] = "kogasa.mdl";
@@ -5498,7 +5498,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03B"][7][1] = "유령악단[팬텀 앙상블] - |c00400080Epic|r";
+		t["h03B"][7][1] = "Ghost Orchestra[Phantom Ensemble] - |c00400080Epic|r";
 -- ua1m
 		t["h03B"][10][1] = "Abilities\\Weapons\\WingedSerpentMissile\\WingedSerpentMissile.mdl";
 -- umdl
@@ -5828,7 +5828,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03W"][7][1] = "마에리베리 한 - |c00400080Epic|r";
+		t["h03W"][7][1] = "Maribel Hearn - |c00400080Epic|r";
 -- ua1m
 		t["h03W"][10][1] = "Abilities\\Weapons\\SkeletalMageMissile\\SkeletalMageMissile.mdl";
 -- umdl
@@ -5845,7 +5845,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03X"][7][1] = "비상천칙 - |c00400080Epic|r";
+		t["h03X"][7][1] = "Hisoutensoku - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h03X"][11][1] = "hisoutensoku.mdl";
@@ -6074,7 +6074,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h04N"][6][1] = "토라마루 쇼 - |c0000FFFFExtended|r";
+		t["h04N"][6][1] = "Sho Toramaru - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -6629,7 +6629,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h04Y"][6][1] = "토키코 - |c00400080Epic|r";
+		t["h04Y"][6][1] = "Tokiko - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h04Y"][10][1] = "zhuluzi3.mdl";
@@ -7377,7 +7377,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06L"][7][1] = "나마즈 - |c0000FFFFExtended|r";
+		t["h06L"][7][1] = "Namazu - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7506,7 +7506,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06M"][7][1] = "마에리베리 한 - |c0000FFFFExtended|r";
+		t["h06M"][7][1] = "Maribel Hearn - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7544,7 +7544,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06O"][7][1] = "야사카 카나코 - |c0000FFFFExtended|r";
+		t["h06O"][7][1] = "Kanako Yasaka - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7681,7 +7681,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06X"][7][1] = "코메이지 코이시 - |c0000FFFFExtended|r";
+		t["h06X"][7][1] = "Koishi Komeiji - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7787,7 +7787,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h073"][7][1] = "유령악단[팬텀 앙상블] - |c0000FFFFExtended|r";
+		t["h073"][7][1] = "Ghost Orchestra[Phantom Ensemble] - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8015,7 +8015,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h07J"][6][1] = "비상천칙 - |c0000FFFFExtended|r";
+		t["h07J"][6][1] = "Hisoutensoku - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8054,7 +8054,7 @@ TPT_units_loader = function(t)
 -- [h04V]
 -- upgr
 -- unam
-		t["h04V"][5][1] = "코메이지 코이시 - |c0000FFFFExtended|r,|c0080A8E6Ascended|r|N상기의 길을 걷는 닫힌 눈";
+		t["h04V"][5][1] = "Koishi Komeiji - |c0000FFFFExtended|r,|c0080A8E6Ascended|r|N상기의 길을 걷는 닫힌 눈";
 -- ua1m
 		t["h04V"][8][1] = "ZHeart.mdl";
 -- umdl
@@ -8150,7 +8150,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h07L"][6][1] = "토키코 - |c0000FFFFExtended|r";
+		t["h07L"][6][1] = "Tokiko - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8383,7 +8383,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- urac
 -- unam
-		t["u004"][11][1] = "마에리베리 한 - |c0080A8E6Ascended|N다른 세계를 보는 자|r";
+		t["u004"][11][1] = "Maribel Hearn - |c0080A8E6Ascended|N다른 세계를 보는 자|r";
 -- umvt
 -- ua1m
 -- usnd

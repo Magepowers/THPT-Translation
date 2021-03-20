@@ -2003,7 +2003,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 9
 -- gnam 10
 -- gnam 12
-		t["R00B"][64][1] = "토라마루 쇼 Upgrade";
+		t["R00B"][64][1] = "Sho Toramaru Upgrade";
 -- gnam 11
 -- gnam 13
 -- gnam 15
@@ -2064,15 +2064,15 @@ TPT_upgrades_loader = function(t)
 -- gtp1 10
 		t["R00B"][113][1] = "플랑드르 스칼렛 Upgrade - |c00ff0000마스터|r";
 -- gtp1 11
-		t["R00B"][114][1] = "토라마루 쇼 Upgrade - 11Lv";
+		t["R00B"][114][1] = "Sho Toramaru Upgrade - 11Lv";
 -- gtp1 12
-		t["R00B"][115][1] = "토라마루 쇼 Upgrade - 12Lv";
+		t["R00B"][115][1] = "Sho Toramaru Upgrade - 12Lv";
 -- gtp1 13
-		t["R00B"][116][1] = "토라마루 쇼 Upgrade - 13Lv";
+		t["R00B"][116][1] = "Sho Toramaru Upgrade - 13Lv";
 -- gtp1 15
-		t["R00B"][117][1] = "토라마루 쇼 Upgrade - |c00ff0000마스터|r";
+		t["R00B"][117][1] = "Sho Toramaru Upgrade - |c00ff0000마스터|r";
 -- gtp1 14
-		t["R00B"][118][1] = "토라마루 쇼 Upgrade - 14Lv";
+		t["R00B"][118][1] = "Sho Toramaru Upgrade - 14Lv";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
@@ -2904,14 +2904,14 @@ TPT_upgrades_loader = function(t)
 -- gnam 3
 -- gnam 4
 -- gnam 5
-		t["R00F"][58][1] = "코메이지 코이시 Upgrade[E]";
+		t["R00F"][58][1] = "Koishi Komeiji Upgrade[E]";
 -- gnam 6
 -- gnam 7
 -- gnam 8
 -- gnam 9
 -- gnam 10
 -- gnam 12
-		t["R00F"][64][1] = "코메이지 코이시 Upgrade";
+		t["R00F"][64][1] = "Koishi Komeiji Upgrade";
 -- gnam 11
 -- gnam 13
 -- gnam 15
@@ -2960,27 +2960,27 @@ TPT_upgrades_loader = function(t)
 -- gtp1 4
 		t["R00F"][107][1] = "마타라 오키나 Upgrade|cffffcc00(D)|r - 겨울";
 -- gtp1 5
-		t["R00F"][108][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 5Lv";
+		t["R00F"][108][1] = "Koishi Komeiji Upgrade|cffffcc00(E)|r - 5Lv";
 -- gtp1 6
-		t["R00F"][109][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 6Lv";
+		t["R00F"][109][1] = "Koishi Komeiji Upgrade|cffffcc00(E)|r - 6Lv";
 -- gtp1 7
-		t["R00F"][110][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 7Lv";
+		t["R00F"][110][1] = "Koishi Komeiji Upgrade|cffffcc00(E)|r - 7Lv";
 -- gtp1 8
-		t["R00F"][111][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 8Lv";
+		t["R00F"][111][1] = "Koishi Komeiji Upgrade|cffffcc00(E)|r - 8Lv";
 -- gtp1 9
-		t["R00F"][112][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - 9Lv";
+		t["R00F"][112][1] = "Koishi Komeiji Upgrade|cffffcc00(E)|r - 9Lv";
 -- gtp1 10
-		t["R00F"][113][1] = "코메이지 코이시 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["R00F"][113][1] = "Koishi Komeiji Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gtp1 11
-		t["R00F"][114][1] = "코메이지 코이시 Upgrade - 11Lv";
+		t["R00F"][114][1] = "Koishi Komeiji Upgrade - 11Lv";
 -- gtp1 12
-		t["R00F"][115][1] = "코메이지 코이시 Upgrade - 12Lv";
+		t["R00F"][115][1] = "Koishi Komeiji Upgrade - 12Lv";
 -- gtp1 13
-		t["R00F"][116][1] = "코메이지 코이시 Upgrade - 13Lv";
+		t["R00F"][116][1] = "Koishi Komeiji Upgrade - 13Lv";
 -- gtp1 15
-		t["R00F"][117][1] = "코메이지 코이시 Upgrade - |c00ff0000마스터|r";
+		t["R00F"][117][1] = "Koishi Komeiji Upgrade - |c00ff0000마스터|r";
 -- gtp1 14
-		t["R00F"][118][1] = "코메이지 코이시 Upgrade - 14Lv";
+		t["R00F"][118][1] = "Koishi Komeiji Upgrade - 14Lv";
 -- gtp1 16
 -- gtp1 17
 -- gtp1 18
@@ -4901,7 +4901,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00X"][59][1] = "야사카 카나코 Upgrade";
+		t["R00X"][59][1] = "Kanako Yasaka Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -4957,15 +4957,15 @@ TPT_upgrades_loader = function(t)
 -- gtp1 5
 		t["R00X"][108][1] = "카나 아나베랄 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R00X"][109][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 6Lv";
+		t["R00X"][109][1] = "Kanako Yasaka Upgrade|cffffcc00(A)|r - 6Lv";
 -- gtp1 7
-		t["R00X"][110][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 7Lv";
+		t["R00X"][110][1] = "Kanako Yasaka Upgrade|cffffcc00(A)|r - 7Lv";
 -- gtp1 8
-		t["R00X"][111][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 8Lv";
+		t["R00X"][111][1] = "Kanako Yasaka Upgrade|cffffcc00(A)|r - 8Lv";
 -- gtp1 9
-		t["R00X"][112][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - 9Lv";
+		t["R00X"][112][1] = "Kanako Yasaka Upgrade|cffffcc00(A)|r - 9Lv";
 -- gtp1 10
-		t["R00X"][113][1] = "야사카 카나코 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R00X"][113][1] = "Kanako Yasaka Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -5128,7 +5128,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00Y"][59][1] = "유령악단[팬텀 앙상블] Upgrade";
+		t["R00Y"][59][1] = "Ghost Orchestra[Phantom Ensemble] Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -5184,15 +5184,15 @@ TPT_upgrades_loader = function(t)
 -- gtp1 5
 		t["R00Y"][108][1] = "신키 Upgrade|cffffcc00(F)|r - 5Lv";
 -- gtp1 6
-		t["R00Y"][109][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 6Lv";
+		t["R00Y"][109][1] = "Ghost Orchestra[Phantom Ensemble] Upgrade|cffffcc00(W)|r - 6Lv";
 -- gtp1 7
-		t["R00Y"][110][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 7Lv";
+		t["R00Y"][110][1] = "Ghost Orchestra[Phantom Ensemble] Upgrade|cffffcc00(W)|r - 7Lv";
 -- gtp1 8
-		t["R00Y"][111][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 8Lv";
+		t["R00Y"][111][1] = "Ghost Orchestra[Phantom Ensemble] Upgrade|cffffcc00(W)|r - 8Lv";
 -- gtp1 9
-		t["R00Y"][112][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - 9Lv";
+		t["R00Y"][112][1] = "Ghost Orchestra[Phantom Ensemble] Upgrade|cffffcc00(W)|r - 9Lv";
 -- gtp1 10
-		t["R00Y"][113][1] = "유령악단[팬텀 앙상블] Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R00Y"][113][1] = "Ghost Orchestra[Phantom Ensemble] Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
