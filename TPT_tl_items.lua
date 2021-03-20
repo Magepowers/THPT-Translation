@@ -902,8 +902,8 @@ TPT_items_loader = function(t)
 -- utip
 		t["I019"][4][1] = "B랭크 퀘스트|cffffcc00(Z)|r";
 -- utub
-		t["I019"][5][1] = "임무 : 성련선 퇴치\r\
-성련선 체력 : 2000만\r\
+		t["I019"][5][1] = "임무 : Palanquin Ship 퇴치\r\
+Palanquin Ship 체력 : 2000만\r\
 특수 능력 : 마법 데미지 50% 감소\r\
 보상 : 금 1000 , 목재 1\r\
 쿨타임 : 360초\r\
@@ -1536,7 +1536,7 @@ TPT_items_loader = function(t)
 -- ides
 -- [I00F]
 -- utip
-		t["I00F"][2][1] = "|c00FF9664히히이로카네 셉터|r - 이부키 스이카";
+		t["I00F"][2][1] = "|c00FF9664히히이로카네 셉터|r - Suika Ibuki";
 -- unam
 -- utub
 		t["I00F"][4][1] = "|c00FF9664[강화 효과: 귀신『미싱 퍼플 파워』]|r\r\

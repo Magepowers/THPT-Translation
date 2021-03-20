@@ -17,19 +17,19 @@ TPT_abilities_loader = function(t)
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
 		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Hieda no Akyuu[Epic] + Kochiya Sanae[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 울지않아 파르시쨩(parsee phan)\r\
+|c00A8F13A[Type Command]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
-[공격속도]: 0.67초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.67 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- [AOae]
 -- atp1 1
 		t["AOae"][1][1] = "일부『다이렉트 선라이트』";
 -- anam
 		t["AOae"][2][1] = "[Arcana]";
 -- aub1 1
-		t["AOae"][3][1] = "*써니 주변 700범위 적의 이동속도를 15% 감소시킵니다.\r\
-*Sunny Milk가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 유닛에게 95만의 |c00AC59FF절대 데미지|r를 입히고, 1초간 스턴시킵니다.\r\
+		t["AOae"][3][1] = "*써니 주변 700범위 적의 Movement Speed를 15% 감소시킵니다.\r\
+*Sunny Milk가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 Units에게 95만의 |c00AC59FF절대 데미지|r를 입히고, 1초간 스턴시킵니다.\r\
 [시간이 낮일 경우, 스턴 시간이 3초로 증가합니다.]";
 -- aart
 		t["AOae"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp";
@@ -40,10 +40,10 @@ TPT_abilities_loader = function(t)
 -- abuf 2
 -- atar 2
 -- aub1 2
-		t["AOae"][10][1] = "*써니 주변 700범위 적의 이동속도를 30% 감소시킵니다.\r\
-*Sunny Milk가 공격시 10% 확률로 전방으로 눈이 멀정도로 강력한 햇빛을 발사합니다. 전방 650범위 유닛에게 85만의 절대 데미지를 입히고, 1.5초간 스턴시킵니다.\r\
+		t["AOae"][10][1] = "*써니 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
+*Sunny Milk가 공격시 10% 확률로 전방으로 눈이 멀정도로 강력한 햇빛을 발사합니다. 전방 650범위 Units에게 85만의 절대 데미지를 입히고, 1.5초간 스턴시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
-[햇빛 보너스] : 낮일 경우 허영갑주 수치가 4로 증가하며, 이동속도 감소 효과가 22%에서 30%로 증가합니다.";
+[햇빛 보너스] : 낮일 경우 허영갑주 수치가 4로 증가하며, Movement Speed 감소 효과가 22%에서 30%로 증가합니다.";
 -- atp1 2
 -- [AIfw]
 -- anam
@@ -73,7 +73,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACac"][2][1] = "『작열 지옥』";
 -- aub1 1
-		t["ACac"][3][1] = "아군 유닛의 공격력을 10% 증가시킵니다.";
+		t["ACac"][3][1] = "아군 Units의 공격력을 10% 증가시킵니다.";
 -- aart
 		t["ACac"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNFireBolt.blp";
 -- atar 1
@@ -93,13 +93,13 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AOr2"][5][1] = "『광기』";
 -- aub1 1
-		t["AOr2"][6][1] = "*아군 유닛의 공격속도를 10% 증가 시킵니다.\r\
+		t["AOr2"][6][1] = "*아군 Units의 Attack Speed를 10% 증가 시킵니다.\r\
 *매 6라운드마다 Devil 1기를 지급합니다.";
 -- atar 2
 -- atp1 2
 		t["AOr2"][8][1] = "『증폭된 광기』";
 -- aub1 2
-		t["AOr2"][9][1] = "아군 유닛의 공격속도를 12% 증가 시킵니다.";
+		t["AOr2"][9][1] = "아군 Units의 Attack Speed를 12% 증가 시킵니다.";
 -- [Afae]
 -- atar 1
 		t["Afae"][1][1] = "air,enemies,neutral,ground";
@@ -148,9 +148,9 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["Adts"][4][1] = "|c00A8F13A[Combination]|r: Fairy[Normal] + Kappa[Normal]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- anam
 		t["Adts"][5][1] = "[Magic_Unit Information]";
 -- [AHds]
@@ -166,7 +166,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Awar"][2][1] = "질투『녹색의 눈을 한 보이지 않는 괴물』";
 -- aub1 1
-		t["Awar"][3][1] = "*파르시 주변 600범위 적의 이동속도를 20% 감소시킵니다.\r\
+		t["Awar"][3][1] = "*파르시 주변 600범위 적의 Movement Speed를 20% 감소시킵니다.\r\
 *파르시의 스킬이 발동했을때 다음과 같은 확률에 따라 질투합니다. 질투한 횟수만큼 데미지가 배수로 적용됩니다.\r\
 \r\
 40% + 클리어 횟수당 0.15% 상승 : 2번 질투합니다.\r\
@@ -190,7 +190,7 @@ TPT_abilities_loader = function(t)
 유효 범위 : 자신 주변 550\r\
 효과 : 주변 적을 최대 4명 공격\r\
 \r\
-|c00ff2222패널티|r : 공격속도가 느림";
+|c00ff2222패널티|r : Attack Speed가 느림";
 -- [Asth]
 -- anam
 		t["Asth"][2][1] = "[Rare_Unit Information]";
@@ -201,9 +201,9 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["Asth"][5][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Small Devil[Magic] + Goblin[Normal]\r\
 \r\
-[공격속도]: 1.2초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.2 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- [Afsh]
 -- aart
 		t["Afsh"][1][1] = "BTN\\BTNKagerou.blp";
@@ -212,9 +212,9 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: Sekibanki[Rare] + Kasodani Kyouko[Rare] + Merlin Prismriver[Rare]\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- anam
 		t["Afsh"][8][1] = "[Unique_Unit Information]";
 -- [Agyv]
@@ -228,9 +228,9 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + Sekibanki[Rare] + Merlin Prismriver[Rare]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- [AOcr]
 -- atp1 1
 		t["AOcr"][1][1] = "성광『스타 레이저』";
@@ -238,9 +238,9 @@ TPT_abilities_loader = function(t)
 		t["AOcr"][2][1] = "[Legendary]";
 -- aub1 1
 		t["AOcr"][3][1] = "*Star Sapphire가 공격시 마나를 5 회복합니다. 마나 25를 소모하여 아래의 효과를 발동합니다.\r\
-*대상 유닛과 그 주변 300범위 적에게 125만의 |c00379BFF마법 데미지|r를 입히는 섬광을 발사합니다.\r\
+*대상 Units과 그 주변 300범위 적에게 125만의 |c00379BFF마법 데미지|r를 입히는 섬광을 발사합니다.\r\
 *|c00C5EA53[조합 시너지]|r말썽쟁이 3Fairy\r\
--플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
+-플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 Units의 체력이 15% 감소합니다.";
 -- aart
 		t["AOcr"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNGenericSpellImmunity.blp";
 -- [ACpv]
@@ -291,8 +291,8 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["SCae"][3][1] = "평곡『기원정사의 종소리』";
 -- aub1 1
-		t["SCae"][4][1] = "＊자신 주변 900 범위의 아군 공격속도를 12% 증가시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.\r\
+		t["SCae"][4][1] = "＊자신 주변 900 범위의 아군 Attack Speed를 12% 증가시킨다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.\r\
 ＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 4만의 |c00379BFF마법 피해|r를 가한다.";
 -- anam
 		t["SCae"][5][1] = "[Unique]";
@@ -326,9 +326,9 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Tsukumo Benben[Unique] + Tsukumo Yatsuhashi[Unique] + Imaizumi Kagerou[Unique]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 유닛 업그레이드 , [강화]Epic 유닛 업그레이드";
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Units Upgrade , [강화]Epic Units Upgrade";
 -- aart
 		t["AEev"][5][1] = "BTN\\BTNShinmyoumaru.blp";
 -- [AHbh]
@@ -342,7 +342,7 @@ TPT_abilities_loader = function(t)
 		t["AHbh"][4][1] = "＊공격 시 10% 확률로 자신 주변 700 범위의 무작위 지점에 반딧불이 빛을 뿜내 주변 300 범위의 적에게 현재 체력 3%의 |c00AC59FF절대 피해|r를 가합니다.";
 -- arac
 -- atp1 2
-		t["AHbh"][6][1] = "요검 『천하패도의 휘침검』- |c0000FFFF익스텐드|r";
+		t["AHbh"][6][1] = "요검 『천하패도의 휘침검』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["AHbh"][7][1] = "*공격시 25% 확률로 16배의 데미지를 주고 1.2초간 스턴시킵니다.";
 -- areq
@@ -350,7 +350,7 @@ TPT_abilities_loader = function(t)
 -- [ACes]
 -- arac
 -- anam
-		t["ACes"][2][1] = "[익스텐드]";
+		t["ACes"][2][1] = "[Extended]";
 -- atp1 1
 		t["ACes"][3][1] = "소추『좀 더 커져라 얍!』";
 -- aart
@@ -393,10 +393,10 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["ACev"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNQuillSprayOff.blp";
 -- atp1 2
-		t["ACev"][6][1] = "휘침『오니 죽이는 두 눈 찌르기 바늘』- |c0000FFFF익스텐드|r";
+		t["ACev"][6][1] = "휘침『오니 죽이는 두 눈 찌르기 바늘』- |c0000FFFFExtended|r";
 -- aub1 2
-		t["ACev"][7][1] = "*신묘마루가 공격시 10% 확률로 대상 유닛의 현재 체력의 14%의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*보스 공격시 공격속도가 2초간 45% 증가합니다.";
+		t["ACev"][7][1] = "*신묘마루가 공격시 10% 확률로 대상 Units의 현재 체력의 14%의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*보스 공격시 Attack Speed가 2초간 45% 증가합니다.";
 -- [ACav]
 -- arac
 -- atar 1
@@ -412,7 +412,7 @@ TPT_abilities_loader = function(t)
 -- abuf 1
 		t["ACav"][8][1] = "BUav";
 -- atp1 2
-		t["ACav"][9][1] = "역부『천지유용』- |c0000FFFF익스텐드|r";
+		t["ACav"][9][1] = "역부『천지유용』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["ACav"][10][1] = "*주변 600범위 적의 방어력을 32 감소시킵니다.\r\
 *세이자가 공격시 12% 확률로 대상 지점 주변 450범위를 뒤집어놓아 범위 내의 적을 1.8초간 기절시키고, 80만의 |c00FF6464물리 데미지|r를 입힙니다.";
@@ -483,7 +483,7 @@ TPT_abilities_loader = function(t)
 -- atp1 3
 -- atp1 4
 -- aub1 2
-		t["Afbt"][10][1] = "*라이코 주변 700범위 적의 이동속도를 30% 감소시킵니다.\r\
+		t["Afbt"][10][1] = "*라이코 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 *라이코의 몸에서 정전기가 흘러나와 자신 주변 800범위 적에게 초당 50만의 마법 데미지를 입힙니다.\r\
 *[오버차지]|c00FF80FF[활력]|r - 15초\r\
 공격시 정전기 데미지가 25만 증가하며, 최대 125만까지 증가한 후 다시 초기 데미지로 돌아갑니다.";
@@ -507,14 +507,14 @@ TPT_abilities_loader = function(t)
 -- aub1 3
 -- aub1 4
 -- aub1 5
-		t["Adtg"][14][1] = "*라이코가 공격시 10% 확률로 대상 지점에 거대한 번개를 내려쳐 대상 지점 주변 550범위 내의 적의 이동속도를 1초간 99% 감소시키고, 145만의 마법 데미지를 입힙니다.";
+		t["Adtg"][14][1] = "*라이코가 공격시 10% 확률로 대상 지점에 거대한 번개를 내려쳐 대상 지점 주변 550범위 내의 적의 Movement Speed를 1초간 99% 감소시키고, 145만의 마법 데미지를 입힙니다.";
 -- aub1 6
 -- atp1 5
 -- [AUts]
 -- arac
 -- anam
 -- atp1 1
-		t["AUts"][4][1] = "누에부『언디파인드 다크니스』- |c0000FFFF익스텐드|r";
+		t["AUts"][4][1] = "누에부『언디파인드 다크니스』- |c0000FFFFExtended|r";
 -- aart
 -- aub1 1
 		t["AUts"][6][1] = "＊공격 시 4% 확률로 대상을 어둠의 기운으로 휘감아 무적으로 만들고, 4초 후 즉사시킵니다.\r\
@@ -530,7 +530,7 @@ TPT_abilities_loader = function(t)
 -- atp1 5
 		t["AUts"][15][1] = "누에부『언디파인드 다크니스』- 공포의 기운 5";
 -- aub1 2
-		t["AUts"][16][1] = "*누에가 공격시 4% 확률로 대상 유닛을 어둠의 기운으로 휘감습니다. 대상 유닛은 무적 상태가 되며, 4초 후 즉사합니다.\r\
+		t["AUts"][16][1] = "*누에가 공격시 4% 확률로 대상 Units을 어둠의 기운으로 휘감습니다. 대상 Units은 무적 상태가 되며, 4초 후 즉사합니다.\r\
 [보스 미적용]";
 -- aub1 3
 -- aub1 4
@@ -598,7 +598,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACba"][3][1] = "『달의 마법』";
 -- aub1 1
-		t["ACba"][4][1] = "*아군 유닛의 마나를 초당 1씩 더 회복시킵니다. 마나를 이용해 스택을 쌓는 캐릭터들의 효력을 더욱 증가시킬 수 있습니다.";
+		t["ACba"][4][1] = "*아군 Units의 마나를 초당 1씩 더 회복시킵니다. 마나를 이용해 스택을 쌓는 캐릭터들의 효력을 더욱 증가시킬 수 있습니다.";
 -- atar 1
 		t["ACba"][5][1] = "invulnerable,nonancient,vulnerable,player";
 -- atar 2
@@ -670,7 +670,7 @@ TPT_abilities_loader = function(t)
 -- atp1 6
 		t["AOw2"][20][1] = "클피 Epic";
 -- atp1 7
-		t["AOw2"][21][1] = "클피 익스텐드";
+		t["AOw2"][21][1] = "클피 Extended";
 -- atar 8
 -- atp1 8
 		t["AOw2"][23][1] = "[Epic] 세이자 : 450 2.5초 -";
@@ -776,11 +776,11 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["ANtr"][4][1] = "|c00A8F13A[Combination]|r: Kishin Sagume[Unique] + Lily Black[Unique] + Cirno[Minus K]\r\
 \r\
-[공격속도]: 0.75초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.75 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- atar 1
 		t["ANtr"][5][1] = "_";
 -- aart
@@ -797,11 +797,11 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: Rumia EX[Unique] + Kagiyama Hina[Unique] + Imaizumi Kagerou[Unique]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다. 다른 익스텐드 유닛과 다르게, 습득하는 Epic 유닛이 사라지지 않고 익스텐드 유닛이 나타납니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다. 다른 Extended Units과 다르게, 습득하는 Epic Units이 사라지지 않고 Extended Units이 나타납니다.|r";
 -- [ACct]
 -- arac
 -- anam
@@ -823,8 +823,8 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["AUau"][5][1] = "*|c00FF80FF[활력]|r - 10초\r\
 운잔이 나타나 적을 향해 사자후를 내지릅니다. 주변 1000범위 내의 적에게 전체 체력의 2% + 450만의 |c00FF6464물리 피해|r를 입힙니다.\r\
-*위 효과가 발동할 때, 이치린 주변 1000범위 자신 소유 유닛의 활력을 30% 회복시킵니다.\r\
-[이치린 자신과 활력 회복 효과를 받지 않는 유닛에게는 적용되지 않습니다.]";
+*위 효과가 발동할 때, 이치린 주변 1000범위 자신 소유 Units의 활력을 30% 회복시킵니다.\r\
+[이치린 자신과 활력 회복 효과를 받지 않는 Units에게는 적용되지 않습니다.]";
 -- atar 1
 -- aart
 		t["AUau"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNSpiritOfVengeance.blp";
@@ -833,7 +833,7 @@ TPT_abilities_loader = function(t)
 -- atp1 2
 		t["AUau"][11][1] = "서적『비 노이만형 계산기의 미래』";
 -- aub1 2
-		t["AUau"][12][1] = "*토키코 주변 650범위 적의 이동속도를 40% 감소시킵니다.\r\
+		t["AUau"][12][1] = "*토키코 주변 650범위 적의 Movement Speed를 40% 감소시킵니다.\r\
 *토키코가 공격시 10% 확률로 대상 주변 475범위의 적에게 책을 읽으라고 일갈하여 1.7초의 스턴과 55만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 4";
 -- [ANth]
@@ -845,13 +845,13 @@ TPT_abilities_loader = function(t)
 		t["ANth"][4][1] = "『넘쳐나는 하예』";
 -- aub1 1
 		t["ANth"][5][1] = "*순호가 공격시 9% 확률로 자신 주변 1000범위를 더러운 기운으로 가득채웁니다. 대상이 적이라면 75만의 |c00379BFF마법 데미지|r를 입히고, 아군이라면 마나를 전체 마나의 6%만큼 회복시킵니다.\r\
-[마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 유닛에게 적용되지 않습니다.]";
+[마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 Units에게 적용되지 않습니다.]";
 -- [SCva]
 -- [ACrk]
 -- [Afbb]
 -- aub1 1
 		t["Afbb"][1][1] = "*순호가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을 경우, 대상 지점 750범위 내에 있는 적에게 1초간 0.2초마다 50만의 |c00379BFF마법 데미지|r를 입힙니다. 이후 거대한 폭발을 일으켜 대상 범위내의 적에게 전체 체력의 2% + 250만의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
-*폭발시 주변 800범위 아군의 마나를 15% 회복시킵니다.[마나 회복을 받지 않는 유닛과 자신 제외]";
+*폭발시 주변 800범위 아군의 마나를 15% 회복시킵니다.[마나 회복을 받지 않는 Units과 자신 제외]";
 -- atp1 1
 		t["Afbb"][2][1] = "『살의의 백합』";
 -- anam
@@ -863,10 +863,10 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANde"][4][1] = "『떨며 얼어붙는 별』";
 -- aub1 1
-		t["ANde"][5][1] = "*순호가 공격시 10% 확률로 주변 유닛을 급속도로 냉각시킵니다. \r\
-*자신 주변 800범위 유닛이 적이라면 2초간 스턴시키고, 200만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+		t["ANde"][5][1] = "*순호가 공격시 10% 확률로 주변 Units을 급속도로 냉각시킵니다. \r\
+*자신 주변 800범위 Units이 적이라면 2초간 스턴시키고, 200만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *아군이라면 마나의 6%를 회복시킵니다.\r\
-[마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 유닛에게 적용되지 않습니다.]";
+[마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 Units에게 적용되지 않습니다.]";
 -- aart
 		t["ANde"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNFreezingBreath.blp";
 -- [ACua]
@@ -879,7 +879,7 @@ TPT_abilities_loader = function(t)
 		t["ACua"][5][1] = "『손바닥의 순광』";
 -- aub1 1
 		t["ACua"][6][1] = "*순호가 공격시 10% 확률로 자신 전방 1000거리 250범위 내의 적에게 전체 체력의 0.4% + 125만의 |c00379BFF마법 데미지|r를 입힙니다. 이 광선에 맞은 적은 정화되어 마법 데미지를 22% 증폭해서 받습니다.\r\
-*기본적으로 순호 주변 750범위 내에 있는 적군의 이동속도를 40% 감소시킵니다.";
+*기본적으로 순호 주변 750범위 내에 있는 적군의 Movement Speed를 40% 감소시킵니다.";
 -- abuf 1
 		t["ACua"][8][1] = "B02E";
 -- [Aprg]
@@ -889,9 +889,9 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Aprg"][4][1] = "금기『카고메 카고메』 - 단축키 (R)";
 -- aub1 1
-		t["Aprg"][5][1] = "*사용식 능력: 플랑드르가 아군 유닛 하나를 술래로 지명합니다. 술래로 지명된 유닛은 공격속도가 45% 상승합니다. 이 스킬을 술래에게 다시 사용할 경우 술래가 취소되며 술래를 다시 지정할 수 있습니다.\r\
-*플랑드르가 공격시 14% 확률로 자신 주변 750범위 유닛에게 165만의 |c00379BFF마법 데미지|r를입히고, 3초간 60%의 슬로우를 입힙니다.\r\
-*플랑드르가 공격시 10% 확률로 공격한 적의 체력이 8% 이하라면 즉사시킵니다.[보스 유닛 포함] 즉사시킨 적은 폭발하며 주변 450범위 적을 2초간 스턴시킵니다.";
+		t["Aprg"][5][1] = "*사용식 능력: 플랑드르가 아군 Units 하나를 술래로 지명합니다. 술래로 지명된 Units은 Attack Speed가 45% 상승합니다. 이 스킬을 술래에게 다시 사용할 경우 술래가 취소되며 술래를 다시 지정할 수 있습니다.\r\
+*플랑드르가 공격시 14% 확률로 자신 주변 750범위 Units에게 165만의 |c00379BFF마법 데미지|r를입히고, 3초간 60%의 슬로우를 입힙니다.\r\
+*플랑드르가 공격시 10% 확률로 공격한 적의 체력이 8% 이하라면 즉사시킵니다.[보스 Units 포함] 즉사시킨 적은 폭발하며 주변 450범위 적을 2초간 스턴시킵니다.";
 -- aart
 		t["Aprg"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNFaerieFire.blp";
 -- ahky
@@ -983,7 +983,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["Awfb"][54][1] = "『상기의 길』|c00C770F5[D]|r";
 -- aub1 1
-		t["Awfb"][55][1] = "＊지독한 악몽을 깨는 방법은 단 하나입니다. 일정 유닛들을 모아 특정 유닛에게 스킬 사용 시 무의식의 영향이 짙어집니다.";
+		t["Awfb"][55][1] = "＊지독한 악몽을 깨는 방법은 단 하나입니다. 일정 Units들을 모아 특정 Units에게 스킬 사용 시 무의식의 영향이 짙어집니다.";
 -- anam
 -- abuf 1
 		t["Awfb"][57][1] = "BSTN";
@@ -1104,8 +1104,8 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AHab"][1][1] = "『학자의 마법진』";
 -- aub1 1
-		t["AHab"][2][1] = "*유메미 주변 1000범위 아군 유닛의 마나 리젠을 초당 3 증가시킵니다.\r\
-*유메미 주변 1000범위 적 유닛의 방어력을 35 감소시킵니다.";
+		t["AHab"][2][1] = "*유메미 주변 1000범위 아군 Units의 마나 리젠을 초당 3 증가시킵니다.\r\
+*유메미 주변 1000범위 적 Units의 방어력을 35 감소시킵니다.";
 -- anam
 -- aart
 		t["AHab"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNBlink.blp";
@@ -1178,11 +1178,11 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aub1 1
 		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Fujiwara no Mokou[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 역사를 새기는 자(keine phan)\r\
+|c00A8F13A[Type Command]|r: 역사를 새기는 자(keine phan)\r\
 \r\
-[공격속도]: 0.28초당 1번\r\
-[이동속도]: 522\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.28 Cooldown\r\
+[Movement Speed]: 522\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -1205,7 +1205,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["AIcs"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp";
 -- aub1 1
-		t["AIcs"][5][1] = "*공격시 25% 확률로 대상 유닛에게 전체 체력의 6% + 250만의 |c00379BFF마법 데미지|r를 입히고, 4초간 스턴시킵니다.\r\
+		t["AIcs"][5][1] = "*공격시 25% 확률로 대상 Units에게 전체 체력의 6% + 250만의 |c00379BFF마법 데미지|r를 입히고, 4초간 스턴시킵니다.\r\
 [보스에게는 체력 비례 데미지가 25%만 적용됩니다.]\r\
 *『체포하겠어요!』가 6번 발동시 다음 공격에 『조용히 하세요!』가 발동합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
@@ -1262,7 +1262,7 @@ TPT_abilities_loader = function(t)
 -- aub1 7
 		t["AIcs"][32][1] = "*미스티아 야맹증에 걸린 적을 공격시 10% 확률로 선심쓰듯 가시가 많은 칠성 장어구이를 건네줍니다. 장어구이를 건네받은 단일 대상은 야맹증 효과가 해제되며 전체 체력의 0.7% + 70만의 마법 대미지를 입습니다.\r\
 *야맹증에 걸린 적이 장어를 먹어 야맹증이 풀릴때마다 미스티아는 착한아이 스택을 1 얻습니다.\r\
-*착한아이 스택이 21 모일때마다 미스티아의 장어구이집에 손님이 찾아옵니다. 랜덤한 Normal 유닛을 획득합니다.";
+*착한아이 스택이 21 모일때마다 미스티아의 장어구이집에 손님이 찾아옵니다. 랜덤한 Normal Units을 획득합니다.";
 -- aub1 8
 -- aub1 9
 -- aub1 10
@@ -1286,9 +1286,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Aflk"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNReplay-Pause.blp";
 -- anam
-		t["Aflk"][5][1] = "[유닛 카운트]";
+		t["Aflk"][5][1] = "[Units 카운트]";
 -- aub1 1
-		t["Aflk"][6][1] = "생성가능한 Normal 유닛의 제한을 표시하는 카운트 입니다.";
+		t["Aflk"][6][1] = "생성가능한 Normal Units의 제한을 표시하는 카운트 입니다.";
 -- aub1 2
 -- aub1 3
 -- aub1 4
@@ -1301,52 +1301,52 @@ TPT_abilities_loader = function(t)
 -- aub1 11
 -- aub1 12
 -- atp1 1
-		t["Aflk"][18][1] = "생성 가능 유닛 = 21개";
+		t["Aflk"][18][1] = "생성 가능 Units = 21개";
 -- atp1 2
-		t["Aflk"][19][1] = "생성 가능 유닛 = 20개";
+		t["Aflk"][19][1] = "생성 가능 Units = 20개";
 -- atp1 3
-		t["Aflk"][20][1] = "생성 가능 유닛 = 19개";
+		t["Aflk"][20][1] = "생성 가능 Units = 19개";
 -- atp1 4
-		t["Aflk"][21][1] = "생성 가능 유닛 = 18개";
+		t["Aflk"][21][1] = "생성 가능 Units = 18개";
 -- atp1 5
-		t["Aflk"][22][1] = "생성 가능 유닛 = 17개";
+		t["Aflk"][22][1] = "생성 가능 Units = 17개";
 -- atp1 6
-		t["Aflk"][23][1] = "생성 가능 유닛 = 16개";
+		t["Aflk"][23][1] = "생성 가능 Units = 16개";
 -- atp1 7
-		t["Aflk"][24][1] = "생성 가능 유닛 = 15개";
+		t["Aflk"][24][1] = "생성 가능 Units = 15개";
 -- atp1 8
-		t["Aflk"][25][1] = "생성 가능 유닛 = 14개";
+		t["Aflk"][25][1] = "생성 가능 Units = 14개";
 -- atp1 9
-		t["Aflk"][26][1] = "생성 가능 유닛 = 13개";
+		t["Aflk"][26][1] = "생성 가능 Units = 13개";
 -- atp1 10
-		t["Aflk"][27][1] = "생성 가능 유닛 = 12개";
+		t["Aflk"][27][1] = "생성 가능 Units = 12개";
 -- atp1 11
-		t["Aflk"][28][1] = "생성 가능 유닛 = 11개";
+		t["Aflk"][28][1] = "생성 가능 Units = 11개";
 -- atp1 12
-		t["Aflk"][29][1] = "생성 가능 유닛 = 10개";
+		t["Aflk"][29][1] = "생성 가능 Units = 10개";
 -- atp1 13
-		t["Aflk"][30][1] = "생성 가능 유닛 = 9개";
+		t["Aflk"][30][1] = "생성 가능 Units = 9개";
 -- aub1 13
 -- atp1 30
-		t["Aflk"][32][1] = "생성 가능 유닛 = 30개";
+		t["Aflk"][32][1] = "생성 가능 Units = 30개";
 -- atp1 14
-		t["Aflk"][33][1] = "생성 가능 유닛 = 8개";
+		t["Aflk"][33][1] = "생성 가능 Units = 8개";
 -- atp1 15
-		t["Aflk"][34][1] = "생성 가능 유닛 = 7개";
+		t["Aflk"][34][1] = "생성 가능 Units = 7개";
 -- atp1 16
-		t["Aflk"][35][1] = "생성 가능 유닛 = 6개";
+		t["Aflk"][35][1] = "생성 가능 Units = 6개";
 -- atp1 17
-		t["Aflk"][36][1] = "생성 가능 유닛 = 5개";
+		t["Aflk"][36][1] = "생성 가능 Units = 5개";
 -- atp1 18
-		t["Aflk"][37][1] = "생성 가능 유닛 = 4개";
+		t["Aflk"][37][1] = "생성 가능 Units = 4개";
 -- atp1 19
-		t["Aflk"][38][1] = "생성 가능 유닛 = 3개";
+		t["Aflk"][38][1] = "생성 가능 Units = 3개";
 -- atp1 20
-		t["Aflk"][39][1] = "생성 가능 유닛 = 2개";
+		t["Aflk"][39][1] = "생성 가능 Units = 2개";
 -- atp1 21
-		t["Aflk"][40][1] = "생성 가능 유닛 = 1개";
+		t["Aflk"][40][1] = "생성 가능 Units = 1개";
 -- atp1 22
-		t["Aflk"][41][1] = "더 이상 유닛을 생성할 수 없습니다!";
+		t["Aflk"][41][1] = "더 이상 Units을 생성할 수 없습니다!";
 -- atp1 23
 -- atp1 24
 -- atp1 25
@@ -1445,7 +1445,7 @@ TPT_abilities_loader = function(t)
 		t["Ansk"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNTrueShot.blp";
 -- aub1 1
 		t["Ansk"][7][1] = "*|c00FF80FF[활력]|r - 3초\r\
-*사쿠야가 대상 유닛을 베어 전체 체력의 15%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*사쿠야가 대상 Units을 베어 전체 체력의 15%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
 [보스에게는 10%의 데미지만 적용] \r\
 *위 효과 발동시 대상 주변 400범위에 145만x(0.8~2)의 |c00FF6464물리 데미지|r를 입힙니다. ";
 -- [AHwe]
@@ -1469,7 +1469,7 @@ TPT_abilities_loader = function(t)
 		t["AEah"][5][1] = "옥부 『오합의 이중저주』";
 -- aub1 1
 		t["AEah"][6][1] = "*사구메가 공격할 때 대상 적의 남은 체력이 전체 체력의 50% 이상일시 더러움. 50% 이하일시 순수함으로 분류합니다. \r\
-*사구메의 스킬들은 사구메가 공격한 유닛의 상태가 순수함일시와 더러움일시로 나뉘어 적용됩니다.\r\
+*사구메의 스킬들은 사구메가 공격한 Units의 상태가 순수함일시와 더러움일시로 나뉘어 적용됩니다.\r\
 |c0000FFFF순수함|r : 사구메의 평타 공격이 55% 확률로 잃은 체력 1%의 |c00379BFF마법 피해|r를 입힙니다.\r\
 |c00800040더러움|r : 사구메의 평타 공격이 55% 확률로 현재 체력 1%의 |c00AC59FF절대 피해|r를 입힙니다.";
 -- aart
@@ -1497,7 +1497,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["Aabr"][8][1] = "*사구메가 공격시 9% 확률로 다음과 같은 효과를 발동합니다.\r\
 |c0000FFFF순수함|r : 자신 주변 750범위에 잃은 체력 0.6% + 100만의 |c00379BFF마법 피해|r를 입힙니다.\r\
-|c00800040더러움|r : 대상 유닛 주변 650범위에 현재 체력 0.6% + 100만의 |c00AC59FF절대 피해|r를 입힙니다.";
+|c00800040더러움|r : 대상 Units 주변 650범위에 현재 체력 0.6% + 100만의 |c00AC59FF절대 피해|r를 입힙니다.";
 -- [Aven]
 -- anam
 -- atp1 1
@@ -1506,7 +1506,7 @@ TPT_abilities_loader = function(t)
 		t["Aven"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp";
 -- aub1 1
 		t["Aven"][8][1] = "*사구메가 공격시 마나를 1 쌓습니다. 마나가 200이 됐을때 자신을 강화시킵니다. [강화 버프 지속 시간 동안은 공격시 0.6의 마나를 회복합니다] \r\
-*강화 버프는 12초간 지속되며, 자신의 공격속도가 300% 상승합니다. 공격시 20% 확률로 대상 지점에 순수함의 파장을 퍼뜨려 350범위에 현재 체력의 0.3% + 85만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
+*강화 버프는 12초간 지속되며, 자신의 Attack Speed가 300% 상승합니다. 공격시 20% 확률로 대상 지점에 순수함의 파장을 퍼뜨려 350범위에 현재 체력의 0.3% + 85만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *버프 발동과 동시에 깃퍼지미를 사용합니다. 깃털을 방사하여 주변 900범위 내의 적에게 전체 체력의 5% + 300만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *버프 지속시간동안『신들의 빛나는 탄관』의 발동 확률이 9%에서 15%로 상승합니다. 오합의 이중저주의 데미지가 100% 상승합니다.";
 -- [ANsy]
@@ -1537,15 +1537,15 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AIba"][5][1] = "|c00FEE952[Unit Information]|r - Hecatia Lapislazuli[Epic]";
 -- atp1 2
-		t["AIba"][6][1] = "지구『지옥에 내리는 비』- |c0000FFFF익스텐드|r";
+		t["AIba"][6][1] = "지구『지옥에 내리는 비』- |c0000FFFFExtended|r";
 -- aub1 1
-		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + Sㅏ나에[Unique] + Kamishirasawa Keine[Unique]\r\
+		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + Sa Nae[Unique] + Kamishirasawa Keine[Unique]\r\
 \r\
-[공격속도]: 0.75초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.75 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- anam
 -- aub1 2
 		t["AIba"][9][1] = "*자신 주변 650범위의 아군의 마나를 초당 1.5씩 회복시킵니다. 추가로 헤카티아가 공격시 10% 확률로 대상 지점 300범위에 지옥의 불길을 치솟게 해 범위 내의 적에게 66만의 |c00379BFF마법 데미지|r를 입히고, 적이 받는 마법 데미지를 7% 증폭시킵니다.";
@@ -1575,11 +1575,11 @@ TPT_abilities_loader = function(t)
 -- anam
 -- aub1 1
 		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + Hecatia Lapislazuli[Epic] + Hoshiguma Yuugi[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 군자불어괴력난신(yuugi phan)\r\
+|c00A8F13A[Type Command]|r: 군자불어괴력난신(yuugi phan)\r\
 \r\
-[공격속도]: 0.75초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.75 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- aart
 		t["Amgl"][6][1] = "Icon\\Unit\\BTNYuugi_Phan.blp";
 -- [ACbh]
@@ -1587,7 +1587,7 @@ TPT_abilities_loader = function(t)
 -- arac
 -- aub1 1
 		t["ACbh"][3][1] = "*Luna Child의 모든 스킬은 밤일때 강화되는 밤 보너스를 가집니다.\r\
-*공격시 25% 확률로 대상 유닛에게 4배의 치명타와 2초의 스턴을 입힙니다.\r\
+*공격시 25% 확률로 대상 Units에게 4배의 치명타와 2초의 스턴을 입힙니다.\r\
 *Luna Child의 평타 데미지는 350범위에 60%의 데미지를 입히는 범위 데미지로 적용됩니다.\r\
 *낮에 25만의 추가 공격력을 얻습니다.\r\
 |c009292C9밤 보너스|r : 추가 공격력이 90만으로 변경됩니다.\r\
@@ -1596,7 +1596,7 @@ TPT_abilities_loader = function(t)
 \r\
 *공격시 12% 확률로 대상 적의 안면을 가격해 밤 모양 입으로 바꿔버립니다.\r\
 *대상 주변 425범위 적에게 전체 체력의 0.8% + 145만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*유닛의 체력이 높을수록 입히는 데미지가 증가하며, 최대 50%까지 증가합니다.\r\
+*Units의 체력이 높을수록 입히는 데미지가 증가하며, 최대 50%까지 증가합니다.\r\
 |c009292C9밤 보너스|r : 발동시 전체 마나의 5%를 회복합니다";
 -- atp1 1
 		t["ACbh"][4][1] = "월부『다크 스틸니스』";
@@ -1669,8 +1669,8 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACfl"][1][1] = "하니와『불패의 무진장 병단』|cffffcc00(E)|r - 훈장 0개 지급";
 -- aub1 1
-		t["ACfl"][2][1] = "*마유미가 대상 유닛에게 하니와 최고의 영예인 하니와 명예 훈장을 수여합니다.\r\
-*훈장을 받은 유닛은 뭔가 떨떠름하지만 알 수 없는 고양감에 휩싸입니다.\r\
+		t["ACfl"][2][1] = "*마유미가 대상 Units에게 하니와 최고의 영예인 하니와 명예 훈장을 수여합니다.\r\
+*훈장을 받은 Units은 뭔가 떨떠름하지만 알 수 없는 고양감에 휩싸입니다.\r\
 *훈장은 최대 4개까지 지급가능하며, 아이템 형식을 취하고, 판매시 목재를 2 지급합니다.\r\
 *훈장을 모두 지급한 뒤 이 스킬을 사용할 경우, 스킬이 삭제되며 목재 7을 소모하고 플레이어에게 신비술사의 고서를 지급합니다.\r\
 *매우 낮은 확률로『영험한 하니와 조각품』을 대상에게 생성합니다.\r\
@@ -1696,8 +1696,8 @@ TPT_abilities_loader = function(t)
 -- atp1 6
 		t["ACfl"][15][1] = "하니와『불패의 무진장 병단』|cffffcc00(E)|r - 훈장 5개 지급";
 -- aub1 6
-		t["ACfl"][16][1] = "*마유미가 대상 유닛에게 하니와 최고의 영예인 하니와 명예 훈장을 수여합니다.\r\
-*훈장을 받은 유닛은 뭔가 떨떠름하지만 알 수 없는 고양감에 휩싸입니다.\r\
+		t["ACfl"][16][1] = "*마유미가 대상 Units에게 하니와 최고의 영예인 하니와 명예 훈장을 수여합니다.\r\
+*훈장을 받은 Units은 뭔가 떨떠름하지만 알 수 없는 고양감에 휩싸입니다.\r\
 *훈장은 최대 5개까지 지급가능하며, 아이템 형식을 취하고, 판매시 목재를 2 지급합니다.\r\
 *훈장을 5개 모두 지급한 뒤 이 스킬을 사용할 경우, 스킬이 삭제되며 플레이어에게 신비술사의 고서를 지급합니다.\r\
 *매우 낮은 확률로『영험한 하니와 조각품』을 대상에게 생성합니다.\r\
@@ -1713,7 +1713,7 @@ TPT_abilities_loader = function(t)
 -- atar 6
 -- [ANso]
 -- anam
-		t["ANso"][3][1] = "[조합 유닛 능력 사용불가능]";
+		t["ANso"][3][1] = "[조합 Units 능력 사용불가능]";
 -- atar 1
 		t["ANso"][5][1] = "invulnerable,neutral,ground,vulnerable,friend,player";
 -- [Aslo]
@@ -2048,7 +2048,7 @@ TPT_abilities_loader = function(t)
 -- aub1 2
 		t["ANfd"][208][1] = "이 스킬을 사용해 Devil나 Small Devil를 흡수할 수 있습니다. Devil 하나당 5, Small Devil 하나당 10의 마력을 흡수합니다.\r\
 흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 신키의 모든 스킬은 흡수한 마력에 비례해 강해집니다. 신키는 자신이 가진 마력 1당 10000의 추가 물리 데미지를 얻습니다.\r\
-기본적으로 공격속도가 매우 빠릅니다.";
+기본적으로 Attack Speed가 매우 빠릅니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -2152,17 +2152,17 @@ TPT_abilities_loader = function(t)
 -- [Amgr]
 -- arac
 -- aub1 1
-		t["Amgr"][2][1] = "|c00A8F13A[Combination]|r: Doremy Sweet[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
+		t["Amgr"][2][1] = "|c00A8F13A[Combination]|r: Doremy Sweet[Epic] + 나마즈[Epic] + Unknown[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 아사쿠라 리카코 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : 아사쿠라 리카코 Upgrade";
 -- aub1 2
 		t["Amgr"][3][1] = "세이자가 공격할 때 14% 확률로 적의 현재 체력과 남은 체력을 뒤바꿉니다. 하지만 뭔가 어설퍼 완벽하게 바꾸지는 못합니다. 적의 체력이 70% 이상일때 발동하며, 적의 체력을 70%로 만듭니다. 50% 이하일시에는 적 현재 체력의 7%의 데미지를 줍니다.보스에게는 적용되지 않습니다.";
 -- anam
 		t["Amgr"][4][1] = "[Historic_Unit Information]";
 -- atp1 2
-		t["Amgr"][5][1] = "역전『리버스 하이어라키』- |c0000FFFF익스텐드|r";
+		t["Amgr"][5][1] = "역전『리버스 하이어라키』- |c0000FFFFExtended|r";
 -- atp1 1
 		t["Amgr"][6][1] = "|c00FEE952[Unit Information]|r - 아사쿠라 리카코[Historic]";
 -- aart
@@ -2369,9 +2369,9 @@ TPT_abilities_loader = function(t)
 -- [AOwk]
 -- arac
 -- atp1 1
-		t["AOwk"][2][1] = "『Rare 유닛 팔기』";
+		t["AOwk"][2][1] = "『Rare Units 팔기』";
 -- aub1 1
-		t["AOwk"][3][1] = "*Rare 유닛을 판매합니다. 1기의 셀렉터를 지급받습니다. 2초의 시전 시간을 가집니다.\r\
+		t["AOwk"][3][1] = "*Rare Units을 판매합니다. 1기의 셀렉터를 지급받습니다. 2초의 시전 시간을 가집니다.\r\
 \r\
 *50% 확률로 나무를 1 추가로 획득합니다.";
 -- anam
@@ -2384,19 +2384,19 @@ TPT_abilities_loader = function(t)
 \r\
 *2기의 셀렉터를 획득합니다.";
 -- atp1 3
-		t["AOwk"][9][1] = "『특수 유닛 판매』";
+		t["AOwk"][9][1] = "『특수 Units 판매』";
 -- aub1 3
-		t["AOwk"][10][1] = "*특수 유닛을 판매하여 금 1000과 목재 2를 획득합니다.";
+		t["AOwk"][10][1] = "*특수 Units을 판매하여 금 1000과 목재 2를 획득합니다.";
 -- atp1 5
-		t["AOwk"][11][1] = "『Unique 유닛 판매』";
+		t["AOwk"][11][1] = "『Unique Units 판매』";
 -- aub1 5
-		t["AOwk"][12][1] = "*Unique 유닛을 판매합니다. 2기의 셀렉터를 획득합니다.\r\
+		t["AOwk"][12][1] = "*Unique Units을 판매합니다. 2기의 셀렉터를 획득합니다.\r\
 \r\
 *50% 확률로 나무를 1 추가로 획득합니다.";
 -- atp1 6
-		t["AOwk"][13][1] = "『Epic 유닛 판매』";
+		t["AOwk"][13][1] = "『Epic Units 판매』";
 -- aub1 6
-		t["AOwk"][14][1] = "*Epic 유닛을 판매합니다. 랜덤한 Unique 유닛 1기와 셀렉터 2기를 지급받습니다.";
+		t["AOwk"][14][1] = "*Epic Units을 판매합니다. 랜덤한 Unique Units 1기와 셀렉터 2기를 지급받습니다.";
 -- [AId1]
 -- anam
 -- [AId2]
@@ -2421,11 +2421,11 @@ TPT_abilities_loader = function(t)
 		t["ACpu"][6][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 선대무녀[Phantasm]";
 -- aub1 1
 		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Aya Shameimaru[Epic] + Hakurei Reimu[Unique] + 고대와  환상의 조각\r\
-|c00A8F13A[타이핑]|r: 환상향의 유산(sendai phan)\r\
+|c00A8F13A[Type Command]|r: 환상향의 유산(sendai phan)\r\
 \r\
-[공격속도]: 0.56초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.56 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- aart
 		t["ACpu"][9][1] = "BTN\\BTNsendai.blp";
 -- [AOws]
@@ -2467,7 +2467,7 @@ TPT_abilities_loader = function(t)
 -- arac
 		t["Ambd"][4][1] = "undead";
 -- aub1 1
-		t["Ambd"][5][1] = "*하타테가 보스 공격시 50% 확률로 보스 유닛의 전체 체력의 0.2% + 45만에 해당하는 |c00AC59FF절대 데미지|r를 입히며, 1.2초간 스턴시킵니다.\r\
+		t["Ambd"][5][1] = "*하타테가 보스 공격시 50% 확률로 보스 Units의 전체 체력의 0.2% + 45만에 해당하는 |c00AC59FF절대 데미지|r를 입히며, 1.2초간 스턴시킵니다.\r\
 *위 데미지 효과는 50라운드까지 적용됩니다.";
 -- atp1 1
 		t["Ambd"][6][1] = "취재『히메카이도 하타테의 연습취재』";
@@ -2512,12 +2512,12 @@ TPT_abilities_loader = function(t)
 *Murasa가 공격시 15% 확률로 대상 적에게 85만의 추가 |c00379BFF마법 데미지|r를 입히고, 2초간 스턴시킵니다.";
 -- [ANta]
 -- aub1 1
-		t["ANta"][1][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + 성련선[Unique] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 해군대장 푸른물개(murasa arc)\r\
+		t["ANta"][1][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + Palanquin Ship[Unique] + 신비술사의 고서\r\
+|c00A8F13A[Type Command]|r: 해군대장 푸른물개(murasa arc)\r\
 \r\
-[공격속도]: 0.34초당 1번\r\
-[이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드 , [기본]Epic 유닛 업그레이드";
+[Attack Speed]: 0.34 Cooldown\r\
+[Movement Speed]: 400[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade , [기본]Epic Units Upgrade";
 -- arac
 -- aart
 		t["ANta"][4][1] = "BTN\\BTNMurasa.blp";
@@ -2562,11 +2562,11 @@ TPT_abilities_loader = function(t)
 		t["ACce"][2][1] = "|c00FEE952[Unit Information]|r - Yamame Kurodani[Arcana]";
 -- aub1 1
 		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Houraisan Kaguya[Epic] + Yamame Kurodani[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 거미는 동물!(yamame arc)\r\
+|c00A8F13A[Type Command]|r: 거미는 동물!(yamame arc)\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- anam
 -- aart
 		t["ACce"][7][1] = "BTN\\BTNYamame.blp";
@@ -2643,7 +2643,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["AEbl"][8][1] = "*사용식 능력 : 레밀리아가 맵 전체 어디든 이동합니다. [쿨다운 20초]\r\
 *레밀리아가 공격시 10% 확률로 대상 지점에 자신의 요력으로 생성한 창을 생성해 투척합니다. 날아간 창은 전방 1000거리 250범위 내에 있는 적에게 250만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*레밀리아가 공격시 15% 확률로 대상 자경단 미션 유닛에게 전체 체력의 1% + 100만의 |c00379BFF마법 데미지|r을 입히고 2초간 스턴시킵니다.";
+*레밀리아가 공격시 15% 확률로 대상 자경단 미션 Units에게 전체 체력의 1% + 100만의 |c00379BFF마법 데미지|r을 입히고 2초간 스턴시킵니다.";
 -- [ACc3]
 -- amat
 		t["ACc3"][1][1] = "gungnir new.mdx";
@@ -2672,13 +2672,13 @@ TPT_abilities_loader = function(t)
 -- [Adcn]
 -- atp1 1
 -- aub1 1
-		t["Adcn"][2][1] = "자신 라인 유닛의 방어력을 10 감소시킵니다.";
+		t["Adcn"][2][1] = "자신 라인 Units의 방어력을 10 감소시킵니다.";
 -- atp1 2
 -- anam
 -- atar 2
 		t["Adcn"][5][1] = "air,ground,ward,invu,vuln,tree";
 -- aub1 2
-		t["Adcn"][8][1] = "자신 라인 유닛의 방어력을 12 감소시킵니다.";
+		t["Adcn"][8][1] = "자신 라인 Units의 방어력을 12 감소시킵니다.";
 -- [AInv]
 -- [AUdp]
 -- atar 1
@@ -2701,7 +2701,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AUfu"][6][1] = "『서리 갑옷』";
 -- aub1 1
-		t["AUfu"][7][1] = "*대상 유닛에게『서리 갑옷』을 생성시킵니다. 이 효과를 받은 아군이 입히는 데미지가 12% 상승합니다.\r\
+		t["AUfu"][7][1] = "*대상 Units에게『서리 갑옷』을 생성시킵니다. 이 효과를 받은 아군이 입히는 데미지가 12% 상승합니다.\r\
 *레티 화이트락[Phantasm]에게 시전시 데미지 증폭률이 12%에서 25%로 증가합니다.\r\
 |c00FFFF00*주의! 1회용 스킬입니다. 사용시 사라집니다.|r";
 -- auar
@@ -2741,7 +2741,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AHbn"][3][1] = "『Unique 소울 추출』|cffffcc00(D)|r ";
 -- aub1 1
-		t["AHbn"][4][1] = "*대상 Unique 유닛을 소울을 추출해냅니다. 1초의 시전 시간이 소요됩니다.\r\
+		t["AHbn"][4][1] = "*대상 Unique Units을 소울을 추출해냅니다. 1초의 시전 시간이 소요됩니다.\r\
 *쿨다운 3초";
 -- anam
 -- ahky
@@ -2798,8 +2798,8 @@ TPT_abilities_loader = function(t)
 		t["ACt2"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp";
 -- anam
 -- aub1 1
-		t["ACt2"][8][1] = "*사용식 능력 : 아운이 5초간 집중합니다. 집중을 마친 뒤 아운이 마지막 포효를 내지릅니다. 마지막 포효는 1000범위 내의 적 유닛을 모두 제거합니다. \r\
-*보스 유닛에게는 전체 체력의 60%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다. 사용 후 아운은 제거됩니다.\r\
+		t["ACt2"][8][1] = "*사용식 능력 : 아운이 5초간 집중합니다. 집중을 마친 뒤 아운이 마지막 포효를 내지릅니다. 마지막 포효는 1000범위 내의 적 Units을 모두 제거합니다. \r\
+*보스 Units에게는 전체 체력의 60%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다. 사용 후 아운은 제거됩니다.\r\
 *85라운드 이후에는 효과가 발동하지 않습니다.\r\
 [스토리 보스에는 적용되지 않습니다]";
 -- [AId7]
@@ -2822,7 +2822,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACs7"][3][1] = "『불안정한 마계의 문』";
 -- aub1 1
-		t["ACs7"][4][1] = "*스킬 사용시 랜덤한 Unique 유닛 1기와 랜덤한 Rare 유닛 1기를 창조합니다.\r\
+		t["ACs7"][4][1] = "*스킬 사용시 랜덤한 Unique Units 1기와 랜덤한 Rare Units 1기를 창조합니다.\r\
 *사용시 삭제됩니다.\r\
 *시전 시간 5초";
 -- ahky
@@ -2842,7 +2842,7 @@ TPT_abilities_loader = function(t)
 		t["ACs7"][17][1] = "『불안정한 마계의 문』- 잔여 횟수 1";
 -- aub1 2
 -- aub1 3
-		t["ACs7"][19][1] = "*스킬 사용시 70% 확률로 Unique 유닛을, 30% 확률로 Rare 유닛을 창조합니다.\r\
+		t["ACs7"][19][1] = "*스킬 사용시 70% 확률로 Unique Units을, 30% 확률로 Rare Units을 창조합니다.\r\
 *최대 4번까지 사용가능합니다.[플레이어 당 최대 7번까지 사용할 수 있습니다.]\r\
 *쿨다운 200초/시전 시간 5초";
 -- aub1 4
@@ -2855,7 +2855,7 @@ TPT_abilities_loader = function(t)
 -- anam
 -- arac
 -- atp1 1
-		t["ANca"][3][1] = "무명『이름없는 공격』- |c0000FFFF익스텐드|r";
+		t["ANca"][3][1] = "무명『이름없는 공격』- |c0000FFFFExtended|r";
 -- aart
 		t["ANca"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAdvancedUnholyStrength.blp";
 -- aspt
@@ -2904,7 +2904,7 @@ TPT_abilities_loader = function(t)
 -- aub1 2
 -- aub1 3
 -- aub1 4
-		t["AIbx"][27][1] = "*플랑드르가 공격시 10% 확률로 이후 발동하는 4회의 평타를 강화시킵니다. 평타 공격시 7배의 크리티컬이 발생하며, 대상 유닛을 1초간 기절시킵니다. 강화된 평타를 모두 사용한 뒤에는 이후 대상 주변 350범위에 적 현재 체력의 0.8% + 65만의 물리 데미지를 입힙니다.";
+		t["AIbx"][27][1] = "*플랑드르가 공격시 10% 확률로 이후 발동하는 4회의 평타를 강화시킵니다. 평타 공격시 7배의 크리티컬이 발생하며, 대상 Units을 1초간 기절시킵니다. 강화된 평타를 모두 사용한 뒤에는 이후 대상 주변 350범위에 적 현재 체력의 0.8% + 65만의 물리 데미지를 입힙니다.";
 -- aub1 5
 -- aub1 6
 -- aub1 7
@@ -2916,7 +2916,7 @@ TPT_abilities_loader = function(t)
 -- anam
 -- aub1 1
 		t["ACf3"][7][1] = "*자신의 감정을 한껏 풍부하게 하기 위하여 이곳저곳을 수색하다 발견해낸 석가면입니다. 어째선지 가면을 쓰면 공격성이 증폭됩니다.\r\
-*사용시 대상 유닛에게 석가면을 씌웁니다. 석가면을 씌운 아군은 다음의 능력을 얻습니다. 이 가면의 무서움을 경험한 코코로 자신에게는 사용할 수 없습니다.\r\
+*사용시 대상 Units에게 석가면을 씌웁니다. 석가면을 씌운 아군은 다음의 능력을 얻습니다. 이 가면의 무서움을 경험한 코코로 자신에게는 사용할 수 없습니다.\r\
 -공격 속도 50% 증가\r\
 -평타 공격력 35만 증가\r\
 *사용시 스킬이 삭제됩니다.";
@@ -2980,9 +2980,9 @@ TPT_abilities_loader = function(t)
 -- [AEsf]
 -- arac
 -- atp1 1
-		t["AEsf"][3][1] = "사나에 Arcana 조합";
+		t["AEsf"][3][1] = "사나에 Arcana Combination";
 -- aub1 1
-		t["AEsf"][4][1] = "소가노 토지코 카엔뵤우 린 Izayoi Sakuya 스톱워치 환상조각";
+		t["AEsf"][4][1] = "Soga no Tojiko 카엔뵤우 린 Izayoi Sakuya 스톱워치 환상조각";
 -- anam
 -- areq
 -- acat
@@ -3002,9 +3002,9 @@ TPT_abilities_loader = function(t)
 -- anam
 -- arac
 -- aub1 1
-		t["ACfd"][8][1] = "*『앱솔루트 루저』- 조온 : 대상 유닛을 슬레이브로 둡니다. 대상 유닛이 공격시 자신의 마나를 0.5 추가로 회복합니다.\r\
-*『앱솔루트 루저』- 시온 : 대상 유닛을 마스터로 둡니다. 시온이 공격시 대상 유닛의 마나를 1 회복시킵니다.\r\
-*플레이어가 [-해방]을 타이핑 할 경우 조온과 시온의 마스터와 슬레이브 설정이 초기화됩니다.\r\
+		t["ACfd"][8][1] = "*『앱솔루트 루저』- 조온 : 대상 Units을 슬레이브로 둡니다. 대상 Units이 공격시 자신의 마나를 0.5 추가로 회복합니다.\r\
+*『앱솔루트 루저』- 시온 : 대상 Units을 마스터로 둡니다. 시온이 공격시 대상 Units의 마나를 1 회복시킵니다.\r\
+*플레이어가 [-해방]을 Type Command 할 경우 조온과 시온의 마스터와 슬레이브 설정이 초기화됩니다.\r\
 *만약 조온이 시온을 슬레이브로 둘 경우 조온의 『슬레이브 러버』의 발동 확률이 20%에서 35%로 증가합니다.\r\
 *만약 시온이 조온을 마스터로 둘 경우 시온이 공격시『최흉최악의 극빈불행신』의 활력 쿨다운이 0.5초 감소합니다.";
 -- ahky
@@ -3065,7 +3065,7 @@ TPT_abilities_loader = function(t)
 		t["ACmf"][3][1] = "*공격시 마나를 1씩 회복합니다. 마나 175에 발동합니다.\r\
 *미마가 대상 지점 위로 0.3초마다 5개의 마법진을 설치합니다. 5개의 마법진이 모두 생성되면, 마법진을 통해 강력한 마력을 방출하여 대상 지점을 공격합니다.\r\
 *500범위 내의 적에게 전체 체력의 2.5% + 400만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-오중마법진은 업그레이드 효과의 스킬 데미지 증가치를 2배로 적용받습니다.\r\
+오중마법진은 Upgrade 효과의 스킬 데미지 증가치를 2배로 적용받습니다.\r\
 *이 스킬을 사용하여 오중마법진의 발동을 유보할 수 있습니다. 유보된 오중 마법진은 마나 250에 발동하며, 데미지가 2배가 됩니다.";
 -- auu1 1
 		t["ACmf"][4][1] = "*오중마법진의 마나 차지를 해제합니다.";
@@ -3079,7 +3079,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACs9"][5][1] = "경계『구작결계』|cffffcc00(E)|r";
 -- aub1 1
-		t["ACs9"][6][1] = "*스킬 사용시 랜덤한 Historic 유닛을 소환합니다. 190초간 지속됩니다.\r\
+		t["ACs9"][6][1] = "*스킬 사용시 랜덤한 Historic Units을 소환합니다. 190초간 지속됩니다.\r\
 *쿨다운 260초\r\
 [40라운드 이전에는 1기, 40라운드 이후에는 2기를 생성합니다.]\r\
 [퓨어 퓨리스 이상에는 무조건 1기만 생성합니다.]";
@@ -3112,20 +3112,20 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["ANms"][7][1] = "*|c00FF80FF[활력]|r - 4초\r\
 요우무가 공격한 대상 적 전체 체력의 20%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-[보스 유닛의 경우 10%의 데미지만 입습니다]\r\
+[보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 단미검『미진지향참』\r\
 \r\
-*공격시 마나를 2 회복합니다. 마나가 100이 됐을때, 자신 전방 600거리 250범위 적 유닛을 요력을 담은 검기로 베어버립니다.\r\
+*공격시 마나를 2 회복합니다. 마나가 100이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
 *범위 내의 적에게 전체 체력의 1% + 200만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- auu1 1
 		t["ANms"][8][1] = "*|c00FF80FF[활력]|r - 4초\r\
 요우무가 공격한 대상 적 전체 체력의 20%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-[보스 유닛의 경우 10%의 데미지만 입습니다]\r\
+[보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 단미검『미진지향참』\r\
 \r\
-*공격시 마나를 2 회복합니다. 마나가 150이 됐을때, 자신 전방 600거리 250범위 적 유닛을 요력을 담은 검기로 베어버립니다.\r\
+*공격시 마나를 2 회복합니다. 마나가 150이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
 *범위 내의 적에게 전체 체력의 1% + 200만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- anam
 -- abuf 1
@@ -3150,8 +3150,8 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AIcl"][7][1] = "『마음을 읽는 정도의 능력』|c00FF8040[Q]|r";
 -- aub1 1
-		t["AIcl"][8][1] = "*대상 Chronicle/Historic 유닛의 마나 스킬을 읽어옵니다. 해당 마나 스킬을 더욱 능수능란하게 다룰 수 있게 되어, 마나 소모량이 15% 감소합니다.\r\
-[마나 스킬이 없는 유닛 제외]\r\
+		t["AIcl"][8][1] = "*대상 Chronicle/Historic Units의 마나 스킬을 읽어옵니다. 해당 마나 스킬을 더욱 능수능란하게 다룰 수 있게 되어, 마나 소모량이 15% 감소합니다.\r\
+[마나 스킬이 없는 Units 제외]\r\
 [요리가미 시온 / Kijin Seija 제외]\r\
 *쿨다운 5초";
 -- ahky
@@ -3267,22 +3267,22 @@ TPT_abilities_loader = function(t)
 -- anam
 -- aub1 1
 		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + Sukuna Shinmyoumaru[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 락트 걸(patche phan)\r\
+|c00A8F13A[Type Command]|r: 락트 걸(patche phan)\r\
 \r\
-[공격속도]: 0.47초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.47 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- arac
 -- [ANdb]
 -- atp1 1
 		t["ANdb"][1][1] = "|c00FEE952[Unit Information]|r - Kawashiro Nitori[Phantasm]";
 -- aub1 1
 		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] + Nue Houjuu[Epic] + Kawashiro Nitori[Magic] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 언더워터 카모플라쥬(nitori phan)\r\
+|c00A8F13A[Type Command]|r: 언더워터 카모플라쥬(nitori phan)\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- aart
 		t["ANdb"][3][1] = "Icon\\Unit\\BTNNitori_Phan.blp";
 -- anam
@@ -3294,11 +3294,11 @@ TPT_abilities_loader = function(t)
 		t["Acdb"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Phantasm]";
 -- aub1 1
 		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Epic] + Mononobe no Futo[Epic] + Yatadera Narumi[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 윈터버스터(letty phan)\r\
+|c00A8F13A[Type Command]|r: 윈터버스터(letty phan)\r\
 \r\
-[공격속도]: 0.35초당 1번\r\
-[이동속도]: 380\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드\r\
+[Attack Speed]: 0.35 Cooldown\r\
+[Movement Speed]: 380\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade\r\
 |c0097FF2F[조합 시너지]|r윈터러\r\
 -Cirno[Legendary]를 보유했을 때, 레티가 동부『노던 위너』를 발동하면 자신의 활력 쿨다운을 5초 감소시킵니다.";
 -- [ANd3]
@@ -3329,7 +3329,7 @@ TPT_abilities_loader = function(t)
 		t["A01P"][4][1] = "ReplaceableTextures\\CommandButtons\\Eirin\\BTN_UP.blp";
 -- anam
 -- atp1 1
-		t["A01P"][6][1] = "|c00ffff00야고코로 에이린|r 조합|c00FF8040[D]|r";
+		t["A01P"][6][1] = "|c00ffff00야고코로 에이린|r Combination|c00FF8040[D]|r";
 -- arac
 		t["A01P"][7][1] = "creeps";
 -- aub1 1
@@ -3346,7 +3346,7 @@ TPT_abilities_loader = function(t)
 -- aart
 -- anam
 -- atp1 1
-		t["A001"][6][1] = "|c00ffff00Rumia|r 조합|c00FF8040[F]|r";
+		t["A001"][6][1] = "|c00ffff00Rumia|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A001"][8][1] = "Zako + Goblin";
@@ -3361,7 +3361,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A003"][5][1] = "|c00ffff00Kawashiro Nitori|r 조합|c00FF8040[D]|r";
+		t["A003"][5][1] = "|c00ffff00Kawashiro Nitori|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A003"][6][1] = "Kappa + Human";
 -- ahky
@@ -3377,7 +3377,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A004"][4][1] = "BTN\\BTNReisen.blp";
 -- atp1 1
-		t["A004"][5][1] = "|c00ffff00Reisen Udongein Inaba|r 조합|c00FF8040[D]|r";
+		t["A004"][5][1] = "|c00ffff00Reisen Udongein Inaba|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A004"][6][1] = "Tewi Inaba + Mystia Lorelei + Youmu Konpaku";
 -- ahky
@@ -3393,7 +3393,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A006"][4][1] = "BTN\\BTNLuna.blp";
 -- atp1 1
-		t["A006"][5][1] = "|c00ffff00Luna Child|r 조합|c00FF8040[W]|r";
+		t["A006"][5][1] = "|c00ffff00Luna Child|r Combination|c00FF8040[W]|r";
 -- aub1 1
 		t["A006"][6][1] = "Wriggle Nightbug + Big Fairy";
 -- ahky
@@ -3409,7 +3409,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00B"][4][1] = "BTN\\BTNAlice.blp";
 -- atp1 1
-		t["A00B"][5][1] = "|c00ffff00Alice Margatroid|r 조합|c00FF8040[D]|r";
+		t["A00B"][5][1] = "|c00ffff00Alice Margatroid|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00B"][6][1] = "Human + Rumia + Small Divine Spirit";
 -- ahky
@@ -3424,7 +3424,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A00E"][5][1] = "|c00ffff00Patchouli Knowledge|r 조합|c00FF8040[D]|r";
+		t["A00E"][5][1] = "|c00ffff00Patchouli Knowledge|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00E"][6][1] = "Small Devil + UFO + Fairy";
 -- ahky
@@ -3440,7 +3440,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00G"][4][1] = "BTN\\BTNRemilia.blp";
 -- atp1 1
-		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r 조합|c00FF8040[D]|r";
+		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00G"][6][1] = "Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch] ";
 -- ahky
@@ -3456,7 +3456,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00I"][4][1] = "BTN\\BTNOrin.blp";
 -- atp1 1
-		t["A00I"][5][1] = "|c00ffff00Orin|r 조합|c00FF8040[D]|r";
+		t["A00I"][5][1] = "|c00ffff00Orin|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00I"][6][1] = "Goblin + Kisume + Small Devil";
 -- ahky
@@ -3472,7 +3472,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00K"][4][1] = "BTN\\BTNNazlin.blp";
 -- atp1 1
-		t["A00K"][5][1] = "|c00ffff00나즈린|r 조합|c00FF8040[D]|r";
+		t["A00K"][5][1] = "|c00ffff00나즈린|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00K"][6][1] = "Rainbow UFO + Hakurei Reimu + Sunny Milk";
 -- ahky
@@ -3488,7 +3488,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00O"][4][1] = "BTN\\BTNTewi.blp";
 -- atp1 1
-		t["A00O"][5][1] = "|c00ffff00Tewi Inaba|r 조합|c00FF8040[D]|r";
+		t["A00O"][5][1] = "|c00ffff00Tewi Inaba|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00O"][6][1] = "Zako + Wriggle Nightbug + Wakasagihime";
 -- ahky
@@ -3503,7 +3503,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A00P"][5][1] = "|c00ffff00Kagiyama Hina[액신]|r 조합|c00FF8040[D]|r";
+		t["A00P"][5][1] = "|c00ffff00Kagiyama Hina[액신]|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00P"][6][1] = "Rumia EX + Kagiyama Hina + Imaizumi Kagerou";
 -- ahky
@@ -3520,7 +3520,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00W"][4][1] = "ReplaceableTextures\\CommandButtons\\reimu\\BTN_UP.blp";
 -- atp1 1
-		t["A00W"][5][1] = "|c00ffff00Hakurei Reimu[호밍]|r 조합|c00FF8040[D]|r";
+		t["A00W"][5][1] = "|c00ffff00Hakurei Reimu[Homing]|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00W"][6][1] = "Hakurei Reimu + Marisa Kirisame + Izayoi Sakuya";
 -- ahky
@@ -3537,7 +3537,7 @@ TPT_abilities_loader = function(t)
 		t["A008"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNVoidWalker.blp";
 -- anam
 -- atp1 1
-		t["A008"][6][1] = "|c00ffff00Small Divine Spirit|r 조합|c00FF8040[F]|r";
+		t["A008"][6][1] = "|c00ffff00Small Divine Spirit|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A008"][8][1] = "Spirit + Devil";
@@ -3553,7 +3553,7 @@ TPT_abilities_loader = function(t)
 		t["A00D"][4][1] = "Icon\\Unit\\BTNYoumu_Leg.blp";
 -- anam
 -- atp1 1
-		t["A00D"][6][1] = "|c00ffff00Youmu Konpaku|r 조합|c00FF8040[F]|r";
+		t["A00D"][6][1] = "|c00ffff00Youmu Konpaku|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A00D"][8][1] = "Wriggle Nightbug + Wakasagihime + Devil";
@@ -3568,9 +3568,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00T"][4][1] = "Icon\\Unit\\BTNMarisa_Uniq.blp";
 -- atp1 1
-		t["A00T"][5][1] = "|c00ffff00Marisa Kirisame[팔괘로]|r 조합|c00FF8040[D]|r";
+		t["A00T"][5][1] = "|c00ffff00Marisa Kirisame[Bagua]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A00T"][6][1] = "Marisa Kirisame + 앨리스 마가트로이드 + Patchouli Knowledge";
+		t["A00T"][6][1] = "Marisa Kirisame + Alice Margatroid + Patchouli Knowledge";
 -- ahky
 -- acat
 		t["A00T"][8][1] = "h00L,h00M,h010";
@@ -3583,9 +3583,9 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A00Z"][5][1] = "|c00ffff00Patchouli Knowledge[Philosopher's Stone]|r 조합|c00FF8040[D]|r";
+		t["A00Z"][5][1] = "|c00ffff00Patchouli Knowledge[Philosopher's Stone]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A00Z"][6][1] = "Patchouli Knowledge + Marisa Kirisame + 앨리스 마가트로이드";
+		t["A00Z"][6][1] = "Patchouli Knowledge + Marisa Kirisame + Alice Margatroid";
 -- ahky
 -- acat
 		t["A00Z"][8][1] = "h010,h00M,h00L";
@@ -3599,7 +3599,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A010"][4][1] = "BTN\\BTNYuyuko.blp";
 -- atp1 1
-		t["A010"][5][1] = "|c00ffff00사이교우지 유유코|r 조합|c00FF8040[D]|r";
+		t["A010"][5][1] = "|c00ffff00사이교우지 유유코|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A010"][6][1] = "Youmu Konpaku + Mystia Lorelei + Yoshika Miyako";
 -- ahky
@@ -3615,7 +3615,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A013"][4][1] = "ReplaceableTextures\\CommandButtons\\Flan\\BTN_UP.blp";
 -- atp1 1
-		t["A013"][5][1] = "|c00ffff00플랑드르 스칼렛|r 조합|c00FF8040[D]|r";
+		t["A013"][5][1] = "|c00ffff00플랑드르 스칼렛|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + 유령악단[팬텀 앙상블] + 2 Unique Souls  ";
 -- ahky
@@ -3631,7 +3631,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A015"][4][1] = "BTN\\BTNSanae.blp";
 -- atp1 1
-		t["A015"][5][1] = "|c00ffff00Sㅏ나에|r 조합|c00FF8040[D]|r";
+		t["A015"][5][1] = "|c00ffff00Sa Nae|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A015"][6][1] = "Kochiya Sanae + Minoriko Aki + 타타라 코가사 + Green UFO\r\
 ";
@@ -3648,7 +3648,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A018"][4][1] = "ReplaceableTextures\\CommandButtons\\Satori\\BTN_UP.blp";
 -- atp1 1
-		t["A018"][5][1] = "|c00ffff00코메이지 사토리|r 조합|c00FF8040[D]|r";
+		t["A018"][5][1] = "|c00ffff00코메이지 사토리|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A018"][6][1] = "코메이지 코이시[Epic] + 시키에이키 야마자나두[Epic] + Utsuho Reiuji [제어불능] + 2 Unique Souls ";
 -- ahky
@@ -3664,7 +3664,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01A"][4][1] = "BTN\\BTNChen.blp";
 -- atp1 1
-		t["A01A"][5][1] = "|c00ffff00첸|r 조합|c00FF8040[D]|r";
+		t["A01A"][5][1] = "|c00ffff00Chen|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01A"][6][1] = "Orin + Kasodani Kyouko + Sunny Milk";
 -- ahky
@@ -3680,7 +3680,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01B"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNUndeadBattleShip.blp";
 -- atp1 1
-		t["A01B"][5][1] = "|c00ffff00성련선|r 조합|c00FF8040[D]|r";
+		t["A01B"][5][1] = "|c00ffff00Palanquin Ship|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01B"][6][1] = "타타라 코가사 + Kochiya Sanae + Lily White + Red UFO\r\
 ";
@@ -3697,7 +3697,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01C"][4][1] = "BTN\\BTNCirno.blp";
 -- atp1 1
-		t["A01C"][5][1] = "|c00ffff00Cirno[Minus K]|r 조합|c00FF8040[D]|r";
+		t["A01C"][5][1] = "|c00ffff00Cirno[Minus K]|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01C"][6][1] = "Cirno[Rare] + Okuu[Rare] + Hong Meiling[Rare]";
 -- ahky
@@ -3712,7 +3712,7 @@ TPT_abilities_loader = function(t)
 -- atar 1
 -- aart
 -- atp1 1
-		t["A01E"][5][1] = "|c00ffff00카미시라사와 케이네|r 조합|c00FF8040[D]|r";
+		t["A01E"][5][1] = "|c00ffff00카미시라사와 케이네|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01E"][6][1] = "Mystia Lorelei + Patchouli Knowledge + Tewi Inaba";
 -- ahky
@@ -3729,7 +3729,7 @@ TPT_abilities_loader = function(t)
 		t["A012"][3][1] = "Icon\\Unit\\BTNSuwako_Chro.blp";
 -- anam
 -- atp1 1
-		t["A012"][5][1] = "|c00ffff00모리야 스와코|r 조합|c00FF8040[D]|r";
+		t["A012"][5][1] = "|c00ffff00모리야 스와코|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A012"][7][1] = "야사카 카나코[Epic] + Aya Shameimaru[Epic] + Utsuho Reiuji[핵반응 제어불능] + 2 Unique Souls ";
@@ -3744,7 +3744,7 @@ TPT_abilities_loader = function(t)
 -- aart
 -- anam
 -- atp1 1
-		t["A016"][6][1] = "|c00ffff00카엔뵤 린|r 조합|c00FF8040[F]|r";
+		t["A016"][6][1] = "|c00ffff00카엔뵤 린|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A016"][8][1] = "Orin + Yamame Kurodani + Hakurei Reimu[Rare]";
@@ -3760,7 +3760,7 @@ TPT_abilities_loader = function(t)
 		t["A019"][4][1] = "BTN\\BTNUFO.blp";
 -- anam
 -- atp1 1
-		t["A019"][6][1] = "|c00ffff00정체불명|r 조합|c00FF8040[F]|r";
+		t["A019"][6][1] = "|c00ffff00Unknown|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A019"][8][1] = "Rainbow UFO + Rainbow UFO + Kawashiro Nitori";
@@ -3777,7 +3777,7 @@ TPT_abilities_loader = function(t)
 		t["A00V"][3][1] = "BTN\\BTNOku.blp";
 -- anam
 -- atp1 1
-		t["A00V"][5][1] = "|c00ffff00Okuu|r 조합|c00FF8040[F]|r";
+		t["A00V"][5][1] = "|c00ffff00Okuu|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A00V"][7][1] = "Kisume + Rumia + Fairy";
@@ -3793,7 +3793,7 @@ TPT_abilities_loader = function(t)
 		t["A01D"][4][1] = "BTN\\BTNKomachi.blp";
 -- anam
 -- atp1 1
-		t["A01D"][6][1] = "|c00ffff00오노즈카 코마치|r 조합|c00FF8040[D]|r";
+		t["A01D"][6][1] = "|c00ffff00오노즈카 코마치|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A01D"][8][1] = "Minoriko Aki + Youmu Konpaku + Mizuhashi Parsee";
@@ -3808,9 +3808,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01F"][4][1] = "BTN\\BTNKoishi.blp";
 -- atp1 1
-		t["A01F"][5][1] = "|c00ffff00코메이지 코이시|r 조합|c00FF8040[D]|r";
+		t["A01F"][5][1] = "|c00ffff00코메이지 코이시|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01F"][6][1] = "호시구마 유우기 + 카엔뵤우 린 + Tsukumo Yatsuhashi";
+		t["A01F"][6][1] = "Yugi Hoshiguma + 카엔뵤우 린 + Tsukumo Yatsuhashi";
 -- ahky
 -- acat
 		t["A01F"][8][1] = "h034,h01G,hmtm";
@@ -3824,9 +3824,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01G"][4][1] = "BTN\\BTNSyou.blp";
 -- atp1 1
-		t["A01G"][5][1] = "|c00ffff00토라마루 쇼우|r 조합|c00FF8040[D]|r";
+		t["A01G"][5][1] = "|c00ffff00토라마루 쇼우|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01G"][6][1] = "나즈린 + 쿠모이 이치린 + 첸";
+		t["A01G"][6][1] = "나즈린 + Ichirin Kumoi + Chen";
 -- ahky
 -- acat
 		t["A01G"][8][1] = "h00T,h036,h01K";
@@ -3840,7 +3840,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01H"][4][1] = "ReplaceableTextures\\CommandButtons\\Yuka\\BTN_UP.blp";
 -- atp1 1
-		t["A01H"][5][1] = "|c00ffff00카자미 유카|r 조합|c00FF8040[D]|r";
+		t["A01H"][5][1] = "|c00ffff00카자미 유카|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01H"][6][1] = "시키에이키 야마자나두[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[노던 위너] + 2 Unique Souls ";
 -- ahky
@@ -3857,10 +3857,10 @@ TPT_abilities_loader = function(t)
 		t["A01I"][3][1] = "Icon\\Unit\\BTNUtsuho_Leg.blp";
 -- anam
 -- atp1 1
-		t["A01I"][5][1] = "|c00ffff00Utsuho Reiuji 핵반응 제어불능|r 조합|c00FF8040[D]|r";
+		t["A01I"][5][1] = "|c00ffff00Utsuho Reiuji 핵반응 제어불능|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A01I"][7][1] = "카엔뵤우 린 + Marisa Kirisame[팔괘로] + Cirno[Minus K]";
+		t["A01I"][7][1] = "카엔뵤우 린 + Marisa Kirisame[Bagua] + Cirno[Minus K]";
 -- ahky
 -- alig
 -- atat
@@ -3872,9 +3872,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01J"][4][1] = "BTN\\BTNRan.blp";
 -- atp1 1
-		t["A01J"][5][1] = "|c00ffff00야쿠모 란|r 조합|c00FF8040[D]|r";
+		t["A01J"][5][1] = "|c00ffff00야쿠모 란|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01J"][6][1] = "첸 + 사이교우지 유유코 + 카엔뵤우 린";
+		t["A01J"][6][1] = "Chen + 사이교우지 유유코 + 카엔뵤우 린";
 -- ahky
 -- acat
 		t["A01J"][8][1] = "h01K,h01G,h01A";
@@ -3888,9 +3888,9 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01K"][4][1] = "BTN\\BTNNue.blp";
 -- atp1 1
-		t["A01K"][5][1] = "|c00ffff00Nue Houjuu|r 조합|c00FF8040[D]|r";
+		t["A01K"][5][1] = "|c00ffff00Nue Houjuu|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01K"][6][1] = "정체불명 + Rumia EX + 나즈린";
+		t["A01K"][6][1] = "Unknown + Rumia EX + 나즈린";
 -- ahky
 -- acat
 		t["A01K"][8][1] = "h01J,h00T,h01H";
@@ -3904,7 +3904,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01L"][4][1] = "BTN\\BTNShiki.blp";
 -- atp1 1
-		t["A01L"][5][1] = "|c00ffff00시키에이키 야마자나두|r 조합|c00FF8040[D]|r";
+		t["A01L"][5][1] = "|c00ffff00시키에이키 야마자나두|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01L"][6][1] = "오노즈카 코마치 + Lily Black + Layla Prismriver";
 -- ahky
@@ -3920,7 +3920,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01O"][4][1] = "BTN\\BTNLayra.blp";
 -- atp1 1
-		t["A01O"][5][1] = "|c00ffff00유령악단[팬텀 앙상블]|r 조합|c00FF8040[D]|r";
+		t["A01O"][5][1] = "|c00ffff00유령악단[팬텀 앙상블]|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01O"][6][1] = "Layla Prismriver + Tsukumo Yatsuhashi + Tsukumo Benben";
 -- ahky
@@ -3936,7 +3936,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01Q"][4][1] = "Icon\\Unit\\BTNYukari_Chro.blp";
 -- atp1 1
-		t["A01Q"][5][1] = "|c00ffff00야쿠모 유카리|r 조합|c00FF8040[D]|r";
+		t["A01Q"][5][1] = "|c00ffff00야쿠모 유카리|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01Q"][6][1] = "Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls ";
 -- ahky
@@ -3952,7 +3952,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01R"][4][1] = "ReplaceableTextures\\CommandButtons\\Byakuren\\BTN_UP.blp";
 -- atp1 1
-		t["A01R"][5][1] = "|c00ffff00히지리 뱌쿠렌|r 조합|c00FF8040[D]|r";
+		t["A01R"][5][1] = "|c00ffff00히지리 뱌쿠렌|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01R"][6][1] = "토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls ";
 -- ahky
@@ -3966,7 +3966,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A01W"][2][1] = "구부『레이비즈 바이트』";
 -- aub1 1
-		t["A01W"][3][1] = "＊공격 시 25% 확률로 대상을 물어뜯어 0.5초 동안 0.05초마다 250의 |c00379BFF마법 피해|r를 가하고 이동속도를 45% 감소시킨다.";
+		t["A01W"][3][1] = "＊공격 시 25% 확률로 대상을 물어뜯어 0.5초 동안 0.05초마다 250의 |c00379BFF마법 피해|r를 가하고 Movement Speed를 45% 감소시킨다.";
 -- anam
 		t["A01W"][4][1] = "[Rare]모미지_R";
 -- aart
@@ -4023,7 +4023,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A022"][2][1] = "동부『퍼펙트 프리즈』";
 -- aub1 1
-		t["A022"][3][1] = "＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 2천의 |c00379BFF마법 피해|r를 가하고 0.1초간 이동속도를 45% 감소시킨다.";
+		t["A022"][3][1] = "＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 2천의 |c00379BFF마법 피해|r를 가하고 0.1초간 Movement Speed를 45% 감소시킨다.";
 -- anam
 		t["A022"][4][1] = "[Rare]Cirno_R";
 -- aart
@@ -4043,11 +4043,11 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A024"][8][1] = "|c00FEE952[Unit Information]|r - 카나 아나베랄[Historic]";
 -- aub1 1
-		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각\r\
+		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + 호우쥬 누에[Epic] + Seiga Kaku[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 카나 아나베랄 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 카나 아나베랄 Upgrade";
 -- [A025]
 -- arac
 -- atp1 1
@@ -4156,7 +4156,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A02Q"][2][1] = "허사『환상향전설』";
 -- aub1 1
-		t["A02Q"][3][1] = "*공격시 15% 확률로 대상 유닛을 1.5초간 스턴시키고 전체 체력의 9%의 |c00379BFF마법 데미지|r를 입힙니다. \r\
+		t["A02Q"][3][1] = "*공격시 15% 확률로 대상 Units을 1.5초간 스턴시키고 전체 체력의 9%의 |c00379BFF마법 데미지|r를 입힙니다. \r\
 [보스에게는 125만의 |c00379BFF마법 데미지|r를 입힙니다.]\r\
 *자신의 로스트 쿨다운이 15초에서 10초로 감소합니다.";
 -- anam
@@ -4178,11 +4178,11 @@ TPT_abilities_loader = function(t)
 		t["A02T"][2][1] = "|c00FEE952[Unit Information]|r - Houraisan Kaguya[Phantasm]";
 -- aub1 1
 		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + 야사카 카나코[Epic] + 달의 조각 + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 라스트 엑자일(kaguya phan)\r\
+|c00A8F13A[Type Command]|r: 라스트 엑자일(kaguya phan)\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- aart
 		t["A02T"][5][1] = "BTN\\BTNKaguya.blp";
@@ -4216,12 +4216,12 @@ TPT_abilities_loader = function(t)
 -- [A02X]
 -- arac
 -- aub1 1
-		t["A02X"][2][1] = "＊UFO 주변 1000 범위의 적 이동속도를 6% 감소시킵니다.";
+		t["A02X"][2][1] = "＊UFO 주변 1000 범위의 적 Movement Speed를 6% 감소시킵니다.";
 -- atar 1
 -- atat
 		t["A02X"][4][1] = "Abilities\\Spells\\Undead\\UnholyAura\\UnholyAura.mdl";
 -- atp1 1
-		t["A02X"][5][1] = "정체불명『애수의 블루 UFO 습격』";
+		t["A02X"][5][1] = "Unknown『애수의 블루 UFO 습격』";
 -- anam
 		t["A02X"][6][1] = "[Magic]";
 -- aart
@@ -4232,15 +4232,15 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["A02Z"][1][1] = "[Rare]UFO";
 -- atp1 1
-		t["A02Z"][2][1] = "정체불명『공포의 레인보우 UFO내습』";
+		t["A02Z"][2][1] = "Unknown『공포의 레인보우 UFO내습』";
 -- aub1 1
-		t["A02Z"][3][1] = "주변 400범위의 유닛들에게 0.4초마다 400데미지의 레이저를 발사합니다.";
+		t["A02Z"][3][1] = "주변 400범위의 Units들에게 0.4초마다 400데미지의 레이저를 발사합니다.";
 -- aart
 -- arac
 -- [A030]
 -- arac
 -- aub1 1
-		t["A030"][2][1] = "Rainbow UFO 주변 2000범위 내의 적의 이동속도를 7% 감소시킵니다.";
+		t["A030"][2][1] = "Rainbow UFO 주변 2000범위 내의 적의 Movement Speed를 7% 감소시킵니다.";
 -- atar 1
 -- atat
 -- atp1 1
@@ -4259,9 +4259,9 @@ TPT_abilities_loader = function(t)
 -- arac
 -- anam
 -- atp1 1
-		t["A031"][3][1] = "정체불명『분노의 레드 UFO 습격』";
+		t["A031"][3][1] = "Unknown『분노의 레드 UFO 습격』";
 -- aub1 1
-		t["A031"][4][1] = "＊맵 전체의 자신 소유 유닛 공격력을 10% 증가시킵니다.";
+		t["A031"][4][1] = "＊맵 전체의 자신 소유 Units 공격력을 10% 증가시킵니다.";
 -- atar 1
 -- abuf 1
 		t["A031"][6][1] = "B007";
@@ -4274,13 +4274,13 @@ TPT_abilities_loader = function(t)
 		t["A033"][2][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + 토라마루 쇼우[Epic] + Wriggle Nightbug[Epic] + 2 Unique Souls \r\
 \r\
 |c00FAB145[특수 Combination]|r\r\
-*다른 Chronicle을 조합했어도 조합할 수 있습니다.\r\
-*타이핑 : 역습의 아마노자쿠[kijin chro]\r\
-Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
+*다른 Chronicle을 Combination했어도 Combination할 수 있습니다.\r\
+*Type Command : 역습의 아마노자쿠[kijin chro]\r\
+Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
 \r\
-[공격속도]: 0.37초당 1번\r\
-[이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Kijin Seija 업그레이드";
+[Attack Speed]: 0.37 Cooldown\r\
+[Movement Speed]: 400[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Kijin Seija Upgrade";
 -- anam
 		t["A033"][3][1] = "[Chronicle_Unit Information]";
 -- aart
@@ -4291,7 +4291,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A034"][2][1] = "한부『콜드 스냅』";
 -- aub1 1
-		t["A034"][3][1] = "*공격시 50% 확률로 대상 유닛에게 한기를 불어넣습니다. 대상 유닛은 0.3초간 스턴되며, 현재 체력의 1% + 85만의 |c00379BFF마법 데미지|r를 입습니다.\r\
+		t["A034"][3][1] = "*공격시 50% 확률로 대상 Units에게 한기를 불어넣습니다. 대상 Units은 0.3초간 스턴되며, 현재 체력의 1% + 85만의 |c00379BFF마법 데미지|r를 입습니다.\r\
 [보스에게는 40만의 |c00379BFF마법 데미지|r]\r\
 *위 효과가 발동했을때,『노던 위너』의 활력 쿨다운을 0.3초 감소시킵니다.";
 -- anam
@@ -4302,7 +4302,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- anam
 -- atar 1
 -- atp1 1
-		t["A035"][4][1] = "|c00ffff00Star Sapphire[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A035"][4][1] = "|c00ffff00Star Sapphire[Legendary]|r Combination|c00FF8040[F]|r";
 -- atp1 2
 		t["A035"][5][1] = "우의『깃옷은 하늘과 같이』- 진화버튼 |c00EEA011W|r";
 -- atp1 3
@@ -4551,43 +4551,43 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A037"][96][1] = "＊공격 시 10% 확률로 대상에게 전체 체력 3%(보스와 미션은 1%)의 |c00FF6464물리 피해|r를 가한다. (40 라운드까지)";
 -- aub1 2
-		t["A037"][97][1] = "주변 400범위 적 유닛의 방어력을 25감소 시킵니다.";
+		t["A037"][97][1] = "주변 400범위 적 Units의 방어력을 25감소 시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A037"][101][1] = "주변 450범위 적 유닛의 방어력을 30감소 시킵니다.";
+		t["A037"][101][1] = "주변 450범위 적 Units의 방어력을 30감소 시킵니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A037"][106][1] = "주변 500범위 적 유닛의 방어력을 35감소 시킵니다.";
+		t["A037"][106][1] = "주변 500범위 적 Units의 방어력을 35감소 시킵니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A037"][111][1] = "주변 550범위 적 유닛의 방어력을 40감소 시킵니다.";
+		t["A037"][111][1] = "주변 550범위 적 Units의 방어력을 40감소 시킵니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A037"][116][1] = "주변 600범위 적 유닛의 방어력을 45감소 시킵니다.";
+		t["A037"][116][1] = "주변 600범위 적 Units의 방어력을 45감소 시킵니다.";
 -- aub1 22
-		t["A037"][117][1] = "주변 500범위 적 유닛의 방어력을 115감소 시킵니다.";
+		t["A037"][117][1] = "주변 500범위 적 Units의 방어력을 115감소 시킵니다.";
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A037"][121][1] = "주변 525범위 적 유닛의 방어력을 130감소 시킵니다.";
+		t["A037"][121][1] = "주변 525범위 적 Units의 방어력을 130감소 시킵니다.";
 -- aub1 27
 -- aub1 28
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A037"][126][1] = "주변 550범위 적 유닛의 방어력을 145감소 시킵니다.";
+		t["A037"][126][1] = "주변 550범위 적 Units의 방어력을 145감소 시킵니다.";
 -- arac
 -- [A038]
 -- arac
@@ -4689,7 +4689,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 31
 -- [A03A]
 -- aub1 1
-		t["A03A"][1][1] = "＊자신 주변 600 범위의 적 이동속도를 10% 감소시킵니다.\r\
+		t["A03A"][1][1] = "＊자신 주변 600 범위의 적 Movement Speed를 10% 감소시킵니다.\r\
 ＊공격 시 10% 확률로 지옥불이 솟아나 대상 주변 400 범위의 적에게 전체 체력의 0.3% + 50만의 |c00379BFF마법 피해|r를 가합니다.";
 -- atar 1
 -- atp1 1
@@ -4759,7 +4759,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- abuf 30
 -- abuf 31
 -- atp1 2
-		t["A03A"][68][1] = "옥부『지옥의 식』 - |c0000FFFF익스텐드|r";
+		t["A03A"][68][1] = "옥부『지옥의 식』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A03A"][69][1] = "몽부『봉마진』";
 -- atp1 5
@@ -4791,44 +4791,44 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A03A"][98][1] = "*Clownpiece 주변 900범위 적의 이동속도를 16% 감소시킵니다.\r\
+		t["A03A"][98][1] = "*Clownpiece 주변 900범위 적의 Movement Speed를 16% 감소시킵니다.\r\
 *공격시 11% 확률로 공격한 적 주변 450범위에 불꽃의 폭발을 일으킵니다. 이 폭발은 범위 내의 적에게 적 현재 체력의 0.6% + 50만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aub1 3
-		t["A03A"][99][1] = "주변 600범위의 적군의 이동속도를 8% 떨어뜨립니다.";
+		t["A03A"][99][1] = "주변 600범위의 적군의 Movement Speed를 8% 떨어뜨립니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A03A"][102][1] = "주변 600범위의 적군의 이동속도를 11% 떨어뜨립니다.";
+		t["A03A"][102][1] = "주변 600범위의 적군의 Movement Speed를 11% 떨어뜨립니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A03A"][107][1] = "주변 600범위의 적군의 이동속도를 14% 떨어뜨립니다.";
+		t["A03A"][107][1] = "주변 600범위의 적군의 Movement Speed를 14% 떨어뜨립니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A03A"][112][1] = "주변 600범위의 적군의 이동속도를 17% 떨어뜨립니다.";
+		t["A03A"][112][1] = "주변 600범위의 적군의 Movement Speed를 17% 떨어뜨립니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A03A"][117][1] = "주변 600범위의 적군의 이동속도를 20% 떨어뜨립니다.";
+		t["A03A"][117][1] = "주변 600범위의 적군의 Movement Speed를 20% 떨어뜨립니다.";
 -- aub1 22
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A03A"][122][1] = "주변 600범위의 적군의 이동속도를 23% 떨어뜨립니다.";
+		t["A03A"][122][1] = "주변 600범위의 적군의 Movement Speed를 23% 떨어뜨립니다.";
 -- aub1 27
 -- aub1 28
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A03A"][127][1] = "주변 600범위의 적군의 이동속도를 26% 떨어뜨립니다.";
+		t["A03A"][127][1] = "주변 600범위의 적군의 Movement Speed를 26% 떨어뜨립니다.";
 -- [A03C]
 -- arac
 -- atp1 1
@@ -5181,76 +5181,76 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 27
 -- atp1 30
 -- aub1 2
-		t["A03W"][38][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][38][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 3
-		t["A03W"][39][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 54000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][39][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 54000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 4
-		t["A03W"][40][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][40][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 6
-		t["A03W"][41][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][41][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 5
-		t["A03W"][42][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][42][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 7
-		t["A03W"][43][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][43][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 8
-		t["A03W"][44][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][44][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 9
-		t["A03W"][45][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][45][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 10
-		t["A03W"][46][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 84000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][46][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 84000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 11
-		t["A03W"][47][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 40000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][47][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 40000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 12
-		t["A03W"][48][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][48][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 13
-		t["A03W"][49][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 45000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][49][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 45000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 14
-		t["A03W"][50][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 47500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][50][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 47500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 15
-		t["A03W"][51][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 50000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][51][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 50000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 16
-		t["A03W"][52][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 52500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][52][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 52500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 17
-		t["A03W"][53][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 55000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][53][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 55000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 19
-		t["A03W"][54][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 60000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][54][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 60000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 18
-		t["A03W"][55][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 57500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][55][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 57500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 20
-		t["A03W"][56][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 62500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][56][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 62500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 21
-		t["A03W"][57][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 65000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][57][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 65000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 22
-		t["A03W"][58][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 67500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][58][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 67500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 23
-		t["A03W"][59][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 70000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][59][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 70000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 24
-		t["A03W"][60][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][60][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 25
-		t["A03W"][61][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 75000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][61][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 75000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 26
-		t["A03W"][62][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 77500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][62][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 77500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 27
-		t["A03W"][63][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 80000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][63][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 80000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 28
-		t["A03W"][64][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 82500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][64][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 82500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 29
-		t["A03W"][65][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 85000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][65][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 85000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 30
-		t["A03W"][66][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 87500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][66][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 87500의 데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 31
-		t["A03W"][67][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 이동속도를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][67][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000의 데미지를 주고 0.6초간 기절시킵니다.";
 -- [A041]
 -- arac
 -- atp1 1
 		t["A041"][2][1] = "|c00FEE952[Unit Information]|r - Rumia[Phantasm]";
 -- aub1 1
 		t["A041"][3][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + Nishida Satono[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 다크사이드 오브 더 문(rumia phan)\r\
+|c00A8F13A[Type Command]|r: 다크사이드 오브 더 문(rumia phan)\r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- atar 1
 -- atar 2
@@ -5365,9 +5365,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- anam
 -- atp1 1
-		t["A046"][3][1] = "정체불명『빨간망토 파란망토』";
+		t["A046"][3][1] = "Unknown『빨간망토 파란망토』";
 -- aub1 1
-		t["A046"][4][1] = "＊맵 전체의 자신 유닛 공격력을 14% 증가시킨다.";
+		t["A046"][4][1] = "＊맵 전체의 자신 Units 공격력을 14% 증가시킨다.";
 -- atar 1
 -- abuf 1
 		t["A046"][6][1] = "B00P";
@@ -5376,7 +5376,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A047]
 -- arac
 -- aub1 1
-		t["A047"][2][1] = "＊자신 주변 500 범위의 적 이동속도를 12% 감소시킨다.";
+		t["A047"][2][1] = "＊자신 주변 500 범위의 적 Movement Speed를 12% 감소시킨다.";
 -- atar 1
 -- atat
 -- atp1 1
@@ -5424,42 +5424,42 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A048"][36][1] = "주변 500범위의 유닛들에게 0.1초마다 4000데미지의 레이저를 발사합니다.";
+		t["A048"][36][1] = "주변 500범위의 Units들에게 0.1초마다 4000데미지의 레이저를 발사합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A048"][40][1] = "주변 500범위의 유닛들에게 0.1초마다 5000데미지의 레이저를 발사합니다.";
+		t["A048"][40][1] = "주변 500범위의 Units들에게 0.1초마다 5000데미지의 레이저를 발사합니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A048"][45][1] = "주변 500범위의 유닛들에게 0.1초마다 6000데미지의 레이저를 발사합니다.";
+		t["A048"][45][1] = "주변 500범위의 Units들에게 0.1초마다 6000데미지의 레이저를 발사합니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A048"][50][1] = "주변 500범위의 유닛들에게 0.1초마다 7000데미지의 레이저를 발사합니다.";
+		t["A048"][50][1] = "주변 500범위의 Units들에게 0.1초마다 7000데미지의 레이저를 발사합니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A048"][55][1] = "주변 500범위의 유닛들에게 0.1초마다 8000데미지의 레이저를 발사합니다.";
+		t["A048"][55][1] = "주변 500범위의 Units들에게 0.1초마다 8000데미지의 레이저를 발사합니다.";
 -- aub1 22
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A048"][60][1] = "주변 500범위의 유닛들에게 0.1초마다 9000데미지의 레이저를 발사합니다.";
+		t["A048"][60][1] = "주변 500범위의 Units들에게 0.1초마다 9000데미지의 레이저를 발사합니다.";
 -- aub1 27
 -- aub1 28
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A048"][65][1] = "주변 500범위의 유닛들에게 0.1초마다 10000데미지의 레이저를 발사합니다.";
+		t["A048"][65][1] = "주변 500범위의 Units들에게 0.1초마다 10000데미지의 레이저를 발사합니다.";
 -- [A049]
 -- anam
 		t["A049"][1][1] = "더미 유성에서의 탄막";
@@ -5680,10 +5680,10 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 1
-		t["A04C"][97][1] = "＊맵 전체의 자신 유닛 공격속도를 15%, 이동속도를 12% 증가시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04C"][97][1] = "＊맵 전체의 자신 Units Attack Speed를 15%, Movement Speed를 12% 증가시킨다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 2
-		t["A04C"][98][1] = "20초마다 [20+(Unique 업그레이드*3)]%확률로 아군에게 비사문천의 가호를 내려 20초동안 공격속도를 45% 증가시키고 이동속도를 25% 증가시킵니다.";
+		t["A04C"][98][1] = "20초마다 [20+(Unique Upgrade*3)]%확률로 아군에게 비사문천의 가호를 내려 20초동안 Attack Speed를 45% 증가시키고 Movement Speed를 25% 증가시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -5999,7 +5999,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A04G"][36][1] = "*|c00FF80FF[활력]|r - 10초\r\
 공격시 자신 주변 600범위 적에게 전체 체력의 (2~3.5%) + 300만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aub1 3
-		t["A04G"][37][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 25000+(공격한 유닛의 현재 체력의 1%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][37][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 25000+(공격한 Units의 현재 체력의 1%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -6019,35 +6019,35 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 20
 -- aub1 21
 -- aub1 22
-		t["A04G"][56][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 21%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][56][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 21%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 24
-		t["A04G"][57][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 23%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][57][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 23%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 25
-		t["A04G"][58][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 24%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][58][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 24%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 23
-		t["A04G"][59][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 22%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][59][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 22%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 26
-		t["A04G"][60][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 25%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][60][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 25%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 27
-		t["A04G"][61][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 26%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][61][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 26%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 29
-		t["A04G"][62][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 28%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][62][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 28%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 28
-		t["A04G"][63][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 27%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][63][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 27%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 30
-		t["A04G"][64][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 29%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][64][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 29%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 31
-		t["A04G"][65][1] = "공격시 10%확률로 공격한 유닛 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 유닛의 현재 체력의 30%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
+		t["A04G"][65][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 0.4초간 사라지게 한뒤 나타날때 14000+(공격한 Units의 현재 체력의 30%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- [A04L]
 -- aart
 		t["A04L"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNReplay-Speeddown.blp";
 -- arac
 -- atp1 1
-		t["A04L"][9][1] = "고급 업그레이드|cffffcc00(X)|r";
+		t["A04L"][9][1] = "고급 Upgrade|cffffcc00(X)|r";
 -- aub1 1
-		t["A04L"][10][1] = "고급 업그레이드 항목으로 넘어갑니다.";
+		t["A04L"][10][1] = "고급 Upgrade 항목으로 넘어갑니다.";
 -- anam
-		t["A04L"][11][1] = "업그레이드 버튼";
+		t["A04L"][11][1] = "Upgrade 버튼";
 -- ahky
 		t["A04L"][12][1] = "X";
 -- [A04N]
@@ -6091,61 +6091,61 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04N"][36][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 75%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][36][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 75%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 3
-		t["A04N"][37][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 36%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][37][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 36%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 4
-		t["A04N"][38][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 39%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][38][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 39%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 5
-		t["A04N"][39][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 42%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][39][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 42%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 6
-		t["A04N"][40][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 45%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][40][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 45%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 7
-		t["A04N"][41][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 48%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][41][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 48%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 8
-		t["A04N"][42][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 51%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][42][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 51%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 9
-		t["A04N"][43][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 54%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][43][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 54%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 11
-		t["A04N"][44][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 60%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][44][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 60%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 10
-		t["A04N"][45][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 57%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][45][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 57%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 12
-		t["A04N"][46][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 63%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][46][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 63%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 13
-		t["A04N"][47][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 66%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][47][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 66%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 14
-		t["A04N"][48][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 69%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][48][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 69%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 15
-		t["A04N"][49][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 72%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][49][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 72%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 16
 -- aub1 17
-		t["A04N"][51][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 78%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][51][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 78%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 18
-		t["A04N"][52][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 81%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][52][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 81%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 19
-		t["A04N"][53][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 84%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][53][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 84%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 20
-		t["A04N"][54][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 87%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][54][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 87%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 21
-		t["A04N"][55][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 90%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][55][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 90%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 22
-		t["A04N"][56][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 62%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][56][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 62%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 24
 -- aub1 25
-		t["A04N"][58][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 68%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][58][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 68%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 23
-		t["A04N"][59][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 64%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][59][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 64%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 26
-		t["A04N"][60][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 70%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][60][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 70%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 27
 -- aub1 29
-		t["A04N"][62][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 76%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][62][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 76%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 28
-		t["A04N"][63][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 74%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][63][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 74%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- aub1 30
 -- aub1 31
-		t["A04N"][65][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 80%를 추가로 줍니다. ( 업그레이드시 상승합니다.)";
+		t["A04N"][65][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 80%를 추가로 줍니다. ( Upgrade시 상승합니다.)";
 -- [A04Q]
 -- arac
 -- anam
@@ -6166,7 +6166,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A04R"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNBoneChimes.blp";
 -- atp1 2
-		t["A04R"][6][1] = "심판『정파리 심판』- |c0000FFFF익스텐드|r";
+		t["A04R"][6][1] = "심판『정파리 심판』- |c0000FFFFExtended|r";
 -- atp1 3
 		t["A04R"][7][1] = "심판『십왕 재판』";
 -- atp1 4
@@ -6232,18 +6232,18 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 21
 		t["A04R"][55][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지를 추가로 줍니다.";
 -- aub1 22
-		t["A04R"][56][1] = "3초마다 주변 800범위안의 유닛들에게 전격을 발사하여 16000의 데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 감소합니다.";
+		t["A04R"][56][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 16000의 데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 감소합니다.";
 -- aub1 24
 -- aub1 25
 -- aub1 23
 -- aub1 26
-		t["A04R"][60][1] = "3초마다 주변 800범위안의 유닛들에게 전격을 발사하여 18000의 데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동합니다.";
+		t["A04R"][60][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 18000의 데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동합니다.";
 -- aub1 27
 -- aub1 29
 -- aub1 28
 -- aub1 30
 -- aub1 31
-		t["A04R"][65][1] = "3초마다 주변 800범위안의 유닛들에게 전격을 발사하여 20000의 데미지를 줍니다. 이 전격은 최고 6명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 증가합니다.";
+		t["A04R"][65][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 20000의 데미지를 줍니다. 이 전격은 최고 6명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 증가합니다.";
 -- [A04S]
 -- arac
 -- aub1 1
@@ -6260,9 +6260,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A04M]
 -- arac
 -- atp1 1
-		t["A04M"][2][1] = "기초 업그레이드|cffffcc00(Z)|r";
+		t["A04M"][2][1] = "기초 Upgrade|cffffcc00(Z)|r";
 -- aub1 1
-		t["A04M"][3][1] = "기초 업그레이드 항목으로 넘어갑니다.";
+		t["A04M"][3][1] = "기초 Upgrade 항목으로 넘어갑니다.";
 -- anam
 -- atar 1
 -- aart
@@ -6274,16 +6274,16 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A04O"][2][1] = "|c00FEE952[Unit Information]|r - Wriggle Nightbug[Epic]";
 -- aub1 1
-		t["A04O"][3][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Unique] + Sㅏ나에[Unique] + 이터니티 라바[Unique]\r\
+		t["A04O"][3][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Unique] + Sa Nae[Unique] + 이터니티 라바[Unique]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
 -- anam
 -- aart
 		t["A04O"][5][1] = "BTN\\BTNWriggle.blp";
 -- atp1 2
-		t["A04O"][6][1] = "보부 『황금의 진현』 - |c0000FFFF익스텐드|r";
+		t["A04O"][6][1] = "보부 『황금의 진현』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A04O"][7][1] = "재보가 모이는 정도의 능력";
 -- atp1 4
@@ -6315,10 +6315,10 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04O"][36][1] = "*쇼우가 초당 마나를 1씩 쌓습니다. 쇼우의 마나가 35가 됐을때 대상 주변 650범위에 있는 적들에게 850000의 마법 데미지를 입히고, 3초간 35%의 이동속도 감소 효과를 입힙니다.\r\
+		t["A04O"][36][1] = "*쇼우가 초당 마나를 1씩 쌓습니다. 쇼우의 마나가 35가 됐을때 대상 주변 650범위에 있는 적들에게 850000의 마법 데미지를 입히고, 3초간 35%의 Movement Speed 감소 효과를 입힙니다.\r\
 *이 데미지는 골드 100당 1%씩 상승하며, 최대 100%까지 상승합니다.";
 -- aub1 3
-		t["A04O"][37][1] = "매 웨이브가 끝날때마다, [토라마루 쇼의 수*((((골드 투자수 + (골드 도박 카운트/10) * 죽인 수) + 50)/(3500-(업그레이드*100)))*웨이브수)]만큼의 금을 줍니다.";
+		t["A04O"][37][1] = "매 웨이브가 끝날때마다, [토라마루 쇼의 수*((((골드 투자수 + (골드 도박 카운트/10) * 죽인 수) + 50)/(3500-(Upgrade*100)))*웨이브수)]만큼의 금을 줍니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -6397,13 +6397,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 5
 		t["A04T"][39][1] = "적을 공격시 40%확률로 현재체력의 37%와 360000의 데미지를 가합니다. 현재 체력의 37%가 500000이하일 경우 500000의 피해를 가합니다.";
 -- aub1 6
-		t["A04T"][40][1] = "적을 공격시 40%확률로 현재체력의 40%와 420000의 데미지를 가합니다. 현재 체력의 40%가 580000이하일 경우 580000의 피해를 가합니다. 보스 유닛을 공격할시 3%확률로 전체체력의 1%만큼의  마법 데미지를 줍니다.";
+		t["A04T"][40][1] = "적을 공격시 40%확률로 현재체력의 40%와 420000의 데미지를 가합니다. 현재 체력의 40%가 580000이하일 경우 580000의 피해를 가합니다. 보스 Units을 공격할시 3%확률로 전체체력의 1%만큼의  마법 데미지를 줍니다.";
 -- aub1 7
 		t["A04T"][41][1] = "적을 공격시 50%확률로 대상 전체체력의 25%만큼의 데미지를 줍니다.";
 -- aub1 8
 -- aub1 9
 -- aub1 11
-		t["A04T"][44][1] = "적을 공격시 60%확률로 대상 전체체력의 50%만큼의 데미지를 줍니다. 보스 유닛을 공격할시 4%확률로 전체체력의 5%만큼의 데미지를 줍니다.";
+		t["A04T"][44][1] = "적을 공격시 60%확률로 대상 전체체력의 50%만큼의 데미지를 줍니다. 보스 Units을 공격할시 4%확률로 전체체력의 5%만큼의 데미지를 줍니다.";
 -- aub1 10
 -- aub1 12
 		t["A04T"][46][1] = "적을 공격시 40%확률로 대상 전체체력의 30%만큼의 데미지를 줍니다.";
@@ -6429,7 +6429,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A04U]
 -- arac
 -- atp1 1
-		t["A04U"][2][1] = "『어비스 노바』 - |c0000FFFF익스텐드|r";
+		t["A04U"][2][1] = "『어비스 노바』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A04U"][3][1] = "＊|c0044BBFF[마력]|r - 115 : 공격 시 마력 1 회복, 몸 속의 핵에너지를 폭발시켜 자신 주변 1000 범위의 적에게 전체 체력 3%의 |c00AC59FF절대 피해|r를 가하고 받는 마법 피해를 10% |c0000FFFF증폭|r시킵니다. 피해받은 적의 체력이 15% 이하라면, 즉사시킵니다.\r\
 |c00ff2222[!]제한|r : 보스는 제외됩니다.";
@@ -6521,7 +6521,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A04W"][4][1] = "[Ascended][하타테]";
 -- aart
 -- atp1 2
-		t["A04W"][6][1] = "식신『선호사념』 - |c0000FFFF익스텐드|r";
+		t["A04W"][6][1] = "식신『선호사념』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A04W"][7][1] = "식휘『호리요괴 레이저』";
 -- atp1 4
@@ -6613,7 +6613,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A04Z"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp";
 -- atp1 2
-		t["A04Z"][6][1] = "『헤이안 교토의 악몽』 - |c0000FFFF익스텐드|r";
+		t["A04Z"][6][1] = "『헤이안 교토의 악몽』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A04Z"][7][1] = "『헤이안 교토의 악몽』";
 -- atp1 4
@@ -6650,7 +6650,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 |c00FF00FF데미지 타입:|r 마법\r\
 |c00FF00FF데미지:|r 200000~2000000\r\
 |c00FF00FF효과:|r 400범위 적에게 랜덤한 마법 데미지\r\
-|c00FF00FF설명:|r 정체불명의 누에인만큼 데미지도 정체불명입니다.";
+|c00FF00FF설명:|r Unknown의 누에인만큼 데미지도 Unknown입니다.";
 -- aub1 3
 		t["A04Z"][37][1] = "매 공격시 대상 주변 400범위에 1~18만의 데미지를 줍니다.";
 -- aub1 4
@@ -6695,7 +6695,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A050"][3][1] = "＊거울로 비춰 자신 주변 2000 범위의 투명한 적을 감지합니다.";
 -- atp1 1
-		t["A050"][4][1] = "정체불명『자경』";
+		t["A050"][4][1] = "Unknown『자경』";
 -- aart
 		t["A050"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGem.blp";
 -- [A051]
@@ -6747,9 +6747,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- anam
 		t["A057"][2][1] = "[F3]향림당_Z";
 -- atp1 1
-		t["A057"][3][1] = "유닛 판매 - 적립|cffffcc00(Z)|r";
+		t["A057"][3][1] = "Units 판매 - 적립|cffffcc00(Z)|r";
 -- aub1 1
-		t["A057"][4][1] = "*대상 Normal 유닛을 팝니다. 1마리당 1의 카운트가 쌓이며, 3의 카운트가 쌓일시 셀렉터 하나로 교체됩니다.";
+		t["A057"][4][1] = "*대상 Normal Units을 팝니다. 1마리당 1의 카운트가 쌓이며, 3의 카운트가 쌓일시 셀렉터 하나로 교체됩니다.";
 -- atar 1
 		t["A057"][6][1] = "invulnerable,organic,player";
 -- aart
@@ -6760,9 +6760,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- anam
 		t["A058"][3][1] = "[F3]향림당_X";
 -- atp1 1
-		t["A058"][4][1] = "유닛 판매 - 확률|cffffcc00(X)|r";
+		t["A058"][4][1] = "Units 판매 - 확률|cffffcc00(X)|r";
 -- aub1 1
-		t["A058"][5][1] = "*대상 Normal/Magic 유닛을 팝니다. 40% 확률로 셀렉터 1기를 지급합니다.";
+		t["A058"][5][1] = "*대상 Normal/Magic Units을 팝니다. 40% 확률로 셀렉터 1기를 지급합니다.";
 -- aart
 		t["A058"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNRodOfNecromancy.blp";
 -- atar 1
@@ -6772,9 +6772,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A05A"][2][1] = "『이드의 해방』";
 -- aub1 1
-		t["A05A"][3][1] = "＊익스텐드 시 코이시가 무작위로 1~9의 숫자를 지정합니다. 지정된 숫자의 끝 자릿수를 가진 라운드에 등장하는 적의 마법 방어력을 삭제시킵니다.\r\
+		t["A05A"][3][1] = "＊Extended 시 코이시가 무작위로 1~9의 숫자를 지정합니다. 지정된 숫자의 끝 자릿수를 가진 라운드에 등장하는 적의 마법 방어력을 삭제시킵니다.\r\
 (예시 : 지정된 숫자 1 : 라운드 1, 11, 21, 31, ...)\r\
-＊코메이지 코이시[익스텐드]가 여러 명이면, 마지막에 익스텐드한 코이시의 숫자만이 유효합니다.";
+＊코메이지 코이시[Extended]가 여러 명이면, 마지막에 Extended한 코이시의 숫자만이 유효합니다.";
 -- anam
 -- atar 1
 -- atar 2
@@ -6974,9 +6974,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.38초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 요리가미 조온/시온 업그레이드";
+[Attack Speed]: 0.38 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 요리가미 조온/시온 Upgrade";
 -- arac
 -- [A00U]
 -- arac
@@ -6996,7 +6996,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A05E]
 -- arac
 -- aub1 1
-		t["A05E"][2][1] = "*스이카 주변 1000범위 적의 이동속도를 45% 감소시킵니다.\r\
+		t["A05E"][2][1] = "*스이카 주변 1000범위 적의 Movement Speed를 45% 감소시킵니다.\r\
 *공격시 20% 확률로 Goblin 안개를 여러겹 겹쳐 전방에 있는 적에게 180만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- atar 1
 -- atat
@@ -7032,9 +7032,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A05I"][4][1] = "『에너지 노이즈』";
 -- aart
 -- aub1 1
-		t["A05I"][7][1] = "*카나 주변 700범위 적의 이동속도를 22% 감소시킵니다.\r\
-*카나가 공격시 10% 확률로 자신 주변 1000범위에 에너지를 흘려보냅니다. 흘려보낸 에너지는 자신 주변 아군과 공명하여 카나 주변 650범위의 적에게 [55만 + 30만*공명한 유닛 수]의 |c00379BFF마법 데미지|r를 입히고 1.2초간 스턴시킵니다.\r\
-*Epic 이상 유닛만 공명합니다. 최대 5기까지 공명합니다.";
+		t["A05I"][7][1] = "*카나 주변 700범위 적의 Movement Speed를 22% 감소시킵니다.\r\
+*카나가 공격시 10% 확률로 자신 주변 1000범위에 에너지를 흘려보냅니다. 흘려보낸 에너지는 자신 주변 아군과 공명하여 카나 주변 650범위의 적에게 [55만 + 30만*공명한 Units 수]의 |c00379BFF마법 데미지|r를 입히고 1.2초간 스턴시킵니다.\r\
+*Epic 이상 Units만 공명합니다. 최대 5기까지 공명합니다.";
 -- arac
 -- [A05K]
 -- atar 1
@@ -7146,13 +7146,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A05K"][107][1] = "|c00FEE952[Unit Information]|r - Fujiwara no Mokou[Phantasm]";
 -- aub1 1
 		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + Kamishirasawa Keine[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 키메라 피닉스(mokou phan)\r\
+|c00A8F13A[Type Command]|r: 키메라 피닉스(mokou phan)\r\
 \r\
-[공격속도]: 0.28초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드\r\
+[Attack Speed]: 0.28 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade\r\
 |c00C5EA53[조합 시너지]|r영원한 환생의 불꽃\r\
--Kamishirasawa Keine EX[Epic 혹은 익스텐드]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 쿨다운이 8초 감소합니다.";
+-Kamishirasawa Keine EX[Epic 혹은 Extended]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 쿨다운이 8초 감소합니다.";
 -- aart
 		t["A05K"][109][1] = "BTN\\BTNMoko.blp";
 -- [A05L]
@@ -7177,7 +7177,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A05G]
 -- arac
 -- atp1 1
-		t["A05G"][2][1] = "재화『저주의 히나 인형』- |c0000FFFF익스텐드|r";
+		t["A05G"][2][1] = "재화『저주의 히나 인형』- |c0000FFFFExtended|r";
 -- aub1 1
 		t["A05G"][3][1] = "＊카기야마 히다[쌍둥이 액신인형]를 소환합니다.\r\
 ───────────────────\r\
@@ -7221,7 +7221,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 2
 		t["A05G"][36][1] = "＊카기야마 히다[쌍둥이 액신인형]를 소환했습니다.";
 -- aub1 3
-		t["A05G"][37][1] = "적을 죽일때마다 공격력이 30%, 공격속도가 20% 오르게 됩니다.";
+		t["A05G"][37][1] = "적을 죽일때마다 공격력이 30%, Attack Speed가 20% 오르게 됩니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -7435,20 +7435,20 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["S000"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNDaggerOfEscape.blp";
 -- aub1 1
-		t["S000"][7][1] = "*기본적으로 사쿠야 주변 750범위 적의 이동속도를 20% 감소시킵니다.\r\
-*사쿠야가 공격시 대상 유닛에게 현재 체력의 3%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다. \r\
+		t["S000"][7][1] = "*기본적으로 사쿠야 주변 750범위 적의 Movement Speed를 20% 감소시킵니다.\r\
+*사쿠야가 공격시 대상 Units에게 현재 체력의 3%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다. \r\
 [보스에게는 50%의 데미지만 적용]\r\
-*사쿠야가 공격시 15% 확률로 공격속도를 10% 상승시킵니다. 이 효과는 공격속도가 100%가 될때까지 발동합니다.\r\
-*공격속도가 100%가 됐을때, 사쿠야가 자신의 시간을 10초간 정지시킵니다. 정지시간 동안『이터널 믹』의 이동속도 감소 효과가 80%로 적용되며, 『소울 스컬쳐』의 방어력 감소치가 40으로 증가하고, 현재 체력 비례 데미지가 3%에서 4%로 상승합니다. 정지시간이 종료되면 공격속도 상승치가 초기화됩니다.";
+*사쿠야가 공격시 15% 확률로 Attack Speed를 10% 상승시킵니다. 이 효과는 Attack Speed가 100%가 될때까지 발동합니다.\r\
+*Attack Speed가 100%가 됐을때, 사쿠야가 자신의 시간을 10초간 정지시킵니다. 정지시간 동안『이터널 믹』의 Movement Speed 감소 효과가 80%로 적용되며, 『소울 스컬쳐』의 방어력 감소치가 40으로 증가하고, 현재 체력 비례 데미지가 3%에서 4%로 상승합니다. 정지시간이 종료되면 Attack Speed 상승치가 초기화됩니다.";
 -- abuf 2
 -- atar 2
 -- atp1 2
 -- aub1 2
-		t["S000"][12][1] = "*기본적으로 사쿠야 주변 750범위 적의 이동속도를 80% 감소시킵니다.\r\
-*사쿠야가 공격시 대상 유닛에게 현재 체력의 3%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다. \r\
+		t["S000"][12][1] = "*기본적으로 사쿠야 주변 750범위 적의 Movement Speed를 80% 감소시킵니다.\r\
+*사쿠야가 공격시 대상 Units에게 현재 체력의 3%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다. \r\
 [보스에게는 50%의 데미지만 적용]\r\
-*사쿠야가 공격시 15% 확률로 공격속도를 10% 상승시킵니다. 이 효과는 공격속도가 100%가 될때까지 발동합니다.\r\
-*공격속도가 100%가 됐을때, 사쿠야가 자신의 시간을 10초간 정지시킵니다. 정지시간 동안『이터널 믹』의 이동속도 감소 효과가 80%로 적용되며, 『소울 스컬쳐』의 방어력 감소치가 40으로 증가하고, 현재 체력 비례 데미지가 3%에서 4%로 상승합니다. 정지시간이 종료되면 공격속도 상승치가 초기화됩니다.";
+*사쿠야가 공격시 15% 확률로 Attack Speed를 10% 상승시킵니다. 이 효과는 Attack Speed가 100%가 될때까지 발동합니다.\r\
+*Attack Speed가 100%가 됐을때, 사쿠야가 자신의 시간을 10초간 정지시킵니다. 정지시간 동안『이터널 믹』의 Movement Speed 감소 효과가 80%로 적용되며, 『소울 스컬쳐』의 방어력 감소치가 40으로 증가하고, 현재 체력 비례 데미지가 3%에서 4%로 상승합니다. 정지시간이 종료되면 Attack Speed 상승치가 초기화됩니다.";
 -- [A05R]
 -- anam
 -- atp1 1
@@ -7458,9 +7458,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A05R"][4][1] = "|c00A8F13A[Combination]|r: Utsuho Reiuji[핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 히나나이 텐시 업그레이드\r\
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 히나나이 텐시 Upgrade\r\
 |c0097FF2F[조합 시너지]|r변덕쟁이 아가씨\r\
 -Nagae Iku[Arcana]를 보유시『무념무상의 경지』가 발동할 때, 텐시의 마나를 6% 회복합니다.";
 -- [A05V]
@@ -7468,13 +7468,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A05V"][2][1] = "|c00FEE952[Unit Information]|r - Hieda no Akyuu[Epic]";
 -- aub1 1
-		t["A05V"][3][1] = "|c00A8F13A[Combination]|r: 소가노 토지코[Unique] + 레티 화이트락[Unique] + 사이교우지 유유코[Unique]\r\
+		t["A05V"][3][1] = "|c00A8F13A[Combination]|r: Soga no Tojiko[Unique] + 레티 화이트락[Unique] + 사이교우지 유유코[Unique]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 522\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 522\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 		t["A05V"][4][1] = "BTNakyu.blp";
 -- anam
@@ -7483,17 +7483,17 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A060"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNReplay-Play.blp";
 -- arac
 -- atp1 1
-		t["A060"][9][1] = "고급 업그레이드(2)|cffffcc00(X)|r";
+		t["A060"][9][1] = "고급 Upgrade(2)|cffffcc00(X)|r";
 -- aub1 1
-		t["A060"][10][1] = "다음 업그레이드 항목으로 넘어갑니다.";
+		t["A060"][10][1] = "다음 Upgrade 항목으로 넘어갑니다.";
 -- anam
 -- ahky
 -- [A063]
 -- arac
 -- atp1 1
-		t["A063"][2][1] = "심판『라스트 저지먼트』- |c0000FFFF익스텐드|r";
+		t["A063"][2][1] = "심판『라스트 저지먼트』- |c0000FFFFExtended|r";
 -- aub1 1
-		t["A063"][3][1] = "＊|c0044BBFF[마력]|r - 90 : 공격 시 마력 1 회복, 대상 주변 600 범위의 적을 심판해 전체 체력의 2% + 300만의 |c00379BFF마법 피해|r를 가합니다. 만약 자신의 유닛 카운트가 기본 게임 오버 카운트의 절반 이상이라면, 피해가 2배로 증가합니다.\r\
+		t["A063"][3][1] = "＊|c0044BBFF[마력]|r - 90 : 공격 시 마력 1 회복, 대상 주변 600 범위의 적을 심판해 전체 체력의 2% + 300만의 |c00379BFF마법 피해|r를 가합니다. 만약 자신의 Units 카운트가 기본 게임 오버 카운트의 절반 이상이라면, 피해가 2배로 증가합니다.\r\
 |c00ff2222[!]제한|r : 시키에이키는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
@@ -7670,7 +7670,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A06D]
 -- arac
 -- aub1 1
-		t["A06D"][2][1] = "＊어둠의 공포를 재현해 자신 주변 600 범위의 적 이동속도를 18% 감소시킵니다.\r\
+		t["A06D"][2][1] = "＊어둠의 공포를 재현해 자신 주변 600 범위의 적 Movement Speed를 18% 감소시킵니다.\r\
 ＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 50~150만의 |c00379BFF마법 피해|r를 가합니다.";
 -- atar 1
 -- atp1 1
@@ -7683,9 +7683,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- abuf 2
 -- atar 2
 -- atp1 2
-		t["A06D"][11][1] = "『헤이안쿄의 악몽』 - |c0000FFFF익스텐드|r";
+		t["A06D"][11][1] = "『헤이안쿄의 악몽』 - |c0000FFFFExtended|r";
 -- aub1 2
-		t["A06D"][12][1] = "＊어둠의 공포를 재현해 자신 주변 600 범위의 적 이동속도를 22% 감소시킵니다.\r\
+		t["A06D"][12][1] = "＊어둠의 공포를 재현해 자신 주변 600 범위의 적 Movement Speed를 22% 감소시킵니다.\r\
 *공격 시 20% 확률로 대상 주변 400 범위의 적에게 |c00FF00FF60만~230만|r의 |c00379BFF마법 피해|r를 가합니다.";
 -- [A06N]
 -- anam
@@ -7693,7 +7693,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A06N"][2][1] = "B018";
 -- atar 1
 -- atp1 1
-		t["A06N"][4][1] = "|c00ffff00이터니티 라바|r 조합|c00FF8040[F]|r";
+		t["A06N"][4][1] = "|c00ffff00이터니티 라바|r Combination|c00FF8040[F]|r";
 -- aub1 1
 		t["A06N"][5][1] = "Lily White + 타타라 코가사 + Lunasa Prismriver ";
 -- aart
@@ -7745,19 +7745,19 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A06P"][27][1] = "ReplaceableTextures\\CommandButtons\\BTNUnholyFrenzy.blp";
 -- aub1 1
-		t["A06P"][28][1] = "*Marisa Kirisame[팔괘로]에 스킬 사용시 퀘스트가 완료됩니다.『아나키 불렛 헬』스킬을 습득합니다.\r\
+		t["A06P"][28][1] = "*Marisa Kirisame[Bagua]에 스킬 사용시 퀘스트가 완료됩니다.『아나키 불렛 헬』스킬을 습득합니다.\r\
 \r\
 |c0080FF00보라! 들으라! 이야기하라! 비신의 진정한 마력이 너의 장애가 되리라!|r\r\
-|c00ffff00!주의 : 대상이 된 Marisa Kirisame[팔괘로]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Marisa Kirisame[Bagua]는 사라집니다.|r";
 -- [A06S]
 -- arac
 -- anam
 -- atar 1
 -- aart
 -- atp1 1
-		t["A06S"][5][1] = "|c00ffff00호라이산 카구야|r 조합|c00FF8040[D]|r";
+		t["A06S"][5][1] = "|c00ffff00호라이산 카구야|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A06S"][6][1] = "레이센 우돈게인 이나바 + 우사미 렌코 + Tsukumo Benben";
+		t["A06S"][6][1] = "레이센 우돈게인 이나바 + Renko Usami + Tsukumo Benben";
 -- ahky
 -- acat
 		t["A06S"][8][1] = "h016,h03S,hrif";
@@ -7774,7 +7774,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A06T"][5][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNMagicImmunity.blp";
 -- atp1 2
-		t["A06T"][6][1] = "난제『부처의 석발 -꺾이지 않는 의지-』- |c0000FFFF익스텐드|r";
+		t["A06T"][6][1] = "난제『부처의 석발 -꺾이지 않는 의지-』- |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -7841,7 +7841,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A06W"][2][1] = "『체인 리액션』";
 -- aub1 1
 		t["A06W"][3][1] = "*유메코가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
-*『체인 리액션』: 대상 적 유닛의 전체 체력의 0.5%의 |c00379BFF마법 데미지|r를 대상 주변 450범위 내에 있는 적에게 입힙니다.";
+*『체인 리액션』: 대상 적 Units의 전체 체력의 0.5%의 |c00379BFF마법 데미지|r를 대상 주변 450범위 내에 있는 적에게 입힙니다.";
 -- anam
 		t["A06W"][4][1] = "[유메코]";
 -- aart
@@ -7879,23 +7879,23 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 31
 -- aub1 2
 -- aub1 3
-		t["A06W"][37][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 110% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 2유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][37][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 110% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 2Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 4
-		t["A06W"][38][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 140% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 3유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][38][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 140% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 3Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 5
-		t["A06W"][39][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 170% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 4유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][39][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 170% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 4Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 6
-		t["A06W"][40][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 200% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 5유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][40][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 200% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 5Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 7
-		t["A06W"][41][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 230% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 6유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][41][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 230% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 6Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 8
-		t["A06W"][42][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 260% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 7유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][42][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 260% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 7Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 9
-		t["A06W"][43][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 290% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 8유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][43][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 290% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 8Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 11
-		t["A06W"][44][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 350% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 10유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][44][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 350% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 10Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 10
-		t["A06W"][45][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 공격속도를 320% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 9유닛에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06W"][45][1] = "공격시 3%확률로 발동합니다. 30초동안 자신의 Attack Speed를 320% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 9Units에게 절반의 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -7976,15 +7976,15 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A06X"][40][1] = "＊|c0044BBFF[마력]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 자신 주변 600 범위의 적에게 전체 체력 6%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
 |c00ff2222[!]제한|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 7
-		t["A06X"][41][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 310% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 6유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06X"][41][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 310% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 6Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 8
-		t["A06X"][42][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 320% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 7유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06X"][42][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 320% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 7Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 9
-		t["A06X"][43][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 330% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 8유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06X"][43][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 330% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 8Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 11
-		t["A06X"][44][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 350% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 10유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06X"][44][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 350% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 10Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 10
-		t["A06X"][45][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 340% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 9유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A06X"][45][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 340% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 9Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -8039,17 +8039,17 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- arac
 -- atar 1
 -- atp1 1
-		t["A073"][5][1] = "『유닛 구입』|cffffcc00(Q)|r";
+		t["A073"][5][1] = "『Units 구입』|cffffcc00(Q)|r";
 -- aub1 1
-		t["A073"][6][1] = "*대상『Rare 유닛』을 금 5000으로 구입합니다.\r\
-[유닛은 방랑상인 방문 1번당 1번만 구매 가능합니다.]";
+		t["A073"][6][1] = "*대상『Rare Units』을 금 5000으로 구입합니다.\r\
+[Units은 방랑상인 방문 1번당 1번만 구매 가능합니다.]";
 -- ahky
 -- aart
 -- atar 2
 -- atp1 2
-		t["A073"][10][1] = "『유닛 구입』|cffffcc00(Q)|r - Unique 유닛 구매 완료";
+		t["A073"][10][1] = "『Units 구입』|cffffcc00(Q)|r - Unique Units 구매 완료";
 -- aub1 2
-		t["A073"][11][1] = "*대상『Rare 유닛』을 금 5000을 지불하고 구입합니다.";
+		t["A073"][11][1] = "*대상『Rare Units』을 금 5000을 지불하고 구입합니다.";
 -- [A074]
 -- arac
 -- atp1 1
@@ -8062,7 +8062,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A074"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNReincarnation.blp";
 -- atp1 2
-		t["A074"][6][1] = "봉래『개풍쾌청 -후지와라 볼케이노-』- |c0000FFFF익스텐드|r";
+		t["A074"][6][1] = "봉래『개풍쾌청 -후지와라 볼케이노-』- |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -8132,7 +8132,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A077"][5][1] = "|c00ffff00후지와라노 모코우|r 조합|c00FF8040[F]|r";
+		t["A077"][5][1] = "|c00ffff00후지와라노 모코우|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A077"][7][1] = "Kamishirasawa Keine + 레이센 우돈게인 이나바 + Izayoi Sakuya[Special Stopwatch]";
@@ -8222,7 +8222,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A07S"][4][1] = "BTN\\BTNKogasa.blp";
 -- anam
 -- atp1 1
-		t["A07S"][6][1] = "|c00ffff00타타라 코가사|r 조합|c00FF8040[F]|r";
+		t["A07S"][6][1] = "|c00ffff00타타라 코가사|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A07S"][8][1] = "Kawashiro Nitori + Goblin + UFO";
@@ -8238,7 +8238,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A07T"][4][1] = "BTN\\BTNLyrica.blp";
 -- anam
 -- atp1 1
-		t["A07T"][6][1] = "|c00ffff00Lyrica Prismriver|r 조합|c00FF8040[F]|r";
+		t["A07T"][6][1] = "|c00ffff00Lyrica Prismriver|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A07T"][8][1] = "Green UFO + Spirit";
@@ -8254,7 +8254,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A07U"][4][1] = "BTN\\BTNLunasa.blp";
 -- anam
 -- atp1 1
-		t["A07U"][6][1] = "|c00ffff00Lunasa Prismriver|r 조합|c00FF8040[F]|r";
+		t["A07U"][6][1] = "|c00ffff00Lunasa Prismriver|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A07U"][8][1] = "Red UFO + Spirit";
@@ -8270,7 +8270,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A07V"][4][1] = "BTN\\BTNMerlin.blp";
 -- anam
 -- atp1 1
-		t["A07V"][6][1] = "|c00ffff00Merlin Prismriver|r 조합|c00FF8040[F]|r";
+		t["A07V"][6][1] = "|c00ffff00Merlin Prismriver|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A07V"][8][1] = "Blue UFO + Spirit";
@@ -8285,7 +8285,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A07W"][4][1] = "BTN\\BTNYugi.blp";
 -- atp1 1
-		t["A07W"][5][1] = "|c00ffff00호시구마 유기|r 조합|c00FF8040[D]|r";
+		t["A07W"][5][1] = "|c00ffff00호시구마 유기|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A07W"][6][1] = "Mizuhashi Parsee + Yamame Kurodani + Kisume + Red UFO";
 -- ahky
@@ -8337,22 +8337,22 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 2
 		t["A083"][7][1] = "ward";
 -- atp1 1
-		t["A083"][8][1] = "|c00ffff00코토히메|r 조합|c00FF8040[F]|r";
+		t["A083"][8][1] = "|c00ffff00코토히메|r Combination|c00FF8040[F]|r";
 -- ahky
 -- aart
 		t["A083"][10][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- aub1 1
-		t["A083"][11][1] = "야사카 카나코[Epic] + Futatsuiwa Mamizou[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 코토히메";
+		t["A083"][11][1] = "야사카 카나코[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + 고대와 환상의 조각 = 코토히메";
 -- atp1 2
 		t["A083"][12][1] = "월부『감색의 광몽』- 습득 완료";
 -- aub1 2
-		t["A083"][13][1] = "*공격시 10% 확률로 도레미 주변 1000범위 적 유닛에게 1.1초의 스턴과 100만의 마법 데미지를 입힙니다. 이 스킬이 발동할 경우 도레미의 마나를 모두 회복합니다.";
+		t["A083"][13][1] = "*공격시 10% 확률로 도레미 주변 1000범위 적 Units에게 1.1초의 스턴과 100만의 마법 데미지를 입힙니다. 이 스킬이 발동할 경우 도레미의 마나를 모두 회복합니다.";
 -- alig
 -- atat
 		t["A083"][15][1] = "nban";
 -- [A085]
 -- anam
-		t["A085"][1][1] = "[더미]이동속도 감소";
+		t["A085"][1][1] = "[더미]Movement Speed 감소";
 -- arac
 -- acat
 -- atar 1
@@ -8392,8 +8392,8 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- abuf 4
 -- abuf 5
 -- atp1 5
-		t["A085"][46][1] = "*공격시 11% 확률로 레이센이 적 유닛이 있는 위치에 보라색 폭발을 일으킵니다.\r\
-폭발에 휘말린 600범위 내의 적은 이동속도가 5초간 40% 감소하며 60만의 물리데미지를 입습니다.";
+		t["A085"][46][1] = "*공격시 11% 확률로 레이센이 적 Units이 있는 위치에 보라색 폭발을 일으킵니다.\r\
+폭발에 휘말린 600범위 내의 적은 Movement Speed가 5초간 40% 감소하며 60만의 물리데미지를 입습니다.";
 -- abuf 6
 -- abuf 7
 -- atp1 7
@@ -8435,7 +8435,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A086"][3][1] = "역업『오오에산 폭풍』";
 -- aub1 1
-		t["A086"][4][1] = "＊공격 시 20% 확률로 폭풍을 일으켜 자신 주변 550 범위의 적에게 3만의 |c00FF6464물리 피해|r를 가하고 1.5초간 이동속도를 25% 감소시킨다.";
+		t["A086"][4][1] = "＊공격 시 20% 확률로 폭풍을 일으켜 자신 주변 550 범위의 적에게 3만의 |c00FF6464물리 피해|r를 가하고 1.5초간 Movement Speed를 25% 감소시킨다.";
 -- aart
 		t["A086"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp";
 -- atp1 2
@@ -8530,7 +8530,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A08B"][3][1] = "괴부『테이블 터닝』";
 -- aub1 1
-		t["A08B"][4][1] = "＊공격 시 10% 확률로 한기를 불어 넣어 대상 주변 400 범위의 적에게 5만의 |c00379BFF마법 피해|r를 가하고 3초간 이동속도를 30% 감소시킨다.";
+		t["A08B"][4][1] = "＊공격 시 10% 확률로 한기를 불어 넣어 대상 주변 400 범위의 적에게 5만의 |c00379BFF마법 피해|r를 가하고 3초간 Movement Speed를 30% 감소시킨다.";
 -- aart
 		t["A08B"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNIceShard.blp";
 -- atp1 2
@@ -8633,7 +8633,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 1
-		t["A08E"][34][1] = "＊공격 시 15% 확률로 대상 지점 350 범위의 적에게 4만5천의 |c00FF6464물리 피해|r를 가하고 1초간 이동속도를 45% 감소시킨다.";
+		t["A08E"][34][1] = "＊공격 시 15% 확률로 대상 지점 350 범위의 적에게 4만5천의 |c00FF6464물리 피해|r를 가하고 1초간 Movement Speed를 45% 감소시킨다.";
 -- aub1 2
 		t["A08E"][35][1] = "30%확률로 적에게 Normal 공격의 3배에 해당하는 데미지를 줍니다.";
 -- aub1 3
@@ -8769,14 +8769,14 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A08F"][55][1] = "*모코우가 스킬을 발동할 경우 불씨를 자신의 몸안에 깃들입니다. 불씨가 50개 깃들여질때마다 모코우가 부활하며, 모코우가 부활할때마다 공격력이 15000, 공격속도가 9% 증가합니다. 최대 20번까지 부활할 수 있습니다.\r\
+		t["A08F"][55][1] = "*모코우가 스킬을 발동할 경우 불씨를 자신의 몸안에 깃들입니다. 불씨가 50개 깃들여질때마다 모코우가 부활하며, 모코우가 부활할때마다 공격력이 15000, Attack Speed가 9% 증가합니다. 최대 20번까지 부활할 수 있습니다.\r\
 *모코우가 공격시 10% 확률로 대상 지점에 화염의 폭발을 일으킵니다. 이 폭발은 300범위내의 적에게 175만의 물리 데미지를 입힙니다. 모코우가 재탄생할때마다 데미지가 25000씩 상승합니다. 이 폭발은 불씨를 쌓지 않습니다.";
 -- aub1 22
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A08F"][60][1] = "*모코우가 스킬을 발동할 경우 불씨를 자신의 몸안에 깃들입니다. 불씨가 50개 깃들여질때마다 모코우가 부활하며, 모코우가 부활할때마다 공격력이 15000, 공격속도가9% 증가합니다. 최대 20번까지 부활할 수 있습니다.\r\
+		t["A08F"][60][1] = "*모코우가 스킬을 발동할 경우 불씨를 자신의 몸안에 깃들입니다. 불씨가 50개 깃들여질때마다 모코우가 부활하며, 모코우가 부활할때마다 공격력이 15000, Attack Speed가9% 증가합니다. 최대 20번까지 부활할 수 있습니다.\r\
 *모코우가 공격시 10% 확률로 대상 지점에 화염의 폭발을 일으킵니다. 이 폭발은 300범위내의 적에게 175만의 물리 데미지를 입힙니다. 모코우가 재탄생할때마다 데미지가 25000씩 상승합니다. 이 폭발은 불씨를 쌓지 않습니다.";
 -- aub1 27
 -- aub1 28
@@ -8845,7 +8845,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A08H"][2][1] = "호우『강바닥 대전쟁』";
 -- aub1 1
-		t["A08H"][3][1] = "*니토리가 공격시 마나를 1씩 회복합니다. 마나가 150이 될 경우 맵 전체 자신의 Kappa단과 아군 유닛에게 대전쟁 태세를 명령합니다.\r\
+		t["A08H"][3][1] = "*니토리가 공격시 마나를 1씩 회복합니다. 마나가 150이 될 경우 맵 전체 자신의 Kappa단과 아군 Units에게 대전쟁 태세를 명령합니다.\r\
 *10초간『Kappa의 환상대폭포』의 마나 회복량이 4에서 6으로 증가합니다.";
 -- anam
 		t["A08H"][4][1] = "[니토리]";
@@ -8887,65 +8887,65 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A08H"][36][1] = "*Kappa단원의 신념이 든 오이를 적의 후방에 찍습니다.\r\
 *Kappa단원이 공격시 마나를 1 회복하며, 마나가 75가 될때마다 진귀한 오이인 '비트오이'를 먹고 폭발합니다. 자신 주변 650범위 내에 있는 적에게 220만의 |c00379BFF마법 데미지|r와 1.8초의 스턴을 입힙니다.[폭발한다고 사라지지는 않습니다.]\r\
 *|c00FF80FF[활력]|r - 15초\r\
-대상 유닛의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
+대상 Units의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
 -- aub1 3
-		t["A08H"][37][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 4500의 추가 데미지를 입힙니다.";
+		t["A08H"][37][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 4500의 추가 데미지를 입힙니다.";
 -- aub1 4
-		t["A08H"][38][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 5500의 추가 데미지를 입힙니다.";
+		t["A08H"][38][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 5500의 추가 데미지를 입힙니다.";
 -- aub1 5
-		t["A08H"][39][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 6500의 추가 데미지를 입힙니다.";
+		t["A08H"][39][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 6500의 추가 데미지를 입힙니다.";
 -- aub1 6
-		t["A08H"][40][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 7500의 추가 데미지를 입힙니다.";
+		t["A08H"][40][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 7500의 추가 데미지를 입힙니다.";
 -- aub1 7
-		t["A08H"][41][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 8500의 추가 데미지를 입힙니다.";
+		t["A08H"][41][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 8500의 추가 데미지를 입힙니다.";
 -- aub1 8
-		t["A08H"][42][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 9500의 추가 데미지를 입힙니다.";
+		t["A08H"][42][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 9500의 추가 데미지를 입힙니다.";
 -- aub1 9
-		t["A08H"][43][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 10500의 추가 데미지를 입힙니다.";
+		t["A08H"][43][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 10500의 추가 데미지를 입힙니다.";
 -- aub1 11
-		t["A08H"][44][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 12500의 추가 데미지를 입힙니다.";
+		t["A08H"][44][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 12500의 추가 데미지를 입힙니다.";
 -- aub1 10
-		t["A08H"][45][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 11500의 추가 데미지를 입힙니다.";
+		t["A08H"][45][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 11500의 추가 데미지를 입힙니다.";
 -- aub1 12
-		t["A08H"][46][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 13500의 추가 데미지를 입힙니다.";
+		t["A08H"][46][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 13500의 추가 데미지를 입힙니다.";
 -- aub1 13
-		t["A08H"][47][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 14500의 추가 데미지를 입힙니다.";
+		t["A08H"][47][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 14500의 추가 데미지를 입힙니다.";
 -- aub1 14
-		t["A08H"][48][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 15500의 추가 데미지를 입힙니다.";
+		t["A08H"][48][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 15500의 추가 데미지를 입힙니다.";
 -- aub1 15
-		t["A08H"][49][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 16500의 추가 데미지를 입힙니다.";
+		t["A08H"][49][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 16500의 추가 데미지를 입힙니다.";
 -- aub1 16
-		t["A08H"][50][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 17500의 추가 데미지를 입힙니다.";
+		t["A08H"][50][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 17500의 추가 데미지를 입힙니다.";
 -- aub1 17
-		t["A08H"][51][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 18500의 추가 데미지를 입힙니다.";
+		t["A08H"][51][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 18500의 추가 데미지를 입힙니다.";
 -- aub1 18
-		t["A08H"][52][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 19500의 추가 데미지를 입힙니다.";
+		t["A08H"][52][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 19500의 추가 데미지를 입힙니다.";
 -- aub1 19
-		t["A08H"][53][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 20500의 추가 데미지를 입힙니다.";
+		t["A08H"][53][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 20500의 추가 데미지를 입힙니다.";
 -- aub1 20
-		t["A08H"][54][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 21500의 추가 데미지를 입힙니다.";
+		t["A08H"][54][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 21500의 추가 데미지를 입힙니다.";
 -- aub1 21
-		t["A08H"][55][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 22500의 추가 데미지를 입힙니다.";
+		t["A08H"][55][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 22500의 추가 데미지를 입힙니다.";
 -- aub1 22
-		t["A08H"][56][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 23500의 추가 데미지를 입힙니다.";
+		t["A08H"][56][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 23500의 추가 데미지를 입힙니다.";
 -- aub1 24
-		t["A08H"][57][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 25500의 추가 데미지를 입힙니다.";
+		t["A08H"][57][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 25500의 추가 데미지를 입힙니다.";
 -- aub1 25
-		t["A08H"][58][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 26500의 추가 데미지를 입힙니다.";
+		t["A08H"][58][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 26500의 추가 데미지를 입힙니다.";
 -- aub1 23
-		t["A08H"][59][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 24500의 추가 데미지를 입힙니다.";
+		t["A08H"][59][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 24500의 추가 데미지를 입힙니다.";
 -- aub1 26
-		t["A08H"][60][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 27500의 추가 데미지를 입힙니다.";
+		t["A08H"][60][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 27500의 추가 데미지를 입힙니다.";
 -- aub1 27
-		t["A08H"][61][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 28500의 추가 데미지를 입힙니다.";
+		t["A08H"][61][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 28500의 추가 데미지를 입힙니다.";
 -- aub1 29
-		t["A08H"][62][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 30500의 추가 데미지를 입힙니다.";
+		t["A08H"][62][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 30500의 추가 데미지를 입힙니다.";
 -- aub1 28
-		t["A08H"][63][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 29500의 추가 데미지를 입힙니다.";
+		t["A08H"][63][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 29500의 추가 데미지를 입힙니다.";
 -- aub1 30
-		t["A08H"][64][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 31500의 추가 데미지를 입힙니다.";
+		t["A08H"][64][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 31500의 추가 데미지를 입힙니다.";
 -- aub1 31
-		t["A08H"][65][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 유닛들에게 32500의 추가 데미지를 입힙니다.";
+		t["A08H"][65][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 32500의 추가 데미지를 입힙니다.";
 -- [A08J]
 -- arac
 -- atp1 1
@@ -8987,7 +8987,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08J"][36][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 유닛들을 7%느리게하며, 0.2초마다 3000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][36][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 7%느리게하며, 0.2초마다 3000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -8996,7 +8996,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 8
 -- aub1 9
 -- aub1 11
-		t["A08J"][44][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 유닛들을 8%느리게하며, 0.2초마다 4000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][44][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 8%느리게하며, 0.2초마다 4000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- aub1 10
 -- aub1 12
 -- aub1 13
@@ -9008,7 +9008,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A08J"][55][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 유닛들을 9%느리게하며, 0.2초마다 5000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][55][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 9%느리게하며, 0.2초마다 5000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- aub1 22
 -- aub1 24
 -- aub1 25
@@ -9019,7 +9019,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 28
 -- aub1 30
 -- aub1 31
-		t["A08J"][65][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 유닛들을 10%느리게하며, 0.2초마다 6000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][65][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 10%느리게하며, 0.2초마다 6000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- [A08K]
 -- anam
 -- arac
@@ -9059,7 +9059,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A08K"][35][1] = "*오키나가 적이 바라보는 방향의 후방에서 공격할 경우 입히는 데미지가 45% 상승합니다.\r\
 [다른 스펠의 % 데미지는 상승하지 않지만, 『아나키 불릿 헬』은 % 데미지도 상승합니다.]\r\
-*오키나 주변 800범위 적의 이동속도를 25% 감소시킵니다.\r\
+*오키나 주변 800범위 적의 Movement Speed를 25% 감소시킵니다.\r\
 *오키나가 공격시 10% 확률로 자신 주변 800범위내의 적에게 145만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *『아나키 불릿 헬』을 습득할 경우, 후방에 있지 않아도 스킬 데미지가 증폭됩니다.";
 -- atat
@@ -9420,7 +9420,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- abuf 1
 		t["A08Y"][4][1] = "B01K";
 -- atp1 1
-		t["A08Y"][5][1] = "|c00ffff00야타데라 나루미|r 조합|c00FF8040[F]|r";
+		t["A08Y"][5][1] = "|c00ffff00야타데라 나루미|r Combination|c00FF8040[F]|r";
 -- aub1 1
 		t["A08Y"][6][1] = "Kasodani Kyouko + Orin[Rare] + Lyrica Prismriver[Rare]";
 -- aart
@@ -9440,9 +9440,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A08Z"][4][1] = "『감주의 약』- 0/4회";
 -- aub1 1
 		t["A08Z"][5][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 |c00FF6464물리 데미지|r와 185만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 20% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
-[에이린 자신은 공격속도가 증가하지 않습니다.]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 20% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
+[에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aart
 -- abuf 2
 -- abuf 3
@@ -9467,40 +9467,40 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 9
 -- aub1 2
 		t["A08Z"][23][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 |c00FF6464물리 데미지|r와 185만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 25% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
-[에이린 자신은 공격속도가 증가하지 않습니다.]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 25% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
+[에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 3
 		t["A08Z"][24][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 |c00FF6464물리 데미지|r와 185만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 30% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
-[에이린 자신은 공격속도가 증가하지 않습니다.]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 30% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
+[에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 4
 		t["A08Z"][25][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 |c00FF6464물리 데미지|r와 185만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 35% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
-[에이린 자신은 공격속도가 증가하지 않습니다.]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 35% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
+[에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 5
 		t["A08Z"][26][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 |c00FF6464물리 데미지|r와 185만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 40% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
-[에이린 자신은 공격속도가 증가하지 않습니다.]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 40% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
+[에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 6
 		t["A08Z"][27][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 물리 데미지와 185만의 마법 데미지를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 35% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 35% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- aub1 7
 		t["A08Z"][28][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 물리 데미지와 185만의 마법 데미지를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 40% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 40% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- aub1 8
 		t["A08Z"][29][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 물리 데미지와 185만의 마법 데미지를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 45% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 45% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- aub1 9
 		t["A08Z"][30][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. 현재 체력의 0.8%에 해당하는 물리 데미지와 185만의 마법 데미지를 입힙니다.\r\
-*적 유닛이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
-*에이린 주변 900범위 아군의 공격속도를 50% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
+*적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
+*에이린 주변 900범위 아군의 Attack Speed를 50% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- atar 1
 		t["A08Z"][31][1] = "air,invulnerable,notself,ground,vulnerable,friend";
 -- atar 2
@@ -9523,7 +9523,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A091"][2][1] = "『쇄월』";
 -- aub1 1
 		t["A091"][3][1] = "*에이린이 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거짓된 달을 만들어냅니다. 거짓된 달은 12초간 지속됩니다.\r\
-*1000범위 적 유닛의 이동속도를 70% 감소킵니다.\r\
+*1000범위 적 Units의 Movement Speed를 70% 감소킵니다.\r\
 *500범위 적이 받는 마법 데미지를 15% 증폭시키고, 방어력을 30 감소시킵니다.[영구 지속]\r\
 *500범위의 적에게 1초마다 잃은 체력의 0.5% + 15만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- aart
@@ -9558,7 +9558,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A094"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAbsorbMagic.blp";
 -- atp1 2
-		t["A094"][6][1] = "천지『세계를 굽어보는 머나먼 대지여』- |c0000FFFF익스텐드|r";
+		t["A094"][6][1] = "천지『세계를 굽어보는 머나먼 대지여』- |c0000FFFFExtended|r";
 -- atp1 3
 		t["A094"][7][1] = "천지『세계를 굽어보는 머나먼 대지여』";
 -- atp1 4
@@ -9646,7 +9646,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A096"][3][1] = "＊[마력] - 180 : 공격 시 마력 1 회복, 보이지 않는 살의를 소환해 마법 방어력을 제거하는 공격을 합니다. 공격한 적의 체력이 10% 이하라면, 즉사시키고 5초간 유지되는 살의를 하나 더 소환합니다. 첫 살의가 지속되는 동안 스킬을 다시 발동할 수 없습니다.\r\
 -공격력(|c00379BFF마법|r) : 현재 체력 5%(보스는 0.5%)\r\
--공격속도 : 0.5초당 1번";
+-Attack Speed : 0.5 Cooldown";
 -- anam
 -- aart
 		t["A096"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAnimateDead.blp";
@@ -9685,7 +9685,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 2
 		t["A096"][36][1] = "＊[마력] - 180 : 공격 시 마력 1 회복, 보이지 않는 살의를 소환해 마법 방어력을 제거하는 공격을 합니다. 공격한 적의 체력이 10% 이하라면, 즉사시키고 5초간 유지되는 살의를 하나 더 소환합니다. 첫 살의가 지속되고 있어 스킬을 발동할 수 없습니다.\r\
 -공격력(|c00379BFF마법|r) : 현재 체력 5%(보스는 0.5%)\r\
--공격속도 : 0.5초당 1번";
+-Attack Speed : 0.5 Cooldown";
 -- aub1 3
 		t["A096"][37][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 86000의 데미지를 줍니다.";
 -- aub1 4
@@ -9731,7 +9731,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A07Q"][3][1] = "BTN\\BTNIchilin.blp";
 -- anam
 -- atp1 1
-		t["A07Q"][5][1] = "|c00ffff00쿠모이 이치린|r 조합|c00FF8040[F]|r";
+		t["A07Q"][5][1] = "|c00ffff00Ichirin Kumoi|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A07Q"][7][1] = "타타라 코가사[Rare] + Okuu[Rare] + Star Sapphire[Rare]";
@@ -9747,7 +9747,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A097"][3][1] = "BTN\\BTNIku.blp";
 -- anam
 -- atp1 1
-		t["A097"][5][1] = "|c00ffff00나가에 이쿠|r 조합|c00FF8040[D]|r";
+		t["A097"][5][1] = "|c00ffff00나가에 이쿠|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A097"][7][1] = "Sunny Milk + 타타라 코가사 + Kochiya Sanae + Blue UFO\r\
@@ -9763,7 +9763,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A098"][5][1] = "|c00ffff00레티 화이트락|r 조합|c00FF8040[F]|r";
+		t["A098"][5][1] = "|c00ffff00레티 화이트락|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A098"][7][1] = "Cirno + Lily White + Minoriko Aki";
@@ -9778,9 +9778,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A099"][4][1] = "BTN\\BTNNamaz.blp";
 -- atp1 1
-		t["A099"][5][1] = "|c00ffff00나마즈|r 조합|c00FF8040[D]|r";
+		t["A099"][5][1] = "|c00ffff00나마즈|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A099"][6][1] = "Nagae Iku + 이부키 스이카 + 우사미 렌코";
+		t["A099"][6][1] = "Nagae Iku + Suika Ibuki + Renko Usami";
 -- ahky
 -- acat
 		t["A099"][8][1] = "h033,h035,h03S";
@@ -9793,9 +9793,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A09A"][5][1] = "|c00ffff00Murasa 미나미츠|r 조합|c00FF8040[D]|r";
+		t["A09A"][5][1] = "|c00ffff00Murasa 미나미츠|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A09A"][6][1] = "쿠모이 이치린 + 성련선 + Sㅏ나에";
+		t["A09A"][6][1] = "Ichirin Kumoi + Palanquin Ship + Sa Nae";
 -- ahky
 -- acat
 		t["A09A"][8][1] = "h036,h01L,h01F";
@@ -9809,7 +9809,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A09B"][4][1] = "BTN\\BTNEXKeine.blp";
 -- atp1 1
-		t["A09B"][5][1] = "|c00ffff00카미시라사와 케이네 Ex|r 조합|c00FF8040[D]|r";
+		t["A09B"][5][1] = "|c00ffff00카미시라사와 케이네 Ex|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A09B"][6][1] = "Kamishirasawa Keine + Rumia EX + Patchouli Knowledge[Philosopher's Stone]";
 -- ahky
@@ -9825,9 +9825,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A09C"][4][1] = "BTN\\BTNMedicine.blp";
 -- atp1 1
-		t["A09C"][5][1] = "|c00ffff00메디슨 멜랑꼴리|r 조합|c00FF8040[D]|r";
+		t["A09C"][5][1] = "|c00ffff00메디슨 멜랑꼴리|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A09C"][6][1] = "앨리스 마가트로이드[인형재판] + Kagiyama Hina + 첸";
+		t["A09C"][6][1] = "Alice Margatroid[Doll Judgement] + Kagiyama Hina + Chen";
 -- ahky
 -- acat
 		t["A09C"][8][1] = "h048,h02N,h01K";
@@ -9885,12 +9885,12 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A09G"][2][1] = "『소로우 램넌트』";
 -- aub1 1
-		t["A09G"][3][1] = "*유메코가 공격시 마나를 1씩 쌓습니다. 마나가 100이 됐을때 대상 지점 주변 500범위 유닛을 베어냅니다.\r\
-*적 유닛에게 잃은 체력의 7% + 400만의 |c00379BFF마법 데미지|r를 입힙니다.";
+		t["A09G"][3][1] = "*유메코가 공격시 마나를 1씩 쌓습니다. 마나가 100이 됐을때 대상 지점 주변 500범위 Units을 베어냅니다.\r\
+*적 Units에게 잃은 체력의 7% + 400만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aart
 		t["A09G"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNPossession.blp";
 -- atp1 2
-		t["A09G"][5][1] = "독부『우울의 독』 - |c0000FFFF익스텐드|r";
+		t["A09G"][5][1] = "독부『우울의 독』 - |c0000FFFFExtended|r";
 -- aub1 2
 		t["A09G"][6][1] = "|c00FF00FF형식:|r ,데미지\r\
 |c00FF00FF발동 확률:|r 12%\r\
@@ -9919,7 +9919,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A09L"][2][1] = "『플라워 슈팅』";
 -- aub1 1
 		t["A09L"][3][1] = "*유카가 공격시 15% 확률로 전방으로 빠르게 씨앗을 발사합니다. \r\
-*발사한 씨앗은 900거리 200범위 내의 유닛에게 현재 체력의 0.6% + 150만에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*발사한 씨앗은 900거리 200범위 내의 Units에게 현재 체력의 0.6% + 150만에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *유카가 평타 공격시 대상 주변 500범위 적에게 씨앗 산탄을 날려 평타의 80%에 해당하는 범위 데미지를 입힙니다.";
 -- amat
 		t["A09L"][5][1] = "Abilities\\Spells\\Other\\Parasite\\ParasiteMissile.mdl";
@@ -10128,9 +10128,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A09N"][3][1] = "*공격시 10% 확률로 대상 지점에 강렬한 별불꽃을 투하합니다. 별불꽃에 피격된 적은 전체 체력의 0.5% + 100만의 |c00379BFF마법 데미지|r를 입습니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『속이 시커먼 Fairy』\r\
-*겉보기와는 다르게 교활한 Fairy으로, 어느 진영에서든 조합할 수 있습니다.\r\
-*Star Sapphire[Legendary]를 조합할 경우, 진영에서 생성할 수 있는 Normal 유닛의 갯수가 초기화됩니다.\r\
-*Star Sapphire[Legendary]는 플레이어당 하나만 조합할 수 있습니다.";
+*겉보기와는 다르게 교활한 Fairy으로, 어느 진영에서든 Combination할 수 있습니다.\r\
+*Star Sapphire[Legendary]를 Combination할 경우, 진영에서 생성할 수 있는 Normal Units의 갯수가 초기화됩니다.\r\
+*Star Sapphire[Legendary]는 플레이어당 하나만 Combination할 수 있습니다.";
 -- anam
 		t["A09N"][4][1] = "[스타]";
 -- aart
@@ -10278,12 +10278,12 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A09Z"][3][1] = "*침입자들을 처리하는데 특화되어 있는 유메코의 전투 기술입니다.\r\
 *유메코는 공격시 15% 확률로 적 전체 체력의 5%[보스의 경우 전체 체력의 0.2% + 125만]에 해당하는 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*유메코가 공격시 7% 확률로 자신의 공격속도를 1.5초간 50% 상승시킵니다.";
+*유메코가 공격시 7% 확률로 자신의 Attack Speed를 1.5초간 50% 상승시킵니다.";
 -- anam
 -- aart
 		t["A09Z"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUnholyAura.blp";
 -- atp1 2
-		t["A09Z"][6][1] = "익부『딥 볼텍스』 - |c0000FFFF익스텐드|r";
+		t["A09Z"][6][1] = "익부『딥 볼텍스』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A09Z"][7][1] = "익부『딥 볼텍스』";
 -- atp1 4
@@ -10316,7 +10316,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A09Z"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 660000의 물리데미지와 1.2초의 기절, 기절이 풀린 후 3초간 이동속도 35% 감소 효과를 줍니다.";
+		t["A09Z"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 660000의 물리데미지와 1.2초의 기절, 기절이 풀린 후 3초간 Movement Speed 35% 감소 효과를 줍니다.";
 -- aub1 3
 		t["A09Z"][37][1] = "공격시 30%확률로 공격 대상에게 현재 체력의 15%의 피해를, Murasa 주위의 적군들에게 70000/65000/60000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 4
@@ -10336,15 +10336,15 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 10
 		t["A09Z"][45][1] = "공격시 30%확률로 공격 대상에게 현재 체력의 15%의 피해를, Murasa 주위의 적군들에게 210000/205000/200000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 12
-		t["A09Z"][46][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 유닛에게 부딫힐경우 265000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][46][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 265000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 13
-		t["A09Z"][47][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 유닛에게 부딫힐경우 280000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][47][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 280000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 14
-		t["A09Z"][48][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 유닛에게 부딫힐경우 295000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][48][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 295000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 15
-		t["A09Z"][49][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 유닛에게 부딫힐경우 310000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][49][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 310000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 16
-		t["A09Z"][50][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 400의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 유닛에게 부딫힐경우 325000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][50][1] = "매 공격시 20% 확률로 10초동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 400의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3만의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 325000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
@@ -10371,7 +10371,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- anam
 -- aart
 -- atp1 2
-		t["A0A2"][6][1] = "전세『되돌아오는 이치죠 다리』 - |c0000FFFF익스텐드|r";
+		t["A0A2"][6][1] = "전세『되돌아오는 이치죠 다리』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A0A2"][7][1] = "신사『신환상사 - Next History』";
 -- atp1 4
@@ -10403,8 +10403,8 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0A2"][36][1] = "*케이네가 공격한 대상 유닛의 체력이 10% 이하라면 발동합니다. \r\
-*공격시 15% 확률로대상 유닛을 즉사시킵니다. 공격한 대상 유닛의 체력이 70% 이상이라면 대상 전체 체력의 15%의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+		t["A0A2"][36][1] = "*케이네가 공격한 대상 Units의 체력이 10% 이하라면 발동합니다. \r\
+*공격시 15% 확률로대상 Units을 즉사시킵니다. 공격한 대상 Units의 체력이 70% 이상이라면 대상 전체 체력의 15%의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 [미션,스토리 보스에게는 적용되지 않습니다.]";
 -- aub1 3
 		t["A0A2"][37][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 90000의 피해를 5초간 줍니다.";
@@ -10450,13 +10450,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0A3"][2][1] = "구사『구비경사 - Old History』";
 -- aub1 1
 		t["A0A3"][3][1] = "*케이네가 공격시 9% 확률로 대상 지점 주변 400범위 내의 적의 역사를 뒤틀어 30만의 |c00AC59FF절대 데미지|r를 입히고, 2초간 스턴시킵니다.\r\
-*보스 판정 유닛에게는 44만의 |c00FF6464물리 데미지|r를 확률이 아닌 무조건부로 입히고 0.3초간 스턴시킵니다. ";
+*보스 판정 Units에게는 44만의 |c00FF6464물리 데미지|r를 확률이 아닌 무조건부로 입히고 0.3초간 스턴시킵니다. ";
 -- anam
 		t["A0A3"][4][1] = "[Epic_사용되지 않음]";
 -- aart
 		t["A0A3"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNLoad.blp";
 -- atp1 2
-		t["A0A3"][6][1] = "구사『구비경사 - Old History』 - |c0000FFFF익스텐드|r";
+		t["A0A3"][6][1] = "구사『구비경사 - Old History』 - |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -10488,7 +10488,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 31
 -- aub1 2
 		t["A0A3"][36][1] = "*케이네가 공격시 9% 확률로 대상 지점 주변 400범위 내의 적의 역사를 뒤틀어 60만의 |c00AC59FF절대 데미지|r를 입히고, 2.5초간 스턴시킵니다.\r\
-*보스 판정 유닛에게는 66만의 |c00FF6464물리 데미지|r를 확률이 아닌 무조건부로 입히고 0.3초간 스턴시킵니다. ";
+*보스 판정 Units에게는 66만의 |c00FF6464물리 데미지|r를 확률이 아닌 무조건부로 입히고 0.3초간 스턴시킵니다. ";
 -- aub1 3
 		t["A0A3"][37][1] = "공격시 10%확률로 주위의 적군들에게 120000의 데미지를 줍니다.";
 -- aub1 4
@@ -10650,7 +10650,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A002"][4][1] = "BTN\\BTNKisme.blp";
 -- anam
 -- atp1 1
-		t["A002"][6][1] = "|c00ffff00Kisume|r 조합|c00FF8040[F]|r";
+		t["A002"][6][1] = "|c00ffff00Kisume|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A002"][8][1] = "Goblin + Kappa";
@@ -10664,7 +10664,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A005"][5][1] = "|c00ffff00Yamame Kurodani|r 조합|c00FF8040[D]|r";
+		t["A005"][5][1] = "|c00ffff00Yamame Kurodani|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A005"][6][1] = "Kisume + Rumia + Zako";
 -- ahky
@@ -10677,7 +10677,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- arac
 -- atp1 1
-		t["A05D"][9][1] = "고급 업그레이드(3)|cffffcc00(X)|r";
+		t["A05D"][9][1] = "고급 Upgrade(3)|cffffcc00(X)|r";
 -- aub1 1
 -- anam
 -- ahky
@@ -10760,7 +10760,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A044"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNManaFlareOff.blp";
 -- atp1 2
-		t["A044"][6][1] = "광부『정의의 위광』 - |c0000FFFF익스텐드|r";
+		t["A044"][6][1] = "광부『정의의 위광』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A044"][7][1] = "법력『지보의 독고저』";
 -- atp1 4
@@ -10840,7 +10840,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A08T"][6][1] = "연금술 - 재연성|cffffcc00(C)|r[체험판]";
 -- aub1 1
-		t["A08T"][7][1] = "목표 Normal 유닛을 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다.";
+		t["A08T"][7][1] = "목표 Normal Units을 재연성합니다. 랜덤한 Normal Units으로 변화합니다.";
 -- aart
 		t["A08T"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNTransmute.blp";
 -- atar 1
@@ -10863,12 +10863,12 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 7
 		t["A08T"][21][1] = "연금술 - 재연성|cffffcc00(C)|r[퓨어 퓨리스 모드]";
 -- aub1 2
-		t["A08T"][22][1] = "목표 Normal 유닛을 100 골드를 소모해 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다. 쿨다운 5초";
+		t["A08T"][22][1] = "목표 Normal Units을 100 골드를 소모해 재연성합니다. 랜덤한 Normal Units으로 변화합니다. 쿨다운 5초";
 -- aub1 3
 -- aub1 4
-		t["A08T"][24][1] = "목표 Normal 유닛을 225 골드를 소모해 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다. 쿨다운 5초";
+		t["A08T"][24][1] = "목표 Normal Units을 225 골드를 소모해 재연성합니다. 랜덤한 Normal Units으로 변화합니다. 쿨다운 5초";
 -- aub1 5
-		t["A08T"][25][1] = "목표 Normal 유닛을 350 골드를 소모해 재연성합니다. 랜덤한 Normal 유닛으로 변화합니다. 쿨다운 5초";
+		t["A08T"][25][1] = "목표 Normal Units을 350 골드를 소모해 재연성합니다. 랜덤한 Normal Units으로 변화합니다. 쿨다운 5초";
 -- [A0AK]
 -- arac
 -- anam
@@ -10876,7 +10876,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0AK"][3][1] = "연금술 - 분해|cffffcc00(V)|r";
 -- aub1 1
-		t["A0AK"][4][1] = "대상 Magic 유닛을 기존의 Normal 유닛으로 분해시킵니다. 100골드가 소모됩니다. 쿨다운 40초";
+		t["A0AK"][4][1] = "대상 Magic Units을 기존의 Normal Units으로 분해시킵니다. 100골드가 소모됩니다. 쿨다운 40초";
 -- aart
 		t["A0AK"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNHealingSpray.blp";
 -- atar 1
@@ -10891,7 +10891,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0AA"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNEnchantedCrows.blp";
 -- atp1 2
-		t["A0AA"][6][1] = "염부『피닉스의 초고온 깃털』- |c0000FFFF익스텐드|r";
+		t["A0AA"][6][1] = "염부『피닉스의 초고온 깃털』- |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -10967,9 +10967,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A062"][2][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.44초당 1번\r\
-[이동속도]: 425\r\
-|c00F8BA54[업그레이드]|r : 하니야스신 케이키 업그레이드";
+[Attack Speed]: 0.44 Cooldown\r\
+[Movement Speed]: 425\r\
+|c00F8BA54[Upgrade]|r : 하니야스신 케이키 Upgrade";
 -- anam
 -- aart
 		t["A062"][4][1] = "ReplaceableTextures\\CommandButtons\\Keiki\\BTN_UP.blp";
@@ -10995,7 +10995,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0AN"][5][1] = "|c00ffff00이자요이 사쿠야[Special Stopwatch]|r 조합|c00FF8040[D]|r";
+		t["A0AN"][5][1] = "|c00ffff00이자요이 사쿠야[Special Stopwatch]|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0AN"][7][1] = "Izayoi Sakuya + Hong Meiling + Hakurei Reimu";
@@ -11025,7 +11025,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- [A0AR]
 -- aub1 1
-		t["A0AR"][1][1] = "＊나마즈 주변 800 범위의 자신 소유 유닛 공격속도를 10% 증가시킵니다.\r\
+		t["A0AR"][1][1] = "＊나마즈 주변 800 범위의 자신 소유 Units Attack Speed를 10% 증가시킵니다.\r\
 ＊공격 시 12% 확률로 자신 주변 600 범위의 적에게 전체 체력 0.4% + 95만의 |c00FF6464물리 피해|r를 가합니다.";
 -- atar 1
 		t["A0AR"][2][1] = "invulnerable,self,player";
@@ -11037,11 +11037,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 2
 -- abuf 2
 -- aub1 2
-		t["A0AR"][10][1] = "*기본적으로 자신 주변 800범위 아군의 공격속도를 18% 증가시킵니다.\r\
+		t["A0AR"][10][1] = "*기본적으로 자신 주변 800범위 아군의 Attack Speed를 18% 증가시킵니다.\r\
 *공격시 16% 확률로 자신 주변 600범위 적에게 80만의 |c00FF6464물리 데미지|r를 입히고, 2.5초간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3";
 -- atp1 2
-		t["A0AR"][11][1] = "메기『올 전화로 에콜로지다!』- |c0000FFFF익스텐드|r";
+		t["A0AR"][11][1] = "메기『올 전화로 에콜로지다!』- |c0000FFFFExtended|r";
 -- [A0AT]
 -- arac
 -- atp1 1
@@ -11058,7 +11058,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0AW"][5][1] = "|c00ffff00레이라 프리즘리버|r 조합|c00FF8040[F]|r";
+		t["A0AW"][5][1] = "|c00ffff00레이라 프리즘리버|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0AW"][7][1] = "Lunasa Prismriver + Merlin Prismriver + Lyrica Prismriver + Small Divine Spirit";
@@ -11091,7 +11091,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A09Y"][3][1] = "저주 - 쇠약|cffffcc00(A)|r";
 -- aub1 1
-		t["A09Y"][4][1] = "*대상 적 유닛의 이동속도를 5초간 50%만큼 감소시키고, 방어력을 45만큼 10초간 감소시킵니다.\r\
+		t["A09Y"][4][1] = "*대상 적 Units의 Movement Speed를 5초간 50%만큼 감소시키고, 방어력을 45만큼 10초간 감소시킵니다.\r\
 [이변 보스에는 방어력 감소 효과가 발동하지 않습니다.]\r\
 *쿨다운 30초";
 -- auu1 1
@@ -11180,7 +11180,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0B0"][3][1] = "과학 기술 지원 - 별가루(Star Dust)|cffffcc00(D)|r";
 -- aub1 1
-		t["A0B0"][4][1] = "*Kappa들이 만든 최신식 탐지기 스타 더스트를 사용합니다. 20초 동안 대상 범위 내의 투명한 유닛들을 볼 수 있습니다.\r\
+		t["A0B0"][4][1] = "*Kappa들이 만든 최신식 탐지기 스타 더스트를 사용합니다. 20초 동안 대상 범위 내의 투명한 Units들을 볼 수 있습니다.\r\
 *쿨다운 12초";
 -- aut1 1
 -- auu1 1
@@ -11199,7 +11199,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0B1"][4][1] = "과학 기술 지원 - 로스트(Lost)|cffffcc00(F)|r";
 -- aub1 1
-		t["A0B1"][5][1] = "Kappa들이 만든 정체불명의 기계를 대상에게 사용합니다. 맞은 대상은 어디론가 사라져 잊혀져버립니다. 대상 유닛 즉사. 보스몹에게는 통하지 않습니다. 쿨타임 15초";
+		t["A0B1"][5][1] = "Kappa들이 만든 Unknown의 기계를 대상에게 사용합니다. 맞은 대상은 어디론가 사라져 잊혀져버립니다. 대상 Units 즉사. 보스몹에게는 통하지 않습니다. 쿨타임 15초";
 -- aart
 		t["A0B1"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNVengeanceIncarnate.tga";
 -- ahky
@@ -11253,7 +11253,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0B5"][5][1] = "|c00ffff00Wriggle Nightbug|r 조합|c00FF8040[F]|r";
+		t["A0B5"][5][1] = "|c00ffff00Wriggle Nightbug|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0B5"][7][1] = "Human + Zako";
@@ -11269,7 +11269,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0B6"][4][1] = "BTN\\BTNKoakuma.blp";
 -- anam
 -- atp1 1
-		t["A0B6"][6][1] = "|c00ffff00Small Devil|r 조합|c00FF8040[D]|r";
+		t["A0B6"][6][1] = "|c00ffff00Small Devil|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0B6"][8][1] = "Devil + Devil";
@@ -11286,7 +11286,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0B7"][3][1] = "BTN\\BTNSunny.blp";
 -- anam
 -- atp1 1
-		t["A0B7"][5][1] = "|c00ffff00Sunny Milk|r 조합|c00FF8040[F]|r";
+		t["A0B7"][5][1] = "|c00ffff00Sunny Milk|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0B7"][7][1] = "Shizuha Aki + Big Fairy";
@@ -11302,7 +11302,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0B8"][4][1] = "BTN\\BTNYoshika.blp";
 -- anam
 -- atp1 1
-		t["A0B8"][6][1] = "|c00ffff00Yoshika Miyako|r 조합|c00FF8040[F]|r";
+		t["A0B8"][6][1] = "|c00ffff00Yoshika Miyako|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0B8"][8][1] = "Small Divine Spirit + Wriggle Nightbug + Goblin";
@@ -11317,7 +11317,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0B9"][4][1] = "BTN\\BTNKyouko.blp";
 -- atp1 1
-		t["A0B9"][5][1] = "|c00ffff00Kasodani Kyouko|r 조합|c00FF8040[D]|r";
+		t["A0B9"][5][1] = "|c00ffff00Kasodani Kyouko|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0B9"][6][1] = "Small Divine Spirit + Kisume + Zako";
 -- ahky
@@ -11333,7 +11333,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BA"][4][1] = "BTN\\BTNMomizi.blp";
 -- atp1 1
-		t["A0BA"][5][1] = "|c00ffff00이누바시리 모미지|r 조합|c00FF8040[D]|r";
+		t["A0BA"][5][1] = "|c00ffff00이누바시리 모미지|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BA"][6][1] = "Kawashiro Nitori + Shizuha Aki + Kappa";
 -- ahky
@@ -11350,7 +11350,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A00L"][4][1] = "BTN\\BTNseiga.blp";
 -- anam
 -- atp1 1
-		t["A00L"][6][1] = "|c00ffff00카쿠 세이가|r 조합|c00FF8040[D]|r";
+		t["A00L"][6][1] = "|c00ffff00Seiga Kaku|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A00L"][8][1] = "Yoshika Miyako + Orin + Sekibanki";
@@ -11365,7 +11365,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BF"][4][1] = "BTN\\BTNRenko.blp";
 -- atp1 1
-		t["A0BF"][5][1] = "|c00ffff00우사미 렌코|r 조합|c00FF8040[D]|r";
+		t["A0BF"][5][1] = "|c00ffff00Renko Usami|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BF"][6][1] = "Star Sapphire + Izayoi Sakuya + Luna Child + UFO[Normal]";
 -- ahky
@@ -11380,9 +11380,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0BG"][5][1] = "|c00ffff00앨리스 마가트로이드[인형재판]|r 조합|c00FF8040[D]|r";
+		t["A0BG"][5][1] = "|c00ffff00Alice Margatroid[Doll Judgement]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BG"][6][1] = "앨리스 마가트로이드 + Marisa Kirisame + Patchouli Knowledge";
+		t["A0BG"][6][1] = "Alice Margatroid + Marisa Kirisame + Patchouli Knowledge";
 -- ahky
 -- acat
 		t["A0BG"][8][1] = "h00M,h00L,h010";
@@ -11396,7 +11396,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BH"][4][1] = "Icon\\Unit\\BTNLily_Uniq.blp";
 -- atp1 1
-		t["A0BH"][5][1] = "|c00ffff00릴리 블랙|r 조합|c00FF8040[D]|r";
+		t["A0BH"][5][1] = "|c00ffff00릴리 블랙|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BH"][6][1] = "Lily White + Cirno + Kasodani Kyouko";
 -- ahky
@@ -11412,7 +11412,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BI"][4][1] = "BTN\\BTNtogico.blp";
 -- atp1 1
-		t["A0BI"][5][1] = "|c00ffff00소가노 토지코|r 조합|c00FF8040[D]|r";
+		t["A0BI"][5][1] = "|c00ffff00Soga no Tojiko|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BI"][6][1] = "Kasodani Kyouko + Youmu Konpaku + Yoshika Miyako";
 -- ahky
@@ -11428,7 +11428,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0BJ"][5][1] = "|c00ffff00사이교우지 유유코[반혼접]|r 조합|c00FF8040[F]|r";
+		t["A0BJ"][5][1] = "|c00ffff00사이교우지 유유코[반혼접]|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0BJ"][7][1] = "사이교우지 유유코 + 오노즈카 코마치 + 레티 화이트락";
@@ -11443,9 +11443,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BK"][4][1] = "BTN\\BTNmamizo.blp";
 -- atp1 1
-		t["A0BK"][5][1] = "|c00ffff00후타츠이와 마미조|r 조합|c00FF8040[D]|r";
+		t["A0BK"][5][1] = "|c00ffff00후타츠이와 마미조|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BK"][6][1] = "카쿠 세이가 + 소가노 토지코 + Nagae Iku";
+		t["A0BK"][6][1] = "Seiga Kaku + Soga no Tojiko + Nagae Iku";
 -- ahky
 -- acat
 		t["A0BK"][8][1] = "h03T,h042,h033";
@@ -11459,9 +11459,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BL"][4][1] = "BTN\\BTNChick.blp";
 -- atp1 1
-		t["A0BL"][5][1] = "|c00ffff00비상천칙|r 조합|c00FF8040[D]|r";
+		t["A0BL"][5][1] = "|c00ffff00비상천칙|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BL"][6][1] = "이부키 스이카[Unique] + 호시구마 유우기[Unique] + Hakurei Reimu[호밍]";
+		t["A0BL"][6][1] = "Suika Ibuki[Unique] + Yugi Hoshiguma[Unique] + Hakurei Reimu[Homing]";
 -- ahky
 -- acat
 		t["A0BL"][8][1] = "h035,h034,h017";
@@ -11475,9 +11475,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BM"][4][1] = "BTN\\BTNAya.blp";
 -- atp1 1
-		t["A0BM"][5][1] = "|c00ffff00Aya Shameimaru|r 조합|c00FF8040[D]|r";
+		t["A0BM"][5][1] = "|c00ffff00Aya Shameimaru|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BM"][6][1] = "히메카이도 하타테 + Marisa Kirisame[팔괘로] + Hoshiguma Yuugi";
+		t["A0BM"][6][1] = "히메카이도 하타테 + Marisa Kirisame[Bagua] + Hoshiguma Yuugi";
 -- ahky
 -- acat
 		t["A0BM"][8][1] = "h03Q,h018,h034";
@@ -11491,9 +11491,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BN"][4][1] = "BTN\\BTNMaribel.blp";
 -- atp1 1
-		t["A0BN"][5][1] = "|c00ffff00마에리베리 한|r 조합|c00FF8040[D]|r";
+		t["A0BN"][5][1] = "|c00ffff00마에리베리 한|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BN"][6][1] = "우사미 렌코 + 정체불명 + Hakurei Reimu[호밍]";
+		t["A0BN"][6][1] = "Renko Usami + Unknown + Hakurei Reimu[Homing]";
 -- ahky
 -- acat
 		t["A0BN"][8][1] = "h03S,h017,h01J";
@@ -11506,9 +11506,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0BO"][5][1] = "|c00ffff00레티 화이트락[노던 위너]|r 조합|c00FF8040[D]|r";
+		t["A0BO"][5][1] = "|c00ffff00레티 화이트락[노던 위너]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BO"][6][1] = "레티 화이트락 + Cirno[Minus K] + 앨리스 마가트로이드[인형재판]";
+		t["A0BO"][6][1] = "레티 화이트락 + Cirno[Minus K] + Alice Margatroid[Doll Judgement]";
 -- ahky
 -- acat
 		t["A0BO"][8][1] = "h037,h01M,h048";
@@ -11523,10 +11523,10 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0BP"][3][1] = "BTN\\BTNhuto.blp";
 -- anam
 -- atp1 1
-		t["A0BP"][5][1] = "|c00ffff00Mononobe no Futo|r 조합|c00FF8040[F]|r";
+		t["A0BP"][5][1] = "|c00ffff00Mononobe no Futo|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0BP"][7][1] = "소가노 토지코 + 카쿠 세이가 + 성련선";
+		t["A0BP"][7][1] = "Soga no Tojiko + Seiga Kaku + Palanquin Ship";
 -- ahky
 -- alig
 -- atat
@@ -11538,7 +11538,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BQ"][4][1] = "ReplaceableTextures\\CommandButtons\\Miko\\BTN_UP.blp";
 -- atp1 1
-		t["A0BQ"][5][1] = "|c00ffff00토요사토미미노 미코|r 조합|c00FF8040[D]|r";
+		t["A0BQ"][5][1] = "|c00ffff00토요사토미미노 미코|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BQ"][6][1] = "Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls ";
 -- ahky
@@ -11554,7 +11554,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0BR"][4][1] = "ReplaceableTextures\\CommandButtons\\Kasen\\BTN_UP.blp";
 -- atp1 1
-		t["A0BR"][5][1] = "|c00ffff00이바라기 카센|r 조합|c00FF8040[D]|r";
+		t["A0BR"][5][1] = "|c00ffff00이바라기 카센|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BR"][6][1] = "나마즈[Epic] + 비상천칙[Epic] + Mononobe no Futo[Epic] + 2 Unique Souls ";
 -- ahky
@@ -11584,7 +11584,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A021"][3][1] = "신난제『금각사의 천정 한겹』";
 -- aub1 1
-		t["A021"][4][1] = "*카구야가 공격시 10% 확률로 대상 유닛에게 12배의 치명타 데미지를 입힙니다.\r\
+		t["A021"][4][1] = "*카구야가 공격시 10% 확률로 대상 Units에게 12배의 치명타 데미지를 입힙니다.\r\
 *카구야가 공격시 마나를 1씩 회복합니다. 마나가 110이 됐을때 대상 지점 주변 750범위 내에 있는 적에게 400만의 |c00AC59FF절대 데미지|r와 잃은 체력의 8%의 |c00FF6464물리 데미지|r를 입히고 2.5초간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 신난제『달의 일메나이트』\r\
@@ -11600,7 +11600,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A040"][4][1] = "BTN\\BTNMeilin.blp";
 -- anam
 -- atp1 1
-		t["A040"][6][1] = "|c00ffff00Hong Meiling|r 조합|c00FF8040[F]|r";
+		t["A040"][6][1] = "|c00ffff00Hong Meiling|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A040"][8][1] = "Small Devil + Wriggle Nightbug + Goblin";
@@ -11615,7 +11615,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A00F"][4][1] = "BTN\\BTNSizuha.blp";
 -- atp1 1
-		t["A00F"][5][1] = "|c00ffff00Shizuha Aki|r 조합|c00FF8040[D]|r";
+		t["A00F"][5][1] = "|c00ffff00Shizuha Aki|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00F"][6][1] = "Spirit + Human";
 -- ahky
@@ -11631,7 +11631,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A007"][4][1] = "BTN\\BTNStar.blp";
 -- atp1 1
-		t["A007"][5][1] = "|c00ffff00Star Sapphire|r 조합|c00FF8040[D]|r";
+		t["A007"][5][1] = "|c00ffff00Star Sapphire|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A007"][6][1] = "Wakasagihime + Big Fairy";
 -- ahky
@@ -11663,7 +11663,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0BZ"][4][1] = "흑화『릴리 블랙』- 잔존 Fairy 3마리";
 -- aub1 1
-		t["A0BZ"][5][1] = "＊자신 주변 650 범위의 적 이동속도를 6% 감소시킨다.\r\
+		t["A0BZ"][5][1] = "＊자신 주변 650 범위의 적 Movement Speed를 6% 감소시킨다.\r\
 ＊공격 시 10% 확률로 자신 주변 650 범위의 적에게 4만5천의 |c00379BFF마법 피해|r를 가한다. 이 효과로 적을 죽이면 마력 1 회복한다.\r\
 ＊|c0044BBFF[마력]|r - 25 : Fairy 1마리 소환 (40 라운드까지)";
 -- aart
@@ -11693,7 +11693,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0C0"][4][1] = "기부『천계기상의 검』";
 -- aub1 1
 		t["A0C0"][5][1] = "*|c00FF80FF[활력]|r - 5초\r\
-텐시가 전방의 유닛에게 전체 체력의 0.5% + 50만의 마법 데미지를 입히고, 2.5초간 스턴시킵니다.\r\
+텐시가 전방의 Units에게 전체 체력의 0.5% + 50만의 마법 데미지를 입히고, 2.5초간 스턴시킵니다.\r\
 *텐시가 보유한 버프가 8개 이상일 경우 , 위 효과의 데미지가 7배가 됩니다.\r\
 [디버프는 포함되지 않습니다]";
 -- aub1 2
@@ -11779,7 +11779,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0C2"][4][1] = "Icon\\Unit\\BTNLily_Rare.blp";
 -- anam
 -- atp1 1
-		t["A0C2"][6][1] = "|c00ffff00Lily White|r 조합|c00FF8040[D]|r";
+		t["A0C2"][6][1] = "|c00ffff00Lily White|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0C2"][8][1] = "Big Fairy + Small Divine Spirit";
@@ -11801,7 +11801,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0C3"][2][1] = "독조『포이즌 레이즈』";
 -- aub1 1
-		t["A0C3"][3][1] = "＊공격 시 2초 동안 1초마다 8백의 |c00379BFF마법 피해|r를 가하고 이동속도를 20% 감소시킨다.";
+		t["A0C3"][3][1] = "＊공격 시 2초 동안 1초마다 8백의 |c00379BFF마법 피해|r를 가하고 Movement Speed를 20% 감소시킨다.";
 -- aart
 		t["A0C3"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNPoisonArrow.blp";
 -- arac
@@ -11820,7 +11820,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A02B"][3][1] = "기부『무념무상의 경지』";
 -- aub1 1
 		t["A02B"][4][1] = "*텐시가 공격시 5% 확률로 자신을 강화합니다. 이미 강화된 상태에서는 발동하지 않으며, 아래의 효과를 얻습니다.\r\
-*5.5초간 공격속도 80% 상승, 스킬 공격력 30% 상승, 스킬 발동확률 5% 상승.";
+*5.5초간 Attack Speed 80% 상승, 스킬 공격력 30% 상승, 스킬 발동확률 5% 상승.";
 -- aart
 		t["A02B"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAdvancedMoonArmor.blp";
 -- [A0C9]
@@ -11832,7 +11832,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0C9"][3][1] = "조건 : 패시브\r\
 유효 범위 : 대상\r\
 |c00379BFF마법 피해|r : 5초 동안 1초마다 1만2천\r\
-효과 : 5초간 이동속도 -35%";
+효과 : 5초간 Movement Speed -35%";
 -- aart
 -- arac
 -- atar 1
@@ -11981,7 +11981,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0CC"][2][1] = "환장『밤안개의 환영살인귀』";
 -- aub1 1
-		t["A0CC"][3][1] = "*사쿠야를 제외한 주변 700범위 유닛들의 이동속도가 35% 감소합니다.[자신 소유 유닛 및 아군도 포함합니다.]\r\
+		t["A0CC"][3][1] = "*사쿠야를 제외한 주변 700범위 Units들의 Movement Speed가 35% 감소합니다.[자신 소유 Units 및 아군도 포함합니다.]\r\
 *사쿠야 주위 700범위 적들의 방어력이 40 감소합니다.\r\
 *사쿠야가 공격시 10% 확률로 적에게 보이지 않을 정도로 빠르게 나이프를 휘둘러 대상 주변 500범위 적에게 현재 체력의 1% + 120만의 |c00FF6464물리 데미지|r를 입히고, 1.5초간 스턴시킵니다.";
 -- atar 1
@@ -12114,7 +12114,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A00M"][4][1] = "BTN\\BTNMinoriko.blp";
 -- atp1 1
-		t["A00M"][5][1] = "|c00ffff00Minoriko Aki|r 조합|c00FF8040[D]|r";
+		t["A00M"][5][1] = "|c00ffff00Minoriko Aki|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00M"][6][1] = "Shizuha Aki[Magic] + Wakasagihime[Magic] + Spirit[Normal]";
 -- ahky
@@ -12130,7 +12130,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0CK"][4][1] = "BTN\\BTNdai.blp";
 -- atp1 1
-		t["A0CK"][5][1] = "|c00ffff00Big Fairy|r 조합|c00FF8040[D]|r";
+		t["A0CK"][5][1] = "|c00ffff00Big Fairy|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0CK"][6][1] = "Fairy + Fairy";
 -- ahky
@@ -12157,7 +12157,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0BE"][3][1] = "ReplaceableTextures\\CommandButtons\\Suika\\BTN_UP.blp";
 -- anam
 -- atp1 1
-		t["A0BE"][5][1] = "|c00ffff00이부키 스이카|r 조합|c00FF8040[F]|r";
+		t["A0BE"][5][1] = "|c00ffff00Suika Ibuki|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0BE"][7][1] = "Hakurei Reimu + Mystia Lorelei + Hong Meiling";
@@ -12227,32 +12227,32 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 11
 		t["A00C"][44][1] = "매 공격시 대상에게 사령을 붙여 2초간 방어력을 230만큼 감소시키며 대상을 공격할 경우 0.7초후 144443의 데미지를 입습니다.";
 -- aub1 12
-		t["A00C"][45][1] = "매 공격시 25%확률로 주위 최대 5명의 유닛에게 6500데미지의 번개를 날립니다.";
+		t["A00C"][45][1] = "매 공격시 25%확률로 주위 최대 5명의 Units에게 6500데미지의 번개를 날립니다.";
 -- aub1 13
 -- aub1 14
 -- aub1 15
-		t["A00C"][48][1] = "매 공격시 25%확률로 주위 최대 5명의 유닛에게 8000데미지의 번개를 날립니다.";
+		t["A00C"][48][1] = "매 공격시 25%확률로 주위 최대 5명의 Units에게 8000데미지의 번개를 날립니다.";
 -- aub1 16
 -- aub1 17
 -- aub1 18
 -- aub1 19
-		t["A00C"][52][1] = "매 공격시 25%확률로 주위 최대 5명의 유닛에게 9500데미지의 번개를 날립니다.";
+		t["A00C"][52][1] = "매 공격시 25%확률로 주위 최대 5명의 Units에게 9500데미지의 번개를 날립니다.";
 -- aub1 20
 -- aub1 21
-		t["A00C"][54][1] = "매 공격시 25%확률로 주위 최대 6명의 유닛에게 9500데미지의 번개를 날립니다.";
+		t["A00C"][54][1] = "매 공격시 25%확률로 주위 최대 6명의 Units에게 9500데미지의 번개를 날립니다.";
 -- aub1 22
 -- aub1 23
-		t["A00C"][56][1] = "매 공격시 25%확률로 주위 최대 6명의 유닛에게 11000데미지의 번개를 날립니다.";
+		t["A00C"][56][1] = "매 공격시 25%확률로 주위 최대 6명의 Units에게 11000데미지의 번개를 날립니다.";
 -- aub1 24
 -- aub1 25
 -- aub1 26
 -- aub1 27
-		t["A00C"][60][1] = "매 공격시 25%확률로 주위 최대 6명의 유닛에게 12500데미지의 번개를 날립니다.";
+		t["A00C"][60][1] = "매 공격시 25%확률로 주위 최대 6명의 Units에게 12500데미지의 번개를 날립니다.";
 -- aub1 28
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A00C"][64][1] = "매 공격시 25%확률로 주위 최대 7명의 유닛에게 14000데미지의 번개를 날립니다.";
+		t["A00C"][64][1] = "매 공격시 25%확률로 주위 최대 7명의 Units에게 14000데미지의 번개를 날립니다.";
 -- [A00N]
 -- arac
 -- atp1 1
@@ -12363,7 +12363,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0CL"][4][1] = "BTN\\BTNHatate.blp";
 -- atp1 1
-		t["A0CL"][5][1] = "|c00ffff00히메카이도 하타테|r 조합|c00FF8040[D]|r";
+		t["A0CL"][5][1] = "|c00ffff00히메카이도 하타테|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0CL"][6][1] = "이누바시리 모미지 + Kochiya Sanae + Minoriko Aki";
 -- ahky
@@ -12376,7 +12376,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- arac
 -- atp1 1
-		t["A0CM"][9][1] = "고급 업그레이드(4)|cffffcc00(X)|r";
+		t["A0CM"][9][1] = "고급 Upgrade(4)|cffffcc00(X)|r";
 -- aub1 1
 -- anam
 -- ahky
@@ -12394,7 +12394,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- arac
 -- atp1 2
-		t["A0CO"][6][1] = "『핵펀치』- |c0000FFFF익스텐드|r";
+		t["A0CO"][6][1] = "『핵펀치』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A0CO"][7][1] = "*비상천칙이 공격시 15% 확률로 대상 지점을 있는 힘껏 타격합니다.\r\
 *대상 지점 주변 400범위 내에 있는 적을 1.5초간 스턴시키고, 전체 체력의 0.6% + 150만의 |c00FF6464물리 데미지|r를 입힙니다.";
@@ -12420,7 +12420,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 11
 -- aub1 2
 		t["A0CP"][15][1] = "*미코가 공격시 40% 확률로 대상 지점 주변 500범위 내에 있는 적에게 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*미코가 공격시 20% 확률로 보스 유닛에게 현재 체력의 0.6% + 95만의 |c00379BFF마법 데미지|r를 입힙니다.";
+*미코가 공격시 20% 확률로 보스 Units에게 현재 체력의 0.6% + 95만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aub1 3
 		t["A0CP"][16][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.9초마다 74000의 데미지를 줍니다. 10초간 지속됩니다. 중복 발동 안함.";
 -- aub1 4
@@ -12486,11 +12486,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- anam
 -- aub1 1
 		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kaenbyou Rin[Unique] + 신비술사의 고서 * 2\r\
-|c00A8F13A[타이핑]|r: 귀걸조 조장(yachie arc)\r\
+|c00A8F13A[Type Command]|r: 귀걸조 조장(yachie arc)\r\
 \r\
-[공격속도]: 0.35초당 1번\r\
-[이동속도]: 375[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.35 Cooldown\r\
+[Movement Speed]: 375[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- atp1 1
 		t["A0CV"][3][1] = "|c00FEE952[Unit Information]|r - 킷쵸 야치에[Arcana]";
 -- aart
@@ -12617,7 +12617,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 4
 -- atp1 3
 -- atp1 2
-		t["A0CX"][19][1] = "『환시의 밤』 - |c0000FFFF익스텐드|r";
+		t["A0CX"][19][1] = "『환시의 밤』 - |c0000FFFFExtended|r";
 -- atp1 7
 -- atp1 18
 -- atp1 19
@@ -12636,23 +12636,23 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 2
 		t["A0CX"][35][1] = "매 공격시 22%확률로 경계를 뒤틀어 대상의 현재 체력의 15%에 해당하는 절대 데미지를 줍니다. ";
 -- aub1 3
-		t["A0CX"][36][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 37%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 23%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][36][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 37%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 23%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 4
-		t["A0CX"][37][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 38%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 22%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][37][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 38%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 22%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 5
-		t["A0CX"][38][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 39%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 21%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][38][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 39%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 21%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 6
-		t["A0CX"][39][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 40%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 20%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][39][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 40%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 20%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 7
-		t["A0CX"][40][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 41%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 19%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][40][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 41%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 19%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 8
-		t["A0CX"][41][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 42%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 18%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][41][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 42%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 18%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 9
-		t["A0CX"][42][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 43%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 17%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][42][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 43%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 17%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 10
-		t["A0CX"][43][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 44%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 16%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][43][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 44%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 16%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 11
-		t["A0CX"][44][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 45%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 유닛이 살아있다면 전체 체력의 15%만큼 회복시킵니다. 마법 면역 유닛에게 발동하지 않습니다.";
+		t["A0CX"][44][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 45%에 해당하는 데미지를 줍니다. 5초 뒤에도 대상 Units이 살아있다면 전체 체력의 15%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -12683,7 +12683,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0D1"][4][1] = "*공격시 1.5% 확률로 급소를 찔러 적을 즉사시킵니다. 체력이 50% 이하인 적에게는 \r\
 발동 확률이 3%로 늘어납니다. \r\
-*공격시 적 현재 체력의 5%에 해당하는 |c00FF6464물리 데미지|r를 줍니다. 적이 보스 유닛일 경우 1%의 데미지만 입힙니다.";
+*공격시 적 현재 체력의 5%에 해당하는 |c00FF6464물리 데미지|r를 줍니다. 적이 보스 Units일 경우 1%의 데미지만 입힙니다.";
 -- atp1 2
 -- atp1 3
 -- atp1 4
@@ -12693,11 +12693,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 2
 		t["A0D1"][10][1] = "*공격시 1.5% 확률로 급소를 찔러 적을 즉사시킵니다. 체력이 75% 이하인 적에게는 \r\
 발동 확률이 3.5%로 늘어납니다. \r\
-*공격시 적 현재 체력의 5%에 해당하는 |c00FF6464물리 데미지|r를 줍니다. 적이 보스 유닛일 경우 1%의 데미지만 입힙니다.";
+*공격시 적 현재 체력의 5%에 해당하는 |c00FF6464물리 데미지|r를 줍니다. 적이 보스 Units일 경우 1%의 데미지만 입힙니다.";
 -- aub1 3
 		t["A0D1"][11][1] = "*공격시 1.5% 확률로 급소를 찔러 적을 즉사시킵니다. 체력이 100% 이하인 적에게는 \r\
 발동 확률이 4%로 늘어납니다. \r\
-*공격시 적 현재 체력의 5%에 해당하는 |c00FF6464물리 데미지|r를 줍니다. 적이 보스 유닛일 경우 1%의 데미지만 입힙니다.";
+*공격시 적 현재 체력의 5%에 해당하는 |c00FF6464물리 데미지|r를 줍니다. 적이 보스 Units일 경우 1%의 데미지만 입힙니다.";
 -- aub1 4
 		t["A0D1"][12][1] = "원령을 제거하는 능력이 있는 오른팔을 이용해 대상을 분쇄합니다. 원령이 아니어도 분쇄되는거같지만 설정이니까 그러려니 합시다. 공격시 30%확률로 7배의 데미지와 0.5초의 스턴을 가합니다.";
 -- aub1 5
@@ -12707,7 +12707,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A0D4]
 -- anam
 -- atp1 1
-		t["A0D4"][2][1] = "무의식『탄막 로르샤흐』- |c0000FFFF익스텐드|r";
+		t["A0D4"][2][1] = "무의식『탄막 로르샤흐』- |c0000FFFFExtended|r";
 -- aub1 1
 		t["A0D4"][3][1] = "*코이시가 공격시 10% 확률로 코이시와 코이시 앞 1000 거리에서 동시에 탄막을 발사합니다. 탄막은 900 거리의 적에게 99만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aart
@@ -12761,7 +12761,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0DB"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNRacoon.blp";
 -- atp1 2
-		t["A0DB"][5][1] = "『팔백팔 너구리 하야시』 - |c0000FFFF익스텐드|r";
+		t["A0DB"][5][1] = "『팔백팔 너구리 하야시』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A0DB"][6][1] = "『와일드 카펫』";
 -- atp1 4
@@ -12785,7 +12785,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0DO"][6][1] = "|c00ffff00Kagiyama Hina|r 조합|c00FF8040[F]|r";
+		t["A0DO"][6][1] = "|c00ffff00Kagiyama Hina|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0DO"][8][1] = "이누바시리 모미지 + Yamame Kurodani + Tewi Inaba";
@@ -12905,9 +12905,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DP"][4][1] = "|c00A8F13A[Combination]|r: Spirit[Normal] + Human[Normal]\r\
 \r\
-[공격속도]: 1.05초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.05 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DQ]
 -- arac
@@ -12917,9 +12917,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DQ"][4][1] = "|c00A8F13A[Combination]|r: Goblin[Normal] + Kappa[Normal]\r\
 \r\
-[공격속도]: 1.3초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.3 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DR]
 -- arac
@@ -12929,9 +12929,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DR"][4][1] = "|c00A8F13A[Combination]|r: Devil[Normal] + Devil[Normal]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DS]
 -- arac
@@ -12956,9 +12956,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DT"][4][1] = "|c00A8F13A[Combination]|r: Human[Normal] + Zako[Normal]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DU]
 -- arac
@@ -12968,9 +12968,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DU"][4][1] = "|c00A8F13A[Combination]|r: Fairy[Normal] + Fairy[Normal]\r\
 \r\
-[공격속도]: 0.35초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.35 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DV]
 -- arac
@@ -12980,9 +12980,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DV"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + Goblin[Normal]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DW]
 -- arac
@@ -12992,9 +12992,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DW"][4][1] = "|c00A8F13A[Combination]|r: Spirit[Normal] + Devil[Normal]\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DX]
 -- arac
@@ -13004,9 +13004,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DX"][4][1] = "|c00A8F13A[Combination]|r: Kappa[Normal] + Human[Normal]\r\
 \r\
-[공격속도]: 0.85초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.85 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0DZ]
 -- arac
@@ -13015,11 +13015,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Phantasm]";
 -- aub1 1
 		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 코메이지 코이시[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: Devil의 메이드(sakuya phan)\r\
+|c00A8F13A[Type Command]|r: Devil의 메이드(sakuya phan)\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- aart
 -- [A0E0]
 -- arac
@@ -13029,9 +13029,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E0"][4][1] = "|c00A8F13A[Combination]|r: Rumia[Magic] + Kawashiro Nitori[Magic] + Fairy[Normal]\r\
 \r\
-[공격속도]: 1.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 		t["A0E0"][5][1] = "BTN\\BTNMarisa.blp";
 -- [A0E1]
@@ -13042,9 +13042,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E1"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Magic] + Wakasagihime[Magic] + Devil[Normal]\r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E2]
 -- arac
@@ -13054,9 +13054,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E2"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + Wakasagihime[Magic] + Spirit[Normal]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E3]
 -- arac
@@ -13066,9 +13066,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E3"][4][1] = "|c00A8F13A[Combination]|r: Kisume[Magic] + Rumia[Magic] + Zako[Normal]\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E4]
 -- arac
@@ -13078,9 +13078,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E4"][4][1] = "|c00A8F13A[Combination]|r: Kisume[Magic] + Rumia[Magic] + Fairy[Normal]\r\
 \r\
-[공격속도]: 1.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E5]
 -- arac
@@ -13090,9 +13090,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E5"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + Big Fairy[Magic]\r\
 \r\
-[공격속도]: 0.75초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.75 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E6]
 -- arac
@@ -13102,9 +13102,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E6"][4][1] = "|c00A8F13A[Combination]|r: Zako[Normal] + Wakasagihime[Magic] + Wriggle Nightbug[Magic]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E7]
 -- arac
@@ -13114,9 +13114,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E7"][4][1] = "|c00A8F13A[Combination]|r: Green UFO[Rare] + Shizuha Aki[Magic]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E8]
 -- arac
@@ -13126,9 +13126,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E8"][4][1] = "|c00A8F13A[Combination]|r: Kawashiro Nitori[Magic] + Goblin[Normal] + UFO[Normal]\r\
 \r\
-[공격속도]: 0.75초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.75 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0E9]
 -- arac
@@ -13138,9 +13138,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0E9"][4][1] = "|c00A8F13A[Combination]|r: Kisume[Magic] + Small Devil[Magic] + Goblin[Normal]\r\
 \r\
-[공격속도]: 1.25초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.25 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EA]
 -- arac
@@ -13150,9 +13150,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EA"][4][1] = "|c00A8F13A[Combination]|r: Small Divine Spirit[Magic] + Wriggle Nightbug[Magic] + Goblin[Normal]\r\
 \r\
-[공격속도]: 1초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EB]
 -- arac
@@ -13162,9 +13162,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EB"][4][1] = "|c00A8F13A[Combination]|r: Kawashiro Nitori[Magic] + Shizuha Aki[Magic] + Kappa[Normal]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EC]
 -- arac
@@ -13174,9 +13174,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EC"][4][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Big Fairy[Magic]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0ED]
 -- arac
@@ -13186,21 +13186,21 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0ED"][4][1] = "|c00A8F13A[Combination]|r: Big Fairy[Magic] + Blue UFO[Rare]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EE]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EE"][3][1] = "|c00FEE952[Unit Information]|r - 앨리스 마가트로이드[Rare]";
+		t["A0EE"][3][1] = "|c00FEE952[Unit Information]|r - Alice Margatroid[Rare]";
 -- aub1 1
 		t["A0EE"][4][1] = "|c00A8F13A[Combination]|r: Human[Normal] + Rumia[Magic] + Small Divine Spirit[Magic]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EF]
 -- arac
@@ -13210,9 +13210,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EF"][4][1] = "|c00A8F13A[Combination]|r: Devil[Normal] + Wakasagihime[Magic] + Kisume[Magic]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 335\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 335\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EG]
 -- arac
@@ -13222,9 +13222,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EG"][4][1] = "|c00A8F13A[Combination]|r: Big Fairy[Magic] + Small Divine Spirit[Magic]\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EH]
 -- arac
@@ -13234,9 +13234,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EH"][4][1] = "|c00A8F13A[Combination]|r: Small Divine Spirit[Magic] + Kisume[Magic] + Zako[Normal]\r\
 \r\
-[공격속도]: 1초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EI]
 -- arac
@@ -13246,9 +13246,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EI"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + Red UFO[Rare]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 		t["A0EI"][5][1] = "Icon\\Unit\\BTNReimu_Rare.blp";
 -- [A0EJ]
@@ -13259,9 +13259,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EJ"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + Wriggle Nightbug[Magic] + Goblin[Normal]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EK]
 -- arac
@@ -13271,9 +13271,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EK"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Magic] + Rumia[Magic] + Fairy[Normal]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 		t["A0EK"][5][1] = "BTN\\BTNMystia.blp";
 -- [A0EL]
@@ -13284,9 +13284,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EL"][4][1] = "|c00A8F13A[Combination]|r: Big Fairy[Magic]  +Wriggle Nightbug[Magic] \r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EM]
 -- arac
@@ -13296,9 +13296,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EM"][4][1] = "|c00A8F13A[Combination]|r: Red UFO[Rare] + Spirit[Normal]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EN]
 -- arac
@@ -13308,9 +13308,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EN"][4][1] = "|c00A8F13A[Combination]|r: Green UFO[Rare] + Spirit[Normal]\r\
 \r\
-[공격속도]: 0.65초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.65 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EO]
 -- arac
@@ -13320,9 +13320,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EO"][4][1] = "|c00A8F13A[Combination]|r: Blue UFO[Rare] + Spirit[Normal]\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EP]
 -- arac
@@ -13332,9 +13332,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EP"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + Small Divine Spirit[Magic] + Human[Normal]\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EQ]
 -- arac
@@ -13344,21 +13344,21 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EQ"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + UFO[Normal] + Fairy[Normal]\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 365\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 365\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0ER]
 -- arac
 -- anam
 -- atp1 1
-		t["A0ER"][3][1] = "|c00FEE952[Unit Information]|r - Marisa Kirisame[팔괘로]";
+		t["A0ER"][3][1] = "|c00FEE952[Unit Information]|r - Marisa Kirisame[Bagua]";
 -- aub1 1
-		t["A0ER"][4][1] = "|c00A8F13A[Combination]|r: Marisa Kirisame[Rare] + Patchouli Knowledge[Rare] + 앨리스 마가트로이드[Rare]\r\
+		t["A0ER"][4][1] = "|c00A8F13A[Combination]|r: Marisa Kirisame[Rare] + Patchouli Knowledge[Rare] + Alice Margatroid[Rare]\r\
 \r\
-[공격속도]: 1초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0CR]
 -- anam
@@ -13371,9 +13371,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0ET"][4][1] = "|c00A8F13A[Combination]|r: Youmu Konpaku[Rare] + Mystia Lorelei[Rare] + Yoshika Miyako[Rare]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EU]
 -- arac
@@ -13383,9 +13383,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EU"][4][1] = "|c00A8F13A[Combination]|r: Minoriko Aki[Rare] + Youmu Konpaku[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EV]
 -- arac
@@ -13395,9 +13395,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: Sunny Milk[Rare] + 타타라 코가사[Rare] + Kochiya Sanae[Rare] + Blue UFO[Rare]\r\
 \r\
-[공격속도]: 0.95초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.95 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EW]
 -- arac
@@ -13407,9 +13407,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EW"][4][1] = "|c00A8F13A[Combination]|r: Rumia[Magic] + Rumia[Magic] + Cirno[Rare] + Mystia Lorelei[Rare]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EX]
 -- arac
@@ -13419,9 +13419,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EX"][4][1] = "|c00A8F13A[Combination]|r: Tewi Inaba[Rare] + Mystia Lorelei[Rare] + Youmu Konpaku[Rare]\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EY]
 -- arac
@@ -13431,45 +13431,45 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0EY"][4][1] = "|c00A8F13A[Combination]|r: 이누바시리 모미지[Rare] + Yamame Kurodani[Rare] + Tewi Inaba[Rare]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0EZ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EZ"][3][1] = "|c00FEE952[Unit Information]|r - 쿠모이 이치린[Unique]";
+		t["A0EZ"][3][1] = "|c00FEE952[Unit Information]|r - Ichirin Kumoi[Unique]";
 -- aub1 1
 		t["A0EZ"][4][1] = "|c00A8F13A[Combination]|r: 타타라 코가사[Rare] + Okuu[Rare] + Star Sapphire[Rare]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F0]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F0"][3][1] = "|c00FEE952[Unit Information]|r - Sㅏ나에[Unique]";
+		t["A0F0"][3][1] = "|c00FEE952[Unit Information]|r - Sa Nae[Unique]";
 -- aub1 1
 		t["A0F0"][4][1] = "|c00A8F13A[Combination]|r: Kochiya Sanae[Rare] + Minoriko Aki[Rare] + 타타라 코가사[Rare] + Green UFO[Rare]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F1]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F1"][3][1] = "|c00FEE952[Unit Information]|r - 첸[Unique]";
+		t["A0F1"][3][1] = "|c00FEE952[Unit Information]|r - Chen[Unique]";
 -- aub1 1
 		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Kasodani Kyouko[Rare] + Sunny Milk[Rare]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F2]
 -- arac
@@ -13479,33 +13479,33 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0F2"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Yamame Kurodani[Rare] + Hakurei Reimu[Rare]\r\
 \r\
-[공격속도]: 1.05초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.05 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F3]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F3"][3][1] = "|c00FEE952[Unit Information]|r - 카쿠 세이가[Unique]";
+		t["A0F3"][3][1] = "|c00FEE952[Unit Information]|r - Seiga Kaku[Unique]";
 -- aub1 1
 		t["A0F3"][4][1] = "|c00A8F13A[Combination]|r: Yoshika Miyako[Rare] + Orin[Rare] + Sekibanki[Rare]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F4]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F4"][3][1] = "|c00FEE952[Unit Information]|r - 이부키 스이카[Unique]";
+		t["A0F4"][3][1] = "|c00FEE952[Unit Information]|r - Suika Ibuki[Unique]";
 -- aub1 1
 		t["A0F4"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Mystia Lorelei[Rare] + Hong Meiling[Rare]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F5]
 -- arac
@@ -13515,9 +13515,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0F5"][4][1] = "|c00A8F13A[Combination]|r: 이누바시리 모미지[Rare] + Kochiya Sanae[Rare] + Minoriko Aki[Rare]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 330\r\
-|c00F8BA54[업그레이드]|r : Unique 유닛 업그레이드";
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 330\r\
+|c00F8BA54[Upgrade]|r : Unique Units Upgrade";
 -- aart
 -- [A0F6]
 -- arac
@@ -13527,21 +13527,21 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0F6"][4][1] = "|c00A8F13A[Combination]|r: Mizuhashi Parsee[Rare] + Yamame Kurodani[Rare] + Kisume[Magic] + Red UFO[Rare]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F7]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F7"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 렌코[Unique]";
+		t["A0F7"][3][1] = "|c00FEE952[Unit Information]|r - Renko Usami[Unique]";
 -- aub1 1
 		t["A0F7"][4][1] = "|c00A8F13A[Combination]|r: Star Sapphire[Rare] + Izayoi Sakuya[Rare] + Luna Child[Rare] + UFO[Normal]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F8]
 -- arac
@@ -13551,9 +13551,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0F8"][4][1] = "|c00A8F13A[Combination]|r: Cirno[Rare] + Lily White[Rare] + Minoriko Aki[Rare]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0F9]
 -- arac
@@ -13563,33 +13563,33 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0F9"][4][1] = "|c00A8F13A[Combination]|r: Cirno[Rare] + Okuu[Rare] + Hong Meiling[Rare]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FA]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FA"][3][1] = "|c00FEE952[Unit Information]|r - 소가노 토지코[Unique]";
+		t["A0FA"][3][1] = "|c00FEE952[Unit Information]|r - Soga no Tojiko[Unique]";
 -- aub1 1
 		t["A0FA"][4][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Youmu Konpaku[Rare] + Yoshika Miyako[Rare]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FB]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FB"][3][1] = "앨리스 마가트로이드[인형재판] Combination";
+		t["A0FB"][3][1] = "Alice Margatroid[Doll Judgement] Combination";
 -- aub1 1
-		t["A0FB"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + Marisa Kirisame[Rare] + Patchouli Knowledge[Rare]\r\
+		t["A0FB"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Rare] + Marisa Kirisame[Rare] + Patchouli Knowledge[Rare]\r\
 \r\
-[공격속도]: 1.05초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.05 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FC]
 -- arac
@@ -13599,9 +13599,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FC"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Cirno[Rare] + Kasodani Kyouko[Rare]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FD]
 -- arac
@@ -13611,9 +13611,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Marisa Kirisame[Rare] + Izayoi Sakuya[Rare]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FE]
 -- arac
@@ -13624,9 +13624,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: Aya Shameimaru[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개\r\
 \r\
-[공격속도]: 0.27초당 1번\r\
-[이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.27 Cooldown\r\
+[Movement Speed]: 500[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0FE"][5][1] = "Icon\\Unit\\BTNAya_Leg.blp";
 -- [A0FF]
@@ -13637,21 +13637,21 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FF"][4][1] = "|c00A8F13A[Combination]|r: Mystia Lorelei[Rare] + Patchouli Knowledge[Rare] + Tewi Inaba[Rare]\r\
 \r\
-[공격속도]: 1초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FG]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FG"][3][1] = "|c00FEE952[Unit Information]|r - 정체불명[Unique]";
+		t["A0FG"][3][1] = "|c00FEE952[Unit Information]|r - Unknown[Unique]";
 -- aub1 1
 		t["A0FG"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Rainbow UFO[Rare] + Kawashiro Nitori[Magic]\r\
 \r\
-[공격속도]: 1.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FH]
 -- arac
@@ -13659,11 +13659,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FH"][3][1] = "Patchouli Knowledge[Philosopher's Stone] Combination";
 -- aub1 1
-		t["A0FH"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Rare] + Marisa Kirisame[Rare] + 앨리스 마가트로이드[Rare]\r\
+		t["A0FH"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Rare] + Marisa Kirisame[Rare] + Alice Margatroid[Rare]\r\
 \r\
-[공격속도]: 1초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FI]
 -- arac
@@ -13673,9 +13673,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Rare] + Hong Meiling[Rare] + Hakurei Reimu[Rare]\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FJ]
 -- arac
@@ -13685,21 +13685,21 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FJ"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Hakurei Reimu[Rare] + Sunny Milk[Rare]\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FK]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FK"][3][1] = "|c00FEE952[Unit Information]|r - 성련선[Unique]";
+		t["A0FK"][3][1] = "|c00FEE952[Unit Information]|r - Palanquin Ship[Unique]";
 -- aub1 1
 		t["A0FK"][4][1] = "|c00A8F13A[Combination]|r: 타타라 코가사[Rare] + Lily White[Rare] + Kochiya Sanae[Rare] + Red UFO[Rare]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FL]
 -- arac
@@ -13709,9 +13709,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FL"][4][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + 멜란 프리즘리버[Rare] + Lyrica Prismriver[Rare] + Small Divine Spirit[Magic]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FM]
 -- arac
@@ -13721,9 +13721,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FM"][4][1] = "|c00A8F13A[Combination]|r: 카엔뵤우 린[Unique] + Marisa Kirisame[Unique] + Cirno[Unique]\r\
 \r\
-[공격속도]: 0.65초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
+[Attack Speed]: 0.65 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
 -- aart
 -- [A0FN]
 -- arac
@@ -13733,11 +13733,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FN"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Unique] + 오노즈카 코마치[Unique] + 레티 화이트락[Unique]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FO]
 -- arac
@@ -13747,11 +13747,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FO"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + Lily Black[Unique] + Layla Prismriver[Unique]\r\
 \r\
-[공격속도]: 0.9초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.9 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FP]
 -- arac
@@ -13759,13 +13759,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FP"][3][1] = "|c00FEE952[Unit Information]|r - 나마즈[Epic]";
 -- aub1 1
-		t["A0FP"][4][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + 이부키 스이카[Unique] + 우사미 렌코[Unique]\r\
+		t["A0FP"][4][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + Suika Ibuki[Unique] + Renko Usami[Unique]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FQ]
 -- arac
@@ -13775,9 +13775,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + Rumia EX[Unique] + Patchouli Knowledge[Unique]\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
 -- aart
 -- [A0FR]
 -- arac
@@ -13785,13 +13785,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FR"][3][1] = "|c00FEE952[Unit Information]|r - Murasa 미나미츠[Epic]";
 -- aub1 1
-		t["A0FR"][4][1] = "|c00A8F13A[Combination]|r: 쿠모이 이치린[Unique] + Sㅏ나에[Unique] + 성련선[Unique]\r\
+		t["A0FR"][4][1] = "|c00A8F13A[Combination]|r: Ichirin Kumoi[Unique] + Sa Nae[Unique] + Palanquin Ship[Unique]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 300[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FS]
 -- arac
@@ -13799,13 +13799,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FS"][3][1] = "|c00FEE952[Unit Information]|r - Houraisan Kaguya[Epic]";
 -- aub1 1
-		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + 우사미 렌코[Unique] + Tsukumo Benben[Unique]\r\
+		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + Renko Usami[Unique] + Tsukumo Benben[Unique]\r\
 \r\
-[공격속도]: 0.76초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.76 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FT]
 -- arac
@@ -13813,13 +13813,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FT"][3][1] = "|c00FEE952[Unit Information]|r - 야사카 카나코[Epic]";
 -- aub1 1
-		t["A0FT"][4][1] = "|c00A8F13A[Combination]|r: Sㅏ나에[Unique] + 히메카이도 하타테[Unique] + Kagiyama Hina[Unique]\r\
+		t["A0FT"][4][1] = "|c00A8F13A[Combination]|r: Sa Nae[Unique] + 히메카이도 하타테[Unique] + Kagiyama Hina[Unique]\r\
 \r\
-[공격속도]: 0.46초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.46 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 		t["A0FT"][5][1] = "BTN\\BTNKanako.blp";
 -- [A0FU]
@@ -13828,13 +13828,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FU"][3][1] = "|c00FEE952[Unit Information]|r - Yakumo Ran[Epic]";
 -- aub1 1
-		t["A0FU"][4][1] = "|c00A8F13A[Combination]|r: 첸[Unique] + 사이교우지 유유코[Unique] + 카엔뵤우 린[Unique]\r\
+		t["A0FU"][4][1] = "|c00A8F13A[Combination]|r: Chen[Unique] + 사이교우지 유유코[Unique] + 카엔뵤우 린[Unique]\r\
 \r\
-[공격속도]: 0.65초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.65 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FV]
 -- arac
@@ -13844,11 +13844,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FV"][4][1] = "|c00A8F13A[Combination]|r: Hoshiguma Yuugi[Unique] + 카엔뵤우 린[Unique] + Tsukumo Yatsuhashi[Unique]\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 400[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FW]
 -- arac
@@ -13858,9 +13858,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + 마에리베리 한[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.35초당 1번[천상] / 0.4초당 1번[인상]\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 토요사토미미노 미코 업그레이드";
+[Attack Speed]: 0.35 Cooldown[천상] / 0.4 Cooldown[인상]\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : 토요사토미미노 미코 Upgrade";
 -- aart
 -- [A0FX]
 -- arac
@@ -13870,9 +13870,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + Marisa Kirisame[Unique] + Hoshiguma Yuugi[Unique]\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
 -- aart
 -- [A0FY]
 -- arac
@@ -13880,13 +13880,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FY"][3][1] = "|c00FEE952[Unit Information]|r - 비상천칙[Epic]";
 -- aub1 1
-		t["A0FY"][4][1] = "|c00A8F13A[Combination]|r: 이부키 스이카[Unique] + Hoshiguma Yuugi[Unique] + Hakurei Reimu[Unique]\r\
+		t["A0FY"][4][1] = "|c00A8F13A[Combination]|r: Suika Ibuki[Unique] + Hoshiguma Yuugi[Unique] + Hakurei Reimu[Unique]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0FZ]
 -- arac
@@ -13894,13 +13894,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0FZ"][3][1] = "|c00FEE952[Unit Information]|r - 마에리베리 한[Epic]";
 -- aub1 1
-		t["A0FZ"][4][1] = "|c00A8F13A[Combination]|r: 우사미 렌코[Unique] + 정체불명[Unique] + Hakurei Reimu[Unique]\r\
+		t["A0FZ"][4][1] = "|c00A8F13A[Combination]|r: Renko Usami[Unique] + Unknown[Unique] + Hakurei Reimu[Unique]\r\
 \r\
-[공격속도]: 0.57초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.57 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G0]
 -- arac
@@ -13908,13 +13908,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G0"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Epic]";
 -- aub1 1
-		t["A0G0"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Unique] + Cirno[Unique] + 앨리스 마가트로이드[Unique]\r\
+		t["A0G0"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Unique] + Cirno[Unique] + Alice Margatroid[Unique]\r\
 \r\
-[공격속도]: 0.65초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.65 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G1]
 -- arac
@@ -13922,13 +13922,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G1"][3][1] = "|c00FEE952[Unit Information]|r - Medicine Melancholy[Epic]";
 -- aub1 1
-		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Unique] + Kagiyama Hina[Unique] + 첸[Unique]\r\
+		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Unique] + Kagiyama Hina[Unique] + Chen[Unique]\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G2]
 -- arac
@@ -13936,13 +13936,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G2"][3][1] = "|c00FEE952[Unit Information]|r - Mononobe no Futo[Epic]";
 -- aub1 1
-		t["A0G2"][4][1] = "|c00A8F13A[Combination]|r: 소가노 토지코[Unique] + 성련선[Unique] + 카쿠 세이가[Unique]\r\
+		t["A0G2"][4][1] = "|c00A8F13A[Combination]|r: Soga no Tojiko[Unique] + Palanquin Ship[Unique] + Seiga Kaku[Unique]\r\
 \r\
-[공격속도]: 0.58초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.58 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G4]
 -- arac
@@ -13952,11 +13952,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + 레이센 우돈게인 이나바[Unique] + Izayoi Sakuya[Unique]\r\
 \r\
-[공격속도]: 0.65초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.65 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G5]
 -- arac
@@ -13964,13 +13964,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G5"][3][1] = "|c00FEE952[Unit Information]|r - Nue Houjuu[Epic]";
 -- aub1 1
-		t["A0G5"][4][1] = "|c00A8F13A[Combination]|r: 정체불명[Unique] + 나즈린[Unique] + Rumia EX[Unique]\r\
+		t["A0G5"][4][1] = "|c00A8F13A[Combination]|r: Unknown[Unique] + 나즈린[Unique] + Rumia EX[Unique]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G6]
 -- arac
@@ -13978,13 +13978,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0G6"][3][1] = "|c00FEE952[Unit Information]|r - 토라마루 쇼[Epic]";
 -- aub1 1
-		t["A0G6"][4][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + 첸[Unique] + 쿠모이 이치린[Unique]\r\
+		t["A0G6"][4][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Chen[Unique] + Ichirin Kumoi[Unique]\r\
 \r\
-[공격속도]: 0.62초당 1번\r\
-[이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.62 Cooldown\r\
+[Movement Speed]: 400\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G7]
 -- arac
@@ -14010,11 +14010,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch]\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 300[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0G9]
 -- arac
@@ -14024,9 +14024,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + 유령악단[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.47초당 1번\r\
-[이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 플랑드르 스칼렛 업그레이드";
+[Attack Speed]: 0.47 Cooldown\r\
+[Movement Speed]: 522[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 플랑드르 스칼렛 Upgrade";
 -- aart
 -- [A0GA]
 -- arac
@@ -14036,9 +14036,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: 토라마루 쇼우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 히지리 뱌쿠렌 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : 히지리 뱌쿠렌 Upgrade";
 -- aart
 -- [A0GB]
 -- arac
@@ -14046,13 +14046,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0GB"][3][1] = "|c00FEE952[Unit Information]|r - Futatsuiwa Mamizou[Epic]";
 -- aub1 1
-		t["A0GB"][4][1] = "|c00A8F13A[Combination]|r: 카쿠 세이가[Unique] + 소가노 토지코[Unique] + Nagae Iku[Unique]\r\
+		t["A0GB"][4][1] = "|c00A8F13A[Combination]|r: Seiga Kaku[Unique] + Soga no Tojiko[Unique] + Nagae Iku[Unique]\r\
 \r\
-[공격속도]: 0.53초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.53 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0GC]
 -- arac
@@ -14062,9 +14062,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.44초당 1번\r\
-[이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : 카자미 유카 업그레이드";
+[Attack Speed]: 0.44 Cooldown\r\
+[Movement Speed]: 400\r\
+|c00F8BA54[Upgrade]|r : 카자미 유카 Upgrade";
 -- aart
 -- [A0GD]
 -- arac
@@ -14074,9 +14074,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GD"][4][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 비상천칙[Epic] + Mononobe no Futo[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.33초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 이바라키 카센 업그레이드";
+[Attack Speed]: 0.33 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 이바라키 카센 Upgrade";
 -- aart
 -- [A0GE]
 -- arac
@@ -14086,9 +14086,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 야고코로 에이린 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 야고코로 에이린 Upgrade";
 -- aart
 -- [A0GF]
 -- arac
@@ -14098,9 +14098,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GF"][4][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + Aya Shameimaru[Epic] + Utsuho Reiuji[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 모리야 스와코 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 모리야 스와코 Upgrade";
 -- aart
 -- [A0GG]
 -- arac
@@ -14110,9 +14110,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 야쿠모 유카리 업그레이드\r\
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : 야쿠모 유카리 Upgrade\r\
 \r\
 *구상자 : |c00FFFF00-bora- , S.N.Sanfaks|r";
 -- aart
@@ -14124,9 +14124,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + Utsuho Reiuji[제어불능] + 시키에이키 야마자나두[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 코메이지 사토리 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 300[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 코메이지 사토리 Upgrade";
 -- aart
 -- [A0DD]
 -- atar 1
@@ -14135,7 +14135,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0DD"][5][1] = "|c00ffff00Rumia EX|r 조합|c00FF8040[D]|r";
+		t["A0DD"][5][1] = "|c00ffff00Rumia EX|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0DD"][7][1] = "Rumia + Rumia + Cirno + Mystia Lorelei";
@@ -14162,7 +14162,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0DF"][3][1] = "검술 『기염만장의 검』";
 -- aub1 1
-		t["A0DF"][4][1] = "*텐시가 공격시 20% 확률로 대상 유닛 하나에게 전체 체력의 5% + 300만의 |c00379BFF마법 데미지|r를 입히고 2초간 스턴시킵니다.\r\
+		t["A0DF"][4][1] = "*텐시가 공격시 20% 확률로 대상 Units 하나에게 전체 체력의 5% + 300만의 |c00379BFF마법 데미지|r를 입히고 2초간 스턴시킵니다.\r\
 [전체 체력 비례 데미지는 보스에게는 20%의 데미지만 입힙니다.]";
 -- aart
 -- areq
@@ -14173,7 +14173,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 5
 -- atp1 6
 -- aub1 2
-		t["A0DF"][12][1] = "*텐시가 공격시 20% 확률로 대상 유닛 하나에게 전체 체력의 3% + 165만의 |c00379BFF마법 데미지|r[보스에게는 20%의 데미지]를 입히고 2초간 스턴시킵니다.\r\
+		t["A0DF"][12][1] = "*텐시가 공격시 20% 확률로 대상 Units 하나에게 전체 체력의 3% + 165만의 |c00379BFF마법 데미지|r[보스에게는 20%의 데미지]를 입히고 2초간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『선우후락의 검』\r\
 \r\
@@ -14275,11 +14275,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0GR"][2][1] = "심부『몰아지애』";
 -- aub1 1
 		t["A0GR"][3][1] = "*|c00FF80FF[활력]|r - 40초\r\
-*코이시가 공격시 25초간 무의식에 빠집니다. 지속 시간동안 코이시는 공격속도가 151.4% 증가하며, 모든 스킬의 발동 확률이 5.14% 증가하고, 초당 마나를 10씩 회복합니다. 대신 자신을 통제할 수 없게 되어 매 2초마다 정지 명령을 자신에게 내립니다.\r\
+*코이시가 공격시 25초간 무의식에 빠집니다. 지속 시간동안 코이시는 Attack Speed가 151.4% 증가하며, 모든 스킬의 발동 확률이 5.14% 증가하고, 초당 마나를 10씩 회복합니다. 대신 자신을 통제할 수 없게 되어 매 2초마다 정지 명령을 자신에게 내립니다.\r\
 *활력치는 조종 불가능 상태에서 해제됐을때부터 회복됩니다.";
 -- aart
 -- atp1 2
-		t["A0GR"][5][1] = "『후타츠이와 가문의 재판』 - |c0000FFFF익스텐드|r";
+		t["A0GR"][5][1] = "『후타츠이와 가문의 재판』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A0GR"][6][1] = "『탄막십변화』";
 -- atp1 4
@@ -14310,7 +14310,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0CU"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNFireRocks.blp";
 -- atp1 2
-		t["A0CU"][5][1] = "변화『분부쿠 열탕 목욕』 - |c0000FFFF익스텐드|r";
+		t["A0CU"][5][1] = "변화『분부쿠 열탕 목욕』 - |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -14337,7 +14337,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0GY"][3][1] = "요괴 퇴치 술법 - 봉인부|cffffcc00(W)|r";
 -- aub1 1
-		t["A0GY"][4][1] = "지정 400범위 내의 유닛들을 봉인하여 3초간 이동속도를 300%만큼 감소시킵니다. 보스몹에겐 통하지 않습니다. 쿨타임 60초.";
+		t["A0GY"][4][1] = "지정 400범위 내의 Units들을 봉인하여 3초간 Movement Speed를 300%만큼 감소시킵니다. 보스몹에겐 통하지 않습니다. 쿨타임 60초.";
 -- atar 1
 		t["A0GY"][5][1] = "invulnerable,nonancient,enemies";
 -- ahky
@@ -14349,7 +14349,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0GZ"][4][1] = "hbew,nbel,h037";
 -- arac
 -- atp1 1
-		t["A0GZ"][7][1] = "|c00ffff00Teireida Mai|r 조합|c00FF8040[D]|r";
+		t["A0GZ"][7][1] = "|c00ffff00Teireida Mai|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0GZ"][8][1] = "Yatadera Narumi[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]";
 -- aart
@@ -14523,7 +14523,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0H9"][8][1] = "야고코로 제약사 - 포도주|cffffcc00(E)|r";
 -- aub1 1
-		t["A0H9"][9][1] = "야고코로 제약사에서 신제품으로 내놓은 포도주. 마시면 기분이 좋아지며 취한다. 덩치가 커지는 부작용이 있음. 공격력 100%, 공격속도 100% 이동속도 50% 상승. 지속 15초, 쿨타임 150초.";
+		t["A0H9"][9][1] = "야고코로 제약사에서 신제품으로 내놓은 포도주. 마시면 기분이 좋아지며 취한다. 덩치가 커지는 부작용이 있음. 공격력 100%, Attack Speed 100% Movement Speed 50% 상승. 지속 15초, 쿨타임 150초.";
 -- anam
 		t["A0H9"][10][1] = "야고코로 제약사 - 포도주";
 -- arac
@@ -14540,7 +14540,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 2
 		t["A0H9"][20][1] = "*지령전의 오니들을 취하게 하기 위해 만든 독주. 어중간한 인요가 마시면 마신 다음날부터 7일간의 기억이 날아간다고 한다.\r\
 [포도주와 함께 적용되지 않습니다]\r\
-*공격력 100%, 공격속도 70% .이동속도 50% 상승. 지속 시간 12초\r\
+*공격력 100%, Attack Speed 70% .Movement Speed 50% 상승. 지속 시간 12초\r\
 *쿨다운 135초.";
 -- [A0HJ]
 -- arac
@@ -14551,18 +14551,18 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0HJ"][5][1] = "|c00A8F13A[Combination]|r: Yatadera Narumi[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 365\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 365\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- [A09V]
 -- arac
 -- atp1 1
 		t["A09V"][2][1] = "『딸기 크로스』";
 -- aub1 1
 		t["A09V"][3][1] = "*유메미가 공격시 마나를 1 회복합니다.\r\
-*유메미의 마나가 120이 됐을때 공격한 지점에 딸기색의 십자가를 생성합니다. 십자가는 주변 600범위 유닛을 4.5초간 스턴시키며 적 현재 체력 3% + 145만의 |c00AC59FF절대 데미지|r를 입힙니다.";
+*유메미의 마나가 120이 됐을때 공격한 지점에 딸기색의 십자가를 생성합니다. 십자가는 주변 600범위 Units을 4.5초간 스턴시키며 적 현재 체력 3% + 145만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- anam
 		t["A09V"][4][1] = "[유메미]이치고 크로스";
 -- aart
@@ -14654,12 +14654,12 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 5
 -- atp1 6
 -- aub1 1
-		t["A0HV"][20][1] = "*대상 유닛을 즉사시킵니다.\r\
-[오노즈카 코마치[Legendary] 조합시 쿨다운이 15초로 감소합니다.]\r\
+		t["A0HV"][20][1] = "*대상 Units을 즉사시킵니다.\r\
+[오노즈카 코마치[Legendary] Combination시 쿨다운이 15초로 감소합니다.]\r\
 *매 7라운드마다 Spirit을 1기 지급받습니다.\r\
 *쿨다운 25초";
 -- aub1 2
-		t["A0HV"][21][1] = "*대상 유닛을 즉사시킵니다.\r\
+		t["A0HV"][21][1] = "*대상 Units을 즉사시킵니다.\r\
 *매 7라운드마다 Spirit을 1기 지급받습니다.\r\
 *쿨다운 18초";
 -- aub1 3
@@ -14716,7 +14716,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0HX"][2][1] = "『피할 수 없는 꼬리지느러미』";
 -- aub1 1
 		t["A0HX"][3][1] = "*공격시 마나를 3 회복합니다. 마나가 115일때 발동합니다.\r\
-*지느러미에 기류를 모아 대상 유닛에게 폭발시킵니다. 대상 주변 450범위 내의 적에게 현재 체력의 4% + 300만의 |c00FF6464물리 데미지|r를 입히고, 방어력을 영구히 12 감소시킵니다.\r\
+*지느러미에 기류를 모아 대상 Units에게 폭발시킵니다. 대상 주변 450범위 내의 적에게 현재 체력의 4% + 300만의 |c00FF6464물리 데미지|r를 입히고, 방어력을 영구히 12 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 인부『역린의 매우 거친 파도』\r\
 \r\
@@ -14733,15 +14733,15 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 5
 -- atp1 6
 -- aub1 2
-		t["A0HX"][14][1] = "Mystia Lorelei의 이동속도와 공격속도가 100%상승합니다. 1.2초 지속. 쿨타임 4초.";
+		t["A0HX"][14][1] = "Mystia Lorelei의 Movement Speed와 Attack Speed가 100%상승합니다. 1.2초 지속. 쿨타임 4초.";
 -- aub1 3
-		t["A0HX"][15][1] = "Mystia Lorelei의 이동속도와 공격속도가 100%상승합니다. 1.4초 지속. 쿨타임 4초.";
+		t["A0HX"][15][1] = "Mystia Lorelei의 Movement Speed와 Attack Speed가 100%상승합니다. 1.4초 지속. 쿨타임 4초.";
 -- aub1 4
-		t["A0HX"][16][1] = "Mystia Lorelei의 이동속도와 공격속도가 100%상승합니다. 1.6초 지속. 쿨타임 4초.";
+		t["A0HX"][16][1] = "Mystia Lorelei의 Movement Speed와 Attack Speed가 100%상승합니다. 1.6초 지속. 쿨타임 4초.";
 -- aub1 5
-		t["A0HX"][17][1] = "Mystia Lorelei의 이동속도와 공격속도가 100%상승합니다. 1.8초 지속. 쿨타임 4초.";
+		t["A0HX"][17][1] = "Mystia Lorelei의 Movement Speed와 Attack Speed가 100%상승합니다. 1.8초 지속. 쿨타임 4초.";
 -- aub1 6
-		t["A0HX"][18][1] = "Mystia Lorelei의 이동속도와 공격속도가 100%상승합니다. 2초 지속. 쿨타임 4초.";
+		t["A0HX"][18][1] = "Mystia Lorelei의 Movement Speed와 Attack Speed가 100%상승합니다. 2초 지속. 쿨타임 4초.";
 -- arac
 -- aart
 		t["A0HX"][20][1] = "ReplaceableTextures\\CommandButtons\\BTNWhirlwind.blp";
@@ -14767,7 +14767,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0I6"][5][1] = "『트리니테리언 랩소디』";
 -- aub1 1
-		t["A0I6"][6][1] = "＊자신 주변 600 범위의 자신 소유 유닛 공격속도를 12% 증가시킵니다.\r\
+		t["A0I6"][6][1] = "＊자신 주변 600 범위의 자신 소유 Units Attack Speed를 12% 증가시킵니다.\r\
 ＊자신 주변 600 범위의 아군 마력을 초당 1 회복시킵니다.\r\
 ＊공격 시 10% 확률로 지옥불을 뿜어내 대상 주변 400 범위의 적에게 66만의 |c00379BFF마법 피해|r를 가하고, 받는 마법 피해를 7% |c0000FFFF증폭|r시킵니다.";
 -- atar 2
@@ -14775,25 +14775,25 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0I6"][8][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNImmolation.blp";
 -- abuf 2
 -- atp1 2
-		t["A0I6"][10][1] = "월『루나틱 임팩트』- |c0000FFFF익스텐드|r";
+		t["A0I6"][10][1] = "월『루나틱 임팩트』- |c0000FFFFExtended|r";
 -- aub1 2
-		t["A0I6"][11][1] = "*자신 주변 650 범위 아군의 공격속도를 20% 상승시킵니다. 다른 공격속도 증가 효과 버프와 중첩가능합니다. 이 효과는 자신은 효과 대상이 되지 않습니다.\r\
+		t["A0I6"][11][1] = "*자신 주변 650 범위 아군의 Attack Speed를 20% 상승시킵니다. 다른 Attack Speed 증가 효과 버프와 중첩가능합니다. 이 효과는 자신은 효과 대상이 되지 않습니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-이계『봉마의 각』- |c0000FFFF익스텐드|r\r\
+이계『봉마의 각』- |c0000FFFFExtended|r\r\
 \r\
-*공격시 대상 적 유닛이 보스 유닛이라면 30% 확률로 25만의 |c00379BFF마법 데미지|r를 입힙니다. \r\
-*보스 유닛이 아니라면 헤카티아가 공격한 적 주변 450범위에 14만의 |c00379BFF마법 데미지|r를 입힙니다.";
+*공격시 대상 적 Units이 보스 Units이라면 30% 확률로 25만의 |c00379BFF마법 데미지|r를 입힙니다. \r\
+*보스 Units이 아니라면 헤카티아가 공격한 적 주변 450범위에 14만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- [A076]
 -- arac
 -- atp1 1
 		t["A076"][2][1] = "|c00FEE952[Unit Information]|r - Minoriko Aki[Arcana]";
 -- aub1 1
 		t["A076"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Kasodani Kyouko[Rare] + Minoriko Aki[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 신님이라구?(minoriko arc)\r\
+|c00A8F13A[Type Command]|r: 신님이라구?(minoriko arc)\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 유닛 업그레이드";
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Units Upgrade";
 -- anam
 -- aart
 		t["A076"][5][1] = "Icon\\Unit\\BTNMinoriko_Arc.blp";
@@ -14863,9 +14863,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- anam
 -- arac
 -- atp1 1
-		t["A0I9"][3][1] = "|c00ffff00이부키 스이카|r 조합|c00FF8040[D]|r";
+		t["A0I9"][3][1] = "|c00ffff00Suika Ibuki|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0I9"][4][1] = "비상천칙[Epic] + 토키코[Epic] + Yakumo Ran[Epic] + 2 Unique Souls  = 이부키 스이카[Chronicle]";
+		t["A0I9"][4][1] = "비상천칙[Epic] + 토키코[Epic] + Yakumo Ran[Epic] + 2 Unique Souls  = Suika Ibuki[Chronicle]";
 -- abuf 1
 -- aart
 -- alig
@@ -14892,8 +14892,8 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 5
 		t["A0IB"][17][1] = "『역습의 길』- |c009C9CE9『구원자』|r";
 -- aub1 2
-		t["A0IB"][18][1] = "*이 스킬을 사용할 경우 자신 주변 1200범위 내에 있는 Rare 등급 이하의 유닛을 포섭합니다. 세이자는 포섭한 유닛의 수에 따라 다음과 같은 효과를 얻습니다. 한번 포섭하면, 다시 이 스킬을 사용할때까지 효과가 지속됩니다. 120초의 쿨다운을 가집니다.\r\
-『반역자』[1~10기] : 세이자 주변 750범위 아군의 공격속도를 20% 상승시킵니다. 다른 공격속도 증가 효과와 중첩할 수 있습니다.\r\
+		t["A0IB"][18][1] = "*이 스킬을 사용할 경우 자신 주변 1200범위 내에 있는 Rare 등급 이하의 Units을 포섭합니다. 세이자는 포섭한 Units의 수에 따라 다음과 같은 효과를 얻습니다. 한번 포섭하면, 다시 이 스킬을 사용할때까지 효과가 지속됩니다. 120초의 쿨다운을 가집니다.\r\
+『반역자』[1~10기] : 세이자 주변 750범위 아군의 Attack Speed를 20% 상승시킵니다. 다른 Attack Speed 증가 효과와 중첩할 수 있습니다.\r\
 『선구자』[11기~18기] : 세이자 주변 750범위 적군의 방어력을 30 감소시킵니다.\r\
 『계몽가』[19기~50기] : 세이자 주변 750범위 아군의 공격력을 50% 상승시킵니다.\r\
 『구원자』[51기~] : 위 효과들이 50% 증폭됩니다.";
@@ -14955,15 +14955,15 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 5
 -- atp1 6
 -- aub1 2
-		t["A0CY"][11][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 300000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 유닛을 볼 수 있습니다.";
+		t["A0CY"][11][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 300000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 3
-		t["A0CY"][12][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 360000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 유닛을 볼 수 있습니다.";
+		t["A0CY"][12][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 360000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 4
-		t["A0CY"][13][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 420000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 유닛을 볼 수 있습니다.";
+		t["A0CY"][13][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 420000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 5
-		t["A0CY"][14][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 480000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 유닛을 볼 수 있습니다.";
+		t["A0CY"][14][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 480000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 6
-		t["A0CY"][15][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 540000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 유닛을 볼 수 있습니다.";
+		t["A0CY"][15][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5초 스턴과 540000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- atar 2
 		t["A0CY"][16][1] = "vuln,invu";
 -- atar 3
@@ -14977,7 +14977,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- arac
 -- atp1 1
-		t["A08U"][4][1] = "|c00ffff00히나나위 텐시|r 조합|c00FF8040[D]|r";
+		t["A08U"][4][1] = "|c00ffff00히나나위 텐시|r Combination|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
 		t["A08U"][6][1] = "Utsuho Reiuji [핵반응 제어불능] + 나마즈[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
@@ -15069,7 +15069,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- [A0IF]
 -- anam
-		t["A0IF"][1][1] = "[익스텐드][코이시]로르샤흐 더미";
+		t["A0IF"][1][1] = "[Extended][코이시]로르샤흐 더미";
 -- arac
 -- atar 1
 -- amat
@@ -15092,7 +15092,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 		t["A0IH"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNThunderLizardEgg.blp";
 -- atp1 2
-		t["A0IH"][6][1] = "식탄 『유니래터럴 콘택트』 - |c0000FFFF익스텐드|r";
+		t["A0IH"][6][1] = "식탄 『유니래터럴 콘택트』 - |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -15123,7 +15123,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0IH"][36][1] = "*공격시 20% 확률로 대상 유닛의 이동속도를 2초간 99% 감소시키며, 대상 유닛 주변 450범위 내에 있는 적에게 42만의 데미지를 입힙니다. 유니래터럴 콘택트가 발동됐을때 대상 유닛의 체력이 90% 이상이라면 90%로 만듭니다.\r\
+		t["A0IH"][36][1] = "*공격시 20% 확률로 대상 Units의 Movement Speed를 2초간 99% 감소시키며, 대상 Units 주변 450범위 내에 있는 적에게 42만의 데미지를 입힙니다. 유니래터럴 콘택트가 발동됐을때 대상 Units의 체력이 90% 이상이라면 90%로 만듭니다.\r\
 *전귀- 물리 데미지, 후귀 - 마법 데미지";
 -- aub1 3
 -- aub1 4
@@ -15182,7 +15182,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0HM"][28][1] = "Hong Meiling + Hoshiguma Yuugi + Imaizumi Kagerou + 신비술사의 고서";
 -- aub1 2
-		t["A0HM"][29][1] = "아군 유닛의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm 유닛을 조합할 시 수치가 3 상승하고, Legendary 유닛을 조합할 시 수치가 2 상승합니다. 『영격』충전 수 1당 3%의 상수 데미지가 증가합니다.";
+		t["A0HM"][29][1] = "아군 Units의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm Units을 Combination할 시 수치가 3 상승하고, Legendary Units을 Combination할 시 수치가 2 상승합니다. 『영격』충전 수 1당 3%의 상수 데미지가 증가합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -15191,7 +15191,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 8
 -- aub1 9
 -- aub1 10
-		t["A0HM"][37][1] = "아군 유닛의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm 유닛을 조합할 시 수치가 3 상승하고, Legendary 유닛을 조합할 시 수치가 2 상승합니다. 『영격』충전 수 1당 4%의 상수 데미지가 증가합니다.";
+		t["A0HM"][37][1] = "아군 Units의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm Units을 Combination할 시 수치가 3 상승하고, Legendary Units을 Combination할 시 수치가 2 상승합니다. 『영격』충전 수 1당 4%의 상수 데미지가 증가합니다.";
 -- aub1 11
 -- alig
 -- acat
@@ -15205,11 +15205,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: Marisa Kirisame[Unique] + Kishin Sagume[Unique] + 나즈린[Unique]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 350[공중 이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 350[공중 이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 		t["A0CS"][4][1] = "BTN\\BTNSatono.blp";
 -- atp1 2
@@ -15335,9 +15335,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0II"][2][1] = "『적당한 술은 몸에 건강』";
 -- atp1 1
 -- arut
-		t["A0II"][4][1] = "주변 1500범위 내의 아군 유닛들과 술을 마십니다. 적당량의 술을 적당히 섭취하여 공격속도가 15%증가합니다.";
+		t["A0II"][4][1] = "주변 1500범위 내의 아군 Units들과 술을 마십니다. 적당량의 술을 적당히 섭취하여 Attack Speed가 15%증가합니다.";
 -- aub1 1
-		t["A0II"][5][1] = "＊자신 주변 1000 범위의 적에게 술을 먹여 한껏 취하게 만듭니다. 이동속도를 20% 감소시킵니다.";
+		t["A0II"][5][1] = "＊자신 주변 1000 범위의 적에게 술을 먹여 한껏 취하게 만듭니다. Movement Speed를 20% 감소시킵니다.";
 -- atat
 		t["A0II"][6][1] = "Abilities\\Spells\\Other\\StrongDrink\\BrewmasterTarget.mdl";
 -- abuf 1
@@ -15354,7 +15354,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- auar
 -- atp1 1
 -- aub1 1
-		t["A0IT"][6][1] = "*유닛을 적립합니다. 1마리당 1의 카운트가 쌓이며, 3의 카운트가 쌓일시 셀렉터 하나로 교체됩니다.";
+		t["A0IT"][6][1] = "*Units을 적립합니다. 1마리당 1의 카운트가 쌓이며, 3의 카운트가 쌓일시 셀렉터 하나로 교체됩니다.";
 -- ahky
 -- auhk
 -- [A0IV]
@@ -15365,7 +15365,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- ahky
 -- aart
 -- aub1 1
-		t["A0IV"][7][1] = "대상 유닛을 팝니다. 66% 확률로 셀렉터 1기를 지급합니다.";
+		t["A0IV"][7][1] = "대상 Units을 팝니다. 66% 확률로 셀렉터 1기를 지급합니다.";
 -- [A0IW]
 -- anam
 		t["A0IW"][1][1] = "[이미 변신 체크]";
@@ -15375,7 +15375,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0JB"][3][1] = "『가을바라기』";
 -- aub1 1
-		t["A0JB"][4][1] = "*모미지가 공격시 30% 확률로 대상 유닛을 강하게 베어 3초의 스턴을 입히고, 전체 체력의 10%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.[보스에게는 7%의 데미지만 적용]\r\
+		t["A0JB"][4][1] = "*모미지가 공격시 30% 확률로 대상 Units을 강하게 베어 3초의 스턴을 입히고, 전체 체력의 10%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.[보스에게는 7%의 데미지만 적용]\r\
 *위 효과가 발동할 경우 20% 확률로 극대화 효과가 발동합니다. 극대화 효과 발동시 데미지가 [1.5~3.5배]로 적용됩니다.\r\
 *『가을바라기』가 5번 발동할 경우 『단풍휩쓸기』가 자동으로 발동합니다.";
 -- aart
@@ -15407,7 +15407,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0JE"][3][1] = "Cirno[Minus K] + 테레이다 마이[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각 = 쿠루미";
 -- atp1 1
-		t["A0JE"][4][1] = "|c00ffff00쿠루미|r 조합|c00FF8040[F]|r";
+		t["A0JE"][4][1] = "|c00ffff00쿠루미|r Combination|c00FF8040[F]|r";
 -- aart
 		t["A0JE"][5][1] = "ReplaceableTextures\\CommandButtons\\Kurumi\\BTN_UP.blp";
 -- acat
@@ -15478,7 +15478,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- arac
 -- atp1 2
-		t["A0JI"][8][1] = "난제『불쥐의 가죽옷 -침착한 마음-』- |c0000FFFF익스텐드|r";
+		t["A0JI"][8][1] = "난제『불쥐의 가죽옷 -침착한 마음-』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A0JI"][9][1] = "＊공격 시 12% 확률로 전방을 향해 가죽옷을 펄럭여 불꽃을 뿜어내 600 범위의 적에게 105만의 |c00379BFF마법 피해|r를 가합니다.";
 -- aart
@@ -15558,18 +15558,18 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 21
 		t["A0JN"][55][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 125000의 데미지를 줍니다.";
 -- aub1 22
-		t["A0JN"][56][1] = "공격시 15%확률로 자신 주위 375범위에 32000의 데미지를 주고, 3초간 이동속도가 50%만큼 감소합니다.";
+		t["A0JN"][56][1] = "공격시 15%확률로 자신 주위 375범위에 32000의 데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
 -- aub1 24
 -- aub1 25
 -- aub1 23
 -- aub1 26
-		t["A0JN"][60][1] = "공격시 15%확률로 자신 주위 375범위에 36000의 데미지를 주고, 3초간 이동속도가 50%만큼 감소합니다.";
+		t["A0JN"][60][1] = "공격시 15%확률로 자신 주위 375범위에 36000의 데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
 -- aub1 27
 -- aub1 29
 -- aub1 28
 -- aub1 30
 -- aub1 31
-		t["A0JN"][65][1] = "공격시 15%확률로 자신 주위 375범위에 40000의 데미지를 주고, 3초간 이동속도가 50%만큼 감소합니다.";
+		t["A0JN"][65][1] = "공격시 15%확률로 자신 주위 375범위에 40000의 데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
 -- [A0JO]
 -- atar 1
 -- arac
@@ -15601,9 +15601,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- anam
 -- atar 1
 -- atp1 1
-		t["A0JP"][4][1] = "|c00ffff00Nishida Satono|r 조합|c00FF8040[D]|r";
+		t["A0JP"][4][1] = "|c00ffff00Nishida Satono|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0JP"][5][1] = "Marisa Kirisame[팔괘로] + Kishin Sagume[Unique] + 나즈린[Unique]";
+		t["A0JP"][5][1] = "Marisa Kirisame[Bagua] + Kishin Sagume[Unique] + 나즈린[Unique]";
 -- aart
 -- arac
 -- ahky
@@ -15693,7 +15693,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0JV"][26][1] = "홍마『스칼렛 데빌』- 선혈 20";
 -- aub1 2
 		t["A0JV"][27][1] = "*레밀리아가 공격시 마나를 1씩 쌓습니다\r\
-*마나가 200이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5초간 지속되며, 0.5초마다 대상 지점 650범위 내에 있는 유닛을 0.5초간 스턴시키며 40만의 마법 데미지를 입힙니다.";
+*마나가 200이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5초간 지속되며, 0.5초마다 대상 지점 650범위 내에 있는 Units을 0.5초간 스턴시키며 40만의 마법 데미지를 입힙니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -15704,7 +15704,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 10
 -- aub1 11
 		t["A0JV"][36][1] = "*레밀리아가 공격시 마나를 1씩 쌓습니다\r\
-*마나가 300이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5초간 지속되며, 0.5초마다 대상 지점 내에 있는 유닛을 0.5초간 스턴시키며 40만의 마법 데미지를 입힙니다.";
+*마나가 300이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5초간 지속되며, 0.5초마다 대상 지점 내에 있는 Units을 0.5초간 스턴시키며 40만의 마법 데미지를 입힙니다.";
 -- aub1 13
 -- aub1 14
 -- aub1 15
@@ -15940,7 +15940,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 2
 		t["A0KA"][8][1] = "기부『역침격』";
 -- aub1 1
-		t["A0KA"][9][1] = "*야마메 주변 700범위 적의 이동속도를 35% 감소시킵니다.\r\
+		t["A0KA"][9][1] = "*야마메 주변 700범위 적의 Movement Speed를 35% 감소시킵니다.\r\
 *3초마다 야마메가 전염병을 퍼뜨려 주변 700범위 적이 받는 마법 데미지를 22% 증폭시키고, 체력을 1% 감소시킵니다.\r\
 [보스에게는 적용되지 않습니다.]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
@@ -15969,7 +15969,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0KC"][5][1] = "『폴터 가이스트』";
 -- aub1 1
-		t["A0KC"][6][1] = "*카나가 공격시 8% 확률로 자신에게 원혼을 심어 공격속도가 60% 증가합니다.\r\
+		t["A0KC"][6][1] = "*카나가 공격시 8% 확률로 자신에게 원혼을 심어 Attack Speed가 60% 증가합니다.\r\
 *원혼은 6초간 지속되며, 원혼이 지속되는 동안 카나가 공격시 활력 쿨다운이 0.5초씩 감소합니다.\r\
 *원혼 지속시간동안 카나가 『쉐도우 레이즈』를 발동시킬 경우 2% 확률로『꿈의 Fairy』을 소환합니다. Strange-looking Human과 같은 효과를 가집니다.";
 -- aart
@@ -15991,16 +15991,16 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 2
 		t["A0KD"][7][1] = "*|c00FF80FF[활력]|r - 40초\r\
 *Rumia가 자신의 어둠 분신을 생성합니다. 어둠 분신은 25초간 지속됩니다. 어둠 분신은 『다크사이드 오브 더 문』을 제외한 Rumia의 모든 스킬을 발동시킵니다.\r\
-*어둠 분신은 본체와 다르게 공중 이동이 가능하며, 이동 속도가 최대치로 고정되고, 기본 공격속도가 본체보다 상당량 빠르며 암부『디머케이션』의 발동 마나가 140이 아닌 100이 됩니다.";
+*어둠 분신은 본체와 다르게 공중 이동이 가능하며, 이동 속도가 최대치로 고정되고, 기본 Attack Speed가 본체보다 상당량 빠르며 암부『디머케이션』의 발동 마나가 140이 아닌 100이 됩니다.";
 -- [A0KH]
 -- arac
 -- acat
 		t["A0KH"][2][1] = "h042,h01A,h037";
 -- atar 1
 -- atp1 1
-		t["A0KH"][4][1] = "|c00ffff00Hieda no Akyuu|r 조합|c00FF8040[D]|r";
+		t["A0KH"][4][1] = "|c00ffff00Hieda no Akyuu|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KH"][5][1] = "소가노 토지코 + 레티 화이트락 + 사이교우지 유유코";
+		t["A0KH"][5][1] = "Soga no Tojiko + 레티 화이트락 + 사이교우지 유유코";
 -- anam
 -- aart
 -- ahky
@@ -16013,7 +16013,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0KF"][5][1] = "Kappa + Fairy";
 -- atp1 1
-		t["A0KF"][6][1] = "|c00ffff00와카사기히메|r 조합|c00FF8040[F]|r";
+		t["A0KF"][6][1] = "|c00ffff00와카사기히메|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0KF"][8][1] = "h003,h002";
@@ -16027,7 +16027,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0KG"][5][1] = "|c00ffff00이마이즈미 카게로우|r 조합|c00FF8040[D]|r";
+		t["A0KG"][5][1] = "|c00ffff00이마이즈미 카게로우|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0KG"][6][1] = "Sekibanki + Kasodani Kyouko + Merlin Prismriver";
 -- ahky
@@ -16042,7 +16042,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0KI"][5][1] = "|c00ffff00츠쿠모 벤벤|r 조합|c00FF8040[D]|r";
+		t["A0KI"][5][1] = "|c00ffff00츠쿠모 벤벤|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0KI"][6][1] = "Lunasa Prismriver + Sekibanki + Merlin Prismriver";
 -- ahky
@@ -16059,9 +16059,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: Lyrica Prismriver[Rare] + Sekibanki[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
-[공격속도]: 0.8초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.8 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 		t["A05X"][5][1] = "BTN\\BTNyatsuhashi.blp";
 -- [A05Y]
@@ -16072,11 +16072,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A05Y"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + Sunny Milk[Rare] + Luna Child[Rare] + Unique 소울\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[조합 시너지]|r말썽쟁이 3Fairy\r\
--플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 유닛의 체력이 15% 감소합니다.";
+-플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 Units의 체력이 15% 감소합니다.";
 -- aart
 -- [A0D0]
 -- atar 1
@@ -16085,7 +16085,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0D0"][6][1] = "|c00ffff00세키반키|r 조합|c00FF8040[F]|r";
+		t["A0D0"][6][1] = "|c00ffff00세키반키|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0D0"][8][1] = "Wakasagihime + Goblin + Small Devil";
@@ -16099,7 +16099,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0DG"][5][1] = "|c00ffff00츠쿠모 야츠하시|r 조합|c00FF8040[D]|r";
+		t["A0DG"][5][1] = "|c00ffff00츠쿠모 야츠하시|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0DG"][6][1] = "Lyrica Prismriver + Sekibanki + Mizuhashi Parsee";
 -- ahky
@@ -16114,9 +16114,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0DH"][5][1] = "|c00ffff00키진 세이자|r 조합|c00FF8040[D]|r";
+		t["A0DH"][5][1] = "|c00ffff00키진 세이자|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DH"][6][1] = "Imaizumi Kagerou + Kishin Sagume + 카쿠 세이가";
+		t["A0DH"][6][1] = "Imaizumi Kagerou + Kishin Sagume + Seiga Kaku";
 -- ahky
 -- acat
 		t["A0DH"][8][1] = "hkni,h05P,h03T";
@@ -16129,13 +16129,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - Kijin Seija[Epic]";
 -- aub1 1
-		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kishin Sagume[Unique] + 카쿠 세이가[Unique]\r\
+		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kishin Sagume[Unique] + Seiga Kaku[Unique]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 300[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 300[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- aart
 -- [A0DK]
 -- arac
@@ -16143,7 +16143,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0DK"][5][1] = "|c00ffff00스쿠나 신묘마루|r 조합|c00FF8040[D]|r";
+		t["A0DK"][5][1] = "|c00ffff00스쿠나 신묘마루|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0DK"][6][1] = "Tsukumo Benben + Tsukumo Yatsuhashi + Imaizumi Kagerou";
 -- ahky
@@ -16188,9 +16188,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 호리카와 라이코 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : 호리카와 라이코 Upgrade";
 -- aart
 		t["A0DN"][5][1] = "ReplaceableTextures\\CommandButtons\\Raiko\\BTN_UP.blp";
 -- [A0GN]
@@ -16200,7 +16200,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0GN"][5][1] = "|c00ffff00호리카와 라이코|r 조합|c00FF8040[D]|r";
+		t["A0GN"][5][1] = "|c00ffff00호리카와 라이코|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0GN"][7][1] = "Sukuna Shinmyoumaru[Epic] + 토키코[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls ";
@@ -16217,7 +16217,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0GO"][4][1] = "[진영]저주령[천도류]";
 -- atp1 1
 -- aub1 1
-		t["A0GO"][6][1] = "*라인 내에 있는 적 유닛의 방어력을 10 감소시킵니다.";
+		t["A0GO"][6][1] = "*라인 내에 있는 적 Units의 방어력을 10 감소시킵니다.";
 -- abuf 1
 		t["A0GO"][8][1] = "B026";
 -- atar 2
@@ -16228,7 +16228,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 2
 		t["A0GO"][13][1] = "『증폭 저주령』";
 -- aub1 2
-		t["A0GO"][14][1] = "*라인 내에 있는 적 유닛의 방어력을 12 감소시킵니다.";
+		t["A0GO"][14][1] = "*라인 내에 있는 적 Units의 방어력을 12 감소시킵니다.";
 -- [A0GP]
 -- arac
 -- anam
@@ -16237,9 +16237,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 우사미 스미레코 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 우사미 스미레코 Upgrade";
 -- aart
 		t["A0GP"][5][1] = "ReplaceableTextures\\CommandButtons\\Smireko\\BTN_UP.blp";
 -- [A0GX]
@@ -16249,7 +16249,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0GX"][2][1] = "『3D 프린터건』- 0회";
 -- anam
 -- aub1 1
-		t["A0GX"][4][1] = "*스미레코가 공격시 15% 확률로 대상 유닛의 전체 체력의 8%에 해당하는 |c00FF6464물리 데미지|r를 추가로 입힙니다.\r\
+		t["A0GX"][4][1] = "*스미레코가 공격시 15% 확률로 대상 Units의 전체 체력의 8%에 해당하는 |c00FF6464물리 데미지|r를 추가로 입힙니다.\r\
 *4번째 발동할때마다 전체 체력의 25%의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *보스에게는 발동 횟수와 관계없이 300만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- atp1 2
@@ -16280,7 +16280,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aart
 -- anam
 -- atp1 1
-		t["A0IN"][5][1] = "|c00ffff00우사미 스미레코|r 조합|c00FF8040[D]|r";
+		t["A0IN"][5][1] = "|c00ffff00우사미 스미레코|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0IN"][7][1] = "마에리베리 한[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls ";
@@ -16296,9 +16296,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0IO"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[반혼접] + Layla Prismriver[Unique] + Unique 소울\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 500[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [A0IP]
 -- anam
@@ -16309,11 +16309,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- [A0IQ]
 -- arac
 -- atp1 1
-		t["A0IQ"][2][1] = "유닛 모으기|cffffcc00(Q)|r";
+		t["A0IQ"][2][1] = "Units 모으기|cffffcc00(Q)|r";
 -- aub1 1
-		t["A0IQ"][3][1] = "유닛을 같은 종류끼리 모읍니다.";
+		t["A0IQ"][3][1] = "Units을 같은 종류끼리 모읍니다.";
 -- anam
-		t["A0IQ"][4][1] = "#유닛 모으기";
+		t["A0IQ"][4][1] = "#Units 모으기";
 -- aart
 -- ahky
 -- [A0IR]
@@ -16330,7 +16330,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0IS"][3][1] = "광기의 달빛|cffffcc00(R)|r";
 -- ahky
 -- aub1 1
-		t["A0IS"][5][1] = "*광기의 달빛을 적군 유닛에게 비춥니다. 맵 전체에 있는 적 유닛에게 전체 체력의 15%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다.\r\
+		t["A0IS"][5][1] = "*광기의 달빛을 적군 Units에게 비춥니다. 맵 전체에 있는 적 Units에게 전체 체력의 15%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *연옥 난이도 이상의 75라운드부터는 효과가 없습니다.\r\
 *쿨다운 300초";
 -- aart
@@ -16343,13 +16343,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0IU"][6][1] = "『환상향연기』";
 -- atp1 2
-		t["A0IU"][7][1] = "『환상향연기』 - |c0000FFFF익스텐드|r";
+		t["A0IU"][7][1] = "『환상향연기』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A0IU"][8][1] = "＊자신 주변 600 범위의 적 방어력을 18 감소시킵니다.\r\
-＊자신 주변 600 범위의 적 이동속도를 25% 감소시킵니다.\r\
+＊자신 주변 600 범위의 적 Movement Speed를 25% 감소시킵니다.\r\
 ＊공격 시 10% 확률로 독설을 퍼부어 대상 주변 400 범위의 적에게 30만의 |c00FF6464물리|r + 30만의 |c00379BFF마법|r + 30만의 |c00AC59FF절대|r 피해를 가합니다.";
 -- aub1 2
-		t["A0IU"][9][1] = "*주변 800범위 아군의 이동속도를 15% 증가시킵니다.\r\
+		t["A0IU"][9][1] = "*주변 800범위 아군의 Movement Speed를 15% 증가시킵니다.\r\
 *공격시 20% 확률로 대상 주변 300범위 적이 받는 마법 데미지를 7% 증폭시키며, 90만의 |c00379BFF마법 데미지|r를 입힙니다. 환상향 연기가 발동할때마다 아큐의 마나가 5 회복됩니다.";
 -- aart
 		t["A0IU"][10][1] = "ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp";
@@ -16362,9 +16362,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- acat
 		t["A0J0"][5][1] = "nanm,h01U,h03T,e03C";
 -- atp1 1
-		t["A0J0"][6][1] = "|c00ffff00카나 아나베랄|r 조합|c00FF8040[F]|r";
+		t["A0J0"][6][1] = "|c00ffff00카나 아나베랄|r Combination|c00FF8040[F]|r";
 -- aub1 1
-		t["A0J0"][7][1] = "Kagiyama Hina[액신] + 호우쥬 누에[Epic] + 카쿠 세이가[Unique] + 고대와 환상의 조각";
+		t["A0J0"][7][1] = "Kagiyama Hina[액신] + 호우쥬 누에[Epic] + Seiga Kaku[Unique] + 고대와 환상의 조각";
 -- ahky
 -- arac
 -- alig
@@ -16379,7 +16379,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0J1"][3][1] = "*|c00FF80FF[활력]|r - 25초\r\
 *리카코가 10초간『마공학 핵』에 담긴 힘을 폭주시킵니다. 자신 주변 1000범위에 있는 적에게 2초마다 전체 체력의 0.8% + 80만의 |c00FF6464물리 데미지|r를 입힙니다. \r\
 *『오버플로우』가 종료될 경우 리카코 주변 1000범위 아군의 마나를 모두 회복시킵니다.\r\
-[마나 회복을 받지 않는 유닛은 회복시키지 않습니다]";
+[마나 회복을 받지 않는 Units은 회복시키지 않습니다]";
 -- anam
 -- aart
 		t["A0J1"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNManaFlare.blp";
@@ -16448,10 +16448,10 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0J2"][2][1] = "루나 컨슘|cffffcc00(D)|r";
 -- aub1 1
-		t["A0J2"][3][1] = "*토요히메가 대상 Normal 혹은 Magic 유닛의 정기를 달의 기운으로 바꿔 흡수합니다.\r\
-*『광기의 달빛』의 공격속도 증가량이 Normal 유닛은 1%, Magic 유닛은 2% 증가합니다.\r\
+		t["A0J2"][3][1] = "*토요히메가 대상 Normal 혹은 Magic Units의 정기를 달의 기운으로 바꿔 흡수합니다.\r\
+*『광기의 달빛』의 Attack Speed 증가량이 Normal Units은 1%, Magic Units은 2% 증가합니다.\r\
 *쿨다운 16초. \r\
-*공격속도 오라는 최대 20%까지 올릴 수 있습니다.";
+*Attack Speed 오라는 최대 20%까지 올릴 수 있습니다.";
 -- atar 1
 -- aart
 		t["A0J2"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNDevourMagic.blp";
@@ -16486,7 +16486,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0J4"][5][1] = "「서브테라리언 큐컴버」- 현재 오이 갯수 1";
 -- aub1 1
-		t["A0J4"][6][1] = "*미토리가 유닛을 공격할때 마다 3% 확률로 오이를 섭취합니다. 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
+		t["A0J4"][6][1] = "*미토리가 Units을 공격할때 마다 3% 확률로 오이를 섭취합니다. 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
 *오이는 최대 10개까지 섭취가능하며 섭취한 오이 하나당 주변 900범위에 -1만큼의 방어력 감소 효과를 가집니다.";
 -- abuf 1
 		t["A0J4"][8][1] = "B02D";
@@ -16695,13 +16695,13 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A0J4"][164][1] = "*미토리가 유닛을 공격할때 마다 3% 확률로 오이를 섭취합니다. 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
+		t["A0J4"][164][1] = "*미토리가 Units을 공격할때 마다 3% 확률로 오이를 섭취합니다. 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
 *오이는 최대 15개까지 섭취가능하며 섭취한 오이 하나당 주변 900범위에 -1만큼의 방어력 감소 효과를 가집니다.";
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A0J4"][168][1] = "미토리가 유닛을 공격할때 마다 3% 확률로 오이를 섭취합니다. 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
+		t["A0J4"][168][1] = "미토리가 Units을 공격할때 마다 3% 확률로 오이를 섭취합니다. 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
 오이는 최대 25개까지 섭취가능하며 섭취한 오이 하나당 주변 900범위에 -1만큼의 방어력 감소 효과를 가집니다.";
 -- aub1 17
 -- aub1 18
@@ -16715,7 +16715,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A0J4"][180][1] = "미토리가 유닛을 공격할때 마다 3% 확률로 오이를 섭취합니다.\r\
+		t["A0J4"][180][1] = "미토리가 Units을 공격할때 마다 3% 확률로 오이를 섭취합니다.\r\
 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
 오이는 최대 30개까지 섭취가능하며\r\
 섭취한 오이 하나당 주변 900범위에 -1.5만큼의 방어력 감소 효과를 가집니다.";
@@ -16724,7 +16724,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A0J4"][185][1] = "미토리가 유닛을 죽일 때 마다 3% 확률로 오이를 섭취합니다.\r\
+		t["A0J4"][185][1] = "미토리가 Units을 죽일 때 마다 3% 확률로 오이를 섭취합니다.\r\
 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
 오이는 최대 50개까지 섭취가능하며\r\
 섭취한 오이 하나당 주변 900범위에 -1.5만큼의 방어력 감소 효과를 가집니다.";
@@ -16755,7 +16755,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- ata0
 -- [A0J6]
 -- anam
-		t["A0J6"][2][1] = "[유닛정보][Chronicle]";
+		t["A0J6"][2][1] = "[Units정보][Chronicle]";
 -- aart
 		t["A0J6"][3][1] = "ReplaceableTextures\\CommandButtons\\Sunho\\BTN_UP.blp";
 -- atp1 1
@@ -16763,16 +16763,16 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 유령악단[Epic] + Hecatia Lapislazuli[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 425\r\
-|c00F8BA54[업그레이드]|r : 순호 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 425\r\
+|c00F8BA54[Upgrade]|r : 순호 Upgrade";
 -- [A0J7]
 -- arac
 -- anam
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0J7"][5][1] = "|c00ffff00순호|r 조합|c00FF8040[D]|r";
+		t["A0J7"][5][1] = "|c00ffff00순호|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0J7"][6][1] = "Clownpiece[Epic] + 유령악단[Epic] + Hecatia Lapislazuli[Epic] + 2 Unique Souls ";
 -- ahky
@@ -16806,7 +16806,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["S001"][3][1] = "용부『드래곤즈 그로울』";
 -- aub1 1
-		t["S001"][4][1] = "*기본적으로 카센과 주변 1000범위 아군의 공격속도를 10% 상승시킵니다. \r\
+		t["S001"][4][1] = "*기본적으로 카센과 주변 1000범위 아군의 Attack Speed를 10% 상승시킵니다. \r\
 *카센이 공격시 5% 확률로 자신이 부리는 선룡인 코테이를 소환해 전방의 적에게 포효를 가합니다. 카센 전방 900거리 200범위 내에 있는 적에게 현재 체력의 1% + 200만의 |c00FF6464물리 데미지|r와 4초의 스턴을 입힙니다.";
 -- anam
 		t["S001"][5][1] = "[카센]";
@@ -16823,7 +16823,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["S001"][11][1] = "「편완유각의 선인」- 봉인 해제";
 -- aub1 2
 		t["S001"][12][1] = " 카센이 공격시마다 마나를 쌓습니다. 마나는 최대 1200까지 쌓을 수 있으며 \r\
-쌓은 마나가 1200이 될 시 선인 버프가 적용됩니다. 선인 버프가 걸린 카센은 공격속도가 최대치로 상승하며 공격시 5% 확률로 전방의 800거리 400범위의 지면을 내려쳐 적에게 1.2초의 스턴을 입히고\r\
+쌓은 마나가 1200이 될 시 선인 버프가 적용됩니다. 선인 버프가 걸린 카센은 Attack Speed가 최대치로 상승하며 공격시 5% 확률로 전방의 800거리 400범위의 지면을 내려쳐 적에게 1.2초의 스턴을 입히고\r\
 100만의 물리데미지를 입힙니다. ";
 -- [A0D2]
 -- arac
@@ -16864,11 +16864,11 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A04D"][7][1] = "『광기의 달빛』";
 -- atp1 2
 -- aub1 1
-		t["A04D"][9][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 11% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][9][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 11% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 2
-		t["A04D"][10][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 12% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][10][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 12% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aart
 -- abuf 2
 -- atar 3
@@ -16942,59 +16942,59 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 24
 -- atp1 25
 -- aub1 3
-		t["A04D"][83][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 13% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][83][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 13% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 4
-		t["A04D"][84][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 14% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][84][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 14% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 5
-		t["A04D"][85][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 15% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][85][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 15% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 6
-		t["A04D"][86][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 16% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][86][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 16% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 7
-		t["A04D"][87][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 17% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][87][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 17% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 8
-		t["A04D"][88][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 18% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][88][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 18% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 9
-		t["A04D"][89][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 19% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][89][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 19% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 10
-		t["A04D"][90][1] = "*주변 900범위 자신 소유 유닛의 공격속도를 20% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 공격속도 증가와 중첩되지 않습니다.";
+		t["A04D"][90][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 20% 상승시킵니다.\r\
+|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 11
-		t["A04D"][91][1] = "*주변 900범위 아군 유닛의 공격속도를 21% 상승시킵니다.";
+		t["A04D"][91][1] = "*주변 900범위 아군 Units의 Attack Speed를 21% 상승시킵니다.";
 -- aub1 12
-		t["A04D"][92][1] = "*주변 900범위 아군 유닛의 공격속도를 22% 상승시킵니다.";
+		t["A04D"][92][1] = "*주변 900범위 아군 Units의 Attack Speed를 22% 상승시킵니다.";
 -- aub1 13
-		t["A04D"][93][1] = "*주변 900범위 아군 유닛의 공격속도를 23% 상승시킵니다.";
+		t["A04D"][93][1] = "*주변 900범위 아군 Units의 Attack Speed를 23% 상승시킵니다.";
 -- aub1 14
-		t["A04D"][94][1] = "*주변 900범위 아군 유닛의 공격속도를 24% 상승시킵니다.";
+		t["A04D"][94][1] = "*주변 900범위 아군 Units의 Attack Speed를 24% 상승시킵니다.";
 -- aub1 15
-		t["A04D"][95][1] = "*주변 900범위 아군 유닛의 공격속도를 25% 상승시킵니다.";
+		t["A04D"][95][1] = "*주변 900범위 아군 Units의 Attack Speed를 25% 상승시킵니다.";
 -- aub1 16
-		t["A04D"][96][1] = "*주변 900범위 아군 유닛의 공격속도를 26% 상승시킵니다.";
+		t["A04D"][96][1] = "*주변 900범위 아군 Units의 Attack Speed를 26% 상승시킵니다.";
 -- aub1 17
-		t["A04D"][97][1] = "*주변 900범위 아군 유닛의 공격속도를 27% 상승시킵니다.";
+		t["A04D"][97][1] = "*주변 900범위 아군 Units의 Attack Speed를 27% 상승시킵니다.";
 -- aub1 18
-		t["A04D"][98][1] = "*주변 900범위 아군 유닛의 공격속도를 28% 상승시킵니다.";
+		t["A04D"][98][1] = "*주변 900범위 아군 Units의 Attack Speed를 28% 상승시킵니다.";
 -- aub1 19
-		t["A04D"][99][1] = "*주변 900범위 아군 유닛의 공격속도를 29% 상승시킵니다.";
+		t["A04D"][99][1] = "*주변 900범위 아군 Units의 Attack Speed를 29% 상승시킵니다.";
 -- aub1 20
-		t["A04D"][100][1] = "*주변 900범위 아군 유닛의 공격속도를 30% 상승시킵니다.";
+		t["A04D"][100][1] = "*주변 900범위 아군 Units의 Attack Speed를 30% 상승시킵니다.";
 -- aub1 21
-		t["A04D"][101][1] = "주변 900범위 아군 유닛의 공격속도를 <A04D,DataB21,%>% 상승시킵니다. ";
+		t["A04D"][101][1] = "주변 900범위 아군 Units의 Attack Speed를 <A04D,DataB21,%>% 상승시킵니다. ";
 -- aub1 22
-		t["A04D"][102][1] = "주변 900범위 아군 유닛의 공격속도를 <A04D,DataB22,%>% 상승시킵니다. ";
+		t["A04D"][102][1] = "주변 900범위 아군 Units의 Attack Speed를 <A04D,DataB22,%>% 상승시킵니다. ";
 -- aub1 23
-		t["A04D"][103][1] = "주변 900범위 아군 유닛의 공격속도를 <A04D,DataB23,%>% 상승시킵니다. ";
+		t["A04D"][103][1] = "주변 900범위 아군 Units의 Attack Speed를 <A04D,DataB23,%>% 상승시킵니다. ";
 -- aub1 24
-		t["A04D"][104][1] = "주변 900범위 아군 유닛의 공격속도를 <A04D,DataB24,%>% 상승시킵니다. ";
+		t["A04D"][104][1] = "주변 900범위 아군 Units의 Attack Speed를 <A04D,DataB24,%>% 상승시킵니다. ";
 -- aub1 25
-		t["A04D"][105][1] = "주변 900범위 아군 유닛의 공격속도를 <A04D,DataB25,%>% 상승시킵니다. ";
+		t["A04D"][105][1] = "주변 900범위 아군 Units의 Attack Speed를 <A04D,DataB25,%>% 상승시킵니다. ";
 -- [A0D3]
 -- anam
 		t["A0D3"][1][1] = "[이펙트]니토리";
@@ -17011,7 +17011,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0D6"][5][1] = "Kishin Sagume + Lily Black + Cirno[Minus K]";
 -- atp1 1
-		t["A0D6"][6][1] = "|c00ffff00Clownpiece|r 조합|c00FF8040[D]|r";
+		t["A0D6"][6][1] = "|c00ffff00Clownpiece|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0D6"][8][1] = "h05P,h03R,h01M";
@@ -17027,9 +17027,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0J9"][4][1] = "|c00A8F13A[Combination]|r: Luna Child[Rare] + Tewi Inaba[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0JA]
 -- arac
@@ -17037,7 +17037,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0JA"][5][1] = "Luna Child + Tewi Inaba + Mizuhashi Parsee";
 -- atp1 1
-		t["A0JA"][6][1] = "|c00ffff00키신 사구메|r 조합|c00FF8040[D]|r";
+		t["A0JA"][6][1] = "|c00ffff00키신 사구메|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0JA"][8][1] = "h00W,h00X,h02Y";
@@ -17068,7 +17068,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A02K"][5][1] = "사이교우지 유유코[반혼접] + Layla Prismriver[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A02K"][6][1] = "|c00ffff00Youmu Konpaku[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A02K"][6][1] = "|c00ffff00Youmu Konpaku[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A02K"][8][1] = "h03Z,h03O,h05U";
@@ -17088,9 +17088,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A05Z"][4][1] = "|c00A8F13A[Combination]|r: Utsuho Reiuji[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개\r\
 \r\
-[공격속도]: 0.38초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.38 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [A0G3]
 -- arac
@@ -17098,7 +17098,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0G3"][5][1] = "Utsuho Reiuji[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0G3"][6][1] = "|c00ffff00Utsuho Reiuji[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0G3"][6][1] = "|c00ffff00Utsuho Reiuji[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0G3"][8][1] = "h01S,h01G,h05U";
@@ -17118,8 +17118,8 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0HA"][4][1] = "박명 『얼마 남지 않은 여생』";
 -- aub1 1
-		t["A0HA"][5][1] = "*공격시 20% 확률로 대상 라인 유닛의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 현재 체력의 3% + 35만의 |c00379BFF마법 데미지|r를 입힙니다. [보스 유닛에게는 30%의 데미지만 적용됩니다]\r\
-*보스 유닛을 공격시 35% 확률로 잃은 체력의 1%에 해당하는 |c00379BFF마법 데미지|r를 입힙니다.";
+		t["A0HA"][5][1] = "*공격시 20% 확률로 대상 라인 Units의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 현재 체력의 3% + 35만의 |c00379BFF마법 데미지|r를 입힙니다. [보스 Units에게는 30%의 데미지만 적용됩니다]\r\
+*보스 Units을 공격시 35% 확률로 잃은 체력의 1%에 해당하는 |c00379BFF마법 데미지|r를 입힙니다.";
 -- [A0HB]
 -- aart
 -- arac
@@ -17128,7 +17128,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0HB"][4][1] = "『어비스 노바』";
 -- aub1 1
 		t["A0HB"][5][1] = "*기본적으로 우츠호 주변 800범위내에 있는 적의 방어력을 35 감소시킵니다.\r\
-*기본적으로 우츠호 주변 800범위내에 있는 적의 이동속도를 25% 감소시킵니다.\r\
+*기본적으로 우츠호 주변 800범위내에 있는 적의 Movement Speed를 25% 감소시킵니다.\r\
 *우츠호가 공격시 마나를 1 회복합니다. 우츠호의 마나가 115가 됐을때 핵융합의 힘으로 폭발을 일으켜 자신 주변 1000범위 적을 3초간 스턴시키고, 현재 체력의 2.5% + 250만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- [A0HC]
 -- aart
@@ -17139,7 +17139,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0HC"][4][1] = "신광『거스름이 없음을 으뜸으로 여기라』";
 -- aub1 1
 		t["A0HC"][5][1] = "*미코가 공격시 마나를 1씩 쌓습니다. 마나가 200이 됐을때 발동합니다.\r\
-*대상 지점에 태양의 빛을 내립니다. 지점 주변 600범위 내에 있는 적 유닛에게 전체 체력의 4% + 700만의 |c00379BFF마법 데미지|r를 입히고, 3초간 스턴시킵니다.";
+*대상 지점에 태양의 빛을 내립니다. 지점 주변 600범위 내에 있는 적 Units에게 전체 체력의 4% + 700만의 |c00379BFF마법 데미지|r를 입히고, 3초간 스턴시킵니다.";
 -- [A0HD]
 -- aart
 -- arac
@@ -17149,8 +17149,8 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["A0HD"][4][1] = "창부『큐티 대천창』";
 -- aub1 1
 		t["A0HD"][5][1] = "*앨리스가 공격시 마나를 1 회복합니다. 마나가 105가 됐을때 아래의 효과를 발동합니다.\r\
-*자신의 유닛에 Marisa Kirisame[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
-*자신의 유닛에 Patchouli Knowledge[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
+*자신의 Units에 Marisa Kirisame[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
+*자신의 Units에 Patchouli Knowledge[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
 *앨리스가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *총 3초간 지속됩니다.";
 -- [A0JT]
@@ -17179,10 +17179,10 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0KN"][4][1] = "탄부『래빗 팔코너』";
 -- aub1 1
-		t["A0KN"][5][1] = "*Seiran은 보스를 공격할때 공격속도가 200% 증가합니다.\r\
+		t["A0KN"][5][1] = "*Seiran은 보스를 공격할때 Attack Speed가 200% 증가합니다.\r\
 *보스 공격시 20% 확률로 전체 체력의 3% + 200만의  |c00FF6464물리 데미지|r를 입히고, 2초간 기절시킵니다.\r\
-*Seiran이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 Normal 유닛을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
-[나즈린 , 성련선]\r\
+*Seiran이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 Normal Units을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
+[나즈린 , Palanquin Ship]\r\
 [자신 라인의 자경단 미션만 해당됩니다.]";
 -- [A0KO]
 -- aart
@@ -17193,9 +17193,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Orin[Rare] + Lyrica Prismriver[Rare]\r\
 \r\
-[공격속도]: 3초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 3 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- [A0KP]
 -- aart
 		t["A0KP"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp";
@@ -17216,9 +17216,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 1.2초당 1번\r\
-[이동속도]: 335\r\
-|c00F8BA54[업그레이드]|r : 무게츠 업그레이드";
+[Attack Speed]: 1.2 Cooldown\r\
+[Movement Speed]: 335\r\
+|c00F8BA54[Upgrade]|r : 무게츠 Upgrade";
 -- [A0KK]
 -- anam
 -- arac
@@ -17235,7 +17235,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0KR"][5][1] = "레티 화이트락[노던 위너] + Cirno[Minus K] + Unique 소울 1개";
 -- atp1 1
-		t["A0KR"][6][1] = "|c00ffff00Cirno[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0KR"][6][1] = "|c00ffff00Cirno[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0KR"][8][1] = "h03V,h01M,h05U";
@@ -17255,9 +17255,9 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["A0KS"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[노던 위너] + Cirno[Minus K] + Unique 소울\r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [S003]
 -- atar 1
@@ -17266,8 +17266,8 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["S003"][3][1] = "『장미를 죽이는 카밀라』";
 -- aub1 1
-		t["S003"][4][1] = "*자신 주변 650범위 아군을 선혈로 물들여 공격속도를 12% 상승시킵니다.\r\
-*자신 주변 650범위 적을 선혈로 물들여 이동속도를 25% 감소시킵니다.\r\
+		t["S003"][4][1] = "*자신 주변 650범위 아군을 선혈로 물들여 Attack Speed를 12% 상승시킵니다.\r\
+*자신 주변 650범위 적을 선혈로 물들여 Movement Speed를 25% 감소시킵니다.\r\
 *레밀리아가 공격시 5% 확률로 대상 적의 피를 폭발시켜 주변 450범위내의 적에게 공격한 대상 적의 현재 체력의 0.6% + 230만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *위 효과가 발동할 경우 대상 적 1기의 현재 체력을 절반 감소시킵니다.[보스 미적용]";
 -- anam
@@ -17286,7 +17286,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- aub1 1
 		t["S004"][4][1] = "*신키가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, 자신 주변 1200범위 적의 체력을 현재 체력의 75%로 만들고, 225만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *자신 이외의 마나 회복 효과를 받지 않습니다.\r\
-*신키 주변 1000범위 아군의 공격속도를 18% , 이동속도를 100% 증가시킵니다.";
+*신키 주변 1000범위 아군의 Attack Speed를 18% , Movement Speed를 100% 증가시킵니다.";
 -- anam
 		t["S004"][5][1] = "[신키]";
 -- abuf 1
@@ -17313,7 +17313,7 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["S004"][25][1] = "*신키가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, 자신 주변 1200범위 적의 체력을 현재 체력의 60%로 만들고, 225만의 물리 데미지를 입힙니다.\r\
 *세계의 끝을 7번 발동할때마다『불안정한 마계의 문』의 사용 가능 횟수가 1번씩 회복됩니다.\r\
 *자신 이외의 마나 회복 효과를 받지 않습니다.\r\
-*신키 주변 1000범위 아군의 공격속도를 35% , 이동속도를 100% 증가시킵니다.";
+*신키 주변 1000범위 아군의 Attack Speed를 35% , Movement Speed를 100% 증가시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -17387,14 +17387,14 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 		t["S005"][3][1] = "『바다와 산을 잇는 정도의 능력』";
 -- aub1 1
 		t["S005"][4][1] = "*기본적으로 공중 이동이 가능합니다.\r\
-*토요히메 주변 750범위 내에 있는 적의 이동속도를 20% 감소시킵니다.\r\
+*토요히메 주변 750범위 내에 있는 적의 Movement Speed를 20% 감소시킵니다.\r\
 *공격시 10% 확률로 대상 주변 425범위내의 적에게 100만의 |c00379BFF마법 데미지|r를 입히고, 2.2초간 스턴시킵니다.\r\
 *발동시 마나를 4 회복합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『맛있는 복숭아』\r\
 \r\
-*토요히메의 여유로움은 주변 800범위 자신 소유 유닛의 공격속도를 20% 상승시킵니다.\r\
-[다른 Unique 이하 등급의 공격속도 증가 오라와 함께 적용되지 않습니다.]";
+*토요히메의 여유로움은 주변 800범위 자신 소유 Units의 Attack Speed를 20% 상승시킵니다.\r\
+[다른 Unique 이하 등급의 Attack Speed 증가 오라와 함께 적용되지 않습니다.]";
 -- anam
 		t["S005"][5][1] = "[Arcana][토요히메]『바다와 산을 잇는 정도의 능력』";
 -- abuf 1
@@ -17635,14 +17635,14 @@ Kijin Seija[익스텐드] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + T
 -- atp1 1
 		t["A0KY"][5][1] = "길조「극락의 보라색 구름길」- F랭크";
 -- aub1 1
-		t["A0KY"][6][1] = "*뱌쿠렌 주변 650범위의 유닛의 이동속도를 10% 감소시키고, 방어력을 10 감소시킵니다.\r\
-E랭크 : 이동속도 감소량이 15%로 증가합니다.\r\
+		t["A0KY"][6][1] = "*뱌쿠렌 주변 650범위의 Units의 Movement Speed를 10% 감소시키고, 방어력을 10 감소시킵니다.\r\
+E랭크 : Movement Speed 감소량이 15%로 증가합니다.\r\
 D랭크 : 방어력 감소량이 15로 증가합니다.\r\
-C랭크 : 이동속도 감소량이 20%로 증가합니다.\r\
+C랭크 : Movement Speed 감소량이 20%로 증가합니다.\r\
 B랭크 : 방어력 감소량이 25로 증가합니다.\r\
-A랭크 : 이동속도 30% 감소\r\
+A랭크 : Movement Speed 30% 감소\r\
 S랭크 : 방어력 35 감소\r\
-EX랭크 : 이동속도 35% 감소, 방어력 40 감소";
+EX랭크 : Movement Speed 35% 감소, 방어력 40 감소";
 -- abuf 1
 		t["A0KY"][8][1] = "B02P";
 -- atar 2
@@ -17687,7 +17687,7 @@ EX랭크 : 이동속도 35% 감소, 방어력 40 감소";
 		t["S006"][3][1] = "초인「히지리 뱌쿠렌」- F랭크";
 -- aub1 1
 		t["S006"][4][1] = "*뱌쿠렌의 모든 스킬은 마스터리 효과를 갖습니다. 각 랭크를 레벨업하는데에는 5번의 스킬 작동이 필요합니다.\r\
-*각 스킬은 E,D,C,B,A,S,EX 랭크로 진화합니다. 모든 랭크가 EX로 진화하고, 업그레이드를 마스터했으면 뱌쿠렌의 공격력이 25만 증가하고, 최대치의 공격속도를 갖습니다.";
+*각 스킬은 E,D,C,B,A,S,EX 랭크로 진화합니다. 모든 랭크가 EX로 진화하고, Upgrade를 마스터했으면 뱌쿠렌의 공격력이 25만 증가하고, 최대치의 Attack Speed를 갖습니다.";
 -- anam
 		t["S006"][5][1] = "[뱌쿠렌]초인";
 -- abuf 1
@@ -17753,7 +17753,7 @@ C랭크 : 뱌쿠렌의 공격력 60% 상승 , 스킬 공격력 25% 상승\r\
 B랭크 : 뱌쿠렌의 공격력 75% 상승 , 스킬 공격력 30% 상승\r\
 A랭크 : 뱌쿠렌의 공격력 100% 상승 , 스킬 공격력 35% 상승\r\
 S랭크 : 뱌쿠렌의 공격력 120% 상승 , 스킬 공격력 50% 상승\r\
-EX랭크 : 공격시 10% 확률로 대상 주변 325범위 유닛에게 225만의 |c00FF6464물리 데미지|r";
+EX랭크 : 공격시 10% 확률로 대상 주변 325범위 Units에게 225만의 |c00FF6464물리 데미지|r";
 -- ata1
 		t["A07B"][9][1] = "hand,right";
 -- atar 2
@@ -17866,7 +17866,7 @@ EX랭크 : 공격시 10% 확률로 대상 주변 325범위 유닛에게 225만�
 -- atp1 1
 		t["A07D"][4][1] = "『스타소드의 호법』- F랭크";
 -- aub1 1
-		t["A07D"][5][1] = "*뱌쿠렌이 공격시 11% 확률로 적 유닛의 지점에 별빛을 꽂아 데미지를 입힙니다.\r\
+		t["A07D"][5][1] = "*뱌쿠렌이 공격시 11% 확률로 적 Units의 지점에 별빛을 꽂아 데미지를 입힙니다.\r\
 \r\
 E랭크 : 50만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 D랭크 : 65만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
@@ -17874,7 +17874,7 @@ C랭크 : 75만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 B랭크 : 90만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 A랭크 : 60만의 |c00FF6464물리 데미지|r와 40만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 S랭크 : 75만의 |c00FF6464물리 데미지|r와 55만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-EX랭크 : 대상 유닛에게 현재 체력의 2%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.";
+EX랭크 : 대상 Units에게 현재 체력의 2%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.";
 -- atar 1
 -- atar 2
 -- atar 3
@@ -18037,11 +18037,11 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0L5"][3][1] = "|c00FEE952[Unit Information]|r - 사리엘[Historic]";
 -- aub1 1
-		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + Doremy Sweet[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각\r\
+		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 사리엘 업그레이드";
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 400[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 사리엘 Upgrade";
 -- aart
 		t["A0L5"][5][1] = "ReplaceableTextures\\CommandButtons\\Sariel\\BTN_UP.blp";
 -- [A05O]
@@ -18051,7 +18051,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 1
 		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각 = 오카자키 유메미";
 -- atp1 1
-		t["A05O"][6][1] = "|c00ffff00오카자키 유메미|r 조합|c00FF8040[F]|r";
+		t["A05O"][6][1] = "|c00ffff00오카자키 유메미|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A05O"][8][1] = "edry,hmtm,e03C,h04Y";
@@ -18065,7 +18065,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0L6"][2][1] = "초시공함 『가능성 공간이동선』";
 -- aub1 1
 		t["A0L6"][3][1] = "*유메미가 공격시 11% 확률로 공간이동선에게 분해 광선 요청을 내립니다.\r\
-*분해광선은 유메미가 공격한 유닛에게 발사되며, 분해광선에 맞은 대상 유닛은 350만의 |c00AC59FF절대 데미지|r를 입습니다.\r\
+*분해광선은 유메미가 공격한 Units에게 발사되며, 분해광선에 맞은 대상 Units은 350만의 |c00AC59FF절대 데미지|r를 입습니다.\r\
 [보스에게는 30%의 데미지만 입힙니다.]\r\
 *대상 주변 500범위 내에 있는 적에게도 90만의 |c00FF6464물리 데미지|r와 90만의 |c00AC59FF절대 데미지|r를 입히고, 1초간 스턴시킵니다.";
 -- anam
@@ -18140,11 +18140,11 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A06U"][4][1] = "|c00FEE952[Unit Information]|r - Kochiya Sanae[Arcana]";
 -- aub1 1
 		t["A06U"][5][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + 사나에[Unique] + Unique 소울 * 2 + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 기적의 미라클(sanae arc)\r\
+|c00A8F13A[Type Command]|r: 기적의 미라클(sanae arc)\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- [A0JR]
 -- aart
 -- arac
@@ -18174,7 +18174,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『초끈이론』\r\
 \r\
-*렌코가 공격시 14% 확률로 대상 유닛과 자신에게 끈을 만들어 '대상 유닛'의 전체 체력의 0.6%의 |c00379BFF마법 데미지|r를 주변 450범위에 입힙니다.";
+*렌코가 공격시 14% 확률로 대상 Units과 자신에게 끈을 만들어 '대상 Units'의 전체 체력의 0.6%의 |c00379BFF마법 데미지|r를 주변 450범위에 입힙니다.";
 -- [A0L7]
 -- aart
 -- arac
@@ -18191,20 +18191,20 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0L8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Legendary]";
 -- aub1 1
-		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + 정체불명[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개\r\
+		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0L8"][5][1] = "Icon\\Unit\\BTNRemilia_Leg.blp";
 -- [A0KL]
 -- arac
 -- aart
 -- aub1 1
-		t["A0KL"][5][1] = "레밀리아 스칼렛[Epic] + 정체불명[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개";
+		t["A0KL"][5][1] = "레밀리아 스칼렛[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개";
 -- atp1 1
-		t["A0KL"][6][1] = "|c00ffff00레밀리아 스칼렛[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0KL"][6][1] = "|c00ffff00레밀리아 스칼렛[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0KL"][8][1] = "h00Y,h05U,h01J,h00P";
@@ -18251,17 +18251,17 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 1
 		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + 토키코[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 오카자키 유메미 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 400[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 오카자키 유메미 Upgrade";
 -- aart
 -- [A0CN]
 -- arac
 -- aart
 -- aub1 1
-		t["A0CN"][5][1] = "마에리베리 한[Epic] + Doremy Sweet[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각 = 사리엘";
+		t["A0CN"][5][1] = "마에리베리 한[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각 = 사리엘";
 -- atp1 1
-		t["A0CN"][6][1] = "|c00ffff00사리엘|r 조합|c00FF8040[F]|r";
+		t["A0CN"][6][1] = "|c00ffff00사리엘|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0CN"][8][1] = "h03W,uobs,h03S,e03C";
@@ -18519,7 +18519,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- abuf 1
 		t["A09D"][8][1] = "B035";
 -- atp1 2
-		t["A09D"][9][1] = "독부『신경의 독』- |c0000FFFF익스텐드|r";
+		t["A09D"][9][1] = "독부『신경의 독』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A09D"][10][1] = "＊독을 퍼뜨려 자신 주변 900 범위의 적 방어력을 30 감소시킵니다.\r\
 ＊|c00FF80FF[활력]|r - 10초 : 6초 동안 지속되는 맹독을 대상한테 주입해 1초마다 전체 체력 1% + 50만(보스는 30%)의 |c00AC59FF절대 피해|r를 가하고 방어력을 45 감소시킵니다. 맹독은 중첩되지 않습니다.";
@@ -18555,7 +18555,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A026"][5][1] = "『머메이드 펀치』";
 -- aub1 1
 		t["A026"][6][1] = "*|c00FF80FF[활력]|r - 6초\r\
-*와카사기히메의 공격력의 50~100배에 해당하는 절대 데미지를 대상 유닛에게 입히고 그 주변 350범위 유닛에게는 20%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*와카사기히메의 공격력의 50~100배에 해당하는 절대 데미지를 대상 Units에게 입히고 그 주변 350범위 Units에게는 20%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *보스에게는 20%의 데미지만 적용됩니다.\r\
 *주변 800범위 적의 방어력을 45 감소시킵니다.";
 -- abuf 1
@@ -18582,7 +18582,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A026"][23][1] = "『머메이드 펀치』- 물기 6";
 -- aub1 2
 		t["A026"][24][1] = "*|c00FF80FF[활력]|r - 12초\r\
-*와카사기히메의 공격력의 50~100배에 해당하는 절대 데미지를 대상 유닛에게 입히고 그 주변 350범위 유닛에게는 20%에 해당하는 물리 데미지를 입힙니다.\r\
+*와카사기히메의 공격력의 50~100배에 해당하는 절대 데미지를 대상 Units에게 입히고 그 주변 350범위 Units에게는 20%에 해당하는 물리 데미지를 입힙니다.\r\
 *자경단 임무 보스에게는 10% . 스토리 보스에게는 5%의 데미지만 적용됩니다.\r\
 *주변 800범위 적의 방어력을 20 감소시킵니다.";
 -- aub1 3
@@ -18597,7 +18597,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 1
 		t["S007"][4][1] = "*시키에이키가 공격시 15% 확률로 자신의 회오봉을 앞으로 내지르며 탄막을 발사합니다. \r\
 *전방 900거리 250범위 내에 있는 적에게 185만의 |c00379BFF마법 데미지|r를 입히고 받는 마법 데미지를 15% 증폭시킵니다.\r\
-*기본적으로 시키 주변 750범위 내에 있는 자신 소유 유닛의 공격속도를 17% 상승시킵니다.";
+*기본적으로 시키 주변 750범위 내에 있는 자신 소유 Units의 Attack Speed를 17% 상승시킵니다.";
 -- anam
 		t["S007"][5][1] = "[Arcana][시키]텅 오브 울프";
 -- abuf 1
@@ -18613,9 +18613,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 1
 		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: 레이센 우돈게인 이나바[Unique] + Houraisan Kaguya[Epic] + Unique 소울 1개\r\
 \r\
-[공격속도]: 0.32초당 1번\r\
-[이동속도]: 380[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
+[Attack Speed]: 0.32 Cooldown\r\
+[Movement Speed]: 380[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[조합 시너지]|r행운의 토끼 드롭스\r\
 -Tewi Inaba[Rare]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
 -- aart
@@ -18626,10 +18626,10 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["S008"][3][1] = "환롱월예『루나틱 레드 아이즈』";
 -- aub1 1
-		t["S008"][4][1] = "*기본적으로 자신 주변 700범위 적의 이동속도를 40% 감소시킵니다. \r\
+		t["S008"][4][1] = "*기본적으로 자신 주변 700범위 적의 Movement Speed를 40% 감소시킵니다. \r\
 *공격시 마나를 1씩 쌓습니다. 마나가 110이 되면 다음의 효과를 발동시킵니다.\r\
 \r\
-|c00FFFF00눈을 뜸|r : 자신 주변 1000범위에 현재 체력의 4%의 |c00FF6464물리 데미지|r와 5초간 공격속도 30% 증가 효과\r\
+|c00FFFF00눈을 뜸|r : 자신 주변 1000범위에 현재 체력의 4%의 |c00FF6464물리 데미지|r와 5초간 Attack Speed 30% 증가 효과\r\
 |c00FFFF00눈을 감음|r : 자신 주변 1000범위에 185만의 |c00FF6464물리 데미지|r와 4.5초의 스턴 효과.";
 -- anam
 -- abuf 1
@@ -18659,8 +18659,8 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 1
 		t["A0LJ"][5][1] = "*|c00FF80FF[활력]|r - 15초\r\
 레이센이 12초간 지속되는 자신의 분신을 생성합니다. 이 분신은 공격시 환롱월예를 제외한 다른 스킬들을 발동시킵니다.\r\
-*분신이 보스 유닛을 공격할 경우 현재 체력의 0.3% 에 해당하는 추가 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*레이센이 공격시 대상 유닛의 방어력을 15만큼 영구히 감소시킵니다.";
+*분신이 보스 Units을 공격할 경우 현재 체력의 0.3% 에 해당하는 추가 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*레이센이 공격시 대상 Units의 방어력을 15만큼 영구히 감소시킵니다.";
 -- [A0LM]
 -- arac
 -- anam
@@ -18673,7 +18673,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aub1 1
 		t["A0LN"][5][1] = "Reisen Udongein Inaba[Unique] + Houraisan Kaguya[Epic] + Unique 소울 1개";
 -- atp1 1
-		t["A0LN"][6][1] = "|c00ffff00Reisen Udongein Inaba[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0LN"][6][1] = "|c00ffff00Reisen Udongein Inaba[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0LN"][8][1] = "h016,h02P,h05U";
@@ -18693,7 +18693,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0LO"][6][1] = "풍신의 축복|cffffcc00(Q)|r";
 -- aub1 1
-		t["A0LO"][7][1] = "*대상 Normal 유닛을 랜덤한 Normal 혹은 Magic 유닛으로 바꿉니다.[UFO는 등장하지 않습니다.]\r\
+		t["A0LO"][7][1] = "*대상 Normal Units을 랜덤한 Normal 혹은 Magic Units으로 바꿉니다.[UFO는 등장하지 않습니다.]\r\
 *쿨다운 180초";
 -- aart
 -- atar 1
@@ -18702,7 +18702,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 2
 		t["A0LO"][12][1] = "강화된 풍신의 축복|cffffcc00(Q)|r";
 -- aub1 2
-		t["A0LO"][13][1] = "목표 Normal 유닛을 랜덤한 Magic 유닛으로 바꿉니다. 쿨다운 160초";
+		t["A0LO"][13][1] = "목표 Normal Units을 랜덤한 Magic Units으로 바꿉니다. 쿨다운 160초";
 -- [A0LP]
 -- aart
 -- arac
@@ -18726,8 +18726,8 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- atp1 1
 -- aub1 1
-		t["S009"][4][1] = "*레이무 주변 600범위 유닛의 이동속도를 60% 감소시킵니다.\r\
-*대상 유닛이 보스 유닛일 경우, 공격시 60% 확률로 현재 체력의 0.4% + 45만의 |c00379BFF마법 데미지|r를 추가로 입히고, 1초간 스턴시킵니다.";
+		t["S009"][4][1] = "*레이무 주변 600범위 Units의 Movement Speed를 60% 감소시킵니다.\r\
+*대상 Units이 보스 Units일 경우, 공격시 60% 확률로 현재 체력의 0.4% + 45만의 |c00379BFF마법 데미지|r를 추가로 입히고, 1초간 스턴시킵니다.";
 -- anam
 -- abuf 1
 		t["S009"][6][1] = "B03D";
@@ -18758,9 +18758,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A0LT"][4][1] = "Icon\\Unit\\BTNReimu_Leg.blp";
 -- aub1 1
-		t["A0LT"][5][1] = "Hakurei Reimu[호밍] + Futatsuiwa Mamizou[Epic] + Unique 소울 1개";
+		t["A0LT"][5][1] = "Hakurei Reimu[Homing] + Futatsuiwa Mamizou[Epic] + Unique 소울 1개";
 -- atp1 1
-		t["A0LT"][6][1] = "|c00ffff00Hakurei Reimu[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0LT"][6][1] = "|c00ffff00Hakurei Reimu[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0LT"][8][1] = "h017,h041,h05U";
@@ -18778,11 +18778,11 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0LU"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Legendary]";
 -- aub1 1
-		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[호밍] + Futatsuiwa Mamizou[Epic] + Unique 소울\r\
+		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Homing] + Futatsuiwa Mamizou[Epic] + Unique 소울\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 *|c00C5EA53[조합 시너지]|r신사의 멋진 탈 것\r\
 -겐지 할아범[특수]를 보유하고 있을 경우, 신사 진영 능력인『신령강림』의 쿨다운이 300초에서 250초로 감소합니다.";
 -- aart
@@ -18813,20 +18813,20 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - 신키[Historic]";
 -- aub1 1
-		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
+		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.35초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 신키 업그레이드";
+[Attack Speed]: 0.35 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : 신키 Upgrade";
 -- aart
 		t["A03Q"][5][1] = "ReplaceableTextures\\CommandButtons\\Shinki\\BTN_UP.blp";
 -- [A03R]
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "앨리스 마가트로이드[인형재판] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
+		t["A03R"][5][1] = "Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + 토라마루 쇼우[Epic] + 고대와 환상의 조각 = 신키";
 -- atp1 1
-		t["A03R"][6][1] = "|c00ffff00신키|r 조합|c00FF8040[F]|r";
+		t["A03R"][6][1] = "|c00ffff00신키|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A03R"][8][1] = "h048,h019,h021,h00L,e03C";
@@ -18907,8 +18907,8 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["S00A"][2][1] = "『죽음의 손아귀』";
 -- aub1 1
-		t["S00A"][3][1] = "*신키가 공격시 25% 확률로 대상 유닛의 잃은 체력의 3% + 55만에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*기본적으로 신키 주변 1000범위 적의 이동속도를 32% 감소시킵니다.";
+		t["S00A"][3][1] = "*신키가 공격시 25% 확률로 대상 Units의 잃은 체력의 3% + 55만에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*기본적으로 신키 주변 1000범위 적의 Movement Speed를 32% 감소시킵니다.";
 -- anam
 		t["S00A"][4][1] = "[신키]죽음의 손아귀";
 -- abuf 1
@@ -18925,7 +18925,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0GT"][5][1] = "광열『하이텐션 블레이드』";
 -- aub1 1
 		t["A0GT"][6][1] = "*우츠호가 공격시 10% 확률로 자신의 제어봉에서 칼날 형태의 빔을 발사합니다. 900거리 250범위 내에 있는 적에게 현재 체력의 0.9% + 90만의 |c00FF6464물리 데미지|r를 입히고, 1.8초간 스턴시킵니다.\r\
-*우츠호가 보스 유닛을 공격시 40% 확률로 대상 현재 체력의 1.5% + 45만의 |c00FF6464물리 데미지|r를 입힙니다.";
+*우츠호가 보스 Units을 공격시 40% 확률로 대상 현재 체력의 1.5% + 45만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- atat
 -- abuf 1
 		t["A0GT"][8][1] = "B03P";
@@ -19327,13 +19327,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0GT"][305][1] = "「마계의 신」- 마력 100";
 -- aub1 2
 		t["A0GT"][306][1] = "*우츠호가 공격시 10% 확률로 자신의 제어봉에서 칼날 형태의 빔을 발사합니다. 900거리 250범위 내에 있는 적에게 현재 체력의 0.9% + 45만의 물리 데미지를 입힙니다. 이 효과는 보스에게 데미지를 입히지 못합니다.\r\
-*우츠호가 보스 유닛을 공격시 20% 확률로 대상 현재 체력의 1.5% + 45만의 물리 데미지를 입힙니다.";
+*우츠호가 보스 Units을 공격시 20% 확률로 대상 현재 체력의 1.5% + 45만의 물리 데미지를 입힙니다.";
 -- aub1 3
-		t["A0GT"][307][1] = "신키가 조합되면 자신이 갖고 있는 모든 Devil와 Small Devil가 사라집니다.\r\
+		t["A0GT"][307][1] = "신키가 Combination되면 자신이 갖고 있는 모든 Devil와 Small Devil가 사라집니다.\r\
 Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합니다.\r\
 흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 신키의 모든 스킬은 흡수한 마력에 비례해 강해집니다.\r\
 신키는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻습니다.\r\
-기본적으로 공격속도가 매우 빠릅니다.";
+기본적으로 Attack Speed가 매우 빠릅니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -19436,8 +19436,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0GU"][2][1] = "『페이탈 블리츠』";
 -- aub1 1
-		t["A0GU"][3][1] = "*유메코가 공격시 6% 확률로 대상 유닛의 심장을 검으로 빼내 터뜨립니다. 대상 유닛 주변 500범위내에 있는 적에게 160만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*『페이탈 블리츠』가 발동했을 때 대상 유닛에게 잃은 체력의 7%에 해당하는 |c00AC59FF절대 데미지|r를 입히고, 체력이 15% 이하라면 즉사시킵니다.[이 효과는 보스에게 적용되지 않습니다]";
+		t["A0GU"][3][1] = "*유메코가 공격시 6% 확률로 대상 Units의 심장을 검으로 빼내 터뜨립니다. 대상 Units 주변 500범위내에 있는 적에게 160만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+*『페이탈 블리츠』가 발동했을 때 대상 Units에게 잃은 체력의 7%에 해당하는 |c00AC59FF절대 데미지|r를 입히고, 체력이 15% 이하라면 즉사시킵니다.[이 효과는 보스에게 적용되지 않습니다]";
 -- anam
 -- aart
 -- atp1 2
@@ -19508,18 +19508,18 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0I8"][4][1] = "|c00FEE952[Unit Information]|r - 사카타 네무노[Arcana]";
 -- aub1 1
 		t["A0I8"][5][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Luna Child[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 무서운 부엌칼(nemuno arc)\r\
+|c00A8F13A[Type Command]|r: 무서운 부엌칼(nemuno arc)\r\
 \r\
-[공격속도]: 0.38초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.38 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- [A014]
 -- arac
 -- aart
 -- aub1 1
 		t["A014"][5][1] = "Aya Shameimaru[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개";
 -- atp1 1
-		t["A014"][6][1] = "|c00ffff00Aya Shameimaru[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A014"][6][1] = "|c00ffff00Aya Shameimaru[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A014"][8][1] = "h045,h00V,h01V,h05U";
@@ -19543,7 +19543,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 		t["A03X"][9][1] = "『재넘이』";
 -- aub1 2
-		t["A03X"][10][1] = "*아야가 공격시 25% 확률로 단일 대상 유닛에게 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+		t["A03X"][10][1] = "*아야가 공격시 25% 확률로 단일 대상 Units에게 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *적의 체력이 60% 이하라면, 잃은 체력의 4%에 해당하는 |c00379BFF마법 데미지|r를 추가로 입힙니다. 잃은 체력 비례 데미지는 보스에게 40%만 적용됩니다.";
 -- [A0LX]
 -- aart
@@ -19590,7 +19590,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- [A0M1]
 -- anam
-		t["A0M1"][2][1] = "[유닛정보][Chronicle]하타노 코코로";
+		t["A0M1"][2][1] = "[Units정보][Chronicle]하타노 코코로";
 -- aart
 		t["A0M1"][3][1] = "ReplaceableTextures\\CommandButtons\\Kokoro\\BTN_UP.blp";
 -- atp1 1
@@ -19598,9 +19598,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 하타노 코코로 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : 하타노 코코로 Upgrade";
 -- [A0M2]
 -- atar 1
 -- acat
@@ -19608,7 +19608,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- anam
 -- atp1 1
-		t["A0M2"][5][1] = "|c00ffff00하타노 코코로|r 조합|c00FF8040[F]|r";
+		t["A0M2"][5][1] = "|c00ffff00하타노 코코로|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0M2"][7][1] = "Futatsuiwa Mamizou[Epic] + 코메이지 코이시[Epic] + 호우쥬 누에[Epic] + 2 Unique Souls ";
@@ -19645,7 +19645,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00B"][3][1] = "『노성의 오구모 가면』";
 -- aub1 1
-		t["S00B"][4][1] = "주변 750범위의 적 유닛의 이동속도를 20% 감소시킵니다.";
+		t["S00B"][4][1] = "주변 750범위의 적 Units의 Movement Speed를 20% 감소시킵니다.";
 -- anam
 		t["S00B"][5][1] = "[코코로]노성의 오구모 가면";
 -- abuf 1
@@ -19657,13 +19657,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 		t["S00B"][10][1] = "『노성의 오구모 가면』 - |c00FF0000암흑노가쿠|r";
 -- aub1 2
-		t["S00B"][11][1] = "주변 750범위의 적 유닛의 이동속도를 30% 감소시킵니다.";
+		t["S00B"][11][1] = "주변 750범위의 적 Units의 Movement Speed를 30% 감소시킵니다.";
 -- abuf 3
 -- atar 3
 -- atp1 3
 		t["S00B"][14][1] = "|c008000FF되찾은|r『노성의 오구모 가면』";
 -- aub1 3
-		t["S00B"][15][1] = "주변 750범위의 적 유닛의 이동속도를 50% 감소시킵니다.";
+		t["S00B"][15][1] = "주변 750범위의 적 Units의 Movement Speed를 50% 감소시킵니다.";
 -- [A0M4]
 -- aub1 1
 		t["A0M4"][1][1] = "*코코로가 공격시 10% 확률로 분노의 가면을 해방시킵니다. 자신 800범위 내에 있는 적에게 150만의 |c00FF6464물리 데미지|r를 입힙니다.";
@@ -19720,7 +19720,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 3
 -- atar 2
 -- atp1 2
-		t["A03I"][11][1] = "자부『브로큰 아뮬렛』- |c0000FFFF익스텐드|r";
+		t["A03I"][11][1] = "자부『브로큰 아뮬렛』- |c0000FFFFExtended|r";
 -- atp1 3
 		t["A03I"][12][1] = "[달의 사자 방어력 증가]";
 -- abuf 2
@@ -19741,7 +19741,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A03J"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNScourgeBuild.blp";
 -- atp1 2
-		t["A03J"][6][1] = "비상『비상비비상비의 검』- |c0000FFFF익스텐드|r";
+		t["A03J"][6][1] = "비상『비상비비상비의 검』- |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -19844,7 +19844,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A000"][5][1] = "Wriggle Nightbug + Rumia + Fairy";
 -- atp1 1
-		t["A000"][6][1] = "|c00ffff00Mystia Lorelei|r 조합|c00FF8040[D]|r";
+		t["A000"][6][1] = "|c00ffff00Mystia Lorelei|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A000"][8][1] = "h00H,h043,h002";
@@ -19869,9 +19869,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A009"][2][1] = "h01B";
 -- anam
 -- atp1 1
-		t["A009"][4][1] = "|c00ffff00야사카 카나코|r 조합|c00FF8040[F]|r";
+		t["A009"][4][1] = "|c00ffff00야사카 카나코|r Combination|c00FF8040[F]|r";
 -- aub1 1
-		t["A009"][5][1] = "히메카이도 하타테 + Sㅏ나에 + Kagiyama Hina";
+		t["A009"][5][1] = "히메카이도 하타테 + Sa Nae + Kagiyama Hina";
 -- ahky
 -- aart
 -- alig
@@ -19888,7 +19888,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0BD"][5][1] = "|c00ffff00Red UFO|r 조합|c00FF8040[W]|r";
+		t["A0BD"][5][1] = "|c00ffff00Red UFO|r Combination|c00FF8040[W]|r";
 -- aub1 1
 		t["A0BD"][6][1] = "UFO + UFO";
 -- ahky
@@ -19904,7 +19904,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0C6"][4][1] = "Icon\\Unit\\BTNBentoraGreen_Rare.blp";
 -- anam
 -- atp1 1
-		t["A0C6"][6][1] = "|c00ffff00Green UFO|r 조합|c00FF8040[R]|r";
+		t["A0C6"][6][1] = "|c00ffff00Green UFO|r Combination|c00FF8040[R]|r";
 -- arac
 -- aub1 1
 -- ahky
@@ -19916,7 +19916,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- aub1 1
 -- atp1 1
-		t["A0M7"][6][1] = "|c00ffff00Blue UFO|r 조합|c00FF8040[E]|r";
+		t["A0M7"][6][1] = "|c00ffff00Blue UFO|r Combination|c00FF8040[E]|r";
 -- anam
 -- acat
 -- alig
@@ -19929,7 +19929,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0CJ"][5][1] = "Big Fairy + Blue UFO";
 -- atp1 1
-		t["A0CJ"][6][1] = "|c00ffff00Cirno|r 조합|c00FF8040[F]|r";
+		t["A0CJ"][6][1] = "|c00ffff00Cirno|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0CJ"][8][1] = "h00E,h014";
@@ -19939,7 +19939,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- ahky
 -- [A00X]
 -- anam
-		t["A00X"][1][1] = "[더미][호밍]";
+		t["A00X"][1][1] = "[더미][Homing]";
 -- arac
 -- amat
 -- [A04J]
@@ -19947,7 +19947,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- amat
 		t["A04J"][2][1] = "Abilities\\Weapons\\SeaElementalMissile\\SeaElementalMissile.mdl";
 -- anam
-		t["A04J"][3][1] = "[성련선]";
+		t["A04J"][3][1] = "[Palanquin Ship]";
 -- atp1 1
 		t["A04J"][4][1] = "『물폭탄』";
 -- aub1 1
@@ -19962,11 +19962,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Phantasm]";
 -- aub1 1
 		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + Utsuho Reiuji[Epic] + Imaizumi Kagerou[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 워터 솔져(hime phan)\r\
+|c00A8F13A[Type Command]|r: 워터 솔져(hime phan)\r\
 \r\
-[공격속도]: 0.54초당 1번\r\
-[이동속도]: 522\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.54 Cooldown\r\
+[Movement Speed]: 522\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- aart
 -- [A0M8]
 -- arac
@@ -19974,7 +19974,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0M8"][5][1] = "Fairy + Kawashiro Nitori + Rumia";
 -- atp1 1
-		t["A0M8"][6][1] = "|c00ffff00Marisa Kirisame|r 조합|c00FF8040[F]|r";
+		t["A0M8"][6][1] = "|c00ffff00Marisa Kirisame|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0M8"][8][1] = "h002,h043,h00F";
@@ -19988,7 +19988,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A069"][5][1] = "Kisume + Wakasagihime + Devil";
 -- atp1 1
-		t["A069"][6][1] = "|c00ffff00Mizuhashi Parsee|r 조합|c00FF8040[W]|r";
+		t["A069"][6][1] = "|c00ffff00Mizuhashi Parsee|r Combination|c00FF8040[W]|r";
 -- anam
 -- acat
 		t["A069"][8][1] = "h00K,hpea,h004";
@@ -20011,7 +20011,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A07L"][2][1] = "『파동과 입자의 경계』";
 -- aub1 1
-		t["A07L"][3][1] = "*공격할 시 14% 확률로 대상 주변 600범위의 유닛이 받는 마법 데미지를 20% 증폭시키며, 145만의 |c00379BFF마법 데미지|r를 줍니다.\r\
+		t["A07L"][3][1] = "*공격할 시 14% 확률로 대상 주변 600범위의 Units이 받는 마법 데미지를 20% 증폭시키며, 145만의 |c00379BFF마법 데미지|r를 줍니다.\r\
 *이 스킬의 효과를 받을때마다 이 스킬로 증폭되는 마법 데미지 증폭률이 2배로 상승합니다.[최대 40%]";
 -- anam
 -- aart
@@ -20173,30 +20173,30 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A01T"][6][1] = "변신|cffffcc00(Q)|r";
 -- aub1 1
-		t["A01T"][7][1] = "대상 Normal 유닛으로 변신합니다.";
+		t["A01T"][7][1] = "대상 Normal Units으로 변신합니다.";
 -- aart
 -- atar 1
 -- ahky
 -- atp1 2
-		t["A01T"][11][1] = "유닛 변신|cffffcc00(Q)|r";
+		t["A01T"][11][1] = "Units 변신|cffffcc00(Q)|r";
 -- atp1 3
 -- aub1 2
-		t["A01T"][13][1] = "대상 유닛으로 변신합니다";
+		t["A01T"][13][1] = "대상 Units으로 변신합니다";
 -- aub1 3
-		t["A01T"][14][1] = "*대상 Unique 유닛으로 변신합니다.";
+		t["A01T"][14][1] = "*대상 Unique Units으로 변신합니다.";
 -- atar 2
 -- atar 3
 -- atar 4
 -- atp1 4
-		t["A01T"][18][1] = "Unique 유닛 변신|cffffcc00(Q)|r";
+		t["A01T"][18][1] = "Unique Units 변신|cffffcc00(Q)|r";
 -- aub1 4
-		t["A01T"][19][1] = "*대상 Unique 유닛으로 변신합니다.\r\
+		t["A01T"][19][1] = "*대상 Unique Units으로 변신합니다.\r\
 *자신을 대상으로 할 경우 사라지며, 목재를 5 획득합니다.";
 -- atar 5
 -- atp1 5
 		t["A01T"][21][1] = "Unique 선택|cffffcc00(Q)|r";
 -- aub1 5
-		t["A01T"][22][1] = "*Combination의 대상 Unique 유닛으로 변신합니다.";
+		t["A01T"][22][1] = "*Combination의 대상 Unique Units으로 변신합니다.";
 -- atar 6
 -- [S00D]
 -- atar 1
@@ -20205,8 +20205,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00D"][3][1] = "『천망지망포접의 법』";
 -- aub1 1
-		t["S00D"][4][1] = "*에이린이 공격시 10%의 확률로 공격당한 적 유닛의 이동 능력을 봉쇄하고 전체 체력의 2.5%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다.[보스에게는 20%의 피해만 입힙니다]\r\
-*위 효과를 받은 대상 유닛 주변 200범위 내에 있는 유닛에게 90만의 |c00FF6464물리 데미지|r 와 90만의 |c00379BFF마법 데미지|r를 입히고, 이동속도를 2초간 80% 감소시킵니다.";
+		t["S00D"][4][1] = "*에이린이 공격시 10%의 확률로 공격당한 적 Units의 이동 능력을 봉쇄하고 전체 체력의 2.5%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다.[보스에게는 20%의 피해만 입힙니다]\r\
+*위 효과를 받은 대상 Units 주변 200범위 내에 있는 Units에게 90만의 |c00FF6464물리 데미지|r 와 90만의 |c00379BFF마법 데미지|r를 입히고, Movement Speed를 2초간 80% 감소시킵니다.";
 -- anam
 -- aart
 		t["S00D"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp";
@@ -20219,7 +20219,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A07E"][5][1] = "Small Devil + Small Divine Spirit + Human";
 -- atp1 1
-		t["A07E"][6][1] = "|c00ffff00이자요이 사쿠야|r 조합|c00FF8040[W]|r";
+		t["A07E"][6][1] = "|c00ffff00이자요이 사쿠야|r Combination|c00FF8040[W]|r";
 -- anam
 -- acat
 		t["A07E"][8][1] = "h00D,h000,h00A";
@@ -20233,7 +20233,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A07H"][5][1] = "Red UFO + Shizuha Aki";
 -- atp1 1
-		t["A07H"][6][1] = "|c00ffff00Hakurei Reimu|r 조합|c00FF8040[D]|r";
+		t["A07H"][6][1] = "|c00ffff00Hakurei Reimu|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A07H"][8][1] = "h013,h00C";
@@ -20301,8 +20301,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00F"][3][1] = "*죽을때까지 소원을 비는 손*";
 -- aub1 1
-		t["S00F"][4][1] = "*기본적으로 카센 주변 800범위 적의 이동속도를 30% 감소시킵니다.\r\
-*카센이 공격시 7% 확률로 자신의 의완에 영기를 모아 전방으로 방출합니다. 전방에 있는 유닛에게 165만의 |c00FF6464물리 데미지|r를 입히고, 2초간 스턴시킵니다.\r\
+		t["S00F"][4][1] = "*기본적으로 카센 주변 800범위 적의 Movement Speed를 30% 감소시킵니다.\r\
+*카센이 공격시 7% 확률로 자신의 의완에 영기를 모아 전방으로 방출합니다. 전방에 있는 Units에게 165만의 |c00FF6464물리 데미지|r를 입히고, 2초간 스턴시킵니다.\r\
 *발동시 카센이 보유한 마나의 12%를 회복합니다.";
 -- anam
 -- abuf 1
@@ -20345,11 +20345,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A08S"][2][1] = "|c00FEE952[Unit Information]|r - 나즈린[Arcana]";
 -- aub1 1
 		t["A08S"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Rainbow UFO[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 작디작은 현장(nazrin arc)\r\
+|c00A8F13A[Type Command]|r: 작디작은 현장(nazrin arc)\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 유닛 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Units Upgrade";
 -- aart
 		t["A08S"][4][1] = "Icon\\Unit\\BTNNazrin_Arc.blp";
 -- atp1 17
@@ -20385,7 +20385,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 31
 -- aub1 2
 		t["A08S"][35][1] = "*광활한 국토를 가졌던 로마 제국의 황제로 비행가능합니다.\r\
-*네로가 공격시 25% 확률로 대상 유닛을 1.5초간 스턴시키고, 45만의 마법 데미지를 입힙니다. 보스일 경우, 현재 체력의 0.2%의 마법 데미지가 추가됩니다.\r\
+*네로가 공격시 25% 확률로 대상 Units을 1.5초간 스턴시키고, 45만의 마법 데미지를 입힙니다. 보스일 경우, 현재 체력의 0.2%의 마법 데미지가 추가됩니다.\r\
 *스킬이 3번째 발동했을때, 자신의 위치에 찬란한 불꽃을 퍼뜨려 주변 550범위 내에 있는 적이 받는 마법 데미지를 20% 증폭시키고, 65만의 마법 데미지를 입힙니다.";
 -- aub1 3
 -- aub1 4
@@ -20426,7 +20426,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A09S"][4][1] = "『지상의 더러움의 순화』";
 -- aub1 1
-		t["A09S"][5][1] = "*순호의 공격속도가 35% 상승합니다.\r\
+		t["A09S"][5][1] = "*순호의 Attack Speed가 35% 상승합니다.\r\
 *순호가 공격한 적의 체력이 80% 이상이라면 80%로 조정합니다. 이 효과는 데미지로 인정되지 않습니다.";
 -- atp1 2
 		t["A09S"][9][1] = "순부『순수한 탄막 지옥』- |c00FF00FF스페셜|r";
@@ -20455,9 +20455,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0AH"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique]  + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 겐게츠 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : 겐게츠 Upgrade";
 -- aart
 		t["A0AH"][5][1] = "ReplaceableTextures\\CommandButtons\\Gengetsu\\BTN_UP.blp";
 -- [A0CQ]
@@ -20475,7 +20475,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 경질기『머슬 익스플로젼』\r\
 \r\
 *주변 700범위 아군의 평타 공격력을 35% 증가시킵니다.\r\
-*대상 유닛의 체력이 50% 이하일 경우, 공격시 10% 확률로 대상 유닛의 전체 체력의 25%에 해당하는 절대 데미지를 입힙니다.\r\
+*대상 Units의 체력이 50% 이하일 경우, 공격시 10% 확률로 대상 Units의 전체 체력의 25%에 해당하는 절대 데미지를 입힙니다.\r\
 [보스에게는 5%에 해당하는 데미지만 입힙니다.]";
 -- atp1 1
 		t["A0D8"][3][1] = "『귀형의 호이 폴로이』";
@@ -20495,7 +20495,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0DA"][5][1] = "Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique] + 고대와 환상의 조각 = 겐게츠";
 -- atp1 1
-		t["A0DA"][6][1] = "|c00ffff00겐게츠|r 조합|c00FF8040[F]|r";
+		t["A0DA"][6][1] = "|c00ffff00겐게츠|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0DA"][8][1] = "h039,nrvl,h01A,e03C";
@@ -20521,9 +20521,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 2
 		t["S00G"][10][1] = "Brpm";
 -- atp1 2
-		t["S00G"][11][1] = "『풍신님의 신덕』- |c0000FFFF익스텐드|r";
+		t["S00G"][11][1] = "『풍신님의 신덕』- |c0000FFFFExtended|r";
 -- aub1 2
-		t["S00G"][12][1] = "*주변 700범위 자신을 제외한 아군의 공격속도를 12% 증가시킵니다.\r\
+		t["S00G"][12][1] = "*주변 700범위 자신을 제외한 아군의 Attack Speed를 12% 증가시킵니다.\r\
 *카나코가 공격시 10% 확률로 대상 지점에 신력을 해방시킵니다. 대상 주변 400범위 적에게 잃은 체력의 1% + 100만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- [A0DY]
 -- arac
@@ -20589,7 +20589,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 7
 		t["A0GV"][40][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 600000의 데미지를 입힙니다.";
 -- aub1 8
-		t["A0GV"][41][1] = "매 공격시 25%확률로 주위 최대 4명의 유닛에게 5000데미지의 번개를 날립니다.";
+		t["A0GV"][41][1] = "매 공격시 25%확률로 주위 최대 4명의 Units에게 5000데미지의 번개를 날립니다.";
 -- aub1 9
 -- aub1 10
 -- aub1 11
@@ -20717,11 +20717,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 1
-		t["A0KB"][96][1] = "＊헤카티아 주변 666 범위의 적 이동속도를 밤에는 70%, 낮에는 35% 감소시킵니다.";
+		t["A0KB"][96][1] = "＊헤카티아 주변 666 범위의 적 Movement Speed를 밤에는 70%, 낮에는 35% 감소시킵니다.";
 -- aub1 2
-		t["A0KB"][97][1] = "＊헤카티아 주변 666 범위의 적 이동속도를 70% 감소시킵니다. 낮에는 이동속도 감소량이 35%로 감소합니다.";
+		t["A0KB"][97][1] = "＊헤카티아 주변 666 범위의 적 Movement Speed를 70% 감소시킵니다. 낮에는 Movement Speed 감소량이 35%로 감소합니다.";
 -- aub1 3
-		t["A0KB"][98][1] = "＊헤카티아 주변 666 범위의 적 이동속도를 35% 감소시킵니다. 밤에는 이동속도 감소량이 70%로 증가합니다.";
+		t["A0KB"][98][1] = "＊헤카티아 주변 666 범위의 적 Movement Speed를 35% 감소시킵니다. 밤에는 Movement Speed 감소량이 70%로 증가합니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -20785,7 +20785,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0MC"][5][1] = "시키에이키 야마자나두 + Kamishirasawa Keine EX + Lily Black + 고대와 환상의 조각 = 엘리";
 -- atp1 1
-		t["A0MC"][6][1] = "|c00ffff00엘리|r 조합|c00FF8040[F]|r";
+		t["A0MC"][6][1] = "|c00ffff00엘리|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0MC"][8][1] = "h01W,h038,h03R,e03C";
@@ -20801,14 +20801,14 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + Kamishirasawa Keine EX[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 엘리 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : 엘리 Upgrade";
 -- aart
 -- [A09U]
 -- arac
 -- atp1 1
-		t["A09U"][2][1] = "주부『팬텀쉽 하버』 - |c0000FFFF익스텐드|r";
+		t["A09U"][2][1] = "주부『팬텀쉽 하버』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A09U"][3][1] = "＊『배 밑바닥의 비너스』의 방어력 감소가 30으로 증가합니다.\r\
 ＊공격 시 10% 확률로 유령선이 지원나와 대상 지점을 향해 포격하여 주변 450 범위의 적에게 전체 체력 0.4% + 125만의 |c00FF6464물리 피해|r를 가합니다.";
@@ -20846,7 +20846,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A09U"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 440000의 물리데미지와 1.2초의 기절, 기절이 풀린 후 3초간 이동속도 45% 감소 효과를 줍니다.";
+		t["A09U"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 440000의 물리데미지와 1.2초의 기절, 기절이 풀린 후 3초간 Movement Speed 45% 감소 효과를 줍니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -20987,7 +20987,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["S00H"][3][1] = "녹석『제이드 브레이크』";
 -- aub1 1
 		t["S00H"][4][1] = "*스와코가 공격시 10% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 전체 체력의 0.7% + 150만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-* 기본적으로 주변 800범위 아군의 공격속도를 10% 상승시킵니다.\r\
+* 기본적으로 주변 800범위 아군의 Attack Speed를 10% 상승시킵니다.\r\
 *발동시 스와코의 마나가 5 회복됩니다.";
 -- anam
 		t["S00H"][5][1] = "[스와코]제이드 브레이크";
@@ -21113,7 +21113,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["S00H"][95][1] = "녹석『제이드 브레이크』- 비취 조각 30개";
 -- aub1 2
 		t["S00H"][96][1] = "*스와코가 공격시 8% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 전체 체력의 0.5% + 100만의 마법 데미지를 입힙니다.\r\
-* 기본적으로 주변 800범위 아군의 공격속도를 12% 상승시킵니다.\r\
+* 기본적으로 주변 800범위 아군의 Attack Speed를 12% 상승시킵니다.\r\
 *발동시 스와코의 마나가 5 회복됩니다.\r\
 *위 효과가 발동할 경우, 비취조각 1개를 쌓으며, 스와코의 위치에 3초간 지속되는 비취수호병을 생성합니다. [최대 20개]";
 -- aub1 3
@@ -21136,7 +21136,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 20
 -- aub1 21
 		t["S00H"][115][1] = "*스와코가 공격시 10% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 전체 체력의 1% + 100만의 마법 데미지를 입히고 받는 마법 데미지를 30% 증폭시킵니다.\r\
-* 기본적으로 주변 800범위 아군의 공격속도를 22% 상승시킵니다.\r\
+* 기본적으로 주변 800범위 아군의 Attack Speed를 22% 상승시킵니다.\r\
 *위 효과가 발동할 경우, 비취조각 1개를 쌓으며, 3초간 지속되는 비취수호병을 생성합니다. ";
 -- aub1 22
 -- aub1 23
@@ -21155,7 +21155,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MG"][5][1] = "|c00ffff00『신앙 떨치기』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A0MG"][6][1] = "*스와코가 환상향에서 자신의 신앙을 회복하기 위해 여기저기 수소문합니다. 라운드가 70라운드 이하이고, 유닛 웨이브가 50이하일때 스킬 사용시 녹석『제이드 브레이크』스킬을 얻습니다.";
+		t["A0MG"][6][1] = "*스와코가 환상향에서 자신의 신앙을 회복하기 위해 여기저기 수소문합니다. 라운드가 70라운드 이하이고, Units 웨이브가 50이하일때 스킬 사용시 녹석『제이드 브레이크』스킬을 얻습니다.";
 -- ahky
 -- [A0MH]
 -- arac
@@ -21173,11 +21173,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 1
 		t["A0MH"][8][1] = "B03Q";
 -- atp1 2
-		t["A0MH"][9][1] = "『증기기관』- |c0000FFFF익스텐드|r";
+		t["A0MH"][9][1] = "『증기기관』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A0MH"][10][1] = "*주변 750범위 적의 방어력을 30 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-『핵펀치』- |c0000FFFF익스텐드|r\r\
+『핵펀치』- |c0000FFFFExtended|r\r\
 \r\
 *비상천칙이 공격시 12% 확률로 대상 지점을 있는 힘껏 타격합니다.\r\
 *대상 지점 주변 400범위 내에 있는 적을 2초간 스턴시키고, 전체 체력의 0.6%의 |c00FF6464물리 데미지|r를 입힙니다.";
@@ -21187,7 +21187,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 3
 -- [A0MI]
 -- aub1 1
-		t["A0MI"][1][1] = "＊레밀리아 주변 800 범위의 적 이동속도를 18% 감소시킵니다.\r\
+		t["A0MI"][1][1] = "＊레밀리아 주변 800 범위의 적 Movement Speed를 18% 감소시킵니다.\r\
 ＊공격시 11% 확률로 대상 주변 350 범위의 적에게 75만의 |c00FF6464물리 피해|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
 ───────────────────\r\
@@ -21327,11 +21327,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A0MJ"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNDevour.blp";
 -- aub1 1
-		t["A0MJ"][5][1] = "＊자신 주변 650 범위의 적 이동속도를 15% 감소시킵니다.\r\
+		t["A0MJ"][5][1] = "＊자신 주변 650 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
 ＊공격당한 적의 체력이 90% 이상이라면, 체력을 90%로 만듭니다.\r\
 ＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 70만의 |c00379BFF마법 피해|r를 가하고 1.2초간 기절시킵니다.\r\
 ＊공격당한 대상이 보스라면, 공격 시 40% 확률로 45만의 |c00379BFF마법 피해|r를 가하고 1.5초간 기절시킵니다.\r\
-＊란의 공격속도가 12% 상승합니다.";
+＊란의 Attack Speed가 12% 상승합니다.";
 -- atp1 1
 		t["A0MJ"][6][1] = "|c00ffff00식신『후귀의 수호』|r |c00FF8040[W]|r";
 -- anam
@@ -21343,15 +21343,15 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A04X"][5][1] = "[Epic]란_D";
 -- atp1 1
 -- aub1 1
-		t["A04X"][7][1] = "*자신의 진영을 마요이 가로 변경합니다. 마요이 가는 현재 진영의 Normal 유닛 생성 수를 이어받으며, 다음의 효과를 가집니다.\r\
-[Normal 유닛 생성에 목재가 소모되지 않습니다.]\r\
-[Legendary 유닛 조합의 진영 조건을 모두 충족시킵니다.]";
+		t["A04X"][7][1] = "*자신의 진영을 마요이 가로 변경합니다. 마요이 가는 현재 진영의 Normal Units 생성 수를 이어받으며, 다음의 효과를 가집니다.\r\
+[Normal Units 생성에 목재가 소모되지 않습니다.]\r\
+[Legendary Units Combination의 진영 조건을 모두 충족시킵니다.]";
 -- aart
 -- atar 1
 		t["A04X"][9][1] = "structure,invulnerable";
 -- [A04V]
 -- aub1 1
-		t["A04V"][1][1] = "＊자신 주변 650 범위의 적 이동속도를 15% 감소시킵니다.\r\
+		t["A04V"][1][1] = "＊자신 주변 650 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
 ＊공격당한 적의 체력이 90% 이상이라면, 체력을 90%로 만듭니다.\r\
 ＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 70만의 |c00379BFF마법 피해|r를 가하고 1.2초간 기절시킵니다.\r\
 ＊공격당한 대상이 보스라면, 공격 시 40% 확률로 45만의 |c00379BFF마법 피해|r를 가하고 1.5초간 기절시킵니다.";
@@ -21423,7 +21423,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 30
 -- abuf 31
 -- atp1 2
-		t["A04V"][68][1] = "식신『후귀의 수호』 - |c0000FFFF익스텐드|r";
+		t["A04V"][68][1] = "식신『후귀의 수호』 - |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 5
 -- atp1 4
@@ -21454,9 +21454,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04V"][98][1] = "*주변 650범위 유닛의 이동속도를 22% 감소시킵니다. 공격시 대상 유닛의 체력이 90% 이상이라면 90%로 만듭니다.\r\
+		t["A04V"][98][1] = "*주변 650범위 Units의 Movement Speed를 22% 감소시킵니다. 공격시 대상 Units의 체력이 90% 이상이라면 90%로 만듭니다.\r\
 *공격시 15% 확률로 대상 지점 450범위에 100만의 |c00379BFF마법 데미지|r를 입히고 1.2초간 스턴시킵니다.\r\
-*공격시 40% 확률로 대상 보스 유닛에게 45만의 |c00379BFF마법 데미지|r를 입히고, 1.5초간 스턴시킵니다.";
+*공격시 40% 확률로 대상 보스 Units에게 45만의 |c00379BFF마법 데미지|r를 입히고, 1.5초간 스턴시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -21498,9 +21498,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- anam
 -- aart
 -- atp1 2
-		t["A04Y"][8][1] = "식신『전귀의 수호』 - |c0000FFFF익스텐드|r";
+		t["A04Y"][8][1] = "식신『전귀의 수호』 - |c0000FFFFExtended|r";
 -- aub1 2
-		t["A04Y"][9][1] = "*주변 600범위 적 유닛의 방어력을 30 낮춥니다. 공격시 대상 유닛의 체력이 90% 이상이라면 90%로 만듭니다.\r\
+		t["A04Y"][9][1] = "*주변 600범위 적 Units의 방어력을 30 낮춥니다. 공격시 대상 Units의 체력이 90% 이상이라면 90%로 만듭니다.\r\
 *공격시 15% 확률로 대상 지점 주변 450범위에 100만의 |c00FF6464물리 데미지|r를 입히고 1.2초간 스턴시킵니다.";
 -- abuf 1
 		t["A04Y"][10][1] = "B03V";
@@ -21587,7 +21587,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A06R"][5][1] = "『영야 되돌리기』 - 밝아오는 세계 -|cffffcc00[F]|r";
 -- aub1 1
-		t["A06R"][6][1] = "*Epic 유닛에게 사용시 랜덤한 다른 Epic 유닛으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
+		t["A06R"][6][1] = "*Epic Units에게 사용시 랜덤한 다른 Epic Units으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
 *영야 되돌리기를 모두 사용한 경우, 카구야가 공격시 10% 확률로 자신 주변 1200범위의 적을 2.2초간 스턴시키고 1의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aart
 -- atar 1
@@ -21602,7 +21602,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A06R"][14][1] = "『영야 되돌리기』 - 밝아오는 세계 -|cffffcc00(D)|r";
 -- ahky
 -- aub1 2
-		t["A06R"][16][1] = "Epic 유닛에게 사용시 랜덤한 다른 Epic 유닛으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
+		t["A06R"][16][1] = "Epic Units에게 사용시 랜덤한 다른 Epic Units으로 변화시킵니다. 플레이어당 4번까지만 사용할 수 있습니다.\r\
 \r\
 『영야 되돌리기』 - 아침 아지랑이 -\r\
 『영야 되돌리기』 - 새벽 -\r\
@@ -21745,7 +21745,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MS"][3][1] = "귀부『귀도의 지옥급 시련』";
 -- aub1 1
-		t["A0MS"][4][1] = "*공격시 마나를 1 회복합니다. 마나가 80이 됐을때, 대상 유닛의 체력이 35% 이하라면 처형시키고, 마나를 80% 회복합니다.\r\
+		t["A0MS"][4][1] = "*공격시 마나를 1 회복합니다. 마나가 80이 됐을때, 대상 Units의 체력이 35% 이하라면 처형시키고, 마나를 80% 회복합니다.\r\
 [보스 미적용]\r\
 *체력이 35% 초과인 적을 공격할 경우, 스킬이 발동하지 않습니다.\r\
 *기본적으로 주변 700범위 적의 방어력을 22 감소시킵니다.";
@@ -21818,9 +21818,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MT"][6][1] = "|c00ffff00『유한의 굴레』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A0MT"][7][1] = "*유카리가 Hakurei Reimu[호밍]에게 이 스킬을 사용시 『심탄막결계 -몽환포영-』스킬을 얻습니다.\r\
+		t["A0MT"][7][1] = "*유카리가 Hakurei Reimu[Homing]에게 이 스킬을 사용시 『심탄막결계 -몽환포영-』스킬을 얻습니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 Hakurei Reimu[호밍]은 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Hakurei Reimu[Homing]은 사라집니다.|r";
 -- aart
 -- atar 1
 -- ahky
@@ -21830,8 +21830,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0MU"][2][1] = "『심탄막결계 -몽환포영-』";
 -- aub1 1
 		t["A0MU"][3][1] = "*|c00FF80FF[활력]|r - 6초\r\
-유카리가 공격시 대상 지점에 결계를 생성합니다. 결계 안의 모든 적은 이동속도가 45% 감소합니다. 6초간 지속됩니다. \r\
-*유카리가 심탄막결계 내부에 있는 적을 공격할시 25% 확률로 파장을 일으켜 대상 주변 450범위 유닛에게 145만의 |c00AC59FF절대 데미지|r를 입힙니다.";
+유카리가 공격시 대상 지점에 결계를 생성합니다. 결계 안의 모든 적은 Movement Speed가 45% 감소합니다. 6초간 지속됩니다. \r\
+*유카리가 심탄막결계 내부에 있는 적을 공격할시 25% 확률로 파장을 일으켜 대상 주변 450범위 Units에게 145만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -21896,7 +21896,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 31
 -- [A0HU]
 -- aub1 1
-		t["A0HU"][1][1] = "＊핵융합 에너지를 순환시켜 자신 주변 900 범위의 적 이동속도를 15% 감소시킵니다.\r\
+		t["A0HU"][1][1] = "＊핵융합 에너지를 순환시켜 자신 주변 900 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
 ＊|c00FF80FF[활력]|r - 4초 : 공격 시 추가로 활력 0.2초 회복, 몸에 핵융합 반응을 일으켜 자신 주변 600 범위의 적에게 현재 체력 0.4% + 75만의 |c00379BFF마법 피해|r를 가합니다. ";
 -- atar 1
 -- atp1 1
@@ -21966,7 +21966,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 30
 -- abuf 31
 -- atp1 2
-		t["A0HU"][68][1] = "제어『셀프 토카막』- |c0000FFFF익스텐드|r";
+		t["A0HU"][68][1] = "제어『셀프 토카막』- |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 5
 -- atp1 4
@@ -21997,7 +21997,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0HU"][98][1] = "*우츠호가 주변 900범위 적의 이동속도를 35% 감소시키고, 초당 5만의 |c00379BFF마법 데미지|r를 입힙니다.";
+		t["A0HU"][98][1] = "*우츠호가 주변 900범위 적의 Movement Speed를 35% 감소시키고, 초당 5만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -22030,13 +22030,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A01N]
 -- anam
 -- atp1 1
-		t["A01N"][2][1] = "『스위트 포이즌』 - |c0000FFFF익스텐드|r";
+		t["A01N"][2][1] = "『스위트 포이즌』 - |c0000FFFFExtended|r";
 -- aub1 1
-		t["A01N"][3][1] = "＊|c002C62EA[마력]|r - 35 : 공격 시 마력 1 회복, 치명적인 독을 풀어 대상 주변 500 범위의 적에게 현재 체력 1.25% + 145만의 |c00FF6464물리 피해|r를 가하고 3초간 이동속도를 65% 감소시킵니다.";
+		t["A01N"][3][1] = "＊|c002C62EA[마력]|r - 35 : 공격 시 마력 1 회복, 치명적인 독을 풀어 대상 주변 500 범위의 적에게 현재 체력 1.25% + 145만의 |c00FF6464물리 피해|r를 가하고 3초간 Movement Speed를 65% 감소시킵니다.";
 -- aart
 		t["A01N"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNPlagueCloud.blp";
 -- atp1 2
-		t["A01N"][5][1] = "섬부『인 투 딜리리엄』 - |c0000FFFF익스텐드|r";
+		t["A01N"][5][1] = "섬부『인 투 딜리리엄』 - |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -22047,7 +22047,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 10
 -- atp1 11
 -- aub1 2
-		t["A01N"][15][1] = "메디슨이 공격시 7% 확률로 자신 주변 750범위에 |c0000FFFF공격한 대상의 최대 체력|r의 1%의 물리 데미지와 35%의 이동속도 감소 효과를 3초간 입힙니다. ";
+		t["A01N"][15][1] = "메디슨이 공격시 7% 확률로 자신 주변 750범위에 |c0000FFFF공격한 대상의 최대 체력|r의 1%의 물리 데미지와 35%의 Movement Speed 감소 효과를 3초간 입힙니다. ";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -22077,7 +22077,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A01V"][6][1] = "|c00ffff00『비봉클럽 부원모집중』|r |c00FF8040[D]|r - 0명 포섭";
 -- aub1 1
-		t["A01V"][7][1] = "*환상향을 삼분하고 있는 종교, 신교,도교,불교. 그에 도전장을 내민 스미레코가 비봉클럽의 부원을 모집합니다. Epic 유닛에게 권유할 수 있으며 3번 포섭할 시 퀘스트가 완료되어 *심비의 에소테릭 세븐*스킬을 얻습니다.";
+		t["A01V"][7][1] = "*환상향을 삼분하고 있는 종교, 신교,도교,불교. 그에 도전장을 내민 스미레코가 비봉클럽의 부원을 모집합니다. Epic Units에게 권유할 수 있으며 3번 포섭할 시 퀘스트가 완료되어 *심비의 에소테릭 세븐*스킬을 얻습니다.";
 -- aart
 		t["A01V"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNOrb.blp";
 -- atar 1
@@ -22099,7 +22099,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A06H"][2][1] = "*환시하라 이 세계의 광기를!*";
 -- aub1 1
-		t["A06H"][3][1] = "*공격시 마나를 2 회복합니다. 마나가 160이 됐을때, 염력을 폭주시켜 맵 전체에 있는 적 유닛에게 전체 체력의 5% + 500만의 |c00FF6464물리 데미지|r를 입힙니다.";
+		t["A06H"][3][1] = "*공격시 마나를 2 회복합니다. 마나가 160이 됐을때, 염력을 폭주시켜 맵 전체에 있는 적 Units에게 전체 체력의 5% + 500만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- anam
 -- aart
 		t["A06H"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGreaterRejuvScroll.blp";
@@ -22108,7 +22108,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 		t["A06H"][7][1] = "*심비의 에소테릭 세븐*";
 -- aub1 2
-		t["A06H"][8][1] = "*기본적으로 맵 전체 적 유닛의 방어력을 45 감소시킵니다. 스미레코가 공격시 9% 확률로 오컬트 볼을 소환해 대상 주변 600범위 적에게 250만의 물리 데미지를 입힙니다.";
+		t["A06H"][8][1] = "*기본적으로 맵 전체 적 Units의 방어력을 45 감소시킵니다. 스미레코가 공격시 9% 확률로 오컬트 볼을 소환해 대상 주변 600범위 적에게 250만의 물리 데미지를 입힙니다.";
 -- abuf 1
 		t["A06H"][9][1] = "B044";
 -- atar 2
@@ -22119,7 +22119,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A06I"][2][1] = "선부『홍엽선풍』";
 -- aub1 1
-		t["A06I"][3][1] = "＊맵 전체의 자신 소유 유닛 공격속도를 10% 증가시킵니다.\r\
+		t["A06I"][3][1] = "＊맵 전체의 자신 소유 Units Attack Speed를 10% 증가시킵니다.\r\
 ＊공격 시 11% 확률로 대상 발밑에 회오리바람이 몰아쳐 주변 450 범위의 적에게 75만의 |c00379BFF마법 피해|r를 가하고 1.8초간 기절시킵니다.\r\
 ＊정보 캐는데 특화인 아야는 공격한 대상이 보스라면 5만의 |c00379BFF마법 피해|r를 가합니다.";
 -- anam
@@ -22488,7 +22488,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0IA"][8][1] = "조건 : 패시브\r\
 유효 범위 : 자신 주변 750\r\
-효과 : 적 이동속도 -11%\r\
+효과 : 적 Movement Speed -11%\r\
 ───────────────────\r\
 조건 : 공격 시 10%\r\
 유효 범위 : 자신 주변 750\r\
@@ -22500,7 +22500,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 ";
 -- aub1 2
 		t["A0IA"][11][1] = "* 플라워 듀얼 스파크의 소모 마나가 120에서 80으로 감소합니다.\r\
-* 유카 주변 650범위 내의 적의 이동속도를 30% 감소시킵니다.\r\
+* 유카 주변 650범위 내의 적의 Movement Speed를 30% 감소시킵니다.\r\
 * 『플라워 슈팅』/『환상춘화』가 발동됐을때 유카의 마나를 3 회복시킵니다.";
 -- abuf 2
 		t["A0IA"][12][1] = "BIcf";
@@ -22524,13 +22524,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MX"][7][1] = "상부『프로스트 칼럼스』";
 -- aub1 1
-		t["A0MX"][8][1] = "*Cirno 주변 1000범위 적의 이동속도를 49% 감소시킵니다.\r\
-*Cirno가 공격시 10% 확률로 대상 주변 600범위 유닛에게 65만의 |c00379BFF마법 데미지|r를 입히고, 3.5초간 스턴시킵니다.\r\
+		t["A0MX"][8][1] = "*Cirno 주변 1000범위 적의 Movement Speed를 49% 감소시킵니다.\r\
+*Cirno가 공격시 10% 확률로 대상 주변 600범위 Units에게 65만의 |c00379BFF마법 데미지|r를 입히고, 3.5초간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 빙부『아이시클 머신건』\r\
 \r\
-*공격시 30% 확률로 대상 유닛을 2.5초간 스턴시키고, 전체 체력의 3% + 250만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-[보스 유닛의 경우 전체 체력의 0.2% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.]\r\
+*공격시 30% 확률로 대상 Units을 2.5초간 스턴시키고, 전체 체력의 3% + 250만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+[보스 Units의 경우 전체 체력의 0.2% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.]\r\
 *1초마다 Cirno의 몸에서 냉기 파편이 주변 보스에게 날아갑니다. 파편은 개당 100만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- [S00I]
 -- atar 1
@@ -22559,7 +22559,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 8
 -- aub1 2
 		t["S00I"][21][1] = "*미코가 공격시 11% 확률로 자신이 가진 검으로 전방을 꿰뚫습니다. 1000거리 300범위 내의 적에게 전체 체력의 0.6% + 55만의 |c00379BFF마법 데미지|r를 입히고, 적이 받는 마법 데미지를 12%만큼 증폭시키며 1초간 스턴시킵니다.\r\
-*맵 전체 아군의 공격속도를 10% 상승시킵니다.";
+*맵 전체 아군의 Attack Speed를 10% 상승시킵니다.";
 -- aub1 3
 -- atp1 2
 		t["S00I"][23][1] = "인부『권선징악은 옛적의 옳으신 말씀이니』";
@@ -22571,7 +22571,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 8
 -- aub1 4
 		t["S00I"][30][1] = "*미코가 공격시 11% 확률로 자신이 가진 검으로 전방을 꿰뚫습니다. 1000거리 300범위 내의 적에게 전체 체력의 0.6% + 55만의 |c00379BFF마법 데미지|r를 입히고, 적이 받는 마법 데미지를 12%만큼 증폭시키며 1초간 스턴시킵니다.\r\
-*맵 전체 아군의 공격속도를 15% 상승시킵니다.";
+*맵 전체 아군의 Attack Speed를 15% 상승시킵니다.";
 -- aub1 5
 -- aub1 6
 -- aub1 7
@@ -22580,7 +22580,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 3
 -- [A0N0]
 -- aub1 1
-		t["A0N0"][1][1] = "*기본적으로 Murasa 주변 650범위 내에 있는 적의 이동속도를 15% 감소시킵니다.\r\
+		t["A0N0"][1][1] = "*기본적으로 Murasa 주변 650범위 내에 있는 적의 Movement Speed를 15% 감소시킵니다.\r\
 *Murasa가 공격시 마나를 1씩 쌓으며, 마나가 120이 됐을때, 닻 모양의 탄막을 대상 지점에 투척하여 대상 지점 주변 600범위 내에 있는 적에게 2초의 스턴을 입히고, 잃은 체력의 4% + 250만의 |c00379BFF마법 데미지|r를 입힙니다. \r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 전복『격침 앵커』\r\
@@ -22719,11 +22719,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0A5"][3][1] = "＊공격이 최대 5번 튕깁니다.\r\
 ＊자신 주변 800 범위의 적 방어력을 24 감소시킵니다.\r\
-＊자신 주변 800 범위의 적 이동속도를 30% 감소시킵니다.";
+＊자신 주변 800 범위의 적 Movement Speed를 30% 감소시킵니다.";
 -- anam
 -- aart
 -- atp1 2
-		t["A0A5"][7][1] = "건령『뷔젠도르퍼 신주』 - |c0000FFFF익스텐드|r";
+		t["A0A5"][7][1] = "건령『뷔젠도르퍼 신주』 - |c0000FFFFExtended|r";
 -- aub1 2
 		t["A0A5"][8][1] = "*팬텀 앙상블 주변 650범위 적군의 방어력을 35 감소시킵니다.";
 -- atar 2
@@ -22739,24 +22739,24 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: Layla Prismriver[Unique] + Tsukumo Yatsuhashi[Unique] + Tsukumo Benben[Unique]\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
 -- atar 1
 -- atar 2
 -- aart
 -- abuf 2
 		t["A09R"][10][1] = "B059";
 -- atp1 2
-		t["A09R"][11][1] = "명관『고스트 클리퍼드』- |c0000FFFF익스텐드|r";
+		t["A09R"][11][1] = "명관『고스트 클리퍼드』- |c0000FFFFExtended|r";
 -- aub1 2
-		t["A09R"][12][1] = "*유령악단 주변 650범위 적 유닛의 이동속도를 30% 감소시킵니다.\r\
-*공격시 10% 확률로 주변 650범위 적 유닛에게 75만의 |c00AC59FF절대 데미지|r를 입힙니다.";
+		t["A09R"][12][1] = "*유령악단 주변 650범위 적 Units의 Movement Speed를 30% 감소시킵니다.\r\
+*공격시 10% 확률로 주변 650범위 적 Units에게 75만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- [A02E]
 -- atp1 1
 		t["A02E"][5][1] = "『악령의 책』";
 -- aub1 1
-		t["A02E"][6][1] = "*미마를 소유한 플레이어는 Normal 유닛을 셀렉터로 뽑을때 30% 확률로 1기 더 지급받습니다.\r\
+		t["A02E"][6][1] = "*미마를 소유한 플레이어는 Normal Units을 셀렉터로 뽑을때 30% 확률로 1기 더 지급받습니다.\r\
 [오직 셀렉터로 뽑을 경우에 생성합니다]";
 -- anam
 -- arac
@@ -22776,11 +22776,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - 미마[Historic]";
 -- aub1 1
-		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Yakumo Ran[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
+		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Yakumo Ran[Epic] + Soga no Tojiko[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 미마 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : 미마 Upgrade";
 -- aart
 		t["A03F"][5][1] = "ReplaceableTextures\\CommandButtons\\Mima\\BTN_UP.blp";
 -- [A03G]
@@ -22792,9 +22792,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: 코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.31초당 1번\r\
-[이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 유메코 업그레이드";
+[Attack Speed]: 0.31 Cooldown\r\
+[Movement Speed]: 400[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 유메코 Upgrade";
 -- arac
 -- [A03H]
 -- aart
@@ -22804,9 +22804,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A03H"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + 타타라 코가사[Rare] + Lunasa Prismriver[Rare]\r\
 \r\
-[공격속도]: 1초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 업그레이드";
+[Attack Speed]: 1 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- arac
 -- [A03Z]
 -- aart
@@ -22817,8 +22817,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A03Z"][4][1] = "인부『야만바의 부엌칼 갈기』";
 -- aub1 1
 		t["A03Z"][5][1] = "*공격시 20% 확률로 네무노가 자신의 칼을 날카롭게 갈아냅니다. 칼을 갈아낸 후 첫번째 공격은 적 전체 체력의 12%의 |c00FF6464물리 데미지|r를 입히고 1.5초간 스턴시킵니다. \r\
-*공격받은 적 450범위 주변 유닛에게는 65만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*보스 유닛에게는 10%의 데미지만 입힙니다.\r\
+*공격받은 적 450범위 주변 Units에게는 65만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*보스 Units에게는 10%의 데미지만 입힙니다.\r\
 *부엌칼을 한번 갈때마다 네무노의 마나가 5만큼 상승합니다.";
 -- [A0A7]
 -- aart
@@ -22828,7 +22828,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0A7"][4][1] = "『마운틴 머더』";
 -- aub1 1
-		t["A0A7"][5][1] = "*네무노의 마나가 100이 됐을때 5초간 광폭화 상태로 돌입합니다. 칼을 갈아낼 확률이 20% 증가합니다. 추가로 공격속도가 35% 증가합니다. 1초마다 네무노가 서있는 위치에서 땅이 흔들려 주변 700범위 적에게 현재 체력의 0.5% + 35만의 |c00FF6464물리 데미지|r를 입힙니다. \r\
+		t["A0A7"][5][1] = "*네무노의 마나가 100이 됐을때 5초간 광폭화 상태로 돌입합니다. 칼을 갈아낼 확률이 20% 증가합니다. 추가로 Attack Speed가 35% 증가합니다. 1초마다 네무노가 서있는 위치에서 땅이 흔들려 주변 700범위 적에게 현재 체력의 0.5% + 35만의 |c00FF6464물리 데미지|r를 입힙니다. \r\
 *광폭화 상태에서는 『야만바의 부엌칼 갈기』로 마나를 회복하지 않습니다.";
 -- [A0AS]
 -- aart
@@ -22845,13 +22845,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0AU"][3][1] = "|c00FEE952[Unit Information]|r - Doremy Sweet[Epic]";
 -- aub1 1
-		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + 소가노 토지코[Unique] + Yatadera Narumi[Unique]\r\
+		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + Soga no Tojiko[Unique] + Yatadera Narumi[Unique]\r\
 \r\
-[공격속도]: 0.75초당 1번\r\
-[이동속도]: 400[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.75 Cooldown\r\
+[Movement Speed]: 400[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- arac
 -- [A0DE]
 -- arac
@@ -22887,8 +22887,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0DE"][23][1] = "『용의 빛나는 눈』- 진화 포인트 5";
 -- aub1 2
 -- aub1 3
-		t["A0DE"][25][1] = "이쿠를 조합할 경우 6개의 진화 포인트를 갖습니다.\r\
-진화 포인트는 이 스킬로 표시됩니다. 강화할 스킬을 클릭하는 것으로 스킬을 강화할 수 있으며, 기본적으로 이쿠 주변 650범위적의 이동속도를 20%만큼 감소시킵니다.";
+		t["A0DE"][25][1] = "이쿠를 Combination할 경우 6개의 진화 포인트를 갖습니다.\r\
+진화 포인트는 이 스킬로 표시됩니다. 강화할 스킬을 클릭하는 것으로 스킬을 강화할 수 있으며, 기본적으로 이쿠 주변 650범위적의 Movement Speed를 20%만큼 감소시킵니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -22916,9 +22916,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + 소가노 토지코 + 고대와 환상의 조각 = 미마";
+		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + Soga no Tojiko + 고대와 환상의 조각 = 미마";
 -- atp1 1
-		t["A0IK"][6][1] = "|c00ffff00미마|r 조합|c00FF8040[F]|r";
+		t["A0IK"][6][1] = "|c00ffff00미마|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0IK"][8][1] = "h038,h01T,h042,e03C";
@@ -22932,7 +22932,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0IL"][5][1] = "Green UFO + Shizuha Aki";
 -- atp1 1
-		t["A0IL"][6][1] = "|c00ffff00Kochiya Sanae|r 조합|c00FF8040[D]|r";
+		t["A0IL"][6][1] = "|c00ffff00Kochiya Sanae|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0IL"][8][1] = "h00C,h012";
@@ -22945,9 +22945,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A082"][4][1] = "Icon\\Unit\\BTNNue_Leg.blp";
 -- aub1 1
-		t["A082"][5][1] = "Nue Houjuu[Epic] + 성련선[Unique] + Unique 소울 1개";
+		t["A082"][5][1] = "Nue Houjuu[Epic] + Palanquin Ship[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A082"][6][1] = "|c00ffff00Nue Houjuu[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A082"][6][1] = "|c00ffff00Nue Houjuu[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A082"][8][1] = "h01U,h01L,h05U";
@@ -22968,8 +22968,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0IM"][4][1] = "누에부 『탄막 키메라』";
 -- aub1 1
-		t["A0IM"][5][1] = "*누에가 공격할때마다 마나를 5 회복합니다. 보스 유닛 공격시는 마나를 10 회복합니다.\r\
-*마나가 50이 됐을때 공격시 대상 유닛에게 전체 체력의 5% + 300만의 |c00379BFF마법 데미지|r를 입히고, [3~5]초간 스턴시킵니다.\r\
+		t["A0IM"][5][1] = "*누에가 공격할때마다 마나를 5 회복합니다. 보스 Units 공격시는 마나를 10 회복합니다.\r\
+*마나가 50이 됐을때 공격시 대상 Units에게 전체 체력의 5% + 300만의 |c00379BFF마법 데미지|r를 입히고, [3~5]초간 스턴시킵니다.\r\
 [보스에게는 25%의 데미지만 입힙니다]";
 -- [A0N1]
 -- aart
@@ -22978,12 +22978,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- anam
 		t["A0N1"][3][1] = "[Legendary][호우쥬 누에]자경";
 -- atp1 1
-		t["A0N1"][4][1] = "정체불명 『자경』";
+		t["A0N1"][4][1] = "Unknown 『자경』";
 -- aub1 1
-		t["A0N1"][5][1] = "*누에가 공격시 12% 확률로 자신 주변 600범위 적 유닛에게 60만*(0.7~2.0)의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+		t["A0N1"][5][1] = "*누에가 공격시 12% 확률로 자신 주변 600범위 적 Units에게 60만*(0.7~2.0)의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *|c00FF80FF[활력]|r - 3초\r\
-대상 라인 유닛을 잠식시킵니다. 현재 체력의 25%를 감소시키고, 마법 방어력을 삭제시킵니다.\r\
-만약 대상이 자경단 보스 유닛이라면, 체력을 감소시키지 않고, 마법 방어력을 삭제시킵니다.";
+대상 라인 Units을 잠식시킵니다. 현재 체력의 25%를 감소시키고, 마법 방어력을 삭제시킵니다.\r\
+만약 대상이 자경단 보스 Units이라면, 체력을 감소시키지 않고, 마법 방어력을 삭제시킵니다.";
 -- [A0N2]
 -- aart
 		t["A0N2"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNWandOfShadowSight.blp";
@@ -22992,17 +22992,17 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0N2"][3][1] = "[Legendary][호우쥬 누에]헤이안쿄의 악몽";
 -- atp1 1
 -- aub1 1
-		t["A0N2"][5][1] = "*누에가 공격시 25% 확률로 대상 유닛에게 [전체 체력의 2% + 99만]*(0.7~2.2)의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
+		t["A0N2"][5][1] = "*누에가 공격시 25% 확률로 대상 Units에게 [전체 체력의 2% + 99만]*(0.7~2.2)의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
 [보스에게 발동시 전체 체력 비례 데미지가 25%만 적용됩니다]";
 -- [A0N3]
 -- arac
 -- aub1 1
 		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Clownpiece[Epic] + 신비술사의 고서 + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 하니와 커맨더(mayumi arc)\r\
+|c00A8F13A[Type Command]|r: 하니와 커맨더(mayumi arc)\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 375\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 375\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- atar 1
 -- atp1 1
 		t["A0N3"][5][1] = "|c00FEE952[Unit Information]|r - 조토구 마유미[Arcana]";
@@ -23014,20 +23014,20 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 2
 -- atar 2
 -- atp1 2
-		t["A0N3"][11][1] = "『헤이안의 다크 클라우드』 - |c0000FFFF익스텐드|r";
+		t["A0N3"][11][1] = "『헤이안의 다크 클라우드』 - |c0000FFFFExtended|r";
 -- aub1 2
-		t["A0N3"][12][1] = "주변 600범위의 적군의 이동속도를 30% 떨어뜨립니다.";
+		t["A0N3"][12][1] = "주변 600범위의 적군의 Movement Speed를 30% 떨어뜨립니다.";
 -- [A0N4]
 -- arac
 -- anam
 -- atp1 1
 		t["A0N4"][3][1] = "|c00FEE952[Unit Information]|r - Nue Houjuu[Legendary]";
 -- aub1 1
-		t["A0N4"][4][1] = "|c00A8F13A[Combination]|r: Nue Houjuu[Epic] + 성련선[Unique] + Unique 소울\r\
+		t["A0N4"][4][1] = "|c00A8F13A[Combination]|r: Nue Houjuu[Epic] + Palanquin Ship[Unique] + Unique 소울\r\
 \r\
-[공격속도]: 0.46초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.46 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [A00Y]
 -- atar 1
@@ -23036,7 +23036,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A00Y"][5][1] = "『여래의 빛』";
 -- aub1 1
-		t["A00Y"][6][1] = "*자신의 라인 유닛은 마법 데미지를 5% 증폭해서 받습니다.\r\
+		t["A00Y"][6][1] = "*자신의 라인 Units은 마법 데미지를 5% 증폭해서 받습니다.\r\
 [수치가 같은 다른 마법 데미지 증폭 효과와 함께 적용됩니다]";
 -- abuf 1
 		t["A00Y"][7][1] = "B04F";
@@ -23046,12 +23046,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 		t["A00Y"][10][1] = "『따뜻한 횃불』";
 -- aub1 2
-		t["A00Y"][11][1] = "*맵 전체 자신 소유 유닛의 공격속도를 5%, 이동 속도를 15% 증가시킵니다.";
+		t["A00Y"][11][1] = "*맵 전체 자신 소유 Units의 Attack Speed를 5%, 이동 속도를 15% 증가시킵니다.";
 -- atar 3
 -- atp1 3
 		t["A00Y"][13][1] = "『지옥의 횃불』";
 -- aub1 3
-		t["A00Y"][14][1] = "*맵 전체 자신 소유 유닛의 공격 속도를 5% 증가시킵니다.";
+		t["A00Y"][14][1] = "*맵 전체 자신 소유 Units의 공격 속도를 5% 증가시킵니다.";
 -- abuf 3
 		t["A00Y"][15][1] = "]B02";
 -- [A061]
@@ -23064,17 +23064,17 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + Doremy Sweet[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.44초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Matara Okino 업그레이드";
+[Attack Speed]: 0.44 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Matara Okino Upgrade";
 -- [A0N6]
 -- anam
 		t["A0N6"][1][1] = "[진영]달의 기술력";
 -- atp1 1
 		t["A0N6"][2][1] = "『달의 기술력』";
 -- aub1 1
-		t["A0N6"][3][1] = "*아군 유닛의 공격력을 10% 증가시킵니다.\r\
-*자신 라인의 은신 유닛의 은신 능력을 제거합니다.";
+		t["A0N6"][3][1] = "*아군 Units의 공격력을 10% 증가시킵니다.\r\
+*자신 라인의 은신 Units의 은신 능력을 제거합니다.";
 -- atat
 -- aart
 -- atar 1
@@ -23086,27 +23086,27 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 		t["A0N6"][11][1] = "『초월적인 달의 기술력』";
 -- aub1 2
-		t["A0N6"][12][1] = "아군 유닛의 공격력을 15% 증가시킵니다.";
+		t["A0N6"][12][1] = "아군 Units의 공격력을 15% 증가시킵니다.";
 -- [A0N9]
 -- arac
 -- anam
 -- atp1 1
 		t["A0N9"][3][1] = "|c00FEE952[Unit Information]|r - Seiran[Legendary]";
 -- aub1 1
-		t["A0N9"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + 쿠모이 이치린[Unique] + Unique 소울\r\
+		t["A0N9"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Ichirin Kumoi[Unique] + Unique 소울\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0N9"][5][1] = "Icon\\Unit\\BTNSeiran_Leg.blp";
 -- [A0NA]
 -- arac
 -- aart
 -- aub1 1
-		t["A0NA"][5][1] = "Clownpiece[Epic] + 쿠모이 이치린[Unique] + Unique 소울 1개";
+		t["A0NA"][5][1] = "Clownpiece[Epic] + Ichirin Kumoi[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0NA"][6][1] = "|c00ffff00Seiran[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0NA"][6][1] = "|c00ffff00Seiran[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0NA"][8][1] = "h02Q,h036,h05U";
@@ -23155,11 +23155,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A05T"][4][1] = "*요리히메가 태양신 아마테라스의 힘을 몸에 깃들입니다.\r\
 *요리히메는 기본적으로 공격시 350범위 적에게 50%의 범위 데미지를 입힙니다.\r\
-*추가로 공격시 30% 확률로 자신의 검에 신령을 깃들여 공격합니다. 깃든 신령은 폭발하며 대상 주변 500범위에 90만의 물리 데미지를 입힙니다. 공격한 유닛이 보스 유닛이라면 현재 체력의 1%~2.5% 사이의 |c00FF6464물리 데미지|r를 추가로 입힙니다. ";
+*추가로 공격시 30% 확률로 자신의 검에 신령을 깃들여 공격합니다. 깃든 신령은 폭발하며 대상 주변 500범위에 90만의 물리 데미지를 입힙니다. 공격한 Units이 보스 Units이라면 현재 체력의 1%~2.5% 사이의 |c00FF6464물리 데미지|r를 추가로 입힙니다. ";
 -- aart
 		t["A05T"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUpgradeRegenerationAura.blp";
 -- atp1 2
-		t["A05T"][6][1] = "『네크로 판타지아』 - |c0000FFFF익스텐드|r";
+		t["A05T"][6][1] = "『네크로 판타지아』 - |c0000FFFFExtended|r";
 -- aub1 2
 		t["A05T"][7][1] = "공격시 대상의 경계를 노려 22%확률로 9배의 데미지를 입힐 수 있습니다. 위 확률과 관계없이 미션 보스나 스토리 보스 공격할때마다 90만의 데미지를 입힙니다.";
 -- [A05U]
@@ -23202,7 +23202,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A05U"][36][1] = "공격시 11% 확률로 자신의 유닛 카운트가 40 이상일때만 발동합니다. 대상 주변 600범위에 (자신의 유닛 카운트-40) * 40000의 마법 데미지를 입히고 1초간 스턴시킵니다.";
+		t["A05U"][36][1] = "공격시 11% 확률로 자신의 Units 카운트가 40 이상일때만 발동합니다. 대상 주변 600범위에 (자신의 Units 카운트-40) * 40000의 마법 데미지를 입히고 1초간 스턴시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -23240,7 +23240,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A06G"][3][1] = "*요리히메가 공격시 마나를 1씩 회복시킵니다.\r\
 *마나가 120이 됐을때 대상 800범위 지점을 별빛의 검기로 베어냅니다. 별빛의 검기로 베어진 적은 1.5초간 스턴당하며 공격한 적의 전체 체력의 2.5% + 300만의 |c00FF6464물리 데미지|r를 입습니다. 별빛의 검기가 사라지고 난 후 3초 후에 후속타로 별빛을 폭발시켜 검기가 있던 위치에서 800범위에 있는 적들에게 150만의 |c00FF6464물리 데미지|r를 추가로 입힙니다.\r\
 *|c00C5EA53[조합 시너지]|r신령을 받드는 몸\r\
--Hakurei Reimu[호밍]을 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 조합할 경우 히든 스킬 확정 변경";
+-Hakurei Reimu[Homing]을 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
 -- anam
 		t["A06G"][4][1] = "[요리히메]아마츠미카보시";
 -- aart
@@ -23280,7 +23280,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 *별의 신의 힘을 빌어 대상 지점의 모든 것을 베어버립니다. 대상 지점 주변 400범위내의 적에게 전체 체력의 4% + 550만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *게임 오버까지의 카운트가 5개 이하라면 전체 체력 비례 데미지가 8%로 증가합니다.\r\
 *|c00C5EA53[조합 시너지]|r신령을 받드는 몸\r\
--Hakurei Reimu[호밍]을 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 조합할 경우 히든 스킬 확정 변경";
+-Hakurei Reimu[Homing]을 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -23390,13 +23390,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: 와타츠키노 토요히메[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개\r\
 \r\
-|c00ffff00!주의 : 이 유닛은 조합시 플레이어의 라인존 중앙에 생성됩니다.|r\r\
+|c00ffff00!주의 : 이 Units은 Combination시 플레이어의 라인존 중앙에 생성됩니다.|r\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 와타츠키노 요리히메 업그레이드\r\
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 와타츠키노 요리히메 Upgrade\r\
 |c0097FF2F[조합 시너지]|r신령을 받드는 몸\r\
--Hakurei Reimu[Unique]를 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 조합할 경우 히든 스킬로 확정 변경됩니다.";
+-Hakurei Reimu[Unique]를 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 Combination할 경우 히든 스킬로 확정 변경됩니다.";
 -- aart
 		t["A0DM"][5][1] = "ReplaceableTextures\\CommandButtons\\Yorihime\\BTN_UP.blp";
 -- [A0GI]
@@ -23406,7 +23406,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- anam
 -- atp1 1
-		t["A0GI"][5][1] = "|c00ffff00와타츠키노 요리히메|r 조합|c00FF8040[F]|r";
+		t["A0GI"][5][1] = "|c00ffff00와타츠키노 요리히메|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0GI"][7][1] = "와타츠키노 토요히메[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + 레이센 우돈게인 이나바[Unique] + Unique 소울 3개";
@@ -23467,7 +23467,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 4
 -- [A059]
 -- aub1 1
-		t["A059"][1][1] = "＊자신 주변 600 범위의 적 이동속도를 15% 감소시킵니다.\r\
+		t["A059"][1][1] = "＊자신 주변 600 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
 ＊공격 시 10% 확률로 대상 주변 475 범위의 적에게 50만의 |c00379BFF마법 피해|r를 가하고 [2~3]초간 기절시키며 받는 마법 피해를 5% |c0000FFFF증폭|r시킵니다.";
 -- atar 1
 -- atp1 1
@@ -23538,7 +23538,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 30
 -- abuf 31
 -- atp1 2
-		t["A059"][68][1] = "『무의식의 유전자』 - |c0000FFFF익스텐드|r";
+		t["A059"][68][1] = "『무의식의 유전자』 - |c0000FFFFExtended|r";
 -- atp1 3
 -- atp1 5
 -- atp1 4
@@ -23569,8 +23569,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A059"][98][1] = "*주변 1000범위 적의 이동속도를 35% 감소시킵니다. \r\
-*코이시가 이변 보스 유닛을 공격시 20% 확률로 25만의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
+		t["A059"][98][1] = "*주변 1000범위 적의 Movement Speed를 35% 감소시킵니다. \r\
+*코이시가 이변 보스 Units을 공격시 20% 확률로 25만의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
 *코이시가 공격시 10% 확률로 대상 적에게 흐름의 기류를 발사합니다. 흐름의 기류는 최대 10마리까지 튕기며 100만의 |c00379BFF마법 데미지|r를 입히고 튕길때마다 8%의 데미지가 증폭됩니다.";
 -- aub1 3
 -- aub1 4
@@ -23623,7 +23623,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0NB"][4][1] = "한부『링거링 콜드』";
 -- aub1 1
-		t["A0NB"][5][1] = "*|c00FF80FF[활력]|r - 7초 : 공격당한 대상 유닛의 체력이 25% 이하라면, 즉사시킨 다음 대상 주변 450 범위의 적에게 전체 체력의 1% * [1.00 + 현재 라운드/100]의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0NB"][5][1] = "*|c00FF80FF[활력]|r - 7초 : 공격당한 대상 Units의 체력이 25% 이하라면, 즉사시킨 다음 대상 주변 450 범위의 적에게 전체 체력의 1% * [1.00 + 현재 라운드/100]의 |c00379BFF마법 피해|r를 가합니다.";
 -- areq
 		t["A0NB"][9][1] = "h07U";
 -- [A0NC]
@@ -23648,8 +23648,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 -- aub1 1
 		t["A0ND"][5][1] = "*25초마다 공격한 적을 하나 즉사시킵니다[보스에게는 적용되지 않습니다]\r\
-*공격시 20% 확률로 대상 라인 유닛의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 현재 체력의 3% + 35만의 |c00379BFF마법 데미지|r를 입힙니다. [보스 유닛에게는 30%의 데미지만 적용됩니다]\r\
-*보스 유닛을 공격시 35% 확률로 잃은 체력의 1%에 해당하는 |c00379BFF마법 데미지|r를 입힙니다.";
+*공격시 20% 확률로 대상 라인 Units의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 현재 체력의 3% + 35만의 |c00379BFF마법 데미지|r를 입힙니다. [보스 Units에게는 30%의 데미지만 적용됩니다]\r\
+*보스 Units을 공격시 35% 확률로 잃은 체력의 1%에 해당하는 |c00379BFF마법 데미지|r를 입힙니다.";
 -- [A0NE]
 -- arac
 -- aart
@@ -23657,7 +23657,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0NE"][5][1] = "오노즈카 코마치[Unique] + 시키에이키 야마자나두[Epic] + Unique 소울 1개";
 -- atp1 1
-		t["A0NE"][6][1] = "|c00ffff00오노즈카 코마치[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0NE"][6][1] = "|c00ffff00오노즈카 코마치[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0NE"][8][1] = "h01O,h01W,h05U";
@@ -23677,9 +23677,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0NF"][4][1] = "|c00A8F13A[Combination]|r: 오노즈카 코마치[Unique] + 시키에이키 야마자나두[Epic] + Unique 소울\r\
 \r\
-[공격속도]: 0.38초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
+[Attack Speed]: 0.38 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 *|c00C5EA53[조합 시너지]|r농땡이에는 설교를\r\
 -시키에이키 야마자나두[Arcana]를 보유하고 있을 경우, 박명『얼마 남지 않은 여생』의 즉사 쿨다운이 15초로 감소합니다. 오노즈카 코마치[Legendary]가 여러기 있을 경우 적용되지 않습니다.";
 -- aart
@@ -23775,13 +23775,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- anam
 -- aart
 -- atp1 1
-		t["A0NH"][4][1] = "|c00FEE952[Unit Information]|r - 이부키 스이카[Chronicle]";
+		t["A0NH"][4][1] = "|c00FEE952[Unit Information]|r - Suika Ibuki[Chronicle]";
 -- aub1 1
 		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: 비상천칙[Epic] +  토키코[Epic] + Yakumo Ran[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 이부키 스이카 업그레이드\r\
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Suika Ibuki Upgrade\r\
 |c00C5EA53[조합 시너지]|r어쩌다보니 합석\r\
 -비루코[특수]를 보유하고 있을 경우, 귀부『미싱 파워』의 평타 데미지 증가 효과가 25만에서 35만으로 증가합니다.";
 -- atp1 2
@@ -23789,13 +23789,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0NH"][7][1] = "『묵화』-『신검합일 상승경지』";
 -- aub1 2
 -- aub1 3
-		t["A0NH"][9][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic 유닛보다 월등한 공격력을 가졌지만 공격속도를 일부 희생했습니다. 업그레이드로 공격속도가 오르지 않으며, 기본적으로 느린 공격속도를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
-|c00FF0000콘가라가 신검합일의 상승 경지에 이르렀습니다. 공격력이 750000 상승하고, 공격속도가 45% 상승합니다.|r";
+		t["A0NH"][9][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic Units보다 월등한 공격력을 가졌지만 Attack Speed를 일부 희생했습니다. Upgrade로 Attack Speed가 오르지 않으며, 기본적으로 느린 Attack Speed를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
+|c00FF0000콘가라가 신검합일의 상승 경지에 이르렀습니다. 공격력이 750000 상승하고, Attack Speed가 45% 상승합니다.|r";
 -- atp1 4
 		t["A0NH"][10][1] = "『묵화』-『신검합일 제일경지』";
 -- aub1 4
-		t["A0NH"][11][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic 유닛보다 월등한 공격력을 가졌지만 공격속도를 일부 희생했습니다. 업그레이드로 공격속도가 오르지 않으며, 기본적으로 느린 공격속도를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
-|c00FF0000콘가라가 신검합일의 제일 경지에 이르렀습니다. 공격력이 2500000 상승하고, 공격속도가 25% 상승합니다.|r";
+		t["A0NH"][11][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic Units보다 월등한 공격력을 가졌지만 Attack Speed를 일부 희생했습니다. Upgrade로 Attack Speed가 오르지 않으며, 기본적으로 느린 Attack Speed를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
+|c00FF0000콘가라가 신검합일의 제일 경지에 이르렀습니다. 공격력이 2500000 상승하고, Attack Speed가 25% 상승합니다.|r";
 -- arac
 -- [A0NI]
 -- arac
@@ -23803,7 +23803,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0NI"][3][1] = "발도『나생문』";
 -- aub1 1
-		t["A0NI"][4][1] = "*콘가라가 공격시 30% 확률로 대상 유닛의 현재 체력의 8%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
+		t["A0NI"][4][1] = "*콘가라가 공격시 30% 확률로 대상 Units의 현재 체력의 8%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
 [보스의 경우 전체 체력의 0.4%+75만의 추가 물리 데미지를 입힙니다]\r\
 *콘가라가 공격시 12% 확률로 칼을 빠르게 뽑아내어 대상 지점을 갈라버립니다. 지점 주변 600범위내에 있는 적에게 현재 체력의 0.6% + 88만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- [A0NK]
@@ -23821,19 +23821,19 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0NL"][4][1] = "|c00FEE952[Unit Information]|r - 콘가라[Historic]";
 -- aub1 1
-		t["A0NL"][5][1] = "|c00A8F13A[Combination]|r: Nishida Satono[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각\r\
+		t["A0NL"][5][1] = "|c00A8F13A[Combination]|r: Nishida Satono[Epic] + Suika Ibuki[Unique] + Unique 소울 3개 + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.28초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 콘가라 업그레이드";
+[Attack Speed]: 0.28 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 콘가라 Upgrade";
 -- arac
 -- [A0NM]
 -- arac
 -- aart
 -- aub1 1
-		t["A0NM"][5][1] = "Nishida Satono[Epic] + 이부키 스이카[Unique] + Unique 소울 3개 + 고대와 환상의 조각 = 콘가라";
+		t["A0NM"][5][1] = "Nishida Satono[Epic] + Suika Ibuki[Unique] + Unique 소울 3개 + 고대와 환상의 조각 = 콘가라";
 -- atp1 1
-		t["A0NM"][6][1] = "|c00ffff00콘가라|r 조합|c00FF8040[F]|r";
+		t["A0NM"][6][1] = "|c00ffff00콘가라|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0NM"][8][1] = "ufro,h035,h05U,e03C";
@@ -23871,7 +23871,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0NS"][1][1] = "[얼음 Fairy의 숨결][2레벨 술래]";
 -- [A0NT]
 -- aub1 1
-		t["A0NT"][1][1] = "주변 800범위 유닛의 이동속도를 20% 감소시킵니다.";
+		t["A0NT"][1][1] = "주변 800범위 Units의 Movement Speed를 20% 감소시킵니다.";
 -- atar 1
 -- atp1 1
 -- anam
@@ -24138,7 +24138,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A0NX"][3][1] = "BTN\\BTNtriple.blp";
 -- anam
-		t["A0NX"][4][1] = "[삼중구]공격속도";
+		t["A0NX"][4][1] = "[삼중구]Attack Speed";
 -- [A0NY]
 -- arac
 -- atar 1
@@ -24178,7 +24178,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0O1"][6][1] = "운명의 수레바퀴|cffffcc00(F)|r";
 -- aub1 1
-		t["A0O1"][7][1] = "*금 1250, 나무 4을 소모하여 대상 Unique 유닛 1기를 Normal~Legendary(진영과는 상관없이 모든 Legendary 유닛)유닛으로 바꿉니다. 확률은 Normal/Magic/Rare/Unique/Epic/Legendary 순서로 15%/15%/25%/30%/14.9%/0.1% 확률입니다. \r\
+		t["A0O1"][7][1] = "*금 1250, 나무 4을 소모하여 대상 Unique Units 1기를 Normal~Legendary(진영과는 상관없이 모든 Legendary Units)Units으로 바꿉니다. 확률은 Normal/Magic/Rare/Unique/Epic/Legendary 순서로 15%/15%/25%/30%/14.9%/0.1% 확률입니다. \r\
 *쿨다운 250초";
 -- aart
 -- atar 1
@@ -24194,7 +24194,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 *시간 가속 버프는 9초간 지속되며, 지속시간 동안 사쿠야의 스킬이 발동할 확률이 5%p 증가합니다.\r\
 *시간 가속 버프의 지속시간 동안 사쿠야가 공격시 10% 확률로 대상 전체 체력의 10%를 감소시키고, 감소시킨 체력의 15%에 해당하는 |c00FF6464물리 데미지|r를 주변 400범위 적에게 입힙니다.\r\
 [보스에게는 단일 체력 감소 효과가 30%만 적용됩니다.]\r\
-*시간 가속 버프가 지속되는 동안 『타임스토퍼 사쿠야』 스킬로 순간이동 할 경우, 거리에 상관없이 기본 데미지를 맵 전체 유닛에게 입힙니다.";
+*시간 가속 버프가 지속되는 동안 『타임스토퍼 사쿠야』 스킬로 순간이동 할 경우, 거리에 상관없이 기본 데미지를 맵 전체 Units에게 입힙니다.";
 -- anam
 -- aart
 		t["A0O2"][5][1] = "SakuyaWorld2.blp";
@@ -24267,7 +24267,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0O3"][5][1] = "*신묘마루가 공격시 마나를 1 회복합니다.마나가 150이 됐을때 공격시 휘침검을 휘둘러 대상 적을 구체 안에 가둡니다. 1초마다 구체 내의 적을 1초간 스턴시킵니다.\r\
 *3초 후 휘침검을 휘둘러 구체 내에 있는 적을 베어냅니다. 적은 현재 체력의 4.5% + 100만의 |c00FF6464물리 데미지|r를 입습니다.\r\
-*공격한 대상 유닛은 즉사합니다.[보스 제외]";
+*공격한 대상 Units은 즉사합니다.[보스 제외]";
 -- [A0O4]
 -- aart
 		t["A0O4"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNPhaseShift.blp";
@@ -24287,11 +24287,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0O5"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Rumia EX[Unique] + Unique 소울\r\
 \r\
-[공격속도]: 0.35초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드\r\
+[Attack Speed]: 0.35 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[조합 시너지]|r뒤집어진 소인 공주님\r\
--플레이어가 Kijin Seija[Chronicle]을 보유하고 있을 경우, 이 유닛의 스킬 데미지가 마법 데미지로 적용됩니다.";
+-플레이어가 Kijin Seija[Chronicle]을 보유하고 있을 경우, 이 Units의 스킬 데미지가 마법 데미지로 적용됩니다.";
 -- aart
 		t["A0O5"][5][1] = "Icon\\Unit\\BTNShinmyou_Leg.blp";
 -- [A0O6]
@@ -24300,7 +24300,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0O6"][5][1] = "Sukuna Shinmyoumaru[Epic] + Rumia EX[Unique] + Unique 소울 1개";
 -- atp1 1
-		t["A0O6"][6][1] = "|c00ffff00스쿠나 신묘마루[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0O6"][6][1] = "|c00ffff00스쿠나 신묘마루[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0O6"][8][1] = "hgry,h01H,h05U";
@@ -24329,21 +24329,21 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 		t["A0O7"][10][1] = "『해방된 요술망치』";
 -- aub1 2
-		t["A0O7"][11][1] = "아군 유닛의 공격속도를 14% 상승 시킵니다. 200기의 적을 처치할때마다 1의 나무를 추가로 획득합니다.";
+		t["A0O7"][11][1] = "아군 Units의 Attack Speed를 14% 상승 시킵니다. 200기의 적을 처치할때마다 1의 나무를 추가로 획득합니다.";
 -- [A0O8]
 -- atar 1
 -- atp1 1
 		t["A0O8"][2][1] = "『백식관음』";
 -- aub1 1
 		t["A0O8"][3][1] = "*공격시 8% 확률로 보이지 않을 정도로 빠른 속도로 합장을 한 뒤 대상을 공격합니다.\r\
-*대상 유닛의 현재 체력의 0.4% + 100만의 |c00AC59FF절대 데미지|r를 대상 주변 500범위에 입히고, 1.5초간 스턴시킵니다. ";
+*대상 Units의 현재 체력의 0.4% + 100만의 |c00AC59FF절대 데미지|r를 대상 주변 500범위에 입히고, 1.5초간 스턴시킵니다. ";
 -- anam
 -- aart
 		t["A0O8"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp";
 -- atp1 2
 -- aub1 2
 		t["A0O8"][8][1] = "*공격시 8% 확률로 보이지 않을 정도로 빠른 속도로 합장을 한 뒤 대상을 공격합니다.\r\
-*대상 유닛의 전체 체력의 0.4% + 100만의 |c00AC59FF절대 데미지|r를 대상 주변 500범위에 입히고, 1.5초간 스턴시킵니다. ";
+*대상 Units의 전체 체력의 0.4% + 100만의 |c00AC59FF절대 데미지|r를 대상 주변 500범위에 입히고, 1.5초간 스턴시킵니다. ";
 -- abuf 1
 		t["A0O8"][9][1] = "Bwea";
 -- atar 2
@@ -24361,7 +24361,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 |c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
 ＊공격 시 15% 확률로 3초 동안 소리를 탄막으로 소환한다.\r\
 -공격력(|c00FF6464물리|r) : 3만5천\r\
--공격속도 : 0.4초당 1번";
+-Attack Speed : 0.4 Cooldown";
 -- anam
 -- aart
 -- atp1 2
@@ -24422,10 +24422,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- anam
 -- atp1 1
-		t["A0OF"][5][1] = "|c00ffff00헤카티아 라피스라줄리|r 조합|c00FF8040[F]|r";
+		t["A0OF"][5][1] = "|c00ffff00헤카티아 라피스라줄리|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0OF"][7][1] = "Nagae Iku + Sㅏ나에 + Kamishirasawa Keine";
+		t["A0OF"][7][1] = "Nagae Iku + Sa Nae + Kamishirasawa Keine";
 -- ahky
 -- alig
 -- atat
@@ -24442,7 +24442,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0OH"][5][1] = "Blue UFO + Red UFO + Green UFO";
 -- atp1 1
-		t["A0OH"][6][1] = "|c00ffff00Rainbow UFO|r 조합|c00FF8040[D]|r";
+		t["A0OH"][6][1] = "|c00ffff00Rainbow UFO|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0OH"][8][1] = "h014,h013,h012";
@@ -24493,7 +24493,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A093"][2][1] = "『아돌 영식』";
 -- aub1 1
-		t["A093"][3][1] = "*자신 주변 1000범위 아군의 공격속도를 25% 증가시킵니다.\r\
+		t["A093"][3][1] = "*자신 주변 1000범위 아군의 Attack Speed를 25% 증가시킵니다.\r\
 *공격시 18% 확률로 대상 주변 400범위 적에게 185만의 |c00AC59FF절대 데미지|r를 입히고, 1.5초의 스턴을 입힙니다.";
 -- anam
 -- atar 1
@@ -24513,7 +24513,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0KM"][3][1] = "『파문호흡법』";
 -- aub1 1
-		t["A0KM"][4][1] = "*맵 전체 자신 소유 유닛의 공격력을 50% 상승시킵니다.\r\
+		t["A0KM"][4][1] = "*맵 전체 자신 소유 Units의 공격력을 50% 상승시킵니다.\r\
 *주변 750범위 적의 방어력을 38 감소시킵니다.";
 -- atar 1
 -- abuf 1
@@ -24523,7 +24523,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 2
 -- atp1 2
 -- aub1 2
-		t["A0KM"][11][1] = "*맵 전체 자신 소유 유닛의 공격력을 50% 상승시킵니다.\r\
+		t["A0KM"][11][1] = "*맵 전체 자신 소유 Units의 공격력을 50% 상승시킵니다.\r\
 *주변 750범위 적의 방어력을 55 감소시킵니다.";
 -- [A0LA]
 -- arac
@@ -24687,7 +24687,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 2
 		t["A0LA"][156][1] = "*유카가 공격하는 적의 체력이 10% 이하일시 즉사시킵니다. 추가로 자신 주변에 있는 적의 방어력을 35 감소시킵니다.";
 -- aub1 3
-		t["A0LA"][157][1] = "미토리가 유닛을 공격할때 마다 3% 확률로 오이를 섭취합니다.\r\
+		t["A0LA"][157][1] = "미토리가 Units을 공격할때 마다 3% 확률로 오이를 섭취합니다.\r\
 오이는 이 스킬의 스킬 레벨로 알 수 있습니다.\r\
 오이는 최대 20개까지 섭취가능하며\r\
 섭취한 오이 하나당 주변 900범위에 -1.5만큼의 방어력 감소 효과를 가집니다.";
@@ -24771,9 +24771,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A087"][6][1] = "|c00ffff00『윤회화선안』|r|c00FF8040[D]|r";
 -- aub1 1
 		t["A087"][7][1] = "*카센이 선인으로써의 진정한 힘을 끌어내 새로운 눈을 개안합니다. 개안하는데에는 사천왕인 스이카의 피가 필요합니다.\r\
-이부키 스이카[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
+Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 이부키 스이카[Unique]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Suika Ibuki[Unique]는 사라집니다.|r";
 -- aart
 		t["A087"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNMetamorphosis.blp";
 -- atar 1
@@ -24959,10 +24959,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 -- aub1 1
 		t["A0OJ"][4][1] = "*시키에이키가 공격시 마나를 1씩 회복합니다. 마나가 80이 됐을때 공격하는 대상 적의 생전의 업을 심판합니다.\r\
-*대상 유닛의 잃은 체력의 4% + 200만의 |c00379BFF마법 데미지|r를 대상 주변 400범위에 입힙니다.\r\
+*대상 Units의 잃은 체력의 4% + 200만의 |c00379BFF마법 데미지|r를 대상 주변 400범위에 입힙니다.\r\
 *위 효과 발동시『라스트 저지먼트』가 발동합니다.\r\
 *|c00FF80FF[활력]|r - 12초\r\
-대상 유닛 1기를 즉사시킵니다.[보스 제외], 시키에이키의 마나를 30% 회복시킵니다.";
+대상 Units 1기를 즉사시킵니다.[보스 제외], 시키에이키의 마나를 30% 회복시킵니다.";
 -- aart
 		t["A0OJ"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNStarWand.blp";
 -- atp1 2
@@ -25181,7 +25181,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0OL"][2][1] = "유곡『리포지터리 오브 히로카와 - 신령 -』";
 -- aub1 1
 		t["A0OL"][3][1] = "*유유코가 죽음의 기운을 뿜어내 적들에게 저주를 내립니다.\r\
-*유유코 주변 650범위 내에 있는 적의 이동속도를 30% 감소시킵니다.\r\
+*유유코 주변 650범위 내에 있는 적의 Movement Speed를 30% 감소시킵니다.\r\
 *유유코 주변 650범위 내에 있는 적의 방어력을 24 감소시킵니다.";
 -- anam
 		t["A0OL"][4][1] = "[유유코][Arcana]";
@@ -25194,7 +25194,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- [A0OM]
 -- aub1 1
-		t["A0OM"][1][1] = "*유유코 주변 650범위 내에 있는 아군의 공격속도를 14% 상승시킵니다.[다른 공격속도와 중첩 가능]\r\
+		t["A0OM"][1][1] = "*유유코 주변 650범위 내에 있는 아군의 Attack Speed를 14% 상승시킵니다.[다른 Attack Speed와 중첩 가능]\r\
 *유유코가 공격시 10% 확률로 대상 지점에 벚꽃잎을 퍼뜨려 450범위 내에 있는 적에게 현재 체력의 0.3% + 60만의 |c00AC59FF절대 데미지|r를 입히고, 1.5초간 스턴시킵니다.";
 -- atar 1
 		t["A0OM"][2][1] = "invulnerable,self,notself,friend,player";
@@ -25298,7 +25298,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0OM"][98][1] = "주변 550범위 유닛의 이동속도를 25% 감소시킵니다.";
+		t["A0OM"][98][1] = "주변 550범위 Units의 Movement Speed를 25% 감소시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -25428,7 +25428,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- [A0OP]
 -- aub1 1
-		t["A0OP"][1][1] = "*코스즈가 자신 주변 700범위 내에 있는 자신 소유 유닛의 공격속도를 20% 상승시킵니다. 이 효과는 다른 공격 속도 증가 효과와 함께 적용됩니다.";
+		t["A0OP"][1][1] = "*코스즈가 자신 주변 700범위 내에 있는 자신 소유 Units의 Attack Speed를 20% 상승시킵니다. 이 효과는 다른 공격 속도 증가 효과와 함께 적용됩니다.";
 -- atar 1
 -- atp1 1
 		t["A0OP"][4][1] = "『두근거리는 모험의 서』";
@@ -25577,7 +25577,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0OS"][7][1] = "역전『체인지 에어 브레이브』";
 -- aub1 2
 		t["A0OS"][8][1] = "*세이자가 공격시 마나를 1씩 회복합니다.세이자의 마나가 99가 됐을때, 아래 효과를 발동합니다.[세이자는 마나 회복 효과를 받지 않습니다]\r\
-*자신 주변 1200범위의 적 유닛의 기본 이동속도를 250으로 고정시킵니다. 전체 체력의 1.5% + 185만의 절대 데미지를 입히고, 역습의 길 레벨에 따라서 적 유닛 1기당 아래의 마나를 회복합니다. \r\
+*자신 주변 1200범위의 적 Units의 기본 Movement Speed를 250으로 고정시킵니다. 전체 체력의 1.5% + 185만의 절대 데미지를 입히고, 역습의 길 레벨에 따라서 적 Units 1기당 아래의 마나를 회복합니다. \r\
 『반역자』 : 마나 0.5 회복 \r\
 『선구자』 : 마나 0.75 회복\r\
 『계몽가』 : 마나 1 회복\r\
@@ -25600,7 +25600,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0OT"][5][1] = "『만인요지적』";
 -- aub1 1
 		t["A0OT"][6][1] = "*모미지 주변 750범위 내의 적의 방어력을 22 감소시킵니다.\r\
-*위 방어력 감소 효과를 받는 적이 자신이 소유한 유닛에게[=아군 플레이어 제외] 데미지를 입을 경우, 그 데미지의 20%를 추가 |c00FF6464물리 데미지|r로 입힙니다.";
+*위 방어력 감소 효과를 받는 적이 자신이 소유한 Units에게[=아군 플레이어 제외] 데미지를 입을 경우, 그 데미지의 20%를 추가 |c00FF6464물리 데미지|r로 입힙니다.";
 -- atat
 -- abuf 1
 		t["A0OT"][8][1] = "B04Y";
@@ -25973,7 +25973,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 100
 -- aub1 2
 		t["A0OZ"][306][1] = "*자신 주변 800범위 적의 방어력을 15 감소시킵니다.\r\
-*공격시 20% 확률로 대상 유닛 1기를 3초간 스턴시키고, 65만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*공격시 20% 확률로 대상 Units 1기를 3초간 스턴시키고, 65만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 |c00FFFF00구상자 : 화유월|r";
 -- aub1 3
 -- aub1 4
@@ -26492,7 +26492,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["AIDX"][2][1] = "Unit Indexing";
 -- [A0P1]
 -- anam
-		t["A0P1"][1][1] = "[공격속도]";
+		t["A0P1"][1][1] = "[Attack Speed]";
 -- [S00J]
 -- atar 1
 -- arac
@@ -26503,7 +26503,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 [플레이어 1] : 속박의 여우의 힘을 빌립니다. 공격시 10% 확률로 대상 주변 500범위 적을 3초간 스턴시키고, 80만의 마법 데미지를 입힙니다.\r\
 [플레이어 2] : 자비의 여우의 힘을 빌립니다. 공격시 10% 확률로 자신 주변 800범위 아군의 마나를 4% 회복시킵니다.\r\
 [플레이어 3] : 파괴의 여우의 힘을 빌립니다. 공격시 10% 확률로 대상 주변 400범위 적에게 전체 체력의 0.2% + 100만의 절대 데미지를 입힙니다.\r\
-[플레이어 4] : 풍작의 여우의 힘을 빌립니다. 공격시 0.6% 확률로 대상 유닛을 즉사시키고, 목재 1을 획득합니다. ";
+[플레이어 4] : 풍작의 여우의 힘을 빌립니다. 공격시 0.6% 확률로 대상 Units을 즉사시키고, 목재 1을 획득합니다. ";
 -- anam
 		t["S00J"][5][1] = "[Arcana][란]곳쿠리";
 -- abuf 1
@@ -26526,7 +26526,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 7
 -- abuf 8
 -- aub1 2
-		t["S00J"][22][1] = "*라이코가 흥겨운 북소리를 들려주어 주변 750범위 아군의 공격속도를 15% 증가시킵니다.\r\
+		t["S00J"][22][1] = "*라이코가 흥겨운 북소리를 들려주어 주변 750범위 아군의 Attack Speed를 15% 증가시킵니다.\r\
 *라이코가 공격시 마나를 1씩 회복합니다. 마나가 300이 됐을때 북을 크게 쳐 번개를 불러냅니다.\r\
 *번개는 라이코에게 내려쳐 주변 1000범위에 잃은 체력의 8% + 150만에 해당하는 |c00379BFF마법 데미지|r를 입힙니다. ";
 -- aub1 3
@@ -26551,7 +26551,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00K"][2][1] = "염력『사이코키네시스 앱』";
 -- aub1 1
-		t["S00K"][3][1] = "*자신의 스마트폰에 깔린 특별한 염력 어플리케이션으로 주변 700범위 적의 이동속도를 35% 감소시킵니다.\r\
+		t["S00K"][3][1] = "*자신의 스마트폰에 깔린 특별한 염력 어플리케이션으로 주변 700범위 적의 Movement Speed를 35% 감소시킵니다.\r\
 *추가로 방어력도 25 감소시킵니다.";
 -- anam
 -- abuf 1
@@ -26567,7 +26567,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0P2"][3][1] = "『7인의 잇슨보시』";
 -- aub1 1
-		t["A0P2"][4][1] = "*신묘마루가 공격시 10% 확률로 대상 유닛에게 225만의 |c00FF6464물리 데미지|r를 입히고 2초간 스턴시킵니다.\r\
+		t["A0P2"][4][1] = "*신묘마루가 공격시 10% 확률로 대상 Units에게 225만의 |c00FF6464물리 데미지|r를 입히고 2초간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『요술망치』\r\
 *신묘마루의 평타 공격은 대상 주변 450범위의 범위 데미지로 적용됩니다.";
@@ -26582,9 +26582,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 *코코로가 공격시 3% 확률로 내면의 감정을 표현하는 법을 익힙니다.\r\
 빙의『희로애락 퍼제션』을 습득합니다.\r\
 \r\
-『노성의 오구모 가면』: 코코로 주변 750범위 적군의 이동속도를 20% 감소시킵니다.\r\
+『노성의 오구모 가면』: 코코로 주변 750범위 적군의 Movement Speed를 20% 감소시킵니다.\r\
 『환희의 사자 가면』: 코코로 주변 750범위 아군의 공격력을 40% 증가시킵니다.\r\
-『광희의 횻토코 가면』: 코코로 주변 750범위 아군의 공격속도를 25% 상승시킵니다.";
+『광희의 횻토코 가면』: 코코로 주변 750범위 아군의 Attack Speed를 25% 상승시킵니다.";
 -- anam
 		t["S00M"][5][1] = "[코코로]";
 -- abuf 1
@@ -26596,9 +26596,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 2
 		t["S00M"][12][1] = "*코코로가 가진 가면들은 각각의 감정을 나타냅니다.\r\
 \r\
-『노성의 오구모 가면』: 코코로 주변 750범위 적군의 이동속도를 30% 감소시킵니다.\r\
+『노성의 오구모 가면』: 코코로 주변 750범위 적군의 Movement Speed를 30% 감소시킵니다.\r\
 『환희의 사자 가면』: 코코로 주변 750범위 아군의 공격력을 65% 증가시킵니다.\r\
-『광희의 횻토코 가면』: 코코로 주변 750범위 아군의 공격속도를 35% 상승시킵니다.";
+『광희의 횻토코 가면』: 코코로 주변 750범위 아군의 Attack Speed를 35% 상승시킵니다.";
 -- [A0P4]
 -- arac
 -- atar 1
@@ -26609,12 +26609,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0P4"][5][1] = "상혼『소울 스컬쳐』";
 -- aub1 1
 		t["A0P4"][6][1] = "*사쿠야 주변 1000범위 적의 방어력을 30 감소시킵니다.\r\
-*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 유닛에게 현재 체력의 15%에 해당하는 |c00FF6464물리 데미지|r를 3번 입히고[보스 유닛에게는 10%의 데미지만 입힙니다.], 대상 유닛 주변 400범위 적에게 현재 체력의 0.4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.";
+*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 Units에게 현재 체력의 15%에 해당하는 |c00FF6464물리 데미지|r를 3번 입히고[보스 Units에게는 10%의 데미지만 입힙니다.], 대상 Units 주변 400범위 적에게 현재 체력의 0.4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- abuf 1
 -- atp1 2
 -- aub1 2
 		t["A0P4"][10][1] = "*사쿠야 주변 1000범위 적의 방어력을 40 감소시킵니다.\r\
-*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 유닛에게 현재 체력의 15%에 해당하는 |c00FF6464물리 데미지|r를 3번 입히고[보스 유닛에게는 10%의 데미지만 입힙니다.], 대상 유닛 주변 400범위 적에게 현재 체력의 0.4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.";
+*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 Units에게 현재 체력의 15%에 해당하는 |c00FF6464물리 데미지|r를 3번 입히고[보스 Units에게는 10%의 데미지만 입힙니다.], 대상 Units 주변 400범위 적에게 현재 체력의 0.4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- atar 2
 -- abuf 2
 -- acat
@@ -26624,12 +26624,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0P5"][2][1] = "죽부『뱀부 크레이지 댄스』";
 -- aart
 -- aub1 1
-		t["A0P5"][4][1] = "＊공격당한 대상이 보스라면, 마이의 공격속도가 100% 증가합니다.\r\
+		t["A0P5"][4][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
 ＊공격 시 25% 확률로 대상에게 현재 체력 3%(보스 0.5%) + 50만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
 -- atp1 2
 		t["A0P5"][5][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 10%";
 -- aub1 2
-		t["A0P5"][6][1] = "＊공격당한 대상이 보스라면, 마이의 공격속도가 100% 증가합니다.\r\
+		t["A0P5"][6][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
 ＊공격 시 25% 확률로 대상에게 현재 체력 3%(보스 0.5%) + 50만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 10% 확률로 기묘한 춤을 춰 대상 주변 500 범위의 적을 2.5초간 기절시킵니다.";
 -- atp1 3
@@ -26639,21 +26639,21 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 5
 		t["A0P5"][9][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 25%";
 -- aub1 3
-		t["A0P5"][10][1] = "＊공격당한 대상이 보스라면, 마이의 공격속도가 100% 증가합니다.\r\
+		t["A0P5"][10][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
 ＊공격 시 25% 확률로 대상에게 현재 체력 3%(보스 0.5%) + 50만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 15% 확률로 피버한 춤을 춰 대상 주변 500 범위의 적을 2.5초간 기절시킵니다.";
 -- aub1 4
-		t["A0P5"][11][1] = "＊공격당한 대상이 보스라면, 마이의 공격속도가 100% 증가합니다.\r\
+		t["A0P5"][11][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
 ＊공격 시 25% 확률로 대상에게 현재 체력 3%(보스 0.5%) + 50만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 20% 확률로 미친 춤을 춰 대상 주변 500 범위의 적을 2.5초간 기절시킵니다.";
 -- aub1 5
-		t["A0P5"][12][1] = "＊공격당한 대상이 보스라면, 마이의 공격속도가 100% 증가합니다.\r\
+		t["A0P5"][12][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
 ＊공격 시 25% 확률로 대상에게 현재 체력 3%(보스 0.5%) + 50만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 25% 확률로 죽이는 춤을 춰 대상 주변 500 범위의 적을 2.5초간 기절시킵니다.";
 -- atp1 6
 		t["A0P5"][13][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 30%";
 -- aub1 6
-		t["A0P5"][14][1] = "＊공격당한 대상이 보스라면, 마이의 공격속도가 100% 증가합니다.\r\
+		t["A0P5"][14][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
 ＊공격 시 25% 확률로 대상에게 현재 체력 3%(보스 0.5%) + 50만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 30% 확률로 광기의 춤을 춰 대상 주변 500 범위의 적을 2.5초간 기절시킵니다.";
 -- [A0P6]
@@ -26661,7 +26661,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 1
 -- arac
 -- atp1 1
-		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r 조합|c00FF8040[D]|r";
+		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0P6"][5][1] = "Teireida Mai[Epic] + Doremy Sweet[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
 -- acat
@@ -26692,7 +26692,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- anam
 		t["A0P8"][2][1] = "[인페르날]";
 -- atp1 1
-		t["A0P8"][4][1] = "[Doremy Sweet, 익스텐드]";
+		t["A0P8"][4][1] = "[Doremy Sweet, Extended]";
 -- arac
 -- Uin4 2
 -- Uin4 3
@@ -26736,16 +26736,16 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 12
 		t["A0P8"][36][1] = "[시키에이키 십왕재판]";
 -- atp1 13
-		t["A0P8"][37][1] = "[시키에이키 십왕재판 익스텐드]";
+		t["A0P8"][37][1] = "[시키에이키 십왕재판 Extended]";
 -- [A0P9]
 -- arac
 -- anam
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0P9"][5][1] = "|c00ffff00Doremy Sweet|r 조합|c00FF8040[D]|r";
+		t["A0P9"][5][1] = "|c00ffff00Doremy Sweet|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P9"][6][1] = "이터니티 라바 + 소가노 토지코 + Yatadera Narumi = Doremy Sweet";
+		t["A0P9"][6][1] = "이터니티 라바 + Soga no Tojiko + Yatadera Narumi = Doremy Sweet";
 -- ahky
 -- acat
 		t["A0P9"][8][1] = "hbew,h042,nbel";
@@ -26780,7 +26780,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0PA"][26][1] = "windblade.mdx";
 -- [A0PB]
 -- aub1 1
-		t["A0PB"][1][1] = "*하타테 주변 800범위 적의 이동속도를 35% 감소시킵니다.\r\
+		t["A0PB"][1][1] = "*하타테 주변 800범위 적의 Movement Speed를 35% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
 하타테가 텐마의 힘을 각성하여 시간을 제어합니다. 자신 주변 800범위 적에게 현재 체력의 1.5% + 120만의 |c00379BFF마법 데미지|r를 입히고 폭풍의 인장을 2개 쌓습니다.";
 -- atar 1
@@ -26916,7 +26916,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0PC"][3][1] = "추부『가을 하늘과 소녀의 마음』";
 -- aub1 1
 		t["A0PC"][4][1] = "*미노리코 주변 750범위 내에 있는 적의 방어력을 20 감소시킵니다.\r\
-*미노리코가 공격시 25% 확률로 대상 유닛을 자신의 위치로 끌어오고 2초간 스턴시킵니다.";
+*미노리코가 공격시 25% 확률로 대상 Units을 자신의 위치로 끌어오고 2초간 스턴시킵니다.";
 -- anam
 		t["A0PC"][5][1] = "[마미조][미노리코]";
 -- aart
@@ -26925,7 +26925,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 		t["A0PC"][8][1] = "『탄막변화상태』";
 -- aub1 2
-		t["A0PC"][9][1] = "*주변 650범위 유닛의 방어력을 8 감소시킵니다.";
+		t["A0PC"][9][1] = "*주변 650범위 Units의 방어력을 8 감소시킵니다.";
 -- abuf 1
 		t["A0PC"][10][1] = "BNhs";
 -- atar 2
@@ -26973,7 +26973,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0PE"][5][1] = "코메이지 코이시[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Special Stopwatch] + 고대와 환상의 조각 = 유메코";
 -- atp1 1
-		t["A0PE"][6][1] = "|c00ffff00유메코|r 조합|c00FF8040[F]|r";
+		t["A0PE"][6][1] = "|c00ffff00유메코|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0PE"][8][1] = "h01N,h03N,e03C,h03A";
@@ -27004,7 +27004,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0PG"][7][1] = "*스이카의 공격은 대상 주변 350범위 내에 35%의 분산 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스이카의 스킬 공격력 2배 , 공격속도 20% 감소 , 평타 공격력 25만 증가\r\
+*스이카의 스킬 공격력 2배 , Attack Speed 20% 감소 , 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 100%에 해당하는 방어 무시 데미지";
 -- atar 1
 -- atar 2
@@ -27013,12 +27013,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 2
 		t["A0PG"][12][1] = "*스이카의 공격은 대상 주변 350범위 내에 35%의 분산 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스이카의 스킬 공격력 2배 , 공격속도 20% 감소 . 평타 공격력 25만 증가\r\
+*스이카의 스킬 공격력 2배 , Attack Speed 20% 감소 . 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 100%에 해당하는 방어 무시 데미지";
 -- aub1 3
 		t["A0PG"][13][1] = "*스이카의 공격은 대상 주변 350범위 내에 35%의 분산 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스이카의 스킬 공격력 2배 , 공격속도 20% 감소 . 평타 공격력 25만 증가\r\
+*스이카의 스킬 공격력 2배 , Attack Speed 20% 감소 . 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 145%에 해당하는 방어 무시 데미지";
 -- atar 3
 -- aani
@@ -27033,7 +27033,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0PH"][6][1] = "*카구야가 붉은 돌의 힘으로 공격시 1% 확률로 대상 적을 즉사시킵니다. 즉사 효과가 발동시 50% 확률로 셀렉터 한기를 생성합니다.\r\
 *카구야 주변 750범위 적의 방어력을 45 감소시킵니다.\r\
-*카구야 주변 750범위 적의 이동속도를 30% 감소시킵니다.";
+*카구야 주변 750범위 적의 Movement Speed를 30% 감소시킵니다.";
 -- abuf 1
 		t["A0PH"][8][1] = "B03N";
 -- atp1 2
@@ -27070,9 +27070,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0PJ"][1][1] = "수부『Kappa의 환상대폭포』";
 -- aub1 1
 		t["A0PJ"][2][1] = "*공격시 10% 확률로 대상 지점에 물폭탄을 던져 500범위 적에게 145만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*니토리 주변 1000범위 아군 유닛의 마나를 초당 4씩 회복시킵니다.\r\
+*니토리 주변 1000범위 아군 Units의 마나를 초당 4씩 회복시킵니다.\r\
 *|c00FF80FF[활력]|r - 10초\r\
-대상 유닛의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
+대상 Units의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
 -- anam
 -- aart
 -- atar 1
@@ -27082,9 +27082,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 -- aub1 2
 		t["A0PJ"][9][1] = "*공격시 10% 확률로 대상 지점에 물폭탄을 던져 500범위 적에게 145만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*맵 전체 아군 유닛의 마나를 초당 6씩 회복시킵니다.\r\
+*맵 전체 아군 Units의 마나를 초당 6씩 회복시킵니다.\r\
 *|c00FF80FF[활력]|r - 10초\r\
-대상 유닛의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
+대상 Units의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
 -- atar 2
 -- abuf 2
 -- [A0PK]
@@ -27120,7 +27120,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0PL"][2][1] = "『젤러시 봄버』";
 -- aub1 1
-		t["A0PL"][3][1] = "*파르시 주변 650범위 아군의 공격속도를 14% 상승시킵니다.\r\
+		t["A0PL"][3][1] = "*파르시 주변 650범위 아군의 Attack Speed를 14% 상승시킵니다.\r\
 *파르시가 공격시 10% 확률로 대상 주변 650범위에 있는 적에게 120만의 |c00379BFF마법 데미지|r를 입히고 1초간 스턴시킵니다.";
 -- anam
 -- atar 1
@@ -27168,7 +27168,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00N"][2][1] = "『최흉최악의 극빈불행신』";
 -- aub1 1
-		t["S00N"][3][1] = "*기본적으로 자신 주변 700범위 적의 이동속도를 30% 감소시킵니다.\r\
+		t["S00N"][3][1] = "*기본적으로 자신 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
 시온의 위치에 빈곤의 기운을 퍼뜨려 자신 주변 700범위 내에 있는 적에게 80만의 |c00AC59FF절대 데미지|r와 160만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 4";
@@ -27180,7 +27180,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- atar 2
 -- aub1 2
-		t["S00N"][10][1] = "*기본적으로 자신 주변 700범위 적의 이동속도를 40% 감소시킵니다.\r\
+		t["S00N"][10][1] = "*기본적으로 자신 주변 700범위 적의 Movement Speed를 40% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
 시온의 위치에 빈곤의 기운을 퍼뜨려 자신 주변 700범위 내에 있는 적에게 200만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *100~3000 골드를 가졌다면, 허영갑주가 6으로 강화됩니다.\r\
@@ -27194,7 +27194,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0PM"][5][1] = "Kagiyama Hina[액신] + 유령악단[팬텀 앙상블] + 토라마루 쇼우[Epic] + 2 Unique Souls ";
 -- atp1 1
-		t["A0PM"][6][1] = "|c00ffff00요리가미 죠온/시온|r 조합|c00FF8040[D]|r";
+		t["A0PM"][6][1] = "|c00ffff00요리가미 죠온/시온|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0PM"][8][1] = "nanm,h03B,h021,h05U,ehip";
@@ -27208,7 +27208,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00P"][3][1] = "『혐오스러운 자의 필로소피』";
 -- aub1 1
-		t["S00P"][4][1] = "*코이시 주변 1000범위 적의 이동속도를 40% 감소시킵니다.\r\
+		t["S00P"][4][1] = "*코이시 주변 1000범위 적의 Movement Speed를 40% 감소시킵니다.\r\
 *코이시가 공격시 10% 확률로 자신 주변 700범위 적에게 현재 체력의 1% + 105만의 |c00379BFF마법 데미지|r를 입히고, 받는 마법 피해를 15.14% 증폭시킵니다.";
 -- anam
 -- abuf 1
@@ -27280,7 +27280,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0PU"][2][1] = "Q.E.D『495년의 파문』";
 -- aub1 1
-		t["A0PU"][3][1] = "*기본적으로 플랑드르 주변 800범위 유닛의 이동속도를 10% 감소시킵니다.\r\
+		t["A0PU"][3][1] = "*기본적으로 플랑드르 주변 800범위 Units의 Movement Speed를 10% 감소시킵니다.\r\
 *플랑드르가 공격시 1% 확률로 모든 살의와 공포를 담아 대상 지점에 해방시킵니다. 대상 지점 주변 500범위 적에게 전체 체력의 10%에 해당하는 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *플랑드르의 체력이 낮을수록 데미지가 증가하며, 최대 2배까지 증가합니다. 이 효과 발동시 체력을 모두 회복합니다.\r\
 *내부 쿨다운 4초";
@@ -27353,14 +27353,14 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 -- aub1 1
 		t["A0PX"][3][1] = "＊자신 주변 900 범위의 적 방어력을 30 감소시킵니다.\r\
-＊|c002C62EA[[마력]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 전체 체력 2.5% + 275만의 |c00FF6464물리 피해|r를 가하고 5초간 이동속도를 80% 감소시키며, 1.5초간 기절시킨다.";
+＊|c002C62EA[[마력]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 전체 체력 2.5% + 275만의 |c00FF6464물리 피해|r를 가하고 5초간 Movement Speed를 80% 감소시키며, 1.5초간 기절시킨다.";
 -- anam
 -- aart
 -- atp1 2
 		t["A0PX"][7][1] = "암부『디머케이션』- 어둠 분신";
 -- aub1 2
 		t["A0PX"][8][1] = "*기본적으로 Rumia 주변 900범위 내에 있는 적의 방어력을 15 감소시킵니다.\r\
-*Rumia가 공격시 마나를 1씩 회복합니다. 마나가 140이 됐을때, 대상 지점에 거대한 어둠의 구체를 만들어 폭발시킵니다. 구체 주변 600범위 내에 있는 적에게 5초간 80%의 이동속도 감소 효과를 입히고, 1.5초간 기절시키며 전체 체력의 2.5% + 275만의 |c00FF6464물리 데미지|r를 입힙니다.";
+*Rumia가 공격시 마나를 1씩 회복합니다. 마나가 140이 됐을때, 대상 지점에 거대한 어둠의 구체를 만들어 폭발시킵니다. 구체 주변 600범위 내에 있는 적에게 5초간 80%의 Movement Speed 감소 효과를 입히고, 1.5초간 기절시키며 전체 체력의 2.5% + 275만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- abuf 1
 		t["A0PX"][9][1] = "B05N";
 -- atar 2
@@ -27373,7 +27373,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00Q"][3][1] = "대기적『야사카의 신풍』";
 -- aub1 1
-		t["S00Q"][4][1] = "*사나에 주변 800범위 아군의 공격속도를 12% 증가시킵니다.\r\
+		t["S00Q"][4][1] = "*사나에 주변 800범위 아군의 Attack Speed를 12% 증가시킵니다.\r\
 *사나에가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 자신 주변에 신의 바람을 재현해냅니다. 자신 주변 1500범위 적에게 8초 동안 매 2초마다 1.5초의 스턴을 입히고, 현재 체력의 1% + 전체 체력의 0.5% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *|c00C5EA53[조합 시너지]|r미라클 프로그\r\
 -모리야 스와코[Chronicle]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
@@ -27417,8 +27417,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00R"][3][1] = "백부『언듀레이션 레이』";
 -- aub1 1
-		t["S00R"][4][1] = "*레티 주변 650범위 내에 있는 적의 이동속도를 35% 감소시킵니다.\r\
-*레티가 공격시 22% 확률로 대상 유닛을 눈의 칼날로 베어버립니다. 대상 유닛 현재 체력의 21%를 감소시킵니다.\r\
+		t["S00R"][4][1] = "*레티 주변 650범위 내에 있는 적의 Movement Speed를 35% 감소시킵니다.\r\
+*레티가 공격시 22% 확률로 대상 Units을 눈의 칼날로 베어버립니다. 대상 Units 현재 체력의 21%를 감소시킵니다.\r\
 *백부『언듀레이션 레이』발동 시 동부『노던 위너』의 활력 쿨다운이 1초씩 감소합니다.";
 -- anam
 -- abuf 1
@@ -27464,7 +27464,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0Q1"][5][1] = "『마공학 핵』- 결정수 0";
 -- aub1 1
-		t["A0Q1"][6][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][6][1] = "*리카코를 Combination하기 전에 Combination한 Unique 등급 이상의 Units 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 20 + [결정 수*2]만큼 감소시킵니다.\r\
 *리카코의 스킬 데미지가 [결정수*2]%만큼 증가합니다.\r\
 [결정은 최대 10개까지 수집가능합니다]";
@@ -27582,7 +27582,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 10
 -- aub1 11
 -- aub1 12
-		t["A0Q1"][95][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][95][1] = "*리카코를 Combination하기 전에 Combination한 Unique 등급 이상의 Units 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 20 + [결정 수]만큼 감소시킵니다.\r\
 *리카코의 스킬 데미지가 [결정수]%만큼 증가합니다.\r\
 [결정은 최대 20개까지 수집가능합니다]";
@@ -27596,27 +27596,27 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 20
 -- aub1 21
 -- aub1 22
-		t["A0Q1"][105][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][105][1] = "*리카코를 Combination하기 전에 Combination한 Unique 등급 이상의 Units 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 36 감소시킵니다.\r\
 *리카코의 스킬 데미지가 21%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 23
-		t["A0Q1"][106][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][106][1] = "*리카코를 Combination하기 전에 Combination한 Unique 등급 이상의 Units 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 37 감소시킵니다.\r\
 *리카코의 스킬 데미지가 22%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 24
-		t["A0Q1"][107][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][107][1] = "*리카코를 Combination하기 전에 Combination한 Unique 등급 이상의 Units 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 38 감소시킵니다.\r\
 *리카코의 스킬 데미지가 23%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 25
-		t["A0Q1"][108][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][108][1] = "*리카코를 Combination하기 전에 Combination한 Unique 등급 이상의 Units 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 39 감소시킵니다.\r\
 *리카코의 스킬 데미지가 24%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
 -- aub1 26
-		t["A0Q1"][109][1] = "*리카코를 조합하기 전에 조합한 Unique 등급 이상의 유닛 수만큼『마공학 핵』이 강화됩니다.\r\
+		t["A0Q1"][109][1] = "*리카코를 Combination하기 전에 Combination한 Unique 등급 이상의 Units 수만큼『마공학 핵』이 강화됩니다.\r\
 *리카코 주변 700범위 적의 방어력을 40 감소시킵니다.\r\
 *리카코의 스킬 데미지가 25%만큼 증가합니다.\r\
 [결정은 최대 25개까지 수집가능합니다]";
@@ -27624,9 +27624,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + 나마즈[Epic] + 정체불명[Unique] + 고대와 환상의 조각 = 아사쿠라 리카코";
+		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + 나마즈[Epic] + Unknown[Unique] + 고대와 환상의 조각 = 아사쿠라 리카코";
 -- atp1 1
-		t["A0Q2"][6][1] = "|c00ffff00아사쿠라 리카코|r 조합|c00FF8040[F]|r";
+		t["A0Q2"][6][1] = "|c00ffff00아사쿠라 리카코|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0Q2"][8][1] = "uobs,h00S,h01J,e03C";
@@ -27653,7 +27653,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0Q4"][11][1] = "B05S";
 -- [A0Q5]
 -- anam
-		t["A0Q5"][1][1] = "[오광]공격속도";
+		t["A0Q5"][1][1] = "[오광]Attack Speed";
 -- [A0Q6]
 -- arac
 -- anam
@@ -27662,7 +27662,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- aub1 1
 		t["A0Q6"][5][1] = "*공격시 10% 확률로 자신이 과거에 모아두었던 무기를 꺼내 적의 위치에 투척합니다. 무기가 꽂힌 지점 450범위에 적 현재 체력의 0.6% + 145만의 |c00FF6464물리 데미지|r를 입히고 마나를 2 회복합니다.\r\
-*[보스 및 미션 유닛]을 공격시 20% 확률로 3배의 치명타와 2초의 스턴을 입힙니다.";
+*[보스 및 미션 Units]을 공격시 20% 확률로 3배의 치명타와 2초의 스턴을 입힙니다.";
 -- abuf 1
 -- aub1 2
 		t["A0Q6"][7][1] = "*미코가 공격시 10% 확률로 대상 위치에 별을 떨어뜨립니다. 별이 떨어진 위치 주변 400범위 내의 적에게 잃은 체력의 1% + 135만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
@@ -27684,7 +27684,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0Q7"][6][1] = "|c00ffff00신앙응집|r|c00FF8040[Q]|r";
 -- aub1 1
-		t["A0Q7"][7][1] = "*대상 Normal 유닛을 Strange-looking Human[Magic]으로 변화시킵니다.\r\
+		t["A0Q7"][7][1] = "*대상 Normal Units을 Strange-looking Human[Magic]으로 변화시킵니다.\r\
 *쿨다운 300초";
 -- aart
 -- atar 1
@@ -27692,7 +27692,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 -- atp1 3
 -- aub1 2
-		t["A0Q7"][13][1] = "*대상 Normal 유닛을 Strange-looking Human[Magic]으로 변화시킵니다.\r\
+		t["A0Q7"][13][1] = "*대상 Normal Units을 Strange-looking Human[Magic]으로 변화시킵니다.\r\
 *쿨다운 250초";
 -- aub1 3
 -- atar 2
@@ -27726,7 +27726,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0QA"][7][1] = "지주『바위굴의 거미집』";
 -- atp1 2
 -- aub1 1
-		t["A0QA"][9][1] = "*맵 전체 자신 소유 유닛의 공격속도를 15% 증가시킵니다.\r\
+		t["A0QA"][9][1] = "*맵 전체 자신 소유 Units의 Attack Speed를 15% 증가시킵니다.\r\
 *야마메가 공격시 20% 확률로 대상 지점 주변 400범위 적에게 120만의 |c00379BFF마법 데미지|r와 [2~3]초의 스턴 효과를 입힙니다.\r\
 *발동시 야마메의 활력 쿨다운을 1.5초 감소시킵니다.";
 -- aub1 2
@@ -27747,7 +27747,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A0QC]
 -- aub1 1
 		t["A0QC"][1][1] = "＊손에 쥔 이호로 연주해 1초마다 자신 주변 600 범위의 적에게 15만의 |c00379BFF마법 피해|r를 가합니다.\r\
-＊자신 주변 600 범위의 유닛의 공격속도를 16%, 이동속도를 20% 증가시킵니다.";
+＊자신 주변 600 범위의 Units의 Attack Speed를 16%, Movement Speed를 20% 증가시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A0QC"][4][1] = "화부『꺾이지 않는 꽃』";
@@ -27907,12 +27907,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A09P"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNCurse.blp";
 -- aub1 1
 		t["A09P"][4][1] = "*요우무가 공격시 10% 확률로 대상 지점 350범위 내의 적을 2초간 스턴시키고, 85만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-*요우무가 공격한 적이 보스 유닛이라면 40% 확률로 2초간 기절시키고 3.5배의 치명타 데미지를 입힙니다.";
+*요우무가 공격한 적이 보스 Units이라면 40% 확률로 2초간 기절시키고 3.5배의 치명타 데미지를 입힙니다.";
 -- abuf 1
 -- atar 1
 -- [A0H4]
 -- aub1 1
-		t["A0H4"][1][1] = "*1000범위 내의 자신 소유 유닛의 공격속도를 8% , 이동속도를 50% 증가시킵니다.";
+		t["A0H4"][1][1] = "*1000범위 내의 자신 소유 Units의 Attack Speed를 8% , Movement Speed를 50% 증가시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A0H4"][4][1] = "『하늘을 나는 불가사의한 거북이』";
@@ -28070,10 +28070,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- aspt
 -- aub1 1
-		t["A0QF"][7][1] = "*공격시 20% 확률로 대상 유닛을 2초간 스턴시키고, 현재 체력의 3% + 225만의 마법 데미지를 입힙니다. 대상 주변 300범위에 해당 피해의 25%의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-[보스 유닛 공격시 단일 데미지가 30%만 적용됩니다]\r\
+		t["A0QF"][7][1] = "*공격시 20% 확률로 대상 Units을 2초간 스턴시키고, 현재 체력의 3% + 225만의 마법 데미지를 입힙니다. 대상 주변 300범위에 해당 피해의 25%의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+[보스 Units 공격시 단일 데미지가 30%만 적용됩니다]\r\
 *스킬 데미지가 20% 증가합니다.\r\
-[Arcana 업그레이드 1회당 스킬 데미지가 2%p 증가합니다]";
+[Arcana Upgrade 1회당 스킬 데미지가 2%p 증가합니다]";
 -- atar 1
 -- atar 2
 -- atp1 2
@@ -28142,7 +28142,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A0QG]
 -- aub1 1
 		t["A0QG"][1][1] = "*공격시 15% 확률로 자신의 유령선을 생성하여 대상 지점을 포격합니다. 포격 지점 주변 400범위 내의 적에게 전체 체력의 0.7% + 165만의 |c00379BFF마법 데미지|r를 입히고, 1.2초간 스턴시킵니다.\r\
-*자신 주변 800범위 적의 이동속도를 45% 감소시킵니다.";
+*자신 주변 800범위 적의 Movement Speed를 45% 감소시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A0QG"][4][1] = "『미지의 항해자』";
@@ -28285,11 +28285,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 3
 -- atp1 2
 -- aub1 2
-		t["A0QH"][14][1] = "라인 내에 있는 적 유닛의 방어력을 12 감소시킵니다.";
+		t["A0QH"][14][1] = "라인 내에 있는 적 Units의 방어력을 12 감소시킵니다.";
 -- [A0QI]
 -- aub1 1
-		t["A0QI"][1][1] = "*공격시 마나를 1 회복합니다.  마나가 120이 됐을때, 자신 주변 1000범위에 익사한 수몰령을 생성하여 적 유닛을 3초간 기절시키고, 잃은 체력의 15% + 2500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*자신 주변 800범위 아군의 공격속도를 25% 증가시킵니다.";
+		t["A0QI"][1][1] = "*공격시 마나를 1 회복합니다.  마나가 120이 됐을때, 자신 주변 1000범위에 익사한 수몰령을 생성하여 적 Units을 3초간 기절시키고, 잃은 체력의 15% + 2500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*자신 주변 800범위 아군의 Attack Speed를 25% 증가시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A0QI"][4][1] = "유령『싱커 고스트』";
@@ -28426,8 +28426,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0QM"][5][1] = "『하니와 병법 - ㄴㅇㄱ』";
 -- aub1 1
 		t["A0QM"][6][1] = "*마유미가 하니와 병졸을 다루는 능력을 아군 인요에게도 적용합니다.\r\
-*주변 600범위 자신 소유 유닛의 공격속도 20% 증가\r\
-*주변 600범위 적 유닛의 방어력 50 감소";
+*주변 600범위 자신 소유 Units의 Attack Speed 20% 증가\r\
+*주변 600범위 적 Units의 방어력 50 감소";
 -- abuf 1
 		t["A0QM"][8][1] = "B066";
 -- atar 2
@@ -28829,7 +28829,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 99
 -- [A0C8]
 -- aub1 1
-		t["A0C8"][1][1] = "*자신 주변 700범위 적의 이동속도를 15% 감소시킵니다.\r\
+		t["A0C8"][1][1] = "*자신 주변 700범위 적의 Movement Speed를 15% 감소시킵니다.\r\
 *공격시 마나를 2 회복합니다. 마나가 30이 됐을때, 『체포하겠어요!』를 발동시킵니다.";
 -- atar 1
 -- atp1 1
@@ -29012,7 +29012,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A01U"][2][1] = "『도구의 이름과 용도를 아는 정도의 능력』";
 -- aub1 1
 		t["A01U"][3][1] = "*린노스케 주변 700범위 적의 방어력을 25 감소시킵니다.\r\
-*린노스케 주변 700범위 자신 소유 유닛의 공격 속도를 12% 증가시킵니다.";
+*린노스케 주변 700범위 자신 소유 Units의 공격 속도를 12% 증가시킵니다.";
 -- anam
 -- atar 1
 -- abuf 1
@@ -29035,10 +29035,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 6
 -- aub1 2
 		t["A01U"][24][1] = "*린노스케 주변 700범위 적의 방어력을 30 감소시킵니다.\r\
-*린노스케 주변 700범위 자신 소유 유닛의 공격 속도를 12% 증가시킵니다.";
+*린노스케 주변 700범위 자신 소유 Units의 공격 속도를 12% 증가시킵니다.";
 -- aub1 3
 		t["A01U"][25][1] = "*린노스케 주변 700범위 적의 방어력을 25 감소시킵니다.\r\
-*린노스케 주변 700범위 자신 소유 유닛의 공격 속도를 18% 증가시킵니다.";
+*린노스케 주변 700범위 자신 소유 Units의 공격 속도를 18% 증가시킵니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -29068,20 +29068,20 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A027"][5][1] = "|c00FEE952[Unit Information]|r - 모리치카 린노스케[Arcana]";
 -- aub1 1
 		t["A027"][6][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + Marisa Kirisame[Unique] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 향림당의 점주(rinno arc)\r\
+|c00A8F13A[Type Command]|r: 향림당의 점주(rinno arc)\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- abuf 1
 		t["A027"][8][1] = "B06B";
 -- atp1 2
 -- aub1 2
 		t["A027"][10][1] = "|c00A8F13A[Combination]|r: 토키코[Epic] + Marisa Kirisame[Unique] + 신비술사의 고서\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- abuf 2
 -- atar 2
 -- atar 3
@@ -29089,13 +29089,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- [A02I]
 -- arac
 -- aub1 1
-		t["A02I"][2][1] = "*파츄리 주변 800범위 아군 유닛의 마나를 초당 2 회복시킵니다.\r\
-*파츄리 주변 800범위 적의 이동속도를 30% 감소시킵니다.\r\
+		t["A02I"][2][1] = "*파츄리 주변 800범위 아군 Units의 마나를 초당 2 회복시킵니다.\r\
+*파츄리 주변 800범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 화수목금토부『현자의 돌』|cffffcc00(Q)|r\r\
 \r\
 *사용시 마나 스킬을 랜덤한 효과로 변화시킵니다.\r\
-*파츄리는 조합시 랜덤한 마나 스킬을 가집니다. 이 스킬을 사용하여 다른 스킬로 변화시킬 수 있습니다. 운이 좋지 않다면 스킬이 바뀌지 않을 수도 있습니다.\r\
+*파츄리는 Combination시 랜덤한 마나 스킬을 가집니다. 이 스킬을 사용하여 다른 스킬로 변화시킬 수 있습니다. 운이 좋지 않다면 스킬이 바뀌지 않을 수도 있습니다.\r\
 *사용시 마나가 모두 회복됩니다.\r\
 *쿨다운 100초";
 -- atp1 1
@@ -29289,7 +29289,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04A"][36][1] = "*케이네가 공격한 대상 유닛의 체력이 10% 이하라면 발동합니다. 공격시 15% 확률로대상 유닛을 즉사시킵니다. 공격한 대상 유닛의 체력이 70% 이상이라면 대상 전체 체력의 15%의 물리 데미지를 입힙니다.\r\
+		t["A04A"][36][1] = "*케이네가 공격한 대상 Units의 체력이 10% 이하라면 발동합니다. 공격시 15% 확률로대상 Units을 즉사시킵니다. 공격한 대상 Units의 체력이 70% 이상이라면 대상 전체 체력의 15%의 물리 데미지를 입힙니다.\r\
 미션,스토리 보스에게는 적용되지 않습니다.";
 -- aub1 3
 -- aub1 4
@@ -29331,7 +29331,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 *피를 칼날로 만들어 대상 주변 350범위에 있는 적에게 [전체 체력의 3% + 950만]의 |c00379BFF마법 데미지|r를 입히고, 받는 마법 데미지를 10초간 15% 증폭시킵니다.[수치가 같은 마법 데미지 증폭 효과와 함께 적용됩니다]\r\
 *발동시 마나를 모두 회복합니다.\r\
 [사용 효과]\r\
-*대상 Unique 유닛을 흡혈하여 50초간 정지시킵니다. 정지 상태일때는 조합 재료로 사용할 수 없으며, 어떠한 행동도 할 수 없습니다.[Unique 소울 추출은 가능합니다] 이미 정지한 유닛은 흡혈할 수 없습니다.\r\
+*대상 Unique Units을 흡혈하여 50초간 정지시킵니다. 정지 상태일때는 Combination 재료로 사용할 수 없으며, 어떠한 행동도 할 수 없습니다.[Unique 소울 추출은 가능합니다] 이미 정지한 Units은 흡혈할 수 없습니다.\r\
 *흡혈시 쿠루미의 활력을 모두 회복합니다.\r\
 *쿨다운 12초 ";
 -- atp1 1
@@ -29342,10 +29342,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A02M"][2][1] = "『고갈』";
 -- aub1 1
-		t["A02M"][3][1] = "*쿠루미가 공격시 30% 확률로 대상 유닛을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*고갈 발동시 대상 유닛의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
+		t["A02M"][3][1] = "*쿠루미가 공격시 30% 확률로 대상 Units을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+*고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF마법 데미지|r를 대상 주변 500범위 적에게 입힙니다.\r\
-*고갈이 발동될때, 대상 유닛의 체력이 8% 이하라면 즉사시키고, 활력 쿨다운을 1초 감소시킵니다.";
+*고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 쿨다운을 1초 감소시킵니다.";
 -- anam
 -- aart
 		t["A02M"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNVampiricAura.blp";
@@ -29380,10 +29380,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A02M"][36][1] = "*쿠루미가 공격시 60% 확률로 대상 유닛을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*고갈 발동시 대상 유닛의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
+		t["A02M"][36][1] = "*쿠루미가 공격시 60% 확률로 대상 Units을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+*고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF마법 데미지|r를 대상 주변 500범위 적에게 입힙니다.\r\
-*고갈이 발동될때, 대상 유닛의 체력이 8% 이하라면 즉사시키고, 활력 쿨다운을 1초 감소시킵니다.";
+*고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 쿨다운을 1초 감소시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -29419,8 +29419,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A03B"][2][1] = "『Break the Sabbath』";
 -- aub1 1
 		t["A03B"][3][1] = "*공격시 마나를 4 회복합니다. 마나가 444가 됐을때 발동합니다. 쿠루미가 8초간 상시 흡혈 상태로 전환되며, 매 공격시 60% 확률로 『고갈』이 발동합니다. 흡혈 상태에서는 공격시 마나를 절반만 회복합니다.\r\
-*흡혈 상태가 종료될 경우, 흡수한 피를 폭발시켜 주변 600범위에 600만의 |c00379BFF마법 데미지|r를 입히고, 4초간 80%의 이동속도 감소 효과를 입힙니다.\r\
-*쿠루미는 다른 유닛의 활력/마나 회복 효과를 받지 않습니다.";
+*흡혈 상태가 종료될 경우, 흡수한 피를 폭발시켜 주변 600범위에 600만의 |c00379BFF마법 데미지|r를 입히고, 4초간 80%의 Movement Speed 감소 효과를 입힙니다.\r\
+*쿠루미는 다른 Units의 활력/마나 회복 효과를 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -29455,7 +29455,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 31
 -- aub1 2
 		t["A03B"][36][1] = "*유메코가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
-*『체인 리액션』: 대상 적 유닛의 전체 체력의 0.3% + 80만의 마법 데미지를 대상 주변 450범위 내에 있는 적에게 입힙니다. 보스에게는 데미지를 입히지 않습니다.";
+*『체인 리액션』: 대상 적 Units의 전체 체력의 0.3% + 80만의 마법 데미지를 대상 주변 450범위 내에 있는 적에게 입힙니다. 보스에게는 데미지를 입히지 않습니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -29492,9 +29492,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Teireida Mai[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.43초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 쿠루미 업그레이드";
+[Attack Speed]: 0.43 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : 쿠루미 Upgrade";
 -- aart
 -- anam
 -- [A04P]
@@ -29534,7 +29534,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A05F"][24][1] = "owar";
 -- [A05S]
 -- aub1 1
-		t["A05S"][1][1] = "*자신 주변 700범위 적의 이동속도를 15% 감소시킵니다.\r\
+		t["A05S"][1][1] = "*자신 주변 700범위 적의 Movement Speed를 15% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
 마쿠라가 악몽을 형상화하여 적을 공포에 질리게 합니다. 자신 주변 700범위 적에게 전체 체력의 1%에 해당하는 |c00AC59FF절대 데미지|r를 입히고, 받는 마법 데미지를 20% 증폭시킵니다.\r\
 [꿈 6개 흡수시 강화]\r\
@@ -29673,7 +29673,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A066"][3][1] = "『엘리, 엘리, 레마 사박타니』";
 -- aub1 1
-		t["A066"][4][1] = "*매 라운드가 끝날때마다, 자신이 소유한 이슈아를 포함한 모든 유닛의 활력과 마나를 모두 회복합니다.\r\
+		t["A066"][4][1] = "*매 라운드가 끝날때마다, 자신이 소유한 이슈아를 포함한 모든 Units의 활력과 마나를 모두 회복합니다.\r\
 *공격시 14% 확률로 대상 지점에 신의 심판을 내려 250범위 내의 적에게 250만의 |c00FF6464물리 데미지|r를 입히고, 1.2초간 기절시킵니다.\r\
 *공격한 적의 체력이 80% 이상이라면, 80%로 만듭니다. 이 효과가 발동시 이슈아의 마나가 5% 회복됩니다.";
 -- aart
@@ -29774,13 +29774,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A06Y"][3][1] = "『배 밑바닥의 비너스』";
 -- aub1 1
 		t["A06Y"][4][1] = "*Murasa 주변 600 범위의 적 방어력을 20 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5초간 이동속도를 35% 감소시킵니다.";
+＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5초간 Movement Speed를 35% 감소시킵니다.";
 -- anam
 -- aart
 -- atp1 2
 -- aub1 2
 		t["A06Y"][9][1] = "*Murasa 주변 600 범위의 적 방어력을 30 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5초간 이동속도를 35% 감소시킵니다.";
+＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5초간 Movement Speed를 35% 감소시킵니다.";
 -- abuf 1
 		t["A06Y"][10][1] = "B00G";
 -- atar 2
@@ -29801,7 +29801,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A075"][6][1] = "*스킬 사용시 경단의 색을 다르게 교체합니다. 루나틱 셉템버의 마나 스킬 발동 효과가 경단의 색에 따라 변경됩니다. 변경 순서는\r\
 *빨강 - 파랑 - 초록 경단 순서입니다.\r\
-[링고는 플레이어당 1기만 조합 가능합니다.]";
+[링고는 플레이어당 1기만 Combination 가능합니다.]";
 -- anam
 		t["A075"][7][1] = "[링고]";
 -- arac
@@ -29825,8 +29825,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A07J"][6][1] = "*주변 800범위 적의 방어력을 20 감소시킵니다.\r\
 *공격시 마나를 1 회복합니다. 마나가 120이 됐을때, 대상 주변 500범위 적에게 전체 체력의 2% + 100만의 |c00FF6464물리 데미지|r를 입히고, 경단의 맛에 따라 다음의 효과를 발동합니다.\r\
 [빨간색 타바스코 경단] : 자신 주변 800범위 적의 체력이 10% 이하라면 즉사시킵니다.\r\
-[파란색 소다맛 경단] : 자신 주변 800범위 자신 소유 유닛의 마나를 30% 회복시킵니다.\r\
-[초록색 와사비맛 경단] : 자신 주변 800범위 자신 소유 유닛의 활력 수치를 35% 회복시킵니다.";
+[파란색 소다맛 경단] : 자신 주변 800범위 자신 소유 Units의 마나를 30% 회복시킵니다.\r\
+[초록색 와사비맛 경단] : 자신 주변 800범위 자신 소유 Units의 활력 수치를 35% 회복시킵니다.";
 -- abuf 1
 		t["A07J"][8][1] = "B00H";
 -- [A07N]
@@ -29854,7 +29854,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00L"][3][1] = "포부『쇼와의 비』";
 -- aub1 1
-		t["S00L"][4][1] = "*자신 주변 800범위 아군의 공격속도를 10% 증가시킵니다.\r\
+		t["S00L"][4][1] = "*자신 주변 800범위 아군의 Attack Speed를 10% 증가시킵니다.\r\
 *공격시 12% 확률로 자신이 공격한 적의 전체 체력의 0.3% + 165만의 |c00379BFF마법 데미지|r를 대상 주변 350범위에 입힙니다.";
 -- anam
 		t["S00L"][5][1] = "[Phantasm][케이네]";
@@ -30078,7 +30078,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A03Y"][2][1] = "마수『카마이타치 베일링』";
 -- aub1 1
 		t["A03Y"][3][1] = "*아야의 몸에 칼바람을 둘러 적을 공격합니다. 자신 주변 700범위 적에게 초당 30만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*아야 주변 700범위 적의 이동속도를 25% 감소시킵니다.\r\
+*아야 주변 700범위 적의 Movement Speed를 25% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 용권『천손강림의 이정표』\r\
 \r\
@@ -30094,7 +30094,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 2
 -- aub1 2
 		t["A03Y"][12][1] = "*아야의 몸에 칼바람을 둘러 적을 공격합니다. 자신 주변 700범위 적에게 초당 30만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*아야 주변 700범위 적의 이동속도를 25% 감소시킵니다.\r\
+*아야 주변 700범위 적의 Movement Speed를 25% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 용권『천손강림의 이정표』\r\
 \r\
@@ -30206,10 +30206,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 99
 -- atar 100
 -- aub1 1
-		t["A079"][107][1] = "*환상예복이 있는 유닛에게 이 스킬을 사용할 경우, 해당 유닛이 예복 유닛으로 변경됩니다.\r\
+		t["A079"][107][1] = "*환상예복이 있는 Units에게 이 스킬을 사용할 경우, 해당 Units이 예복 Units으로 변경됩니다.\r\
 *예복은 플레이어당 한번만 적용가능하며, 예복 적용 요건은 공식 카페의 글을 참고해주세요.\r\
-*주의! 예복이 적용된 유닛은 조합 재료로 사용할 수 없으며, 버프/아이템 등이 사라집니다.\r\
-[Chronicle의 경우 업그레이드를 모두 완료해야 예복이 적용됩니다]";
+*주의! 예복이 적용된 Units은 Combination 재료로 사용할 수 없으며, 버프/아이템 등이 사라집니다.\r\
+[Chronicle의 경우 Upgrade를 모두 완료해야 예복이 적용됩니다]";
 -- atp1 2
 		t["A079"][108][1] = "『환상예복』|cffffcc00(F)|r - 사용 완료";
 -- atp1 3
@@ -30311,9 +30311,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 99
 -- atp1 100
 -- aub1 2
-		t["A079"][207][1] = "*환상예복이 있는 유닛에게 이 스킬을 사용할 경우, 해당 유닛이 예복 유닛으로 변경됩니다.\r\
+		t["A079"][207][1] = "*환상예복이 있는 Units에게 이 스킬을 사용할 경우, 해당 Units이 예복 Units으로 변경됩니다.\r\
 *예복은 플레이어당 한번만 적용가능하며, 예복 적용 요건은 공식 카페의 글을 참고해주세요.\r\
-*주의! 예복이 적용된 유닛은 조합 재료로 사용할 수 없으며, 버프/아이템 등이 사라집니다.";
+*주의! 예복이 적용된 Units은 Combination 재료로 사용할 수 없으며, 버프/아이템 등이 사라집니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -30415,7 +30415,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- [A081]
 -- aub1 1
-		t["A081"][1][1] = "*주변 700범위 적의 이동속도를 35% 감소시킵니다.\r\
+		t["A081"][1][1] = "*주변 700범위 적의 Movement Speed를 35% 감소시킵니다.\r\
 *세이자가 공격시 10% 확률로 대상 지점 주변 500범위를 뒤엎어 현재 체력의 1% + 125만의 |c00379BFF마법 데미지|r를 입히고, 적이 받는 마법 데미지를 15% 증폭시킵니다.";
 -- atar 1
 -- atp1 1
@@ -30562,12 +30562,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 2
 		t["A08A"][12][1] = "*스이카의 공격은 대상 주변 350범위 내에 20%의 분산 절대 데미지를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스킬 공격력 2배 , 공격속도 20% 감소 , 마나가 회복되지 않음. 평타 공격력 25만 증가\r\
+*스킬 공격력 2배 , Attack Speed 20% 감소 , 마나가 회복되지 않음. 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 100%에 해당하는 방어 무시 데미지";
 -- aub1 3
 		t["A08A"][13][1] = "*스이카의 공격은 대상 주변 350범위 내에 20%의 분산 절대 데미지를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스킬 공격력 2배 , 공격속도 20% 감소 , 마나가 회복되지 않음. 평타 공격력 25만 증가\r\
+*스킬 공격력 2배 , Attack Speed 20% 감소 , 마나가 회복되지 않음. 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 130%에 해당하는 방어 무시 데미지";
 -- atar 3
 -- aani
@@ -30596,9 +30596,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- atp1 1
 -- aub1 1
-		t["S00S"][4][1] = "*기본적으로 이쿠 주변 700범위 적의 이동속도를 30% 감소시킵니다.\r\
+		t["S00S"][4][1] = "*기본적으로 이쿠 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 *이쿠가 공격시 15% 확률로 10번 튕기는 유영탄을 발사하여 적에게 85만의 |c00379BFF마법 데미지|r를 입힙니다. 이 데미지는 튕길때마다 10%씩 증가합니다.\r\
-*이쿠가 보스 유닛을 공격할 경우 50% 확률로 감전시켜 3초간 기절시키고, 90만의 추가 |c00379BFF마법 데미지|r를 입힙니다.";
+*이쿠가 보스 Units을 공격할 경우 50% 확률로 감전시켜 3초간 기절시키고, 90만의 추가 |c00379BFF마법 데미지|r를 입힙니다.";
 -- anam
 		t["S00S"][5][1] = "[Arcana][이쿠]";
 -- abuf 1
@@ -30618,7 +30618,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 		t["A08I"][4][1] = "Icon\\Unit\\BTNHatate_Asc.blp";
 -- aub1 1
-		t["A08I"][5][1] = "＊일정 유닛들을 모아 스킬 사용 시 하타테가 텐마의 혈통을 각성시킵니다.\r\
+		t["A08I"][5][1] = "＊일정 Units들을 모아 스킬 사용 시 하타테가 텐마의 혈통을 각성시킵니다.\r\
 [출연작 : 걸어라! 이누바시리 씨!]";
 -- atp1 1
 		t["A08I"][6][1] = "『각성』|c00FF8040[D]|r";
@@ -30685,11 +30685,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0AQ"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNReplay-Loop.blp";
 -- arac
 -- atp1 1
-		t["A0AQ"][9][1] = "|cffffcc00유닛 셔플|r";
+		t["A0AQ"][9][1] = "|cffffcc00Units 셔플|r";
 -- aub1 1
-		t["A0AQ"][10][1] = "*랜덤한 Epic 유닛으로 다시 생성됩니다.\r\
+		t["A0AQ"][10][1] = "*랜덤한 Epic Units으로 다시 생성됩니다.\r\
 *목재 2가 소모됩니다.\r\
-*같은 종류의 유닛이 생성되지 않습니다.";
+*같은 종류의 Units이 생성되지 않습니다.";
 -- anam
 		t["A0AQ"][11][1] = "[셔플]";
 -- Ncl6G2
@@ -30697,22 +30697,22 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- Ncl6G3
 -- Ncl6G4
 -- atp1 2
-		t["A0AQ"][16][1] = "|cffffcc00유닛 셔플|r - 잔여 횟수 2회";
+		t["A0AQ"][16][1] = "|cffffcc00Units 셔플|r - 잔여 횟수 2회";
 -- atp1 3
-		t["A0AQ"][17][1] = "|cffffcc00유닛 셔플|r - 잔여 횟수 1회";
+		t["A0AQ"][17][1] = "|cffffcc00Units 셔플|r - 잔여 횟수 1회";
 -- atp1 4
-		t["A0AQ"][18][1] = "|cffffcc00유닛 셔플|r - 잔여 횟수 0회";
+		t["A0AQ"][18][1] = "|cffffcc00Units 셔플|r - 잔여 횟수 0회";
 -- aub1 2
-		t["A0AQ"][19][1] = "*랜덤한 Epic 유닛으로 다시 생성됩니다.\r\
+		t["A0AQ"][19][1] = "*랜덤한 Epic Units으로 다시 생성됩니다.\r\
 *최대 3번까지 사용가능하며, 목재 4가 소모됩니다.\r\
-*같은 종류의 유닛이 생성될 경우, 목재는 소모되지만, 사용 가능 횟수는 소모되지 않습니다.";
+*같은 종류의 Units이 생성될 경우, 목재는 소모되지만, 사용 가능 횟수는 소모되지 않습니다.";
 -- aub1 3
 -- aub1 4
 -- Ncl6G5
 -- atp1 5
-		t["A0AQ"][23][1] = "|cffffcc00Epic 유닛 셔플|r";
+		t["A0AQ"][23][1] = "|cffffcc00Epic Units 셔플|r";
 -- aub1 5
-		t["A0AQ"][24][1] = "*랜덤한 Epic 유닛으로 다시 생성됩니다.\r\
+		t["A0AQ"][24][1] = "*랜덤한 Epic Units으로 다시 생성됩니다.\r\
 *목재 5가 소모됩니다.";
 -- [A0BC]
 -- arac
@@ -30773,7 +30773,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 1
 		t["A0BX"][8][1] = "B034";
 -- atp1 2
-		t["A0BX"][9][1] = "보부『황금의 진현』- |c0000FFFF익스텐드|r";
+		t["A0BX"][9][1] = "보부『황금의 진현』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A0BX"][10][1] = "*주변 600범위 적의 방어력을 22 감소시킵니다.\r\
 *공격시 10% 확률로 자신 주변 600범위 적에게 80만의 |c00FF6464물리 데미지|r를 입힙니다.";
@@ -30785,9 +30785,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0CI"][5][1] = "|c00ffff00Wriggle Nightbug|r 조합|c00FF8040[D]|r";
+		t["A0CI"][5][1] = "|c00ffff00Wriggle Nightbug|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0CI"][6][1] = "사이교우지 유유코[Unique] + Sㅏ나에[Unique] + 이터니티 라바[Unique]";
+		t["A0CI"][6][1] = "사이교우지 유유코[Unique] + Sa Nae[Unique] + 이터니티 라바[Unique]";
 -- ahky
 -- acat
 		t["A0CI"][8][1] = "h01A,h01F,nbel";
@@ -30821,13 +30821,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0HK"][2][1] = "|c00FEE952[Unit Information]|r - 토키코[Epic]";
 -- aub1 1
-		t["A0HK"][3][1] = "|c00A8F13A[Combination]|r: 정체불명[Unique] + Lily Black[Unique] + 카쿠 세이가[Unique]\r\
+		t["A0HK"][3][1] = "|c00A8F13A[Combination]|r: Unknown[Unique] + Lily Black[Unique] + Seiga Kaku[Unique]\r\
 \r\
-[공격속도]: 0.7초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 업그레이드 , [강화]Epic 업그레이드\r\
+[Attack Speed]: 0.7 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 유닛은 익스텐드가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 익스텐드 부적 아이템을 습득할 시 익스텐드 유닛으로 변화합니다.|r";
+|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
 -- anam
 -- aart
 		t["A0HK"][5][1] = "BTN\\BTNtokiko.blp";
@@ -30898,10 +30898,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- anam
 -- atp1 1
-		t["A0HN"][5][1] = "|c00ffff00토키코|r 조합|c00FF8040[F]|r";
+		t["A0HN"][5][1] = "|c00ffff00토키코|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0HN"][7][1] = "정체불명[Unique] + Lily Black[Unique] + 카쿠 세이가[Unique] = 토키코[Epic]";
+		t["A0HN"][7][1] = "Unknown[Unique] + Lily Black[Unique] + Seiga Kaku[Unique] = 토키코[Epic]";
 -- ahky
 -- alig
 -- atat
@@ -30918,7 +30918,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HP"][6][1] = "*써니 주변 700범위 적의 방어력을 35 감소시킵니다.\r\
 *Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 60이 됐을때 발동합니다.\r\
 *대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-|c009292C9보너스 효과|r : 자신이 Chronicle 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 20% 회복시킵니다.";
+|c009292C9보너스 효과|r : 자신이 Chronicle Units을 Combination하지 않았다면[세이자 특수 Combination 제외] 발동시 주변 800범위 아군의 마나를 20% 회복시킵니다.";
 -- abuf 1
 		t["A0HP"][8][1] = "B041";
 -- atar 2
@@ -31222,7 +31222,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HP"][306][1] = "*써니 주변 700범위 적의 방어력을 16 감소시킵니다.\r\
 *Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155만의 물리 데미지를 입힙니다.\r\
-|c009292C9보너스 효과|r : 자신이 Chronicle 유닛을 조합하지 않았다면[세이자 특수 조합 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
+|c009292C9보너스 효과|r : 자신이 Chronicle Units을 Combination하지 않았다면[세이자 특수 Combination 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -31775,7 +31775,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- [A0IJ]
 -- aub1 1
-		t["A0IJ"][1][1] = "*기본적으로 앨리스 주변 800범위 적을 인형실로 휘감아 이동속도를 50% 감소시킵니다.\r\
+		t["A0IJ"][1][1] = "*기본적으로 앨리스 주변 800범위 적을 인형실로 휘감아 Movement Speed를 50% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - [1~3]초 중 랜덤\r\
 앨리스가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시킵니다. 폭발에 휘말린 적에게 전체 체력의 1.2% + 200만의 |c00379BFF마법 데미지|r를 주고 1.1초간 스턴시킵니다.";
 -- atar 1
@@ -31882,8 +31882,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 |c00FF00FF발동 확률:|r 상시\r\
 |c00FF00FF데미지 타입:|r 없음\r\
 |c00FF00FF데미지:|r 초당 50000\r\
-|c00FF00FF효과:|r 주변 900범위 적의 이동속도를 15% 감소\r\
-|c00FF00FF설명:|r 핵반응으로 적의 다리를 녹여 이동속도를 감소시키고, 1초마다 데미지를 입힙니다.";
+|c00FF00FF효과:|r 주변 900범위 적의 Movement Speed를 15% 감소\r\
+|c00FF00FF설명:|r 핵반응으로 적의 다리를 녹여 Movement Speed를 감소시키고, 1초마다 데미지를 입힙니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -31955,9 +31955,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0K3"][24][1] = "ngh2";
 -- [A09E]
 -- aub1 1
-		t["A09E"][1][1] = "*기본적으로 스타 주변 700범위 적의 이동속도를 25% 감소시킵니다.\r\
+		t["A09E"][1][1] = "*기본적으로 스타 주변 700범위 적의 Movement Speed를 25% 감소시킵니다.\r\
 *플레이어의 Star Sapphire가 입힌 데미지의 10%~30%를 모아둡니다. 모은 수치가 2억이 될때마다 발동하며, Star Sapphire가 휴대용 우주를 설치합니다.\r\
-*휴대용 우주 주변 800범위내의 유닛의 마나를 초당 15씩 회복시킵니다.\r\
+*휴대용 우주 주변 800범위내의 Units의 마나를 초당 15씩 회복시킵니다.\r\
 *휴대용 우주는 10초간 지속되며, 휴대용 우주가 지속중일 경우, 휴대용 우주를 설치하기 위해 필요한 데미지가 쌓이지 않습니다.";
 -- atar 1
 -- atp1 1
@@ -32129,13 +32129,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0K4"][1][1] = "*몸이 약한 아큐는 공격 능력이 전무한 대신 여러 대를 걸쳐 전해져 내려온 환상향연기를 플레이어에게 제공하여 적에 대한 대응력을 높입니다.\r\
 *평타 공격 불가능\r\
-*기본적으로 아큐 주변 800범위 아군의 공격속도를 35% / 이동속도를 50% 증가시킵니다.\r\
-*아큐를 조합할 경우 플레이어의 라인에 생성되는 적에게 다음의 효과를 적용합니다.\r\
+*기본적으로 아큐 주변 800범위 아군의 Attack Speed를 35% / Movement Speed를 50% 증가시킵니다.\r\
+*아큐를 Combination할 경우 플레이어의 라인에 생성되는 적에게 다음의 효과를 적용합니다.\r\
 -방어력 60 감소\r\
 -받는 마법 데미지 25% 증폭\r\
 -적의 체력을 5% 감소(보스 제외)\r\
 -은신 삭제\r\
--적 유닛 생성시 2.5초의 스턴";
+-적 Units 생성시 2.5초의 스턴";
 -- atar 1
 -- atp1 1
 		t["A0K4"][4][1] = "『아레의 계승자』";
@@ -32483,7 +32483,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0MR"][4][1] = "*기본적으로 주변 700범위 적의 방어력을 20 감소시킵니다.\r\
 *공격시 마나를 1 회복합니다. 마나가 135가 됐을때, 현재 체력의 5%를 감소시키고 영구히 방어력을 25 감소시킵니다.\r\
 *위 효과는 보스에게 적용되지 않습니다.\r\
-[이 유닛은 다른 유닛의 마나 회복 효과를 받지 않습니다.]";
+[이 Units은 다른 Units의 마나 회복 효과를 받지 않습니다.]";
 -- anam
 		t["A0MR"][5][1] = "[사키]팔로우 미 언어프레이드";
 -- aart
@@ -32509,14 +32509,14 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kamishirasawa Keine EX[Epic] +  Unique 소울\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 522[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0MY"][5][1] = "BTN\\BTNSaki.blp";
 -- [A0N5]
 -- atp1 1
-		t["A0N5"][4][1] = "|c00ffff00Saki Kurokama[Legendary]|r 조합|c00FF8040[F]|r";
+		t["A0N5"][4][1] = "|c00ffff00Saki Kurokama[Legendary]|r Combination|c00FF8040[F]|r";
 -- aub1 1
 		t["A0N5"][5][1] = "Imaizumi Kagerou[Unique] + 카미사라사와 케이네 EX[Epic] + Unique 소울 1개";
 -- anam
@@ -32534,13 +32534,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["S00T"][3][1] = "『아이돌라 디아볼러스』";
 -- aub1 1
 		t["S00T"][4][1] = "*케이키 주변 750범위 아군이 입히는 데미지의 30%를 추가로 |c00379BFF마법 데미지|r로 입힙니다.\r\
-*케이키 주변 700범위 아군의 공격속도를 12% 증가시킵니다.\r\
+*케이키 주변 700범위 아군의 Attack Speed를 12% 증가시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『귀형조형술』\r\
 \r\
 *케이키는 7번 공격할때마다 방형/선형/진원 조형술 중 랜덤한 하나를 발동합니다.\r\
-*케이키가 초당 마나를 10 회복합니다. 마나가 1000이 됐을때, 조형술 스킬을 사용하여 대상 유닛에게 특별한 조형물을 부여합니다. 조형물은 아이템 형식이며, 옮길 수 있습니다. 한번 부여시 스킬이 사용 불가능 상태로 전환됩니다.\r\
-[조형술로 생성된 아이템을 소지한 유닛이 조합/판매 등으로 사라질 경우 아이템을 드랍하지 않습니다.]";
+*케이키가 초당 마나를 10 회복합니다. 마나가 1000이 됐을때, 조형술 스킬을 사용하여 대상 Units에게 특별한 조형물을 부여합니다. 조형물은 아이템 형식이며, 옮길 수 있습니다. 한번 부여시 스킬이 사용 불가능 상태로 전환됩니다.\r\
+[조형술로 생성된 아이템을 소지한 Units이 Combination/판매 등으로 사라질 경우 아이템을 드랍하지 않습니다.]";
 -- anam
 		t["S00T"][5][1] = "[케이키]";
 -- abuf 1
@@ -32580,7 +32580,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- aub1 1
 		t["A0NU"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, 전체 체력의 0.5% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*『방형조각품』: 소지한 유닛의 공격속도를 50% 증가시킵니다.";
+*『방형조각품』: 소지한 Units의 Attack Speed를 50% 증가시킵니다.";
 -- atar 1
 -- atp1 2
 -- aub1 2
@@ -32598,7 +32598,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0NV"][9][1] = "ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp";
 -- aub1 1
 		t["A0NV"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, 잃은 체력의 1% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*『진원조각품』: 소지한 유닛의 마나를 초당 3 회복시킵니다.";
+*『진원조각품』: 소지한 Units의 마나를 초당 3 회복시킵니다.";
 -- atar 1
 -- atar 2
 -- Ncl6G2
@@ -32616,7 +32616,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0NZ"][9][1] = "ReplaceableTextures\\CommandButtons\\BTNGhoulFrenzy.blp";
 -- aub1 1
 		t["A0NZ"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, 현재 체력의 0.7% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*『선형조각품』: 소지한 유닛이 공격시 10% 확률로 대상 주변 400범위 적에게 1.5초의 스턴을 입힙니다.";
+*『선형조각품』: 소지한 Units이 공격시 10% 확률로 대상 주변 400범위 적에게 1.5초의 스턴을 입힙니다.";
 -- atar 1
 -- Ncl6G2
 -- atp1 2
@@ -32624,7 +32624,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atar 2
 -- [A0OR]
 -- anam
-		t["A0OR"][1][1] = "[조각품]공격속도";
+		t["A0OR"][1][1] = "[조각품]Attack Speed";
 -- [A0P3]
 -- arac
 -- anam
@@ -32645,7 +32645,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aart
 -- anam
 -- atp1 1
-		t["A0QJ"][5][1] = "|c00ffff00하니야스신 케이키|r 조합|c00FF8040[D]|r";
+		t["A0QJ"][5][1] = "|c00ffff00하니야스신 케이키|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0QJ"][7][1] = "Hecatia Lapislazuli[Epic] + Fujiwara no Mokou[Epic] + 야사카 카나코[Epic] + 2 Unique Souls ";
@@ -32675,7 +32675,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0QQ"][5][1] = "췌부『토카쿠시산 던지기』";
 -- aub1 1
 		t["A0QQ"][6][1] = "*스이카가 공격시 25% 확률로 대상 지점에 산처럼 거대한 돌덩이를 던집니다.\r\
-*대상 지점 400범위 내에 있는 적의 이동속도를 5초간 60% 감소시키고 대상 적 유닛 하나에게 전체 체력의 10%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.[보스 200만]\r\
+*대상 지점 400범위 내에 있는 적의 Movement Speed를 5초간 60% 감소시키고 대상 적 Units 하나에게 전체 체력의 10%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.[보스 200만]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『밀도를 조종하는 정도의 능력』\r\
 \r\
@@ -32688,7 +32688,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 2
 -- [A0QR]
 -- anam
-		t["A0QR"][1][1] = "[하위 유닛]";
+		t["A0QR"][1][1] = "[하위 Units]";
 -- [A0QS]
 -- anam
 -- atar 2
@@ -32730,7 +32730,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["S00U"][3][1] = "비상『비상비비상비의 검』";
 -- aub1 1
-		t["S00U"][4][1] = "*텐시 주변 700범위 적의 이동속도를 30% 감소시킵니다.\r\
+		t["S00U"][4][1] = "*텐시 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 *텐시가 공격시 10% 확률로 자신의 검에 주변의 『기질』을 응축시켜 공격합니다. 대상 350범위 내 적의 현재 체력의 0.3% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『전인류의 비상천』\r\
@@ -32772,7 +32772,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 8
 -- [A0B4]
 -- aub1 1
-		t["A0B4"][1][1] = "*주변 700범위 자신 소유 유닛의 공격속도를 0% 증가시킵니다.\r\
+		t["A0B4"][1][1] = "*주변 700범위 자신 소유 Units의 Attack Speed를 0% 증가시킵니다.\r\
 *일부 글로벌 미션 수행을 통해 스택을 증가시킬 수 있습니다.";
 -- atar 1
 -- atp1 1
@@ -32872,14 +32872,14 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0B4"][98][1] = "*주변 700범위 자신 소유 유닛의 공격속도를 3% 증가시킵니다.\r\
-*일부 글로벌 미션 수행을 통해 공격속도 증가량을 상승시킬 수 있습니다.";
+		t["A0B4"][98][1] = "*주변 700범위 자신 소유 Units의 Attack Speed를 3% 증가시킵니다.\r\
+*일부 글로벌 미션 수행을 통해 Attack Speed 증가량을 상승시킬 수 있습니다.";
 -- aub1 3
-		t["A0B4"][99][1] = "*주변 700범위 자신 소유 유닛의 공격속도를 6% 증가시킵니다.\r\
-*일부 글로벌 미션 수행을 통해 공격속도 증가량을 상승시킬 수 있습니다.";
+		t["A0B4"][99][1] = "*주변 700범위 자신 소유 Units의 Attack Speed를 6% 증가시킵니다.\r\
+*일부 글로벌 미션 수행을 통해 Attack Speed 증가량을 상승시킬 수 있습니다.";
 -- aub1 5
-		t["A0B4"][100][1] = "*주변 700범위 자신 소유 유닛의 공격속도를 12% 증가시킵니다.\r\
-*일부 글로벌 미션 수행을 통해 공격속도 증가량을 상승시킬 수 있습니다.";
+		t["A0B4"][100][1] = "*주변 700범위 자신 소유 Units의 Attack Speed를 12% 증가시킵니다.\r\
+*일부 글로벌 미션 수행을 통해 Attack Speed 증가량을 상승시킬 수 있습니다.";
 -- aub1 6
 -- aub1 7
 -- aub1 8
@@ -32907,16 +32907,16 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 30
 -- aub1 31
 -- aub1 4
-		t["A0B4"][127][1] = "*주변 700범위 자신 소유 유닛의 공격속도를 9% 증가시킵니다.\r\
-*일부 글로벌 미션 수행을 통해 공격속도 증가량을 상승시킬 수 있습니다.";
+		t["A0B4"][127][1] = "*주변 700범위 자신 소유 Units의 Attack Speed를 9% 증가시킵니다.\r\
+*일부 글로벌 미션 수행을 통해 Attack Speed 증가량을 상승시킬 수 있습니다.";
 -- [A03S]
 -- atar 1
 -- atp1 1
 		t["A03S"][2][1] = "염성『픽스드 스타』";
 -- aub1 1
 		t["A03S"][3][1] = "*우츠호 주변 700범위 적의 방어력을 50 감소시킵니다.\r\
-*우츠호 주변 700범위 적의 다리를 녹여 이동속도를 30% 감소시킵니다.\r\
-*우츠호는 공격속도가 느립니다.";
+*우츠호 주변 700범위 적의 다리를 녹여 Movement Speed를 30% 감소시킵니다.\r\
+*우츠호는 Attack Speed가 느립니다.";
 -- anam
 -- aart
 -- atat
@@ -32930,8 +32930,8 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- abuf 3
 -- aub1 2
 		t["A03S"][14][1] = "*우츠호 주변 700범위 적의 방어력을 75 감소시킵니다.\r\
-*우츠호 주변 700범위 적의 다리를 녹여 이동속도를 45% 감소시킵니다.\r\
-*우츠호는 공격속도가 느립니다.";
+*우츠호 주변 700범위 적의 다리를 녹여 Movement Speed를 45% 감소시킵니다.\r\
+*우츠호는 Attack Speed가 느립니다.";
 -- aub1 3
 -- atar 4
 -- atar 5
@@ -32949,7 +32949,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0CD"][6][1] = "『야타가라스 다이브』|cffffcc00[E]|r";
 -- aub1 1
 		t["A0CD"][7][1] = "*우츠호가 공격시 마나를 1 회복합니다. 마나가 125가 됐을때 사용 시 대상 지점에 강력한 에너지를 응축한 불새를 날려 범위 내의 적을 초토화시킵니다.\r\
-*불새는 맵 전역 어디든 날릴 수 있으며, 5000의 이동속도를 가집니다. 날아간 불새는 폭발하여 범위 내의 적에게 전체 체력의 7% + 2000만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*불새는 맵 전역 어디든 날릴 수 있으며, 5000의 Movement Speed를 가집니다. 날아간 불새는 폭발하여 범위 내의 적에게 전체 체력의 7% + 2000만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *쿨다운 25초";
 -- aart
 -- areq
@@ -32961,7 +32961,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0BY"][3][1] = "*텐시가 공격시 마나를 1 회복합니다. 마나가 200이 될 경우 아래의 효과를 발동합니다.\r\
 *텐시가 대상 지점에 요석을 떨어뜨려 500범위 적을 5초간 스턴시키고 [600만~1000만]의 |c00379BFF마법 데미지|r를 입힙니다.\r\
-*위 효과 발동시 맵 전체 라인 유닛이 받는 마법 데미지를 15% 증폭시킵니다.";
+*위 효과 발동시 맵 전체 라인 Units이 받는 마법 데미지를 15% 증폭시킵니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -33004,7 +33004,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- aub1 1
 		t["A0QV"][5][1] = "Izayoi Sakuya[Unique] + 토라마루 쇼[Epic] + 마에리베리 한[Epic] + 고대와 환상의 조각 = 무게츠";
 -- atp1 1
-		t["A0QV"][6][1] = "|c00ffff00무게츠|r 조합|c00FF8040[D]|r";
+		t["A0QV"][6][1] = "|c00ffff00무게츠|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0QV"][8][1] = "h03N,h021,h03W,e03C";
@@ -33020,11 +33020,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - Kishin Sagume[Phantasm]";
 -- aub1 1
 		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Kijin Seija[Epic] + Kishin Sagume[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 환상향 침공의 주범(sagume phan)\r\
+|c00A8F13A[Type Command]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
-[공격속도]: 0.49초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.49 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- aart
 -- [A03T]
 -- aart
@@ -33055,11 +33055,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A03U"][3][1] = "|c00FEE952[Unit Information]|r - 이누바시리 모미지[Arcana]";
 -- aub1 1
 		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Aya Shameimaru[Epic] + 히메카이도 하타테[Unique] + 이누바시리 모미지[Rare] + 카와시로 미토리[특수] + 백랑텐구의 영혼 + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 완료형 변체도(momiji arc)\r\
+|c00A8F13A[Type Command]|r: 완료형 변체도(momiji arc)\r\
 \r\
-[공격속도]: 0.25초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.25 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- aart
 		t["A03U"][5][1] = "BTN\\BTNMomijiArc.blp";
 -- [A05J]
@@ -33068,12 +33068,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A05J"][3][1] = "|c00FEE952[Unit Information]|r - Marisa Kirisame[Arcana]";
 -- aub1 1
-		t["A05J"][4][1] = "|c00A8F13A[Combination]|r: 앨리스 마가트로이드[Rare] + Marisa Kirisame[Rare] + Hakurei Reimu[Rare] + 신비술사의 고서 * 2\r\
-|c00A8F13A[타이핑]|r: 디어 마이 프렌드(marisa arc)\r\
+		t["A05J"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Rare] + Marisa Kirisame[Rare] + Hakurei Reimu[Rare] + 신비술사의 고서 * 2\r\
+|c00A8F13A[Type Command]|r: 디어 마이 프렌드(marisa arc)\r\
 \r\
-[공격속도]: 0.41초당 1번\r\
-[이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드\r\
+[Attack Speed]: 0.41 Cooldown\r\
+[Movement Speed]: 522[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade\r\
 |c00C5EA53[조합 시너지]|r기적의 마법!\r\
 -이 스킬은 Kochiya Sanae[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
 -- aart
@@ -33087,11 +33087,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HH"][4][1] = "|c00FEE952[Unit Information]|r - 모토오리 코스즈[Arcana]";
 -- aub1 1
 		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: Hieda no Akyuu[Epic] + Kamishirasawa Keine[Unique] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 스즈나안의 영광(kosuzu arc)\r\
+|c00A8F13A[Type Command]|r: 스즈나안의 영광(kosuzu arc)\r\
 \r\
-[공격속도]: 0.22초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.22 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- [A0HI]
 -- aart
 		t["A0HI"][1][1] = "BTN\\BTNToyohime.blp";
@@ -33101,11 +33101,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HI"][4][1] = "|c00FEE952[Unit Information]|r - 와타츠키노 토요히메[Arcana]";
 -- aub1 1
 		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + 와타츠키노 토요히메[특수] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 달의 선견자(toyohime arc)\r\
+|c00A8F13A[Type Command]|r: 달의 선견자(toyohime arc)\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 500[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- [A0HL]
 -- aart
 -- arac
@@ -33114,11 +33114,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HL"][4][1] = "|c00FEE952[Unit Information]|r - 사이교우지 유유코[Arcana]";
 -- aub1 1
 		t["A0HL"][5][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Epic] + Youmu Konpaku[Rare] + 누군가의 시체 + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 백옥루의 망령(yuyuko arc)\r\
+|c00A8F13A[Type Command]|r: 백옥루의 망령(yuyuko arc)\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드\r\
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade\r\
 |c00C5EA53[조합 시너지]|r벚꽃나비\r\
 -Youmu Konpaku[Legendary]를 보유하고 있을 경우, 마나 스킬 발동시 25% 확률로 마나를 모두 회복합니다.";
 -- [A0HO]
@@ -33130,11 +33130,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HO"][4][1] = "|c00FEE952[Unit Information]|r - 히메카이도 하타테[Arcana]";
 -- aub1 1
 		t["A0HO"][5][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + Kawashiro Nitori[Magic] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 텐구 허밋퍼플(hatate arc)\r\
+|c00A8F13A[Type Command]|r: 텐구 허밋퍼플(hatate arc)\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Unique 유닛 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 522[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Unique Units Upgrade";
 -- [A0HS]
 -- aart
 		t["A0HS"][1][1] = "Icon\\Unit\\BTNShikieiki_Arc.blp";
@@ -33144,11 +33144,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0HS"][4][1] = "|c00FEE952[Unit Information]|r - 시키에이키 야마자나두[Arcana]";
 -- aub1 1
 		t["A0HS"][5][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + 토라마루 쇼[Epic] + Unique 소울 * 2 + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 고마우신 말씀(shiki arc)\r\
+|c00A8F13A[Type Command]|r: 고마우신 말씀(shiki arc)\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- [A0I3]
 -- aart
 -- arac
@@ -33157,22 +33157,22 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0I3"][4][1] = "|c00FEE952[Unit Information]|r - Hong Meiling[Arcana]";
 -- aub1 1
 		t["A0I3"][5][1] = "|c00A8F13A[Combination]|r: Hoshiguma Yuugi[Unique] + Imaizumi Kagerou[Unique] + Hong Meiling[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 잠꾸러기 문지기(meiling arc)\r\
+|c00A8F13A[Type Command]|r: 잠꾸러기 문지기(meiling arc)\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : Unique 이하 유닛 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : Unique 이하 Units Upgrade";
 -- [A0JC]
 -- arac
 -- atp1 1
-		t["A0JC"][2][1] = "|c00FEE952[Unit Information]|r - 우사미 렌코[Phantasm]";
+		t["A0JC"][2][1] = "|c00FEE952[Unit Information]|r - Renko Usami[Phantasm]";
 -- aub1 1
-		t["A0JC"][3][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 비상천칙[Epic] + 우사미 렌코[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: Phantasm 체이서(renko phan)\r\
+		t["A0JC"][3][1] = "|c00A8F13A[Combination]|r: 마에리베리 한[Epic] + 비상천칙[Epic] + Renko Usami[Unique] + 고대와 환상의 조각\r\
+|c00A8F13A[Type Command]|r: Phantasm 체이서(renko phan)\r\
 \r\
-[공격속도]: 0.42초당 1번\r\
-[이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.42 Cooldown\r\
+[Movement Speed]: 400\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- aart
 -- atp1 2
@@ -33242,11 +33242,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0JG"][2][1] = "|c00FEE952[Unit Information]|r - Nagae Iku[Arcana]";
 -- aub1 1
 		t["A0JG"][3][1] = "|c00A8F13A[Combination]|r: Nagae Iku[Unique] + Star Sapphire[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 검은 바다에 붉음을(iku arc)\r\
+|c00A8F13A[Type Command]|r: 검은 바다에 붉음을(iku arc)\r\
 \r\
-[공격속도]: 0.41초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드 , Unique 이하 유닛 업그레이드";
+[Attack Speed]: 0.41 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade , Unique 이하 Units Upgrade";
 -- aart
 		t["A0JG"][4][1] = "Icon\\Unit\\BTNIku_Arc.blp";
 -- atp1 17
@@ -33316,11 +33316,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0K7"][2][1] = "|c00FEE952[Unit Information]|r - 링고[Arcana]";
 -- aub1 1
 		t["A0K7"][3][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Tewi Inaba[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 귤색의 이글래빗(ringo arc)\r\
+|c00A8F13A[Type Command]|r: 귤색의 이글래빗(ringo arc)\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- aart
 		t["A0K7"][4][1] = "Icon\\Unit\\BTNRingo_Arc.blp";
 -- atp1 17
@@ -33390,11 +33390,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0KE"][2][1] = "|c00FEE952[Unit Information]|r - Kasodani Kyouko[Arcana]";
 -- aub1 1
 		t["A0KE"][3][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic] + Kasodani Kyouko[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 얌전한 야마비코(kyouko arc)\r\
+|c00A8F13A[Type Command]|r: 얌전한 야마비코(kyouko arc)\r\
 \r\
-[공격속도]: 0.55초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드\r\
+[Attack Speed]: 0.55 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade\r\
 |c00C5EA53[조합 시너지]|r환상향의 개들\r\
 -코마노 아운[특수]를 보유하고 있을 경우, 4라운드마다 목재를 1 획득합니다.";
 -- aart
@@ -33465,10 +33465,10 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0MV"][2][1] = "|c00FEE952[Unit Information]|r - Sunny Milk[Arcana]";
 -- aub1 1
 		t["A0MV"][3][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Sunny Milk[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 선라이트 오버드라이브(sunny arc)\r\
-[공격속도]: 0.58초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+|c00A8F13A[Type Command]|r: 선라이트 오버드라이브(sunny arc)\r\
+[Attack Speed]: 0.58 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- aart
 		t["A0MV"][4][1] = "Icon\\Unit\\BTNSunny_Arc.blp";
 -- atp1 17
@@ -33538,11 +33538,11 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0MZ"][2][1] = "|c00FEE952[Unit Information]|r - 니와타리 쿠타카[Arcana]";
 -- aub1 1
 		t["A0MZ"][3][1] = "|c00A8F13A[Combination]|r: Mononobe no Futo[Epic] + Mystia Lorelei[Rare] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 지옥의 새(kutaka arc)\r\
+|c00A8F13A[Type Command]|r: 지옥의 새(kutaka arc)\r\
 \r\
-[공격속도]: 0.45초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.45 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- aart
 		t["A0MZ"][4][1] = "Icon\\Unit\\BTNKutaka_Arc.blp";
 -- atp1 17
@@ -33640,9 +33640,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Unique] + Yakumo Ran[Epic] + 호우쥬 누에[Epic] + Unique 소울 5개\r\
 \r\
-[공격속도]: 0.46초당 1번\r\
-[이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Hakurei Reimu 업그레이드";
+[Attack Speed]: 0.46 Cooldown\r\
+[Movement Speed]: 522[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Hakurei Reimu Upgrade";
 -- anam
 -- abuf 1
 -- atat
@@ -33657,7 +33657,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 -- aub1 1
 		t["A0QY"][3][1] = "＊레이무 주변 600 범위의 적 방어력을 25 감소시킵니다.\r\
-＊레이무 주변 600 범위의 적 이동속도를 50% 감소시킵니다.\r\
+＊레이무 주변 600 범위의 적 Movement Speed를 50% 감소시킵니다.\r\
 |c00ff2222[!]제한|r : Hakurei Reimu[Legendary]의 몽부『봉마진』이랑 중첩되지 않습니다.\r\
 ────────────────\r\
 주부『명주암투』\r\
@@ -33687,7 +33687,7 @@ nhym,h02Q,hlum,e03C";
 -- aart
 -- arac
 -- atp1 1
-		t["A0QZ"][9][1] = "고급 업그레이드(5)|cffffcc00(X)|r";
+		t["A0QZ"][9][1] = "고급 Upgrade(5)|cffffcc00(X)|r";
 -- aub1 1
 -- anam
 -- ahky
@@ -33792,7 +33792,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0RA"][2][1] = "귀부『귀갑지옥』";
 -- aub1 1
-		t["A0RA"][3][1] = "*야치에를 조합한 플레이어의 라인에서 나오는 라인 유닛의 기본 이동속도를 250으로 고정시킵니다.\r\
+		t["A0RA"][3][1] = "*야치에를 Combination한 플레이어의 라인에서 나오는 라인 Units의 기본 Movement Speed를 250으로 고정시킵니다.\r\
 *야치에 주변 800범위 적의 방어력을 35 감소시킵니다.\r\
 *야치에가 공격시 마나를 1 회복합니다. 마나가 128이 됐을때, 전체 체력의 4%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.";
 -- anam
@@ -33884,7 +33884,7 @@ nhym,h02Q,hlum,e03C";
 		t["S00W"][3][1] = "『정화패』";
 -- aub1 1
 		t["S00W"][4][1] = "*토요히메가 초당 마나를 1씩 / 공격시 0.7씩 쌓습니다. 마나가 80이 됐을때, 지상의 존재를 정화시키는 포격을 달에 요청합니다.\r\
-*대상 유닛 주변 600범위내에 있는 적의 현재 체력의 3.5% + 225만의 |c00379BFF마법|r/|c00AC59FF절대|r 복합 데미지를 입히고, 이후 받는 마법 데미지를 15% 증폭시킵니다.\r\
+*대상 Units 주변 600범위내에 있는 적의 현재 체력의 3.5% + 225만의 |c00379BFF마법|r/|c00AC59FF절대|r 복합 데미지를 입히고, 이후 받는 마법 데미지를 15% 증폭시킵니다.\r\
 [절반은 마법 / 절반은 절대 데미지로 적용됩니다]";
 -- anam
 		t["S00W"][5][1] = "[Arcana][토요히메]정화패";
@@ -33928,7 +33928,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0RE"][1][1] = "『블루 레이디 쇼』|c00FF8040[D]|r";
 -- aub1 1
-		t["A0RE"][2][1] = "*사용시 30초간 공격속도를 50% 증가시키며, 과충전 상태에 돌입합니다. \r\
+		t["A0RE"][2][1] = "*사용시 30초간 Attack Speed를 50% 증가시키며, 과충전 상태에 돌입합니다. \r\
 *과충전 상태에서는 오버차지 효과를 최대로 받는 상태가 됩니다.\r\
 *쿨다운 45초";
 -- abuf 1
@@ -33957,7 +33957,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0RG"][2][1] = "화소야『꽃 피우는 인자한 자를 향한 질투』";
 -- aub1 1
-		t["A0RG"][3][1] = "*파르시가 공격시 마나를 1씩 회복합니다. 마나가 150이 됐을때, 맵 전체 적 유닛을 질투합니다. 맵 전체 적 유닛의 체력을 5% 감소시킵니다.[보스 유닛 제외] 질투한 유닛 1기당 0.5의 마나를 돌려받습니다.\r\
+		t["A0RG"][3][1] = "*파르시가 공격시 마나를 1씩 회복합니다. 마나가 150이 됐을때, 맵 전체 적 Units을 질투합니다. 맵 전체 적 Units의 체력을 5% 감소시킵니다.[보스 Units 제외] 질투한 Units 1기당 0.5의 마나를 돌려받습니다.\r\
 *질투『녹색의 눈을 한 보이지 않는 괴물』의 효과로 연쇄질투 시 체력을 1%씩 추가로 감소시킵니다.\r\
 *파르시는 다른 마나 회복의 효과를 받지 않습니다.";
 -- anam
@@ -34050,7 +34050,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0R4"][6][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF40|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- abuf 1
 		t["A0R4"][8][1] = "B06Z";
 -- atar 2
@@ -34353,83 +34353,83 @@ nhym,h02Q,hlum,e03C";
 -- aub1 2
 		t["A0R4"][306][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF41|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 3
 		t["A0R4"][307][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF42|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 4
 		t["A0R4"][308][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF43|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 5
 		t["A0R4"][309][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF44|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 6
 		t["A0R4"][310][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF45|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 7
 		t["A0R4"][311][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF46|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 8
 		t["A0R4"][312][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF47|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 9
 		t["A0R4"][313][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF48|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 10
 		t["A0R4"][314][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c000080FF49|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 11
 		t["A0R4"][315][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2150|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 12
 		t["A0R4"][316][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2151|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 13
 		t["A0R4"][317][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2152|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 14
 		t["A0R4"][318][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2153|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 15
 		t["A0R4"][319][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2154|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 16
 		t["A0R4"][320][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2155|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 17
 		t["A0R4"][321][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2156|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 18
 		t["A0R4"][322][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2157|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 19
 		t["A0R4"][323][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2158|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 20
 		t["A0R4"][324][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FABE2159|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 21
 		t["A0R4"][325][1] = "*메리가 평타 공격시 대상 주변 350범위 적에게 범위 데미지를 입힙니다.\r\
 *메리 주변 700범위 적의 방어력을 [|c00FFA6FF60|r] 감소시킵니다.\r\
-*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 유닛이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
+*플레이어가 메리를 가지고 있을 경우, 라인에 등장하는 적 Units이 받는 마법 데미지를 25% 증폭시키고, 체력을 (3~15%) 감소시킵니다.";
 -- aub1 22
 -- aub1 23
 -- aub1 24
@@ -34546,7 +34546,7 @@ nhym,h02Q,hlum,e03C";
 식신『선호사념』\r\
 \r\
 *란 주변 700범위 아군의 마나를 초당 2 회복시킵니다.\r\
-*란 주변 700범위 아군의 공격속도를 15% 증가시킵니다.";
+*란 주변 700범위 아군의 Attack Speed를 15% 증가시킵니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -34558,12 +34558,12 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0RL"][1][1] = "|c00FEE952[Unit Information]|r - Yakumo Ran[Arcana]";
 -- aub1 1
-		t["A0RL"][2][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[익스텐드] + 첸[Unique] + 정체불명[Unique] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 책사 구미호(ran arc)\r\
+		t["A0RL"][2][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Extended] + Chen[Unique] + Unknown[Unique] + 신비술사의 고서\r\
+|c00A8F13A[Type Command]|r: 책사 구미호(ran arc)\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- anam
 -- aart
 -- atar 1
@@ -34596,7 +34596,7 @@ nhym,h02Q,hlum,e03C";
 		t["A032"][7][1] = "*마쿠라 주변 700범위 적의 전체 체력을 초당 0.5% 감소시킵니다.\r\
 *마쿠라는 Unique 소울을 흡수하여 꿈의 양분으로 삼아 강력해집니다. 이 스킬을 사용하여 Unique 소울을 흡수할 수 있으며, 최대 9개까지 흡수 가능합니다.\r\
 [흡수한 꿈 3개마다 마쿠라의 능력이 강화됩니다.]\r\
-[꿈을 흡수할때마다 공격속도가 10% 상승합니다.]\r\
+[꿈을 흡수할때마다 Attack Speed가 10% 상승합니다.]\r\
 [꿈 9개 흡수시 강화]\r\
 -전체 체력 감소치가 0.5%에서 1%로 증가합니다.";
 -- aart
@@ -34650,15 +34650,15 @@ nhym,h02Q,hlum,e03C";
 		t["A09H"][5][1] = "『세계의 마지막에 홀로 오는 이』";
 -- aub1 1
 		t["A09H"][6][1] = "*자신 주변 700범위 적의 방어력을 24 감소시킵니다.\r\
-*공격시 25% 확률로 대상 유닛 1기에게 전체 체력의 4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*보스 유닛에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
+*공격시 25% 확률로 대상 Units 1기에게 전체 체력의 4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*보스 Units에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
 -- abuf 1
 		t["A09H"][8][1] = "B004";
 -- atp1 2
 -- aub1 2
 		t["A09H"][10][1] = "*자신 주변 700범위 적의 방어력을 32 감소시킵니다.\r\
-*공격시 25% 확률로 대상 유닛 1기에게 전체 체력의 4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*보스 유닛에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
+*공격시 25% 확률로 대상 Units 1기에게 전체 체력의 4% + 225만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*보스 Units에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
 -- atar 2
 -- abuf 2
 -- [A09J]
@@ -34748,7 +34748,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0RN"][7][1] = "*Rumia가 공격시 11% 확률로 자신의 마검을 휘둘러 전방 900거리 200범위 내에 있는 적에게 현재 체력의 0.3% + 150만의 |c00FF6464물리 데미지|r를 입히고 1.5초간 기절시킵니다.\r\
 *이 스킬이 발동할 경우 Rumia의 마나가 4회복됩니다.\r\
-*Rumia가 공격시 25% 확률로 대상 유닛에게 전체 체력의 12%에 해당하는 |c00FF6464물리 데미지|r를 입히고 2초간 스턴시킵니다.[보스에게 10%의 데미지만 입힙니다]";
+*Rumia가 공격시 25% 확률로 대상 Units에게 전체 체력의 12%에 해당하는 |c00FF6464물리 데미지|r를 입히고 2초간 스턴시킵니다.[보스에게 10%의 데미지만 입힙니다]";
 -- atar 1
 -- atp1 2
 -- aub1 2
@@ -34760,11 +34760,11 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0QP]
 -- aub1 1
-		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + Futatsuiwa Mamizou[Epic] + 정체불명[Unique] + 고대와 환상의 조각\r\
+		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: 야사카 카나코[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.36초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 코토히메 업그레이드";
+[Attack Speed]: 0.36 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 코토히메 Upgrade";
 -- atar 1
 -- atp1 1
 		t["A0QP"][4][1] = "|c00FEE952[Unit Information]|r - 코토히메[Historic]";
@@ -34916,7 +34916,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0IY"][2][1] = "사부『사자 선별의 낫』- 사용 횟수 0/4";
 -- aub1 1
-		t["A0IY"][3][1] = "*코마치가 보스 이외의 적을 공격시 25% 확률로 대상 유닛의 잃은 체력의 20%에 해당하는 |c00379BFF마법 데미지|r를 입힙니다. \r\
+		t["A0IY"][3][1] = "*코마치가 보스 이외의 적을 공격시 25% 확률로 대상 Units의 잃은 체력의 20%에 해당하는 |c00379BFF마법 데미지|r를 입힙니다. \r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『사신의 적선』|c00FF8040[R]|r\r\
 \r\
@@ -35358,7 +35358,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A06E"][65][1] = "『배드 레이디 스크램블』";
 -- atp1 2
-		t["A06E"][66][1] = "침수『배 밑바닥의 비너스』- |c0000FFFF익스텐드|r";
+		t["A06E"][66][1] = "침수『배 밑바닥의 비너스』- |c0000FFFFExtended|r";
 -- atp1 4
 -- atp1 5
 -- atp1 6
@@ -35388,11 +35388,11 @@ nhym,h02Q,hlum,e03C";
 -- atp1 30
 -- atp1 31
 -- aub1 1
-		t["A06E"][96][1] = "＊자신 주변 700 범위의 자신 소유 유닛 공격속도를 5% 증가시키고, 버프를 받고 있다면 활력 스킬을 발동할 때 활력을 15% 회복시킵니다.";
+		t["A06E"][96][1] = "＊자신 주변 700 범위의 자신 소유 Units Attack Speed를 5% 증가시키고, 버프를 받고 있다면 활력 스킬을 발동할 때 활력을 15% 회복시킵니다.";
 -- aub1 2
 		t["A06E"][97][1] = "*공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 120만의 |c00FF6464물리 데미지|r를 입히고, 1.5초간 스턴시킵니다.\r\
-*스턴이 풀린 후 5초간 이동속도 35% 감소 효과를 줍니다. \r\
-*추가로 주변 750범위의 아군의 공격속도를 12%, 이동속도를 25% 상승시킵니다.";
+*스턴이 풀린 후 5초간 Movement Speed 35% 감소 효과를 줍니다. \r\
+*추가로 주변 750범위의 아군의 Attack Speed를 12%, Movement Speed를 25% 상승시킵니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -35431,7 +35431,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A045"][5][1] = "바람을 다루는 정도의 능력";
 -- aub1 1
-		t["A045"][6][1] = "＊익스텐드한 라운드에 따라서 다음의 효과를 가집니다.\r\
+		t["A045"][6][1] = "＊Extended한 라운드에 따라서 다음의 효과를 가집니다.\r\
 |c00FF6464홀수 라운드|r : 거센 바람을 일으켜 자신 주변 700 범위의 적 방어력을 25 감소시킵니다.\r\
 |c00379BFF짝수 라운드|r : 공격 시 10% 확률로 풍압탄을 날려 대상 주변 400 범위의 적에게 95만의 |c00379BFF마법 피해|r를 가하고 받는 마법 피해를 10% |c0000FFFF증폭|r시킵니다.";
 -- atp1 2
@@ -35525,15 +35525,15 @@ nhym,h02Q,hlum,e03C";
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0RT"][35][1] = "*공격시 12% 확률로 불을 치솟게 해 대상 유닛 주변 400범위 내에 있는 적에게 120만의 |c00379BFF마법 데미지|r와 1.5초의 스턴을 입힙니다.";
+		t["A0RT"][35][1] = "*공격시 12% 확률로 불을 치솟게 해 대상 Units 주변 400범위 내에 있는 적에게 120만의 |c00379BFF마법 데미지|r와 1.5초의 스턴을 입힙니다.";
 -- aub1 3
-		t["A0RT"][36][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 270% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 2유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A0RT"][36][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 270% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 2Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 4
-		t["A0RT"][37][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 280% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 3유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A0RT"][37][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 280% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 3Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 5
-		t["A0RT"][38][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 290% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 4유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A0RT"][38][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 290% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 4Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 6
-		t["A0RT"][39][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 공격속도를 300% 증가시킵니다. 또한 주변의 자신 소유의 유닛 중 무작위로 5유닛에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
+		t["A0RT"][39][1] = "공격시 3%확률로 발동합니다. 10초동안 자신의 Attack Speed를 300% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 5Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
@@ -35661,10 +35661,10 @@ nhym,h02Q,hlum,e03C";
 -- atat
 -- anam
 -- atp1 1
-		t["A0A1"][5][1] = "『인 투 딜리리엄』 - |c0000FFFF익스텐드|r";
+		t["A0A1"][5][1] = "『인 투 딜리리엄』 - |c0000FFFFExtended|r";
 -- aub1 1
-		t["A0A1"][6][1] = "＊대상 유닛에게 극도의 흥분상태에 빠뜨리는 독을 부여해 공격 속도가 35% 증가하며, 공격 시 0.5의 마력을 추가로 회복시킵니다.\r\
-|c00ff2222[!]제한|r : 다른 마력 회복 효과를 받지 않는 유닛은 제외되며, 사용 시 이 스킬을 사용할 수 없습니다.";
+		t["A0A1"][6][1] = "＊대상 Units에게 극도의 흥분상태에 빠뜨리는 독을 부여해 공격 속도가 35% 증가하며, 공격 시 0.5의 마력을 추가로 회복시킵니다.\r\
+|c00ff2222[!]제한|r : 다른 마력 회복 효과를 받지 않는 Units은 제외되며, 사용 시 이 스킬을 사용할 수 없습니다.";
 -- aart
 		t["A0A1"][7][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNPoisonSting.blp";
 -- atar 1
@@ -35672,7 +35672,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0A1"][10][1] = "h05Z";
 -- atar 2
 -- atp1 2
-		t["A0A1"][12][1] = "『인 투 딜리리엄』 - |c0000FFFF익스텐드|r[사용 불가]";
+		t["A0A1"][12][1] = "『인 투 딜리리엄』 - |c0000FFFFExtended|r[사용 불가]";
 -- aub1 2
 -- [A0RV]
 -- anam
@@ -35721,7 +35721,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0CZ"][3][1] = "＊|c0044BBFF[마력]|r - 100 : 공격 시 마력 1 회복, 자신 주변 500 범위의 무작위 아군에게 신비한 경계를 들여다보는 힘을 부여합니다. 10초 동안 공격력이 45만 증가하고 1초마다 마력을 2% 회복시킵니다.\r\
 ＊대상은 |c00B77615Legendary|r/|c0000FF40Arcana|r/|c00FF0080Phantasm|r/|c00FF0000Historic|r/|c0080A8E6Ascended|r/|c00808080Chronicle|r 등급으로 한정됩니다.\r\
-|c00ff2222[!]제한|r : 회복을 받지 않는 유닛은 제외되며, 지속 도중 다시 발동하지 않습니다. ";
+|c00ff2222[!]제한|r : 회복을 받지 않는 Units은 제외되며, 지속 도중 다시 발동하지 않습니다. ";
 -- anam
 -- aart
 -- atp1 2
@@ -35791,7 +35791,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0D7"][1][1] = "*겐게츠가 공격시 마나를 1 회복합니다. 마나가 100일 때 발동합니다.\r\
 *자신 전방에 흑백의 광선을 발사해 전방의 적에게 400만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-*기본적으로 주변 700범위 자신 소유 유닛의 공격 속도를 5% 증가시킵니다. 이 효과를 받는 유닛이 마나 스킬 사용시 마나를 5~15% 회복시킵니다.";
+*기본적으로 주변 700범위 자신 소유 Units의 공격 속도를 5% 증가시킵니다. 이 효과를 받는 Units이 마나 스킬 사용시 마나를 5~15% 회복시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A0D7"][4][1] = "『표리부동의 흑백광』";
@@ -35965,7 +35965,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- atp1 1
 -- aub1 1
-		t["S002"][4][1] = "＊주변 700 범위 자신을 제외한 아군의 공격속도를 12% 증가시킵니다.\r\
+		t["S002"][4][1] = "＊주변 700 범위 자신을 제외한 아군의 Attack Speed를 12% 증가시킵니다.\r\
 *공격 시 10% 확률로 자신의 신력을 해방시켜 대상 주변 400범위 적에게 잃은 체력의 1% + 100만의 |c00FF6464물리 피해|r를 가하고 1.5초간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3";
 -- anam
@@ -35994,8 +35994,8 @@ nhym,h02Q,hlum,e03C";
 		t["A0JZ"][1][1] = "가능성의 경계 |c00FF8040[D]|r";
 -- aub1 1
 		t["A0JZ"][2][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c000080FF10%|r] 증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c000080FF10%|r] 증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
@@ -36015,72 +36015,72 @@ nhym,h02Q,hlum,e03C";
 -- atp1 10
 -- aub1 2
 		t["A0JZ"][17][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c000080FF20%|r] 증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c000080FF20%|r] 증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5초";
 -- aub1 3
 		t["A0JZ"][18][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c000080FF30%|r] 증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c000080FF30%|r] 증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5초";
 -- aub1 4
 		t["A0JZ"][19][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c000080FF40%|r] 증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c000080FF40%|r] 증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5초";
 -- aub1 5
 		t["A0JZ"][20][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c000080FF50%|r] 증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c000080FF50%|r] 증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5초";
 -- aub1 6
 		t["A0JZ"][21][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c00FABE2160%|r]증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c00FABE2160%|r]증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5초";
 -- aub1 7
 		t["A0JZ"][22][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c00FABE2170%|r]증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c00FABE2170%|r]증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5초";
 -- aub1 8
 		t["A0JZ"][23][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c00FABE2180%|r]증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c00FABE2180%|r]증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5\\초";
 -- aub1 9
 		t["A0JZ"][24][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c00FABE2190%|r]증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c00FABE2190%|r]증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
 *쿨다운 5초";
 -- aub1 10
 		t["A0JZ"][25][1] = "*메리의 능력은 가변 능력과 설정 능력으로 나뉩니다.\r\
-*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 조합할 때, 이 스킬을 사용할 때 변동됩니다.\r\
-*메리의 공격속도가 [|c00FFA6FF100%|r] 증가합니다.\r\
+*가변 능력의 경우 ()로 , 설정 능력의 경우 []로 수치가 표시됩니다. 가변 능력은 매 발동시 마다 효과가 변동되며, 설정 능력의 경우 Combination할 때, 이 스킬을 사용할 때 변동됩니다.\r\
+*메리의 Attack Speed가 [|c00FFA6FF100%|r] 증가합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 *이 스킬을 사용하여 메리의 설정 능력의 수치/표시를 모두 변동시킵니다.\r\
 *목재를 1 소모합니다.\r\
@@ -36175,8 +36175,8 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0MK"][3][1] = "*메리가 공격시 마나를 [|c000080FF0.5|r] 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *공격받은 대상을 즉사시키거나, 체력을 모두 회복시킵니다. 확률은 반반입니다.\r\
-*즉사시켰을 경우, 대상 유닛 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*체력을 모두 회복시켰을 경우, 대상 유닛 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00379BFF마법 데미지|r를 입히고, 자신의 마나를 (15~50)% 회복합니다.";
+*즉사시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00379BFF마법 데미지|r를 입히고, 자신의 마나를 (15~50)% 회복합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -36212,13 +36212,13 @@ nhym,h02Q,hlum,e03C";
 -- aub1 2
 		t["A0MK"][36][1] = "*메리가 공격시 마나를 [|c00FABE211|r] 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *공격받은 대상을 즉사시키거나, 체력을 모두 회복시킵니다. 확률은 반반입니다.\r\
-*즉사시켰을 경우, 대상 유닛 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*체력을 모두 회복시켰을 경우, 대상 유닛 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00379BFF마법 데미지|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
+*즉사시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00379BFF마법 데미지|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
 -- aub1 3
 		t["A0MK"][37][1] = "*메리가 공격시 마나를 [|c00FFA6FF1.5|r] 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *공격받은 대상을 즉사시키거나, 체력을 모두 회복시킵니다. 확률은 반반입니다.\r\
-*즉사시켰을 경우, 대상 유닛 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*체력을 모두 회복시켰을 경우, 대상 유닛 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00379BFF마법 데미지|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
+*즉사시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500만의 |c00379BFF마법 데미지|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
 -- aub1 4
 		t["A0MK"][38][1] = "*공격시 [|c00008FD511%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5초 ~ 3.5초>간 기절시키고, 전체 체력의 <0.5~1.5>% + 150만의 물리 데미지를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 쿨다운이 1초 감소합니다.";
@@ -36266,7 +36266,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 -- aub1 1
 		t["A0R5"][4][1] = "*테위가 주변 700범위 적을 속입니다. 자신이 속았다는 사실에 절망한 적은 다음의 효과를 받습니다.\r\
-*방어력 40 감소 / 이동속도 25% 감소\r\
+*방어력 40 감소 / Movement Speed 25% 감소\r\
 *공격시 테위의 활력을 0.5~1초 추가로 회복시킵니다.";
 -- aart
 		t["A0R5"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCritterRabbit.blp";
@@ -36285,11 +36285,11 @@ nhym,h02Q,hlum,e03C";
 		t["A0R6"][4][1] = "|c00FEE952[Unit Information]|r - Tewi Inaba[Phantasm]";
 -- aub1 1
 		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 에인션트 듀퍼(tewi phan)\r\
+|c00A8F13A[Type Command]|r: 에인션트 듀퍼(tewi phan)\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 325\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 325\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- atar 1
 -- atar 2
 -- aart
@@ -36317,8 +36317,8 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0RX"][6][1] = "차부『오오나무치 님의 약』- |c00FF8040[W]|r";
 -- aub1 1
-		t["A0RX"][7][1] = "*테위가 공격시 마나를 1 회복합니다. 테위가 마나가 100이 될 경우, 이 스킬을 사용하여 대상 아군에게 뭔지 모를 약을 먹일 수 있습니다.[Unique 이하 유닛에게는 투여할 수 없습니다.]\r\
-*아군에게 토끼신의 힘을 불어넣어 평타 공격력을 10만 증가시킵니다. 유닛 하나당 최대 3번까지 사용할 수 있습니다.\r\
+		t["A0RX"][7][1] = "*테위가 공격시 마나를 1 회복합니다. 테위가 마나가 100이 될 경우, 이 스킬을 사용하여 대상 아군에게 뭔지 모를 약을 먹일 수 있습니다.[Unique 이하 Units에게는 투여할 수 없습니다.]\r\
+*아군에게 토끼신의 힘을 불어넣어 평타 공격력을 10만 증가시킵니다. Units 하나당 최대 3번까지 사용할 수 있습니다.\r\
 *테위 자신에게는 사용할 수 없습니다.\r\
 [테위는 이 스킬 이외의 마나 회복을 받지 않습니다.]\r\
 *쿨다운 45초";
@@ -36360,9 +36360,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0S0"][5][1] = "|c00A8F13A[Combination]|r: 유령악단[팬텀 앙상블] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.4초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 메이라 업그레이드";
+[Attack Speed]: 0.4 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 메이라 Upgrade";
 -- arac
 -- [A0S1]
 -- anam
@@ -36371,14 +36371,14 @@ nhym,h02Q,hlum,e03C";
 		t["A0S1"][3][1] = "『일광의 끝』";
 -- aub1 1
 		t["A0S1"][4][1] = "*메이라가 공격시 마나를 1 회복합니다.\r\
-*메이라는 밤에 공격시 공격속도가 50% 증가합니다.\r\
+*메이라는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
 *메이라가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
 전방 700거리의 적을 베어 전체 체력의 0.4% + 80만의 |c00FF6464물리 피해|r를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
 -- aart
 -- atp1 2
 -- aub1 2
 		t["A0S1"][7][1] = "*메이라가 공격시 마나를 1 회복합니다.\r\
-*메이라는 밤에 공격시 공격속도가 50% 증가합니다.\r\
+*메이라는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
 *메이라가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
 전방 700거리의 적을 베어 현재 체력의 0.5% + 150만의 물리 데미지를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
 -- atp1 3
@@ -36419,7 +36419,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0S3"][5][1] = "유령악단[Epic] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각";
 -- atp1 1
-		t["A0S3"][6][1] = "|c00ffff00메이라|r 조합|c00FF8040[D]|r";
+		t["A0S3"][6][1] = "|c00ffff00메이라|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0S3"][8][1] = "h03B,h01S,h01H,e03C";
@@ -36444,7 +36444,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["S00O"][3][1] = "『보름달의 폼포코링』";
 -- aub1 1
-		t["S00O"][4][1] = "＊마미조 주변 700 범위의 자신 소유 유닛 공격 속도를 10% 증가시킵니다.\r\
+		t["S00O"][4][1] = "＊마미조 주변 700 범위의 자신 소유 Units 공격 속도를 10% 증가시킵니다.\r\
 ＊|c0044BBFF[마력]|r - 150 : 공격 시 마력 1 회복, 자신의 수하인 둔갑너구리를 불러 통나무로 변신하게 합니다. 30% 확률로 성공해 목재 1을 얻습니다.\r\
 |c00ff2222[!]제한|r : 마미조는 다른 마력 회복을 받지 않습니다.";
 -- anam
@@ -36480,9 +36480,9 @@ nhym,h02Q,hlum,e03C";
 -- [A0CF]
 -- anam
 -- atp1 1
-		t["A0CF"][2][1] = "염부『사쿠라이지 염상』 - |c0000FFFF익스텐드|r";
+		t["A0CF"][2][1] = "염부『사쿠라이지 염상』 - |c0000FFFFExtended|r";
 -- aub1 1
-		t["A0CF"][3][1] = "*자신을 불로 휘감아 주변 700범위 자신 소유 유닛의 공격 속도를 20% 증가시킵니다.";
+		t["A0CF"][3][1] = "*자신을 불로 휘감아 주변 700범위 자신 소유 Units의 공격 속도를 20% 증가시킵니다.";
 -- atar 1
 -- aart
 -- areq
@@ -36500,7 +36500,7 @@ nhym,h02Q,hlum,e03C";
 -- aart
 -- ahky
 -- aub1 1
-		t["A0QO"][8][1] = "*미노리코가 공격시 9% 확률로 대상 주변 500범위 내에 있는 적을 수확합니다. 20만의 |c00FF6464물리 데미지|r를 입히며, 범위 내에 있는 적 유닛의 체력이 7% 이하라면 즉사시킵니다.\r\
+		t["A0QO"][8][1] = "*미노리코가 공격시 9% 확률로 대상 주변 500범위 내에 있는 적을 수확합니다. 20만의 |c00FF6464물리 데미지|r를 입히며, 범위 내에 있는 적 Units의 체력이 7% 이하라면 즉사시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 [사용식 능력]\r\
 *사용시 미노리코가 수확제를 일으켜 목재를 1 획득합니다.\r\
@@ -36558,7 +36558,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0S7"][7][1] = "*스이카의 공격은 대상 주변 350범위 내에 35%의 분산 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스킬 공격력 2배 , 공격속도 20% 감소 , 평타 공격력 25만 증가\r\
+*스킬 공격력 2배 , Attack Speed 20% 감소 , 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 100%에 해당하는 방어 무시 데미지";
 -- atar 1
 -- atar 2
@@ -36567,12 +36567,12 @@ nhym,h02Q,hlum,e03C";
 -- aub1 2
 		t["A0S7"][12][1] = "*스이카의 공격은 대상 주변 350범위 내에 35%의 분산 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스킬 공격력 2배 , 공격속도 20% 감소 . 평타 공격력 25만 증가\r\
+*스킬 공격력 2배 , Attack Speed 20% 감소 . 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 100%에 해당하는 방어 무시 데미지";
 -- aub1 3
 		t["A0S7"][13][1] = "*스이카의 공격은 대상 주변 350범위 내에 35%의 분산 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *스이카가 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거대화하여 15초간 다음의 효과를 얻습니다.\r\
-*스킬 공격력 2배 , 공격속도 20% 감소 . 평타 공격력 25만 증가\r\
+*스킬 공격력 2배 , Attack Speed 20% 감소 . 평타 공격력 25만 증가\r\
 *공격시 500범위에 자신 공격력의 145%에 해당하는 방어 무시 데미지";
 -- atar 3
 -- aani
@@ -36587,13 +36587,13 @@ nhym,h02Q,hlum,e03C";
 		t["A0S8"][6][1] = "『히히이로카네 셉터』- |c00FF8040[E]|r";
 -- aub1 1
 		t["A0S8"][7][1] = "＊히히이로카네를 바깥 세계에서 흘러들어온 기묘한 셉터랑 개조해 그 물건을 대상에게 건네줍니다. 사실 아무 힘이 없지만 소유주에게 굉장한 고양감을 선사해줍니다.\r\
-＊Chronicle 유닛에게만 줄 수 있으며,특정 스킬을 강화합니다.\r\
+＊Chronicle Units에게만 줄 수 있으며,특정 스킬을 강화합니다.\r\
 ＊대상에 따라『도구의 이름과 용도를 아는 정도의 능력』를 강화합니다.\r\
 -|c00FF6464물리|r : 방어력 감소 수치가 30으로 증가\r\
--|c00379BFF마법|r : 공격속도 증가 수치가 18%로 증가\r\
-＊히히이로카네 셉터 강화 효과가 있는 유닛은 Combination의 유닛 인벤토리에 히히이로카네 셉터를 소지하고 있습니다.\r\
+-|c00379BFF마법|r : Attack Speed 증가 수치가 18%로 증가\r\
+＊히히이로카네 셉터 강화 효과가 있는 Units은 Combination의 Units 인벤토리에 히히이로카네 셉터를 소지하고 있습니다.\r\
 [히히이로카네 셉터는 아이템 형식이며, 부여시 떨어뜨릴 수 없습니다.]\r\
-|c00FFFF00*히히이로카네 셉터는 맵 하단 Combination의 Chronicle 유닛 중 셉터를 소유한 유닛만 부여할 수 있습니다.|r";
+|c00FFFF00*히히이로카네 셉터는 맵 하단 Combination의 Chronicle Units 중 셉터를 소유한 Units만 부여할 수 있습니다.|r";
 -- ahky
 -- aart
 		t["A0S8"][9][1] = "ReplaceableTextures\\CommandButtons\\BTNStaffOfSilence.blp";
@@ -36627,11 +36627,11 @@ nhym,h02Q,hlum,e03C";
 		t["S00X"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Arcana]";
 -- aub1 1
 		t["S00X"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Patchouli Knowledge[Unique]  + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 장미를 죽이는 카밀라(remi arc)\r\
+|c00A8F13A[Type Command]|r: 장미를 죽이는 카밀라(remi arc)\r\
 \r\
-[공격속도]: 0.34초당 1번\r\
-[이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : [기본]Epic 유닛 업그레이드";
+[Attack Speed]: 0.34 Cooldown\r\
+[Movement Speed]: 522[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : [기본]Epic Units Upgrade";
 -- anam
 -- abuf 1
 		t["S00X"][6][1] = "B07K";
@@ -36644,11 +36644,11 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0AD"][4][1] = "*|c00FF80FF[활력]|r - 4초\r\
 요우무가 공격한 대상 적 전체 체력의 20%에 해당하는 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-[보스 유닛의 경우 10%의 데미지만 입습니다]\r\
+[보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 단미검『미진지향참』\r\
 \r\
-*공격시 마나를 2 회복합니다. 마나가 120이 됐을때, 자신 전방 600거리 250범위 적 유닛을 요력을 담은 검기로 베어버립니다.\r\
+*공격시 마나를 2 회복합니다. 마나가 120이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
 *범위 내의 적에게 전체 체력의 1% + 200만의 |c00AC59FF절대 데미지|r를 입힙니다.";
 -- abuf 1
 -- atar 1
@@ -36669,14 +36669,14 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SC]
 -- atp1 1
-		t["A0SC"][1][1] = "|c00FEE952[Unit Information]|r - 쿠모이 이치린[Phantasm]";
+		t["A0SC"][1][1] = "|c00FEE952[Unit Information]|r - Ichirin Kumoi[Phantasm]";
 -- aub1 1
-		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Epic] + Houraisan Kaguya[Epic] + 쿠모이 이치린[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 구름 승려(ichirin phan)\r\
+		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Epic] + Houraisan Kaguya[Epic] + Ichirin Kumoi[Unique] + 고대와 환상의 조각\r\
+|c00A8F13A[Type Command]|r: 구름 승려(ichirin phan)\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- aart
 		t["A0SC"][5][1] = "Icon\\Unit\\BTNIchirin_Phan.blp";
@@ -36693,7 +36693,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0SD"][5][1] = "람부『불벌의 야분운』";
 -- aub1 1
 		t["A0SD"][6][1] = "*이치린 주변 800범위 적의 방어력을 40 감소시킵니다.\r\
-*이치린 주변 800범위 적의 이동속도를 25% 감소시킵니다.\r\
+*이치린 주변 800범위 적의 Movement Speed를 25% 감소시킵니다.\r\
 *이치린은 마나 및 활력 회복 효과를 받지 않습니다.";
 -- abuf 1
 		t["A0SD"][8][1] = "B07M";
@@ -37100,7 +37100,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0SE"][3][1] = "권부 『천망 샌드백』";
 -- aub1 1
 		t["A0SE"][4][1] = "*이치린이 공격시 10% 확률로 운잔이 대상 지점을 강하게 내려칩니다. 대상 주변 400범위 적에게 145만의 |c00FF6464물리 데미지|r를 입히고, 2초간 스턴시킵니다.\r\
-*이 스킬의 대상이 된 단일 유닛 1기는 4초간 스턴되며, 500만의 |c00FF6464물리 데미지|r를 입습니다.";
+*이 스킬의 대상이 된 단일 Units 1기는 4초간 스턴되며, 500만의 |c00FF6464물리 데미지|r를 입습니다.";
 -- aart
 -- atp1 2
 -- aub1 2
@@ -37136,9 +37136,9 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0SG"][7][1] = "죄부『방황하는 대죄』";
 -- aub1 1
-		t["A0SG"][8][1] = "＊자신 주변 600 범위의 적 이동속도를 15% 감소시킵니다.\r\
+		t["A0SG"][8][1] = "＊자신 주변 600 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
 ＊공격 시 10% 확률로 대상 주변 400 범위의 적에게 잃은 체력의 1% + 50만의 |c00379BFF마법 피해|r를 가합니다. 이 스킬은 [라운드]%만큼 추가로 피해가 증가합니다.\r\
-＊익스텐드 시 이 스킬을 발동할 때 마력을 3 회복합니다.";
+＊Extended 시 이 스킬을 발동할 때 마력을 3 회복합니다.";
 -- [A08X]
 -- atar 1
 -- atp1 1
@@ -37182,7 +37182,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0SI"][5][1] = "시부『실버 어큐트 360』";
 -- aub1 1
-		t["A0SI"][6][1] = "*사쿠야가 공격시 10% 확률로 나이프를 던져 대상 유닛을 공격합니다. 대상 주변 500범위 적에게 전체 체력의 0.3% + 100만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+		t["A0SI"][6][1] = "*사쿠야가 공격시 10% 확률로 나이프를 던져 대상 Units을 공격합니다. 대상 주변 500범위 적에게 전체 체력의 0.3% + 100만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *|c00FF80FF[활력]|r - 3초\r\
 위 확률과 관계 없이 『실버 어큐트 360』이 발동합니다. 활력 효과로 발동시 데미지가 3배로 적용됩니다.";
 -- abuf 1
@@ -37615,12 +37615,12 @@ nhym,h02Q,hlum,e03C";
 		t["A0SK"][7][1] = "『한 번 본 것을 잊지 않는 정도의 능력』|c00FF8040[E]|r";
 -- aub1 1
 		t["A0SK"][8][1] = "＊[사용식 능력] : 대상을 기억하고 기록하여 이하의 효과를 얻습니다. 한 번 기록하면 바꿀 수 없습니다.\r\
-＊|c00FF80FF[활력]|r - 20초 / |c0044BBFF[마력]|r - 80 : 공격 시 마력 1 회복, 아큐가 활력/마력 효과를 발동한다면, 기록한 유닛의 활력/마력을 모두 회복시킵니다.\r\
-|c00ff2222[!]제한|r : 회복을 받지 않는 유닛은 제외됩니다. 익스텐드한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
+＊|c00FF80FF[활력]|r - 20초 / |c0044BBFF[마력]|r - 80 : 공격 시 마력 1 회복, 아큐가 활력/마력 효과를 발동한다면, 기록한 Units의 활력/마력을 모두 회복시킵니다.\r\
+|c00ff2222[!]제한|r : 회복을 받지 않는 Units은 제외됩니다. Extended한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
 -- aub1 2
 -- aub1 3
-		t["A0SK"][10][1] = "＊|c00FF80FF[활력]|r - 20초 / |c0044BBFF[마력]|r - 80 : 공격 시 마력 1 회복, 아큐가 활력/마력 효과를 발동한다면, 기록한 유닛의 활력/마력을 모두 회복시킵니다.\r\
-|c00ff2222[!]제한|r : 회복을 받지 않는 유닛은 제외됩니다. 익스텐드한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
+		t["A0SK"][10][1] = "＊|c00FF80FF[활력]|r - 20초 / |c0044BBFF[마력]|r - 80 : 공격 시 마력 1 회복, 아큐가 활력/마력 효과를 발동한다면, 기록한 Units의 활력/마력을 모두 회복시킵니다.\r\
+|c00ff2222[!]제한|r : 회복을 받지 않는 Units은 제외됩니다. Extended한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
 -- atp1 2
 -- atp1 3
 		t["A0SK"][12][1] = "『한 번 본 것을 잊지 않는 정도의 능력』- 기록 중";
@@ -37698,21 +37698,21 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + 유령악단[팬텀 앙상블][Epic] + 토라마루 쇼우[Epic] + 2 Unique Souls \r\
 \r\
-[공격속도]: 0.50초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 요리가미 조온/시온 업그레이드";
+[Attack Speed]: 0.50 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 요리가미 조온/시온 Upgrade";
 -- arac
 -- [A0SL]
 -- arac
 -- atp1 1
-		t["A0SL"][2][1] = "|c00FEE952[Unit Information]|r - 소가노 토지코[Phantasm]";
+		t["A0SL"][2][1] = "|c00FEE952[Unit Information]|r - Soga no Tojiko[Phantasm]";
 -- aub1 1
-		t["A0SL"][3][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 유령악단[Epic] + 소가노 토지코[Unique] + 고대와 환상의 조각\r\
-|c00A8F13A[타이핑]|r: 망령은 말하지 않는다(tojiko phan)\r\
+		t["A0SL"][3][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + 유령악단[Epic] + Soga no Tojiko[Unique] + 고대와 환상의 조각\r\
+|c00A8F13A[Type Command]|r: 망령은 말하지 않는다(tojiko phan)\r\
 \r\
-[공격속도]: 0.41초당 1번\r\
-[이동속도]: 420[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.41 Cooldown\r\
+[Movement Speed]: 420[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- aart
 -- atp1 2
@@ -37781,7 +37781,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0SM"][2][1] = "해치워 주마!";
 -- aub1 1
-		t["A0SM"][3][1] = "＊미약한 전기를 통해 자신 주변 700 범위의 자신 소유 유닛의 공격속도를 15% 증가시킵니다.\r\
+		t["A0SM"][3][1] = "＊미약한 전기를 통해 자신 주변 700 범위의 자신 소유 Units의 Attack Speed를 15% 증가시킵니다.\r\
 ＊공격 시 15% 확률로 대상 주변 700 범위의 적에게 현재 체력 0.5% + 100만의 |c00379BFF마법 피해|r를 가하고 2초간 기절시킵니다.";
 -- anam
 -- atar 1
@@ -37934,11 +37934,11 @@ nhym,h02Q,hlum,e03C";
 		t["A0SQ"][107][1] = "|c00FEE952[Unit Information]|r - 사츠키 린[Phantasm]";
 -- aub1 1
 		t["A0SQ"][108][1] = "|c00A8F13A[Combination]|r: Unique 소울 * 4 + 고대와 환상의 조각 * 2\r\
-|c00A8F13A[타이핑]|r: 인셉션 걸(satsuki phan)\r\
+|c00A8F13A[Type Command]|r: 인셉션 걸(satsuki phan)\r\
 \r\
-[공격속도]: 없음\r\
-[이동속도]: 300\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 없음\r\
+[Movement Speed]: 300\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- aart
 		t["A0SQ"][109][1] = "Icon\\Unit\\BTNSatsuki_Phan.blp";
 -- [A0SR]
@@ -38018,9 +38018,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0SS"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.35초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 요리가미 조온/시온 업그레이드";
+[Attack Speed]: 0.35 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 요리가미 조온/시온 Upgrade";
 -- arac
 -- [A0ST]
 -- atp1 1
@@ -38091,9 +38091,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0ST"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.27초당 1번\r\
-[이동속도]: 500[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.27 Cooldown\r\
+[Movement Speed]: 500[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- arac
 -- [A0SU]
 -- atp1 1
@@ -38163,9 +38163,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0SU"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.24초당 1번\r\
-[이동속도]: 522[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.24 Cooldown\r\
+[Movement Speed]: 522[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- arac
 -- [A0SV]
 -- atp1 1
@@ -38236,9 +38236,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0SV"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0SW]
 -- atp1 1
@@ -38309,13 +38309,13 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0SW"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.37초당 1번\r\
-[이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 0.37 Cooldown\r\
+[Movement Speed]: 400\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0SX]
 -- atp1 1
-		t["A0SX"][1][1] = "|c00FEE952[Unit Information]|r - 앨리스 마가트로이드[Ascended]";
+		t["A0SX"][1][1] = "|c00FEE952[Unit Information]|r - Alice Margatroid[Ascended]";
 -- anam
 -- aart
 		t["A0SX"][3][1] = "Icon\\Unit\\BTNAlice_Asc.blp";
@@ -38382,9 +38382,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0SX"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 325[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 325[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0SY]
 -- atp1 1
@@ -38455,9 +38455,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0SY"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 없음\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 없음\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0SZ]
 -- atp1 1
@@ -38528,9 +38528,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0SZ"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.21초당 1번\r\
-[이동속도]: 355\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 0.21 Cooldown\r\
+[Movement Speed]: 355\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0T0]
 -- atp1 1
@@ -38601,9 +38601,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0T0"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.40초당 1번\r\
-[이동속도]: 420\r\
-|c00F8BA54[업그레이드]|r : 강화 Epic 유닛 업그레이드";
+[Attack Speed]: 0.40 Cooldown\r\
+[Movement Speed]: 420\r\
+|c00F8BA54[Upgrade]|r : 강화 Epic Units Upgrade";
 -- arac
 -- [A0T1]
 -- atp1 1
@@ -38674,9 +38674,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0T1"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.75초당 1번\r\
-[이동속도]: 350\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 0.75 Cooldown\r\
+[Movement Speed]: 350\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0T2]
 -- atp1 1
@@ -38747,9 +38747,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0T2"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.38초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : Phantasm 유닛 업그레이드";
+[Attack Speed]: 0.38 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- arac
 -- [A0T3]
 -- atp1 1
@@ -38820,9 +38820,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0T3"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.38초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 0.38 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0T4]
 -- atp1 1
@@ -38893,9 +38893,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0T4"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.3초당 1번\r\
-[이동속도]: 450[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.3 Cooldown\r\
+[Movement Speed]: 450[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- arac
 -- [A0T5]
 -- atp1 1
@@ -38966,9 +38966,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0T5"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.25초당 1번\r\
-[이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : 없음";
+[Attack Speed]: 0.25 Cooldown\r\
+[Movement Speed]: 400\r\
+|c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0T6]
 -- arac
@@ -38978,9 +38978,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Kagiyama Hina[Unique] + Unique 소울\r\
 \r\
-[공격속도]: 0.5초당 1번\r\
-[이동속도]: 350[공중이동 가능]\r\
-|c00F8BA54[업그레이드]|r : Legendary 유닛 업그레이드";
+[Attack Speed]: 0.5 Cooldown\r\
+[Movement Speed]: 350[공중이동 가능]\r\
+|c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0T6"][5][1] = "Icon\\Unit\\BTNMedicine_Leg.blp";
 -- [A0T8]
@@ -38990,7 +38990,7 @@ nhym,h02Q,hlum,e03C";
 -- spb1A1
 		t["A0T8"][3][1] = "A0ML,A0MJ";
 -- aub1 1
-		t["A0T8"][4][1] = "＊란은 전귀 또는 후귀의 수호 중 어느 것을 받을지 선택할 수 있습니다. 한 번 선택하면 익스텐드하여도 다시 선택할 수 없습니다.";
+		t["A0T8"][4][1] = "＊란은 전귀 또는 후귀의 수호 중 어느 것을 받을지 선택할 수 있습니다. 한 번 선택하면 Extended하여도 다시 선택할 수 없습니다.";
 -- atp1 1
 		t["A0T8"][5][1] = "『식신을 다루는 정도의 능력』|c00FF8040[R]|r";
 -- aart
@@ -39001,8 +39001,8 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["S00Y"][3][1] = "『스위트 포이즌』";
 -- aub1 1
-		t["S00Y"][4][1] = "＊자신 주변 600 범위의 자신 소유 유닛의 공격속도를 20% 증가시킵니다.\r\
-＊자신 주변 600 범위의 적 이동속도를 25% 감소시킵니다.\r\
+		t["S00Y"][4][1] = "＊자신 주변 600 범위의 자신 소유 Units의 Attack Speed를 20% 증가시킵니다.\r\
+＊자신 주변 600 범위의 적 Movement Speed를 25% 감소시킵니다.\r\
 ＊|c0044BBFF[마력]|r - 100 : 공격 시 마력 1 회복합니다. 메디슨 기준으로 달콤한 독을 뿌려 자신 주변 600 범위의 적에게 현재 체력 2% + 80만의 |c00AC59FF절대 피해|r를 가하고 6초간 아군의 공격력을 80% 증가시킵니다.";
 -- anam
 -- abuf 1
@@ -39097,7 +39097,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TG"][4][1] = "『명을 받들면 반드시 공경하라』";
 -- aub1 1
-		t["A0TG"][5][1] = "＊인부『권선징악은 옛적의 옳으신 말씀이니』의 공격속도 증가가 15%로 강화됩니다.\r\
+		t["A0TG"][5][1] = "＊인부『권선징악은 옛적의 옳으신 말씀이니』의 Attack Speed 증가가 15%로 강화됩니다.\r\
 ＊『별이 내리는 신령묘』의 마력 회복이 전 맵 아군으로 변경됩니다.";
 -- [A0TH]
 -- anam
@@ -39109,14 +39109,14 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TH"][5][1] = "『콘발라톡시』";
 -- aub1 1
-		t["A0TH"][6][1] = "＊자신 유닛의 활력을 1초마다 1% 회복시킵니다.";
+		t["A0TH"][6][1] = "＊자신 Units의 활력을 1초마다 1% 회복시킵니다.";
 -- [A0TI]
 -- arac
 -- anam
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0TI"][5][1] = "|c00ffff00Medicine Melancholy[Legendary]|r 조합|c00FF8040[D]|r";
+		t["A0TI"][5][1] = "|c00ffff00Medicine Melancholy[Legendary]|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0TI"][6][1] = "Medicine Melancholy[Epic] +  Kagiyama Hina[Unique] + Unique 소울";
 -- ahky
@@ -39164,7 +39164,7 @@ nhym,h02Q,hlum,e03C";
 -- abuf 1
 -- atp1 1
 -- aub1 1
-		t["A0TL"][8][1] = "＊자신 주변 750 범위의 적 이동속도를 11% 감소시킨다.\r\
+		t["A0TL"][8][1] = "＊자신 주변 750 범위의 적 Movement Speed를 11% 감소시킨다.\r\
 ＊공격 시 10% 확률로 자신 주변 750 범위의 적에게 5만의 |c00379BFF마법 피해|r를 가하고 0.5초간 기절시킨다.";
 -- atar 2
 -- atp1 2
@@ -39623,10 +39623,10 @@ nhym,h02Q,hlum,e03C";
 		t["A0TS"][3][1] = "A0TX,A0TY,A0U0,A0TZ";
 -- aub1 1
 		t["A0TS"][4][1] = "＊[사용식 능력] : Devil의 계약으로 이익을 줌과 동시에 대가를 가져갑니다. 계약이 성사되면 이 스킬은 사라집니다. 같은 계약을 하면 대가만 지불합니다.\r\
--익스텐드 부적을 하나 갖지만, 자신 소유 유닛의 공격속도를 20% 감소시킨다.\r\
--자신 주변 500 범위의 아군 공격속도를 40% 증가시키지만, 적의 이동속도를 60% 증가시킨다.\r\
--마경『비나의 폐허』에 허영갑주 60과 받는 마법 피해 45% 증폭 효과가 추가되지만, 자신의 유닛 카운트를 20 감소시킨다.\r\
--지정된 대상의 활력과 마력을 1초마다 10% 회복시키지만, 공격속도를 800% 감소시킨다. 회복 효과를 받지 않는 유닛도 회복시킵니다.";
+-Extended 부적을 하나 갖지만, 자신 소유 Units의 Attack Speed를 20% 감소시킨다.\r\
+-자신 주변 500 범위의 아군 Attack Speed를 40% 증가시키지만, 적의 Movement Speed를 60% 증가시킨다.\r\
+-마경『비나의 폐허』에 허영갑주 60과 받는 마법 피해 45% 증폭 효과가 추가되지만, 자신의 Units 카운트를 20 감소시킨다.\r\
+-지정된 대상의 활력과 마력을 1초마다 10% 회복시키지만, Attack Speed를 800% 감소시킨다. 회복 효과를 받지 않는 Units도 회복시킵니다.";
 -- atp1 1
 		t["A0TS"][5][1] = "『클리포트 컨트렉트』|c00FF8040[W]|r";
 -- aart
@@ -39665,9 +39665,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
-[공격속도]: 0.6초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 엘리스 업그레이드";
+[Attack Speed]: 0.6 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 엘리스 Upgrade";
 -- aart
 		t["A0TW"][5][1] = "Icon\\Unit\\BTNElis.blp";
 -- [A0TX]
@@ -39677,7 +39677,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TX"][5][1] = "첫 번째 계약 |c00FF8040[Q]|r";
 -- aub1 1
-		t["A0TX"][6][1] = "＊익스텐드 부적을 하나 갖지만, 자신 소유 유닛의 공격속도를 20% 감소시킨다.";
+		t["A0TX"][6][1] = "＊Extended 부적을 하나 갖지만, 자신 소유 Units의 Attack Speed를 20% 감소시킨다.";
 -- ahky
 -- arac
 -- [A0TY]
@@ -39685,7 +39685,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0TY"][5][1] = "＊자신 주변 500 범위의 아군 공격속도를 40% 증가시키지만, 적의 이동속도를 60% 증가시킨다.";
+		t["A0TY"][5][1] = "＊자신 주변 500 범위의 아군 Attack Speed를 40% 증가시키지만, 적의 Movement Speed를 60% 증가시킨다.";
 -- atp1 1
 		t["A0TY"][6][1] = "두 번째 계약 |c00FF8040[W]|r";
 -- anam
@@ -39697,7 +39697,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TZ"][6][1] = "네 번째 계약 |c00FF8040[R]|r";
 -- aub1 1
-		t["A0TZ"][7][1] = "＊지정된 대상의 활력과 마력을 1초마다 10% 회복시키지만, 공격속도를 800% 감소시킨다. 회복 효과를 받지 않는 유닛도 회복시킵니다.";
+		t["A0TZ"][7][1] = "＊지정된 대상의 활력과 마력을 1초마다 10% 회복시키지만, Attack Speed를 800% 감소시킨다. 회복 효과를 받지 않는 Units도 회복시킵니다.";
 -- aart
 -- atar 1
 -- ahky
@@ -39717,7 +39717,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0U0"][4][1] = "세 번째 계약 |c00FF8040[E]|r";
 -- aub1 1
-		t["A0U0"][5][1] = "＊마경『비나의 폐허』에 허영갑주 60과 받는 마법 피해 45% 증폭 효과가 추가되지만, 자신의 유닛 카운트를 20 감소시킨다.";
+		t["A0U0"][5][1] = "＊마경『비나의 폐허』에 허영갑주 60과 받는 마법 피해 45% 증폭 효과가 추가되지만, 자신의 Units 카운트를 20 감소시킨다.";
 -- ahky
 -- acat
 -- alig
@@ -39784,7 +39784,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0U7"][5][1] = "레밀리아 스칼렛[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각";
 -- atp1 1
-		t["A0U7"][6][1] = "|c00ffff00엘리스|r 조합|c00FF8040[D]|r";
+		t["A0U7"][6][1] = "|c00ffff00엘리스|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0U7"][8][1] = "h00Y,edry,h03R,e03C";
@@ -39859,7 +39859,7 @@ nhym,h02Q,hlum,e03C";
 ＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 현재 체력 0.9% + 100만의 |c00AC59FF절대 피해|r를 가하고 1.3초간 기절시킵니다.\r\
 ＊푸른 눈의 백룡은 멸망의 폭렬질풍탄|cffffcc00[Q]|r 사용 가능\r\
 -공격력(|c00AC59FF절대|r) : 30만\r\
--공격속도 : 0.4초당 1번";
+-Attack Speed : 0.4 Cooldown";
 -- ahky
 -- areq
 -- Ncl6G1
@@ -39874,9 +39874,9 @@ nhym,h02Q,hlum,e03C";
 		t["A0UB"][3][1] = "마법 카드 : 융합 |cffffcc00[W]|r";
 -- aub1 1
 		t["A0UB"][4][1] = "＊[사용식 능력] : 목재 3을 소모하고 발동합니다.\r\
-＊같은 등급 유닛 2기를 선택해 제물로 바쳐 무작위 상위 유닛을 소환합니다.\r\
--Unique 유닛 2기 제물 : Epic 유닛 1기 소환\r\
--Epic 유닛 2기 제물 : Historic/Phantasm 1기 소환";
+＊같은 등급 Units 2기를 선택해 제물로 바쳐 무작위 상위 Units을 소환합니다.\r\
+-Unique Units 2기 제물 : Epic Units 1기 소환\r\
+-Epic Units 2기 제물 : Historic/Phantasm 1기 소환";
 -- ahky
 -- areq
 -- Ncl6G1
@@ -39889,8 +39889,8 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0UC"][3][1] = "함정 카드 : 죽음의 덱 파괴 바이러스 |cffffcc00[E]|r";
 -- aub1 1
-		t["A0UC"][4][1] = "＊[사용식 능력] : Rare 이상의 유닛을 소모하고 발동합니다.\r\
-＊대상 유닛을 폭사시켜 주변 600 범위의 보스를 제외한 적을 감염시켜 1초마다 전체 체력 3%의 |c00AC59FF절대 피해|r를 가합니다. 감염된 적의 체력이 20% 이하라면, 즉사시키고 다시 주변의 적을 감염시킵니다. 감염은 중첩되지 않으며 라운드가 지나면 치료됩니다.";
+		t["A0UC"][4][1] = "＊[사용식 능력] : Rare 이상의 Units을 소모하고 발동합니다.\r\
+＊대상 Units을 폭사시켜 주변 600 범위의 보스를 제외한 적을 감염시켜 1초마다 전체 체력 3%의 |c00AC59FF절대 피해|r를 가합니다. 감염된 적의 체력이 20% 이하라면, 즉사시키고 다시 주변의 적을 감염시킵니다. 감염은 중첩되지 않으며 라운드가 지나면 치료됩니다.";
 -- ahky
 -- areq
 -- Ncl6G1
@@ -39997,7 +39997,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0UF"][3][1] = "연회의 주인공 |cffffcc00[D]|r";
 -- aub1 1
-		t["A0UF"][4][1] = "＊[사용식 능력] : 연회의 주인공을 초대합니다. 인형이 변경되며, 그 유닛을 조합 시 대사랑 음악이 달라집니다.";
+		t["A0UF"][4][1] = "＊[사용식 능력] : 연회의 주인공을 초대합니다. 인형이 변경되며, 그 Units을 Combination 시 대사랑 음악이 달라집니다.";
 -- ahky
 -- Ncl6G1
 -- aart
@@ -40058,7 +40058,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0UK"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
 \r\
-|c00959595들키기 전에 도망치면 정체불명이지.|r";
+|c00959595들키기 전에 도망치면 Unknown이지.|r";
 -- anam
 -- arac
 -- asat
@@ -40171,11 +40171,11 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aub1 1
 		t["A0UT"][2][1] = "|c00A8F13A[Combination]|r: 나마즈[Epic] + Yatadera Narumi[Unique] + 신비술사의 고서\r\
-|c00A8F13A[타이핑]|r: 죄업의 소(urumi arc)\r\
+|c00A8F13A[Type Command]|r: 죄업의 소(urumi arc)\r\
 \r\
-[공격속도]: 0.33초당 1번\r\
-[이동속도]: 400\r\
-|c00F8BA54[업그레이드]|r : Arcana 유닛 업그레이드";
+[Attack Speed]: 0.33 Cooldown\r\
+[Movement Speed]: 400\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- atar 1
 -- atp1 1
 		t["A0UT"][5][1] = "|c00FEE952[Unit Information]|r - 우시자키 우루미[Arcana]";
@@ -40232,13 +40232,13 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0UW"][4][1] = "『죄악의 무게』";
 -- aub1 1
-		t["A0UW"][5][1] = "＊|c0044BBFF[마력]|r - 80 : 공격 시 마력 1 회복, 자신 주변 700 범위의 적에게 죄악의 무게를 부여해 영구히 이동속도를 50 감소시킵니다. 중첩이 가능하며 적의 이동속도가 50이면 저지른 죄업에 짓눌려져 전체 체력 5%의 |c00FF6464물리 피해|r를 입습니다.";
+		t["A0UW"][5][1] = "＊|c0044BBFF[마력]|r - 80 : 공격 시 마력 1 회복, 자신 주변 700 범위의 적에게 죄악의 무게를 부여해 영구히 Movement Speed를 50 감소시킵니다. 중첩이 가능하며 적의 Movement Speed가 50이면 저지른 죄업에 짓눌려져 전체 체력 5%의 |c00FF6464물리 피해|r를 입습니다.";
 -- [A0UX]
 -- arac
 -- atp1 1
 		t["A0UX"][2][1] = "귀부『헝그리 데몬 시즈』";
 -- aub1 1
-		t["A0UX"][3][1] = "*|c00FF80FF[활력]|r - 12초 : 미끼를 던져 고대어가 대상을 잡아먹도록 유도합니다. 2초 뒤, 고대어가 튀어올라 주변 500 범위의 적에게 250만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시키고 영구히 이동속도를 50 감소시킵니다.";
+		t["A0UX"][3][1] = "*|c00FF80FF[활력]|r - 12초 : 미끼를 던져 고대어가 대상을 잡아먹도록 유도합니다. 2초 뒤, 고대어가 튀어올라 주변 500 범위의 적에게 250만의 |c00FF6464물리 피해|r를 가하고 2초간 기절시키고 영구히 Movement Speed를 50 감소시킵니다.";
 -- anam
 -- aart
 -- [A0UY]
@@ -40248,7 +40248,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0UY"][3][1] = "환상향 천도 계획|cffffcc00[D]|r";
 -- aub1 1
-		t["A0UY"][4][1] = "＊[사용식 능력] : 환상향을 정화시켜 더러움을 없애고 완전무결한 땅으로 만듭니다. 자신 주변 700 범위의 적에게 현재 체력 15%의 |c00AC59FF절대 피해|r를 가하고, 월인을 제외한 맵 전체의 자신 소유 유닛을 5초간 기절시킵니다. 쿨다운 300초";
+		t["A0UY"][4][1] = "＊[사용식 능력] : 환상향을 정화시켜 더러움을 없애고 완전무결한 땅으로 만듭니다. 자신 주변 700 범위의 적에게 현재 체력 15%의 |c00AC59FF절대 피해|r를 가하고, 월인을 제외한 맵 전체의 자신 소유 Units을 5초간 기절시킵니다. 쿨다운 300초";
 -- ahky
 -- areq
 -- Ncl6G1
@@ -40356,7 +40356,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0V2"][3][1] = "스 씨|cffffcc00(W)|r";
 -- aub1 1
-		t["A0V2"][4][1] = "＊|c00A8F13A[조건]|r : Legendary 조합 횟수 100회\r\
+		t["A0V2"][4][1] = "＊|c00A8F13A[조건]|r : Legendary Combination 횟수 100회\r\
 ＊언제나 메디슨 곁을 떠나지 않는 친구, 스입니다.";
 -- ahky
 -- areq
@@ -40383,11 +40383,11 @@ nhym,h02Q,hlum,e03C";
 -- [A01S]
 -- arac
 -- aub1 1
-		t["A01S"][2][1] = "＊맵 전체의 자신 소유 유닛 공격속도를 5% 증가시킵니다.";
+		t["A01S"][2][1] = "＊맵 전체의 자신 소유 Units Attack Speed를 5% 증가시킵니다.";
 -- atar 1
 -- atat
 -- atp1 1
-		t["A01S"][5][1] = "정체불명『의심의 그린 UFO 습격』";
+		t["A01S"][5][1] = "Unknown『의심의 그린 UFO 습격』";
 -- anam
 -- aart
 -- abuf 1
@@ -40461,9 +40461,9 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0TQ"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[공격속도]: 0.31초당 1번\r\
-[이동속도]: 450\r\
-|c00F8BA54[업그레이드]|r : 이바라키 카센 업그레이드";
+[Attack Speed]: 0.31 Cooldown\r\
+[Movement Speed]: 450\r\
+|c00F8BA54[Upgrade]|r : 이바라키 카센 Upgrade";
 -- arac
 -- [A02Y]
 -- anam
@@ -40478,7 +40478,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TP"][3][1] = "긴급 탈출|cffffcc00(A)|r";
 -- aub1 1
-		t["A0TP"][4][1] = "＊대상이 자신 소유 유닛이라면, 자신의 라인 중앙으로 강제 이동시킵니다.\r\
+		t["A0TP"][4][1] = "＊대상이 자신 소유 Units이라면, 자신의 라인 중앙으로 강제 이동시킵니다.\r\
 \r\
 |CFF959595너 혹시 맥주병이니? 아님... 못 나는 거니?|r";
 -- ahky

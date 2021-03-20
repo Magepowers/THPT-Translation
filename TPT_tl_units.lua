@@ -1452,7 +1452,7 @@ TPT_units_loader = function(t)
 -- [nwgs]
 -- ushu
 -- unam
-		t["nwgs"][3][1] = "우사미 렌코 - |c00FF0080Phantasm|r|N|c00FF80FF환상추적자|r";
+		t["nwgs"][3][1] = "Renko Usami - |c00FF0080Phantasm|r|N|c00FF80FF환상추적자|r";
 -- upgr
 -- urac
 -- usnd
@@ -1470,7 +1470,7 @@ TPT_units_loader = function(t)
 -- [nggr]
 -- urac
 -- unam
-		t["nggr"][2][1] = "|c0017B5C6이부키 스이카|r - |c00808080Chronicle|r|N|c00F8F489모이는 꿈, 환상, 그리고 백귀야행|r";
+		t["nggr"][2][1] = "|c0017B5C6Suika Ibuki|r - |c00808080Chronicle|r|N|c00F8F489모이는 꿈, 환상, 그리고 백귀야행|r";
 -- upgr
 		t["nggr"][3][1] = "R00C,R01S";
 -- ua1m
@@ -2068,7 +2068,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- urac
 -- unam
-		t["ncpn"][8][1] = "누에 인형|N|c00FF80C0정체불명의 요괴 인형|r";
+		t["ncpn"][8][1] = "누에 인형|N|c00FF80C0Unknown의 요괴 인형|r";
 -- uabi
 -- umdl
 		t["ncpn"][10][1] = "fs.mdl";
@@ -2431,7 +2431,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["ngh2"][9][1] = "lolice2.mdl";
 -- unam
-		t["ngh2"][10][1] = "앨리스 마가트로이드 - |c0080A8E6Ascended|N칠색의 인형사|r";
+		t["ngh2"][10][1] = "Alice Margatroid - |c0080A8E6Ascended|N칠색의 인형사|r";
 -- uarm
 -- ua1m
 -- uico
@@ -2814,7 +2814,7 @@ TPT_units_loader = function(t)
 -- [ndqt]
 -- urac
 -- unam
-		t["ndqt"][2][1] = "쿠모이 이치린 - |c00FF0080Phantasm|r|N|c00FF80FF일련탁생의 요괴 승려|r";
+		t["ndqt"][2][1] = "Ichirin Kumoi - |c00FF0080Phantasm|r|N|c00FF80FF일련탁생의 요괴 승려|r";
 -- umvt
 -- umdl
 		t["ndqt"][6][1] = "ichirin.mdl";
@@ -3480,7 +3480,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h017"][7][1] = "Hakurei Reimu[호밍] - |c00808040Unique|r";
+		t["h017"][7][1] = "Hakurei Reimu[Homing] - |c00808040Unique|r";
 -- ua1m
 		t["h017"][10][1] = "Abilities\\Weapons\\MurgulMagicMissile\\MurgulMagicMissile.mdl";
 -- umdl
@@ -3511,7 +3511,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h018"][7][1] = "Marisa Kirisame[팔괘로] - |c00808040Unique|r";
+		t["h018"][7][1] = "Marisa Kirisame[Bagua] - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3603,7 +3603,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01F"][7][1] = "Sㅏ나에 - |c00808040Unique|r";
+		t["h01F"][7][1] = "Sa Nae - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3671,7 +3671,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01J"][7][1] = "정체불명 - |c00808040Unique|r";
+		t["h01J"][7][1] = "Unknown - |c00808040Unique|r";
 -- ua1m
 		t["h01J"][10][1] = "Objects\\InventoryItems\\QuestionMark\\QuestionMark.mdl";
 -- umdl
@@ -3685,7 +3685,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01K"][7][1] = "첸 - |c00808040Unique|r";
+		t["h01K"][7][1] = "Chen - |c00808040Unique|r";
 -- ua1m
 		t["h01K"][10][1] = "Objects\\Spawnmodels\\Orc\\Orcblood\\HeroShadowHunterBlood.mdl";
 -- umdl
@@ -3701,7 +3701,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01L"][7][1] = "성련선 - |c00808040Unique|r";
+		t["h01L"][7][1] = "Palanquin Ship - |c00808040Unique|r";
 -- ua1m
 		t["h01L"][10][1] = "Abilities\\Weapons\\SeaElementalMissile\\SeaElementalMissile.mdl";
 -- umdl
@@ -4545,7 +4545,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e011"][7][1] = "WAVE37 - 첸";
+		t["e011"][7][1] = "WAVE37 - Chen";
 -- upgr
 -- umdl
 -- uarm
@@ -4766,7 +4766,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01H"][7][1] = "WAVE47 - 쿠모이 이치린";
+		t["e01H"][7][1] = "WAVE47 - Ichirin Kumoi";
 -- upgr
 -- umdl
 		t["e01H"][12][1] = "units\\creeps\\DarkTroll\\DarkTroll.mdl";
@@ -5395,7 +5395,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h034"][7][1] = "호시구마 유우기 - |c00808040Unique|r";
+		t["h034"][7][1] = "Yugi Hoshiguma - |c00808040Unique|r";
 -- ua1m
 -- umdl
 		t["h034"][11][1] = "Yugi.mdl";
@@ -5410,7 +5410,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h035"][7][1] = "이부키 스이카 - |c00808040Unique|r";
+		t["h035"][7][1] = "Suika Ibuki - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -5423,7 +5423,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h036"][7][1] = "쿠모이 이치린 - |c00808040Unique|r";
+		t["h036"][7][1] = "Ichirin Kumoi - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -5771,7 +5771,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03S"][7][1] = "우사미 렌코 - |c00808040Unique|r";
+		t["h03S"][7][1] = "Renko Usami - |c00808040Unique|r";
 -- ua1m
 -- umdl
 		t["h03S"][11][1] = "URenko.mdl";
@@ -5785,7 +5785,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03T"][7][1] = "카쿠 세이가 - |c00808040Unique|r";
+		t["h03T"][7][1] = "Seiga Kaku - |c00808040Unique|r";
 -- ua1m
 -- umdl
 		t["h03T"][11][1] = "seiga.mdl";
@@ -5923,7 +5923,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h042"][7][1] = "소가노 토지코 - |c00808040Unique|r";
+		t["h042"][7][1] = "Soga no Tojiko - |c00808040Unique|r";
 -- ua1m
 -- umdl
 		t["h042"][11][1] = "Textures\\tojiko.mdl";
@@ -6022,7 +6022,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h048"][7][1] = "앨리스 마가트로이드[인형재판] - |c00808040Unique|r";
+		t["h048"][7][1] = "Alice Margatroid[Doll Judgement] - |c00808040Unique|r";
 -- ua1m
 		t["h048"][10][1] = "model\\AilceShanghai.mdl";
 -- umdl
@@ -6288,7 +6288,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02T"][7][1] = "WAVE83 - 카쿠 세이가";
+		t["e02T"][7][1] = "WAVE83 - Seiga Kaku";
 -- upgr
 -- umdl
 -- uarm
@@ -6299,7 +6299,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02U"][7][1] = "WAVE84 - 소가노 토지코";
+		t["e02U"][7][1] = "WAVE84 - Soga no Tojiko";
 -- upgr
 -- umdl
 		t["e02U"][12][1] = "units\\human\\Jaina\\Jaina.mdl";
@@ -6409,7 +6409,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e034"][6][1] = "퀘스트 몬스터 - 성련선";
+		t["e034"][6][1] = "퀘스트 몬스터 - Palanquin Ship";
 -- upgr
 -- umvt
 -- umdl
@@ -7841,7 +7841,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h077"][6][1] = "Nue Houjuu - |c00804040Legendary|r|N|c00FF9393정체불명의 정체|r";
+		t["h077"][6][1] = "Nue Houjuu - |c00804040Legendary|r|N|c00FF9393Unknown의 정체|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8660,7 +8660,7 @@ TPT_units_loader = function(t)
 -- ubui
 -- upgr
 -- unam
-		t["u007"][10][1] = "소가노 토지코 - |c00FF0080Phantasm|r|N|c00FF80FF신의 후예인 망령|r";
+		t["u007"][10][1] = "Soga no Tojiko - |c00FF0080Phantasm|r|N|c00FF80FF신의 후예인 망령|r";
 -- ua1t
 -- ucs1
 -- umdl
@@ -9094,7 +9094,7 @@ TPT_units_loader = function(t)
 		t["e04A"][18][1] = "Icon\\Unit\\BTNUrumi_Arc.blp";
 -- [e04B]
 -- unam
-		t["e04B"][1][1] = "연회 인형|N|c00FF80C0이부키 스이카|r";
+		t["e04B"][1][1] = "연회 인형|N|c00FF80C0Suika Ibuki|r";
 -- uabi
 		t["e04B"][7][1] = "A0UI,A0CR,Avul";
 -- uhrt

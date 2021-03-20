@@ -8068,7 +8068,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01S"][55][1] = "이부키 스이카 Upgrade[W]";
+		t["R01S"][55][1] = "Suika Ibuki Upgrade[W]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -8119,15 +8119,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01S"][104][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 1Lv";
+		t["R01S"][104][1] = "Suika Ibuki Upgrade|cffffcc00(W)|r - 1Lv";
 -- gtp1 2
-		t["R01S"][105][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 2Lv";
+		t["R01S"][105][1] = "Suika Ibuki Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["R01S"][106][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 3Lv";
+		t["R01S"][106][1] = "Suika Ibuki Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["R01S"][107][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - 4Lv";
+		t["R01S"][107][1] = "Suika Ibuki Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["R01S"][108][1] = "이부키 스이카 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R01S"][108][1] = "Suika Ibuki Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 6
 		t["R01S"][109][1] = "비루코 Upgrade|cffffcc00(S)|r - 6Lv";
 -- gtp1 7
