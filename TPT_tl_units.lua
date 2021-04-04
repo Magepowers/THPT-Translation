@@ -171,7 +171,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["hspt"][1][1] = "Y_komachi_d.mdl";
 -- unam
-		t["hspt"][2][1] = "Onozuka Komachi - |c00804040Legendary|r|N|c00FF9393Guide of the Sanzu River|r";
+		t["hspt"][2][1] = "Komachi Onozuka - |c00804040Legendary|r|N|c00FF9393Guide of the Sanzu River|r";
 -- urac
 -- uico
 		t["hspt"][4][1] = "Icon\\Unit\\BTNKomachi_Leg.blp";
@@ -1276,7 +1276,7 @@ TPT_units_loader = function(t)
 		t["emtg"][1][1] = "AInv,Avul,A0PD,A0I3,A0H3";
 -- urac
 -- unam
-		t["emtg"][3][1] = "Hong Meiling - |c0054EB67Arcana|r|N|c00FFA275홍마관의 문지기|r";
+		t["emtg"][3][1] = "Hong Meiling - |c0054EB67Arcana|r|N|c00FFA275Scarlet Devil Mansion의 문지기|r";
 -- upgr
 		t["emtg"][8][1] = "R010,R007";
 -- umdl
@@ -3746,7 +3746,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01O"][7][1] = "Onozuka Komachi - |c00808040Unique|r";
+		t["h01O"][7][1] = "Komachi Onozuka - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -4164,7 +4164,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["h02E"][3][1] = "buildings\\human\\TownHall\\TownHall.mdl";
 -- unam
-		t["h02E"][4][1] = "홍마관";
+		t["h02E"][4][1] = "Scarlet Devil Mansion";
 -- uico
 -- uhrt
 -- [h02F]
@@ -4590,7 +4590,7 @@ TPT_units_loader = function(t)
 -- udty
 -- [H02I]
 -- unam
-		t["H02I"][4][1] = "향림당";
+		t["H02I"][4][1] = "Kourindou";
 -- upro
 -- umdl
 -- uico
@@ -4607,7 +4607,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e015"][3][1] = "A0M0,A0IX,A0A0,A095";
 -- unam
-		t["e015"][5][1] = "Koishi Komeiji - |c00008080닫힌 사랑의 눈동자|r|N라운드 제한 : 57";
+		t["e015"][5][1] = "Koishi Komeiji - |c00008080닫힌 사랑의 눈동자|r|NRound Restriction : 57";
 -- upgr
 		t["e015"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhpm,R01L";
 -- umdl
@@ -4620,7 +4620,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e016"][5][1] = "Houraisan Kaguya - |c000000FF달의 공주|r|N라운드 제한 : 27";
+		t["e016"][5][1] = "Houraisan Kaguya - |c000000FF달의 공주|r|NRound Restriction : 27";
 -- upgr
 		t["e016"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhri,R01L";
 -- umdl
@@ -4634,7 +4634,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e017"][5][1] = "Remilia Scarlet - |c00FF0000홍마관의 당주|r|N라운드 제한: 10";
+		t["e017"][5][1] = "Remilia Scarlet - |c00FF0000Scarlet Devil Mansion의 당주|r|NRound Restriction: 10";
 -- upgr
 		t["e017"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhra";
 -- umdl
@@ -4675,7 +4675,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e01A"][5][1] = "카자미 유카 - |c0000FF00플라워 마스터|r|N라운드 제한 : 37";
+		t["e01A"][5][1] = "카자미 유카 - |c0000FF00플라워 마스터|r|NRound Restriction : 37";
 -- upgr
 		t["e01A"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhhb,R01L";
 -- umdl
@@ -5202,7 +5202,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e02E"][5][1] = "모리야 스와코 - |c0000FFFF토착신의 신앙|r|N라운드 제한 : 47";
+		t["e02E"][5][1] = "모리야 스와코 - |c0000FFFF토착신의 신앙|r|NRound Restriction : 47";
 -- upgr
 		t["e02E"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhse,R01L";
 -- umdl
@@ -5634,7 +5634,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["h03K"][3][1] = "o jinjya w2.mdl";
 -- unam
-		t["h03K"][4][1] = "『하쿠레이 신사』";
+		t["h03K"][4][1] = "『Hakurei Shrine』";
 -- uico
 -- [h03E]
 -- upat
@@ -6334,7 +6334,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- utyp
 -- unam
-		t["e02X"][6][1] = "WAVE87 - 호우쥬 누에 EX";
+		t["e02X"][6][1] = "WAVE87 - Nue Houjuu EX";
 -- upgr
 -- umdl
 -- uabi
@@ -6469,7 +6469,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e036"][4][1] = "A0I4,A0M0,A0IX,A0A0,A095";
 -- unam
-		t["e036"][6][1] = "히지리 뱌쿠렌 - |c00FFFF00봉인된 대마법사|r|N라운드 제한 : 67";
+		t["e036"][6][1] = "히지리 뱌쿠렌 - |c00FFFF00봉인된 대마법사|r|NRound Restriction : 67";
 -- upgr
 		t["e036"][8][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhrt,R01L";
 -- umdl
@@ -6657,7 +6657,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e03E"][5][1] = "Yuyuko Saigyouji - |c00FF80C0천의무봉의 망령|r|N라운드 제한 : 17";
+		t["e03E"][5][1] = "Yuyuko Saigyouji - |c00FF80C0천의무봉의 망령|r|NRound Restriction : 17";
 -- upgr
 		t["e03E"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhde";
 -- umdl
@@ -6672,14 +6672,14 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h04W"][7][1] = "Avul,Aflk,A0Q7";
 -- unam
-		t["h04W"][9][1] = "[진영]하쿠레이 신사";
+		t["h04W"][9][1] = "[Faction]Hakurei Shrine";
 -- utip
-		t["h04W"][12][1] = "하쿠레이 신사 선택|cffffcc00(Q)|r";
+		t["h04W"][12][1] = "Select Hakurei Shrine|cffffcc00(Q)|r";
 -- utub
-		t["h04W"][13][1] = "진영을 하쿠레이 신사로 선택합니다. 또한 Hakurei Reimu[Legendary]의 조합이 가능해집니다.\r\
+		t["h04W"][13][1] = "Selects the Hakurei Shrine faction. Also allows Hakurei Reimu[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r신령강림\r\
--대상 Normal 유닛을 Strange-looking Human으로 변화시킵니다.";
+|c0000FF00[Faction Unique Skill]|r Divine Spirit Advent\r\
+-Changes a target Normal unit into a Strange-Looking Human.";
 -- uhot
 		t["h04W"][14][1] = "Q";
 -- utra
@@ -6691,15 +6691,15 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h04Z"][7][1] = "A0LO,Avul,Aflk";
 -- unam
-		t["h04Z"][9][1] = "[진영]요괴의 산";
+		t["h04Z"][9][1] = "[Faction]Yokai Mountain";
 -- utip
-		t["h04Z"][12][1] = "요괴의 산 선택|cffffcc00(E)|r";
+		t["h04Z"][12][1] = "Select Yokai Mountain|cffffcc00(E)|r";
 -- utub
-		t["h04Z"][13][1] = "진영을 요괴의 산으로 선택합니다. 또한 Aya Shameimaru[Legendary]의 조합이 가능해집니다.\r\
+		t["h04Z"][13][1] = "Selects the Yokai Mountain faction. Also allows Aya Shameimaru[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r풍신의 축복\r\
--Normal 유닛 1기에게 사용시, 랜덤한 Normal 혹은 Magic 유닛으로 바꿉니다.\r\
-[쿨다운 240초]";
+|c0000FF00[Faction Unique Skill]|r Wind God's Blessing\r\
+-Changes 1 Normal unit to a random Normal or Magic unit.\r\
+[Cooldown 240 seconds]";
 -- uhot
 		t["h04Z"][14][1] = "E";
 -- utra
@@ -6712,14 +6712,14 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h051"][7][1] = "Avul,Aflk,A0H9";
 -- unam
-		t["h051"][9][1] = "[진영]지령전";
+		t["h051"][9][1] = "[Faction]Palace of the Earth Spirits";
 -- utip
-		t["h051"][12][1] = "지령전 선택|cffffcc00(W)|r";
+		t["h051"][12][1] = "Select Palace of the Earth Spirits|cffffcc00(W)|r";
 -- utub
-		t["h051"][13][1] = "진영을 지령전으로 선택합니다. Utsuho Reiuji[Legendary]의 조합이 가능해집니다.\r\
+		t["h051"][13][1] = "Selects the Palace of the Earth Spirits. Allows Utsuho Reiuji[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r스테어웨이 투 헬\r\
--포도주의 강화버전인 스테어웨이 투 헬을 사용할 수 있게 됩니다. 지령전에서 사용하는 스킬로, 향림당의 포도주와는 별도로 사용가능하지만 버프는 함께 적용되지 않습니다.";
+|c0000FF00[Faction Unique Skill]|r Stairway to Hell\r\
+-Gives an enhanced version of the wine from Kourindou. This skill is used in the Palace of the Earth Spirits, can be used separately from Kourindou's wine, but can not stack with it.";
 -- uhot
 		t["h051"][14][1] = "W";
 -- utra
@@ -6732,16 +6732,16 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h052"][7][1] = "AOr2,Avul,Aflk";
 -- unam
-		t["h052"][9][1] = "[진영]홍마관";
+		t["h052"][9][1] = "[Faction]Scarlet Devil Mansion";
 -- utip
-		t["h052"][12][1] = "홍마관 선택|cffffcc00(D)|r";
+		t["h052"][12][1] = "Select Scarlet Devil Mansion|cffffcc00(D)|r";
 -- uhot
 -- utub
-		t["h052"][14][1] = "진영을 홍마관으로 선택합니다. Remilia Scarlet[Legendary]의 조합이 가능해집니다.\r\
+		t["h052"][14][1] = "Selects the Scarlet Devil Mansion faction. Allows Remilia Scarlet[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r광기\r\
--아군 유닛의 공격속도를 10% 증가시킵니다.\r\
--매 6라운드마다 Devil 1기를 추가로 지급받습니다.";
+|c0000FF00[Faction Unique Skill]|r Madness\r\
+-Increases the Attack Speed of friendly units by 10%.\r\
+-Every 6 rounds, you get a Devil.";
 -- utra
 		t["h052"][15][1] = "h006,ndrf,h002,h00A,h007,h003,h008";
 -- [h053]
@@ -6752,15 +6752,15 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h053"][7][1] = "Avul,Aflk,Adcn";
 -- unam
-		t["h053"][9][1] = "[진영]백옥루";
+		t["h053"][9][1] = "[Faction]Hakugyokurou";
 -- uhot
 -- utip
-		t["h053"][13][1] = "백옥루 선택|cffffcc00(A)|r";
+		t["h053"][13][1] = "Hakugyokurou 선택|cffffcc00(A)|r";
 -- utub
-		t["h053"][14][1] = "진영을 백옥루로 선택합니다. Youmu Konpaku[Legendary]의 조합이 가능해집니다.\r\
+		t["h053"][14][1] = "Selects the Hakugyokurou faction. Allows Youmu Konpaku[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r저주령\r\
--자신 라인 유닛의 방어력을 10 감소시킵니다.";
+|c0000FF00[Faction Unique Skill]|r Curse Spirit\r\
+-Reduces all units in your lane's Defense by 10.";
 -- utra
 		t["h053"][15][1] = "h006,h004,h002,h00A,h007,h003,ndrd";
 -- [h054]
@@ -6771,14 +6771,14 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h054"][7][1] = "ACba,Avul,Aflk";
 -- unam
-		t["h054"][9][1] = "[진영]영원정";
+		t["h054"][9][1] = "[Faction]Eientei";
 -- utip
-		t["h054"][12][1] = "영원정 선택|cffffcc00(S)|r";
+		t["h054"][12][1] = "Eientei 선택|cffffcc00(S)|r";
 -- utub
-		t["h054"][13][1] = "진영을 영원정으로 선택합니다. 또한 레이센 우돈게인 이나바[Legendary]의 조합이 가능해집니다.\r\
+		t["h054"][13][1] = "Selects the Eientei faction. Also allows Reisen Udongein Inaba[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r달의 마법\r\
--아군 유닛의 마나를 초당 1씩 회복시킵니다.";
+|c0000FF00[Faction Unique Skill]|rMagic of the Moon\r\
+-Increases friendly units' Mana Regeneration by 1 per second.";
 -- utra
 		t["h054"][14][1] = "h006,h004,h002,h00A,ndrs,h003,h008";
 -- [h055]
@@ -6789,17 +6789,17 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h055"][7][1] = "Avul,Aflk,A0K8";
 -- unam
-		t["h055"][9][1] = "[진영]안개의 호수";
+		t["h055"][9][1] = "[Faction]Misty Lake";
 -- uhot
 		t["h055"][12][1] = "R";
 -- utub
-		t["h055"][13][1] = "진영을 안개의 호수로 선택합니다. 또한 Cirno[Legendary]의 조합이 가능해집니다.\r\
+		t["h055"][13][1] = "Selects the Misty Lake faction. Also allows Cirno[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r호수의 영혼\r\
-*대상 Fairy[Normal]을 Big Fairy[Magic]으로 바꿉니다.\r\
-*쿨다운 240초";
+|c0000FF00[Faction Unique Skill]|rSoul of the Lake\r\
+*Changes a target Fairy[Normal] to a Big Fairy[Magic].\r\
+*Cooldown 240 seconds";
 -- utip
-		t["h055"][14][1] = "안개의 호수 선택|cffffcc00(R)|r";
+		t["h055"][14][1] = "Misty Lake 선택|cffffcc00(R)|r";
 -- utra
 		t["h055"][15][1] = "h006,h004,ntrd,h00A,h007,h003,h008";
 -- [h00G]
@@ -6809,9 +6809,9 @@ TPT_units_loader = function(t)
 		t["h00G"][4][1] = "Abilities\\Spells\\Other\\TalkToMe\\TalkToMe.mdl";
 -- uabi
 -- unam
-		t["h00G"][9][1] = "진영 선택";
+		t["h00G"][9][1] = "Faction Selection";
 -- utub
-		t["h00G"][12][1] = "진영 선택 기능";
+		t["h00G"][12][1] = "Faction Selection";
 -- utra
 		t["h00G"][15][1] = "h07A,h082,h078,h053,h07D,h055,h054,h04Z,h051,h04W,h052,h07F";
 -- [h056]
@@ -6887,7 +6887,7 @@ TPT_units_loader = function(t)
 -- umvt
 -- umdl
 -- unam
-		t["h05B"][4][1] = "[진영]지령전 저주령";
+		t["h05B"][4][1] = "[Faction]Palace of the Earth Spirits Curse Spirits";
 -- uico
 -- [h05C]
 -- upgr
@@ -7754,7 +7754,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e019"][6][1] = "토요사토미미노 미코 - |c00FFFF00천자영매한 선인|r|N라운드 제한 : 77";
+		t["e019"][6][1] = "토요사토미미노 미코 - |c00FFFF00천자영매한 선인|r|NRound Restriction : 77";
 -- upgr
 		t["e019"][8][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhst";
 -- umdl
@@ -7858,15 +7858,15 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h078"][7][1] = "A00Y,Avul,Aflk,AEst";
 -- unam
-		t["h078"][9][1] = "[진영]명련사";
+		t["h078"][9][1] = "[Faction]Myouren Temple";
 -- utip
-		t["h078"][12][1] = "명련사 선택|cffffcc00(F)|r";
+		t["h078"][12][1] = "Myouren Temple 선택|cffffcc00(F)|r";
 -- uhot
 -- utub
-		t["h078"][14][1] = "진영을 명련사로 선택합니다. 호우쥬 누에[Legendary]의 조합이 가능해집니다.\r\
+		t["h078"][14][1] = "Selects the Myouren Temple faction. Allows Nue Houjuu[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r여래의 빛\r\
--자신의 라인 유닛은 마법 데미지를 5% 증폭해서 받습니다.";
+|c0000FF00[Faction Unique Skill]|rLight of Buddha\r\
+-All emenies in your lane take 5% Additional Magic Damage.";
 -- utra
 -- [h079]
 -- uabi
@@ -7884,16 +7884,16 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h07A"][7][1] = "Aflk,A0N6,Avul";
 -- unam
-		t["h07A"][9][1] = "[진영]달의 도시";
+		t["h07A"][9][1] = "[Faction]Lunar Capital";
 -- umki
 -- utub
-		t["h07A"][13][1] = "진영을 달의 도시로 선택합니다. Seiran[Legendary]의 조합이 가능해집니다.\r\
+		t["h07A"][13][1] = "Selects the Lunar Capital faction. Allows Seiran[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r 달의 기술력\r\
--아군 유닛의 공격력을 5% 증가시킵니다.\r\
--자신 라인의 은신 유닛의 은신 능력을 제거합니다.";
+|c0000FF00[Faction Unique Skill]|r Technology of the Moon\r\
+-Increases allies' Attack Power by 5%.\r\
+-Removes the stealth ability of enemies in your lane.";
 -- utip
-		t["h07A"][14][1] = "달의 도시 선택|cffffcc00(Z)|r";
+		t["h07A"][14][1] = "Lunar Capital 선택|cffffcc00(Z)|r";
 -- uhot
 -- utra
 -- [h07B]
@@ -7939,17 +7939,17 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h07D"][7][1] = "A0HV,Avul,Aflk";
 -- unam
-		t["h07D"][9][1] = "[진영]삼도천";
+		t["h07D"][9][1] = "[Faction]Sanzu River";
 -- utyp
 -- utub
-		t["h07D"][13][1] = "진영을 삼도천으로 선택합니다. Onozuka Komachi[Legendary]의 조합이 가능해집니다.\r\
+		t["h07D"][13][1] = "Selects the Sanzu River faction. Allows Komachi Onozuka[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r영혼 수확\r\
--대상 유닛을 즉사시킵니다.\r\
--매 7라운드마다 Spirit[Normal]을 1기 지급받습니다\r\
-[Onozuka Komachi[Legendary]를 조합할 경우 강화된 영혼 수확으로 변경됩니다.]";
+|c0000FF00[Faction Unique Skill]|rSoul Harvest\r\
+-Immediately kills a target unit.\r\
+-Every 7 rounds, gain a Spirit[Normal]\r\
+[Komachi Onozuka[Legendary] being created upgrades this to Enhanced Soul Harvest.]";
 -- utip
-		t["h07D"][14][1] = "삼도천 선택|cffffcc00(X)|r";
+		t["h07D"][14][1] = "Sanzu River 선택|cffffcc00(X)|r";
 -- uhot
 -- utra
 -- [h07E]
@@ -7968,14 +7968,14 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h07F"][7][1] = "Aflk,A0O7,Avul";
 -- unam
-		t["h07F"][9][1] = "[진영]휘침성";
+		t["h07F"][9][1] = "[Faction]Shining Needle Castle";
 -- utip
-		t["h07F"][12][1] = "휘침성 선택|cffffcc00(C)|r";
+		t["h07F"][12][1] = "Shining Needle Castle 선택|cffffcc00(C)|r";
 -- utub
-		t["h07F"][13][1] = "진영을 휘침성으로 선택합니다. Sukuna Shinmyoumaru[Legendary]의 조합이 가능해집니다.\r\
+		t["h07F"][13][1] = "Selects the Shining Needle Castle faction. Allows Sukuna Shinmyoumaru[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r츠쿠모가미 대잔치\r\
--Goblin[Normal]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
+|c0000FF00[Faction Unique Skill]|rTsukumogami Festival\r\
+-Goblin[Normal] purchase count does not decrease when bought.";
 -- uhot
 -- utra
 -- [h07G]
@@ -8558,7 +8558,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- urac
 -- unam
-		t["n00B"][8][1] = "유유코 인형|N|c00FF80C0백옥루의 망령 인형|r";
+		t["n00B"][8][1] = "유유코 인형|N|c00FF80C0Hakugyokurou의 망령 인형|r";
 -- uabi
 -- umdl
 -- uico
@@ -8590,7 +8590,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h07X"][7][1] = "Aflk,Avul";
 -- unam
-		t["h07X"][9][1] = "[진영]마요이가";
+		t["h07X"][9][1] = "[Faction]Mayohiga";
 -- utip
 -- utub
 -- uhot
@@ -8817,14 +8817,14 @@ TPT_units_loader = function(t)
 -- uabi
 		t["h082"][7][1] = "A0TF,A0TH,Aflk,Avul";
 -- unam
-		t["h082"][9][1] = "[진영]이름 없는 언덕";
+		t["h082"][9][1] = "[Faction]Nameless Hill";
 -- utip
-		t["h082"][12][1] = "이름 없는 언덕 선택|cffffcc00(V)|r";
+		t["h082"][12][1] = "Nameless Hill 선택|cffffcc00(V)|r";
 -- utub
-		t["h082"][13][1] = "진영을 이름 없는 언덕으로 선택합니다. Medicine Melancholy[Legendary]의 조합이 가능해집니다.\r\
+		t["h082"][13][1] = "Selects the Nameless Hill faction. Allows Medicine Melancholy[Legendary] to be created.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r콘발라톡신\r\
--1초마다 자신 유닛의 활력을 1% 회복합니다.";
+|c0000FF00[Faction Unique Skill]|rConvallatoxin\r\
+-Heals your units by 1% Maximum Health every second.";
 -- uhot
 		t["h082"][14][1] = "V";
 -- utra

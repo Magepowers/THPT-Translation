@@ -1081,7 +1081,7 @@ Palanquin Ship 체력 : 2000만\r\
 -- utip
 		t["I02L"][4][1] = "초계 텐구 소환|cffffcc00(Q)|r";
 -- utub
-		t["I02L"][5][1] = "요괴의 산에 있는 초계 텐구를 소환합니다. 쿨다운 90초, 지속시간 30초";
+		t["I02L"][5][1] = "Yokai Mountain에 있는 초계 텐구를 소환합니다. 쿨다운 90초, 지속시간 30초";
 -- ides
 -- ifil
 -- uhot
@@ -1100,13 +1100,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I00I]
 -- unam
-		t["I00I"][1][1] = "[선택]하쿠레이 신사";
+		t["I00I"][1][1] = "[선택]Hakurei Shrine";
 -- iico
 		t["I00I"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNRune.blp";
 -- utip
-		t["I00I"][4][1] = "하쿠레이 신사 선택|cffffcc00(Q)|r";
+		t["I00I"][4][1] = "Hakurei Shrine 선택|cffffcc00(Q)|r";
 -- utub
-		t["I00I"][5][1] = "진영을 하쿠레이 신사로 선택합니다. 또한 하쿠레이 레이무[레전더리]의 조합이 가능해집니다.\r\
+		t["I00I"][5][1] = "진영을 Hakurei Shrine로 선택합니다. 또한 하쿠레이 레이무[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r신앙응집\r\
 -인간[일반] 4기를 조합하여 레어 유닛을 선택하여 소환할 수 있는 신앙의 결정을 생성합니다.";
@@ -1116,13 +1116,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I00Q]
 -- unam
-		t["I00Q"][1][1] = "[선택]홍마관";
+		t["I00Q"][1][1] = "[선택]Scarlet Devil Mansion";
 -- iico
 		t["I00Q"][3][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp";
 -- utip
-		t["I00Q"][4][1] = "홍마관 선택|cffffcc00(D)|r";
+		t["I00Q"][4][1] = "Scarlet Devil Mansion 선택|cffffcc00(D)|r";
 -- utub
-		t["I00Q"][5][1] = "진영을 홍마관으로 선택합니다. 레밀리아 스칼렛[레전더리]의 조합이 가능해집니다.\r\
+		t["I00Q"][5][1] = "진영을 Scarlet Devil Mansion으로 선택합니다. 레밀리아 스칼렛[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r광기\r\
 -아군 유닛의 공격속도를 10% 증가시킵니다.\r\
@@ -1133,13 +1133,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I00R]
 -- unam
-		t["I00R"][1][1] = "[선택]지령전";
+		t["I00R"][1][1] = "[선택]Palace of the Earth Spirits";
 -- iico
 		t["I00R"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp";
 -- utip
-		t["I00R"][4][1] = "지령전 선택|cffffcc00(W)|r";
+		t["I00R"][4][1] = "Palace of the Earth Spirits 선택|cffffcc00(W)|r";
 -- utub
-		t["I00R"][5][1] = "진영을 지령전으로 선택합니다. Utsuho Reiuji[레전더리]의 조합이 가능해집니다.\r\
+		t["I00R"][5][1] = "진영을 Palace of the Earth Spirits으로 선택합니다. Utsuho Reiuji[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r작열지옥\r\
 -아군 유닛의 공격력을 10% 상승시킵니다.";
@@ -1149,13 +1149,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I00S]
 -- unam
-		t["I00S"][1][1] = "[선택]요괴의 산";
+		t["I00S"][1][1] = "[선택]Yokai Mountain";
 -- iico
 		t["I00S"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNRavenForm.blp";
 -- utip
-		t["I00S"][4][1] = "요괴의 산 선택|cffffcc00(E)|r";
+		t["I00S"][4][1] = "Yokai Mountain 선택|cffffcc00(E)|r";
 -- utub
-		t["I00S"][5][1] = "진영을 요괴의 산으로 선택합니다. 또한 Aya Shameimaru[레전더리]의 조합이 가능해집니다.\r\
+		t["I00S"][5][1] = "진영을 Yokai Mountain으로 선택합니다. 또한 Aya Shameimaru[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r풍신의 축복\r\
 -일반 유닛 1기에게 사용시, 랜덤한 일반,매직 유닛으로 바꿉니다.[벤토라 제외]\r\
@@ -1166,13 +1166,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I00T]
 -- unam
-		t["I00T"][1][1] = "[선택]안개의 호수";
+		t["I00T"][1][1] = "[선택]Misty Lake";
 -- iico
 		t["I00T"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNTranquility.blp";
 -- utip
-		t["I00T"][4][1] = "안개의 호수 선택|cffffcc00(R)|r";
+		t["I00T"][4][1] = "Misty Lake 선택|cffffcc00(R)|r";
 -- utub
-		t["I00T"][5][1] = "진영을 안개의 호수로 선택합니다. 또한 치르노[레전더리]의 조합이 가능해집니다.\r\
+		t["I00T"][5][1] = "진영을 Misty Lake로 선택합니다. 또한 치르노[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r호수의 영혼\r\
 *대상 요정[일반]을 대요정[매직]으로 바꿉니다.\r\
@@ -1183,13 +1183,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I00U]
 -- unam
-		t["I00U"][1][1] = "[선택]백옥루";
+		t["I00U"][1][1] = "[선택]Hakugyokurou";
 -- iico
 		t["I00U"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNOrbOfCorruption.blp";
 -- utip
-		t["I00U"][4][1] = "백옥루 선택|cffffcc00(A)|r";
+		t["I00U"][4][1] = "Hakugyokurou 선택|cffffcc00(A)|r";
 -- utub
-		t["I00U"][5][1] = "진영을 백옥루로 선택합니다. 콘파쿠 요우무[레전더리]의 조합이 가능해집니다.\r\
+		t["I00U"][5][1] = "진영을 Hakugyokurou로 선택합니다. 콘파쿠 요우무[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r저주령\r\
 -자신 라인 유닛의 방어력을 10 감소시킵니다.";
@@ -1198,18 +1198,18 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I00V]
 -- unam
-		t["I00V"][1][1] = "[선택]영원정";
+		t["I00V"][1][1] = "[선택]Eientei";
 -- iico
 		t["I00V"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNSentinel.blp";
 -- utip
-		t["I00V"][4][1] = "영원정 선택|cffffcc00(S)|r";
+		t["I00V"][4][1] = "Eientei 선택|cffffcc00(S)|r";
 -- utub
-		t["I00V"][5][1] = "진영을 영원정으로 선택합니다. 또한 레이센 우돈게인 이나바[레전더리]의 조합이 가능해집니다.\r\
+		t["I00V"][5][1] = "진영을 Eientei으로 선택합니다. 또한 Reisen Udongein Inaba[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r달의 마법\r\
 -아군 유닛의 마나를 초당 1씩 회복시킵니다.";
 -- ides
-		t["I00V"][6][1] = "진영을 영원정으로 선택합니다. 영원정은 기본적으로 아군 유닛의 마나를 초당 1씩 회복시키는『달의 마법』 스킬을 갖고 있습니다. 또한 레이센 우돈게인 이나바[레전더리]의 조합이 가능해집니다.";
+		t["I00V"][6][1] = "진영을 Eientei으로 선택합니다. Eientei은 기본적으로 아군 유닛의 마나를 초당 1씩 회복시키는『달의 마법』 스킬을 갖고 있습니다. 또한 Reisen Udongein Inaba[레전더리]의 조합이 가능해집니다.";
 -- ifil
 -- uhot
 -- icla
@@ -1346,13 +1346,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- ifil
 -- [I01N]
 -- unam
-		t["I01N"][1][1] = "[선택]명련사";
+		t["I01N"][1][1] = "[선택]Myouren Temple";
 -- iico
 		t["I01N"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNGlyph.blp";
 -- utip
-		t["I01N"][4][1] = "명련사 선택|cffffcc00(F)|r";
+		t["I01N"][4][1] = "Myouren Temple 선택|cffffcc00(F)|r";
 -- utub
-		t["I01N"][5][1] = "진영을 명련사로 선택합니다. 호우쥬 누에[레전더리]의 조합이 가능해집니다.\r\
+		t["I01N"][5][1] = "진영을 Myouren Temple로 선택합니다. Nue Houjuu[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r여래의 빛\r\
 -자신의 라인 유닛은 마법 데미지를 5% 증폭해서 받습니다. 수치가 같은 증폭과 함께 적용 가능합니다.";
@@ -1375,13 +1375,13 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I01P]
 -- unam
-		t["I01P"][1][1] = "[선택]달의 도시";
+		t["I01P"][1][1] = "[선택]Lunar Capital";
 -- iico
 		t["I01P"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp";
 -- utip
-		t["I01P"][4][1] = "달의 도시 선택|cffffcc00(Z)|r";
+		t["I01P"][4][1] = "Lunar Capital 선택|cffffcc00(Z)|r";
 -- utub
-		t["I01P"][5][1] = "진영을 달의 도시로 선택합니다. Seiran[레전더리]의 조합이 가능해집니다.\r\
+		t["I01P"][5][1] = "진영을 Lunar Capital로 선택합니다. Seiran[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r 달의 기술력\r\
 -아군 유닛의 공격력을 5% 증가시킵니다.\r\
@@ -1392,18 +1392,18 @@ Palanquin Ship 체력 : 2000만\r\
 -- icla
 -- [I01Q]
 -- unam
-		t["I01Q"][1][1] = "[선택]삼도천";
+		t["I01Q"][1][1] = "[선택]Sanzu River";
 -- iico
 		t["I01Q"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNReplenishMana.blp";
 -- utip
-		t["I01Q"][4][1] = "삼도천 선택|cffffcc00(X)|r";
+		t["I01Q"][4][1] = "Sanzu River 선택|cffffcc00(X)|r";
 -- utub
-		t["I01Q"][5][1] = "진영을 삼도천으로 선택합니다. 오노즈카 코마치[레전더리]의 조합이 가능해집니다.\r\
+		t["I01Q"][5][1] = "진영을 Sanzu River으로 선택합니다. Komachi Onozuka[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r생명력 추출\r\
 -대상 유닛의 체력을 감소시키고, 스택을 쌓습니다. 일정 스택이 쌓일 경우 혼령[일반]을 지급받습니다. ";
 -- ides
-		t["I01Q"][6][1] = "진영을 삼도천으로 선택합니다. 대상 적 유닛 하나에게 큰 데미지를 입히는 생명력 추출 스킬을 45초마다 사용할 수 있습니다. 오노즈카 코마치[레전더리]의 조합이 가능해집니다.";
+		t["I01Q"][6][1] = "진영을 Sanzu River으로 선택합니다. 대상 적 유닛 하나에게 큰 데미지를 입히는 생명력 추출 스킬을 45초마다 사용할 수 있습니다. Komachi Onozuka[레전더리]의 조합이 가능해집니다.";
 -- ifil
 -- uhot
 -- icla
@@ -1427,15 +1427,15 @@ Palanquin Ship 체력 : 2000만\r\
 -- ureq
 -- [I01S]
 -- unam
-		t["I01S"][1][1] = "[선택]휘침성";
+		t["I01S"][1][1] = "[선택]Shining Needle Castle";
 -- iico
 		t["I01S"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNUltravision.blp";
 -- utip
-		t["I01S"][4][1] = "휘침성 선택|cffffcc00(C)|r";
+		t["I01S"][4][1] = "Shining Needle Castle 선택|cffffcc00(C)|r";
 -- utub
-		t["I01S"][5][1] = "진영을 휘침성으로 선택합니다. Sukuna Shinmyoumaru[레전더리]의 조합이 가능해집니다.\r\
+		t["I01S"][5][1] = "진영을 Shining Needle Castle으로 선택합니다. Sukuna Shinmyoumaru[레전더리]의 조합이 가능해집니다.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r츠쿠모가미 대잔치\r\
+|c0000FF00[진영 고유 스킬]|rTsukumogami Festival\r\
 -Goblin[일반]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";
 -- ides
 -- ifil
@@ -1470,15 +1470,15 @@ Palanquin Ship 체력 : 2000만\r\
 		t["I008"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNArcaniteMelee.blp";
 -- [I00A]
 -- unam
-		t["I00A"][1][1] = "[선택]이름 없는 언덕";
+		t["I00A"][1][1] = "[선택]Nameless Hill";
 -- iico
 		t["I00A"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNDryadDispelMagicOn.blp";
 -- utip
-		t["I00A"][4][1] = "이름 없는 언덕 선택|cffffcc00(V)|r";
+		t["I00A"][4][1] = "Nameless Hill 선택|cffffcc00(V)|r";
 -- utub
-		t["I00A"][5][1] = "진영을 이름 없는 언덕으로 선택합니다. Medicine Melancholy[레전더리]의 조합이 가능해집니다.\r\
+		t["I00A"][5][1] = "진영을 Nameless Hill으로 선택합니다. Medicine Melancholy[레전더리]의 조합이 가능해집니다.\r\
 \r\
-|c0000FF00[진영 고유 스킬]|r콘발라톡신\r\
+|c0000FF00[진영 고유 스킬]|rConvallatoxin\r\
 -1초마다 자신 유닛의 활력을 1% 회복합니다.";
 -- ides
 -- ifil
