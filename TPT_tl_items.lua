@@ -5,7 +5,7 @@ TPT_items_loader = function(t)
 		t["cnob"][1][1] = "|c00FFA540흐르지 않는 계절의 요정|r";
 		t["cnob"][2][1] = "";
 -- unam
-		t["cnob"][3][1] = "[전설 아이템]|c00FFA540흐르지 않는 계절의 요정|r";
+		t["cnob"][3][1] = "[Legendary Item]|c00FFA540흐르지 않는 계절의 요정|r";
 -- iico
 		t["cnob"][5][1] = "BTN\\BTNseason.blp";
 -- utub
@@ -22,7 +22,7 @@ TPT_items_loader = function(t)
 -- utip
 		t["brac"][1][1] = "|c00FFA540창천을 메운 번개구름|r";
 -- unam
-		t["brac"][2][1] = "[전설 아이템]|c00FFA540창천을 메운 번개구름|r";
+		t["brac"][2][1] = "[Legendary Item]|c00FFA540창천을 메운 번개구름|r";
 -- iico
 		t["brac"][3][1] = "BTN\\BTNchanc.blp";
 -- utub
@@ -38,7 +38,7 @@ TPT_items_loader = function(t)
 -- utip
 		t["rlif"][1][1] = "|c00FFA540온슬롯-최후의 반격|r";
 -- unam
-		t["rlif"][2][1] = "[전설 아이템]|c00FFA540온슬롯-최후의 반격|r";
+		t["rlif"][2][1] = "[Legendary Item]|c00FFA540온슬롯-최후의 반격|r";
 -- utub
 		t["rlif"][3][1] = "|c000080FF적의 심장을 꿰뚫어라! - 테레이다 마이|r\r\
 \r\
@@ -58,7 +58,7 @@ TPT_items_loader = function(t)
 -- utip
 		t["ciri"][3][1] = "|c00FFA540무의 영역 : 청화|r";
 -- unam
-		t["ciri"][4][1] = "[전설 아이템]|c00FFA540무의 영역 : 청화|r";
+		t["ciri"][4][1] = "[Legendary Item]|c00FFA540무의 영역 : 청화|r";
 -- utub
 		t["ciri"][6][1] = "|c000080FF더러움을 모르는 천인들은 이런걸 하고 다녀 - 히나나이 텐시|r\r\
 \r\
@@ -69,22 +69,22 @@ TPT_items_loader = function(t)
 		t["ciri"][7][1] = "A0NT";
 -- [pmna]
 -- unam
-		t["pmna"][2][1] = "[전설 아이템]|c00FFA540찬란한 자 : 영광|r";
+		t["pmna"][2][1] = "[Legendary Item]|c00FFA540찬란한 자 : 영광|r";
 -- utip
 		t["pmna"][3][1] = "|c00FFA540찬란한 자 : 영광|r";
 -- iico
 		t["pmna"][4][1] = "BTN\\BTNhonor.blp";
 -- utub
-		t["pmna"][6][1] = "|c000080FF여기 빛이 있으니, 온 환상향은 찬란히 빛나리라 - 토요사토미미노 미코|r\r\
+		t["pmna"][6][1] = "|c000080FF여기 빛이 있으니, 온 환상향은 찬란히 빛나리라 - Toyosatomimi no Miko|r\r\
 \r\
 |c0000FF00공격시 1% 확률로 마나를 모두 회복(마나 회복을 받지 않는 유닛 포함)\r\
-공격시 마나가 15% 이하라면, 전체 마나의 15%로 회복합니다.(코메이지 사토리 제외)|r";
+공격시 마나가 15% 이하라면, 전체 마나의 15%로 회복합니다.(Satori Komeiji 제외)|r";
 -- ifil
 -- [spsh]
 -- utip
 		t["spsh"][1][1] = "|c00FFA540만유의 생멸|r";
 -- unam
-		t["spsh"][2][1] = "[전설 아이템]|c00FFA540만유의 생멸|r";
+		t["spsh"][2][1] = "[Legendary Item]|c00FFA540만유의 생멸|r";
 -- utub
 		t["spsh"][4][1] = "|c000080FF모든 생명은 되돌아오는 것, 모든 역사도 되돌아옵니다 - 카미사라사와 케이네|r\r\
 \r\
@@ -98,7 +98,7 @@ TPT_items_loader = function(t)
 -- utip
 		t["prvt"][1][1] = "|c00FFA540오광 - 뜻을 품은 빛|r";
 -- unam
-		t["prvt"][2][1] = "[전설 아이템]|c00FFA540오광 - 뜻을 품은 빛|r";
+		t["prvt"][2][1] = "[Legendary Item]|c00FFA540오광 - 뜻을 품은 빛|r";
 -- ifil
 -- iabi
 		t["prvt"][5][1] = "A0Q5";
@@ -145,7 +145,7 @@ TPT_items_loader = function(t)
 -- utip
 		t["ssil"][1][1] = "|c00FFA540억년의 찬란한 별|r";
 -- unam
-		t["ssil"][2][1] = "[전설 아이템]|c00FFA540억년의 찬란한 별|r";
+		t["ssil"][2][1] = "[Legendary Item]|c00FFA540억년의 찬란한 별|r";
 -- iabi
 		t["ssil"][3][1] = "A0Q3";
 -- ifil
@@ -195,7 +195,7 @@ TPT_items_loader = function(t)
 -- iico
 		t["tdex"][4][1] = "BTN\\BTNFlandre.blp";
 -- utub
-		t["tdex"][5][1] = "임무 : 플랑드르 스칼렛 처치\r\
+		t["tdex"][5][1] = "임무 : Flandre Scarlet 처치\r\
 체력 : 1.5억\r\
 특수 능력 : 매우 높은 방어력 , 자신 주변 650범위 아군의 공격속도 50% 감소\r\
 보상 : 금 4500\r\
@@ -368,7 +368,7 @@ TPT_items_loader = function(t)
 -- iico
 		t["ratc"][2][1] = "BTN\\BTNina.blp";
 -- utip
-		t["ratc"][3][1] = "[전설 아이템]|c00FFA540인나드릴의 활|r";
+		t["ratc"][3][1] = "[Legendary Item]|c00FFA540인나드릴의 활|r";
 -- unam
 -- utub
 		t["ratc"][5][1] = "|c000080FF다우르 아 베르하엘... - 어느 요정|r\r\
@@ -461,7 +461,7 @@ TPT_items_loader = function(t)
 		t["mcou"][6][1] = "A0S5";
 -- [gcel]
 -- utip
-		t["gcel"][1][1] = "|c00FF9664히히이로카네 셉터|r - 히지리 뱌쿠렌";
+		t["gcel"][1][1] = "|c00FF9664히히이로카네 셉터|r - Byakuren Hijiri";
 -- unam
 -- iabi
 		t["gcel"][3][1] = "A0S7";
@@ -475,7 +475,7 @@ TPT_items_loader = function(t)
 -- ides
 -- [ward]
 -- utip
-		t["ward"][2][1] = "|c00FF9664히히이로카네 셉터|r - 코메이지 사토리";
+		t["ward"][2][1] = "|c00FF9664히히이로카네 셉터|r - Satori Komeiji";
 -- unam
 -- utub
 		t["ward"][5][1] = "무슨 생각을 하고 있는지 모두 알 수 있어도, 진정한 무의식의 내면까지는 모르는 법이네.\r\
@@ -488,7 +488,7 @@ TPT_items_loader = function(t)
 -- iico
 -- [evtl]
 -- utip
-		t["evtl"][1][1] = "|c00FF9664히히이로카네 셉터|r - 플랑드르 스칼렛";
+		t["evtl"][1][1] = "|c00FF9664히히이로카네 셉터|r - Flandre Scarlet";
 -- unam
 -- utub
 		t["evtl"][3][1] = "시시한 장난은 이쯤에서 끝내볼까\r\
@@ -501,7 +501,7 @@ TPT_items_loader = function(t)
 -- ides
 -- [ajen]
 -- utip
-		t["ajen"][1][1] = "|c00FF9664히히이로카네 셉터|r - 카자미 유카";
+		t["ajen"][1][1] = "|c00FF9664히히이로카네 셉터|r - Yuuka Kazami";
 -- unam
 -- utub
 		t["ajen"][3][1] = "이 꽃밭에서 너는 그저 스쳐가는 잔상일 뿐이야.\r\
@@ -524,7 +524,7 @@ TPT_items_loader = function(t)
 -- ides
 -- [bgst]
 -- utip
-		t["bgst"][1][1] = "|c00FF9664히히이로카네 셉터|r - 우사미 스미레코";
+		t["bgst"][1][1] = "|c00FF9664히히이로카네 셉터|r - Sumireko Usami";
 -- unam
 -- utub
 		t["bgst"][3][1] = "꿈인지 현실인지 모르겠어\r\
@@ -554,7 +554,7 @@ TPT_items_loader = function(t)
 -- ides
 -- [rhth]
 -- utip
-		t["rhth"][1][1] = "|c00FF9664히히이로카네 셉터|r - 호리카와 라이코";
+		t["rhth"][1][1] = "|c00FF9664히히이로카네 셉터|r - Raiko Horikawa";
 -- unam
 -- utub
 		t["rhth"][3][1] = "왼손으로 악수하자고, 그쪽이 내 심장과 더 가까우니까.\r\
@@ -1444,7 +1444,7 @@ Palanquin Ship 체력 : 2000만\r\
 -- [I009]
 -- utip
 -- unam
-		t["I009"][2][1] = "|c00FF9664히히이로카네 셉터|r - 우사미 스미레코[NON]";
+		t["I009"][2][1] = "|c00FF9664히히이로카네 셉터|r - Sumireko Usami[NON]";
 -- utub
 		t["I009"][3][1] = "꿈인지 현실인지 모르겠어\r\
 \r\
@@ -1502,7 +1502,7 @@ Palanquin Ship 체력 : 2000만\r\
 -- icid
 -- [I00D]
 -- utip
-		t["I00D"][2][1] = "|c00FF9664히히이로카네 셉터|r - 이바라키 카센";
+		t["I00D"][2][1] = "|c00FF9664히히이로카네 셉터|r - Kasen Ibaraki";
 -- unam
 -- utub
 		t["I00D"][4][1] = "|c00FF9664[강화 효과:『단선수악의 괴완』]|r\r\

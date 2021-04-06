@@ -412,7 +412,7 @@ TPT_units_loader = function(t)
 		t["ugho"][7][1] = "R01I,R00C";
 -- udty
 -- unam
-		t["ugho"][9][1] = "|c0017B5C6Tenshi Hinanawi|r - |c00808080Chronicle|r|N|c00F8F489비상비비상천의 아가씨|r";
+		t["ugho"][9][1] = "|c0017B5C6Tenshi Hinanawi|r - |c00808080Chronicle|r|N|c00F8F489Girl of the Highest Heaven|r";
 -- uico
 		t["ugho"][12][1] = "Icon\\Unit\\BTNTenshi_Chro.blp";
 -- umdl
@@ -516,7 +516,7 @@ TPT_units_loader = function(t)
 -- upro
 		t["Udre"][6][1] = "Eirin Yagokoro";
 -- unam
-		t["Udre"][7][1] = "|c00FF0000봉인된 달의 현자|r";
+		t["Udre"][7][1] = "|c00FF0000봉인된 Sage of the Moon|r";
 -- uhrt
 -- utyp
 -- umdl
@@ -533,7 +533,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["ugar"][3][1] = "A0IZ";
 -- unam
-		t["ugar"][10][1] = "Eirin Yagokoro|N|c0000FFFF봉인당한 달의 현자|r";
+		t["ugar"][10][1] = "Eirin Yagokoro|N|c0000FFFF봉인당한 Sage of the Moon|r";
 -- utyp
 		t["ugar"][11][1] = "undead,ancient";
 -- urac
@@ -959,7 +959,7 @@ TPT_units_loader = function(t)
 -- umdl
 -- [otot]
 -- unam
-		t["otot"][1][1] = "[순호]순광 이펙트";
+		t["otot"][1][1] = "[Junko]순광 이펙트";
 -- umvt
 -- uabi
 -- umdl
@@ -1144,7 +1144,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["nchp"][1][1] = "Avul,AInv,A0MO,A08K,A0AS,A05N,A06P,A061,A06A";
 -- unam
-		t["nchp"][5][1] = "|c0017B5C6Matara Okino|r - |c00808080Chronicle|r|N|c00F8F489궁극의 절대비신|r";
+		t["nchp"][5][1] = "|c0017B5C6Matara Okino|r - |c00808080Chronicle|r|N|c00F8F489Ultimate, Absolute Secret God|r";
 -- umvt
 -- ua1t
 -- ua1m
@@ -1470,7 +1470,7 @@ TPT_units_loader = function(t)
 -- [nggr]
 -- urac
 -- unam
-		t["nggr"][2][1] = "|c0017B5C6Suika Ibuki|r - |c00808080Chronicle|r|N|c00F8F489모이는 꿈, 환상, 그리고 백귀야행|r";
+		t["nggr"][2][1] = "|c0017B5C6Suika Ibuki|r - |c00808080Chronicle|r|N|c00F8F489Forgathering Dream, Illusion, Thus a Night Parade of a Hundred Demons|r";
 -- upgr
 		t["nggr"][3][1] = "R00C,R01S";
 -- ua1m
@@ -1657,7 +1657,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["ngnv"][1][1] = "AInv,Avul,A06A,A0OK,A0PQ,A0B3,A05B,ACfd";
 -- unam
-		t["ngnv"][2][1] = "|c0017B5C6요리가미 조온|r - |c00808080Chronicle|r|N|c00F8F489완전빙의의 역병신|r";
+		t["ngnv"][2][1] = "|c0017B5C6Joon Yorigami|r - |c00808080Chronicle|r|N|c00F8F489The Worst, Tough-Luckiest Younger Twin Sister|r";
 -- usnd
 -- umdl
 		t["ngnv"][6][1] = "JOON3.mdl";
@@ -1675,7 +1675,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["ngnw"][1][1] = "AInv,Avul,A06A,A0OK,S00N,S00E,A0K6,ACfd";
 -- unam
-		t["ngnw"][4][1] = "|c0017B5C6요리가미 시온|r - |c00808080Chronicle|r|N|c00F8F489완전빙의의 빈곤신|r";
+		t["ngnw"][4][1] = "|c0017B5C6Shion Yorigami|r - |c00808080Chronicle|r|N|c00F8F489The Worst, Tough-Luckiest Elder Twin Sister|r";
 -- umdl
 		t["ngnw"][5][1] = "yorigamiShion2.mdl";
 -- umvt
@@ -1954,7 +1954,7 @@ TPT_units_loader = function(t)
 -- [ndrv]
 -- urac
 -- unam
-		t["ndrv"][2][1] = "사츠키 린 - |c00FF0080Phantasm|r|N|c00FF80FF잊혀진 소녀|r";
+		t["ndrv"][2][1] = "Satsuki Rin - |c00FF0080Phantasm|r|N|c00FF80FFForgotten Girl|r";
 -- uabi
 		t["ndrv"][5][1] = "AInv,Avul,A0J8,A0QD,A0SQ,ACs9,A0QC";
 -- ua1t
@@ -2276,7 +2276,7 @@ TPT_units_loader = function(t)
 -- umvt
 -- urac
 -- unam
-		t["nlrv"][6][1] = "|c0017B5C6Kijin Seija|r - |c00808080Chronicle|r|N|c00F8F489역습의 아마노자쿠|r";
+		t["nlrv"][6][1] = "|c0017B5C6Kijin Seija|r - |c00808080Chronicle|r|N|c00F8F489Counterattacking Amanojaku|r";
 -- ua1t
 -- uico
 -- umdl
@@ -2595,7 +2595,7 @@ TPT_units_loader = function(t)
 -- [nmgd]
 -- urac
 -- unam
-		t["nmgd"][2][1] = "|c0017B5C6Hakurei Reimu|r - |c00808080Chronicle|r|N|c00F8F489낙원의 멋진 무녀|r";
+		t["nmgd"][2][1] = "|c0017B5C6Hakurei Reimu|r - |c00808080Chronicle|r|N|c00F8F489Wonderful Shrine Maiden of Paradise|r";
 -- uico
 		t["nmgd"][5][1] = "Icon\\Unit\\BTNReimu_Chro.blp";
 -- uabi
@@ -3571,7 +3571,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h01C"][3][1] = "R00W,R00C";
 -- unam
-		t["h01C"][6][1] = "|c0017B5C6모리야 스와코|r - |c00808080Chronicle|r|N|c00F8F489토착신의 신앙|r";
+		t["h01C"][6][1] = "|c0017B5C6Suwako Moriya|r - |c00808080Chronicle|r|N|c00F8F489Top of Native Gods|r";
 -- ua1m
 -- umdl
 		t["h01C"][10][1] = "@Y_Model_Suwako.mdl";
@@ -3585,7 +3585,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h01D"][3][1] = "R00B,R00C";
 -- unam
-		t["h01D"][6][1] = "|c0017B5C6플랑드르 스칼렛|r - |c00808080Chronicle|r|N|c00F8F489Devil의 여동생|r";
+		t["h01D"][6][1] = "|c0017B5C6Flandre Scarlet|r - |c00808080Chronicle|r|N|c00F8F489Devil's Little Sister|r";
 -- ua1m
 -- umdl
 		t["h01D"][10][1] = "Y_Flandre.mdl";
@@ -3651,7 +3651,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h01I"][3][1] = "R00U,R00C";
 -- unam
-		t["h01I"][6][1] = "|c0017B5C6카자미 유카|r - |c00808080Chronicle|r|N|c00F8F489사계절의 플라워마스터|r";
+		t["h01I"][6][1] = "|c0017B5C6Yuuka Kazami|r - |c00808080Chronicle|r|N|c00F8F489Flower Master of the Four Seasons|r";
 -- ua1m
 		t["h01I"][9][1] = "Abilities\\Spells\\Other\\Parasite\\ParasiteMissile.mdl";
 -- umdl
@@ -3859,7 +3859,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h01Y"][2][1] = "R01V,R00R,R00C,R01T";
 -- unam
-		t["h01Y"][5][1] = "|c0017B5C6히지리 뱌쿠렌|r - |c00808080Chronicle|r|N|c00F8F489봉인된 대마법사|r";
+		t["h01Y"][5][1] = "|c0017B5C6Byakuren Hijiri|r - |c00808080Chronicle|r|N|c00F8F489Sealed Great Magician|r";
 -- ua1m
 -- umdl
 		t["h01Y"][9][1] = "@Y_Model_Byakuren.mdl";
@@ -3875,7 +3875,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h020"][2][1] = "R00T,R00C";
 -- unam
-		t["h020"][5][1] = "|c0017B5C6야쿠모 유카리|r - |c00808080Chronicle|r|N|c00F8F489경계의 요괴|r";
+		t["h020"][5][1] = "|c0017B5C6Yukari Yakumo|r - |c00808080Chronicle|r|N|c00F8F489Youkai of Boundaries|r";
 -- ua1m
 		t["h020"][8][1] = "Abilities\\Weapons\\AncestralGuardianMissile\\AncestralGuardianMissile.mdl";
 -- umdl
@@ -4675,7 +4675,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e01A"][5][1] = "카자미 유카 - |c0000FF00플라워 마스터|r|NRound Restriction : 37";
+		t["e01A"][5][1] = "Yuuka Kazami - |c0000FF00플라워 마스터|r|NRound Restriction : 37";
 -- upgr
 		t["e01A"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhhb,R01L";
 -- umdl
@@ -4843,7 +4843,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01N"][7][1] = "WAVE53 - 코메이지 사토리";
+		t["e01N"][7][1] = "WAVE53 - Satori Komeiji";
 -- upgr
 -- umdl
 		t["e01N"][12][1] = "units\\nightelf\\HeroKeeperoftheGrove\\HeroKeeperoftheGrove.mdl";
@@ -5055,7 +5055,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e024"][7][1] = "WAVE70 - 히지리 뱌쿠렌";
+		t["e024"][7][1] = "WAVE70 - Byakuren Hijiri";
 -- upgr
 -- umdl
 -- uarm
@@ -5077,7 +5077,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e026"][7][1] = "WAVE72 - 플랑드르 스칼렛";
+		t["e026"][7][1] = "WAVE72 - Flandre Scarlet";
 -- upgr
 -- umdl
 		t["e026"][12][1] = "units\\other\\DranaiAkama\\DranaiAkama.mdl";
@@ -5100,7 +5100,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e028"][7][1] = "WAVE74 - 모리야 스와코";
+		t["e028"][7][1] = "WAVE74 - Suwako Moriya";
 -- upgr
 -- umdl
 -- uarm
@@ -5133,7 +5133,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02B"][7][1] = "WAVE77 - 야쿠모 유카리";
+		t["e02B"][7][1] = "WAVE77 - Yukari Yakumo";
 -- upgr
 -- umdl
 -- uarm
@@ -5202,7 +5202,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e02E"][5][1] = "모리야 스와코 - |c0000FFFF토착신의 신앙|r|NRound Restriction : 47";
+		t["e02E"][5][1] = "Suwako Moriya - |c0000FFFFTop of Native Gods|r|NRound Restriction : 47";
 -- upgr
 		t["e02E"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhse,R01L";
 -- umdl
@@ -5516,7 +5516,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h03C"][2][1] = "R008,R00C";
 -- unam
-		t["h03C"][5][1] = "|c0017B5C6코메이지 사토리|r - |c00808080Chronicle|r|N|c00F8F489원령도 겁먹는 소녀|r";
+		t["h03C"][5][1] = "|c0017B5C6Satori Komeiji|r - |c00808080Chronicle|r|N|c00F8F489The Girl Even the Evil Spirits Fear|r";
 -- ua1m
 -- umdl
 		t["h03C"][9][1] = "Y_satori.mdl";
@@ -5533,7 +5533,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h03D"][3][1] = "R00V,R00C";
 -- unam
-		t["h03D"][6][1] = "|c0017B5C6Eirin Yagokoro|r - |c00808080Chronicle|r|N|c00F8F489달의 현자|r";
+		t["h03D"][6][1] = "|c0017B5C6Eirin Yagokoro|r - |c00808080Chronicle|r|N|c00F8F489Sage of the Moon|r";
 -- ua1m
 		t["h03D"][9][1] = "Abilities\\Weapons\\Arrow\\ArrowMissile.mdl";
 -- umdl
@@ -5860,7 +5860,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h03Y"][3][1] = "R01G,R00C";
 -- unam
-		t["h03Y"][6][1] = "|c0017B5C6토요사토미미노 미코[천상]|r - |c00808080Chronicle|r|N|c00F8F489천자영매한 선인|r";
+		t["h03Y"][6][1] = "|c0017B5C6Toyosatomimi no Miko[Heaven]|r - |c00808080Chronicle|r|N|c00F8F489Supremely Gifted Hermit|r";
 -- ua1m
 -- umdl
 		t["h03Y"][10][1] = "mikomiko.mdl";
@@ -5891,7 +5891,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h040"][3][1] = "R01H,R00C";
 -- unam
-		t["h040"][6][1] = "|c0017B5C6이바라키 카센|r - |c00808080Chronicle|r|N|c00F8F489편완유각의 선인|r";
+		t["h040"][6][1] = "|c0017B5C6Kasen Ibaraki|r - |c00808080Chronicle|r|N|c00F8F489편완유각의 선인|r";
 -- ua1m
 -- umdl
 		t["h040"][10][1] = "@Y_Model_Kasen.mdl";
@@ -6131,7 +6131,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02J"][6][1] = "『Hakurei Reimu』|N|c0000FFFF낙원의 멋진 무녀|r";
+		t["e02J"][6][1] = "『Hakurei Reimu』|N|c0000FFFFWonderful Shrine Maiden of Paradise|r";
 -- umdl
 -- [e02K]
 -- urac
@@ -6174,7 +6174,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02N"][7][1] = "WAVE79 - 카자미 유카";
+		t["e02N"][7][1] = "WAVE79 - Yuuka Kazami";
 -- upgr
 -- umdl
 -- uarm
@@ -6322,7 +6322,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- utyp
 -- unam
-		t["e02W"][6][1] = "WAVE86 - 토요사토미미노 미코";
+		t["e02W"][6][1] = "WAVE86 - Toyosatomimi no Miko";
 -- upgr
 -- umdl
 		t["e02W"][11][1] = "units\\other\\BloodElfLieutenant\\BloodElfLieutenant.mdl";
@@ -6469,7 +6469,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e036"][4][1] = "A0I4,A0M0,A0IX,A0A0,A095";
 -- unam
-		t["e036"][6][1] = "히지리 뱌쿠렌 - |c00FFFF00봉인된 대마법사|r|NRound Restriction : 67";
+		t["e036"][6][1] = "Byakuren Hijiri - |c00FFFF00Sealed Great Magician|r|NRound Restriction : 67";
 -- upgr
 		t["e036"][8][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhrt,R01L";
 -- umdl
@@ -6851,7 +6851,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h058"][2][1] = "R01D,R00C";
 -- unam
-		t["h058"][5][1] = "|c0017B5C6호리카와 라이코|r - |c00808080Chronicle|r|N|c00F8F489몽환의 퍼커셔니스트|r";
+		t["h058"][5][1] = "|c0017B5C6Raiko Horikawa|r - |c00808080Chronicle|r|N|c00F8F489Phantasmal Percussionist|r";
 -- ua1m
 		t["h058"][8][1] = "Abilities\\Spells\\Orc\\LightningBolt\\LightningBoltMissile.mdl";
 -- umdl
@@ -6893,7 +6893,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h05C"][2][1] = "R01F,R00C";
 -- unam
-		t["h05C"][5][1] = "|c0017B5C6우사미 스미레코|r - |c00808080Chronicle|r|N|c00F8F489비봉클럽 초대회장|r";
+		t["h05C"][5][1] = "|c0017B5C6Sumireko Usami|r - |c00808080Chronicle|r|N|c00F8F489Secret Sealing Club's First President|r";
 -- ua1m
 		t["h05C"][8][1] = "Abilities\\Weapons\\RocketMissile\\RocketMissile.mdl";
 -- umdl
@@ -7011,7 +7011,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h05M"][3][1] = "R00L,R00C,Rhac";
 -- unam
-		t["h05M"][6][1] = "|c0017B5C6순호|r - |c00808080Chronicle|r|N|c00F8F489무명의 존재|r";
+		t["h05M"][6][1] = "|c0017B5C6Junko|r - |c00808080Chronicle|r|N|c00F8F489Existence Without Name|r";
 -- ua1m
 -- umdl
 		t["h05M"][10][1] = "Y_junko_d.mdl";
@@ -7029,7 +7029,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["h05N"][3][1] = "EF\\WaterMagic.mdl";
 -- unam
-		t["h05N"][4][1] = "[순호][더미]떨며 얼어붙는 별";
+		t["h05N"][4][1] = "[Junko][더미]떨며 얼어붙는 별";
 -- uico
 -- utyp
 -- [h05O]
@@ -7257,7 +7257,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06C"][7][1] = "Hakurei Reimu - |c00804040Legendary|r|N|c00FF9393낙원의 멋진 무녀|r";
+		t["h06C"][7][1] = "Hakurei Reimu - |c00804040Legendary|r|N|c00FF9393Wonderful Shrine Maiden of Paradise|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7348,7 +7348,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h06K"][3][1] = "R01Z,R00C";
 -- unam
-		t["h06K"][6][1] = "|c0017B5C6하타노 코코로|r - |c00808080Chronicle|r|N|c00F8F489표정 풍부한 포커페이스|r";
+		t["h06K"][6][1] = "|c0017B5C6Hata No Kokoro|r - |c00808080Chronicle|r|N|c00F8F489Expressive Poker Face|r";
 -- ua1m
 -- umdl
 		t["h06K"][10][1] = "Y_kokoro_dh.mdl";
@@ -7754,7 +7754,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e019"][6][1] = "토요사토미미노 미코 - |c00FFFF00천자영매한 선인|r|NRound Restriction : 77";
+		t["e019"][6][1] = "Toyosatomimi no Miko - |c00FFFF00Supremely Gifted Hermit|r|NRound Restriction : 77";
 -- upgr
 		t["e019"][8][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhst";
 -- umdl
@@ -7909,7 +7909,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h02X"][2][1] = "R00D,R00C";
 -- unam
-		t["h02X"][5][1] = "|c0017B5C6와타츠키노 요리히메|r - |c00808080Chronicle|r|N|c00F8F489신령에 빙의된 달의 공주|r";
+		t["h02X"][5][1] = "|c0017B5C6Watatsuki no Yorihime|r - |c00808080Chronicle|r|N|c00F8F489Moon Princess Possessed by Divine Spirits|r";
 -- ua1m
 -- umdl
 		t["h02X"][9][1] = "yorihime.mdl";
@@ -8027,7 +8027,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h04A"][6][1] = "|c0017B5C6토요사토미미노 미코[인상]|r - |c00808080Chronicle|r|N|c00F8F489천자영매한 선인|r";
+		t["h04A"][6][1] = "|c0017B5C6Toyosatomimi no Miko[Human]|r - |c00808080Chronicle|r|N|c00F8F489Supremely Gifted Hermit|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8068,7 +8068,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["n000"][1][1] = "AInv,Avul,A06A,A0OK,S00N,S00E,A0SS,A01Z,A0PW,A0U8";
 -- unam
-		t["n000"][4][1] = "|c0017B5C6요리가미 시온|r-|c00808080Chronicle|r,|c0080A8E6Ascended|r|N|c00F8F489저주받은 빈곤신|r";
+		t["n000"][4][1] = "|c0017B5C6Shion Yorigami|r-|c00808080Chronicle|r,|c0080A8E6Ascended|r|N|c00F8F489Simple and Frugal Poverty God|r";
 -- umdl
 -- umvt
 -- uico
@@ -8107,7 +8107,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e02F"][5][1] = "|c0017B5C6토요사토미미노 미코|r - |c00808080Chronicle|r";
+		t["e02F"][5][1] = "|c0017B5C6Toyosatomimi no Miko|r - |c00808080Chronicle|r";
 -- umdl
 -- uico
 		t["e02F"][12][1] = "BTN\\BTNYukari.blp";
@@ -8164,7 +8164,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e03D"][6][1] = "레이무 인형|N|c00FFFF00낙원의 멋진 무녀 인형|r";
+		t["e03D"][6][1] = "레이무 인형|N|c00FFFF00Wonderful Shrine Maiden of Paradise 인형|r";
 -- umvt
 -- umdl
 -- [e03K]
@@ -8194,7 +8194,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["h07M"][3][1] = "R00C,Rhgb";
 -- unam
-		t["h07M"][6][1] = "|c0017B5C6하니야스신 케이키|r - |c00808080Chronicle|r|N|c00F8F489고립무원이 빚어낸 조형신|r";
+		t["h07M"][6][1] = "|c0017B5C6Keiki Haniyasushin|r - |c00808080Chronicle|r|N|c00F8F489Sculptor God Crafted by Utter Isolation|r";
 -- ua1m
 		t["h07M"][9][1] = "keiki.mdl";
 -- umdl
@@ -8243,7 +8243,7 @@ TPT_units_loader = function(t)
 -- [u002]
 -- uhrt
 -- unam
-		t["u002"][10][1] = "플랑드르 스칼렛|N|c0000FFFF고귀한 흡혈귀|r";
+		t["u002"][10][1] = "Flandre Scarlet|N|c0000FFFF고귀한 흡혈귀|r";
 -- utyp
 -- urac
 -- umdl
@@ -8294,7 +8294,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h07P"][6][1] = "|c0017B5C6플랑드르 스칼렛|r - |c00808080Chronicle|r|N|c00F8F489Devil를 사냥하는 Devil|r";
+		t["h07P"][6][1] = "|c0017B5C6Flandre Scarlet|r - |c00808080Chronicle|r|N|c00F8F489Vampire's Destructive Little Sister|r";
 -- ua1m
 -- umdl
 		t["h07P"][10][1] = "TPTPACK\\FlanDante.mdl";
@@ -8343,7 +8343,7 @@ TPT_units_loader = function(t)
 -- umvt
 -- urac
 -- unam
-		t["n003"][6][1] = "|c0017B5C6Kijin Seija|r - |c00808080Chronicle|r|N|c00F8F489반역의 아마노자쿠|r";
+		t["n003"][6][1] = "|c0017B5C6Kijin Seija|r - |c00808080Chronicle|r|N|c00F8F489Counterattacking Amanojakur";
 -- ua1t
 -- uico
 -- umdl
@@ -8369,7 +8369,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e03N"][5][1] = "|c0017B5C6이바라키 카센|r - |c00808080Chronicle|r";
+		t["e03N"][5][1] = "|c0017B5C6Kasen Ibaraki|r - |c00808080Chronicle|r";
 -- umdl
 -- uico
 -- utyp
@@ -8410,7 +8410,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h07R"][6][1] = "|c0017B5C6카자미 유카|r - |c00808080Chronicle|r|N|c00F8F489루즈 컨트롤 플라워마스터|r";
+		t["h07R"][6][1] = "|c0017B5C6Yuuka Kazami|r - |c00808080Chronicle|r|N|c00F8F489Lose Control Flower Master|r";
 -- ua1m
 -- umdl
 		t["h07R"][10][1] = "TPTPACK\\YukaDress2.mdl";
@@ -8441,7 +8441,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- urac
 -- unam
-		t["n006"][8][1] = "뱌쿠렌 인형|N|c00FF80C0봉인된 대마법사 인형|r";
+		t["n006"][8][1] = "뱌쿠렌 인형|N|c00FF80C0Sealed Great Magician 인형|r";
 -- uabi
 -- umdl
 		t["n006"][10][1] = "Byakuren1.mdl";
@@ -8641,7 +8641,7 @@ TPT_units_loader = function(t)
 -- ua1t
 -- [h07Y]
 -- unam
-		t["h07Y"][5][1] = "|c0017B5C6우사미 스미레코|r - |c00F8F489꿈의 잔영|r";
+		t["h07Y"][5][1] = "|c0017B5C6Sumireko Usami|r - |c00F8F489꿈의 잔영|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8758,7 +8758,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h080"][6][1] = "|c0017B5C6모리야 스와코|r - |c00808080Chronicle|r|N|c00F8F489양서류의 신님|r";
+		t["h080"][6][1] = "|c0017B5C6Suwako Moriya|r - |c00808080Chronicle|r|N|c00F8F489Amphibian God|r";
 -- ua1m
 -- umdl
 		t["h080"][10][1] = "TPTPACK\\Model_Suwako_SD.mdl";
@@ -8782,7 +8782,7 @@ TPT_units_loader = function(t)
 -- [h081]
 -- upgr
 -- unam
-		t["h081"][5][1] = "|c0017B5C6코메이지 사토리|r - |c00808080Chronicle|r|N|c00F8F489고딕 비스트 마스터|r";
+		t["h081"][5][1] = "|c0017B5C6Satori Komeiji|r - |c00808080Chronicle|r|N|c00F8F489Gothic Beast Master|r";
 -- ua1m
 -- umdl
 		t["h081"][9][1] = "TPTPACK\\Model_Satori_Gothic.mdl";
@@ -9193,7 +9193,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [e04K]
 -- unam
-		t["e04K"][1][1] = "연회 인형|N|c00FF80C0사츠키 린|r";
+		t["e04K"][1][1] = "연회 인형|N|c00FF80C0Satsuki Rin|r";
 -- uabi
 		t["e04K"][7][1] = "A0UP,A0CR,Avul";
 -- uhrt
@@ -9304,7 +9304,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h085"][6][1] = "|c0017B5C6이바라키 카센|r - |c00808080Chronicle|r,|c0080A8E6Ascended|N|c00F8F489간녕사지의 오니|r";
+		t["h085"][6][1] = "|c0017B5C6Kasen Ibaraki|r - |c00808080Chronicle|r,|c0080A8E6Ascended|N|c00F8F489Wild and Cunning Oni|r";
 -- ua1m
 -- umdl
 		t["h085"][10][1] = "@Y_Model_Kasenfull.mdl";
@@ -9344,7 +9344,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [u00D]
 -- unam
-		t["u00D"][1][1] = "푸른 눈의 백룡 - |c00FF0080Summon|r|N|c00FFA275충실한 심복|r";
+		t["u00D"][1][1] = "Blue Eyes White Dragon - |c00FF0080Summon|r|N|c00FFA275충실한 심복|r";
 -- urac
 -- uhrt
 -- umdl
@@ -9358,7 +9358,7 @@ TPT_units_loader = function(t)
 -- umvt
 -- [u00E]
 -- unam
-		t["u00E"][1][1] = "궁극의 푸른 눈의 백룡 - |c00FF0080Summon|r|N|c00FFA275카이바의 자존심|r";
+		t["u00E"][1][1] = "Blue Eyes Ultimate Dragon - |c00FF0080Summon|r|N|c00FFA275카이바의 자존심|r";
 -- urac
 -- uhrt
 -- umdl

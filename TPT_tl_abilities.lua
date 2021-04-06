@@ -747,7 +747,7 @@ TPT_abilities_loader = function(t)
 		t["AOw2"][71][1] = "[야치에 스턴]";
 -- atar 34
 -- atp1 34
-		t["AOw2"][73][1] = "[순호 스턴]";
+		t["AOw2"][73][1] = "[Junko 스턴]";
 -- atar 35
 -- atar 36
 -- atp1 36
@@ -844,13 +844,13 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANth"][4][1] = "『넘쳐나는 하예』";
 -- aub1 1
-		t["ANth"][5][1] = "*순호가 공격시 9% 확률로 자신 주변 1000범위를 더러운 기운으로 가득채웁니다. 대상이 적이라면 75만의 |c00379BFF마법 데미지|r를 입히고, 아군이라면 마나를 전체 마나의 6%만큼 회복시킵니다.\r\
+		t["ANth"][5][1] = "*Junko가 공격시 9% 확률로 자신 주변 1000범위를 더러운 기운으로 가득채웁니다. 대상이 적이라면 75만의 |c00379BFF마법 데미지|r를 입히고, 아군이라면 마나를 전체 마나의 6%만큼 회복시킵니다.\r\
 [마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 Units에게 적용되지 않습니다.]";
 -- [SCva]
 -- [ACrk]
 -- [Afbb]
 -- aub1 1
-		t["Afbb"][1][1] = "*순호가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을 경우, 대상 지점 750범위 내에 있는 적에게 1초간 0.2초마다 50만의 |c00379BFF마법 데미지|r를 입힙니다. 이후 거대한 폭발을 일으켜 대상 범위내의 적에게 전체 체력의 2% + 250만의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
+		t["Afbb"][1][1] = "*Junko가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을 경우, 대상 지점 750범위 내에 있는 적에게 1초간 0.2초마다 50만의 |c00379BFF마법 데미지|r를 입힙니다. 이후 거대한 폭발을 일으켜 대상 범위내의 적에게 전체 체력의 2% + 250만의 |c00379BFF마법 데미지|r를 추가로 입힙니다.\r\
 *폭발시 주변 800범위 아군의 마나를 15% 회복시킵니다.[마나 회복을 받지 않는 Units과 자신 제외]";
 -- atp1 1
 		t["Afbb"][2][1] = "『살의의 백합』";
@@ -863,7 +863,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ANde"][4][1] = "『떨며 얼어붙는 별』";
 -- aub1 1
-		t["ANde"][5][1] = "*순호가 공격시 10% 확률로 주변 Units을 급속도로 냉각시킵니다. \r\
+		t["ANde"][5][1] = "*Junko가 공격시 10% 확률로 주변 Units을 급속도로 냉각시킵니다. \r\
 *자신 주변 800범위 Units이 적이라면 2초간 스턴시키고, 200만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *아군이라면 마나의 6%를 회복시킵니다.\r\
 [마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 Units에게 적용되지 않습니다.]";
@@ -878,8 +878,8 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["ACua"][5][1] = "『손바닥의 순광』";
 -- aub1 1
-		t["ACua"][6][1] = "*순호가 공격시 10% 확률로 자신 전방 1000거리 250범위 내의 적에게 전체 체력의 0.4% + 125만의 |c00379BFF마법 데미지|r를 입힙니다. 이 광선에 맞은 적은 정화되어 마법 데미지를 22% 증폭해서 받습니다.\r\
-*기본적으로 순호 주변 750범위 내에 있는 적군의 Movement Speed를 40% 감소시킵니다.";
+		t["ACua"][6][1] = "*Junko가 공격시 10% 확률로 자신 전방 1000거리 250범위 내의 적에게 전체 체력의 0.4% + 125만의 |c00379BFF마법 데미지|r를 입힙니다. 이 광선에 맞은 적은 정화되어 마법 데미지를 22% 증폭해서 받습니다.\r\
+*기본적으로 Junko 주변 750범위 내에 있는 적군의 Movement Speed를 40% 감소시킵니다.";
 -- abuf 1
 		t["ACua"][8][1] = "B02E";
 -- [Aprg]
@@ -3088,7 +3088,7 @@ TPT_abilities_loader = function(t)
 -- [ACwe]
 -- Hwe1 1
 -- atp1 1
-		t["ACwe"][2][1] = "사츠키 린 소환";
+		t["ACwe"][2][1] = "Satsuki Rin 소환";
 -- arac
 -- anam
 -- acat
@@ -3152,7 +3152,7 @@ TPT_abilities_loader = function(t)
 -- aub1 1
 		t["AIcl"][8][1] = "*대상 Chronicle/Historic Units의 마나 스킬을 읽어옵니다. 해당 마나 스킬을 더욱 능수능란하게 다룰 수 있게 되어, 마나 소모량이 15% 감소합니다.\r\
 [마나 스킬이 없는 Units 제외]\r\
-[요리가미 시온 / Kijin Seija 제외]\r\
+[Shion Yorigami / Kijin Seija 제외]\r\
 *Cooldown 5 seconds";
 -- ahky
 -- atar 2
@@ -3615,7 +3615,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A013"][4][1] = "ReplaceableTextures\\CommandButtons\\Flan\\BTN_UP.blp";
 -- atp1 1
-		t["A013"][5][1] = "|c00ffff00플랑드르 스칼렛|r Combination|c00FF8040[D]|r";
+		t["A013"][5][1] = "|c00ffff00Flandre Scarlet|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + Ghost Orchestra[Phantom Ensemble] + 2 Unique Souls  ";
 -- ahky
@@ -3648,7 +3648,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A018"][4][1] = "ReplaceableTextures\\CommandButtons\\Satori\\BTN_UP.blp";
 -- atp1 1
-		t["A018"][5][1] = "|c00ffff00코메이지 사토리|r Combination|c00FF8040[D]|r";
+		t["A018"][5][1] = "|c00ffff00Satori Komeiji|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A018"][6][1] = "Koishi Komeiji[Epic] + 시키에이키 야마자나두[Epic] + Utsuho Reiuji [제어불능] + 2 Unique Souls ";
 -- ahky
@@ -3729,7 +3729,7 @@ TPT_abilities_loader = function(t)
 		t["A012"][3][1] = "Icon\\Unit\\BTNSuwako_Chro.blp";
 -- anam
 -- atp1 1
-		t["A012"][5][1] = "|c00ffff00모리야 스와코|r Combination|c00FF8040[D]|r";
+		t["A012"][5][1] = "|c00ffff00Suwako Moriya|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A012"][7][1] = "Kanako Yasaka[Epic] + Aya Shameimaru[Epic] + Utsuho Reiuji[핵반응 제어불능] + 2 Unique Souls ";
@@ -3840,7 +3840,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01H"][4][1] = "ReplaceableTextures\\CommandButtons\\Yuka\\BTN_UP.blp";
 -- atp1 1
-		t["A01H"][5][1] = "|c00ffff00카자미 유카|r Combination|c00FF8040[D]|r";
+		t["A01H"][5][1] = "|c00ffff00Yuuka Kazami|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01H"][6][1] = "시키에이키 야마자나두[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[노던 위너] + 2 Unique Souls ";
 -- ahky
@@ -3936,7 +3936,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01Q"][4][1] = "Icon\\Unit\\BTNYukari_Chro.blp";
 -- atp1 1
-		t["A01Q"][5][1] = "|c00ffff00야쿠모 유카리|r Combination|c00FF8040[D]|r";
+		t["A01Q"][5][1] = "|c00ffff00Yukari Yakumo|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01Q"][6][1] = "Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls ";
 -- ahky
@@ -3952,7 +3952,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A01R"][4][1] = "ReplaceableTextures\\CommandButtons\\Byakuren\\BTN_UP.blp";
 -- atp1 1
-		t["A01R"][5][1] = "|c00ffff00히지리 뱌쿠렌|r Combination|c00FF8040[D]|r";
+		t["A01R"][5][1] = "|c00ffff00Byakuren Hijiri|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01R"][6][1] = "Sho Toramaru우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls ";
 -- ahky
@@ -6898,7 +6898,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A05A"][97][1] = "h06X";
 -- [A05B]
 -- atp1 1
-		t["A05B"][1][1] = "|c00FEE952[Unit Information]|r - 요리가미 조온[Chronicle]";
+		t["A05B"][1][1] = "|c00FEE952[Unit Information]|r - Joon Yorigami[Chronicle]";
 -- anam
 -- aart
 		t["A05B"][3][1] = "ReplaceableTextures\\CommandButtons\\Joon\\BTN_UP.blp";
@@ -6976,7 +6976,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
 [Movement Speed]: 350[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 요리가미 조온/시온 Upgrade";
+|c00F8BA54[Upgrade]|r : Joon Yorigami/시온 Upgrade";
 -- arac
 -- [A00U]
 -- arac
@@ -10632,7 +10632,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 2
 		t["A0AC"][27][1] = "『레밀리아 스트레치 방어력 감소』";
 -- atp1 3
-		t["A0AC"][28][1] = "『우사미 스미레코 오컬티션』";
+		t["A0AC"][28][1] = "『Sumireko Usami 오컬티션』";
 -- atp1 4
 		t["A0AC"][29][1] = "『엘리 방어력 감소』";
 -- [A0AG]
@@ -10963,13 +10963,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 3
 -- [A062]
 -- atp1 1
-		t["A062"][1][1] = "|c00FEE952[Unit Information]|r - 하니야스신 케이키[Chronicle]";
+		t["A062"][1][1] = "|c00FEE952[Unit Information]|r - Keiki Haniyasushin[Chronicle]";
 -- aub1 1
 		t["A062"][2][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Fujiwara no Mokou[Epic] + Kanako Yasaka[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.44 Cooldown\r\
 [Movement Speed]: 425\r\
-|c00F8BA54[Upgrade]|r : 하니야스신 케이키 Upgrade";
+|c00F8BA54[Upgrade]|r : Keiki Haniyasushin Upgrade";
 -- anam
 -- aart
 		t["A062"][4][1] = "ReplaceableTextures\\CommandButtons\\Keiki\\BTN_UP.blp";
@@ -11538,7 +11538,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A0BQ"][4][1] = "ReplaceableTextures\\CommandButtons\\Miko\\BTN_UP.blp";
 -- atp1 1
-		t["A0BQ"][5][1] = "|c00ffff00토요사토미미노 미코|r Combination|c00FF8040[D]|r";
+		t["A0BQ"][5][1] = "|c00ffff00Toyosatomimi no Miko|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BQ"][6][1] = "Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + Maribel Hearn[Epic] + 2 Unique Souls ";
 -- ahky
@@ -13854,13 +13854,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0FW"][3][1] = "|c00FEE952[Unit Information]|r - 토요사토미미노 미코[Chronicle]";
+		t["A0FW"][3][1] = "|c00FEE952[Unit Information]|r - Toyosatomimi no Miko[Chronicle]";
 -- aub1 1
 		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + Maribel Hearn[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.35 Cooldown[천상] / 0.4 Cooldown[인상]\r\
 [Movement Speed]: 420\r\
-|c00F8BA54[Upgrade]|r : 토요사토미미노 미코 Upgrade";
+|c00F8BA54[Upgrade]|r : Toyosatomimi no Miko Upgrade";
 -- aart
 -- [A0FX]
 -- arac
@@ -14020,25 +14020,25 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0G9"][3][1] = "|c00FEE952[Unit Information]|r - 플랑드르 스칼렛[Chronicle]";
+		t["A0G9"][3][1] = "|c00FEE952[Unit Information]|r - Flandre Scarlet[Chronicle]";
 -- aub1 1
 		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + Ghost Orchestra[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.47 Cooldown\r\
 [Movement Speed]: 522[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 플랑드르 스칼렛 Upgrade";
+|c00F8BA54[Upgrade]|r : Flandre Scarlet Upgrade";
 -- aart
 -- [A0GA]
 -- arac
 -- anam
 -- atp1 1
-		t["A0GA"][3][1] = "|c00FEE952[Unit Information]|r - 히지리 뱌쿠렌[Chronicle]";
+		t["A0GA"][3][1] = "|c00FEE952[Unit Information]|r - Byakuren Hijiri[Chronicle]";
 -- aub1 1
 		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: Sho Toramaru우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : 히지리 뱌쿠렌 Upgrade";
+|c00F8BA54[Upgrade]|r : Byakuren Hijiri Upgrade";
 -- aart
 -- [A0GB]
 -- arac
@@ -14058,25 +14058,25 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0GC"][3][1] = "|c00FEE952[Unit Information]|r - 카자미 유카[Chronicle]";
+		t["A0GC"][3][1] = "|c00FEE952[Unit Information]|r - Yuuka Kazami[Chronicle]";
 -- aub1 1
 		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.44 Cooldown\r\
 [Movement Speed]: 400\r\
-|c00F8BA54[Upgrade]|r : 카자미 유카 Upgrade";
+|c00F8BA54[Upgrade]|r : Yuuka Kazami Upgrade";
 -- aart
 -- [A0GD]
 -- arac
 -- anam
 -- atp1 1
-		t["A0GD"][3][1] = "|c00FEE952[Unit Information]|r - 이바라키 카센[Chronicle]";
+		t["A0GD"][3][1] = "|c00FEE952[Unit Information]|r - Kasen Ibaraki[Chronicle]";
 -- aub1 1
 		t["A0GD"][4][1] = "|c00A8F13A[Combination]|r: Namazu[Epic] + Hisoutensoku[Epic] + Mononobe no Futo[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.33 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 이바라키 카센 Upgrade";
+|c00F8BA54[Upgrade]|r : Kasen Ibaraki Upgrade";
 -- aart
 -- [A0GE]
 -- arac
@@ -14094,25 +14094,25 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0GF"][3][1] = "|c00FEE952[Unit Information]|r - 모리야 스와코[Chronicle]";
+		t["A0GF"][3][1] = "|c00FEE952[Unit Information]|r - Suwako Moriya[Chronicle]";
 -- aub1 1
 		t["A0GF"][4][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + Aya Shameimaru[Epic] + Utsuho Reiuji[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 모리야 스와코 Upgrade";
+|c00F8BA54[Upgrade]|r : Suwako Moriya Upgrade";
 -- aart
 -- [A0GG]
 -- arac
 -- anam
 -- atp1 1
-		t["A0GG"][3][1] = "|c00FEE952[Unit Information]|r - 야쿠모 유카리[Chronicle]";
+		t["A0GG"][3][1] = "|c00FEE952[Unit Information]|r - Yukari Yakumo[Chronicle]";
 -- aub1 1
 		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + 사이교우지 유유코[반혼접] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : 야쿠모 유카리 Upgrade\r\
+|c00F8BA54[Upgrade]|r : Yukari Yakumo Upgrade\r\
 \r\
 *구상자 : |c00FFFF00-bora- , S.N.Sanfaks|r";
 -- aart
@@ -14120,13 +14120,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0GH"][3][1] = "|c00FEE952[Unit Information]|r - 코메이지 사토리[Chronicle]";
+		t["A0GH"][3][1] = "|c00FEE952[Unit Information]|r - Satori Komeiji[Chronicle]";
 -- aub1 1
 		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: Koishi Komeiji[Epic] + Utsuho Reiuji[제어불능] + 시키에이키 야마자나두[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 300[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 코메이지 사토리 Upgrade";
+|c00F8BA54[Upgrade]|r : Satori Komeiji Upgrade";
 -- aart
 -- [A0DD]
 -- atar 1
@@ -14955,15 +14955,15 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 5
 -- atp1 6
 -- aub1 2
-		t["A0CY"][11][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 300000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][11][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 300000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 3
-		t["A0CY"][12][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 360000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][12][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 360000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 4
-		t["A0CY"][13][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 420000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][13][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 420000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 5
-		t["A0CY"][14][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 480000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][14][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 480000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 6
-		t["A0CY"][15][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 540000의 데미지를 준다. 또한 카자미 유카는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][15][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 540000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- atar 2
 		t["A0CY"][16][1] = "vuln,invu";
 -- atar 3
@@ -16184,13 +16184,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0DN"][3][1] = "|c00FEE952[Unit Information]|r - 호리카와 라이코[Chronicle]";
+		t["A0DN"][3][1] = "|c00FEE952[Unit Information]|r - Raiko Horikawa[Chronicle]";
 -- aub1 1
 		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Tokiko[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : 호리카와 라이코 Upgrade";
+|c00F8BA54[Upgrade]|r : Raiko Horikawa Upgrade";
 -- aart
 		t["A0DN"][5][1] = "ReplaceableTextures\\CommandButtons\\Raiko\\BTN_UP.blp";
 -- [A0GN]
@@ -16200,7 +16200,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- anam
 -- atp1 1
-		t["A0GN"][5][1] = "|c00ffff00호리카와 라이코|r Combination|c00FF8040[D]|r";
+		t["A0GN"][5][1] = "|c00ffff00Raiko Horikawa|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0GN"][7][1] = "Sukuna Shinmyoumaru[Epic] + Tokiko[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls ";
@@ -16233,13 +16233,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0GP"][3][1] = "|c00FEE952[Unit Information]|r - 우사미 스미레코[Chronicle]";
+		t["A0GP"][3][1] = "|c00FEE952[Unit Information]|r - Sumireko Usami[Chronicle]";
 -- aub1 1
 		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 450[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 우사미 스미레코 Upgrade";
+|c00F8BA54[Upgrade]|r : Sumireko Usami Upgrade";
 -- aart
 		t["A0GP"][5][1] = "ReplaceableTextures\\CommandButtons\\Smireko\\BTN_UP.blp";
 -- [A0GX]
@@ -16280,7 +16280,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- anam
 -- atp1 1
-		t["A0IN"][5][1] = "|c00ffff00우사미 스미레코|r Combination|c00FF8040[D]|r";
+		t["A0IN"][5][1] = "|c00ffff00Sumireko Usami|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0IN"][7][1] = "Maribel Hearn[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls ";
@@ -16759,20 +16759,20 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A0J6"][3][1] = "ReplaceableTextures\\CommandButtons\\Sunho\\BTN_UP.blp";
 -- atp1 1
-		t["A0J6"][4][1] = "|c00FEE952[Unit Information]|r - 순호[Chronicle]";
+		t["A0J6"][4][1] = "|c00FEE952[Unit Information]|r - Junko[Chronicle]";
 -- aub1 1
 		t["A0J6"][5][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Ghost Orchestra[Epic] + Hecatia Lapislazuli[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 425\r\
-|c00F8BA54[Upgrade]|r : 순호 Upgrade";
+|c00F8BA54[Upgrade]|r : Junko Upgrade";
 -- [A0J7]
 -- arac
 -- anam
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0J7"][5][1] = "|c00ffff00순호|r Combination|c00FF8040[D]|r";
+		t["A0J7"][5][1] = "|c00ffff00Junko|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0J7"][6][1] = "Clownpiece[Epic] + Ghost Orchestra[Epic] + Hecatia Lapislazuli[Epic] + 2 Unique Souls ";
 -- ahky
@@ -17684,7 +17684,7 @@ EX랭크 : Movement Speed 35% 감소, 방어력 40 감소";
 -- atar 1
 -- arac
 -- atp1 1
-		t["S006"][3][1] = "초인「히지리 뱌쿠렌」- F랭크";
+		t["S006"][3][1] = "초인「Byakuren Hijiri」- F랭크";
 -- aub1 1
 		t["S006"][4][1] = "*뱌쿠렌의 모든 스킬은 마스터리 효과를 갖습니다. 각 랭크를 레벨업하는데에는 5번의 스킬 작동이 필요합니다.\r\
 *각 스킬은 E,D,C,B,A,S,EX 랭크로 진화합니다. 모든 랭크가 EX로 진화하고, Upgrade를 마스터했으면 뱌쿠렌의 공격력이 25만 증가하고, 최대치의 Attack Speed를 갖습니다.";
@@ -17711,19 +17711,19 @@ EX랭크 : Movement Speed 35% 감소, 방어력 40 감소";
 -- aub1 2
 -- aub1 3
 -- atp1 2
-		t["S006"][25][1] = "초인「히지리 뱌쿠렌」- E랭크";
+		t["S006"][25][1] = "초인「Byakuren Hijiri」- E랭크";
 -- atp1 3
-		t["S006"][26][1] = "초인「히지리 뱌쿠렌」- D랭크";
+		t["S006"][26][1] = "초인「Byakuren Hijiri」- D랭크";
 -- atp1 4
-		t["S006"][27][1] = "초인「히지리 뱌쿠렌」- C랭크";
+		t["S006"][27][1] = "초인「Byakuren Hijiri」- C랭크";
 -- atp1 5
-		t["S006"][28][1] = "초인「히지리 뱌쿠렌」- B랭크";
+		t["S006"][28][1] = "초인「Byakuren Hijiri」- B랭크";
 -- atp1 6
-		t["S006"][29][1] = "초인「히지리 뱌쿠렌」- A랭크";
+		t["S006"][29][1] = "초인「Byakuren Hijiri」- A랭크";
 -- atp1 7
-		t["S006"][30][1] = "초인「히지리 뱌쿠렌」- S랭크";
+		t["S006"][30][1] = "초인「Byakuren Hijiri」- S랭크";
 -- atp1 8
-		t["S006"][31][1] = "초인「히지리 뱌쿠렌」- EX랭크";
+		t["S006"][31][1] = "초인「Byakuren Hijiri」- EX랭크";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -20422,16 +20422,16 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A09S"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNHeal.blp";
 -- arac
 -- anam
-		t["A09S"][3][1] = "[순호]지상의 더러움의 순화";
+		t["A09S"][3][1] = "[Junko]지상의 더러움의 순화";
 -- atp1 1
 		t["A09S"][4][1] = "『지상의 더러움의 순화』";
 -- aub1 1
-		t["A09S"][5][1] = "*순호의 Attack Speed가 35% 상승합니다.\r\
-*순호가 공격한 적의 체력이 80% 이상이라면 80%로 조정합니다. 이 효과는 데미지로 인정되지 않습니다.";
+		t["A09S"][5][1] = "*Junko의 Attack Speed가 35% 상승합니다.\r\
+*Junko가 공격한 적의 체력이 80% 이상이라면 80%로 조정합니다. 이 효과는 데미지로 인정되지 않습니다.";
 -- atp1 2
 		t["A09S"][9][1] = "순부『순수한 탄막 지옥』- |c00FF00FF스페셜|r";
 -- aub1 2
-		t["A09S"][10][1] = "순호가 공격시 7% 확률로 자신 주변 750범위 적 중 순수하지 않은 적을 징벌합니다. 상대방에게 걸린 버프 하나당 6%의 마법 데미지를 증폭시키며, 상대방에게 걸린 버프 하나당 현재 체력의 1%의 마법 데미지를 줍니다. ";
+		t["A09S"][10][1] = "Junko가 공격시 7% 확률로 자신 주변 750범위 적 중 순수하지 않은 적을 징벌합니다. 상대방에게 걸린 버프 하나당 6%의 마법 데미지를 증폭시키며, 상대방에게 걸린 버프 하나당 현재 체력의 1%의 마법 데미지를 줍니다. ";
 -- [A0AF]
 -- arac
 -- atat
@@ -24452,7 +24452,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- ahky
 -- [A06V]
 -- anam
-		t["A06V"][1][1] = "[엘룬]순호 증폭[22%]";
+		t["A06V"][1][1] = "[엘룬]Junko 증폭[22%]";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -24745,7 +24745,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A09X"][6][1] = "|c00ffff00『모성애? 우정?』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A09X"][7][1] = "*순호가 왠지 모르게 달토끼 한마리를 귀여워하고 싶어합니다. Reisen Udongein Inaba[Unique]에게 사용할 경우, 『지상의 더러움의 순화』를 얻습니다.\r\
+		t["A09X"][7][1] = "*Junko가 왠지 모르게 달토끼 한마리를 귀여워하고 싶어합니다. Reisen Udongein Inaba[Unique]에게 사용할 경우, 『지상의 더러움의 순화』를 얻습니다.\r\
 \r\
 |c00ffff00!주의 : 대상이 된 Reisen Udongein Inaba[Unique]은 사라집니다.|r";
 -- aart
@@ -24756,7 +24756,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atat
 -- anam
 -- atp1 1
-		t["A07R"][6][1] = "|c00ffff00『히지리 뱌쿠렌의 포교유람』|r|c00FF8040[D]|r";
+		t["A07R"][6][1] = "|c00ffff00『Byakuren Hijiri의 포교유람』|r|c00FF8040[D]|r";
 -- aub1 1
 		t["A07R"][7][1] = "*포교는 주먹으로! 라는 마음으로 불한당을 포섭해 도교를 퍼뜨리려는 뱌쿠렌의 속셈이 들어나는 책략입니다. 불한당에게 사용시 퀘스트가 완료되며,『브라흐마의 눈동자』스킬을 얻습니다.";
 -- aart
@@ -27376,7 +27376,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["S00Q"][4][1] = "*사나에 주변 800범위 아군의 Attack Speed를 12% 증가시킵니다.\r\
 *사나에가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 자신 주변에 신의 바람을 재현해냅니다. 자신 주변 1500범위 적에게 8 seconds 동안 매 2초마다 1.5 seconds의 스턴을 입히고, 현재 체력의 1% + 전체 체력의 0.5% + 100만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *|c00C5EA53[조합 시너지]|r미라클 프로그\r\
--모리야 스와코[Chronicle]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
+-Suwako Moriya[Chronicle]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
 -- anam
 -- abuf 1
 		t["S00Q"][6][1] = "B05I";
@@ -27873,7 +27873,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 4
 -- [A0QD]
 -- anam
-		t["A0QD"][1][1] = "[사츠키 린]데미지 오라";
+		t["A0QD"][1][1] = "[Satsuki Rin]데미지 오라";
 -- atar 1
 -- arac
 -- atar 2
@@ -32645,7 +32645,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- anam
 -- atp1 1
-		t["A0QJ"][5][1] = "|c00ffff00하니야스신 케이키|r Combination|c00FF8040[D]|r";
+		t["A0QJ"][5][1] = "|c00ffff00Keiki Haniyasushin|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A0QJ"][7][1] = "Hecatia Lapislazuli[Epic] + Fujiwara no Mokou[Epic] + Kanako Yasaka[Epic] + 2 Unique Souls ";
@@ -37631,7 +37631,7 @@ nhym,h02Q,hlum,e03C";
 -- aart
 -- [A0K6]
 -- atp1 1
-		t["A0K6"][1][1] = "|c00FEE952[Unit Information]|r - 요리가미 시온[Chronicle]";
+		t["A0K6"][1][1] = "|c00FEE952[Unit Information]|r - Shion Yorigami[Chronicle]";
 -- anam
 -- aart
 		t["A0K6"][3][1] = "Icon\\Unit\\BTNShion_Chro.blp";
@@ -37700,7 +37700,7 @@ nhym,h02Q,hlum,e03C";
 \r\
 [Attack Speed]: 0.50 Cooldown\r\
 [Movement Speed]: 350[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 요리가미 조온/시온 Upgrade";
+|c00F8BA54[Upgrade]|r : Joon Yorigami/시온 Upgrade";
 -- arac
 -- [A0SL]
 -- arac
@@ -37931,7 +37931,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- anam
 -- atp1 1
-		t["A0SQ"][107][1] = "|c00FEE952[Unit Information]|r - 사츠키 린[Phantasm]";
+		t["A0SQ"][107][1] = "|c00FEE952[Unit Information]|r - Satsuki Rin[Phantasm]";
 -- aub1 1
 		t["A0SQ"][108][1] = "|c00A8F13A[Combination]|r: Unique 소울 * 4 + 고대와 환상의 조각 * 2\r\
 |c00A8F13A[Type Command]|r: 인셉션 걸(satsuki phan)\r\
@@ -37950,7 +37950,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0SR"][5][1] = "Icon\\Unit\\BTNMikoH_Chro.blp";
 -- [A0SS]
 -- atp1 1
-		t["A0SS"][1][1] = "|c00FEE952[Unit Information]|r - 요리가미 시온[Ascended]";
+		t["A0SS"][1][1] = "|c00FEE952[Unit Information]|r - Shion Yorigami[Ascended]";
 -- anam
 		t["A0SS"][2][1] = "[Ascended_Unit Information]";
 -- aart
@@ -38020,7 +38020,7 @@ nhym,h02Q,hlum,e03C";
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
 [Movement Speed]: 350[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 요리가미 조온/시온 Upgrade";
+|c00F8BA54[Upgrade]|r : Joon Yorigami/시온 Upgrade";
 -- arac
 -- [A0ST]
 -- atp1 1
@@ -40394,7 +40394,7 @@ nhym,h02Q,hlum,e03C";
 		t["A01S"][8][1] = "B01G";
 -- [A0TQ]
 -- atp1 1
-		t["A0TQ"][1][1] = "|c00FEE952[Unit Information]|r - 이바라키 카센[Ascended]";
+		t["A0TQ"][1][1] = "|c00FEE952[Unit Information]|r - Kasen Ibaraki[Ascended]";
 -- anam
 -- aart
 		t["A0TQ"][3][1] = "Icon\\Unit\\BTNKasen_Asc.blp";
@@ -40463,7 +40463,7 @@ nhym,h02Q,hlum,e03C";
 \r\
 [Attack Speed]: 0.31 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 이바라키 카센 Upgrade";
+|c00F8BA54[Upgrade]|r : Kasen Ibaraki Upgrade";
 -- arac
 -- [A02Y]
 -- anam

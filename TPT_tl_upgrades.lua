@@ -98,7 +98,7 @@ TPT_upgrades_loader = function(t)
 -- greq 5
 -- [Rhfs]
 -- gtp1 1
-		t["Rhfs"][1][1] = "요리가미 조온/시온 Upgrade 마스터";
+		t["Rhfs"][1][1] = "Joon Yorigami/시온 Upgrade 마스터";
 -- gnam 1
 -- [Rhlh]
 -- gef1
@@ -173,7 +173,7 @@ TPT_upgrades_loader = function(t)
 -- [Rhac]
 -- gef1
 -- gnam 1
-		t["Rhac"][3][1] = "[순호 퀘스트]";
+		t["Rhac"][3][1] = "[Junko 퀘스트]";
 -- gtp1 1
 		t["Rhac"][5][1] = "흠";
 -- [Rhla]
@@ -606,7 +606,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 2
 -- [Rhgb]
 -- gtp1 1
-		t["Rhgb"][1][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 1Lv";
+		t["Rhgb"][1][1] = "Keiki Haniyasushin Upgrade|cffffcc00(D)|r - 1Lv";
 -- gub1 1
 		t["Rhgb"][2][1] = "케이키의 공격력이 15000 , 공격속도가 12% 증가합니다. 『조형술』들의 데미지가 3% 증가합니다.\r\
 \r\
@@ -615,7 +615,7 @@ TPT_upgrades_loader = function(t)
 		t["Rhgb"][3][1] = "D";
 -- gef1
 -- gnam 1
-		t["Rhgb"][5][1] = "하니야스신 케이키 Upgrade[D]";
+		t["Rhgb"][5][1] = "Keiki Haniyasushin Upgrade[D]";
 -- gef2
 -- greq 1
 		t["Rhgb"][7][1] = "h07M";
@@ -626,13 +626,13 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rhgb"][13][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 2Lv";
+		t["Rhgb"][13][1] = "Keiki Haniyasushin Upgrade|cffffcc00(D)|r - 2Lv";
 -- gtp1 3
-		t["Rhgb"][14][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 3Lv";
+		t["Rhgb"][14][1] = "Keiki Haniyasushin Upgrade|cffffcc00(D)|r - 3Lv";
 -- gtp1 4
-		t["Rhgb"][15][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - 4Lv";
+		t["Rhgb"][15][1] = "Keiki Haniyasushin Upgrade|cffffcc00(D)|r - 4Lv";
 -- gtp1 5
-		t["Rhgb"][16][1] = "하니야스신 케이키 Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["Rhgb"][16][1] = "Keiki Haniyasushin Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gub1 2
 -- gub1 3
 -- gub1 4
@@ -1795,15 +1795,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R008"][105][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 1Lv";
+		t["R008"][105][1] = "Satori Komeiji Upgrade|cffffcc00(E)|r - 1Lv";
 -- gtp1 2
-		t["R008"][106][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 2Lv";
+		t["R008"][106][1] = "Satori Komeiji Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R008"][107][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 3Lv";
+		t["R008"][107][1] = "Satori Komeiji Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R008"][108][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - 4Lv";
+		t["R008"][108][1] = "Satori Komeiji Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R008"][109][1] = "코메이지 사토리 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["R008"][109][1] = "Satori Komeiji Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gtp1 6
 		t["R008"][110][1] = "S나에 Upgrade - 6Lv";
 -- gtp1 7
@@ -1997,7 +1997,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00B"][59][1] = "플랑드르 스칼렛 Upgrade";
+		t["R00B"][59][1] = "Flandre Scarlet Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -2044,25 +2044,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00B"][104][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 1Lv";
+		t["R00B"][104][1] = "Flandre Scarlet Upgrade|cffffcc00(Q)|r - 1Lv";
 -- gtp1 2
-		t["R00B"][105][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 2Lv";
+		t["R00B"][105][1] = "Flandre Scarlet Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["R00B"][106][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 3Lv";
+		t["R00B"][106][1] = "Flandre Scarlet Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["R00B"][107][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - 4Lv";
+		t["R00B"][107][1] = "Flandre Scarlet Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["R00B"][108][1] = "플랑드르 스칼렛 Upgrade|cffffcc00(Q)|r - c00ff0000마스터|r";
+		t["R00B"][108][1] = "Flandre Scarlet Upgrade|cffffcc00(Q)|r - c00ff0000마스터|r";
 -- gtp1 6
-		t["R00B"][109][1] = "플랑드르 스칼렛 Upgrade - 6Lv";
+		t["R00B"][109][1] = "Flandre Scarlet Upgrade - 6Lv";
 -- gtp1 7
-		t["R00B"][110][1] = "플랑드르 스칼렛 Upgrade - 7Lv";
+		t["R00B"][110][1] = "Flandre Scarlet Upgrade - 7Lv";
 -- gtp1 8
-		t["R00B"][111][1] = "플랑드르 스칼렛 Upgrade - 8Lv";
+		t["R00B"][111][1] = "Flandre Scarlet Upgrade - 8Lv";
 -- gtp1 9
-		t["R00B"][112][1] = "플랑드르 스칼렛 Upgrade - 9Lv";
+		t["R00B"][112][1] = "Flandre Scarlet Upgrade - 9Lv";
 -- gtp1 10
-		t["R00B"][113][1] = "플랑드르 스칼렛 Upgrade - |c00ff0000마스터|r";
+		t["R00B"][113][1] = "Flandre Scarlet Upgrade - |c00ff0000마스터|r";
 -- gtp1 11
 		t["R00B"][114][1] = "Sho Toramaru Upgrade - 11Lv";
 -- gtp1 12
@@ -3820,12 +3820,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00R"][55][1] = "히지리 뱌쿠렌 Upgrade[R]";
+		t["R00R"][55][1] = "Byakuren Hijiri Upgrade[R]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00R"][59][1] = "히지리 뱌쿠렌 Upgrade";
+		t["R00R"][59][1] = "Byakuren Hijiri Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -3871,15 +3871,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00R"][104][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 1Lv";
+		t["R00R"][104][1] = "Byakuren Hijiri Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R00R"][105][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 2Lv";
+		t["R00R"][105][1] = "Byakuren Hijiri Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R00R"][106][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 3Lv";
+		t["R00R"][106][1] = "Byakuren Hijiri Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R00R"][107][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - 4Lv";
+		t["R00R"][107][1] = "Byakuren Hijiri Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R00R"][108][1] = "히지리 뱌쿠렌 Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
+		t["R00R"][108][1] = "Byakuren Hijiri Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4083,15 +4083,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00T"][104][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 1Lv";
+		t["R00T"][104][1] = "Yukari Yakumo Upgrade|cffffcc00(W)|r - 1Lv";
 -- gtp1 2
-		t["R00T"][105][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 2Lv";
+		t["R00T"][105][1] = "Yukari Yakumo Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["R00T"][106][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 3Lv";
+		t["R00T"][106][1] = "Yukari Yakumo Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["R00T"][107][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - 4Lv";
+		t["R00T"][107][1] = "Yukari Yakumo Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["R00T"][108][1] = "야쿠모 유카리 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["R00T"][108][1] = "Yukari Yakumo Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4196,7 +4196,7 @@ TPT_upgrades_loader = function(t)
 -- greq 5
 -- [R00U]
 -- gnam 1
-		t["R00U"][1][1] = "카자미 유카 Upgrade[Q]";
+		t["R00U"][1][1] = "Yuuka Kazami Upgrade[Q]";
 -- gef1
 -- ghk1 1
 -- greq 1
@@ -4303,15 +4303,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00U"][105][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 1Lv";
+		t["R00U"][105][1] = "Yuuka Kazami Upgrade|cffffcc00(Q)|r - 1Lv";
 -- gtp1 2
-		t["R00U"][106][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 2Lv";
+		t["R00U"][106][1] = "Yuuka Kazami Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["R00U"][107][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 3Lv";
+		t["R00U"][107][1] = "Yuuka Kazami Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["R00U"][108][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - 4Lv";
+		t["R00U"][108][1] = "Yuuka Kazami Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["R00U"][109][1] = "카자미 유카 Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
+		t["R00U"][109][1] = "Yuuka Kazami Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4731,15 +4731,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00W"][105][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 1Lv";
+		t["R00W"][105][1] = "Suwako Moriya Upgrade|cffffcc00(S)|r - 1Lv";
 -- gtp1 2
-		t["R00W"][106][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 2Lv";
+		t["R00W"][106][1] = "Suwako Moriya Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R00W"][107][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 3Lv";
+		t["R00W"][107][1] = "Suwako Moriya Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R00W"][108][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - 4Lv";
+		t["R00W"][108][1] = "Suwako Moriya Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R00W"][109][1] = "모리야 스와코 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R00W"][109][1] = "Suwako Moriya Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -4786,7 +4786,7 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R00W"][155][1] = "*모리야 스와코의 공격력을 35000 증가시키고 공격속도를 15% 상승시킵니다. 추가로 『테나가아시나가님』의 발동 확률이 1% 증가합니다.\r\
+		t["R00W"][155][1] = "*Suwako Moriya의 공격력을 35000 증가시키고 공격속도를 15% 상승시킵니다. 추가로 『테나가아시나가님』의 발동 확률이 1% 증가합니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : *스와코가 자신의 영역에 발을 들이는 적에게 저주를 내립니다. 라인존에 나타나는 적이 받는 마법 데미지를 12% 증폭시키고, 체력을 7% 감소시킵니다.";
 -- gub1 2
@@ -6239,15 +6239,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00L"][104][1] = "순호 Upgrade|cffffcc00(E)|r - 1Lv";
+		t["R00L"][104][1] = "Junko Upgrade|cffffcc00(E)|r - 1Lv";
 -- gtp1 2
-		t["R00L"][105][1] = "순호 Upgrade|cffffcc00(E)|r - 2Lv";
+		t["R00L"][105][1] = "Junko Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R00L"][106][1] = "순호 Upgrade|cffffcc00(E)|r - 3Lv";
+		t["R00L"][106][1] = "Junko Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R00L"][107][1] = "순호 Upgrade|cffffcc00(E)|r - 4Lv";
+		t["R00L"][107][1] = "Junko Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R00L"][108][1] = "순호 Upgrade|cffffcc00(E)|r - c00ff0000마스터|r";
+		t["R00L"][108][1] = "Junko Upgrade|cffffcc00(E)|r - c00ff0000마스터|r";
 -- gtp1 6
 		t["R00L"][109][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 6Lv";
 -- gtp1 7
@@ -6299,7 +6299,7 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R00L"][154][1] = "순호의 공격력이 25000, 공격속도가 16% 상승합니다.『떨며 얼어붙는 별』의 발동 확률이 0.5% 상승합니다.\r\
+		t["R00L"][154][1] = "Junko의 공격력이 25000, 공격속도가 16% 상승합니다.『떨며 얼어붙는 별』의 발동 확률이 0.5% 상승합니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : 『손바닥의 순광』,『떨며 얼어붙는 별』의 스킬 데미지가 20% 상승합니다.";
 -- gub1 2
@@ -6416,12 +6416,12 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01D"][55][1] = "호리카와 라이코 Upgrade[A]";
+		t["R01D"][55][1] = "Raiko Horikawa Upgrade[A]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R01D"][59][1] = "토요사토미미노 미코 Upgrade";
+		t["R01D"][59][1] = "Toyosatomimi no Miko Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -6467,25 +6467,25 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01D"][104][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 1Lv";
+		t["R01D"][104][1] = "Raiko Horikawa Upgrade|cffffcc00(A)|r - 1Lv";
 -- gtp1 2
-		t["R01D"][105][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 2Lv";
+		t["R01D"][105][1] = "Raiko Horikawa Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R01D"][106][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 3Lv";
+		t["R01D"][106][1] = "Raiko Horikawa Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R01D"][107][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - 4Lv";
+		t["R01D"][107][1] = "Raiko Horikawa Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R01D"][108][1] = "호리카와 라이코 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R01D"][108][1] = "Raiko Horikawa Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 6
-		t["R01D"][109][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 6Lv";
+		t["R01D"][109][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(S)|r - 6Lv";
 -- gtp1 7
-		t["R01D"][110][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 7Lv";
+		t["R01D"][110][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(S)|r - 7Lv";
 -- gtp1 8
-		t["R01D"][111][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 8Lv";
+		t["R01D"][111][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(S)|r - 8Lv";
 -- gtp1 9
-		t["R01D"][112][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - 9Lv";
+		t["R01D"][112][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(S)|r - 9Lv";
 -- gtp1 10
-		t["R01D"][113][1] = "토요사토미미노 미코 Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
+		t["R01D"][113][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(S)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
@@ -6801,7 +6801,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 10
 -- [R01G]
 -- gnam 1
-		t["R01G"][1][1] = "토요사토미미노 미코 Upgrade[Q]";
+		t["R01G"][1][1] = "Toyosatomimi no Miko Upgrade[Q]";
 -- gef1
 -- ghk1 1
 -- greq 1
@@ -6908,15 +6908,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01G"][105][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 1Lv";
+		t["R01G"][105][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(Q)|r - 1Lv";
 -- gtp1 2
-		t["R01G"][106][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 2Lv";
+		t["R01G"][106][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["R01G"][107][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 3Lv";
+		t["R01G"][107][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["R01G"][108][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - 4Lv";
+		t["R01G"][108][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["R01G"][109][1] = "토요사토미미노 미코 Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
+		t["R01G"][109][1] = "Toyosatomimi no Miko Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -8295,7 +8295,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01F"][55][1] = "우사미 스미레코 Upgrade[R]";
+		t["R01F"][55][1] = "Sumireko Usami Upgrade[R]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -8345,15 +8345,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01F"][104][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 1Lv";
+		t["R01F"][104][1] = "Sumireko Usami Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R01F"][105][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 2Lv";
+		t["R01F"][105][1] = "Sumireko Usami Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R01F"][106][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 3Lv";
+		t["R01F"][106][1] = "Sumireko Usami Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R01F"][107][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - 4Lv";
+		t["R01F"][107][1] = "Sumireko Usami Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R01F"][108][1] = "우사미 스미레코 Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
+		t["R01F"][108][1] = "Sumireko Usami Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
