@@ -244,12 +244,12 @@ TPT_items_loader = function(t)
 		t["tint"][8][1] = "e032";
 -- [rwat]
 -- utip
-		t["rwat"][2][1] = "Purchase 『고대와 환상의 조각』|cffffcc00(W)|r";
+		t["rwat"][2][1] = "Purchase 『Fragment of Ancients and Fantasy』|cffffcc00(W)|r";
 -- utub
 		t["rwat"][3][1] = "*히스토릭과 판타즘 유닛 조합을 위한 조각입니다.\r\
 *최대 2개까지 구입가능합니다.";
 -- unam
-		t["rwat"][4][1] = "『고대와 환상의 조각』";
+		t["rwat"][4][1] = "『Fragment of Ancients and Fantasy』";
 -- icid
 -- [skul]
 -- utip

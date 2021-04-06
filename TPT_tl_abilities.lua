@@ -16,7 +16,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
-		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Hieda no Akyuu[Epic] + Kochiya Sanae[Unique] + 고대와 환상의 조각\r\
+		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Hieda no Akyuu[Epic] + Kochiya Sanae[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
 [Attack Speed]: 0.67 Cooldown\r\
@@ -1177,7 +1177,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- anam
 -- atar 1
 -- aub1 1
-		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Fujiwara no Mokou[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
+		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Fujiwara no Mokou[Epic] + Patchouli Knowledge[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 역사를 새기는 자(keine phan)\r\
 \r\
 [Attack Speed]: 0.28 Cooldown\r\
@@ -1574,7 +1574,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 		t["Amgl"][3][1] = "|c00FEE952[Unit Information]|r - Hoshiguma Yuugi[Phantasm]";
 -- anam
 -- aub1 1
-		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] + Hecatia Lapislazuli[Epic] + Hoshiguma Yuugi[Unique] + 고대와 환상의 조각\r\
+		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] + Hecatia Lapislazuli[Epic] + Hoshiguma Yuugi[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 군자불어괴력난신(yuugi phan)\r\
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
@@ -2152,7 +2152,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- [Amgr]
 -- arac
 -- aub1 1
-		t["Amgr"][2][1] = "|c00A8F13A[Combination]|r: Doremy Sweet[Epic] + Namazu[Epic] + Unknown[Unique] + 고대와 환상의 조각\r\
+		t["Amgr"][2][1] = "|c00A8F13A[Combination]|r: Doremy Sweet[Epic] + Namazu[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 350\r\
@@ -3266,7 +3266,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 		t["ANd1"][3][1] = "BTN\\BTNPatch.blp";
 -- anam
 -- aub1 1
-		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + Sukuna Shinmyoumaru[Epic] + Patchouli Knowledge[Unique] + 고대와 환상의 조각\r\
+		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + Sukuna Shinmyoumaru[Epic] + Patchouli Knowledge[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 락트 걸(patche phan)\r\
 \r\
 [Attack Speed]: 0.47 Cooldown\r\
@@ -3277,7 +3277,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- atp1 1
 		t["ANdb"][1][1] = "|c00FEE952[Unit Information]|r - Kawashiro Nitori[Phantasm]";
 -- aub1 1
-		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] + Nue Houjuu[Epic] + Kawashiro Nitori[Magic] + 고대와 환상의 조각\r\
+		t["ANdb"][2][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] + Nue Houjuu[Epic] + Kawashiro Nitori[Magic] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 언더워터 카모플라쥬(nitori phan)\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
@@ -3293,7 +3293,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- atp1 1
 		t["Acdb"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Phantasm]";
 -- aub1 1
-		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Epic] + Mononobe no Futo[Epic] + Yatadera Narumi[Unique] + 고대와 환상의 조각\r\
+		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Epic] + Mononobe no Futo[Epic] + Yatadera Narumi[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 윈터버스터(letty phan)\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
@@ -3395,7 +3395,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- atp1 1
 		t["A006"][5][1] = "|c00ffff00Luna Child|r Combination|c00FF8040[W]|r";
 -- aub1 1
-		t["A006"][6][1] = "Wriggle Nightbug + Big Fairy";
+		t["A006"][6][1] = "Wriggle Nightbug + Great Fairy";
 -- ahky
 -- acat
 		t["A006"][8][1] = "h00H,h00E";
@@ -4043,7 +4043,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- atp1 1
 		t["A024"][8][1] = "|c00FEE952[Unit Information]|r - 카나 아나베랄[Historic]";
 -- aub1 1
-		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + 고대와 환상의 조각\r\
+		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 420[Air movement]\r\
@@ -4177,7 +4177,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- atp1 1
 		t["A02T"][2][1] = "|c00FEE952[Unit Information]|r - Houraisan Kaguya[Phantasm]";
 -- aub1 1
-		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Kanako Yasaka[Epic] + Fragment of the Moon + 고대와 환상의 조각\r\
+		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Kanako Yasaka[Epic] + Fragment of the Moon + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 라스트 엑자일(kaguya phan)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
@@ -5104,7 +5104,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- acat
 		t["A03V"][5][1] = "h033,hlum,h00U";
 -- aub1 1
-		t["A03V"][6][1] = "Namazu[Epic] + Nagae Iku[Unique] + 고대와 환상의 조각";
+		t["A03V"][6][1] = "Namazu[Epic] + Nagae Iku[Unique] + Fragment of Ancients and Fantasy";
 -- atp1 2
 		t["A03V"][8][1] = "극부『뇌운극어』- 진화버튼 |c00EEA011R|r";
 -- atp1 3
@@ -5245,7 +5245,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A041"][2][1] = "|c00FEE952[Unit Information]|r - Rumia[Phantasm]";
 -- aub1 1
-		t["A041"][3][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + Nishida Satono[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
+		t["A041"][3][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + Nishida Satono[Epic] + Rumia EX[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 다크사이드 오브 더 문(rumia phan)\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
@@ -7145,7 +7145,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A05K"][107][1] = "|c00FEE952[Unit Information]|r - Fujiwara no Mokou[Phantasm]";
 -- aub1 1
-		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: Fujiwara no Mokou[Epic] + Kanako Yasaka[Epic] + Kamishirasawa Keine[Unique] + 고대와 환상의 조각\r\
+		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: Fujiwara no Mokou[Epic] + Kanako Yasaka[Epic] + Kamishirasawa Keine[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 키메라 피닉스(mokou phan)\r\
 \r\
 [Attack Speed]: 0.28 Cooldown\r\
@@ -8342,7 +8342,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A083"][10][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- aub1 1
-		t["A083"][11][1] = "Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + 고대와 환상의 조각 = Kotohime";
+		t["A083"][11][1] = "Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy = Kotohime";
 -- atp1 2
 		t["A083"][12][1] = "월부『감색의 광몽』- 습득 완료";
 -- aub1 2
@@ -11289,7 +11289,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0B7"][5][1] = "|c00ffff00Sunny Milk|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0B7"][7][1] = "Shizuha Aki + Big Fairy";
+		t["A0B7"][7][1] = "Shizuha Aki + Great Fairy";
 -- ahky
 -- alig
 -- atat
@@ -11633,7 +11633,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A007"][5][1] = "|c00ffff00Star Sapphire|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A007"][6][1] = "Wakasagihime + Big Fairy";
+		t["A007"][6][1] = "Wakasagihime + Great Fairy";
 -- ahky
 -- acat
 		t["A007"][8][1] = "hpea,h00E";
@@ -11782,7 +11782,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0C2"][6][1] = "|c00ffff00Lily White|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0C2"][8][1] = "Big Fairy + Small Divine Spirit";
+		t["A0C2"][8][1] = "Great Fairy + Small Divine Spirit";
 -- ahky
 -- alig
 -- atat
@@ -12130,7 +12130,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A0CK"][4][1] = "BTN\\BTNdai.blp";
 -- atp1 1
-		t["A0CK"][5][1] = "|c00ffff00Big Fairy|r Combination|c00FF8040[D]|r";
+		t["A0CK"][5][1] = "|c00ffff00Great Fairy|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0CK"][6][1] = "Fairy + Fairy";
 -- ahky
@@ -12964,7 +12964,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0DU"][3][1] = "|c00FEE952[Unit Information]|r - Big Fairy[Magic]";
+		t["A0DU"][3][1] = "|c00FEE952[Unit Information]|r - Great Fairy[Magic]";
 -- aub1 1
 		t["A0DU"][4][1] = "|c00A8F13A[Combination]|r: Fairy[Normal] + Fairy[Normal]\r\
 \r\
@@ -13014,7 +13014,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Phantasm]";
 -- aub1 1
-		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Koishi Komeiji[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
+		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Koishi Komeiji[Epic] + Izayoi Sakuya[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: Devil의 메이드(sakuya phan)\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
@@ -13088,7 +13088,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0E5"][3][1] = "|c00FEE952[Unit Information]|r - Sunny Milk[Rare]";
 -- aub1 1
-		t["A0E5"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + Big Fairy[Magic]\r\
+		t["A0E5"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + Great Fairy[Magic]\r\
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13172,7 +13172,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0EC"][3][1] = "|c00FEE952[Unit Information]|r - Star Sapphire[Rare]";
 -- aub1 1
-		t["A0EC"][4][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Big Fairy[Magic]\r\
+		t["A0EC"][4][1] = "|c00A8F13A[Combination]|r: Wakasagihime[Magic] + Great Fairy[Magic]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13184,7 +13184,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0ED"][3][1] = "|c00FEE952[Unit Information]|r - Cirno[Rare]";
 -- aub1 1
-		t["A0ED"][4][1] = "|c00A8F13A[Combination]|r: Big Fairy[Magic] + Blue UFO[Rare]\r\
+		t["A0ED"][4][1] = "|c00A8F13A[Combination]|r: Great Fairy[Magic] + Blue UFO[Rare]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13220,7 +13220,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0EG"][3][1] = "|c00FEE952[Unit Information]|r - Lily White[Rare]";
 -- aub1 1
-		t["A0EG"][4][1] = "|c00A8F13A[Combination]|r: Big Fairy[Magic] + Small Divine Spirit[Magic]\r\
+		t["A0EG"][4][1] = "|c00A8F13A[Combination]|r: Great Fairy[Magic] + Small Divine Spirit[Magic]\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13282,7 +13282,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0EL"][3][1] = "|c00FEE952[Unit Information]|r - Luna Child[Rare]";
 -- aub1 1
-		t["A0EL"][4][1] = "|c00A8F13A[Combination]|r: Big Fairy[Magic]  +Wriggle Nightbug[Magic] \r\
+		t["A0EL"][4][1] = "|c00A8F13A[Combination]|r: Great Fairy[Magic]  +Wriggle Nightbug[Magic] \r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -15405,7 +15405,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- aub1 1
-		t["A0JE"][3][1] = "Cirno[Minus K] + 테레이다 마이[Epic] + Remilia Scarlet[Epic] + 고대와 환상의 조각 = Kurumi";
+		t["A0JE"][3][1] = "Cirno[Minus K] + 테레이다 마이[Epic] + Remilia Scarlet[Epic] + Fragment of Ancients and Fantasy = Kurumi";
 -- atp1 1
 		t["A0JE"][4][1] = "|c00ffff00Kurumi|r Combination|c00FF8040[F]|r";
 -- aart
@@ -15869,7 +15869,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0K8"][9][1] = "『호수의 영혼』|cffffcc00(Q)|r";
 -- aub1 1
-		t["A0K8"][10][1] = "*대상 Fairy[Normal]을 Big Fairy[Magic]으로 바꿉니다.\r\
+		t["A0K8"][10][1] = "*대상 Fairy[Normal]을 Great Fairy[Magic]으로 바꿉니다.\r\
 *Cooldown 240초";
 -- anam
 		t["A0K8"][11][1] = "[진영]Misty Lake_Q";
@@ -16364,7 +16364,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0J0"][6][1] = "|c00ffff00카나 아나베랄|r Combination|c00FF8040[F]|r";
 -- aub1 1
-		t["A0J0"][7][1] = "Kagiyama Hina[액신] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + 고대와 환상의 조각";
+		t["A0J0"][7][1] = "Kagiyama Hina[액신] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + Fragment of Ancients and Fantasy";
 -- ahky
 -- arac
 -- alig
@@ -17214,7 +17214,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0KQ"][4][1] = "|c00FEE952[Unit Information]|r - Mugetsu[Historic]";
 -- aub1 1
-		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + 고대와 환상의 조각\r\
+		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 1.2 Cooldown\r\
 [Movement Speed]: 335\r\
@@ -18037,7 +18037,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0L5"][3][1] = "|c00FEE952[Unit Information]|r - Sariel[Historic]";
 -- aub1 1
-		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각\r\
+		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
@@ -18049,7 +18049,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A05O"][4][1] = "ReplaceableTextures\\CommandButtons\\Yumemi\\BTN_UP.blp";
 -- aub1 1
-		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각 = Yumemi Okazaki";
+		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + Fragment of Ancients and Fantasy = Yumemi Okazaki";
 -- atp1 1
 		t["A05O"][6][1] = "|c00ffff00Yumemi Okazaki|r Combination|c00FF8040[F]|r";
 -- anam
@@ -18249,7 +18249,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A05P"][3][1] = "|c00FEE952[Unit Information]|r - Yumemi Okazaki[Historic]";
 -- aub1 1
-		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각\r\
+		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
@@ -18259,7 +18259,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0CN"][5][1] = "Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각 = Sariel";
+		t["A0CN"][5][1] = "Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + Fragment of Ancients and Fantasy = Sariel";
 -- atp1 1
 		t["A0CN"][6][1] = "|c00ffff00Sariel|r Combination|c00FF8040[F]|r";
 -- anam
@@ -18813,7 +18813,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - Shinki[Historic]";
 -- aub1 1
-		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + 고대와 환상의 조각\r\
+		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
 [Movement Speed]: 420\r\
@@ -18824,7 +18824,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + 고대와 환상의 조각 = Shinki";
+		t["A03R"][5][1] = "Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + Fragment of Ancients and Fantasy = Shinki";
 -- atp1 1
 		t["A03R"][6][1] = "|c00ffff00Shinki|r Combination|c00FF8040[F]|r";
 -- anam
@@ -19927,7 +19927,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- arac
 -- aart
 -- aub1 1
-		t["A0CJ"][5][1] = "Big Fairy + Blue UFO";
+		t["A0CJ"][5][1] = "Great Fairy + Blue UFO";
 -- atp1 1
 		t["A0CJ"][6][1] = "|c00ffff00Cirno|r Combination|c00FF8040[F]|r";
 -- anam
@@ -19961,7 +19961,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- atp1 1
 		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Phantasm]";
 -- aub1 1
-		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + Utsuho Reiuji[Epic] + Imaizumi Kagerou[Unique] + 고대와 환상의 조각\r\
+		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + Utsuho Reiuji[Epic] + Imaizumi Kagerou[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 워터 솔져(hime phan)\r\
 \r\
 [Attack Speed]: 0.54 Cooldown\r\
@@ -20453,7 +20453,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- atp1 1
 		t["A0AH"][3][1] = "|c00FEE952[Unit Information]|r - Gengetsu[Historic]";
 -- aub1 1
-		t["A0AH"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + Yuyuko Saigyouji[Unique]  + 고대와 환상의 조각\r\
+		t["A0AH"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + Yuyuko Saigyouji[Unique]  + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 420\r\
@@ -20493,7 +20493,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- arac
 -- aart
 -- aub1 1
-		t["A0DA"][5][1] = "Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + Yuyuko Saigyouji[Unique] + 고대와 환상의 조각 = Gengetsu";
+		t["A0DA"][5][1] = "Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + Yuyuko Saigyouji[Unique] + Fragment of Ancients and Fantasy = Gengetsu";
 -- atp1 1
 		t["A0DA"][6][1] = "|c00ffff00Gengetsu|r Combination|c00FF8040[F]|r";
 -- anam
@@ -20783,7 +20783,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- aart
 		t["A0MC"][4][1] = "ReplaceableTextures\\CommandButtons\\Elly\\BTN_UP.blp";
 -- aub1 1
-		t["A0MC"][5][1] = "Shikieiki Yamaxanadu + Kamishirasawa Keine EX + Lily Black + 고대와 환상의 조각 = Elly";
+		t["A0MC"][5][1] = "Shikieiki Yamaxanadu + Kamishirasawa Keine EX + Lily Black + Fragment of Ancients and Fantasy = Elly";
 -- atp1 1
 		t["A0MC"][6][1] = "|c00ffff00Elly|r Combination|c00FF8040[F]|r";
 -- anam
@@ -20799,7 +20799,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- atp1 1
 		t["A0MD"][3][1] = "|c00FEE952[Unit Information]|r - Elly[Historic]";
 -- aub1 1
-		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Kamishirasawa Keine EX[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
+		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Kamishirasawa Keine EX[Epic] + Lily Black[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 420\r\
@@ -22776,7 +22776,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- atp1 1
 		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - Mima[Historic]";
 -- aub1 1
-		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Yakumo Ran[Epic] + Soga no Tojiko[Unique] + 고대와 환상의 조각\r\
+		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Yakumo Ran[Epic] + Soga no Tojiko[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 420\r\
@@ -22790,7 +22790,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- atp1 1
 		t["A03G"][3][1] = "|c00FEE952[Unit Information]|r - 유메코[Historic]";
 -- aub1 1
-		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: Koishi Komeiji[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
+		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: Koishi Komeiji[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.31 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
@@ -22916,7 +22916,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- arac
 -- aart
 -- aub1 1
-		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + Soga no Tojiko + 고대와 환상의 조각 = Mima";
+		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + Soga no Tojiko + Fragment of Ancients and Fantasy = Mima";
 -- atp1 1
 		t["A0IK"][6][1] = "|c00ffff00Mima|r Combination|c00FF8040[F]|r";
 -- anam
@@ -22997,7 +22997,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- [A0N3]
 -- arac
 -- aub1 1
-		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Clownpiece[Epic] + Arcanist's Book + 고대와 환상의 조각\r\
+		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Clownpiece[Epic] + Arcanist's Book + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 하니와 커맨더(mayumi arc)\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
@@ -23409,7 +23409,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0GI"][5][1] = "|c00ffff00Watatsuki no Toyohime|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0GI"][7][1] = "Watatsuki no Toyohime[Special] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + Unique Soul 3개";
+		t["A0GI"][7][1] = "Watatsuki no Toyohime[Special] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + 3 Unique Souls";
 -- ahky
 -- atat
 		t["A0GI"][11][1] = "h02X";
@@ -23423,7 +23423,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0HE"][6][1] = "|c00ffff00『달의 수호자』|r|c00FF8040[D]|r";
 -- aub1 1
 		t["A0HE"][7][1] = "*요리히메가 지상의 더러움을 Lunar Capital에서 차단시키기 위한 수단을 취합니다.\r\
-*자경단 미션 보스인 [초거Big Fairy - 릴리 빅]에게 사용시 즉사시키고 강신『이시코리도메노미코토』스킬을 얻습니다.";
+*자경단 미션 보스인 [초거Great Fairy - 릴리 빅]에게 사용시 즉사시키고 강신『이시코리도메노미코토』스킬을 얻습니다.";
 -- aart
 -- atar 1
 -- ahky
@@ -23789,13 +23789,13 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0NH"][7][1] = "『묵화』-『신검합일 상승경지』";
 -- aub1 2
 -- aub1 3
-		t["A0NH"][9][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic Units보다 월등한 공격력을 가졌지만 Attack Speed를 일부 희생했습니다. Upgrade로 Attack Speed가 오르지 않으며, 기본적으로 느린 Attack Speed를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
-|c00FF0000콘가라가 신검합일의 상승 경지에 이르렀습니다. 공격력이 750000 상승하고, Attack Speed가 45% 상승합니다.|r";
+		t["A0NH"][9][1] = "Kongara는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. Kongara는 다른 Historic Units보다 월등한 공격력을 가졌지만 Attack Speed를 일부 희생했습니다. Upgrade로 Attack Speed가 오르지 않으며, 기본적으로 느린 Attack Speed를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
+|c00FF0000Kongara가 신검합일의 상승 경지에 이르렀습니다. 공격력이 750000 상승하고, Attack Speed가 45% 상승합니다.|r";
 -- atp1 4
 		t["A0NH"][10][1] = "『묵화』-『신검합일 제일경지』";
 -- aub1 4
-		t["A0NH"][11][1] = "콘가라는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. 콘가라는 다른 Historic Units보다 월등한 공격력을 가졌지만 Attack Speed를 일부 희생했습니다. Upgrade로 Attack Speed가 오르지 않으며, 기본적으로 느린 Attack Speed를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
-|c00FF0000콘가라가 신검합일의 제일 경지에 이르렀습니다. 공격력이 2500000 상승하고, Attack Speed가 25% 상승합니다.|r";
+		t["A0NH"][11][1] = "Kongara는 10번,20번,30번 공격할때마다 다음번의 스킬을 무조건 발동시킵니다. 공격시 발동은 서로 중첩되지 않습니다. Kongara는 다른 Historic Units보다 월등한 공격력을 가졌지만 Attack Speed를 일부 희생했습니다. Upgrade로 Attack Speed가 오르지 않으며, 기본적으로 느린 Attack Speed를 가집니다. 또한 평타 공격에 의한 범위 데미지가 없습니다.\r\
+|c00FF0000Kongara가 신검합일의 제일 경지에 이르렀습니다. 공격력이 2500000 상승하고, Attack Speed가 25% 상승합니다.|r";
 -- arac
 -- [A0NI]
 -- arac
@@ -23803,37 +23803,37 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- atp1 1
 		t["A0NI"][3][1] = "발도『나생문』";
 -- aub1 1
-		t["A0NI"][4][1] = "*콘가라가 공격시 30% 확률로 대상 Units의 현재 체력의 8%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
+		t["A0NI"][4][1] = "*Kongara가 공격시 30% 확률로 대상 Units의 현재 체력의 8%에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
 [보스의 경우 전체 체력의 0.4%+75만의 추가 물리 데미지를 입힙니다]\r\
-*콘가라가 공격시 12% 확률로 칼을 빠르게 뽑아내어 대상 지점을 갈라버립니다. 지점 주변 600범위내에 있는 적에게 현재 체력의 0.6% + 88만의 |c00FF6464물리 데미지|r를 입힙니다.";
+*Kongara가 공격시 12% 확률로 칼을 빠르게 뽑아내어 대상 지점을 갈라버립니다. 지점 주변 600범위내에 있는 적에게 현재 체력의 0.6% + 88만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- [A0NK]
 -- anam
-		t["A0NK"][2][1] = "[콘가라]";
+		t["A0NK"][2][1] = "[Kongara]";
 -- aart
 -- atp1 1
 -- aub1 1
-		t["A0NK"][5][1] = "*콘가라가 공격시 10% 확률로 대상 지점에 적이 눈치채지도 못할 정도로 빠른 검격을 날립니다. 대상 지점 주변 650범위 내에 있는 적에게 200만의 |c00FF6464물리 데미지|r를 입히고 마나를 4 회복합니다.\r\
-*콘가라가 공격시 25% 확률로 5배의 치명타를 입힙니다.";
+		t["A0NK"][5][1] = "*Kongara가 공격시 10% 확률로 대상 지점에 적이 눈치채지도 못할 정도로 빠른 검격을 날립니다. 대상 지점 주변 650범위 내에 있는 적에게 200만의 |c00FF6464물리 데미지|r를 입히고 마나를 4 회복합니다.\r\
+*Kongara가 공격시 25% 확률로 5배의 치명타를 입힙니다.";
 -- [A0NL]
 -- anam
 -- aart
 		t["A0NL"][3][1] = "ReplaceableTextures\\CommandButtons\\Kongara\\BTN_UP.blp";
 -- atp1 1
-		t["A0NL"][4][1] = "|c00FEE952[Unit Information]|r - 콘가라[Historic]";
+		t["A0NL"][4][1] = "|c00FEE952[Unit Information]|r - Kongara[Historic]";
 -- aub1 1
-		t["A0NL"][5][1] = "|c00A8F13A[Combination]|r: Nishida Satono[Epic] + Suika Ibuki[Unique] + Unique Soul 3개 + 고대와 환상의 조각\r\
+		t["A0NL"][5][1] = "|c00A8F13A[Combination]|r: Nishida Satono[Epic] + Suika Ibuki[Unique] + 3 Unique Souls + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.28 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 콘가라 Upgrade";
+|c00F8BA54[Upgrade]|r : Kongara Upgrade";
 -- arac
 -- [A0NM]
 -- arac
 -- aart
 -- aub1 1
-		t["A0NM"][5][1] = "Nishida Satono[Epic] + Suika Ibuki[Unique] + Unique Soul 3개 + 고대와 환상의 조각 = 콘가라";
+		t["A0NM"][5][1] = "Nishida Satono[Epic] + Suika Ibuki[Unique] + 3 Unique Souls + Fragment of Ancients and Fantasy = Kongara";
 -- atp1 1
-		t["A0NM"][6][1] = "|c00ffff00콘가라|r Combination|c00FF8040[F]|r";
+		t["A0NM"][6][1] = "|c00ffff00Kongara|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0NM"][8][1] = "ufro,h035,h05U,e03C";
@@ -26971,7 +26971,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- aart
 -- aub1 1
-		t["A0PE"][5][1] = "Koishi Komeiji[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Special Stopwatch] + 고대와 환상의 조각 = 유메코";
+		t["A0PE"][5][1] = "Koishi Komeiji[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Special Stopwatch] + Fragment of Ancients and Fantasy = 유메코";
 -- atp1 1
 		t["A0PE"][6][1] = "|c00ffff00유메코|r Combination|c00FF8040[F]|r";
 -- anam
@@ -27624,7 +27624,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- aart
 -- aub1 1
-		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + Namazu[Epic] + Unknown[Unique] + 고대와 환상의 조각 = ";
+		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + Namazu[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy = ";
 -- atp1 1
 		t["A0Q2"][6][1] = "|c00ffff00|r Combination|c00FF8040[F]|r";
 -- anam
@@ -29490,7 +29490,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A03K"][2][1] = "|c00FEE952[Unit Information]|r - Kurumi[Historic]";
 -- aub1 1
-		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Teireida Mai[Epic] + Remilia Scarlet[Epic] + 고대와 환상의 조각\r\
+		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Teireida Mai[Epic] + Remilia Scarlet[Epic] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.43 Cooldown\r\
 [Movement Speed]: 350\r\
@@ -33002,7 +33002,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- arac
 -- aart
 -- aub1 1
-		t["A0QV"][5][1] = "Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + 고대와 환상의 조각 = Mugetsu";
+		t["A0QV"][5][1] = "Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + Fragment of Ancients and Fantasy = Mugetsu";
 -- atp1 1
 		t["A0QV"][6][1] = "|c00ffff00Mugetsu|r Combination|c00FF8040[D]|r";
 -- anam
@@ -33019,7 +33019,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - Kishin Sagume[Phantasm]";
 -- aub1 1
-		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Kijin Seija[Epic] + Kishin Sagume[Unique] + 고대와 환상의 조각\r\
+		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Kijin Seija[Epic] + Kishin Sagume[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
 [Attack Speed]: 0.49 Cooldown\r\
@@ -33167,7 +33167,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0JC"][2][1] = "|c00FEE952[Unit Information]|r - Renko Usami[Phantasm]";
 -- aub1 1
-		t["A0JC"][3][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Hisoutensoku[Epic] + Renko Usami[Unique] + 고대와 환상의 조각\r\
+		t["A0JC"][3][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Hisoutensoku[Epic] + Renko Usami[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: Phantasm 체이서(renko phan)\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
@@ -34514,8 +34514,8 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0RK"][2][1] = "비검『육도의 갈림길』";
 -- aub1 1
-		t["A0RK"][3][1] = "*콘가라 주변 700범위 적의 방어력을 23 감소시킵니다.\r\
-*콘가라가 공격시 마나를 2씩 회복합니다. 마나가 120이 되었을때 빠른 속도로 대상 지점을 6번 베어냅니다.\r\
+		t["A0RK"][3][1] = "*Kongara 주변 700범위 적의 방어력을 23 감소시킵니다.\r\
+*Kongara가 공격시 마나를 2씩 회복합니다. 마나가 120이 되었을때 빠른 속도로 대상 지점을 6번 베어냅니다.\r\
 *베어진 적에게 현재 체력의 3.5% + 165만의 |c00FF6464물리 데미지|r를 입히며, 2.5 seconds간 99%의 슬로우를 입힙니다.";
 -- anam
 -- aart
@@ -34760,7 +34760,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0QP]
 -- aub1 1
-		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + 고대와 환상의 조각\r\
+		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.36 Cooldown\r\
 [Movement Speed]: 450\r\
@@ -36284,7 +36284,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0R6"][4][1] = "|c00FEE952[Unit Information]|r - Tewi Inaba[Phantasm]";
 -- aub1 1
-		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + 고대와 환상의 조각\r\
+		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 에인션트 듀퍼(tewi phan)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
@@ -36358,7 +36358,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0S0"][4][1] = "|c00FEE952[Unit Information]|r - Meira[Historic]";
 -- aub1 1
-		t["A0S0"][5][1] = "|c00A8F13A[Combination]|r: Ghost Orchestra[Phantom Ensemble] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
+		t["A0S0"][5][1] = "|c00A8F13A[Combination]|r: Ghost Orchestra[Phantom Ensemble] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 450\r\
@@ -36417,7 +36417,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0S3"][5][1] = "Ghost Orchestra[Epic] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각";
+		t["A0S3"][5][1] = "Ghost Orchestra[Epic] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + Fragment of Ancients and Fantasy";
 -- atp1 1
 		t["A0S3"][6][1] = "|c00ffff00Meira|r Combination|c00FF8040[D]|r";
 -- anam
@@ -36671,7 +36671,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0SC"][1][1] = "|c00FEE952[Unit Information]|r - Ichirin Kumoi[Phantasm]";
 -- aub1 1
-		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Epic] + Houraisan Kaguya[Epic] + Ichirin Kumoi[Unique] + 고대와 환상의 조각\r\
+		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Epic] + Houraisan Kaguya[Epic] + Ichirin Kumoi[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 구름 승려(ichirin phan)\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
@@ -37707,7 +37707,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0SL"][2][1] = "|c00FEE952[Unit Information]|r - Soga no Tojiko[Phantasm]";
 -- aub1 1
-		t["A0SL"][3][1] = "|c00A8F13A[Combination]|r: Namazu[Epic] + Ghost Orchestra[Epic] + Soga no Tojiko[Unique] + 고대와 환상의 조각\r\
+		t["A0SL"][3][1] = "|c00A8F13A[Combination]|r: Namazu[Epic] + Ghost Orchestra[Epic] + Soga no Tojiko[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 망령은 말하지 않는다(tojiko phan)\r\
 \r\
 [Attack Speed]: 0.41 Cooldown\r\
@@ -37933,7 +37933,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0SQ"][107][1] = "|c00FEE952[Unit Information]|r - Satsuki Rin[Phantasm]";
 -- aub1 1
-		t["A0SQ"][108][1] = "|c00A8F13A[Combination]|r: Unique Soul * 4 + 고대와 환상의 조각 * 2\r\
+		t["A0SQ"][108][1] = "|c00A8F13A[Combination]|r: Unique Soul * 4 + Fragment of Ancients and Fantasy * 2\r\
 |c00A8F13A[Type Command]|r: 인셉션 걸(satsuki phan)\r\
 \r\
 [Attack Speed]: 없음\r\
@@ -39663,7 +39663,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0TW"][3][1] = "|c00FEE952[Unit Information]|r - Elis[Historic]";
 -- aub1 1
-		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
+		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 450\r\
@@ -39782,7 +39782,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0U7"][5][1] = "Remilia Scarlet[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각";
+		t["A0U7"][5][1] = "Remilia Scarlet[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + Fragment of Ancients and Fantasy";
 -- atp1 1
 		t["A0U7"][6][1] = "|c00ffff00Elis|r Combination|c00FF8040[D]|r";
 -- anam

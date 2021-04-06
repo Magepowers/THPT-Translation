@@ -3078,7 +3078,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00E"][7][1] = "Big Fairy - |c000000ffMagic|r";
+		t["h00E"][7][1] = "Great Fairy - |c000000ffMagic|r";
 -- ua1m
 -- umdl
 		t["h00E"][11][1] = "Y_Daiyousei.mdl";
@@ -4009,7 +4009,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- utyp
 -- unam
-		t["e00A"][6][1] = "WAVE10 - Big Fairy";
+		t["e00A"][6][1] = "WAVE10 - Great Fairy";
 -- upgr
 -- umdl
 -- uabi
@@ -6533,7 +6533,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e03A"][6][1] = "퀘스트 몬스터 - 초거Big Fairy - 릴리 빅";
+		t["e03A"][6][1] = "퀘스트 몬스터 - 초거Great Fairy - 릴리 빅";
 -- upgr
 -- umvt
 -- umdl
@@ -6645,7 +6645,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e03C"][6][1] = "『고대와 환상의 조각』";
+		t["e03C"][6][1] = "『Fragment of Ancients and Fantasy』";
 -- umvt
 -- umdl
 		t["e03C"][12][1] = "Objects\\InventoryItems\\runicobject\\runicobject.mdl";
@@ -6796,7 +6796,7 @@ TPT_units_loader = function(t)
 		t["h055"][13][1] = "Selects the Misty Lake faction. Also allows Cirno[Legendary] to be created.\r\
 \r\
 |c0000FF00[Faction Unique Skill]|rSoul of the Lake\r\
-*Changes a target Fairy[Normal] to a Big Fairy[Magic].\r\
+*Changes a target Fairy[Normal] to a Great Fairy[Magic].\r\
 *Cooldown 240 seconds";
 -- utip
 		t["h055"][14][1] = "Misty Lake 선택|cffffcc00(R)|r";
@@ -9069,7 +9069,7 @@ TPT_units_loader = function(t)
 -- usnd
 -- urac
 -- unam
-		t["n00G"][8][1] = "카이바 세토 - |c00959595레퀴엠|N전설의 혼|r";
+		t["n00G"][8][1] = "Seto Kaiba - |c00959595Requiem|NLegendary Soul|r";
 -- ua1t
 -- ua1m
 -- umdl
