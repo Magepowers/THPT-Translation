@@ -231,20 +231,20 @@ TPT_items_loader = function(t)
 -- [tint]
 -- uhot
 -- utip
-		t["tint"][2][1] = "『신비술사의 고서』구입|cffffcc00(Q)|r";
+		t["tint"][2][1] = "Purchase 『Arcanist's Book』|cffffcc00(Q)|r";
 -- utub
-		t["tint"][3][1] = "*아르카나 유닛 조합을 위한 신비술사의 고서입니다.\r\
-*최대 2개까지 구입가능합니다.\r\
-*아르카나 유닛 조합법은 공식 카페에 올라와있습니다.[cafe.naver.com/tmso]";
+		t["tint"][3][1] = "*Arcanist's Book for creating Arcana units.\r\
+*Can buy up to 2.\r\
+*Arcana combination method is listed on the official cafe.[cafe.naver.com/tmso]";
 -- unam
-		t["tint"][5][1] = "『신비술사의 고서』";
+		t["tint"][5][1] = "『Arcanist's Book』";
 -- icid
 		t["tint"][7][1] = "AIam";
 -- ureq
 		t["tint"][8][1] = "e032";
 -- [rwat]
 -- utip
-		t["rwat"][2][1] = "『고대와 환상의 조각』구입|cffffcc00(W)|r";
+		t["rwat"][2][1] = "Purchase 『고대와 환상의 조각』|cffffcc00(W)|r";
 -- utub
 		t["rwat"][3][1] = "*히스토릭과 판타즘 유닛 조합을 위한 조각입니다.\r\
 *최대 2개까지 구입가능합니다.";
@@ -253,13 +253,13 @@ TPT_items_loader = function(t)
 -- icid
 -- [skul]
 -- utip
-		t["skul"][1][1] = "『따뜻한 횃불』";
+		t["skul"][1][1] = "『Warm Torch』";
 -- utub
-		t["skul"][2][1] = "*작을라운피스가 남긴 횃불을 빼앗았습니다. 사용시 대상 지점에 횃불을 설치합니다. 횃불은 맵 전체 자신 소유 유닛의 이동속도를 15% , 공격속도를 5% 증가시킵니다.";
+		t["skul"][2][1] = "*When used, install a torch at the target point. Torches increase the Movement Speed of all units on the map by 15% and Attack Speed by 5%.";
 -- ides
-		t["skul"][3][1] = "*작을라운피스가 남긴 횃불을 빼앗았습니다. 사용시 대상 지점에 횃불을 설치합니다. 횃불은 다음 중 하나의 효과를 랜덤하게 얻습니다.\r\
-*따뜻한 횃불 : 맵 전체 자신 소유 유닛 이동속도 35% 증가\r\
-*뜨거운 횃불 : 맵 전체 자신 소유 유닛 공격속도 5% 증가";
+		t["skul"][3][1] = "*Installs a torch at the target point. The torch randomly gains one of the following effects.\r\
+*Warm Torch : Increase Movement Speed of your units by 35% across the map\r\
+*Hot Torch: Increase Attack Speed of your units by 5% across the map";
 -- unam
 -- ureq
 		t["skul"][5][1] = " ";

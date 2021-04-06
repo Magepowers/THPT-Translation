@@ -670,7 +670,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["hlum"][1][1] = "Avul";
 -- unam
-		t["hlum"][4][1] = "Occultist's Ancient Book - |c0000FF40Arcana|r";
+		t["hlum"][4][1] = "Arcanist's Book - |c0000FF40Arcana|r";
 -- ushb
 -- umdl
 		t["hlum"][10][1] = "Objects\\InventoryItems\\tomeGreen\\tomeGreen.mdl";
@@ -683,7 +683,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["hbar"][5][1] = "yuyuko.mdl";
 -- unam
-		t["hbar"][11][1] = "누군가의 시체 - |c0000FF40Arcana|r|N공주의 망령";
+		t["hbar"][11][1] = "Someone's Dead Body - |c0000FF40Arcana|r|N공주의 망령";
 -- uabi
 -- umvt
 -- [nmed]
@@ -1224,7 +1224,7 @@ TPT_units_loader = function(t)
 		t["ebal"][11][1] = "ancient,undead";
 -- [edoc]
 -- unam
-		t["edoc"][8][1] = "|c00FF0000백랑텐구의 원혼|r|N";
+		t["edoc"][8][1] = "|c00FF0000White Wolf Tengu's Soul|r|N";
 -- uabi
 		t["edoc"][9][1] = "Avul,A01T,Arsk";
 -- umdl
@@ -6987,7 +6987,7 @@ TPT_units_loader = function(t)
 -- [h05K]
 -- urac
 -- unam
-		t["h05K"][6][1] = "카와시로 미토리 - |c00400080Special|r";
+		t["h05K"][6][1] = "Mitori Kawashiro - |c00400080Special|r";
 -- ua1m
 -- umdl
 		t["h05K"][10][1] = "Mitori_dh.mdl";
@@ -7672,7 +7672,7 @@ TPT_units_loader = function(t)
 -- uabi
 -- umdl
 -- unam
-		t["h06W"][3][1] = "|c00400080『달의 조각』|r";
+		t["h06W"][3][1] = "|c00400080『	』|r";
 -- uico
 		t["h06W"][10][1] = "ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp";
 -- utyp

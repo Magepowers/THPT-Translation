@@ -6193,7 +6193,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gnam 6
-		t["R00L"][59][1] = "사이교우지 유유코 Upgrade";
+		t["R00L"][59][1] = "Yuyuko Saigyouji Upgrade";
 -- gnam 7
 -- gnam 8
 -- gnam 9
@@ -6249,15 +6249,15 @@ TPT_upgrades_loader = function(t)
 -- gtp1 5
 		t["R00L"][108][1] = "Junko Upgrade|cffffcc00(E)|r - c00ff0000마스터|r";
 -- gtp1 6
-		t["R00L"][109][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 6Lv";
+		t["R00L"][109][1] = "Yuyuko Saigyouji Upgrade|cffffcc00(D)|r - 6Lv";
 -- gtp1 7
-		t["R00L"][110][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 7Lv";
+		t["R00L"][110][1] = "Yuyuko Saigyouji Upgrade|cffffcc00(D)|r - 7Lv";
 -- gtp1 8
-		t["R00L"][111][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 8Lv";
+		t["R00L"][111][1] = "Yuyuko Saigyouji Upgrade|cffffcc00(D)|r - 8Lv";
 -- gtp1 9
-		t["R00L"][112][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - 9Lv";
+		t["R00L"][112][1] = "Yuyuko Saigyouji Upgrade|cffffcc00(D)|r - 9Lv";
 -- gtp1 10
-		t["R00L"][113][1] = "사이교우지 유유코 Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
+		t["R00L"][113][1] = "Yuyuko Saigyouji Upgrade|cffffcc00(D)|r - |c00ff0000마스터|r";
 -- gtp1 11
 -- gtp1 12
 -- gtp1 13
