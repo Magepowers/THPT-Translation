@@ -137,7 +137,7 @@ TPT_items_loader = function(t)
 -- iico
 		t["lgdh"][7][1] = "BTN\\BTNtalasha.blp";
 -- utub
-		t["lgdh"][8][1] = "|c000080FF마법을 모르는 내가 보아도 초월적인 물건이야. - 모리치카 린노스케|r\r\
+		t["lgdh"][8][1] = "|c000080FF마법을 모르는 내가 보아도 초월적인 물건이야. - Rinnosuke Morichika|r\r\
 \r\
 |c0000FF00착용한 유닛의 공격속도 50% 증가\r\
 공격시 10% 확률로 대상 지점 주변 350범위 유닛에게 50만의 절대 데미지를 입히는 번개 강타 시전|r";
@@ -175,7 +175,7 @@ TPT_items_loader = function(t)
 -- utip
 		t["pghe"][4][1] = "월영강림술 저지|cffffcc00(Q)|r";
 -- utub
-		t["pghe"][5][1] = "임무 : 와타츠키노 토요히메 처치\r\
+		t["pghe"][5][1] = "임무 : Watatsuki no Toyohime 처치\r\
 체력 : 3억\r\
 특수 능력 : 마법 데미지 50% 감소, 매우 높은 방어력 , 주변 650범위에 이동속도 감소 효과 면역 부여\r\
 보상 : 목재 3\r\
@@ -849,10 +849,10 @@ TPT_items_loader = function(t)
 -- ureq
 -- [I016]
 -- unam
-		t["I016"][1][1] = "|c0095a565익스텐드|r";
+		t["I016"][1][1] = "|c0095a565Extended|r";
 -- ides
-		t["I016"][2][1] = "*이 아이템을 익스텐드가 가능한[조합식에 표기되어 있습니다.] 에픽 유닛이 획득할 경우 익스텐드 유닛으로 진화합니다.\r\
-[익스텐드 유닛은 종류당 1기만 생성가능합니다.]";
+		t["I016"][2][1] = "*This item evolves into an Extended unit if it is acquired by an Epic unit that can be extended. [Indicated in the combination formula.]\r\
+[Only 1 copy of an Extended unit can be created per game.]";
 -- utub
 -- utip
 -- icid
@@ -1235,7 +1235,7 @@ Palanquin Ship 체력 : 2000만\r\
 		t["I00X"][5][1] = "임무 : 달의 사자 처치\r\
 체력 : 1.7억\r\
 특수 능력 : 마법 데미지 50% 감소\r\
-보상 : 익스텐드 부적 + 나무 3\r\
+보상 : Extended 부적 + 나무 3\r\
 쿨타임 : 게임당 단 한번\r\
 임무 코스트 : 21마리";
 -- ides

@@ -5969,7 +5969,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00J"][55][1] = "익스텐드 유닛 Upgrade";
+		t["R00J"][55][1] = "Extended 유닛 Upgrade";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -9963,7 +9963,7 @@ TPT_upgrades_loader = function(t)
 -- gef1
 -- gub1 1
 		t["R021"][3][1] = "*에픽 유닛들의 공격력을 4000, 공격속도를 4% 상승시킵니다.\r\
-*익스텐드 유닛의 공격력을 6000 , 공격속도를 10% 상승시킵니다.\r\
+*Extended 유닛의 공격력을 6000 , 공격속도를 10% 상승시킵니다.\r\
 *마법 데미지 에픽 유닛은 공격력이 상승하지 않는 대신 공격속도를 6% 상승시킵니다.";
 -- ghk1 1
 -- grac

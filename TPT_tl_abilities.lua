@@ -328,7 +328,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Units Upgrade , [강화]Epic Units Upgrade";
+|c00F8BA54[Upgrade]|r : [Normal]Epic Units Upgrade , [Reinforced]Epic Units Upgrade";
 -- aart
 		t["AEev"][5][1] = "BTN\\BTNShinmyoumaru.blp";
 -- [AHbh]
@@ -778,9 +778,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- atar 1
 		t["ANtr"][5][1] = "_";
 -- aart
@@ -799,9 +799,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다. 다른 Extended Units과 다르게, 습득하는 Epic Units이 사라지지 않고 Extended Units이 나타납니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units.. Unlike other Extended Units, the Epic Unit does not disappear and the Extended unit appears.|r";
 -- [ACct]
 -- arac
 -- anam
@@ -1543,9 +1543,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- anam
 -- aub1 2
 		t["AIba"][9][1] = "*자신 주변 650범위의 아군의 마나를 초당 1.5씩 회복시킵니다. 추가로 헤카티아가 공격시 10% 확률로 대상 지점 300범위에 지옥의 불길을 치솟게 해 범위 내의 적에게 66만의 |c00379BFF마법 데미지|r를 입히고, 적이 받는 마법 데미지를 7% 증폭시킵니다.";
@@ -2516,8 +2516,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 |c00A8F13A[Type Command]|r: 해군대장 푸른물개(murasa arc)\r\
 \r\
 [Attack Speed]: 0.34 Cooldown\r\
-[Movement Speed]: 400[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : Arcana Units Upgrade , [기본]Epic Units Upgrade";
+[Movement Speed]: 400[Air movement]\r\
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade , [Normal]Epic Units Upgrade";
 -- arac
 -- aart
 		t["ANta"][4][1] = "BTN\\BTNMurasa.blp";
@@ -4046,7 +4046,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
+[Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : 카나 아나베랄 Upgrade";
 -- [A025]
 -- arac
@@ -4064,7 +4064,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 -- aub1 1
 		t["A028"][3][1] = "＊공격 시 15% 확률로 대상 주변 500 범위의 적에게 3천의 |c00FF6464물리 피해|r를 가한다.";
 -- anam
-		t["A028"][4][1] = "[Rare]앨리스_R";
+		t["A028"][4][1] = "[Rare]Alice_R";
 -- aart
 		t["A028"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNSelfDestructOn.blp";
 -- [A02A]
@@ -4181,7 +4181,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 |c00A8F13A[Type Command]|r: 라스트 엑자일(kaguya phan)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- aart
@@ -4279,7 +4279,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF64
 Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
 \r\
 [Attack Speed]: 0.37 Cooldown\r\
-[Movement Speed]: 400[공중이동 가능]\r\
+[Movement Speed]: 400[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Kijin Seija Upgrade";
 -- anam
 		t["A033"][3][1] = "[Chronicle_Unit Information]";
@@ -6278,7 +6278,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade";
 -- anam
 -- aart
 		t["A04O"][5][1] = "BTN\\BTNWriggle.blp";
@@ -6975,7 +6975,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Ghost Orchestra[Phantom Ensemble][Epic] + Sho Toramaru우[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Joon Yorigami/시온 Upgrade";
 -- arac
 -- [A00U]
@@ -7149,7 +7149,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 |c00A8F13A[Type Command]|r: 키메라 피닉스(mokou phan)\r\
 \r\
 [Attack Speed]: 0.28 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade\r\
 |c00C5EA53[조합 시너지]|r영원한 환생의 불꽃\r\
 -Kamishirasawa Keine EX[Epic 혹은 Extended]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 Cooldown이 8 seconds 감소합니다.";
@@ -7472,9 +7472,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 522\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 		t["A05V"][4][1] = "BTNakyu.blp";
 -- anam
@@ -12489,10 +12489,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 |c00A8F13A[Type Command]|r: 귀걸조 조장(yachie arc)\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
-[Movement Speed]: 375[공중이동 가능]\r\
+[Movement Speed]: 375[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- atp1 1
-		t["A0CV"][3][1] = "|c00FEE952[Unit Information]|r - 킷쵸 야치에[Arcana]";
+		t["A0CV"][3][1] = "|c00FEE952[Unit Information]|r - Yachie Kicchou[Arcana]";
 -- aart
 		t["A0CV"][4][1] = "Icon\\Unit\\BTNYachie_Arc.blp";
 -- arac
@@ -13612,7 +13612,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Marisa Kirisame[Rare] + Izayoi Sakuya[Rare]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- aart
 -- [A0FE]
@@ -13625,7 +13625,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: Aya Shameimaru[Epic] + 이누바시리 모미지[Rare] + Kasodani Kyouko[Rare] + Unique 소울 1개\r\
 \r\
 [Attack Speed]: 0.27 Cooldown\r\
-[Movement Speed]: 500[공중이동 가능]\r\
+[Movement Speed]: 500[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0FE"][5][1] = "Icon\\Unit\\BTNAya_Leg.blp";
@@ -13723,7 +13723,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade";
 -- aart
 -- [A0FN]
 -- arac
@@ -13734,10 +13734,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0FN"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[Unique] + Komachi Onozuka[Unique] + 레티 화이트락[Unique]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
-[Movement Speed]: 300[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 300[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FO]
 -- arac
@@ -13749,9 +13749,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FP]
 -- arac
@@ -13763,9 +13763,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FQ]
 -- arac
@@ -13777,7 +13777,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade";
 -- aart
 -- [A0FR]
 -- arac
@@ -13788,10 +13788,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0FR"][4][1] = "|c00A8F13A[Combination]|r: Ichirin Kumoi[Unique] + Sa Nae[Unique] + Palanquin Ship[Unique]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
-[Movement Speed]: 300[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 300[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FS]
 -- arac
@@ -13802,10 +13802,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Renko Usami[Unique] + Tsukumo Benben[Unique]\r\
 \r\
 [Attack Speed]: 0.76 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 450[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FT]
 -- arac
@@ -13817,9 +13817,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.46 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 		t["A0FT"][5][1] = "BTN\\BTNKanako.blp";
 -- [A0FU]
@@ -13832,9 +13832,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FV]
 -- arac
@@ -13845,10 +13845,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0FV"][4][1] = "|c00A8F13A[Combination]|r: Hoshiguma Yuugi[Unique] + 카엔뵤우 린[Unique] + Tsukumo Yatsuhashi[Unique]\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
-[Movement Speed]: 400[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 400[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FW]
 -- arac
@@ -13871,8 +13871,8 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: 히메카이도 하타테[Unique] + Marisa Kirisame[Unique] + Hoshiguma Yuugi[Unique]\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
+[Movement Speed]: 350[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade";
 -- aart
 -- [A0FY]
 -- arac
@@ -13884,9 +13884,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0FZ]
 -- arac
@@ -13898,9 +13898,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.57 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G0]
 -- arac
@@ -13912,9 +13912,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G1]
 -- arac
@@ -13926,9 +13926,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G2]
 -- arac
@@ -13939,10 +13939,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0G2"][4][1] = "|c00A8F13A[Combination]|r: Soga no Tojiko[Unique] + Palanquin Ship[Unique] + Seiga Kaku[Unique]\r\
 \r\
 [Attack Speed]: 0.58 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 420[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G4]
 -- arac
@@ -13954,9 +13954,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G5]
 -- arac
@@ -13968,9 +13968,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G6]
 -- arac
@@ -13982,9 +13982,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.62 Cooldown\r\
 [Movement Speed]: 400\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G7]
 -- arac
@@ -14011,10 +14011,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch]\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
-[Movement Speed]: 300[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 300[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0G9]
 -- arac
@@ -14025,7 +14025,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Fujiwara no Mokou[Epic] + Ghost Orchestra[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.47 Cooldown\r\
-[Movement Speed]: 522[공중이동 가능]\r\
+[Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Flandre Scarlet Upgrade";
 -- aart
 -- [A0GA]
@@ -14050,9 +14050,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.53 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0GC]
 -- arac
@@ -14125,7 +14125,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0GH"][4][1] = "|c00A8F13A[Combination]|r: Koishi Komeiji[Epic] + Utsuho Reiuji[제어불능] + 시키에이키 야마자나두[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 300[공중이동 가능]\r\
+[Movement Speed]: 300[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Satori Komeiji Upgrade";
 -- aart
 -- [A0DD]
@@ -14553,9 +14553,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 365\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- [A09V]
 -- arac
 -- atp1 1
@@ -15207,9 +15207,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 350[공중 이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 		t["A0CS"][4][1] = "BTN\\BTNSatono.blp";
 -- atp1 2
@@ -16073,7 +16073,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A05Y"][4][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + Sunny Milk[Rare] + Luna Child[Rare] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[조합 시너지]|r말썽쟁이 3Fairy\r\
 -플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 Units의 체력이 15% 감소합니다.";
@@ -16132,10 +16132,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kishin Sagume[Unique] + Seiga Kaku[Unique]\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
-[Movement Speed]: 300[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 300[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- aart
 -- [A0DK]
 -- arac
@@ -16238,7 +16238,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Sumireko Usami Upgrade";
 -- aart
 		t["A0GP"][5][1] = "ReplaceableTextures\\CommandButtons\\Smireko\\BTN_UP.blp";
@@ -16297,7 +16297,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0IO"][4][1] = "|c00A8F13A[Combination]|r: 사이교우지 유유코[반혼접] + Layla Prismriver[Unique] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 500[공중이동 가능]\r\
+[Movement Speed]: 500[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [A0IP]
@@ -17089,7 +17089,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A05Z"][4][1] = "|c00A8F13A[Combination]|r: Utsuho Reiuji[Epic] +  카엔뵤우 린[Unique] + Unique 소울 1개\r\
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [A0G3]
@@ -17144,14 +17144,14 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- arac
 -- anam
-		t["A0HD"][3][1] = "[앨리스]";
+		t["A0HD"][3][1] = "[Alice]";
 -- atp1 1
 		t["A0HD"][4][1] = "창부『큐티 대천창』";
 -- aub1 1
-		t["A0HD"][5][1] = "*앨리스가 공격시 마나를 1 회복합니다. 마나가 105가 됐을때 아래의 효과를 발동합니다.\r\
+		t["A0HD"][5][1] = "*Alice가 공격시 마나를 1 회복합니다. 마나가 105가 됐을때 아래의 효과를 발동합니다.\r\
 *자신의 Units에 Marisa Kirisame[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
 *자신의 Units에 Patchouli Knowledge[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
-*앨리스가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+*Alice가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *총 3초간 지속됩니다.";
 -- [A0JT]
 -- anam
@@ -17256,7 +17256,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0KS"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[노던 위너] + Cirno[Minus K] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
+[Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [S003]
@@ -18040,7 +18040,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
-[Movement Speed]: 400[공중이동 가능]\r\
+[Movement Speed]: 400[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Sariel Upgrade";
 -- aart
 		t["A0L5"][5][1] = "ReplaceableTextures\\CommandButtons\\Sariel\\BTN_UP.blp";
@@ -18194,7 +18194,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0L8"][5][1] = "Icon\\Unit\\BTNRemilia_Leg.blp";
@@ -18252,7 +18252,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
-[Movement Speed]: 400[공중이동 가능]\r\
+[Movement Speed]: 400[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Yumemi Okazaki Upgrade";
 -- aart
 -- [A0CN]
@@ -18614,7 +18614,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Houraisan Kaguya[Epic] + Unique 소울 1개\r\
 \r\
 [Attack Speed]: 0.32 Cooldown\r\
-[Movement Speed]: 380[공중이동 가능]\r\
+[Movement Speed]: 380[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[조합 시너지]|r행운의 토끼 드롭스\r\
 -Tewi Inaba[Rare]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
@@ -18781,7 +18781,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Homing] + Futatsuiwa Mamizou[Epic] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 *|c00C5EA53[조합 시너지]|r신사의 멋진 탈 것\r\
 -겐지 할아범[특수]를 보유하고 있을 경우, 신사 진영 능력인『신령강림』의 Cooldown이 300초에서 250초로 감소합니다.";
@@ -20348,7 +20348,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 |c00A8F13A[Type Command]|r: 작디작은 현장(nazrin arc)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
+[Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Unique 이하 Units Upgrade";
 -- aart
 		t["A08S"][4][1] = "Icon\\Unit\\BTNNazrin_Arc.blp";
@@ -22741,7 +22741,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade";
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade";
 -- atar 1
 -- atar 2
 -- aart
@@ -22793,7 +22793,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: Koishi Komeiji[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.31 Cooldown\r\
-[Movement Speed]: 400[공중이동 가능]\r\
+[Movement Speed]: 400[Air movement]\r\
 |c00F8BA54[Upgrade]|r : 유메코 Upgrade";
 -- arac
 -- [A03H]
@@ -22805,7 +22805,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A03H"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Kogasa Tatara[Rare] + Lunasa Prismriver[Rare]\r\
 \r\
 [Attack Speed]: 1 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
 -- arac
 -- [A03Z]
@@ -22848,10 +22848,10 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + Soga no Tojiko[Unique] + Yatadera Narumi[Unique]\r\
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
-[Movement Speed]: 400[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+[Movement Speed]: 400[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- arac
 -- [A0DE]
 -- arac
@@ -23005,7 +23005,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- atar 1
 -- atp1 1
-		t["A0N3"][5][1] = "|c00FEE952[Unit Information]|r - 조토구 마유미[Arcana]";
+		t["A0N3"][5][1] = "|c00FEE952[Unit Information]|r - Mayumi Joutouguu[Arcana]";
 -- anam
 -- aart
 		t["A0N3"][7][1] = "Icon\\Unit\\BTNMayumi_Arc.blp";
@@ -23026,7 +23026,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0N4"][4][1] = "|c00A8F13A[Combination]|r: Nue Houjuu[Epic] + Palanquin Ship[Unique] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.46 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 -- [A00Y]
@@ -23065,7 +23065,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + Doremy Sweet[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.44 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Matara Okino Upgrade";
 -- [A0N6]
 -- anam
@@ -23096,7 +23096,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0N9"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Ichirin Kumoi[Unique] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
+[Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0N9"][5][1] = "Icon\\Unit\\BTNSeiran_Leg.blp";
@@ -23388,12 +23388,12 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 -- atp1 1
 		t["A0DM"][3][1] = "|c00FEE952[Unit Information]|r - 와타츠키노 요리히메[Chronicle]";
 -- aub1 1
-		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: 와타츠키노 토요히메[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + Unique 소울 3개\r\
+		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: Watatsuki no Toyohime[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + Unique 소울 3개\r\
 \r\
 |c00ffff00!주의 : 이 Units은 Combination시 플레이어의 라인존 중앙에 생성됩니다.|r\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : 와타츠키노 요리히메 Upgrade\r\
 |c0097FF2F[조합 시너지]|r신령을 받드는 몸\r\
 -Hakurei Reimu[Unique]를 보유하고 있을때, 와타츠키노 요리히메[Chronicle]을 Combination할 경우 히든 스킬로 확정 변경됩니다.";
@@ -23409,7 +23409,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0GI"][5][1] = "|c00ffff00와타츠키노 요리히메|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0GI"][7][1] = "와타츠키노 토요히메[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + Unique 소울 3개";
+		t["A0GI"][7][1] = "Watatsuki no Toyohime[특수] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + Unique 소울 3개";
 -- ahky
 -- atat
 		t["A0GI"][11][1] = "h02X";
@@ -23678,7 +23678,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0NF"][4][1] = "|c00A8F13A[Combination]|r: Komachi Onozuka[Unique] + 시키에이키 야마자나두[Epic] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
+[Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 *|c00C5EA53[조합 시너지]|r농땡이에는 설교를\r\
 -시키에이키 야마자나두[Arcana]를 보유하고 있을 경우, 박명『얼마 남지 않은 여생』의 즉사 Cooldown이 15 seconds로 감소합니다. Komachi Onozuka[Legendary]가 여러기 있을 경우 적용되지 않습니다.";
@@ -24288,7 +24288,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻�
 		t["A0O5"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Rumia EX[Unique] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
+[Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[조합 시너지]|r뒤집어진 소인 공주님\r\
 -플레이어가 Kijin Seija[Chronicle]을 보유하고 있을 경우, 이 Units의 스킬 데미지가 마법 데미지로 적용됩니다.";
@@ -29065,7 +29065,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A027"][3][1] = "BTN\\BTNRinnosuke.blp";
 -- anam
 -- atp1 1
-		t["A027"][5][1] = "|c00FEE952[Unit Information]|r - 모리치카 린노스케[Arcana]";
+		t["A027"][5][1] = "|c00FEE952[Unit Information]|r - Rinnosuke Morichika[Arcana]";
 -- aub1 1
 		t["A027"][6][1] = "|c00A8F13A[Combination]|r: Tokiko[Epic] + Marisa Kirisame[Unique] + 신비술사의 고서\r\
 |c00A8F13A[Type Command]|r: 향림당의 점주(rinno arc)\r\
@@ -29801,9 +29801,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A075"][6][1] = "*스킬 사용시 경단의 색을 다르게 교체합니다. 루나틱 셉템버의 마나 스킬 발동 효과가 경단의 색에 따라 변경됩니다. 변경 순서는\r\
 *빨강 - 파랑 - 초록 경단 순서입니다.\r\
-[링고는 플레이어당 1기만 Combination 가능합니다.]";
+[Ringo는 플레이어당 1기만 Combination 가능합니다.]";
 -- anam
-		t["A075"][7][1] = "[링고]";
+		t["A075"][7][1] = "[Ringo]";
 -- arac
 -- aart
 		t["A075"][14][1] = "ReplaceableTextures\\CommandButtons\\BTNOrbOfVenom.blp";
@@ -30825,9 +30825,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Upgrade , [강화]Epic Upgrade\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Upgrade , [Reinforced]Epic Upgrade\r\
 \r\
-|c0000FFFF*이 Units은 Extended가 가능합니다. S랭크 미션인 달의 사자 미션을 클리어 시 나타나는 Extended 부적 아이템을 습득할 시 Extended Units으로 변화합니다.|r";
+|c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- anam
 -- aart
 		t["A0HK"][5][1] = "BTN\\BTNtokiko.blp";
@@ -31756,11 +31756,11 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 99
 -- [A0IG]
 -- anam
-		t["A0IG"][1][1] = "[앨리스][엘룬]마광";
+		t["A0IG"][1][1] = "[Alice][엘룬]마광";
 -- atp1 1
 		t["A0IG"][2][1] = "마광『데블리 라이트레이』";
 -- aub1 1
-		t["A0IG"][3][1] = "*앨리스가 공격시 20% 확률로 대상 지점 주변 425범위 내에 있는 적에게 225만의 마법 데미지를 입히고 |c00379BFF마법 데미지|r를 20% 증폭해서 받습니다.";
+		t["A0IG"][3][1] = "*Alice가 공격시 20% 확률로 대상 지점 주변 425범위 내에 있는 적에게 225만의 마법 데미지를 입히고 |c00379BFF마법 데미지|r를 20% 증폭해서 받습니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -31775,9 +31775,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- [A0IJ]
 -- aub1 1
-		t["A0IJ"][1][1] = "*기본적으로 앨리스 주변 800범위 적을 인형실로 휘감아 Movement Speed를 50% 감소시킵니다.\r\
+		t["A0IJ"][1][1] = "*기본적으로 Alice 주변 800범위 적을 인형실로 휘감아 Movement Speed를 50% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - [1~3]초 중 랜덤\r\
-앨리스가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시킵니다. 폭발에 휘말린 적에게 전체 체력의 1.2% + 200만의 |c00379BFF마법 데미지|r를 주고 1.1초간 스턴시킵니다.";
+Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시킵니다. 폭발에 휘말린 적에게 전체 체력의 1.2% + 200만의 |c00379BFF마법 데미지|r를 주고 1.1초간 스턴시킵니다.";
 -- atar 1
 -- atat
 		t["A0IJ"][3][1] = "chro.mdx";
@@ -32510,7 +32510,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kamishirasawa Keine EX[Epic] +  Unique 소울\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
-[Movement Speed]: 522[공중이동 가능]\r\
+[Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0MY"][5][1] = "BTN\\BTNSaki.blp";
@@ -33023,7 +33023,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 |c00A8F13A[Type Command]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
 [Attack Speed]: 0.49 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- aart
 -- [A03T]
@@ -33072,7 +33072,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 |c00A8F13A[Type Command]|r: 디어 마이 프렌드(marisa arc)\r\
 \r\
 [Attack Speed]: 0.41 Cooldown\r\
-[Movement Speed]: 522[공중이동 가능]\r\
+[Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade\r\
 |c00C5EA53[조합 시너지]|r기적의 마법!\r\
 -이 스킬은 Kochiya Sanae[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
@@ -33090,7 +33090,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 |c00A8F13A[Type Command]|r: 스즈나안의 영광(kosuzu arc)\r\
 \r\
 [Attack Speed]: 0.22 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- [A0HI]
 -- aart
@@ -33098,13 +33098,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- anam
 -- atp1 1
-		t["A0HI"][4][1] = "|c00FEE952[Unit Information]|r - 와타츠키노 토요히메[Arcana]";
+		t["A0HI"][4][1] = "|c00FEE952[Unit Information]|r - Watatsuki no Toyohime[Arcana]";
 -- aub1 1
-		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + 와타츠키노 토요히메[특수] + 신비술사의 고서\r\
+		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Watatsuki no Toyohime[특수] + 신비술사의 고서\r\
 |c00A8F13A[Type Command]|r: 달의 선견자(toyohime arc)\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
-[Movement Speed]: 500[공중이동 가능]\r\
+[Movement Speed]: 500[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- [A0HL]
 -- aart
@@ -33117,7 +33117,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 |c00A8F13A[Type Command]|r: Hakugyokurou의 망령(yuyuko arc)\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade\r\
 |c00C5EA53[조합 시너지]|r벚꽃나비\r\
 -Youmu Konpaku[Legendary]를 보유하고 있을 경우, 마나 스킬 발동시 25% 확률로 마나를 모두 회복합니다.";
@@ -33133,7 +33133,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 |c00A8F13A[Type Command]|r: 텐구 허밋퍼플(hatate arc)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
-[Movement Speed]: 522[공중이동 가능]\r\
+[Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Unique Units Upgrade";
 -- [A0HS]
 -- aart
@@ -33245,7 +33245,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 |c00A8F13A[Type Command]|r: 검은 바다에 붉음을(iku arc)\r\
 \r\
 [Attack Speed]: 0.41 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade , Unique 이하 Units Upgrade";
 -- aart
 		t["A0JG"][4][1] = "Icon\\Unit\\BTNIku_Arc.blp";
@@ -33313,7 +33313,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A0K7]
 -- anam
 -- atp1 1
-		t["A0K7"][2][1] = "|c00FEE952[Unit Information]|r - 링고[Arcana]";
+		t["A0K7"][2][1] = "|c00FEE952[Unit Information]|r - Ringo[Arcana]";
 -- aub1 1
 		t["A0K7"][3][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Tewi Inaba[Rare] + 신비술사의 고서\r\
 |c00A8F13A[Type Command]|r: 귤색의 이글래빗(ringo arc)\r\
@@ -33467,7 +33467,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0MV"][3][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Sunny Milk[Rare] + 신비술사의 고서\r\
 |c00A8F13A[Type Command]|r: 선라이트 오버드라이브(sunny arc)\r\
 [Attack Speed]: 0.58 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- aart
 		t["A0MV"][4][1] = "Icon\\Unit\\BTNSunny_Arc.blp";
@@ -33535,13 +33535,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A0MZ]
 -- anam
 -- atp1 1
-		t["A0MZ"][2][1] = "|c00FEE952[Unit Information]|r - 니와타리 쿠타카[Arcana]";
+		t["A0MZ"][2][1] = "|c00FEE952[Unit Information]|r - Kutaka Niwatari[Arcana]";
 -- aub1 1
 		t["A0MZ"][3][1] = "|c00A8F13A[Combination]|r: Mononobe no Futo[Epic] + Mystia Lorelei[Rare] + 신비술사의 고서\r\
 |c00A8F13A[Type Command]|r: 지옥의 새(kutaka arc)\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- aart
 		t["A0MZ"][4][1] = "Icon\\Unit\\BTNKutaka_Arc.blp";
@@ -33641,7 +33641,7 @@ nhym,h02Q,hlum,e03C";
 		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Unique] + Yakumo Ran[Epic] + Nue Houjuu[Epic] + Unique 소울 5개\r\
 \r\
 [Attack Speed]: 0.46 Cooldown\r\
-[Movement Speed]: 522[공중이동 가능]\r\
+[Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Hakurei Reimu Upgrade";
 -- anam
 -- abuf 1
@@ -36630,8 +36630,8 @@ nhym,h02Q,hlum,e03C";
 |c00A8F13A[Type Command]|r: 장미를 죽이는 카밀라(remi arc)\r\
 \r\
 [Attack Speed]: 0.34 Cooldown\r\
-[Movement Speed]: 522[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : [기본]Epic Units Upgrade";
+[Movement Speed]: 522[Air movement]\r\
+|c00F8BA54[Upgrade]|r : [Normal]Epic Units Upgrade";
 -- anam
 -- abuf 1
 		t["S00X"][6][1] = "B07K";
@@ -36675,7 +36675,7 @@ nhym,h02Q,hlum,e03C";
 |c00A8F13A[Type Command]|r: 구름 승려(ichirin phan)\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- aart
@@ -37699,7 +37699,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Ghost Orchestra[Phantom Ensemble][Epic] + Sho Toramaru우[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.50 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Joon Yorigami/시온 Upgrade";
 -- arac
 -- [A0SL]
@@ -37711,7 +37711,7 @@ nhym,h02Q,hlum,e03C";
 |c00A8F13A[Type Command]|r: 망령은 말하지 않는다(tojiko phan)\r\
 \r\
 [Attack Speed]: 0.41 Cooldown\r\
-[Movement Speed]: 420[공중이동 가능]\r\
+[Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- anam
 -- aart
@@ -38019,7 +38019,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0SS"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Joon Yorigami/시온 Upgrade";
 -- arac
 -- [A0ST]
@@ -38092,7 +38092,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0ST"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [Attack Speed]: 0.27 Cooldown\r\
-[Movement Speed]: 500[공중이동 가능]\r\
+[Movement Speed]: 500[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- arac
 -- [A0SU]
@@ -38164,7 +38164,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0SU"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [Attack Speed]: 0.24 Cooldown\r\
-[Movement Speed]: 522[공중이동 가능]\r\
+[Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- arac
 -- [A0SV]
@@ -38242,7 +38242,7 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- [A0SW]
 -- atp1 1
-		t["A0SW"][1][1] = "|c00FEE952[Unit Information]|r - 유메와타리 마쿠라[Ascended]";
+		t["A0SW"][1][1] = "|c00FEE952[Unit Information]|r - Makura Yumewatari[Ascended]";
 -- anam
 -- aart
 		t["A0SW"][3][1] = "Icon\\Unit\\BTNMakura_Asc.blp";
@@ -38383,7 +38383,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0SX"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
-[Movement Speed]: 325[공중이동 가능]\r\
+[Movement Speed]: 325[Air movement]\r\
 |c00F8BA54[Upgrade]|r : 없음";
 -- arac
 -- [A0SY]
@@ -38894,7 +38894,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0T4"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
-[Movement Speed]: 450[공중이동 가능]\r\
+[Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- arac
 -- [A0T5]
@@ -38979,7 +38979,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Kagiyama Hina[Unique] + Unique 소울\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
-[Movement Speed]: 350[공중이동 가능]\r\
+[Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade";
 -- aart
 		t["A0T6"][5][1] = "Icon\\Unit\\BTNMedicine_Leg.blp";
@@ -40178,7 +40178,7 @@ nhym,h02Q,hlum,e03C";
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade";
 -- atar 1
 -- atp1 1
-		t["A0UT"][5][1] = "|c00FEE952[Unit Information]|r - 우시자키 우루미[Arcana]";
+		t["A0UT"][5][1] = "|c00FEE952[Unit Information]|r - Urumi Ushizaki[Arcana]";
 -- anam
 -- aart
 		t["A0UT"][7][1] = "Icon\\Unit\\BTNUrumi_Arc.blp";

@@ -1300,7 +1300,7 @@ TPT_units_loader = function(t)
 		t["efdr"][8][1] = "BTN\\BTNToyohime.blp";
 -- upgr
 -- unam
-		t["efdr"][13][1] = "와타츠키노 토요히메 - |c0054EB67Arcana|r|N|c00FFA275달의 선견자|r";
+		t["efdr"][13][1] = "Watatsuki no Toyohime - |c0054EB67Arcana|r|N|c00FFA275달의 선견자|r";
 -- uarm
 -- udty
 -- utyp
@@ -2225,7 +2225,7 @@ TPT_units_loader = function(t)
 -- upgr
 -- urac
 -- unam
-		t["ensh"][4][1] = "링고 - |c0054EB67Arcana|r|N|c00FFA275귤색의 이글래빗|r";
+		t["ensh"][4][1] = "Ringo - |c0054EB67Arcana|r|N|c00FFA275귤색의 이글래빗|r";
 -- ua1t
 -- ua1w
 -- ucs1
@@ -2440,14 +2440,14 @@ TPT_units_loader = function(t)
 -- ua1g
 -- [nrwm]
 -- unam
-		t["nrwm"][3][1] = "[앨리스]찌르기";
+		t["nrwm"][3][1] = "[Alice]찌르기";
 -- uabi
 -- ushu
 -- umdl
 		t["nrwm"][6][1] = "az_alice.mdl";
 -- [nrdk]
 -- unam
-		t["nrdk"][3][1] = "[앨리스]찌르기 인형";
+		t["nrdk"][3][1] = "[Alice]찌르기 인형";
 -- uabi
 -- ushu
 -- umdl
@@ -2455,7 +2455,7 @@ TPT_units_loader = function(t)
 -- uani
 -- [nrdr]
 -- unam
-		t["nrdr"][3][1] = "[앨리스]마광";
+		t["nrdr"][3][1] = "[Alice]마광";
 -- umvt
 -- uabi
 -- umdl
@@ -2479,7 +2479,7 @@ TPT_units_loader = function(t)
 -- [nrzm]
 -- urac
 -- unam
-		t["nrzm"][2][1] = "니와타리 쿠타카 - |c0054EB67Arcana|r|N|c00FFA275지옥관문의 우두머리 신|r";
+		t["nrzm"][2][1] = "Kutaka Niwatari - |c0054EB67Arcana|r|N|c00FFA275지옥관문의 우두머리 신|r";
 -- usnd
 -- umdl
 		t["nrzm"][6][1] = "Y_Kutaka.mdl";
@@ -2584,7 +2584,7 @@ TPT_units_loader = function(t)
 		t["nmgw"][2][1] = "AInv,Avul,A0H3,A0QM,ACfl,A0N3";
 -- urac
 -- unam
-		t["nmgw"][7][1] = "조토구 마유미 - |c0054EB67Arcana|r|N|c00FFA275하니와 병사|r";
+		t["nmgw"][7][1] = "Mayumi Joutouguu - |c0054EB67Arcana|r|N|c00FFA275하니와 병사|r";
 -- upgr
 -- umdl
 		t["nmgw"][9][1] = "Y_Mayumi.mdl";
@@ -2647,7 +2647,7 @@ TPT_units_loader = function(t)
 -- [nlpd]
 -- urac
 -- unam
-		t["nlpd"][2][1] = "킷쵸 야치에 - |c0054EB67Arcana|r|N|c00FFA275귀걸조 조장|r";
+		t["nlpd"][2][1] = "Yachie Kicchou - |c0054EB67Arcana|r|N|c00FFA275귀걸조 조장|r";
 -- umvt
 -- uico
 		t["nlpd"][6][1] = "Icon\\Unit\\BTNYachie_Arc.blp";
@@ -2702,7 +2702,7 @@ TPT_units_loader = function(t)
 -- usnd
 -- urac
 -- unam
-		t["nmsc"][8][1] = "유메와타리 마쿠라 - |c0080A8E6Ascended|N세계의 각성자|r";
+		t["nmsc"][8][1] = "Makura Yumewatari - |c0080A8E6Ascended|N세계의 각성자|r";
 -- ua1t
 -- ua1m
 -- umdl
@@ -6035,7 +6035,7 @@ TPT_units_loader = function(t)
 -- [h049]
 -- upgr
 -- unam
-		t["h049"][5][1] = "모리치카 린노스케 - |c0054EB67Arcana|r|N|c00FFA275향림당의 점주|r";
+		t["h049"][5][1] = "Rinnosuke Morichika - |c0054EB67Arcana|r|N|c00FFA275향림당의 점주|r";
 -- ua1m
 -- umdl
 		t["h049"][9][1] = "Rinnosuke.mdl";
@@ -6975,7 +6975,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h05J"][6][1] = "와타츠키노 토요히메 - |c00400080Special|r";
+		t["h05J"][6][1] = "Watatsuki no Toyohime - |c00400080Special|r";
 -- ua1m
 -- umdl
 -- uico
@@ -8323,7 +8323,7 @@ TPT_units_loader = function(t)
 -- urac
 -- umdl
 -- unam
-		t["n002"][10][1] = "앨리스 - |c0080A8E6Ascended|N잊혀진 인형술의 기원|r";
+		t["n002"][10][1] = "Alice - |c0080A8E6Ascended|N잊혀진 인형술의 기원|r";
 -- uarm
 -- ua1m
 -- uico
@@ -9171,7 +9171,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [e04I]
 -- unam
-		t["e04I"][1][1] = "연회 인형|N|c00FF80C0와타츠키노 토요히메|r";
+		t["e04I"][1][1] = "연회 인형|N|c00FF80C0Watatsuki no Toyohime|r";
 -- uabi
 		t["e04I"][7][1] = "A0UN,A0CR,Avul";
 -- uhrt
@@ -9226,7 +9226,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [e04N]
 -- unam
-		t["e04N"][1][1] = "연회 인형|N|c00FF80C0유메와타리 마쿠라|r";
+		t["e04N"][1][1] = "연회 인형|N|c00FF80C0Makura Yumewatari|r";
 -- uabi
 		t["e04N"][7][1] = "A0US,A0CR,Avul";
 -- uhrt
@@ -9237,7 +9237,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [u00C]
 -- unam
-		t["u00C"][1][1] = "우시자키 우루미 - |c0054EB67Arcana|r|N|c00FFA275고대어의 아이를 돌보는 파수꾼|r";
+		t["u00C"][1][1] = "Urumi Ushizaki - |c0054EB67Arcana|r|N|c00FFA275고대어의 아이를 돌보는 파수꾼|r";
 -- upgr
 		t["u00C"][3][1] = "Rhlh,R010";
 -- urac
