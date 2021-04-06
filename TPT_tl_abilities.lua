@@ -304,17 +304,17 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AHad"][3][1] = "『피의 격노』";
 -- aub1 1
-		t["AHad"][4][1] = "*엘리 주변 650 범위 적들의 방어력을 35% 감소시킵니다.\r\
-*엘리가 공격시 대상 주변 425범위 적에게 35%의 분산 |c00FF6464물리 데미지|r를 입힙니다.\r\
+		t["AHad"][4][1] = "*Elly 주변 650 범위 적들의 방어력을 35% 감소시킵니다.\r\
+*Elly가 공격시 대상 주변 425범위 적에게 35%의 분산 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *|c00FF80FF[활력]|r - 4초 \r\
-엘리가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF6464물리 데미지|r를 입힙니다.";
+Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150만의 |c00FF6464물리 데미지|r를 입힙니다.";
 -- anam
 		t["AHad"][5][1] = "[Historic]";
 -- aart
 		t["AHad"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNDisenchant.blp";
 -- atp1 2
 -- aub1 2
-		t["AHad"][9][1] = "엘리 주변 650 범위 적들의 방어력을 모두 감소시킵니다. 엘리가 8번 공격한 후 다음 공격은 엘리 주변을 휩쓰는 낫 휘두르기로 나갑니다. 낫 휘두르기는 엘리 주변 900범위 적들에게 100만의 물리 데미지를 입힙니다.";
+		t["AHad"][9][1] = "Elly 주변 650 범위 적들의 방어력을 모두 감소시킵니다. Elly가 8번 공격한 후 다음 공격은 Elly 주변을 휩쓰는 낫 휘두르기로 나갑니다. 낫 휘두르기는 Elly 주변 900범위 적들에게 100만의 물리 데미지를 입힙니다.";
 -- abuf 1
 		t["AHad"][10][1] = "B04X";
 -- [AEev]
@@ -754,7 +754,7 @@ TPT_abilities_loader = function(t)
 		t["AOw2"][76][1] = "[유카리]마안";
 -- atar 37
 -- atp1 37
-		t["AOw2"][78][1] = "[엘리스 스턴]";
+		t["AOw2"][78][1] = "[Elis 스턴]";
 -- atar 38
 -- atp1 38
 		t["AOw2"][80][1] = "[Arcana] 우루미 : 500 2초 0만";
@@ -2047,7 +2047,7 @@ TPT_abilities_loader = function(t)
 		t["ANfd"][207][1] = "마계의 신|cffffcc00(R)|r - 현재 마력 100";
 -- aub1 2
 		t["ANfd"][208][1] = "이 스킬을 사용해 Devil나 Small Devil를 흡수할 수 있습니다. Devil 하나당 5, Small Devil 하나당 10의 마력을 흡수합니다.\r\
-흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 신키의 모든 스킬은 흡수한 마력에 비례해 강해집니다. 신키는 자신이 가진 마력 1당 10000의 추가 물리 데미지를 얻습니다.\r\
+흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 Shinki의 모든 스킬은 흡수한 마력에 비례해 강해집니다. Shinki는 자신이 가진 마력 1당 10000의 추가 물리 데미지를 얻습니다.\r\
 기본적으로 Attack Speed가 매우 빠릅니다.";
 -- aub1 3
 -- aub1 4
@@ -2156,7 +2156,7 @@ TPT_abilities_loader = function(t)
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : 아사쿠라 리카코 Upgrade";
+|c00F8BA54[Upgrade]|r :  Upgrade";
 -- aub1 2
 		t["Amgr"][3][1] = "세이자가 공격할 때 14% 확률로 적의 현재 체력과 남은 체력을 뒤바꿉니다. 하지만 뭔가 어설퍼 완벽하게 바꾸지는 못합니다. 적의 체력이 70% 이상일때 발동하며, 적의 체력을 70%로 만듭니다. 50% 이하일시에는 적 현재 체력의 7%의 데미지를 줍니다.보스에게는 적용되지 않습니다.";
 -- anam
@@ -2164,7 +2164,7 @@ TPT_abilities_loader = function(t)
 -- atp1 2
 		t["Amgr"][5][1] = "역전『리버스 하이어라키』- |c0000FFFFExtended|r";
 -- atp1 1
-		t["Amgr"][6][1] = "|c00FEE952[Unit Information]|r - 아사쿠라 리카코[Historic]";
+		t["Amgr"][6][1] = "|c00FEE952[Unit Information]|r - [Historic]";
 -- aart
 		t["Amgr"][7][1] = "ReplaceableTextures\\CommandButtons\\Rikako\\BTN_UP.blp";
 -- [ANab]
@@ -3063,7 +3063,7 @@ TPT_abilities_loader = function(t)
 		t["ACmf"][2][1] = "초월마법『오중마법진』 - 유보|cffffcc00(R)|r";
 -- aub1 1
 		t["ACmf"][3][1] = "*공격시 마나를 1씩 회복합니다. 마나 175에 발동합니다.\r\
-*미마가 대상 지점 위로 0.3초마다 5개의 마법진을 설치합니다. 5개의 마법진이 모두 생성되면, 마법진을 통해 강력한 마력을 방출하여 대상 지점을 공격합니다.\r\
+*Mima가 대상 지점 위로 0.3초마다 5개의 마법진을 설치합니다. 5개의 마법진이 모두 생성되면, 마법진을 통해 강력한 마력을 방출하여 대상 지점을 공격합니다.\r\
 *500범위 내의 적에게 전체 체력의 2.5% + 400만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 오중마법진은 Upgrade 효과의 스킬 데미지 증가치를 2배로 적용받습니다.\r\
 *이 스킬을 사용하여 오중마법진의 발동을 유보할 수 있습니다. 유보된 오중 마법진은 마나 250에 발동하며, 데미지가 2배가 됩니다.";
@@ -3440,7 +3440,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["A00G"][4][1] = "BTN\\BTNRemilia.blp";
 -- atp1 1
-		t["A00G"][5][1] = "|c00ffff00레밀리아 스칼렛|r Combination|c00FF8040[D]|r";
+		t["A00G"][5][1] = "|c00ffff00Remilia Scarlet|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00G"][6][1] = "Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch] ";
 -- ahky
@@ -3617,7 +3617,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["A013"][5][1] = "|c00ffff00Flandre Scarlet|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A013"][6][1] = "레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + Ghost Orchestra[Phantom Ensemble] + 2 Unique Souls  ";
+		t["A013"][6][1] = "Remilia Scarlet[Epic] + Fujiwara no Mokou[Epic] + Ghost Orchestra[Phantom Ensemble] + 2 Unique Souls  ";
 -- ahky
 -- acat
 		t["A013"][8][1] = "h00Y,h02R,h03B,h05U,ehip";
@@ -6353,7 +6353,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aub1 1
 		t["A04T"][3][1] = "＊공격 시 13% 확률로 레바테인을 휘둘러 대상 주변 400 범위의 적에게 전체 체력 0.4% + 120만의 |c00379BFF마법 피해|r를 가합니다.\r\
 ＊|c00C5EA53[조합 시너지]|r핏빛달\r\
--레밀리아 스칼렛[Arcana]가 존재할 경우, 레밀리아가 공격 시 0.5% 확률로 Q.E.D『495년의 파문』을 발동시킵니다.\r\
+-Remilia Scarlet[Arcana]가 존재할 경우, 레밀리아가 공격 시 0.5% 확률로 Q.E.D『495년의 파문』을 발동시킵니다.\r\
 [내부 Cooldown은 없습니다.]";
 -- anam
 -- aart
@@ -8337,12 +8337,12 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 2
 		t["A083"][7][1] = "ward";
 -- atp1 1
-		t["A083"][8][1] = "|c00ffff00코토히메|r Combination|c00FF8040[F]|r";
+		t["A083"][8][1] = "|c00ffff00Kotohime|r Combination|c00FF8040[F]|r";
 -- ahky
 -- aart
 		t["A083"][10][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- aub1 1
-		t["A083"][11][1] = "Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + 고대와 환상의 조각 = 코토히메";
+		t["A083"][11][1] = "Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + 고대와 환상의 조각 = Kotohime";
 -- atp1 2
 		t["A083"][12][1] = "월부『감색의 광몽』- 습득 완료";
 -- aub1 2
@@ -10634,7 +10634,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 3
 		t["A0AC"][28][1] = "『Sumireko Usami 오컬티션』";
 -- atp1 4
-		t["A0AC"][29][1] = "『엘리 방어력 감소』";
+		t["A0AC"][29][1] = "『Elly 방어력 감소』";
 -- [A0AG]
 -- anam
 		t["A0AG"][1][1] = "『유유코 Arcana 화서』";
@@ -11653,7 +11653,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0BW"][3][1] = "광부『어그레시브 라이트』";
 -- aub1 1
-		t["A0BW"][4][1] = "＊공격당한 대상이 레밀리아 스칼렛[보스]라면, 파문의 빛으로 1만의 |c00379BFF마법 피해|r를 가한다.";
+		t["A0BW"][4][1] = "＊공격당한 대상이 Remilia Scarlet[보스]라면, 파문의 빛으로 1만의 |c00379BFF마법 피해|r를 가한다.";
 -- aart
 		t["A0BW"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNHealingWave.blp";
 -- [A0BZ]
@@ -13014,7 +13014,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Phantasm]";
 -- aub1 1
-		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Koishi Komeiji[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
+		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Koishi Komeiji[Epic] + Izayoi Sakuya[Unique] + 고대와 환상의 조각\r\
 |c00A8F13A[Type Command]|r: Devil의 메이드(sakuya phan)\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
@@ -14006,7 +14006,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Epic]";
+		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - Remilia Scarlet[Epic]";
 -- aub1 1
 		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch]\r\
 \r\
@@ -14022,7 +14022,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0G9"][3][1] = "|c00FEE952[Unit Information]|r - Flandre Scarlet[Chronicle]";
 -- aub1 1
-		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Fujiwara no Mokou[Epic] + Ghost Orchestra[Epic] + 2 Unique Souls \r\
+		t["A0G9"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Fujiwara no Mokou[Epic] + Ghost Orchestra[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.47 Cooldown\r\
 [Movement Speed]: 522[공중이동 가능]\r\
@@ -14918,10 +14918,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0ID"][3][1] = "[사용시 정보]";
 -- aub1 1
 		t["A0ID"][4][1] = "|c00FF80FF[활력]|r - 20초\r\
-*무게츠가 트라움 샷을 발동했을때 발동합니다. 대상 주변 700범위 적의 체력이 50% 이하라면, 전체 체력의 4%에 해당하는 |c00AC59FF절대 데미지|r를 입히고, 적의 생명을 수확합니다.[보스 제외]\r\
+*Mugetsu가 트라움 샷을 발동했을때 발동합니다. 대상 주변 700범위 적의 체력이 50% 이하라면, 전체 체력의 4%에 해당하는 |c00AC59FF절대 데미지|r를 입히고, 적의 생명을 수확합니다.[보스 제외]\r\
 *수확한 생명 하나당 트라움 샷과 몽환의 수확 데미지가 1% 증가합니다.\r\
 *이 스킬을 사용하여 데미지 상승률을 확인할 수 있습니다.\r\
-*플레이어의 무게츠는 수확 스택을 공유합니다.";
+*플레이어의 Mugetsu는 수확 스택을 공유합니다.";
 -- atp1 1
 		t["A0ID"][5][1] = "『몽환의 수확』";
 -- abuf 1
@@ -15405,9 +15405,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- aub1 1
-		t["A0JE"][3][1] = "Cirno[Minus K] + 테레이다 마이[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각 = 쿠루미";
+		t["A0JE"][3][1] = "Cirno[Minus K] + 테레이다 마이[Epic] + Remilia Scarlet[Epic] + 고대와 환상의 조각 = Kurumi";
 -- atp1 1
-		t["A0JE"][4][1] = "|c00ffff00쿠루미|r Combination|c00FF8040[F]|r";
+		t["A0JE"][4][1] = "|c00ffff00Kurumi|r Combination|c00FF8040[F]|r";
 -- aart
 		t["A0JE"][5][1] = "ReplaceableTextures\\CommandButtons\\Kurumi\\BTN_UP.blp";
 -- acat
@@ -17212,13 +17212,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0KQ"][4][1] = "|c00FEE952[Unit Information]|r - 무게츠[Historic]";
+		t["A0KQ"][4][1] = "|c00FEE952[Unit Information]|r - Mugetsu[Historic]";
 -- aub1 1
 		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 1.2 Cooldown\r\
 [Movement Speed]: 335\r\
-|c00F8BA54[Upgrade]|r : 무게츠 Upgrade";
+|c00F8BA54[Upgrade]|r : Mugetsu Upgrade";
 -- [A0KK]
 -- anam
 -- arac
@@ -17284,11 +17284,11 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["S004"][3][1] = "『세계의 끝』";
 -- aub1 1
-		t["S004"][4][1] = "*신키가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, 자신 주변 1200범위 적의 체력을 현재 체력의 75%로 만들고, 225만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+		t["S004"][4][1] = "*Shinki가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, 자신 주변 1200범위 적의 체력을 현재 체력의 75%로 만들고, 225만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 *자신 이외의 마나 회복 효과를 받지 않습니다.\r\
-*신키 주변 1000범위 아군의 Attack Speed를 18% , Movement Speed를 100% 증가시킵니다.";
+*Shinki 주변 1000범위 아군의 Attack Speed를 18% , Movement Speed를 100% 증가시킵니다.";
 -- anam
-		t["S004"][5][1] = "[신키]";
+		t["S004"][5][1] = "[Shinki]";
 -- abuf 1
 		t["S004"][6][1] = "B00W";
 -- aart
@@ -17310,10 +17310,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- abuf 8
 -- abuf 9
 -- aub1 2
-		t["S004"][25][1] = "*신키가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, 자신 주변 1200범위 적의 체력을 현재 체력의 60%로 만들고, 225만의 물리 데미지를 입힙니다.\r\
+		t["S004"][25][1] = "*Shinki가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, 자신 주변 1200범위 적의 체력을 현재 체력의 60%로 만들고, 225만의 물리 데미지를 입힙니다.\r\
 *세계의 끝을 7번 발동할때마다『불안정한 마계의 문』의 사용 가능 횟수가 1번씩 회복됩니다.\r\
 *자신 이외의 마나 회복 효과를 받지 않습니다.\r\
-*신키 주변 1000범위 아군의 Attack Speed를 35% , Movement Speed를 100% 증가시킵니다.";
+*Shinki 주변 1000범위 아군의 Attack Speed를 35% , Movement Speed를 100% 증가시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -18035,13 +18035,13 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0L5"][3][1] = "|c00FEE952[Unit Information]|r - 사리엘[Historic]";
+		t["A0L5"][3][1] = "|c00FEE952[Unit Information]|r - Sariel[Historic]";
 -- aub1 1
 		t["A0L5"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 400[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 사리엘 Upgrade";
+|c00F8BA54[Upgrade]|r : Sariel Upgrade";
 -- aart
 		t["A0L5"][5][1] = "ReplaceableTextures\\CommandButtons\\Sariel\\BTN_UP.blp";
 -- [A05O]
@@ -18049,9 +18049,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- aart
 		t["A05O"][4][1] = "ReplaceableTextures\\CommandButtons\\Yumemi\\BTN_UP.blp";
 -- aub1 1
-		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각 = 오카자키 유메미";
+		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각 = Yumemi Okazaki";
 -- atp1 1
-		t["A05O"][6][1] = "|c00ffff00오카자키 유메미|r Combination|c00FF8040[F]|r";
+		t["A05O"][6][1] = "|c00ffff00Yumemi Okazaki|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A05O"][8][1] = "edry,hmtm,e03C,h04Y";
@@ -18189,9 +18189,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0L8"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Legendary]";
+		t["A0L8"][3][1] = "|c00FEE952[Unit Information]|r - Remilia Scarlet[Legendary]";
 -- aub1 1
-		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개\r\
+		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
 [Movement Speed]: 450[공중이동 가능]\r\
@@ -18202,9 +18202,9 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0KL"][5][1] = "레밀리아 스칼렛[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개";
+		t["A0KL"][5][1] = "Remilia Scarlet[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique 소울 1개";
 -- atp1 1
-		t["A0KL"][6][1] = "|c00ffff00레밀리아 스칼렛[Legendary]|r Combination|c00FF8040[F]|r";
+		t["A0KL"][6][1] = "|c00ffff00Remilia Scarlet[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0KL"][8][1] = "h00Y,h05U,h01J,h00P";
@@ -18238,7 +18238,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atar 8
 -- [A02S]
 -- anam
-		t["A02S"][1][1] = "[아야][더미]회오리바람[2레벨은 미마 토네이도]";
+		t["A02S"][1][1] = "[아야][더미]회오리바람[2레벨은 Mima 토네이도]";
 -- arac
 -- amat
 		t["A02S"][3][1] = "Abilities\\Spells\\Other\\Tornado\\TornadoElementalSmall.mdl";
@@ -18247,21 +18247,21 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A05P"][3][1] = "|c00FEE952[Unit Information]|r - 오카자키 유메미[Historic]";
+		t["A05P"][3][1] = "|c00FEE952[Unit Information]|r - Yumemi Okazaki[Historic]";
 -- aub1 1
 		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 400[공중이동 가능]\r\
-|c00F8BA54[Upgrade]|r : 오카자키 유메미 Upgrade";
+|c00F8BA54[Upgrade]|r : Yumemi Okazaki Upgrade";
 -- aart
 -- [A0CN]
 -- arac
 -- aart
 -- aub1 1
-		t["A0CN"][5][1] = "Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각 = 사리엘";
+		t["A0CN"][5][1] = "Maribel Hearn[Epic] + Doremy Sweet[Epic] + Renko Usami[Unique] + 고대와 환상의 조각 = Sariel";
 -- atp1 1
-		t["A0CN"][6][1] = "|c00ffff00사리엘|r Combination|c00FF8040[F]|r";
+		t["A0CN"][6][1] = "|c00ffff00Sariel|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0CN"][8][1] = "h03W,uobs,h03S,e03C";
@@ -18421,7 +18421,7 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["A0LD"][2][1] = "『달빛쇄도』";
 -- aub1 1
-		t["A0LD"][3][1] = "＊사리엘이『죽음의 무도』를 발동할 때마다 스택을 1씩 쌓습니다. 스택이 10이 됐을 때 공격 시 대상 주변 600 범위에 6번의 달빛을 퍼뜨립니다. 달빛은 70만~100만의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0LD"][3][1] = "＊Sariel이『죽음의 무도』를 발동할 때마다 스택을 1씩 쌓습니다. 스택이 10이 됐을 때 공격 시 대상 주변 600 범위에 6번의 달빛을 퍼뜨립니다. 달빛은 70만~100만의 |c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -18811,22 +18811,22 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - 신키[Historic]";
+		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - Shinki[Historic]";
 -- aub1 1
 		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
 [Movement Speed]: 420\r\
-|c00F8BA54[Upgrade]|r : 신키 Upgrade";
+|c00F8BA54[Upgrade]|r : Shinki Upgrade";
 -- aart
 		t["A03Q"][5][1] = "ReplaceableTextures\\CommandButtons\\Shinki\\BTN_UP.blp";
 -- [A03R]
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + 고대와 환상의 조각 = 신키";
+		t["A03R"][5][1] = "Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + 고대와 환상의 조각 = Shinki";
 -- atp1 1
-		t["A03R"][6][1] = "|c00ffff00신키|r Combination|c00FF8040[F]|r";
+		t["A03R"][6][1] = "|c00ffff00Shinki|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A03R"][8][1] = "h048,h019,h021,h00L,e03C";
@@ -18907,10 +18907,10 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 -- atp1 1
 		t["S00A"][2][1] = "『죽음의 손아귀』";
 -- aub1 1
-		t["S00A"][3][1] = "*신키가 공격시 25% 확률로 대상 Units의 잃은 체력의 3% + 55만에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*기본적으로 신키 주변 1000범위 적의 Movement Speed를 32% 감소시킵니다.";
+		t["S00A"][3][1] = "*Shinki가 공격시 25% 확률로 대상 Units의 잃은 체력의 3% + 55만에 해당하는 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*기본적으로 Shinki 주변 1000범위 적의 Movement Speed를 32% 감소시킵니다.";
 -- anam
-		t["S00A"][4][1] = "[신키]죽음의 손아귀";
+		t["S00A"][4][1] = "[Shinki]죽음의 손아귀";
 -- abuf 1
 		t["S00A"][5][1] = "B03E";
 -- aart
@@ -19329,10 +19329,10 @@ EX랭크 : 500범위에 150만의 |c00FF6464물리 데미지|r";
 		t["A0GT"][306][1] = "*우츠호가 공격시 10% 확률로 자신의 제어봉에서 칼날 형태의 빔을 발사합니다. 900거리 250범위 내에 있는 적에게 현재 체력의 0.9% + 45만의 물리 데미지를 입힙니다. 이 효과는 보스에게 데미지를 입히지 못합니다.\r\
 *우츠호가 보스 Units을 공격시 20% 확률로 대상 현재 체력의 1.5% + 45만의 물리 데미지를 입힙니다.";
 -- aub1 3
-		t["A0GT"][307][1] = "신키가 Combination되면 자신이 갖고 있는 모든 Devil와 Small Devil가 사라집니다.\r\
+		t["A0GT"][307][1] = "Shinki가 Combination되면 자신이 갖고 있는 모든 Devil와 Small Devil가 사라집니다.\r\
 Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합니다.\r\
-흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 신키의 모든 스킬은 흡수한 마력에 비례해 강해집니다.\r\
-신키는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻습니다.\r\
+흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 Shinki의 모든 스킬은 흡수한 마력에 비례해 강해집니다.\r\
+Shinki는 자신이 가진 마력 1당 10000의 추가 절대 데미지를 얻습니다.\r\
 기본적으로 Attack Speed가 매우 빠릅니다.";
 -- aub1 4
 -- aub1 5
@@ -20451,13 +20451,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A0AH"][3][1] = "|c00FEE952[Unit Information]|r - 겐게츠[Historic]";
+		t["A0AH"][3][1] = "|c00FEE952[Unit Information]|r - Gengetsu[Historic]";
 -- aub1 1
 		t["A0AH"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique]  + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 420\r\
-|c00F8BA54[Upgrade]|r : 겐게츠 Upgrade";
+|c00F8BA54[Upgrade]|r : Gengetsu Upgrade";
 -- aart
 		t["A0AH"][5][1] = "ReplaceableTextures\\CommandButtons\\Gengetsu\\BTN_UP.blp";
 -- [A0CQ]
@@ -20466,7 +20466,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0CQ"][4][1] = "『이노센스』";
 -- aub1 1
-		t["A0CQ"][5][1] = "*겐게츠가 공격시 11% 확률로 자신의 위치에 검은 기운을 뿜어냅니다. 뿜어낸 기운은 자신 주변 600범위에 있는 적을 3초간 스턴시키고 110만의 |c00379BFF마법 데미지|r를 입힙니다.";
+		t["A0CQ"][5][1] = "*Gengetsu가 공격시 11% 확률로 자신의 위치에 검은 기운을 뿜어냅니다. 뿜어낸 기운은 자신 주변 600범위에 있는 적을 3초간 스턴시키고 110만의 |c00379BFF마법 데미지|r를 입힙니다.";
 -- [A0D8]
 -- arac
 -- aub1 1
@@ -20493,9 +20493,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0DA"][5][1] = "Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique] + 고대와 환상의 조각 = 겐게츠";
+		t["A0DA"][5][1] = "Medicine Melancholy[Epic] + Wriggle Nightbug[Epic] + 사이교우지 유유코[Unique] + 고대와 환상의 조각 = Gengetsu";
 -- atp1 1
-		t["A0DA"][6][1] = "|c00ffff00겐게츠|r Combination|c00FF8040[F]|r";
+		t["A0DA"][6][1] = "|c00ffff00Gengetsu|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0DA"][8][1] = "h039,nrvl,h01A,e03C";
@@ -20754,12 +20754,12 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A0KB"][128][1] = "earc";
 -- [A0M9]
 -- anam
-		t["A0M9"][2][1] = "[엘리]";
+		t["A0M9"][2][1] = "[Elly]";
 -- aart
 -- atp1 1
 		t["A0M9"][4][1] = "『몽환관의 문지기』";
 -- aub1 1
-		t["A0M9"][5][1] = "*엘리가 공격할때마다 적 현재 체력의 0.8% + 15만의 |c00FF6464물리 데미지|r를 추가로 입힙니다.[보스에게는 40%의 데미지만 적용됩니다.]\r\
+		t["A0M9"][5][1] = "*Elly가 공격할때마다 적 현재 체력의 0.8% + 15만의 |c00FF6464물리 데미지|r를 추가로 입힙니다.[보스에게는 40%의 데미지만 적용됩니다.]\r\
 *공격시 25% 확률로 대상의 영혼을 가져와 적 현재 체력의 6% + 45만의 |c00FF6464물리 데미지|r를 추가로 입힙니다.[보스에게는 15%의 데미지만 적용됩니다.]";
 -- [A0MA]
 -- anam
@@ -20768,24 +20768,24 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A0MA"][4][1] = "『영전 ~Perdition Crisis~』";
 -- aub1 1
-		t["A0MA"][5][1] = "*엘리가 공격시 10% 확률로 엘리 주변 900범위에 자신이 쌓은 영혼들을 해방시켜 115만의 |c00FF6464물리 데미지|r를 입힙니다. ";
+		t["A0MA"][5][1] = "*Elly가 공격시 10% 확률로 Elly 주변 900범위에 자신이 쌓은 영혼들을 해방시켜 115만의 |c00FF6464물리 데미지|r를 입힙니다. ";
 -- [A0MB]
 -- anam
 -- aart
 -- atp1 1
 		t["A0MB"][4][1] = "『몽환관의 단두대』";
 -- aub1 1
-		t["A0MB"][5][1] = "*엘리가 공격시 10% 확률로 낫을 휘두릅니다. 휘두른 낫은 600범위 적에게 115만의 |c00FF6464물리 데미지|r를 입힙니다. \r\
-*엘리가 공격시 마나를 1씩 회복합니다. 마나가 120이 되면 대상 지점 500범위를 빠른 속도로 6번 낫으로 베어 횟수당 전체 체력의 0.3% + 65만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+		t["A0MB"][5][1] = "*Elly가 공격시 10% 확률로 낫을 휘두릅니다. 휘두른 낫은 600범위 적에게 115만의 |c00FF6464물리 데미지|r를 입힙니다. \r\
+*Elly가 공격시 마나를 1씩 회복합니다. 마나가 120이 되면 대상 지점 500범위를 빠른 속도로 6번 낫으로 베어 횟수당 전체 체력의 0.3% + 65만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 12";
 -- [A0MC]
 -- arac
 -- aart
 		t["A0MC"][4][1] = "ReplaceableTextures\\CommandButtons\\Elly\\BTN_UP.blp";
 -- aub1 1
-		t["A0MC"][5][1] = "시키에이키 야마자나두 + Kamishirasawa Keine EX + Lily Black + 고대와 환상의 조각 = 엘리";
+		t["A0MC"][5][1] = "시키에이키 야마자나두 + Kamishirasawa Keine EX + Lily Black + 고대와 환상의 조각 = Elly";
 -- atp1 1
-		t["A0MC"][6][1] = "|c00ffff00엘리|r Combination|c00FF8040[F]|r";
+		t["A0MC"][6][1] = "|c00ffff00Elly|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0MC"][8][1] = "h01W,h038,h03R,e03C";
@@ -20797,13 +20797,13 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- anam
 -- atp1 1
-		t["A0MD"][3][1] = "|c00FEE952[Unit Information]|r - 엘리[Historic]";
+		t["A0MD"][3][1] = "|c00FEE952[Unit Information]|r - Elly[Historic]";
 -- aub1 1
 		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: 시키에이키 야마자나두[Epic] + Kamishirasawa Keine EX[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 420\r\
-|c00F8BA54[Upgrade]|r : 엘리 Upgrade";
+|c00F8BA54[Upgrade]|r : Elly Upgrade";
 -- aart
 -- [A09U]
 -- arac
@@ -22756,7 +22756,7 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- atp1 1
 		t["A02E"][5][1] = "『악령의 책』";
 -- aub1 1
-		t["A02E"][6][1] = "*미마를 소유한 플레이어는 Normal Units을 셀렉터로 뽑을때 30% 확률로 1기 더 지급받습니다.\r\
+		t["A02E"][6][1] = "*Mima를 소유한 플레이어는 Normal Units을 셀렉터로 뽑을때 30% 확률로 1기 더 지급받습니다.\r\
 [오직 셀렉터로 뽑을 경우에 생성합니다]";
 -- anam
 -- arac
@@ -22767,20 +22767,20 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 		t["A03E"][1][1] = "『마력파장』";
 -- anam
 -- aub1 1
-		t["A03E"][3][1] = "*미마가 공격시 10% 확률로 자신 주변 600범위에 마력을 방출하여 185만의 |c00379BFF마법 데미지|r를 입히고 3초간 스턴시킵니다.";
+		t["A03E"][3][1] = "*Mima가 공격시 10% 확률로 자신 주변 600범위에 마력을 방출하여 185만의 |c00379BFF마법 데미지|r를 입히고 3초간 스턴시킵니다.";
 -- aart
 		t["A03E"][6][1] = "BTN\\BTNwex.blp";
 -- [A03F]
 -- arac
 -- anam
 -- atp1 1
-		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - 미마[Historic]";
+		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - Mima[Historic]";
 -- aub1 1
 		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Yakumo Ran[Epic] + Soga no Tojiko[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 420\r\
-|c00F8BA54[Upgrade]|r : 미마 Upgrade";
+|c00F8BA54[Upgrade]|r : Mima Upgrade";
 -- aart
 		t["A03F"][5][1] = "ReplaceableTextures\\CommandButtons\\Mima\\BTN_UP.blp";
 -- [A03G]
@@ -22916,9 +22916,9 @@ Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합
 -- arac
 -- aart
 -- aub1 1
-		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + Soga no Tojiko + 고대와 환상의 조각 = 미마";
+		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + Soga no Tojiko + 고대와 환상의 조각 = Mima";
 -- atp1 1
-		t["A0IK"][6][1] = "|c00ffff00미마|r Combination|c00FF8040[F]|r";
+		t["A0IK"][6][1] = "|c00ffff00Mima|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0IK"][8][1] = "h038,h01T,h042,e03C";
@@ -26680,8 +26680,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0P7"][5][1] = "『마력 흡수』";
 -- aub1 1
-		t["A0P7"][6][1] = "*신키가 공격시 10% 확률로 자신 주변 650범위 내에 있는 적을 1.8 seconds간 스턴시키고 75만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
-*신키 주변 1000범위 내에 있는 적의 방어력을 24 감소시킵니다.";
+		t["A0P7"][6][1] = "*Shinki가 공격시 10% 확률로 자신 주변 650범위 내에 있는 적을 1.8 seconds간 스턴시키고 75만의 |c00FF6464물리 데미지|r를 입힙니다.\r\
+*Shinki 주변 1000범위 내에 있는 적의 방어력을 24 감소시킵니다.";
 -- abuf 1
 -- atp1 2
 -- aub1 2
@@ -26704,7 +26704,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- Uin4 9
 -- Uin4 10
 -- atp1 2
-		t["A0P8"][16][1] = "[미마,물의기원, 신묘 포테스타스]";
+		t["A0P8"][16][1] = "[Mima,물의기원, 신묘 포테스타스]";
 -- atp1 3
 		t["A0P8"][17][1] = "[영야 스턴]";
 -- atp1 4
@@ -27624,9 +27624,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- aart
 -- aub1 1
-		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + Namazu[Epic] + Unknown[Unique] + 고대와 환상의 조각 = 아사쿠라 리카코";
+		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + Namazu[Epic] + Unknown[Unique] + 고대와 환상의 조각 = ";
 -- atp1 1
-		t["A0Q2"][6][1] = "|c00ffff00아사쿠라 리카코|r Combination|c00FF8040[F]|r";
+		t["A0Q2"][6][1] = "|c00ffff00|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0Q2"][8][1] = "uobs,h00S,h01J,e03C";
@@ -28835,7 +28835,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0C8"][4][1] = "『가만히 있으세요!』";
 -- anam
-		t["A0C8"][5][1] = "[코토히메]";
+		t["A0C8"][5][1] = "[Kotohime]";
 -- aart
 -- abuf 1
 		t["A0C8"][7][1] = "B069";
@@ -29332,7 +29332,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 *발동시 마나를 모두 회복합니다.\r\
 [사용 효과]\r\
 *대상 Unique Units을 흡혈하여 50초간 정지시킵니다. 정지 상태일때는 Combination 재료로 사용할 수 없으며, 어떠한 행동도 할 수 없습니다.[Unique 소울 추출은 가능합니다] 이미 정지한 Units은 흡혈할 수 없습니다.\r\
-*흡혈시 쿠루미의 활력을 모두 회복합니다.\r\
+*흡혈시 Kurumi의 활력을 모두 회복합니다.\r\
 *Cooldown 12초 ";
 -- atp1 1
 		t["A02D"][7][1] = "『홍향곡』|cffffcc00(Q)|r";
@@ -29342,7 +29342,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A02M"][2][1] = "『고갈』";
 -- aub1 1
-		t["A02M"][3][1] = "*쿠루미가 공격시 30% 확률로 대상 Units을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+		t["A02M"][3][1] = "*Kurumi가 공격시 30% 확률로 대상 Units을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF마법 데미지|r를 대상 주변 500범위 적에게 입힙니다.\r\
 *고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 Cooldown을 1초 감소시킵니다.";
@@ -29380,7 +29380,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A02M"][36][1] = "*쿠루미가 공격시 60% 확률로 대상 Units을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
+		t["A02M"][36][1] = "*Kurumi가 공격시 60% 확률로 대상 Units을 흡혈합니다. 125만의 |c00379BFF마법 데미지|r를 입힙니다.\r\
 *고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF마법 데미지|r를 대상 주변 500범위 적에게 입힙니다.\r\
 *고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 Cooldown을 1초 감소시킵니다.";
@@ -29418,9 +29418,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A03B"][2][1] = "『Break the Sabbath』";
 -- aub1 1
-		t["A03B"][3][1] = "*공격시 마나를 4 회복합니다. 마나가 444가 됐을때 발동합니다. 쿠루미가 8 seconds간 상시 흡혈 상태로 전환되며, 매 공격시 60% 확률로 『고갈』이 발동합니다. 흡혈 상태에서는 공격시 마나를 절반만 회복합니다.\r\
+		t["A03B"][3][1] = "*공격시 마나를 4 회복합니다. 마나가 444가 됐을때 발동합니다. Kurumi가 8 seconds간 상시 흡혈 상태로 전환되며, 매 공격시 60% 확률로 『고갈』이 발동합니다. 흡혈 상태에서는 공격시 마나를 절반만 회복합니다.\r\
 *흡혈 상태가 종료될 경우, 흡수한 피를 폭발시켜 주변 600범위에 600만의 |c00379BFF마법 데미지|r를 입히고, 4초간 80%의 Movement Speed 감소 효과를 입힙니다.\r\
-*쿠루미는 다른 Units의 활력/마나 회복 효과를 받지 않습니다.";
+*Kurumi는 다른 Units의 활력/마나 회복 효과를 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -29488,13 +29488,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A03K]
 -- arac
 -- atp1 1
-		t["A03K"][2][1] = "|c00FEE952[Unit Information]|r - 쿠루미[Historic]";
+		t["A03K"][2][1] = "|c00FEE952[Unit Information]|r - Kurumi[Historic]";
 -- aub1 1
-		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Teireida Mai[Epic] + 레밀리아 스칼렛[Epic] + 고대와 환상의 조각\r\
+		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Teireida Mai[Epic] + Remilia Scarlet[Epic] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.43 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : 쿠루미 Upgrade";
+|c00F8BA54[Upgrade]|r : Kurumi Upgrade";
 -- aart
 -- anam
 -- [A04P]
@@ -29671,7 +29671,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- anam
 -- arac
 -- atp1 1
-		t["A066"][3][1] = "『엘리, 엘리, 레마 사박타니』";
+		t["A066"][3][1] = "『Elly, Elly, 레마 사박타니』";
 -- aub1 1
 		t["A066"][4][1] = "*매 라운드가 끝날때마다, 자신이 소유한 이슈아를 포함한 모든 Units의 활력과 마나를 모두 회복합니다.\r\
 *공격시 14% 확률로 대상 지점에 신의 심판을 내려 250범위 내의 적에게 250만의 |c00FF6464물리 데미지|r를 입히고, 1.2초간 기절시킵니다.\r\
@@ -32463,8 +32463,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0LY"][2][1] = "『천사와 Devil』";
 -- aub1 1
-		t["A0LY"][3][1] = "*겐게츠가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는 마법 데미지를 20% 증폭시키며, 110만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-*발동시 겐게츠의 마나를 3 회복시킵니다.";
+		t["A0LY"][3][1] = "*Gengetsu가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는 마법 데미지를 20% 증폭시키며, 110만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
+*발동시 Gengetsu의 마나를 3 회복시킵니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -32472,8 +32472,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- atp1 2
 -- aub1 2
-		t["A0LY"][10][1] = "*겐게츠가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는 마법 데미지를 15% 증폭시키며, 110만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
-*발동시 겐게츠의 마나를 3 회복시킵니다.";
+		t["A0LY"][10][1] = "*Gengetsu가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는 마법 데미지를 15% 증폭시키며, 110만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
+*발동시 Gengetsu의 마나를 3 회복시킵니다.";
 -- [A0MR]
 -- arac
 -- atar 1
@@ -32989,8 +32989,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0LI"][5][1] = "『트라움 샷』";
 -- aub1 1
 		t["A0LI"][6][1] = "*기본적으로 주변 800범위 적의 방어력을 30 감소시킵니다.\r\
-*무게츠의 마나가 초당 5 회복됩니다.\r\
-*무게츠의 평타 공격시 마나가 20 이상일때, 마나 20를 소모하여 발동합니다.\r\
+*Mugetsu의 마나가 초당 5 회복됩니다.\r\
+*Mugetsu의 평타 공격시 마나가 20 이상일때, 마나 20를 소모하여 발동합니다.\r\
 *전방의 적에게 150만의 |c00AC59FF절대 피해|r를 입힙니다.";
 -- abuf 1
 		t["A0LI"][8][1] = "B05Q";
@@ -33002,9 +33002,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- aart
 -- aub1 1
-		t["A0QV"][5][1] = "Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + 고대와 환상의 조각 = 무게츠";
+		t["A0QV"][5][1] = "Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + 고대와 환상의 조각 = Mugetsu";
 -- atp1 1
-		t["A0QV"][6][1] = "|c00ffff00무게츠|r Combination|c00FF8040[D]|r";
+		t["A0QV"][6][1] = "|c00ffff00Mugetsu|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0QV"][8][1] = "h03N,h021,h03W,e03C";
@@ -34764,10 +34764,10 @@ nhym,h02Q,hlum,e03C";
 \r\
 [Attack Speed]: 0.36 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 코토히메 Upgrade";
+|c00F8BA54[Upgrade]|r : Kotohime Upgrade";
 -- atar 1
 -- atp1 1
-		t["A0QP"][4][1] = "|c00FEE952[Unit Information]|r - 코토히메[Historic]";
+		t["A0QP"][4][1] = "|c00FEE952[Unit Information]|r - Kotohime[Historic]";
 -- anam
 -- aart
 -- abuf 1
@@ -35271,12 +35271,12 @@ nhym,h02Q,hlum,e03C";
 		t["A0RQ"][308][1] = "fingerofdeath";
 -- [A0AV]
 -- anam
-		t["A0AV"][1][1] = "[미마][엘룬]역류";
+		t["A0AV"][1][1] = "[Mima][엘룬]역류";
 -- atp1 1
 		t["A0AV"][2][1] = "『역류』";
 -- aub1 1
 		t["A0AV"][3][1] = "*공격시 10% 확률로 대상 주변 400범위 내에 있는 적의 마력을 역류시켜 이후 받는 마법 데미지를 20% 증폭시킵니다.\r\
-*역류에 피격당한 적 하나당 미마의 마나가 0.5 회복됩니다.";
+*역류에 피격당한 적 하나당 Mima의 마나가 0.5 회복됩니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -35789,7 +35789,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0CZ"][66][1] = "h06M";
 -- [A0D7]
 -- aub1 1
-		t["A0D7"][1][1] = "*겐게츠가 공격시 마나를 1 회복합니다. 마나가 100일 때 발동합니다.\r\
+		t["A0D7"][1][1] = "*Gengetsu가 공격시 마나를 1 회복합니다. 마나가 100일 때 발동합니다.\r\
 *자신 전방에 흑백의 광선을 발사해 전방의 적에게 400만의 |c00AC59FF절대 데미지|r를 입힙니다.\r\
 *기본적으로 주변 700범위 자신 소유 Units의 공격 속도를 5% 증가시킵니다. 이 효과를 받는 Units이 마나 스킬 사용시 마나를 5~15% 회복시킵니다.";
 -- atar 1
@@ -36356,13 +36356,13 @@ nhym,h02Q,hlum,e03C";
 -- aart
 		t["A0S0"][3][1] = "ReplaceableTextures\\CommandButtons\\Meira\\BTN_UP.blp";
 -- atp1 1
-		t["A0S0"][4][1] = "|c00FEE952[Unit Information]|r - 메이라[Historic]";
+		t["A0S0"][4][1] = "|c00FEE952[Unit Information]|r - Meira[Historic]";
 -- aub1 1
 		t["A0S0"][5][1] = "|c00A8F13A[Combination]|r: Ghost Orchestra[Phantom Ensemble] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 메이라 Upgrade";
+|c00F8BA54[Upgrade]|r : Meira Upgrade";
 -- arac
 -- [A0S1]
 -- anam
@@ -36370,16 +36370,16 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["A0S1"][3][1] = "『일광의 끝』";
 -- aub1 1
-		t["A0S1"][4][1] = "*메이라가 공격시 마나를 1 회복합니다.\r\
-*메이라는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
-*메이라가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
+		t["A0S1"][4][1] = "*Meira가 공격시 마나를 1 회복합니다.\r\
+*Meira는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
+*Meira가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
 전방 700거리의 적을 베어 전체 체력의 0.4% + 80만의 |c00FF6464물리 피해|r를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
 -- aart
 -- atp1 2
 -- aub1 2
-		t["A0S1"][7][1] = "*메이라가 공격시 마나를 1 회복합니다.\r\
-*메이라는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
-*메이라가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
+		t["A0S1"][7][1] = "*Meira가 공격시 마나를 1 회복합니다.\r\
+*Meira는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
+*Meira가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
 전방 700거리의 적을 베어 현재 체력의 0.5% + 150만의 물리 데미지를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
 -- atp1 3
 -- atp1 4
@@ -36396,7 +36396,7 @@ nhym,h02Q,hlum,e03C";
 		t["A0S2"][3][1] = "『어둠의 힘』- 집중 0회";
 -- aub1 1
 		t["A0S2"][4][1] = "*이 스킬의 집중 횟수가 5회가 됐을 때, 대상 지점을 빠르게 휩쓸어 전체 체력의 9% + 500만의 |c00FF6464물리 피해|r를 입히고, 대상의 방어력을 영구히 20 감소시킵니다.\r\
-*이 스킬로 적을 1기라도 죽였을 경우, 메이라의 집중 스택이 3 회복됩니다.";
+*이 스킬로 적을 1기라도 죽였을 경우, Meira의 집중 스택이 3 회복됩니다.";
 -- aart
 -- atp1 2
 		t["A0S2"][6][1] = "『어둠의 힘』- 집중 1회";
@@ -36419,7 +36419,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0S3"][5][1] = "Ghost Orchestra[Epic] + Utsuho Reiuji[Epic] + Rumia EX[Unique] + 고대와 환상의 조각";
 -- atp1 1
-		t["A0S3"][6][1] = "|c00ffff00메이라|r Combination|c00FF8040[D]|r";
+		t["A0S3"][6][1] = "|c00ffff00Meira|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0S3"][8][1] = "h03B,h01S,h01H,e03C";
@@ -36429,7 +36429,7 @@ nhym,h02Q,hlum,e03C";
 -- ahky
 -- [A0S4]
 -- anam
-		t["A0S4"][1][1] = "[메이라 방어구 파괴]";
+		t["A0S4"][1][1] = "[Meira 방어구 파괴]";
 -- atp1 2
 -- [A0S5]
 -- arac
@@ -36624,9 +36624,9 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 -- arac
 -- atp1 1
-		t["S00X"][3][1] = "|c00FEE952[Unit Information]|r - 레밀리아 스칼렛[Arcana]";
+		t["S00X"][3][1] = "|c00FEE952[Unit Information]|r - Remilia Scarlet[Arcana]";
 -- aub1 1
-		t["S00X"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Patchouli Knowledge[Unique]  + 신비술사의 고서\r\
+		t["S00X"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Patchouli Knowledge[Unique]  + 신비술사의 고서\r\
 |c00A8F13A[Type Command]|r: 장미를 죽이는 카밀라(remi arc)\r\
 \r\
 [Attack Speed]: 0.34 Cooldown\r\
@@ -39661,13 +39661,13 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- anam
 -- atp1 1
-		t["A0TW"][3][1] = "|c00FEE952[Unit Information]|r - 엘리스[Historic]";
+		t["A0TW"][3][1] = "|c00FEE952[Unit Information]|r - Elis[Historic]";
 -- aub1 1
-		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: 레밀리아 스칼렛[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
+		t["A0TW"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 엘리스 Upgrade";
+|c00F8BA54[Upgrade]|r : Elis Upgrade";
 -- aart
 		t["A0TW"][5][1] = "Icon\\Unit\\BTNElis.blp";
 -- [A0TX]
@@ -39782,9 +39782,9 @@ nhym,h02Q,hlum,e03C";
 -- arac
 -- aart
 -- aub1 1
-		t["A0U7"][5][1] = "레밀리아 스칼렛[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각";
+		t["A0U7"][5][1] = "Remilia Scarlet[Epic] + Hecatia Lapislazuli[Epic] + Lily Black[Unique] + 고대와 환상의 조각";
 -- atp1 1
-		t["A0U7"][6][1] = "|c00ffff00엘리스|r Combination|c00FF8040[D]|r";
+		t["A0U7"][6][1] = "|c00ffff00Elis|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0U7"][8][1] = "h00Y,edry,h03R,e03C";

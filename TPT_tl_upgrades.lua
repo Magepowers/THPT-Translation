@@ -180,7 +180,7 @@ TPT_upgrades_loader = function(t)
 -- gef1
 -- gef2
 -- gtp1 1
-		t["Rhla"][3][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 1Lv";
+		t["Rhla"][3][1] = " Upgrade|cffffcc00(R)|r - 1Lv";
 -- ghk1 1
 		t["Rhla"][4][1] = "R";
 -- ghk1 2
@@ -188,15 +188,15 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rhla"][9][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 2Lv";
+		t["Rhla"][9][1] = " Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["Rhla"][10][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 3Lv";
+		t["Rhla"][10][1] = " Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["Rhla"][11][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 4Lv";
+		t["Rhla"][11][1] = " Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["Rhla"][12][1] = "아사쿠라 리카코 Upgrade|cffffcc00(R)|r - 5Lv";
+		t["Rhla"][12][1] = " Upgrade|cffffcc00(R)|r - 5Lv";
 -- gnam 1
-		t["Rhla"][13][1] = "아사쿠라 리카코 Upgrade[R]";
+		t["Rhla"][13][1] = " Upgrade[R]";
 -- gnam 2
 -- gnam 3
 -- gnam 4
@@ -653,13 +653,13 @@ TPT_upgrades_loader = function(t)
 -- gar1 1
 		t["Rhfc"][1][1] = "ReplaceableTextures\\CommandButtons\\mugetsu\\BTN_UP.blp";
 -- gtp1 1
-		t["Rhfc"][2][1] = "무게츠 Upgrade|cffffcc00(F)|r - 1Lv";
+		t["Rhfc"][2][1] = "Mugetsu Upgrade|cffffcc00(F)|r - 1Lv";
 -- ghk1 1
 		t["Rhfc"][3][1] = "F";
 -- greq 1
 		t["Rhfc"][4][1] = "nrel";
 -- gnam 1
-		t["Rhfc"][5][1] = "무게츠 Upgrade[F]";
+		t["Rhfc"][5][1] = "Mugetsu Upgrade[F]";
 -- gar1 2
 -- gar1 3
 -- gar1 4
@@ -669,13 +669,13 @@ TPT_upgrades_loader = function(t)
 -- greq 4
 -- greq 5
 -- gtp1 2
-		t["Rhfc"][14][1] = "무게츠 Upgrade|cffffcc00(F)|r - 2Lv";
+		t["Rhfc"][14][1] = "Mugetsu Upgrade|cffffcc00(F)|r - 2Lv";
 -- gtp1 3
-		t["Rhfc"][15][1] = "무게츠 Upgrade|cffffcc00(F)|r - 3Lv";
+		t["Rhfc"][15][1] = "Mugetsu Upgrade|cffffcc00(F)|r - 3Lv";
 -- gtp1 4
-		t["Rhfc"][16][1] = "무게츠 Upgrade|cffffcc00(F)|r - 4Lv";
+		t["Rhfc"][16][1] = "Mugetsu Upgrade|cffffcc00(F)|r - 4Lv";
 -- gtp1 5
-		t["Rhfc"][17][1] = "무게츠 Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
+		t["Rhfc"][17][1] = "Mugetsu Upgrade|cffffcc00(F)|r - |c00ff0000마스터|r";
 -- gub1 1
 		t["Rhfc"][18][1] = "『트라움 샷』에 현재 체력 0.01%의 절대 피해가 추가됩니다.\r\
 \r\
@@ -742,7 +742,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 2
 -- ghk1 3
 -- gtp1 1
-		t["Rome"][4][1] = "코토히메 Upgrade|cffffcc00(W)|r - 1Lv";
+		t["Rome"][4][1] = "Kotohime Upgrade|cffffcc00(W)|r - 1Lv";
 -- gar1 1
 		t["Rome"][5][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- gar1 3
@@ -758,21 +758,21 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rome"][16][1] = "코토히메 Upgrade|cffffcc00(W)|r - 2Lv";
+		t["Rome"][16][1] = "Kotohime Upgrade|cffffcc00(W)|r - 2Lv";
 -- gtp1 3
-		t["Rome"][17][1] = "코토히메 Upgrade|cffffcc00(W)|r - 3Lv";
+		t["Rome"][17][1] = "Kotohime Upgrade|cffffcc00(W)|r - 3Lv";
 -- gtp1 4
-		t["Rome"][18][1] = "코토히메 Upgrade|cffffcc00(W)|r - 4Lv";
+		t["Rome"][18][1] = "Kotohime Upgrade|cffffcc00(W)|r - 4Lv";
 -- gtp1 5
-		t["Rome"][19][1] = "코토히메 Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
+		t["Rome"][19][1] = "Kotohime Upgrade|cffffcc00(W)|r - |c00ff0000마스터|r";
 -- gnam 1
-		t["Rome"][20][1] = "코토히메 Upgrade[W]";
+		t["Rome"][20][1] = "Kotohime Upgrade[W]";
 -- gnam 2
 -- gnam 3
 -- gnam 4
 -- gnam 5
 -- gub1 1
-		t["Rome"][25][1] = "코토히메의 공격속도를 10% 증가시킵니다.\r\
+		t["Rome"][25][1] = "Kotohime의 공격속도를 10% 증가시킵니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : 『도망칠 수 없어요!』를 사용할 수 있게 되며,『조용히 하세요!』의 발동 필요 조건 횟수가 6회에서 5회로 감소합니다.";
 -- gub1 2
@@ -787,7 +787,7 @@ TPT_upgrades_loader = function(t)
 -- ghk1 2
 -- ghk1 3
 -- gtp1 1
-		t["Roar"][4][1] = "메이라 Upgrade|cffffcc00(E)|r - 1Lv";
+		t["Roar"][4][1] = "Meira Upgrade|cffffcc00(E)|r - 1Lv";
 -- greq 2
 		t["Roar"][5][1] = "e03P";
 -- greq 3
@@ -796,7 +796,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 2
 -- gar1 3
 -- gnam 1
-		t["Roar"][10][1] = "메이라 Upgrade[E]";
+		t["Roar"][10][1] = "Meira Upgrade[E]";
 -- gnam 2
 -- gnam 3
 -- gar1 4
@@ -804,15 +804,15 @@ TPT_upgrades_loader = function(t)
 -- gef1
 -- gef2
 -- gtp1 2
-		t["Roar"][17][1] = "메이라 Upgrade|cffffcc00(E)|r - 2Lv";
+		t["Roar"][17][1] = "Meira Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["Roar"][18][1] = "메이라 Upgrade|cffffcc00(E)|r - 3Lv";
+		t["Roar"][18][1] = "Meira Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["Roar"][19][1] = "메이라 Upgrade|cffffcc00(E)|r - 4Lv";
+		t["Roar"][19][1] = "Meira Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["Roar"][20][1] = "메이라 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["Roar"][20][1] = "Meira Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gub1 1
-		t["Roar"][21][1] = "메이라의 공격력을 25000. 공격속도를 10% 증가시킵니다.『어둠의 힘』의 전체 체력 비례 데미지가 0.5%p 증가합니다.\r\
+		t["Roar"][21][1] = "Meira의 공격력을 25000. 공격속도를 10% 증가시킵니다.『어둠의 힘』의 전체 체력 비례 데미지가 0.5%p 증가합니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : 공격시 마나 회복량이 1에서 1.5로 증가하며, 활력 쿨다운을 0.2초 회복합니다.";
 -- ghk1 4
@@ -5174,15 +5174,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00Y"][104][1] = "신키 Upgrade|cffffcc00(F)|r - 1Lv";
+		t["R00Y"][104][1] = "Shinki Upgrade|cffffcc00(F)|r - 1Lv";
 -- gtp1 2
-		t["R00Y"][105][1] = "신키 Upgrade|cffffcc00(F)|r - 2Lv";
+		t["R00Y"][105][1] = "Shinki Upgrade|cffffcc00(F)|r - 2Lv";
 -- gtp1 3
-		t["R00Y"][106][1] = "신키 Upgrade|cffffcc00(F)|r - 3Lv";
+		t["R00Y"][106][1] = "Shinki Upgrade|cffffcc00(F)|r - 3Lv";
 -- gtp1 4
-		t["R00Y"][107][1] = "신키 Upgrade|cffffcc00(F)|r - 4Lv";
+		t["R00Y"][107][1] = "Shinki Upgrade|cffffcc00(F)|r - 4Lv";
 -- gtp1 5
-		t["R00Y"][108][1] = "신키 Upgrade|cffffcc00(F)|r - 5Lv";
+		t["R00Y"][108][1] = "Shinki Upgrade|cffffcc00(F)|r - 5Lv";
 -- gtp1 6
 		t["R00Y"][109][1] = "Ghost Orchestra[Phantom Ensemble] Upgrade|cffffcc00(W)|r - 6Lv";
 -- gtp1 7
@@ -5234,7 +5234,7 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R00Y"][154][1] = "신키의 공격력이 15000, 공격속도가 12% 상승합니다.\r\
+		t["R00Y"][154][1] = "Shinki의 공격력이 15000, 공격속도가 12% 상승합니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : 공격시 마나를 1 회복합니다.";
 -- gub1 2
@@ -9355,7 +9355,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R01X"][55][1] = "오카자키 유메미 Upgrade[R]";
+		t["R01X"][55][1] = "Yumemi Okazaki Upgrade[R]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -9405,15 +9405,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01X"][104][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 1Lv";
+		t["R01X"][104][1] = "Yumemi Okazaki Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R01X"][105][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 2Lv";
+		t["R01X"][105][1] = "Yumemi Okazaki Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R01X"][106][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 3Lv";
+		t["R01X"][106][1] = "Yumemi Okazaki Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R01X"][107][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - 4Lv";
+		t["R01X"][107][1] = "Yumemi Okazaki Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R01X"][108][1] = "오카자키 유메미 Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
+		t["R01X"][108][1] = "Yumemi Okazaki Upgrade|cffffcc00(R)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -9462,7 +9462,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01X"][154][1] = "*데미지가 30000 증가하고, 공격속도가 12% 상승합니다.\r\
 |c00FF0000*Upgrade 마스터 효과|r : 청소용 메이드로봇『루코토』를 생성합니다.\r\
-[주의! 오카자키 유메미[히스토릭]이 존재하지 않을때 Upgrade를 마스터할 경우 루코토가 생성되지 않습니다.]";
+[주의! Yumemi Okazaki[히스토릭]이 존재하지 않을때 Upgrade를 마스터할 경우 루코토가 생성되지 않습니다.]";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -9619,15 +9619,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R01Y"][104][1] = "사리엘 Upgrade|cffffcc00(A)|r - 1Lv";
+		t["R01Y"][104][1] = "Sariel Upgrade|cffffcc00(A)|r - 1Lv";
 -- gtp1 2
-		t["R01Y"][105][1] = "사리엘 Upgrade|cffffcc00(A)|r - 2Lv";
+		t["R01Y"][105][1] = "Sariel Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R01Y"][106][1] = "사리엘 Upgrade|cffffcc00(A)|r - 3Lv";
+		t["R01Y"][106][1] = "Sariel Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R01Y"][107][1] = "사리엘 Upgrade|cffffcc00(A)|r - 4Lv";
+		t["R01Y"][107][1] = "Sariel Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R01Y"][108][1] = "사리엘 Upgrade|cffffcc00(A)|r - 5Lv";
+		t["R01Y"][108][1] = "Sariel Upgrade|cffffcc00(A)|r - 5Lv";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -10265,7 +10265,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 49
 -- gar1 50
 -- gnam 2
-		t["R00H"][55][1] = "겐게츠 Upgrade[S]";
+		t["R00H"][55][1] = "Gengetsu Upgrade[S]";
 -- gnam 3
 -- gnam 4
 -- gnam 5
@@ -10315,15 +10315,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00H"][104][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 1Lv";
+		t["R00H"][104][1] = "Gengetsu Upgrade|cffffcc00(S)|r - 1Lv";
 -- gtp1 2
-		t["R00H"][105][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 2Lv";
+		t["R00H"][105][1] = "Gengetsu Upgrade|cffffcc00(S)|r - 2Lv";
 -- gtp1 3
-		t["R00H"][106][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 3Lv";
+		t["R00H"][106][1] = "Gengetsu Upgrade|cffffcc00(S)|r - 3Lv";
 -- gtp1 4
-		t["R00H"][107][1] = "겐게츠 Upgrade|cffffcc00(S)|r - 4Lv";
+		t["R00H"][107][1] = "Gengetsu Upgrade|cffffcc00(S)|r - 4Lv";
 -- gtp1 5
-		t["R00H"][108][1] = "겐게츠 Upgrade|cffffcc00(S)|r - c00ff0000마스터|r";
+		t["R00H"][108][1] = "Gengetsu Upgrade|cffffcc00(S)|r - c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -10370,7 +10370,7 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R00H"][154][1] = "겐게츠의 공격력이 15000 증가하며, 공격속도가 10% 증가합니다. 겐게츠의 스킬이 발동할 확률이 0.5% 상승합니다.\r\
+		t["R00H"][154][1] = "Gengetsu의 공격력이 15000 증가하며, 공격속도가 10% 증가합니다. Gengetsu의 스킬이 발동할 확률이 0.5% 상승합니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : 『천사와 악마』의 마법 데미지 증폭률이 20%에서 30%로 증가합니다.";
 -- gub1 2
@@ -10534,15 +10534,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R00M"][104][1] = "엘리 Upgrade|cffffcc00(E)|r - 1Lv";
+		t["R00M"][104][1] = "Elly Upgrade|cffffcc00(E)|r - 1Lv";
 -- gtp1 2
-		t["R00M"][105][1] = "엘리 Upgrade|cffffcc00(E)|r - 2Lv";
+		t["R00M"][105][1] = "Elly Upgrade|cffffcc00(E)|r - 2Lv";
 -- gtp1 3
-		t["R00M"][106][1] = "엘리 Upgrade|cffffcc00(E)|r - 3Lv";
+		t["R00M"][106][1] = "Elly Upgrade|cffffcc00(E)|r - 3Lv";
 -- gtp1 4
-		t["R00M"][107][1] = "엘리 Upgrade|cffffcc00(E)|r - 4Lv";
+		t["R00M"][107][1] = "Elly Upgrade|cffffcc00(E)|r - 4Lv";
 -- gtp1 5
-		t["R00M"][108][1] = "엘리 Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
+		t["R00M"][108][1] = "Elly Upgrade|cffffcc00(E)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -10976,15 +10976,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R013"][104][1] = "미마 Upgrade|cffffcc00(F)|r - 1Lv";
+		t["R013"][104][1] = "Mima Upgrade|cffffcc00(F)|r - 1Lv";
 -- gtp1 2
-		t["R013"][105][1] = "미마 Upgrade|cffffcc00(F)|r - 2Lv";
+		t["R013"][105][1] = "Mima Upgrade|cffffcc00(F)|r - 2Lv";
 -- gtp1 3
-		t["R013"][106][1] = "미마 Upgrade|cffffcc00(F)|r - 3Lv";
+		t["R013"][106][1] = "Mima Upgrade|cffffcc00(F)|r - 3Lv";
 -- gtp1 4
-		t["R013"][107][1] = "미마 Upgrade|cffffcc00(F)|r - 4Lv";
+		t["R013"][107][1] = "Mima Upgrade|cffffcc00(F)|r - 4Lv";
 -- gtp1 5
-		t["R013"][108][1] = "미마 Upgrade|cffffcc00(F)|r - 5Lv";
+		t["R013"][108][1] = "Mima Upgrade|cffffcc00(F)|r - 5Lv";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -11031,7 +11031,7 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R013"][154][1] = "*미마의 공격속도가 10% , 스킬 공격력이 4% 증가합니다.\r\
+		t["R013"][154][1] = "*Mima의 공격속도가 10% , 스킬 공격력이 4% 증가합니다.\r\
 『마력파장』은 스킬 공격력이 증가하지 않는 대신, 발동 확률이 1% 증가합니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : 『오중마법진』의 데미지가 50% 증가합니다.";
@@ -11199,15 +11199,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R014"][104][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 1Lv";
+		t["R014"][104][1] = "Kurumi Upgrade|cffffcc00(A)|r - 1Lv";
 -- gtp1 2
-		t["R014"][105][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 2Lv";
+		t["R014"][105][1] = "Kurumi Upgrade|cffffcc00(A)|r - 2Lv";
 -- gtp1 3
-		t["R014"][106][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 3Lv";
+		t["R014"][106][1] = "Kurumi Upgrade|cffffcc00(A)|r - 3Lv";
 -- gtp1 4
-		t["R014"][107][1] = "쿠루미 Upgrade|cffffcc00(A)|r - 4Lv";
+		t["R014"][107][1] = "Kurumi Upgrade|cffffcc00(A)|r - 4Lv";
 -- gtp1 5
-		t["R014"][108][1] = "쿠루미 Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
+		t["R014"][108][1] = "Kurumi Upgrade|cffffcc00(A)|r - |c00ff0000마스터|r";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -11823,15 +11823,15 @@ TPT_upgrades_loader = function(t)
 -- gnam 49
 -- gnam 50
 -- gtp1 1
-		t["R015"][104][1] = "엘리스 Upgrade|cffffcc00(R)|r - 1Lv";
+		t["R015"][104][1] = "Elis Upgrade|cffffcc00(R)|r - 1Lv";
 -- gtp1 2
-		t["R015"][105][1] = "엘리스 Upgrade|cffffcc00(R)|r - 2Lv";
+		t["R015"][105][1] = "Elis Upgrade|cffffcc00(R)|r - 2Lv";
 -- gtp1 3
-		t["R015"][106][1] = "엘리스 Upgrade|cffffcc00(R)|r - 3Lv";
+		t["R015"][106][1] = "Elis Upgrade|cffffcc00(R)|r - 3Lv";
 -- gtp1 4
-		t["R015"][107][1] = "엘리스 Upgrade|cffffcc00(R)|r - 4Lv";
+		t["R015"][107][1] = "Elis Upgrade|cffffcc00(R)|r - 4Lv";
 -- gtp1 5
-		t["R015"][108][1] = "엘리스 Upgrade|cffffcc00(R)|r - 5Lv";
+		t["R015"][108][1] = "Elis Upgrade|cffffcc00(R)|r - 5Lv";
 -- gtp1 6
 -- gtp1 7
 -- gtp1 8
@@ -11878,7 +11878,7 @@ TPT_upgrades_loader = function(t)
 -- gtp1 49
 -- gtp1 50
 -- gub1 3
-		t["R015"][154][1] = "＊엘리스의 공격속도가 13% 증가합니다.\r\
+		t["R015"][154][1] = "＊Elis의 공격속도가 13% 증가합니다.\r\
 \r\
 |c00FF0000*Upgrade 마스터 효과|r : 『클리포트 컨트렉트』를 사용할 수 있습니다.";
 -- gub1 2
