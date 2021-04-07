@@ -2876,7 +2876,7 @@ TPT_units_loader = function(t)
 -- umvt
 -- [e000]
 -- unam
-		t["e000"][1][1] = "셀렉터";
+		t["e000"][1][1] = "Selector";
 -- uabi
 -- uhrt
 -- urac
