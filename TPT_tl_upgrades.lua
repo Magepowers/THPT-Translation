@@ -204,7 +204,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 1
 		t["Rhla"][18][1] = "리카코의 공격력이 15000 증가하며, Attack Speed가 12% 증가합니다.\r\
 \r\
-|c00FF0000*Upgrade 마스터 효과|r : 리카코가 공격시 활력 쿨다운을 0.1초 감소시킵니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 리카코가 공격시 활력 Cooldown을 0.1초 감소시킵니다.";
 -- greq 2
 		t["Rhla"][19][1] = "ngzc";
 -- greq 3
@@ -726,7 +726,7 @@ TPT_upgrades_loader = function(t)
 -- gnam 4
 -- gnam 5
 -- gub1 1
-		t["Rhfl"][24][1] = "*레이무의 공격력이 50000 , Attack Speed가 12% 증가합니다. 공격시 활력 쿨다운이 [Upgrade 횟수 * 0.04초] 회복합니다\r\
+		t["Rhfl"][24][1] = "*레이무의 공격력이 50000 , Attack Speed가 12% 증가합니다. 공격시 활력 Cooldown이 [Upgrade 횟수 * 0.04초] 회복합니다\r\
 \r\
 |c00FF0000Upgrade 마스터 효과|r : 대결계『하쿠레이 탄막결계』가 발동할 경우, 체력이 20% 이하인 적을 즉사시킵니다.";
 -- gub1 2
@@ -814,7 +814,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 1
 		t["Roar"][21][1] = "Meira의 공격력을 25000. Attack Speed를 10% 증가시킵니다.『어둠의 힘』의 전체 체력 비례 데미지가 0.5%p 증가합니다.\r\
 \r\
-|c00FF0000*Upgrade 마스터 효과|r : 공격시 마나 회복량이 1에서 1.5로 증가하며, 활력 쿨다운을 0.2초 회복합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 공격시 마나 회복량이 1에서 1.5로 증가하며, 활력 Cooldown을 0.2초 회복합니다.";
 -- ghk1 4
 -- ghk1 5
 -- gub1 2
@@ -2353,7 +2353,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 14
 -- gub1 13
 -- gub1 15
-		t["R00C"][167][1] = "Attack Speed가 8% 빨라지고, 핵열『핵반응 제어불능』의 데미지가 7000증가하고 확률이 5% 증가합니다. 쿨다운이 2초 증가합니다.";
+		t["R00C"][167][1] = "Attack Speed가 8% 빨라지고, 핵열『핵반응 제어불능』의 데미지가 7000증가하고 확률이 5% 증가합니다. Cooldown이 2초 증가합니다.";
 -- gub1 16
 -- gub1 18
 -- gub1 17
@@ -5009,7 +5009,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R00X"][154][1] = "*카나의 Attack Speed가 10% 증가하고, 카나가 공격시 [Upgrade 횟수*5]%의 확률로 대상 유닛에게 『쉐도우 레이즈』로 쌓은 영혼 수 * 5,000의 Magical Damage를 입힙니다.\r\
 \r\
-|c00FF0000*Upgrade 마스터 효과|r : 『폴터 가이스트』지속시간 동안『Lost Dream』을 발동할 경우, 10% 확률로 꿈의 요정을 생성합니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『폴터 가이스트』Duration 동안『Lost Dream』을 발동할 경우, 10% 확률로 꿈의 요정을 생성합니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -7405,7 +7405,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01I"][154][1] = "*공격력이 25000, 공격 속도가 12% 증가합니다. 텐시가 공격시 Upgrade 횟수 * 0.3의 마나를 추가로 회복합니다.\r\
 \r\
-|c00FF0000*Upgrade 마스터 효과|r : 『무념무상의 경지』의 지속시간 도중에도 『무념무상의 경지』가 발동 가능하도록 변경됩니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『무념무상의 경지』의 Duration 도중에도 『무념무상의 경지』가 발동 가능하도록 변경됩니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5
@@ -9891,7 +9891,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01Z"][154][1] = "공격력이 75000 상승하고, 공격 속도가 25% 증가합니다. \r\
 \r\
-|c00FF0000*Upgrade 마스터 효과|r : 『수수께끼의 석가면』을 사용할 수 있게 됩니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 『Mysterious Stone Mask』을 사용할 수 있게 됩니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5

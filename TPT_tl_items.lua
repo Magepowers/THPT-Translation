@@ -480,9 +480,9 @@ Byakuren deals 15% True Damage on attack in a 350 AoE.";
 -- utub
 		t["ward"][5][1] = "무슨 생각을 하고 있는지 모두 알 수 있어도, 진정한 무의식의 내면까지는 모르는 법이네.\r\
 \r\
-|c00FF9664[Reinforcement Effect: 마음을 읽는/숨기는 정도의 능력]|r\r\
-마음을 숨기는 능력의 쿨다운이 8초가 됩니다. \r\
-마음을 읽는 능력으로 스킬을 가져올 경우 마나를 모두 회복합니다.";
+|c00FF9664[Reinforcement Effect: Mind Reading/Ability to Hide]|r\r\
+Ability to Hide the Mind cooldown becomes 8 seconds. \r\
+Mind reading abilities restore all Mana.";
 -- ides
 -- icid
 -- iico
@@ -506,9 +506,9 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- utub
 		t["ajen"][3][1] = "이 꽃밭에서 너는 그저 스쳐가는 잔상일 뿐이야.\r\
 \r\
-|c00FF9664[Reinforcement Effect: 파멸의 개화]|r\r\
-『환상향의 개화』의 즉사 효과 발동 Health 수치가 10%에서 15%로 증가합니다.\r\
-추가로 적 유닛을 즉사시켰을 경우, 즉사시킨 유닛의 전체 Health의 2%에 해당하는 |c00AC59FF True Damage|r를 주변 500범위 적에게 입힙니다.";
+|c00FF9664[Reinforcement Effect: Enlightenment of Destruction]|r\r\
+『Blossoming of Gensokyo』's instant death condition increased from 10% to 15% Health.\r\
+When a unit is instantly killed, deal 2% Maximum Health |c00AC59FF True Damage|r of the enemy killed in a 500 AoE.";
 -- ides
 -- iico
 -- [rin1]
@@ -518,8 +518,8 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- utub
 		t["rin1"][4][1] = "결국 모든 것이 나의 망상이었던가.\r\
 \r\
-|c00FF9664[Reinforcement Effect: 핸디캡 파라노이아]|r\r\
-*『아나키 불릿 헬』 발동시 1초 간격으로 연쇄 폭발이 일어납니다. 연쇄 폭발의 확률은 100%에서 시작하여 1/3로 감소합니다.";
+|c00FF9664[Reinforcement Effect: Handicap Paranoia]|r\r\
+*『Anarchy Bullet Hell』 When activated, a chain explosion occurs every 1 second. The probability of a chain explosion starts at 100% and decreases by 1/3 every explosion.";
 -- iico
 -- ides
 -- [bgst]
@@ -529,9 +529,9 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- utub
 		t["bgst"][3][1] = "꿈인지 현실인지 모르겠어\r\
 \r\
-|c00FF9664[Reinforcement Effect: 템페스트 드림]|r\r\
-*대상 지점에 스미레코의 분신을 생성합니다. 분신은 스미레코와 별개의 유닛으로 판정되며 스미레코와 동일한 평타 데미지/ 스킬을 가진 상태로 소환됩니다. 플레이어가 컨트롤할 수 없습니다.\r\
-*지속시간 20초 / 쿨다운 50초";
+|c00FF9664[Reinforcement Effect: Tempest Dream]|r\r\
+*Summons a clone of Sumireko at the target location. The clone is a separate unit from Sumireko and is summoned with the same Damage/Skills as Sumireko. The player cannot control this unit.\r\
+*Duration 20 seconds / Cooldown 50 seconds";
 -- ides
 -- ureq
 		t["bgst"][6][1] = "e02C";
@@ -541,13 +541,13 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- icid
 -- [kpin]
 -- utip
-		t["kpin"][2][1] = "|c00FF9664Hihiirokane Scepter|r - 하타노 코코로";
+		t["kpin"][2][1] = "|c00FF9664Hihiirokane Scepter|r - Hata no Kokoro";
 -- unam
 -- utub
-		t["kpin"][4][1] = "|c00FF9664[Reinforcement Effect: 가면상심무 암흑노가쿠]|r\r\
-＊[마력] - 70 : 공격 시 마력을 2 회복합니다. 나기나타 검무를 춰 자신 주변 600 범위의 적에게 (Current Health 1.2% + 120,000)*1~3의 물리 피해를 가합니다.\r\
-＊수수께끼의 석가면을 사용하지 않았다면, 피해가 전체 Health 1.5% + 225,000으로 변경됩니다.\r\
-[셉터 획득 시 코코로는 마력 회복 효과를 받지 않습니다.]\r\
+		t["kpin"][4][1] = "|c00FF9664[Reinforcement Effect: Dance of the Empty-Hearted Masks: Noh of Darkness]|r\r\
+＊[Mana] - 70 : On attack, restore 2 Mana.  Performs a sword dance to enemies in a 600 AoE that deals (Current Health 1.2% + 120,000)*1~3 Physical Damage.\r\
+＊When using Mysterious Stone Mask, deals and additional 1.5% Health + 225,000 Damage.\r\
+[When the Scepter is acquired, you can not receive Mana recovery effects.]\r\
 \r\
 나는 모든 감정을 주관하는 자다!";
 -- iico
@@ -559,10 +559,10 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- utub
 		t["rhth"][3][1] = "왼손으로 악수하자고, 그쪽이 내 심장과 더 가까우니까.\r\
 \r\
-|c00FF9664[Reinforcement Effect : 쇼 네버 엔드]|r\r\
-*Attack Speed가 50% 상승합니다.\r\
-*『블루 레이디 쇼』사용이 불가능해집니다.\r\
-*『블루 레이디 쇼』의 과충전 상태를 항상 유지합니다.";
+|c00FF9664[Reinforcement Effect : Show Never End]|r\r\
+*Attack Speed increased by 50%.\r\
+*『Blue Lady Show』 becomes unavailable.\r\
+*『Blue Lady Show』 mantains an overcharged state at all times.";
 -- ides
 -- iico
 -- iabi
@@ -572,9 +572,9 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 		t["I000"][1][1] = "도박 50";
 -- iico
 -- utip
-		t["I000"][4][1] = "50원 금화 도박|cffffcc00(Q)|r";
+		t["I000"][4][1] = "50 Gold Gambling|cffffcc00(Q)|r";
 -- utub
-		t["I000"][5][1] = "40 골드에서 300 골드 사이의 랜덤한 골드를 획득합니다.";
+		t["I000"][5][1] = "Randomly obtain 40-300 Gold.";
 -- ides
 -- ifil
 		t["I000"][7][1] = "Objects\\InventoryItems\\PotofGold\\PotofGold.mdl";
@@ -586,9 +586,9 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 		t["I001"][1][1] = "도박 500";
 -- iico
 -- utip
-		t["I001"][4][1] = "500원 금화 도박|cffffcc00(W)|r";
+		t["I001"][4][1] = "500 Gold Gambling|cffffcc00(W)|r";
 -- utub
-		t["I001"][5][1] = "400 골드에서 1500 골드 사이의 랜덤한 골드를 획득합니다.";
+		t["I001"][5][1] = "Randomly obtain 400-1500 Gold.";
 -- ides
 -- ifil
 -- uhot
@@ -599,9 +599,9 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 		t["I002"][1][1] = "도박 1500";
 -- iico
 -- utip
-		t["I002"][4][1] = "1500원 금화 도박|cffffcc00(E)|r";
+		t["I002"][4][1] = "1500 Gold Gambling|cffffcc00(E)|r";
 -- utub
-		t["I002"][5][1] = "1200 골드에서 3200 골드 사이의 랜덤한 골드를 획득합니다.";
+		t["I002"][5][1] = "Randomly obtain 1200-3200 Gold.";
 -- ides
 -- ifil
 -- uhot
@@ -609,14 +609,14 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- icla
 -- [I003]
 -- unam
-		t["I003"][1][1] = "요상하게 생긴 인간";
+		t["I003"][1][1] = "Strange-looking Human";
 -- iico
 		t["I003"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNGuldanSkull.blp";
 -- utip
-		t["I003"][4][1] = "요상하게 생긴 인간|cffffcc00(R)|r";
+		t["I003"][4][1] = "Strange-looking Human|cffffcc00(R)|r";
 -- utub
-		t["I003"][5][1] = "*요상하게 생긴 인간을 소환합니다. 요상하게 생긴 인간은 대상 유닛으로 변신할 수 있는 능력을 가집니다. \r\
-*쿨다운 450초";
+		t["I003"][5][1] = "*Summon a Strange-looking Human. Strange-looking Human has the ability to transform into a target Normal unit. \r\
+*Cooldown 450 seconds";
 -- ides
 -- ifil
 -- uhot
@@ -624,26 +624,26 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- icla
 -- [I004]
 -- unam
-		t["I004"][1][1] = "일반 유닛 도박";
+		t["I004"][1][1] = "Normal Unit Gamble";
 -- iico
 		t["I004"][3][1] = "BTN\\BTNdai.blp";
 -- utip
-		t["I004"][4][1] = "일반 유닛 도박|cffffcc00(A)|r";
+		t["I004"][4][1] = "Normal Unit Gamble|cffffcc00(A)|r";
 -- utub
-		t["I004"][5][1] = "*랜덤한 일반 유닛 1기를 획득합니다.\r\
-*쿨다운 5초";
+		t["I004"][5][1] = "*Randomly obtain 1 Normal unit.\r\
+*Cooldown 5 seconds";
 -- ides
 -- ifil
 -- icla
 -- [I005]
 -- unam
-		t["I005"][1][1] = "레어 유닛 도박";
+		t["I005"][1][1] = "Rare Unit Gamble";
 -- iico
 		t["I005"][3][1] = "BTN\\BTNKogasa.blp";
 -- utip
-		t["I005"][4][1] = "레어 유닛 도박|cffffcc00(S)|r";
+		t["I005"][4][1] = "Rare Unit Gamble|cffffcc00(S)|r";
 -- utub
-		t["I005"][5][1] = "랜덤한 레어 유닛 하나를 얻습니다. 쿨다운 20초";
+		t["I005"][5][1] = "Randomly obtain a Rare unit. Cooldown 20 seconds";
 -- ides
 -- ifil
 -- uhot
@@ -657,10 +657,10 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- iico
 		t["I006"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNStun.blp";
 -- utip
-		t["I006"][4][1] = "벤토라 뽑기|cffffcc00(F)|r";
+		t["I006"][4][1] = "UFO Draw|cffffcc00(F)|r";
 -- utub
-		t["I006"][5][1] = "*벤토라를 뽑습니다. 82%확률로 일반 벤토라가 등장하며, 18%의 확률로 컬러 벤토라가 등장합니다. 레인보우 벤토라는 얻지 못합니다. \r\
-*쿨다운 15초";
+		t["I006"][5][1] = "*Draw a UFO. 82% to obtain a normal UFO and 18% chance to get a colored UFO. \r\
+*Cooldown 15 seconds";
 -- ides
 -- ifil
 -- uhot
@@ -672,9 +672,9 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- iico
 		t["I007"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNWisp.blp";
 -- utip
-		t["I007"][4][1] = "Selector 도박|cffffcc00(Z)|r";
+		t["I007"][4][1] = "Selector Gamble|cffffcc00(Z)|r";
 -- utub
-		t["I007"][5][1] = "50% 확률로 Selector를 생성합니다. 쿨다운 10초";
+		t["I007"][5][1] = "50% chance to get a selector. Cooldown 10 seconds";
 -- ides
 -- ifil
 -- uhot
@@ -686,10 +686,10 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- iico
 		t["I00G"][3][1] = "BTN\\BTNMomizi.blp";
 -- utip
-		t["I00G"][4][1] = "유니크 유닛 도박|cffffcc00(D)|r";
+		t["I00G"][4][1] = "Unique Unit Gamble|cffffcc00(D)|r";
 -- utub
-		t["I00G"][5][1] = "*랜덤한 유니크 유닛 하나를 얻습니다. \r\
-*쿨다운 90초";
+		t["I00G"][5][1] = "*Gain a random Unique unit. \r\
+*Cooldown 90 seconds";
 -- ides
 -- uhot
 		t["I00G"][7][1] = "D";
@@ -700,33 +700,33 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- icla
 -- [I00H]
 -- unam
-		t["I00H"][1][1] = "감시자의 눈";
+		t["I00H"][1][1] = "Watcher's Eye";
 -- utip
-		t["I00H"][2][1] = "감시자의 눈 구입|cffffcc00(W)|r";
+		t["I00H"][2][1] = "Purchase Watcher's Eye|cffffcc00(W)|r";
 -- utub
-		t["I00H"][3][1] = "20초 동안 500범위를 디텍트 하는 감시자의 눈을 설치합니다. 3회까지 사용가능합니다.";
+		t["I00H"][3][1] = "Places a ward that reveals invisible units in a 500 AoE for 20 seconds . Can be used up to 3 times.";
 -- ides
-		t["I00H"][4][1] = "감시자의 눈을 사용할 수 있습니다.";
+		t["I00H"][4][1] = "Allows you to use Watcher's Eye.";
 -- uhot
 -- unsf
 -- [I00J]
 -- unam
-		t["I00J"][1][1] = "감시자의 눈(체험판)";
+		t["I00J"][1][1] = "Watcher's Eye(Trial Version)";
 -- utip
-		t["I00J"][2][1] = "감시자의 눈(체험판) 구입|cffffcc00(Q)|r";
+		t["I00J"][2][1] = "Purchase Watcher's Eye(Trial Version)|cffffcc00(Q)|r";
 -- utub
-		t["I00J"][3][1] = "20초 동안 500범위를 디텍트 하는 감시자의 눈을 설치합니다. 2회 사용가능합니다. 체험판이므로 정식으로 사용하려면 구매해서 사용해 주세요.";
+		t["I00J"][3][1] = "Places a ward that reveals invisible units in a 500 AoE for 20 seconds . Can be used up to 2 times.";
 -- ides
-		t["I00J"][4][1] = "감시자의 눈을 사용할 수 있습니다. 현재 한 세트 무료배포중.";
+		t["I00J"][4][1] = "Allows you to use Watcher's Eye.";
 -- uhot
 -- unsf
 -- [I00K]
 -- unam
-		t["I00K"][1][1] = "장비 아이템 강화 주문서";
+		t["I00K"][1][1] = "Item Enhancement Order";
 -- utip
-		t["I00K"][2][1] = "장비 아이템 강화 주문서 구입|cffffcc00(A)|r";
+		t["I00K"][2][1] = "Purchase Item Enhancement Order|cffffcc00(A)|r";
 -- utub
-		t["I00K"][3][1] = "특정 장비 아이템을 강화 할 수 있는 주문서 입니다. 인형에 나이트 버드의 발톱이나 초보자를 위한 마법서와 함께 소지할 경우 자동으로 강화됩니다.|c00ff0000(사용이 안 될 경우 버렸다가 다시 습득해주세요.)|r";
+		t["I00K"][3][1] = "An order that can enhance certain items. If you carry the item with Night Bird's Claw or Spellbook for Beginners, it will automatically upgrade.|c00ff0000(If you can't use it, throw it away and re-learn it.)|r";
 -- ides
 -- uhot
 		t["I00K"][5][1] = "A";
@@ -734,13 +734,13 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- unsf
 -- [I00L]
 -- unam
-		t["I00L"][1][1] = "인형";
+		t["I00L"][1][1] = "Doll";
 -- iico
 		t["I00L"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNCritterChicken.blp";
 -- utip
-		t["I00L"][4][1] = "인형 구입|cffffcc00(E)|r";
+		t["I00L"][4][1] = "Purchase Doll|cffffcc00(E)|r";
 -- utub
-		t["I00L"][5][1] = "절대 어느 인형사가 분실한 인형은 아닙니다. 도난품은 아니니까 안심하고 쓰셔도 될거같습니다. 6칸의 인벤토리와 450의 이동속도를 지닌 인형입니다.";
+		t["I00L"][5][1] = "A moving doll with six inventory slots and 450 Movement Speed.";
 -- ides
 -- uhot
 -- unsf
@@ -751,13 +751,13 @@ Killing an enemy with the above effect restores all Health and Mana to units in 
 -- iico
 		t["I00M"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNGreaterRejuvScroll.blp";
 -- utip
-		t["I00M"][4][1] = "D랭크 퀘스트|cffffcc00(Q)|r";
+		t["I00M"][4][1] = "D Rank Quest|cffffcc00(Q)|r";
 -- utub
 		t["I00M"][5][1] = "Mission : 모옥 퇴치\r\
 모옥 Health : 50,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 랜덤한 일반 유닛\r\
-Cooldown : 180초\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : Random Normal Unit\r\
+Cooldown : 180 seconds\r\
 Mission Cost : 7";
 -- ides
 -- uhot
@@ -769,13 +769,13 @@ Mission Cost : 7";
 		t["I00N"][1][1] = "퀘스트 아이템 2";
 -- iico
 -- utip
-		t["I00N"][4][1] = "D랭크 퀘스트|cffffcc00(W)|r";
+		t["I00N"][4][1] = "D Rank Quest|cffffcc00(W)|r";
 -- utub
-		t["I00N"][5][1] = "Mission : 벤토라 퇴치\r\
-벤토라 Health : 80,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 벤토라[일반]\r\
-Cooldown : 180초\r\
+		t["I00N"][5][1] = "Mission : UFO Elimination\r\
+Health : 80,000\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : UFO[Normal]\r\
+Cooldown : 180 seconds\r\
 Mission Cost : 7";
 -- ides
 -- uhot
@@ -786,13 +786,13 @@ Mission Cost : 7";
 		t["I00O"][1][1] = "퀘스트 아이템 3";
 -- iico
 -- utip
-		t["I00O"][4][1] = "D랭크 퀘스트|cffffcc00(E)|r";
+		t["I00O"][4][1] = "D Rank Quest|cffffcc00(E)|r";
 -- utub
-		t["I00O"][5][1] = "Mission : 거대한 버섯 퇴치\r\
-거대한 버섯 Health : 115,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 요상하게 생긴 인간 1기\r\
-Cooldown : 180초\r\
+		t["I00O"][5][1] = "Mission : Giant Mushroom Elimination\r\
+Health : 115,000\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : 1 Strange-looking Human\r\
+Cooldown : 180 seconds\r\
 Mission Cost : 7";
 -- ides
 -- uhot
@@ -803,12 +803,12 @@ Mission Cost : 7";
 		t["I00P"][1][1] = "퀘스트 아이템 4";
 -- iico
 -- utip
-		t["I00P"][4][1] = "D랭크 퀘스트|cffffcc00(R)|r";
+		t["I00P"][4][1] = "D Rank Quest|cffffcc00(R)|r";
 -- utub
-		t["I00P"][5][1] = "Mission : 거대한 버섯2 퇴치\r\
-거대한 버섯2 Health : 32,000 5천\r\
-Reward : 랜덤한 매직 유닛 중 하나\r\
-Cooldown : 240초\r\
+		t["I00P"][5][1] = "Mission : Giant Mushroom 2 Elimination\r\
+Health : 325,000\r\
+Reward : Random Magic Unit\r\
+Cooldown : 240 seconds\r\
 Mission Cost : 7";
 -- ides
 -- uhot
@@ -819,13 +819,13 @@ Mission Cost : 7";
 -- iico
 		t["I011"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNSnazzyScrollGreen.blp";
 -- utip
-		t["I011"][4][1] = "C랭크 퀘스트|cffffcc00(A)|r";
+		t["I011"][4][1] = "C Rank Quest|cffffcc00(A)|r";
 -- utub
-		t["I011"][5][1] = "Mission : 치르노 퇴치\r\
-치르노 Health : 300,000\r\
+		t["I011"][5][1] = "Mission : Cirno Elimination\r\
+Health : 300,000\r\
 Special Ability :  Magical Damage 50% 감소\r\
-Reward : 나무 1개\r\
-Cooldown : 240초\r\
+Reward : 1 Wood\r\
+Cooldown : 240 seconds\r\
 Mission Cost : 14";
 -- ides
 -- icla
@@ -835,13 +835,13 @@ Mission Cost : 14";
 		t["I015"][1][1] = "퀘스트 아이템 6";
 -- iico
 -- utip
-		t["I015"][4][1] = "C랭크 퀘스트|cffffcc00(S)|r";
+		t["I015"][4][1] = "C Rank Quest|cffffcc00(S)|r";
 -- utub
-		t["I015"][5][1] = "Mission : 나즈린 퇴치\r\
-나즈린 Health : 400,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 200~350의 금 // 50% 확률로 벤토라[일반], 50% 확률로 색깔 벤토라[레인보우 제외]\r\
-Cooldown : 240초\r\
+		t["I015"][5][1] = "Mission : Nzarin Elimination\r\
+Health : 400,000\r\
+Special Ability :  50% Magical Damage Reduction\r\
+Reward : 200~350 Gold // 50% chance for UFO[Normal], 50% Colored UFO[Except Rainbow]\r\
+Cooldown : 240 seconds\r\
 Mission Cost : 14";
 -- ides
 -- uhot
@@ -866,13 +866,13 @@ Mission Cost : 14";
 		t["I017"][1][1] = "퀘스트 아이템 7";
 -- iico
 -- utip
-		t["I017"][4][1] = "C랭크 퀘스트|cffffcc00(D)|r";
+		t["I017"][4][1] = "C Rank Quest|cffffcc00(D)|r";
 -- utub
-		t["I017"][5][1] = "Mission : 불한당 퇴치\r\
-불한당 Health : 500,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 랜덤한 매직 유닛 1기\r\
-Cooldown : 240초\r\
+		t["I017"][5][1] = "Mission : Robber Elimination\r\
+Health : 500,000\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : Random Magic Unit\r\
+Cooldown : 240 seconds\r\
 Mission Cost : 14";
 -- ides
 -- uhot
@@ -883,13 +883,13 @@ Mission Cost : 14";
 		t["I018"][1][1] = "퀘스트 아이템 8";
 -- iico
 -- utip
-		t["I018"][4][1] = "B랭크 퀘스트|cffffcc00(F)|r";
+		t["I018"][4][1] = "B Rank Quest|cffffcc00(F)|r";
 -- utub
-		t["I018"][5][1] = "Mission : 시스티아 퇴치\r\
-시스티아 Health : 475,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 목재 1\r\
-Cooldown : 240초\r\
+		t["I018"][5][1] = "Mission : Sistia Elimination\r\
+Health : 475,000\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : 1 Wood\r\
+Cooldown : 240 seconds\r\
 Mission Cost : 14";
 -- ides
 -- uhot
@@ -900,13 +900,13 @@ Mission Cost : 14";
 -- iico
 		t["I019"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNBansheeAdept.blp";
 -- utip
-		t["I019"][4][1] = "B랭크 퀘스트|cffffcc00(Z)|r";
+		t["I019"][4][1] = "B Rank Quest|cffffcc00(Z)|r";
 -- utub
-		t["I019"][5][1] = "Mission : Palanquin Ship 퇴치\r\
-Palanquin Ship Health : 2000,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 금 1000 , 목재 1\r\
-Cooldown : 360초\r\
+		t["I019"][5][1] = "Mission : Palanquin Ship Elimination\r\
+Palanquin Ship Health : 2,000,000\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : 1000 Gold , 1 Wood\r\
+Cooldown : 360 seconds\r\
 Mission Cost : 21";
 -- ides
 -- uhot
@@ -931,13 +931,13 @@ Mission Cost : 21";
 		t["I01J"][1][1] = "퀘스트 아이템 10";
 -- iico
 -- utip
-		t["I01J"][4][1] = "A랭크 퀘스트|cffffcc00(X)|r";
+		t["I01J"][4][1] = "A Rank Quest|cffffcc00(X)|r";
 -- utub
-		t["I01J"][5][1] = "Mission : 초거대요정 - 릴리 빅 퇴치\r\
-야신 Health : 8500,000\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : 랜덤한 매직 유닛 2기\r\
-Cooldown : 450초\r\
+		t["I01J"][5][1] = "Mission : Very Large Fairy - Really Big Elimination\r\
+Health : 8,500,000\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : 2 Random Magic Units\r\
+Cooldown : 450 seconds\r\
 Mission Cost : 21";
 -- ides
 -- uhot
@@ -947,13 +947,13 @@ Mission Cost : 21";
 		t["I01J"][9][1] = "h07E,echm";
 -- [I01L]
 -- unam
-		t["I01L"][1][1] = "맥주";
+		t["I01L"][1][1] = "Beer";
 -- iico
 		t["I01L"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNStrongDrink.blp";
 -- utip
-		t["I01L"][4][1] = "맥주 구입|cffffcc00(Q)|r";
+		t["I01L"][4][1] = "Purchase Beer|cffffcc00(Q)|r";
 -- utub
-		t["I01L"][5][1] = "시원한 맥주입니다. 구매한 유닛의 Attack Speed가 20초간 50% 증가합니다. 또한 낮은 확률로 맥주의 요정이 나타납니다.|c00ff8000경고 : 부작용이 존재할 수도 있습니다.|r";
+		t["I01L"][5][1] = "Cold beer. Gives the unit 50% Attack Speed for 20 seconds. There is also a small chance that a Beer Fairy will appear.|c00ff8000Warning : Side effects may occur.|r";
 -- ides
 -- uhot
 -- ifil
@@ -961,113 +961,113 @@ Mission Cost : 21";
 -- icla
 -- [I02B]
 -- unam
-		t["I02B"][1][1] = "낡은 망치";
+		t["I02B"][1][1] = "Old Hammer";
 -- iico
 		t["I02B"][3][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNBash.blp";
 -- utip
-		t["I02B"][4][1] = "낡은 망치|cffffcc00(A)|r";
+		t["I02B"][4][1] = "Old Hammer|cffffcc00(A)|r";
 -- utub
-		t["I02B"][5][1] = "어디에 사용되는지 알 수 없는 낡은 망치이다. 구매하면 무슨일이 일어날지도.. 한번밖에 구매할 수 없습니다.\r\
-(30웨이브 이후 구매할 경우 '콩나무 거인'이 등장합니다. 콩나무 거인을 잡을 경우 위검 칼리번이 엑스칼리버로 업그레이드 되어 죽은 자리에 드랍됩니다. 마재윤이 나오지 않을 경우 작동하지 않습니다.)";
+		t["I02B"][5][1] = "An old hammer which you have no idea what it was used for. What will it do? You can only buy it once.\r\
+(If you buy it after Wave 30, you will see a Bean Giant. If you kill it, the sword Caliburn will be upgraded to an Excalibur and dropped where the tree died.)";
 -- ides
 -- icla
 -- [I02D]
 -- unam
-		t["I02D"][1][1] = "고대의 책";
+		t["I02D"][1][1] = "Ancient Book";
 -- iico
 		t["I02D"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNScroll.blp";
 -- utip
-		t["I02D"][4][1] = "고대의 책|cffffcc00(D)|r";
+		t["I02D"][4][1] = "Ancient Book|cffffcc00(D)|r";
 -- utub
-		t["I02D"][5][1] = "고대 지식이 적혀있는 두루. 어떤 책을 좋아하는 요괴가 좋아할 거같은 책이다. 너무 낡은 책이라 가끔 할인을 해주기도 한다.(이 아이템을 구매할 경우 특수 유닛인 Tokiko를 얻을 수 있습니다.";
+		t["I02D"][5][1] = "A book with ancient knowledge. A monster who likes this book will sell the book for a discount.(If you purchase this item, you can get Tokiko[Special].";
 -- ides
 -- uhot
 -- icla
 -- [I02E]
 -- unam
-		t["I02E"][1][1] = "[진영]혼령 소환";
+		t["I02E"][1][1] = "[Faction]Summon Spirit";
 -- iico
 		t["I02E"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNShade.blp";
 -- utip
-		t["I02E"][4][1] = "혼령 소환|cffffcc00(X)|r";
+		t["I02E"][4][1] = "Summon Spirit|cffffcc00(X)|r";
 -- utub
-		t["I02E"][5][1] = "혼령을 소환합니다.";
+		t["I02E"][5][1] = "Summons a Spirit.";
 -- ides
 -- ifil
 -- uhot
 -- icla
 -- [I02F]
 -- unam
-		t["I02F"][1][1] = "[진영]자코 소환";
+		t["I02F"][1][1] = "[Faction]Summon Zako";
 -- iico
 -- utip
-		t["I02F"][4][1] = "자코 소환|cffffcc00(F)|r";
+		t["I02F"][4][1] = "Summon Zako|cffffcc00(F)|r";
 -- utub
-		t["I02F"][5][1] = "자코를 소환합니다.";
+		t["I02F"][5][1] = "Summons a Zako.";
 -- ides
 -- ifil
 -- uhot
 -- icla
 -- [I02G]
 -- unam
-		t["I02G"][1][1] = "[진영]악마 소환";
+		t["I02G"][1][1] = "[Faction]Summon Devil";
 -- iico
 		t["I02G"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNGargoyle.blp";
 -- utip
-		t["I02G"][4][1] = "악마 소환|cffffcc00(A)|r";
+		t["I02G"][4][1] = "Summon Devil|cffffcc00(A)|r";
 -- utub
-		t["I02G"][5][1] = "악마를 소환합니다.";
+		t["I02G"][5][1] = "Summons a Devil.";
 -- ides
 -- ifil
 -- icla
 -- [I02H]
 -- unam
-		t["I02H"][1][1] = "[진영]요정 소환";
+		t["I02H"][1][1] = "[Faction]Summon Fairy";
 -- iico
 		t["I02H"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNFaerieDragon.blp";
 -- utip
-		t["I02H"][4][1] = "요정 소환|cffffcc00(S)|r";
+		t["I02H"][4][1] = "Summon Fairy|cffffcc00(S)|r";
 -- utub
-		t["I02H"][5][1] = "요정을 소환합니다. ";
+		t["I02H"][5][1] = "Summons a Fairy. ";
 -- ides
 -- ifil
 -- uhot
 -- icla
 -- [I02I]
 -- unam
-		t["I02I"][1][1] = "[진영]캇파 소환";
+		t["I02I"][1][1] = "[Faction]Summon Kappa";
 -- iico
 		t["I02I"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNMurgalSlave.blp";
 -- utip
-		t["I02I"][4][1] = "캇파 소환|cffffcc00(Z)|r";
+		t["I02I"][4][1] = "Summon Kappa|cffffcc00(Z)|r";
 -- utub
-		t["I02I"][5][1] = "캇파를 소환합니다.";
+		t["I02I"][5][1] = "Summons a Kappa.";
 -- ides
 -- ifil
 -- uhot
 -- icla
 -- [I02J]
 -- unam
-		t["I02J"][1][1] = "[진영]인간 소환";
+		t["I02J"][1][1] = "[Faction]Summon Human";
 -- iico
 		t["I02J"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNVillagerMan.blp";
 -- utip
-		t["I02J"][4][1] = "인간 소환|cffffcc00(D)|r";
+		t["I02J"][4][1] = "Summon Human|cffffcc00(D)|r";
 -- utub
-		t["I02J"][5][1] = "인간을 소환합니다.";
+		t["I02J"][5][1] = "Summons a Human.";
 -- ides
 -- ifil
 -- uhot
 -- icla
 -- [I02K]
 -- unam
-		t["I02K"][1][1] = "[진영]Goblin 소환";
+		t["I02K"][1][1] = "[Faction]Summon Goblin";
 -- iico
 		t["I02K"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNSkeletalOrc.blp";
 -- utip
-		t["I02K"][4][1] = "Goblin 소환|cffffcc00(C)|r";
+		t["I02K"][4][1] = "Summon Goblin|cffffcc00(C)|r";
 -- utub
-		t["I02K"][5][1] = "Goblin를 하나 소환합니다.";
+		t["I02K"][5][1] = "Summons a Goblin.";
 -- ides
 -- ifil
 -- uhot
@@ -1075,26 +1075,26 @@ Mission Cost : 21";
 -- icla
 -- [I02L]
 -- unam
-		t["I02L"][1][1] = "[진영]초계 텐구";
+		t["I02L"][1][1] = "[Faction]Tengu Guard";
 -- iico
 		t["I02L"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNHumanArmorUpTwo.blp";
 -- utip
-		t["I02L"][4][1] = "초계 텐구 소환|cffffcc00(Q)|r";
+		t["I02L"][4][1] = "Summon Tengu Guard|cffffcc00(Q)|r";
 -- utub
-		t["I02L"][5][1] = "Yokai Mountain에 있는 초계 텐구를 소환합니다. 쿨다운 90초, 지속시간 30초";
+		t["I02L"][5][1] = "Summons a Tengu Guard in Yokai Mountain. Cooldown 90 seconds, Duration 30 seconds";
 -- ides
 -- ifil
 -- uhot
 -- icla
 -- [I02M]
 -- unam
-		t["I02M"][1][1] = "[진영]목재 연성";
+		t["I02M"][1][1] = "[Faction]Wood Ductility";
 -- iico
 		t["I02M"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNReturnGoods.blp";
 -- utip
-		t["I02M"][4][1] = "목재 연성|cffffcc00(Q)|r";
+		t["I02M"][4][1] = "Wood Ductility|cffffcc00(Q)|r";
 -- utub
-		t["I02M"][5][1] = "2의 목재를 생성합니다. Cooldown 120 seconds";
+		t["I02M"][5][1] = "Generates 2 Wood. Cooldown 120 seconds";
 -- ides
 -- ifil
 -- icla
@@ -1159,7 +1159,7 @@ Mission Cost : 21";
 \r\
 |c0000FF00[진영 고유 스킬]|r풍신의 축복\r\
 -일반 유닛 1기에게 사용시, 랜덤한 일반,매직 유닛으로 바꿉니다.[벤토라 제외]\r\
-[쿨다운 180초]";
+[Cooldown 180 seconds]";
 -- ides
 -- ifil
 -- uhot
@@ -1176,7 +1176,7 @@ Mission Cost : 21";
 \r\
 |c0000FF00[진영 고유 스킬]|r호수의 영혼\r\
 *대상 요정[일반]을 대요정[매직]으로 바꿉니다.\r\
-*쿨다운 240초";
+*Cooldown 240 seconds";
 -- ides
 -- ifil
 -- uhot
@@ -1215,12 +1215,12 @@ Mission Cost : 21";
 -- icla
 -- [I00W]
 -- unam
-		t["I00W"][1][1] = "[진영]신비한 새전함";
+		t["I00W"][1][1] = "[Faction]신비한 새전함";
 -- iico
 -- utip
 		t["I00W"][4][1] = "신비한 새전함|cffffcc00(Q)|r";
 -- utub
-		t["I00W"][5][1] = "50 골드를 사용해 2~5배의 랜덤한 골드를 얻습니다. 쿨다운 60초";
+		t["I00W"][5][1] = "50 골드를 사용해 2~5배의 랜덤한 골드를 얻습니다. Cooldown 60 seconds";
 -- ides
 -- ifil
 -- uhot
@@ -1230,12 +1230,12 @@ Mission Cost : 21";
 		t["I00X"][1][1] = "퀘스트 아이템 11";
 -- iico
 -- utip
-		t["I00X"][4][1] = "S랭크 퀘스트|cffffcc00(A)|r";
+		t["I00X"][4][1] = "S Rank Quest|cffffcc00(A)|r";
 -- utub
-		t["I00X"][5][1] = "Mission : 달의 사자 Elimination\r\
-Health : 1.7억\r\
-Special Ability :  Magical Damage 50% 감소\r\
-Reward : Extended 부적 + 나무 3\r\
+		t["I00X"][5][1] = "Mission : Moon Lion Elimination\r\
+Health : 170,000,000\r\
+Special Ability :  50% Magical Damage reduction\r\
+Reward : Extended item + 3 Wood\r\
 Cooldown : Only once per game\r\
 Mission Cost : 21";
 -- ides
@@ -1246,12 +1246,12 @@ Mission Cost : 21";
 		t["I010"][1][1] = "퀘스트 아이템 12";
 -- iico
 -- utip
-		t["I010"][4][1] = "SS랭크 퀘스트|cffffcc00(Z)|r";
+		t["I010"][4][1] = "SS Rank Quest|cffffcc00(Z)|r";
 -- utub
-		t["I010"][5][1] = "Mission : 노루 퇴치\r\
+		t["I010"][5][1] = "Mission : Noru Elimination\r\
 Health : 300,000,000\r\
-Special Ability :  Magical Damage 50% 감소 / 자신과 주변 유닛의 Health 회복 초당 65000\r\
-Reward : 랜덤한 에픽 유닛\r\
+Special Ability :  50% Magical Damage 50% reduction / Recovers 65000 Health per second\r\
+Reward : Random Epic unit\r\
 Cooldown : Only once per game\r\
 Mission Cost : 21";
 -- ides
@@ -1260,7 +1260,7 @@ Mission Cost : 21";
 -- ureq
 -- [I012]
 -- unam
-		t["I012"][1][1] = "[목재가 드는]Goblin 소환";
+		t["I012"][1][1] = "[Wood lifting]Summon Goblin";
 -- iico
 -- utip
 -- utub
@@ -1270,7 +1270,7 @@ Mission Cost : 21";
 -- icla
 -- [I01A]
 -- unam
-		t["I01A"][1][1] = "[목재가 드는]악마 소환";
+		t["I01A"][1][1] = "[Wood lifting]Summon Devil";
 -- iico
 -- utip
 -- utub
@@ -1279,7 +1279,7 @@ Mission Cost : 21";
 -- icla
 -- [I01C]
 -- unam
-		t["I01C"][1][1] = "[목재가 드는]요정 소환";
+		t["I01C"][1][1] = "[Wood lifting]Summon Fairy";
 -- iico
 -- utip
 -- utub
@@ -1290,7 +1290,7 @@ Mission Cost : 21";
 -- icla
 -- [I01D]
 -- unam
-		t["I01D"][1][1] = "[목재가 드는]인간 소환";
+		t["I01D"][1][1] = "[Wood lifting]Summon Human";
 -- iico
 -- utip
 -- utub
@@ -1300,7 +1300,7 @@ Mission Cost : 21";
 -- icla
 -- [I01E]
 -- unam
-		t["I01E"][1][1] = "[목재가 드는]자코 소환";
+		t["I01E"][1][1] = "[Wood lifting]Summon Zako";
 -- iico
 -- utip
 -- utub
@@ -1310,7 +1310,7 @@ Mission Cost : 21";
 -- icla
 -- [I01F]
 -- unam
-		t["I01F"][1][1] = "[목재가 드는]캇파 소환";
+		t["I01F"][1][1] = "[Wood lifting]Summon Kappa";
 -- iico
 -- utip
 -- utub
@@ -1320,7 +1320,7 @@ Mission Cost : 21";
 -- icla
 -- [I01G]
 -- unam
-		t["I01G"][1][1] = "[목재가 드는]혼령 소환";
+		t["I01G"][1][1] = "[Wood lifting]Summon Spirit";
 -- iico
 -- utip
 -- utub
@@ -1330,12 +1330,12 @@ Mission Cost : 21";
 -- icla
 -- [I01M]
 -- unam
-		t["I01M"][1][1] = "|c0095a565아기모토의 눈|r";
+		t["I01M"][1][1] = "|c0095a565Agimoto's Eye|r";
 -- ides
 		t["I01M"][2][1] = "해방된 원소들이 한데 모여 응집된 구슬입니다. Mima는 이 구슬을 지팡이에 넣고 사용하고 있습니다.\r\
 \r\
-Mima의 Attack Speed가 100% 증가하며. Mima의 모든 스킬이 발동될 확률이 15% 상승합니다. 또한 공격시 3.5% 확률로 Mima의 위치에 『초월의 빛』스킬을 사용합니다.\r\
-『초월의 빛』스킬은 발동시 Mima 주변 1500범위의 유닛에게 300,000의  Magical Damage와 3초의 스턴을 입힙니다. ";
+Mima's Attack Speed increased by 100%. Mima's skill chance increased by 15%. On attack 3.5% chance for Mima to use 『Light of Transcendence』.\r\
+『Light of Transcendence』 deals 300,000 Magical Damage in a 1500 AoE and stuns for 3 seconds. ";
 -- utub
 -- utip
 -- icid
@@ -1362,13 +1362,13 @@ Mima의 Attack Speed가 100% 증가하며. Mima의 모든 스킬이 발동될 �
 -- icla
 -- [I01O]
 -- unam
-		t["I01O"][1][1] = "[진영]벤토라 소환";
+		t["I01O"][1][1] = "[Faction]Summon UFO";
 -- iico
 		t["I01O"][3][1] = "BTN\\BTNRainbowUFO.blp";
 -- utip
-		t["I01O"][4][1] = "벤토라 소환|cffffcc00(Q)|r";
+		t["I01O"][4][1] = "Summon UFO|cffffcc00(Q)|r";
 -- utub
-		t["I01O"][5][1] = "벤토라를 소환합니다. 쿨다운 100초";
+		t["I01O"][5][1] = "Summons a UFO. Cooldown 100 seconds";
 -- ides
 -- ifil
 -- uhot
@@ -1403,7 +1403,7 @@ Mima의 Attack Speed가 100% 증가하며. Mima의 모든 스킬이 발동될 �
 |c0000FF00[진영 고유 스킬]|r생명력 추출\r\
 -대상 유닛의 Health을 감소시키고, 스택을 쌓습니다. 일정 스택이 쌓일 경우 혼령[일반]을 지급받습니다. ";
 -- ides
-		t["I01Q"][6][1] = "진영을 Sanzu River으로 선택합니다. 대상 적 유닛 하나에게 큰 데미지를 입히는 생명력 추출 스킬을 45초마다 사용할 수 있습니다. Komachi Onozuka[레전더리]의 조합이 가능해집니다.";
+		t["I01Q"][6][1] = "진영을 Sanzu River으로 선택합니다. 대상 적 유닛 하나에게 큰 데미지를 입히는 생명력 추출 스킬을 45 seconds마다 사용할 수 있습니다. Komachi Onozuka[레전더리]의 조합이 가능해집니다.";
 -- ifil
 -- uhot
 -- icla
@@ -1413,13 +1413,13 @@ Mima의 Attack Speed가 100% 증가하며. Mima의 모든 스킬이 발동될 �
 -- iico
 		t["I01R"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNRegeneration.blp";
 -- utip
-		t["I01R"][4][1] = "트레져 헌팅 미션|cffffcc00(R)|r";
+		t["I01R"][4][1] = "Treasure Hunting Mission|cffffcc00(R)|r";
 -- utub
-		t["I01R"][5][1] = "Mission : 트레져 헌팅\r\
+		t["I01R"][5][1] = "Mission : Treasure Hunting\r\
 Health : ???\r\
 Special Ability : ???\r\
 Reward : ???\r\
-Cooldown : 350초\r\
+Cooldown : 350 seconds\r\
 Mission Cost : 28";
 -- ides
 -- uhot
@@ -1448,9 +1448,9 @@ Mission Cost : 28";
 -- utub
 		t["I009"][3][1] = "꿈인지 현실인지 모르겠어\r\
 \r\
-|c00FF9664[Reinforcement Effect: 템페스트 드림]|r\r\
-*대상 지점에 스미레코의 분신을 생성합니다. 분신은 스미레코와 별개의 유닛으로 판정되며 스미레코와 동일한 평타 데미지/ 스킬을 가지지만 기본 Attack Speed가 50% 감소한 상태로 소환됩니다. 플레이어가 컨트롤할 수 없습니다.\r\
-*지속시간 20초 / 쿨다운 50초";
+|c00FF9664[Reinforcement Effect: Tempest Dream]|r\r\
+*Summons a clone of Sumireko at the target location. The clone is a separate unit from Sumireko and is summoned with the same Damage/Skills as Sumireko, but is summoned with 50% less Attack Speed. The player cannot control this unit.\r\
+*Duration 20 seconds / Cooldown 50 seconds";
 -- ides
 -- ureq
 -- iico

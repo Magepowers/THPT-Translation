@@ -6109,7 +6109,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e02H"][4][1] = "A0IW,A0A0,A095";
 -- unam
-		t["e02H"][6][1] = "퀘스트 몬스터 - 모옥";
+		t["e02H"][6][1] = "Quest Monster - 모옥";
 -- upgr
 		t["e02H"][8][1] = "R00N,R01U,R004,R000,R001,R002";
 -- umvt
@@ -6120,7 +6120,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02I"][6][1] = "퀘스트 몬스터 - UFO";
+		t["e02I"][6][1] = "Quest Monster - UFO";
 -- upgr
 -- umvt
 -- umdl
@@ -6139,7 +6139,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02K"][6][1] = "퀘스트 몬스터 - 거대한 버섯";
+		t["e02K"][6][1] = "Quest Monster - 거대한 버섯";
 -- upgr
 -- umvt
 -- umdl
@@ -6240,7 +6240,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02P"][6][1] = "퀘스트 몬스터 - Cirno";
+		t["e02P"][6][1] = "Quest Monster - Cirno";
 -- upgr
 -- umvt
 -- umdl
@@ -6252,7 +6252,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e02Q"][4][1] = "A0IX,A0A0,A095";
 -- unam
-		t["e02Q"][6][1] = "퀘스트 몬스터 - Nazrin";
+		t["e02Q"][6][1] = "Quest Monster - Nazrin";
 -- upgr
 -- umvt
 -- umdl
@@ -6380,7 +6380,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e031"][6][1] = "퀘스트 몬스터 - 불한당";
+		t["e031"][6][1] = "Quest Monster - 불한당";
 -- upgr
 -- umvt
 -- umdl
@@ -6409,7 +6409,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e034"][6][1] = "퀘스트 몬스터 - Palanquin Ship";
+		t["e034"][6][1] = "Quest Monster - Palanquin Ship";
 -- upgr
 -- umvt
 -- umdl
@@ -6533,7 +6533,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e03A"][6][1] = "퀘스트 몬스터 - 초거Great Fairy - 릴리 빅";
+		t["e03A"][6][1] = "Quest Monster - Very Large Fairy - 릴리 빅";
 -- upgr
 -- umvt
 -- umdl
@@ -7366,7 +7366,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e038"][4][1] = "A03I,A0A0,A095";
 -- unam
-		t["e038"][6][1] = "퀘스트 몬스터 - 달의 사자";
+		t["e038"][6][1] = "Quest Monster - Moon Lion";
 -- upgr
 -- umvt
 -- umdl
@@ -7391,7 +7391,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e03F"][6][1] = "퀘스트 몬스터 - 노루";
+		t["e03F"][6][1] = "Quest Monster - 노루";
 -- upgr
 -- umvt
 -- umdl
