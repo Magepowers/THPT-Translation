@@ -7672,7 +7672,7 @@ TPT_units_loader = function(t)
 -- uabi
 -- umdl
 -- unam
-		t["h06W"][3][1] = "|c00400080『	』|r";
+		t["h06W"][3][1] = "|c00400080『Fragment of the Moon』|r";
 -- uico
 		t["h06W"][10][1] = "ReplaceableTextures\\CommandButtons\\BTNEnchantedGemstone.blp";
 -- utyp

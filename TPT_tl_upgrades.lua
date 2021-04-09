@@ -697,7 +697,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 1
 		t["Rhfl"][1][1] = "ReplaceableTextures\\CommandButtons\\reimu\\BTN_UP.blp";
 -- gtp1 1
-		t["Rhfl"][2][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 1Lv";
+		t["Rhfl"][2][1] = "Reimu Hakurei Upgrade|cffffcc00(Q)|r - 1Lv";
 -- ghk1 1
 -- gef1
 -- gef2
@@ -712,15 +712,15 @@ TPT_upgrades_loader = function(t)
 -- ghk1 4
 -- ghk1 5
 -- gtp1 2
-		t["Rhfl"][15][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 2Lv";
+		t["Rhfl"][15][1] = "Reimu Hakurei Upgrade|cffffcc00(Q)|r - 2Lv";
 -- gtp1 3
-		t["Rhfl"][16][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 3Lv";
+		t["Rhfl"][16][1] = "Reimu Hakurei Upgrade|cffffcc00(Q)|r - 3Lv";
 -- gtp1 4
-		t["Rhfl"][17][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - 4Lv";
+		t["Rhfl"][17][1] = "Reimu Hakurei Upgrade|cffffcc00(Q)|r - 4Lv";
 -- gtp1 5
-		t["Rhfl"][18][1] = "하쿠레이 레이무 Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
+		t["Rhfl"][18][1] = "Reimu Hakurei Upgrade|cffffcc00(Q)|r - |c00ff0000마스터|r";
 -- gnam 1
-		t["Rhfl"][19][1] = "하쿠레이 레이무 Upgrade[Q]";
+		t["Rhfl"][19][1] = "Reimu Hakurei Upgrade[Q]";
 -- gnam 2
 -- gnam 3
 -- gnam 4
@@ -7180,7 +7180,7 @@ TPT_upgrades_loader = function(t)
 -- gub1 3
 		t["R01H"][151][1] = "카센의 공격력을 35000 상승시키고, Attack Speed를 15% 상승시키며,『미속의 무코』의 요구 마나가 10 감소합니다.\r\
 \r\
-|c00FF0000*Upgrade 마스터 효과|r : 카센이 공격시 15% 확률로 대상 유닛을 자신의 위치로 끌어옵니다.끌어온 대상은 3초간 스턴 효과를 입고, 3% 확률로『의완 프로테우스』의 즉사 효과를 적용받습니다.";
+|c00FF0000*Upgrade 마스터 효과|r : 카센이 공격시 15% 확률로 대상 유닛을 자신의 위치로 끌어옵니다.끌어온 대상은 3초간 스턴 효과를 입고, 3% 확률로『Prosthetic Arm Proteus』의 즉사 효과를 적용받습니다.";
 -- gub1 2
 -- gub1 4
 -- gub1 5

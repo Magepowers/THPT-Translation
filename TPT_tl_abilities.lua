@@ -4761,7 +4761,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 2
 		t["A03A"][68][1] = "옥부『지옥의 식』 - |c0000FFFFExtended|r";
 -- atp1 3
-		t["A03A"][69][1] = "몽부『봉마진』";
+		t["A03A"][69][1] = "Dream Sign 『Evil-Sealing Circle』";
 -- atp1 5
 -- atp1 4
 -- atp1 6
@@ -12679,7 +12679,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aret
 		t["A0D1"][2][1] = "『오니고로시』";
 -- atp1 1
-		t["A0D1"][3][1] = "포부『의완 프로테우스』";
+		t["A0D1"][3][1] = "Warp Sign 『Prosthetic Arm Proteus』";
 -- aub1 1
 		t["A0D1"][4][1] = "*공격시 1.5% 확률로 급소를 찔러 적을 즉사시킵니다. 체력이 50% 이하인 적에게는 \r\
 발동 확률이 3%로 늘어납니다. \r\
@@ -16832,25 +16832,25 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0D2"][3][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNMagicalSentry.blp";
 -- anam
 -- atp1 1
-		t["A0D2"][5][1] = "『편완유각의 육도윤회』";
+		t["A0D2"][5][1] = "『One Armed Horned Samsara』";
 -- aub1 1
 		t["A0D2"][6][1] = "＊카센이 윤회안의 이치를 깨달은 진정한 선인으로 거듭납니다.\r\
 ＊주변 적 800 범위의 적 방어력을 35% 감소시킵니다.\r\
-[조합시 35% 확률로 『단선수악의 괴완』으로 변경됩니다.\r\
+[조합시 35% 확률로 『The Inhuman Talent Embracing Wickedness』으로 변경됩니다.\r\
 방어력 감소가 %가 아닌 상수치로 변경되며, 45의 방어력을 감소시킵니다.]";
 -- abuf 1
 		t["A0D2"][8][1] = "B02G";
 -- abuf 2
 -- atar 2
 -- atp1 2
-		t["A0D2"][11][1] = "『단선수악의 괴완』";
+		t["A0D2"][11][1] = "『The Inhuman Talent Embracing Wickedness』";
 -- aub1 2
 		t["A0D2"][12][1] = "＊카센이 오니화된 모습을 드러냅니다.\r\
 *주변 적 800범위 적의 방어력을 45 감소시킵니다.";
 -- abuf 3
 -- atar 3
 -- atp1 3
-		t["A0D2"][15][1] = "『간녕사지의 오니』";
+		t["A0D2"][15][1] = "『Crafty and Treacherous Oni』";
 -- aub1 3
 		t["A0D2"][16][1] = "＊카센이 자신의 팔과 다시 결합해 완전한 오니가 되어 사천왕의 힘을 과시합니다.\r\
 ＊자신 주변 800 범위의 적 방어력을 60 감소시킵니다.";
@@ -18717,10 +18717,10 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0LQ"][4][1] = "보부『음양보옥』";
+		t["A0LQ"][4][1] = "Treasure Sign 『Yin-Yang Treasure Orb』";
 -- aub1 1
 		t["A0LQ"][5][1] = "*레이무가 공격시 11% 확률로 손에 음양옥의 기를 모아 내지르듯이 방출합니다. 대상 지점 주변 400범위 내에 있는 적에게 잃은 체력의 0.4% + 145,000의 |c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.\r\
-*『음양보옥』이 발동하면 레이무의 마나가 4 회복됩니다.";
+*『Yin-Yang Treasure Orb』 restores Reimu's Mana by 4.";
 -- [S009]
 -- atar 1
 -- arac
@@ -29852,7 +29852,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atar 1
 -- arac
 -- atp1 1
-		t["S00L"][3][1] = "포부『쇼와의 비』";
+		t["S00L"][3][1] = "Warp Sign『쇼와의 비』";
 -- aub1 1
 		t["S00L"][4][1] = "*자신 주변 800범위 아군의 Attack Speed를 10% 증가시킵니다.\r\
 *공격시 12% 확률로 자신이 공격한 적의 전체 체력의 0.3% + 165,000의 |c00379BFF Magical Damage|r를 대상 주변 350범위에 입힙니다.";
@@ -33658,7 +33658,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0QY"][3][1] = "＊레이무 주변 600 범위의 적 방어력을 25 감소시킵니다.\r\
 ＊레이무 주변 600 범위의 적 Movement Speed를 50% 감소시킵니다.\r\
-|c00ff2222[!]제한|r : Hakurei Reimu[Legendary]의 몽부『봉마진』이랑 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : Hakurei Reimu[Legendary]의 Dream Sign 『Evil-Sealing Circle』이랑 중첩되지 않습니다.\r\
 ────────────────\r\
 주부『명주암투』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
@@ -33674,7 +33674,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 2
 		t["A0QY"][11][1] = "＊레이무 주변 600 범위의 적 방어력을 25 감소시킵니다.\r\
 ────────────────\r\
-영부『몽상봉인』\r\
+Spirit Sign 『Fantasy Seal』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
 ＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 2~4 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 2% + 700,000의 |c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- atp1 3

@@ -1106,7 +1106,7 @@ Mission Cost : 21";
 -- utip
 		t["I00I"][4][1] = "Hakurei Shrine 선택|cffffcc00(Q)|r";
 -- utub
-		t["I00I"][5][1] = "진영을 Hakurei Shrine로 선택합니다. 또한 하쿠레이 레이무[레전더리]의 조합이 가능해집니다.\r\
+		t["I00I"][5][1] = "진영을 Hakurei Shrine로 선택합니다. 또한 Reimu Hakurei[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|r신앙응집\r\
 -인간[일반] 4기를 조합하여 레어 유닛을 선택하여 소환할 수 있는 신앙의 결정을 생성합니다.";
@@ -1458,9 +1458,9 @@ Mission Cost : 28";
 -- icid
 -- [I008]
 -- unam
-		t["I008"][2][1] = "『태양검』";
+		t["I008"][2][1] = "『Sun Sword』";
 -- utip
-		t["I008"][3][1] = "|c00FFA540태양검|r";
+		t["I008"][3][1] = "|c00FFA540Sun Sword|r";
 -- utub
 		t["I008"][4][1] = "|c0000FF00＊Increases Attack Speed by 10%\r\
 \r\
@@ -1487,13 +1487,13 @@ Mission Cost : 28";
 -- icla
 -- [I00B]
 -- utip
-		t["I00B"][2][1] = "|cffffcc00『풀뿌리 토큰』|r";
+		t["I00B"][2][1] = "|cffffcc00『Grassroots Token』|r";
 -- unam
 -- utub
-		t["I00B"][4][1] = "＊토큰을 사용하여 새로운 유닛으로 탄생시킵니다.\r\
+		t["I00B"][4][1] = "＊Use this token to create new units.\r\
 \r\
-|c0000FF00사용 시 대상 유닛을 같은 등급의 무작위 유닛으로 변경합니다. 유니크 유닛에 사용할 수 있습니다.\r\
-같은 유닛으로 등장할 수도 있습니다.|r";
+|c0000FF00When used, changes the target unit to a random unit of the same class. Available for Unique units.\r\
+The same unit can also reappear.|r";
 -- ides
 -- iico
 		t["I00B"][6][1] = "ReplaceableTextures\\CommandButtons\\BTN3M1.blp";
@@ -1505,9 +1505,9 @@ Mission Cost : 28";
 		t["I00D"][2][1] = "|c00FF9664Hihiirokane Scepter|r - Kasen Ibaraki";
 -- unam
 -- utub
-		t["I00D"][4][1] = "|c00FF9664[Reinforcement Effect:『단선수악의 괴완』]|r\r\
-＊포푸『의완 프로테우스』의 즉사 조건이 Health 75% 이하, 조건부 즉사 확률이 3.5%로 강화됩니다.\r\
-＊『편완유각의 육도윤회』가『단선수악의 괴완』으로 변경됩니다.\r\
+		t["I00D"][4][1] = "|c00FF9664[Reinforcement Effect:『The Inhuman Talent Embracing Wickedness』]|r\r\
+＊Warp Sign 『Prosthetic Arm Proteus』's instant death condition changed to 75% or less Health and probability increased to 3.5%.\r\
+＊『One Armed Horned Samsara』 changes to 『The Inhuman Talent Embracing Wickedness』.\r\
 \r\
 |CFF959595답은 하나지... 본능대로!";
 -- iico
@@ -1516,20 +1516,20 @@ Mission Cost : 28";
 -- utip
 -- unam
 -- utub
-		t["I00E"][4][1] = "|c00FF9664[Reinforcement Effect:『간녕사지의 오니』]|r\r\
-＊포푸『의완 프로테우스』의 즉사 조건이 사라지고, 조건부 즉사 확률이 4%로 강화됩니다.\r\
-＊『단선수악의 괴완』이『간녕사지의 오니』로 변경됩니다.\r\
+		t["I00E"][4][1] = "|c00FF9664[Reinforcement Effect:『Crafty and Treacherous Oni』]|r\r\
+＊Warp Sign 『Prosthetic Arm Proteus』's instant death condition is removed and probability increased to 4%.\r\
+＊『The Inhuman Talent Embracing Wickedness』 changes to 『Crafty and Treacherous Oni』.\r\
 \r\
 |CFF959595역시 우린 둘이서 하나일지도 모르겠네. 기묘한 우정마저 느껴져...";
 -- iico
 -- ides
 -- [I00C]
 -- utip
-		t["I00C"][2][1] = "|c00FF9664Hihiirokane Scepter|r - 하쿠레이 레이무";
+		t["I00C"][2][1] = "|c00FF9664Hihiirokane Scepter|r - Reimu Hakurei";
 -- unam
 -- utub
-		t["I00C"][4][1] = "|c00FF9664[Reinforcement Effect: 영부『몽상봉인』]|r\r\
-＊몽부『봉마진』의 적 이동속도 감소 효과가 제거되지만, 음양옥의 피해가 2배, 마력 회복량이 2~4로 강화된다.\r\
+		t["I00C"][4][1] = "|c00FF9664[Reinforcement Effect: Spirit Sign 『Fantasy Seal』]|r\r\
+＊Dream Sign 『Evil-Sealing Circle』's Movement Speed reduction effect is removed, but the damage of Yin-Yang Treasured Orb is doubled and Mana Regeneration is increased from 2 to 4.\r\
 \r\
 |CFF959595확실히 인간의 손은 작지만, 그렇다 하더라도...";
 -- iico
@@ -1539,9 +1539,9 @@ Mission Cost : 28";
 		t["I00F"][2][1] = "|c00FF9664Hihiirokane Scepter|r - Suika Ibuki";
 -- unam
 -- utub
-		t["I00F"][4][1] = "|c00FF9664[Reinforcement Effect: 귀신『미싱 퍼플 파워』]|r\r\
-＊거대화할 때 스킬 공격력 증가가 사라지지만, 공격력 증가가 300,000 증가되고, Attack Speed 감소가 사라집니다.\r\
-＊크기가 매우 커집니다.\r\
+		t["I00F"][4][1] = "|c00FF9664[Reinforcement Effect: Kishin 『Missing Purple Power』]|r\r\
+＊When enlarging, skill Attack Power disappears, but Attack increases by 300,000 and Attack Speed decrease is removed.\r\
+＊Very large size.\r\
 \r\
 |CFF959595이걸로 술을 담가보니카 더 쮜하느은 거 가타~";
 -- iico
