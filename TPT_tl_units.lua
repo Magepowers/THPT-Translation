@@ -79,7 +79,7 @@ TPT_units_loader = function(t)
 -- uarm
 -- [hrif]
 -- unam
-		t["hrif"][1][1] = "Tsukumo Benben - |c00808040Unique|r";
+		t["hrif"][1][1] = "Benben Tsukumo - |c00808040Unique|r";
 -- upgr
 -- ua1m
 		t["hrif"][7][1] = "Abilities\\Weapons\\AvengerMissile\\AvengerMissile.mdl";
@@ -106,7 +106,7 @@ TPT_units_loader = function(t)
 -- udty
 -- upgr
 -- unam
-		t["hmtm"][14][1] = "Tsukumo Yatsuhashi - |c00808040Unique|r";
+		t["hmtm"][14][1] = "Yatsuhashi Tsukumo - |c00808040Unique|r";
 -- [hgyr]
 -- umdl
 		t["hgyr"][1][1] = "kijin.mdl";
@@ -126,7 +126,7 @@ TPT_units_loader = function(t)
 -- upgr
 		t["hgyr"][15][1] = "R021,R01Q";
 -- unam
-		t["hgyr"][18][1] = "Kijin Seija - |c00400080Epic|r";
+		t["hgyr"][18][1] = "Seija Kijin - |c00400080Epic|r";
 -- ushu
 		t["hgyr"][20][1] = "Shadow";
 -- ua1t
@@ -146,7 +146,7 @@ TPT_units_loader = function(t)
 -- udty
 -- upgr
 -- unam
-		t["hgry"][15][1] = "Sukuna Shinmyoumaru - |c00400080Epic|r";
+		t["hgry"][15][1] = "Shinmyoumaru Sukuna - |c00400080Epic|r";
 -- ua1m
 		t["hgry"][16][1] = " .mdl";
 -- ua1t
@@ -192,7 +192,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["hsor"][7][1] = "Sukuna Shinmyoumaru - |c00804040Legendary|r|N|c00FF9393검신 릴리퍼트|r";
+		t["hsor"][7][1] = "Shinmyoumaru Sukuna - |c00804040Legendary|r|N|c00FF9393검신 릴리퍼트|r";
 -- uabi
 		t["hsor"][8][1] = "AInv,Avul,A03P,A0O3,A0P2,A0O5,A0LB";
 -- ua1t
@@ -284,10 +284,10 @@ TPT_units_loader = function(t)
 -- uico
 		t["owyv"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNHex.blp";
 -- unam
-		t["owyv"][7][1] = "[Condition]Houraisan Kaguya defeated";
+		t["owyv"][7][1] = "[Condition]Kaguya Houraisan defeated";
 -- [okod]
 -- unam
-		t["okod"][3][1] = "Sukuna Shinmyoumaru - |c0000FFFFExtended|r";
+		t["okod"][3][1] = "Shinmyoumaru Sukuna - |c0000FFFFExtended|r";
 -- upgr
 -- ua1t
 -- ua1m
@@ -320,7 +320,7 @@ TPT_units_loader = function(t)
 -- ucun
 -- urac
 -- unam
-		t["odoc"][6][1] = "Izayoi Sakuya - |c00FF0080Phantasm|r|N|c00FF80FF완벽하고 소쇄한 종자|r";
+		t["odoc"][6][1] = "Sakuya Izayoi - |c00FF0080Phantasm|r|N|c00FF80FF완벽하고 소쇄한 종자|r";
 -- ucua
 -- uico
 		t["odoc"][9][1] = "BTN\\BTNSakuya.blp";
@@ -361,7 +361,7 @@ TPT_units_loader = function(t)
 -- uico
 		t["edry"][3][1] = "BTN\\BTNHacatia.blp";
 -- unam
-		t["edry"][4][1] = "Laspilazuli Hecatia - |c00400080Epic|r";
+		t["edry"][4][1] = "Hecatia Lapislazuli - |c00400080Epic|r";
 -- upgr
 		t["edry"][8][1] = "R011,R01Q";
 -- udty
@@ -375,7 +375,7 @@ TPT_units_loader = function(t)
 -- [earc]
 -- urac
 -- unam
-		t["earc"][2][1] = "Laspilazuli Hecatia - |c0000FFFFExtended|r";
+		t["earc"][2][1] = "Hecatia Lapislazuli - |c0000FFFFExtended|r";
 -- upgr
 		t["earc"][6][1] = "R00J";
 -- ua1m
@@ -386,7 +386,7 @@ TPT_units_loader = function(t)
 -- [otau]
 -- urac
 -- unam
-		t["otau"][3][1] = "Hoshiguma Yuugi - |c00FF0080Phantasm|r|N|c00FF80FF일컬어지는 괴력난신|r";
+		t["otau"][3][1] = "Yuugi Hoshiguma - |c00FF0080Phantasm|r|N|c00FF80FF일컬어지는 괴력난신|r";
 -- upgr
 -- udty
 -- ua1t
@@ -1166,7 +1166,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["hbew"][1][1] = "narumi3.mdl";
 -- unam
-		t["hbew"][2][1] = "Yatadera Narumi - |c00808040Unique|r";
+		t["hbew"][2][1] = "Narumi Yatadera - |c00808040Unique|r";
 -- uico
 		t["hbew"][3][1] = "BTN\\BTNnarumi.blp";
 -- uabi
@@ -1179,7 +1179,7 @@ TPT_units_loader = function(t)
 -- urac
 -- [nhym]
 -- unam
-		t["nhym"][3][1] = "Teireida Mai - |c00400080Epic|r";
+		t["nhym"][3][1] = "Mai Teireida - |c00400080Epic|r";
 -- ua1m
 -- ua1t
 -- uabi
@@ -1194,7 +1194,7 @@ TPT_units_loader = function(t)
 -- [osw1]
 -- upgr
 -- unam
-		t["osw1"][2][1] = "Teireida Mai - |c0000FFFFExtended|r";
+		t["osw1"][2][1] = "Mai Teireida - |c0000FFFFExtended|r";
 -- uico
 -- umdl
 -- ua1t
@@ -1517,7 +1517,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["nnmg"][3][1] = "katananeet6.mdl";
 -- unam
-		t["nnmg"][4][1] = "Houraisan Kaguya - |c00FF0080Phantasm|r|N|c00FF80FF영원과 수유의 죄인|r";
+		t["nnmg"][4][1] = "Kaguya Houraisan - |c00FF0080Phantasm|r|N|c00FF80FF영원과 수유의 죄인|r";
 -- upgr
 -- uico
 		t["nnmg"][7][1] = "BTN\\BTNKaguya.blp";
@@ -1833,10 +1833,10 @@ TPT_units_loader = function(t)
 -- umdl
 		t["nw2w"][4][1] = "cycloneshield.mdl";
 -- unam
-		t["nw2w"][5][1] = "[사나에 신풍]";
+		t["nw2w"][5][1] = "[Sa Nae 신풍]";
 -- [ojgn]
 -- unam
-		t["ojgn"][4][1] = "[사나에 개해]";
+		t["ojgn"][4][1] = "[Sa Nae 개해]";
 -- uabi
 -- umdl
 		t["ojgn"][7][1] = "Watery.mdl";
@@ -2054,11 +2054,11 @@ TPT_units_loader = function(t)
 -- unam
 		t["ndrp"][1][1] = "[Gold Only]Kappa";
 -- utip
-		t["ndrp"][2][1] = "Kappa 소환|cffffcc00(Z)|r";
+		t["ndrp"][2][1] = "Summons Kappa|cffffcc00(Z)|r";
 -- uhot
 		t["ndrp"][3][1] = "Z";
 -- utub
-		t["ndrp"][4][1] = "Kappa를 소환합니다.";
+		t["ndrp"][4][1] = "Summons a Kappa.";
 -- uabi
 -- umdl
 -- uico
@@ -2276,7 +2276,7 @@ TPT_units_loader = function(t)
 -- umvt
 -- urac
 -- unam
-		t["nlrv"][6][1] = "|c0017B5C6Kijin Seija|r - |c00808080Chronicle|r|N|c00F8F489Counterattacking Amanojaku|r";
+		t["nlrv"][6][1] = "|c0017B5C6Seija Kijin|r - |c00808080Chronicle|r|N|c00F8F489Counterattacking Amanojaku|r";
 -- ua1t
 -- uico
 -- umdl
@@ -2674,7 +2674,7 @@ TPT_units_loader = function(t)
 -- [nmrv]
 -- urac
 -- unam
-		t["nmrv"][2][1] = "Yakumo Ran - |c0054EB67Arcana|r|N|c00FFA275검은 책사 구미호|r";
+		t["nmrv"][2][1] = "Ran Yakumo - |c0054EB67Arcana|r|N|c00FFA275검은 책사 구미호|r";
 -- upgr
 -- ua1w
 -- ua1t
@@ -2856,7 +2856,7 @@ TPT_units_loader = function(t)
 -- [nelb]
 -- urac
 -- unam
-		t["nelb"][2][1] = "Izayoi Sakuya - |c0080A8E6Ascended|N완벽하고 소쇄한 메이드|r";
+		t["nelb"][2][1] = "Sakuya Izayoi - |c0080A8E6Ascended|N완벽하고 소쇄한 메이드|r";
 -- uico
 		t["nelb"][5][1] = "Icon\\Unit\\BTNSakuya_Req.blp";
 -- umdl
@@ -2910,7 +2910,7 @@ TPT_units_loader = function(t)
 -- unam
 		t["h003"][7][1] = "Kappa - Normal";
 -- utub
-		t["h003"][8][1] = "Kappa를 하나 소환합니다.";
+		t["h003"][8][1] = "Summons a Kappa.";
 -- uhot
 -- ua1m
 		t["h003"][10][1] = "Abilities\\Weapons\\WaterElementalMissile\\WaterElementalMissile.mdl";
@@ -3231,7 +3231,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00P"][7][1] = "Izayoi Sakuya - |c00ffff00Rare|r";
+		t["h00P"][7][1] = "Sakuya Izayoi - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -3620,7 +3620,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01G"][7][1] = "Kaenbyou Rin - |c00808040Unique|r";
+		t["h01G"][7][1] = "Rin Kaenbyou - |c00808040Unique|r";
 -- ua1m
 -- umdl
 		t["h01G"][11][1] = "orin.mdl";
@@ -3803,7 +3803,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h01T"][7][1] = "Yakumo Ran - |c00400080Epic|r";
+		t["h01T"][7][1] = "Ran Yakumo - |c00400080Epic|r";
 -- ua1m
 		t["h01T"][10][1] = "Units\\Creeps\\StormPandarenBrewmaster\\StormPandarenBrewmaster_Missile.mdl";
 -- umdl
@@ -3846,7 +3846,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h021"][7][1] = "Sho Toramaru - |c00400080Epic|r";
+		t["h021"][7][1] = "Shou Toramaru - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h021"][11][1] = "ToramaruSyou2.mdl";
@@ -4620,7 +4620,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e016"][5][1] = "Houraisan Kaguya - |c000000FF달의 공주|r|NRound Restriction : 27";
+		t["e016"][5][1] = "Kaguya Houraisan - |c000000FF달의 공주|r|NRound Restriction : 27";
 -- upgr
 		t["e016"][7][1] = "R00N,R01U,R01R,R004,R000,R001,R002,Rhri,R01L";
 -- umdl
@@ -4753,7 +4753,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01G"][7][1] = "WAVE46 - Hoshiguma Yuugi";
+		t["e01G"][7][1] = "WAVE46 - Yuugi Hoshiguma";
 -- upgr
 -- umdl
 		t["e01G"][12][1] = "units\\demon\\DoomGuard\\DoomGuard.mdl";
@@ -4869,7 +4869,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01P"][7][1] = "WAVE55 - Izayoi Sakuya";
+		t["e01P"][7][1] = "WAVE55 - Sakuya Izayoi";
 -- upgr
 -- umdl
 		t["e01P"][12][1] = "units\\human\\BloodElfSpellThief\\BloodElfSpellThief.mdl";
@@ -4932,7 +4932,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01U"][7][1] = "WAVE60 - 카엔뵤우 린";
+		t["e01U"][7][1] = "WAVE60 - Rin Kaenbyou";
 -- upgr
 -- umdl
 -- uarm
@@ -4956,7 +4956,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01W"][7][1] = "WAVE62 - Sho Toramaru";
+		t["e01W"][7][1] = "WAVE62 - Shou Toramaru";
 -- upgr
 -- umdl
 		t["e01W"][12][1] = "units\\nightelf\\HeroMoonPriestess\\HeroMoonPriestess.mdl";
@@ -5006,7 +5006,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e020"][7][1] = "WAVE66 - Houraisan Kaguya";
+		t["e020"][7][1] = "WAVE66 - Kaguya Houraisan";
 -- upgr
 -- umdl
 		t["e020"][12][1] = "units\\critters\\FlyingSheep\\FlyingSheep.mdl";
@@ -5122,7 +5122,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02A"][7][1] = "WAVE76 - Yakumo Ran";
+		t["e02A"][7][1] = "WAVE76 - Ran Yakumo";
 -- upgr
 -- umdl
 -- uarm
@@ -5214,7 +5214,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h02P"][7][1] = "Houraisan Kaguya - |c00400080Epic|r";
+		t["h02P"][7][1] = "Kaguya Houraisan - |c00400080Epic|r";
 -- ua1m
 -- umdl
 -- uico
@@ -5676,7 +5676,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h03N"][7][1] = "Izayoi Sakuya[Special Stopwatch] - |c00808040Unique|r";
+		t["h03N"][7][1] = "Sakuya Izayoi[Special Stopwatch] - |c00808040Unique|r";
 -- ua1m
 -- umdl
 -- uico
@@ -5905,7 +5905,7 @@ TPT_units_loader = function(t)
 -- [h041]
 -- upgr
 -- unam
-		t["h041"][5][1] = "Futatsuiwa Mamizou - |c00400080Epic|r";
+		t["h041"][5][1] = "Mamizou Futatsuiwa - |c00400080Epic|r";
 -- ua1m
 -- umdl
 		t["h041"][9][1] = "Mamizou.mdl";
@@ -6074,7 +6074,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h04N"][6][1] = "Sho Toramaru - |c0000FFFFExtended|r";
+		t["h04N"][6][1] = "Shou Toramaru - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -6345,7 +6345,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- utyp
 -- unam
-		t["e02Y"][6][1] = "WAVE88 - Futatsuiwa Mamizou";
+		t["e02Y"][6][1] = "WAVE88 - Mamizou Futatsuiwa";
 -- upgr
 -- umdl
 		t["e02Y"][11][1] = "units\\nightelf\\DruidoftheClaw\\DruidoftheClaw.mdl";
@@ -6454,7 +6454,7 @@ TPT_units_loader = function(t)
 -- uabi
 		t["e035"][4][1] = "A0QR,Avul,A0GB,A0CU,A0DB,S00O";
 -- unam
-		t["e035"][6][1] = "Futatsuiwa Mamizou - |c0000FFFFExtended|r";
+		t["e035"][6][1] = "Mamizou Futatsuiwa - |c0000FFFFExtended|r";
 -- upgr
 -- umdl
 -- umvt
@@ -6494,7 +6494,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e037"][5][1] = "사나에 인형|N|c0071E100기적을 행하는 바람무녀 인형|r";
+		t["e037"][5][1] = "Sa Nae 인형|N|c0071E100기적을 행하는 바람무녀 인형|r";
 -- umvt
 -- umdl
 -- ua1w
@@ -6594,7 +6594,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h04H"][7][1] = "비루코 - |c00400080Special|r";
+		t["h04H"][7][1] = "Beer Child - |c00400080Special|r";
 -- ua1m
 		t["h04H"][10][1] = "Abilities\\Weapons\\BrewmasterMissile\\BrewmasterMissile.mdl";
 -- umdl
@@ -6960,7 +6960,7 @@ TPT_units_loader = function(t)
 -- [h05I]
 -- urac
 -- unam
-		t["h05I"][6][1] = "겐지 할아범 - |c00400080Special|r";
+		t["h05I"][6][1] = "Grandfather Genji - |c00400080Special|r";
 -- ua1m
 -- umdl
 		t["h05I"][10][1] = "@Genji.mdl";
@@ -7566,7 +7566,7 @@ TPT_units_loader = function(t)
 -- utar
 -- upgr
 -- unam
-		t["h06P"][18][1] = "Kijin Seija - |c0000FFFFExtended|r";
+		t["h06P"][18][1] = "Seija Kijin - |c0000FFFFExtended|r";
 -- ushu
 -- ua1t
 -- urac
@@ -7626,7 +7626,7 @@ TPT_units_loader = function(t)
 -- urac
 -- upgr
 -- unam
-		t["h06T"][6][1] = "Yakumo Ran - |c0000FFFFExtended|r";
+		t["h06T"][6][1] = "Ran Yakumo - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7656,7 +7656,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06V"][7][1] = "Houraisan Kaguya - |c0000FFFFExtended|r";
+		t["h06V"][7][1] = "Kaguya Houraisan - |c0000FFFFExtended|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7972,7 +7972,7 @@ TPT_units_loader = function(t)
 -- utip
 		t["h07F"][12][1] = "Shining Needle Castle 선택|cffffcc00(C)|r";
 -- utub
-		t["h07F"][13][1] = "Selects the Shining Needle Castle faction. Allows Sukuna Shinmyoumaru[Legendary] to be created.\r\
+		t["h07F"][13][1] = "Selects the Shining Needle Castle faction. Allows Shinmyoumaru Sukuna[Legendary] to be created.\r\
 \r\
 |c0000FF00[Faction Unique Skill]|rTsukumogami Festival\r\
 -Goblin[Normal] purchase count does not decrease when bought.";
@@ -8343,7 +8343,7 @@ TPT_units_loader = function(t)
 -- umvt
 -- urac
 -- unam
-		t["n003"][6][1] = "|c0017B5C6Kijin Seija|r - |c00808080Chronicle|r|N|c00F8F489Counterattacking Amanojakur";
+		t["n003"][6][1] = "|c0017B5C6Seija Kijin|r - |c00808080Chronicle|r|N|c00F8F489Counterattacking Amanojakur";
 -- ua1t
 -- uico
 -- umdl
@@ -8357,7 +8357,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- uabi
 -- unam
-		t["e03M"][5][1] = "|c0017B5C6Kijin Seija|r - |c00808080Chronicle|r";
+		t["e03M"][5][1] = "|c0017B5C6Seija Kijin|r - |c00808080Chronicle|r";
 -- umdl
 -- uico
 -- utyp
@@ -8728,7 +8728,7 @@ TPT_units_loader = function(t)
 -- ucun
 -- urac
 -- unam
-		t["o005"][6][1] = "Izayoi Sakuya - |c00FF0080Phantasm|r|N|c00FF80FFDevil의 개|r";
+		t["o005"][6][1] = "Sakuya Izayoi - |c00FF0080Phantasm|r|N|c00FF80FFDevil의 개|r";
 -- ucua
 -- uico
 -- umdl
@@ -9127,7 +9127,7 @@ TPT_units_loader = function(t)
 -- uico
 -- [e04E]
 -- unam
-		t["e04E"][1][1] = "연회 인형|N|c00FF80C0Izayoi Sakuya|r";
+		t["e04E"][1][1] = "연회 인형|N|c00FF80C0Sakuya Izayoi|r";
 -- uabi
 		t["e04E"][7][1] = "A0UJ,A0CR,Avul";
 -- uhrt

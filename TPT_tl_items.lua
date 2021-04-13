@@ -2,10 +2,10 @@ TPT_items_loader = function(t)
 	if (type(t) == "table") then
 -- [cnob]
 -- utip
-		t["cnob"][1][1] = "|c00FFA540Fairy of Eternal Seasonality|r";
+		t["cnob"][1][1] = "|c00FFA540Beauty of Eternal Seasonality|r";
 		t["cnob"][2][1] = "";
 -- unam
-		t["cnob"][3][1] = "[Legendary Item]|c00FFA540Fairy of Eternal Seasonality|r";
+		t["cnob"][3][1] = "[Legendary Item]|c00FFA540Beauty of Eternal Seasonality|r";
 -- iico
 		t["cnob"][5][1] = "BTN\\BTNseason.blp";
 -- utub
@@ -20,9 +20,9 @@ TPT_items_loader = function(t)
 		t["cnob"][8][1] = "SpecialItemWhite.mdl";
 -- [brac]
 -- utip
-		t["brac"][1][1] = "|c00FFA540Lightning Filled Cloudy Skies|r";
+		t["brac"][1][1] = "|c00FFA540Cirrus: Sky Arbor|r";
 -- unam
-		t["brac"][2][1] = "[Legendary Item]|c00FFA540Lightning Filled Cloudy Skies|r";
+		t["brac"][2][1] = "[Legendary Item]|c00FFA540Cirrus: Sky Arbor|r";
 -- iico
 		t["brac"][3][1] = "BTN\\BTNchanc.blp";
 -- utub
@@ -36,11 +36,11 @@ Attacks have a 5% chance to drop lightning at a target point dealing 80,000 True
 		t["brac"][7][1] = "AIms,AIae";
 -- [rlif]
 -- utip
-		t["rlif"][1][1] = "|c00FFA540Onslaught - Final Counterattack|r";
+		t["rlif"][1][1] = "|c00FFA540Onslaught - Last Stand|r";
 -- unam
-		t["rlif"][2][1] = "[Legendary Item]|c00FFA540Onslaught - Final Counterattack|r";
+		t["rlif"][2][1] = "[Legendary Item]|c00FFA540Onslaught - Last Stand|r";
 -- utub
-		t["rlif"][3][1] = "|c000080FF적의 심장을 꿰뚫어라! - 테레이다 마이|r\r\
+		t["rlif"][3][1] = "|c000080FF적의 심장을 꿰뚫어라! - Mai Teireida|r\r\
 \r\
 |c0000FF00Reduces enemies' Defense by 30 in a 700 AoE\r\
 20% chance to deal 5% Current Health damage to a single target. (100,000 Physical Damage to bosses)|r";
@@ -56,9 +56,9 @@ Attacks have a 5% chance to drop lightning at a target point dealing 80,000 True
 -- iico
 		t["ciri"][2][1] = "BTN\\BTNcheong.blp";
 -- utip
-		t["ciri"][3][1] = "|c00FFA540Realm of Nothingness : Cobalt Blue|r";
+		t["ciri"][3][1] = "|c00FFA540Realm of Nothingness : Azure Flame|r";
 -- unam
-		t["ciri"][4][1] = "[Legendary Item]|c00FFA540Realm of Nothingness : Cobalt Blue|r";
+		t["ciri"][4][1] = "[Legendary Item]|c00FFA540Realm of Nothingness : Azure Flame|r";
 -- utub
 		t["ciri"][6][1] = "|c000080FF더러움을 모르는 천인들은 이런걸 하고 다녀 - 히나나이 텐시|r\r\
 \r\
@@ -84,7 +84,7 @@ If Mana is less than 15% full, recover to 15% on attack.(Except Satori Komeiji)|
 -- utip
 		t["spsh"][1][1] = "|c00FFA540,000Cycle of Life and Death|r";
 -- unam
-		t["spsh"][2][1] = "[Legendary Item]|c00FFA540,000Cycle of Life and Death|r";
+		t["spsh"][2][1] = "[Legendary Item]|c00FFA540Cycles of Life|r";
 -- utub
 		t["spsh"][4][1] = "|c000080FF모든 생명은 되돌아오는 것, 모든 역사도 되돌아옵니다 - 카미사라사와 케이네|r\r\
 \r\
@@ -313,7 +313,7 @@ Reset Health cooldown when used[Cooldown 120 seconds]|r";
 -- unam
 		t["lhst"][5][1] = "[Legendary Weapon]|c00FFA540Spiral Abyss|r";
 -- utub
-		t["lhst"][7][1] = "|c000080FF이것이 감정인가? 그러면 다시한번 - 하타노 코코로|r\r\
+		t["lhst"][7][1] = "|c000080FF이것이 감정인가? 그러면 다시한번 - Hata no Kokoro|r\r\
 \r\
 |c0000FF00\r\
 Increases Attack Speed by 22%\r\
@@ -1433,7 +1433,7 @@ Mission Cost : 28";
 -- utip
 		t["I01S"][4][1] = "Shining Needle Castle 선택|cffffcc00(C)|r";
 -- utub
-		t["I01S"][5][1] = "진영을 Shining Needle Castle으로 선택합니다. Sukuna Shinmyoumaru[레전더리]의 조합이 가능해집니다.\r\
+		t["I01S"][5][1] = "진영을 Shining Needle Castle으로 선택합니다. Shinmyoumaru Sukuna[레전더리]의 조합이 가능해집니다.\r\
 \r\
 |c0000FF00[진영 고유 스킬]|rTsukumogami Festival\r\
 -Goblin[일반]를 구입할 경우에는 구입 카운트가 감소하지 않습니다.";

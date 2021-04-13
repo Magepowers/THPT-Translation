@@ -150,7 +150,7 @@ TPT_abilities_loader = function(t)
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- anam
 		t["Adts"][5][1] = "[Magic_Unit Information]";
 -- [AHds]
@@ -203,18 +203,18 @@ TPT_abilities_loader = function(t)
 \r\
 [Attack Speed]: 1.2 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- [Afsh]
 -- aart
 		t["Afsh"][1][1] = "BTN\\BTNKagerou.blp";
 -- atp1 1
-		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - Imaizumi Kagerou[Unique]";
+		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - Kagerou Imaizumi[Unique]";
 -- aub1 1
 		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: Sekibanki[Rare] + Kasodani Kyouko[Rare] + Merlin Prismriver[Rare]\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- anam
 		t["Afsh"][8][1] = "[Unique_Unit Information]";
 -- [Agyv]
@@ -223,14 +223,14 @@ TPT_abilities_loader = function(t)
 -- atar 1
 		t["Agyv"][2][1] = "vulnerable";
 -- atp1 1
-		t["Agyv"][3][1] = "|c00FEE952[Unit Information]|r - Tsukumo Benben[Unique]";
+		t["Agyv"][3][1] = "|c00FEE952[Unit Information]|r - Benben Tsukumo[Unique]";
 -- anam
 -- aub1 1
 		t["Agyv"][5][1] = "|c00A8F13A[Combination]|r: Lunasa Prismriver[Rare] + Sekibanki[Rare] + Merlin Prismriver[Rare]\r\
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- [AOcr]
 -- atp1 1
 		t["AOcr"][1][1] = "성광『스타 레이저』";
@@ -320,11 +320,11 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- [AEev]
 -- arac
 -- atp1 1
-		t["AEev"][2][1] = "|c00FEE952[Unit Information]|r - Sukuna Shinmyoumaru[Epic]";
+		t["AEev"][2][1] = "|c00FEE952[Unit Information]|r - Shinmyoumaru Sukuna[Epic]";
 -- anam
 		t["AEev"][3][1] = "[Epic_Unit Information]";
 -- aub1 1
-		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Tsukumo Benben[Unique] + Tsukumo Yatsuhashi[Unique] + Imaizumi Kagerou[Unique]\r\
+		t["AEev"][4][1] = "|c00A8F13A[Combination]|r: Benben Tsukumo[Unique] + Yatsuhashi Tsukumo[Unique] + Kagerou Imaizumi[Unique]\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -440,7 +440,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Ablo"][1][1] = "air,invulnerable,ground,vulnerable,player";
 -- anam
 -- atp1 2
-		t["Ablo"][9][1] = "[유메코 전투격노]";
+		t["Ablo"][9][1] = "[Yumeko 전투격노]";
 -- abuf 2
 		t["Ablo"][10][1] = "B01H";
 -- atar 2
@@ -792,10 +792,10 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 		t["Apts"][4][1] = "BTN\\BTNHina.blp";
 -- atp1 1
-		t["Apts"][5][1] = "Kagiyama Hina[액신] Combination";
+		t["Apts"][5][1] = "Hina Kagiyama[액신] Combination";
 -- anam
 -- aub1 1
-		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: Rumia EX[Unique] + Kagiyama Hina[Unique] + Imaizumi Kagerou[Unique]\r\
+		t["Apts"][7][1] = "|c00A8F13A[Combination]|r: Rumia EX[Unique] + Hina Kagiyama[Unique] + Kagerou Imaizumi[Unique]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 350\r\
@@ -1173,11 +1173,11 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["ANd2"][1][1] = "BTN\\BTNKeine.blp";
 -- arac
 -- atp1 1
-		t["ANd2"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine[Phantasm]";
+		t["ANd2"][3][1] = "|c00FEE952[Unit Information]|r - Keine Kamishirasawa[Phantasm]";
 -- anam
 -- atar 1
 -- aub1 1
-		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Fujiwara no Mokou[Epic] + Patchouli Knowledge[Unique] + Fragment of Ancients and Fantasy\r\
+		t["ANd2"][6][1] = "|c00A8F13A[Combination]|r: Keine Kamishirasawa EX[Epic] + Fujiwara no Mokou[Epic] + Patchouli Knowledge[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 역사를 새기는 자(keine phan)\r\
 \r\
 [Attack Speed]: 0.28 Cooldown\r\
@@ -1450,7 +1450,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 *위 효과 발동시 대상 주변 400범위에 145,000x(0.8~2)의 |c00FF6464 Physical Damage|r를 입힙니다. ";
 -- [AHwe]
 -- aub1 1
-		t["AHwe"][2][1] = "Combination : Kishin Sagume + Clownpiece + Kijin Seija + 목재 5";
+		t["AHwe"][2][1] = "Combination : Kishin Sagume + Clownpiece + Seija Kijin + 목재 5";
 -- anam
 -- Hwe1 1
 -- aart
@@ -1539,7 +1539,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 2
 		t["AIba"][6][1] = "지구『지옥에 내리는 비』- |c0000FFFFExtended|r";
 -- aub1 1
-		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: Iku Nagae[Unique] + Sa Nae[Unique] + Kamishirasawa Keine[Unique]\r\
+		t["AIba"][7][1] = "|c00A8F13A[Combination]|r: Iku Nagae[Unique] + Sa Nae[Unique] + Keine Kamishirasawa[Unique]\r\
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 350\r\
@@ -1571,10 +1571,10 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- [Amgl]
 -- arac
 -- atp1 1
-		t["Amgl"][3][1] = "|c00FEE952[Unit Information]|r - Hoshiguma Yuugi[Phantasm]";
+		t["Amgl"][3][1] = "|c00FEE952[Unit Information]|r - Yuugi Hoshiguma[Phantasm]";
 -- anam
 -- aub1 1
-		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] + Hecatia Lapislazuli[Epic] + Hoshiguma Yuugi[Unique] + Fragment of Ancients and Fantasy\r\
+		t["Amgl"][5][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] + Hecatia Lapislazuli[Epic] + Yuugi Hoshiguma[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 군자불어괴력난신(yuugi phan)\r\
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
@@ -2156,7 +2156,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r :  Upgrade";
+|c00F8BA54[Upgrade]|r : Rikako Asakura Upgrade";
 -- aub1 2
 		t["Amgr"][3][1] = "세이자가 공격할 때 14% 확률로 적의 Current Health과 남은 체력을 뒤바꿉니다. 하지만 뭔가 어설퍼 완벽하게 바꾸지는 못합니다. 적의 체력이 70% 이상일때 발동하며, 적의 체력을 70%로 만듭니다. 50% 이하일시에는 적 Current Health의 7%의 데미지를 줍니다.보스에게는 적용되지 않습니다.";
 -- anam
@@ -2164,7 +2164,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 2
 		t["Amgr"][5][1] = "역전『리버스 하이어라키』- |c0000FFFFExtended|r";
 -- atp1 1
-		t["Amgr"][6][1] = "|c00FEE952[Unit Information]|r - [Historic]";
+		t["Amgr"][6][1] = "|c00FEE952[Unit Information]|r - Rikako Asakura [Historic]";
 -- aart
 		t["Amgr"][7][1] = "ReplaceableTextures\\CommandButtons\\Rikako\\BTN_UP.blp";
 -- [ANab]
@@ -2184,9 +2184,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["ANdh"][2][1] = "|c00ffff00『오니 대작』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["ANdh"][3][1] = "*호시구마 유기와 대작합니다. 결국 둘다 오니라서 같이 뻗을때까지 마십니다. Hoshiguma Yuugi[Unique]에게 사용시 사천왕오의『삼보괴폐』를 획득합니다.\r\
+		t["ANdh"][3][1] = "*Yuugi Hoshiguma와 대작합니다. 결국 둘다 오니라서 같이 뻗을때까지 마십니다. Yuugi Hoshiguma[Unique]에게 사용시 사천왕오의『삼보괴폐』를 획득합니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 Hoshiguma Yuugi[Unique]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Yuugi Hoshiguma[Unique]는 사라집니다.|r";
 -- anam
 		t["ANdh"][4][1] = "[시련]";
 -- abuf 1
@@ -2418,9 +2418,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- anam
 -- atar 1
 -- atp1 1
-		t["ACpu"][6][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 선대무녀[Phantasm]";
+		t["ACpu"][6][1] = "|c00FEE952[Unit Information]|r - Previous Hakurei Miko[Phantasm]";
 -- aub1 1
-		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Aya Shameimaru[Epic] + Hakurei Reimu[Unique] + 고대와  환상의 조각\r\
+		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Aya Shameimaru[Epic] + Hakurei Reimu[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 환상향의 유산(sendai phan)\r\
 \r\
 [Attack Speed]: 0.56 Cooldown\r\
@@ -2512,7 +2512,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 *Murasa가 공격시 15% 확률로 대상 적에게 85,000의 추가 |c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
 -- [ANta]
 -- aub1 1
-		t["ANta"][1][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + Palanquin Ship[Unique] + Arcanist's Book\r\
+		t["ANta"][1][1] = "|c00A8F13A[Combination]|r: Minamitsu Murasa[Epic] + Palanquin Ship[Unique] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 해군대장 푸른물개(murasa arc)\r\
 \r\
 [Attack Speed]: 0.34 Cooldown\r\
@@ -2526,7 +2526,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- anam
 		t["ANta"][6][1] = "[Arcana_Unit Information]";
 -- atp1 1
-		t["ANta"][7][1] = "|c00FEE952[Unit Information]|r - Murasa 미나미츠[Arcana]";
+		t["ANta"][7][1] = "|c00FEE952[Unit Information]|r - Minamitsu Murasa[Arcana]";
 -- [Arsk]
 -- anam
 		t["Arsk"][3][1] = "[마법 면역]";
@@ -2561,7 +2561,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["ACce"][2][1] = "|c00FEE952[Unit Information]|r - Yamame Kurodani[Arcana]";
 -- aub1 1
-		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Houraisan Kaguya[Epic] + Yamame Kurodani[Rare] + Arcanist's Book\r\
+		t["ACce"][3][1] = "|c00A8F13A[Combination]|r: Mamizou Futatsuiwa[Epic] + Kaguya Houraisan[Epic] + Yamame Kurodani[Rare] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 거미는 동물!(yamame arc)\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
@@ -2702,7 +2702,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["AUfu"][6][1] = "『서리 갑옷』";
 -- aub1 1
 		t["AUfu"][7][1] = "*대상 Units에게『서리 갑옷』을 생성시킵니다. 이 효과를 받은 아군이 입히는 데미지가 12% 상승합니다.\r\
-*레티 화이트락[Phantasm]에게 시전시 데미지 증폭률이 12%에서 25%로 증가합니다.\r\
+*Letty Whiterock[Phantasm]에게 시전시 데미지 증폭률이 12%에서 25%로 증가합니다.\r\
 |c00FFFF00*주의! 1회용 스킬입니다. 사용시 사라집니다.|r";
 -- auar
 		t["AUfu"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNFrostArmorOn.blp";
@@ -2980,9 +2980,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- [AEsf]
 -- arac
 -- atp1 1
-		t["AEsf"][3][1] = "사나에 Arcana Combination";
+		t["AEsf"][3][1] = "Sa Nae Arcana Combination";
 -- aub1 1
-		t["AEsf"][4][1] = "Soga no Tojiko 카엔뵤우 린 Izayoi Sakuya 스톱워치 환상조각";
+		t["AEsf"][4][1] = "Soga no Tojiko Rin Kaenbyou Sakuya Izayoi 스톱워치 환상조각";
 -- anam
 -- areq
 -- acat
@@ -3152,7 +3152,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aub1 1
 		t["AIcl"][8][1] = "*대상 Chronicle/Historic Units의 마나 스킬을 읽어옵니다. 해당 마나 스킬을 더욱 능수능란하게 다룰 수 있게 되어, 마나 소모량이 15% 감소합니다.\r\
 [마나 스킬이 없는 Units 제외]\r\
-[Shion Yorigami / Kijin Seija 제외]\r\
+[Shion Yorigami / Seija Kijin 제외]\r\
 *Cooldown 5 seconds";
 -- ahky
 -- atar 2
@@ -3266,7 +3266,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["ANd1"][3][1] = "BTN\\BTNPatch.blp";
 -- anam
 -- aub1 1
-		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + Sukuna Shinmyoumaru[Epic] + Patchouli Knowledge[Unique] + Fragment of Ancients and Fantasy\r\
+		t["ANd1"][5][1] = "|c00A8F13A[Combination]|r: Ran Yakumo[Epic] + Shinmyoumaru Sukuna[Epic] + Patchouli Knowledge[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 락트 걸(patche phan)\r\
 \r\
 [Attack Speed]: 0.47 Cooldown\r\
@@ -3291,9 +3291,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Acdb"][1][1] = "BTN\\BTNLetty.blp";
 -- anam
 -- atp1 1
-		t["Acdb"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Phantasm]";
+		t["Acdb"][3][1] = "|c00FEE952[Unit Information]|r - Letty Whiterock[Phantasm]";
 -- aub1 1
-		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Epic] + Mononobe no Futo[Epic] + Yatadera Narumi[Unique] + Fragment of Ancients and Fantasy\r\
+		t["Acdb"][4][1] = "|c00A8F13A[Combination]|r: Letty Whiterock[Epic] + Mononobe no Futo[Epic] + Narumi Yatadera[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 윈터버스터(letty phan)\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
@@ -3329,11 +3329,11 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["A01P"][4][1] = "ReplaceableTextures\\CommandButtons\\Eirin\\BTN_UP.blp";
 -- anam
 -- atp1 1
-		t["A01P"][6][1] = "|c00ffff00야고코로 에이린|r Combination|c00FF8040[D]|r";
+		t["A01P"][6][1] = "|c00ffff00Eirin Yagokoro|r Combination|c00FF8040[D]|r";
 -- arac
 		t["A01P"][7][1] = "creeps";
 -- aub1 1
-		t["A01P"][8][1] = "Houraisan Kaguya[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls ";
+		t["A01P"][8][1] = "Kaguya Houraisan[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 		t["A01P"][10][1] = "1,1,1,2,1";
@@ -3442,7 +3442,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A00G"][5][1] = "|c00ffff00Remilia Scarlet|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A00G"][6][1] = "Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch] ";
+		t["A00G"][6][1] = "Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Sakuya Izayoi[Special Stopwatch] ";
 -- ahky
 -- acat
 		t["A00G"][8][1] = "h019,h03N,h03O";
@@ -3472,7 +3472,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 		t["A00K"][4][1] = "BTN\\BTNNazlin.blp";
 -- atp1 1
-		t["A00K"][5][1] = "|c00ffff00나즈린|r Combination|c00FF8040[D]|r";
+		t["A00K"][5][1] = "|c00ffff00Nazrin|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A00K"][6][1] = "Rainbow UFO + Hakurei Reimu + Sunny Milk";
 -- ahky
@@ -3503,9 +3503,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atar 1
 -- aart
 -- atp1 1
-		t["A00P"][5][1] = "|c00ffff00Kagiyama Hina[액신]|r Combination|c00FF8040[D]|r";
+		t["A00P"][5][1] = "|c00ffff00Hina Kagiyama[액신]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A00P"][6][1] = "Rumia EX + Kagiyama Hina + Imaizumi Kagerou";
+		t["A00P"][6][1] = "Rumia EX + Hina Kagiyama + Kagerou Imaizumi";
 -- ahky
 -- acat
 		t["A00P"][8][1] = "h01H,h02N,hkni";
@@ -3522,7 +3522,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A00W"][5][1] = "|c00ffff00Hakurei Reimu[Homing]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A00W"][6][1] = "Hakurei Reimu + Marisa Kirisame + Izayoi Sakuya";
+		t["A00W"][6][1] = "Hakurei Reimu + Marisa Kirisame + Sakuya Izayoi";
 -- ahky
 -- acat
 		t["A00W"][8][1] = "h00O,h00L,h00P";
@@ -3712,7 +3712,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atar 1
 -- aart
 -- atp1 1
-		t["A01E"][5][1] = "|c00ffff00카미시라사와 케이네|r Combination|c00FF8040[D]|r";
+		t["A01E"][5][1] = "|c00ffff00Keine Kamishirasawa|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A01E"][6][1] = "Mystia Lorelei + Patchouli Knowledge + Tewi Inaba";
 -- ahky
@@ -3744,7 +3744,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 -- anam
 -- atp1 1
-		t["A016"][6][1] = "|c00ffff00카엔뵤 린|r Combination|c00FF8040[F]|r";
+		t["A016"][6][1] = "|c00ffff00Rin Kaenbyou|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A016"][8][1] = "Orin + Yamame Kurodani + Hakurei Reimu[Rare]";
@@ -3810,7 +3810,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A01F"][5][1] = "|c00ffff00Koishi Komeiji|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01F"][6][1] = "Yugi Hoshiguma + 카엔뵤우 린 + Tsukumo Yatsuhashi";
+		t["A01F"][6][1] = "Yugi Hoshiguma + Rin Kaenbyou + Yatsuhashi Tsukumo";
 -- ahky
 -- acat
 		t["A01F"][8][1] = "h034,h01G,hmtm";
@@ -3824,9 +3824,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 		t["A01G"][4][1] = "BTN\\BTNSyou.blp";
 -- atp1 1
-		t["A01G"][5][1] = "|c00ffff00Sho Toramaru우|r Combination|c00FF8040[D]|r";
+		t["A01G"][5][1] = "|c00ffff00Shou Toramaru|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01G"][6][1] = "나즈린 + Ichirin Kumoi + Chen";
+		t["A01G"][6][1] = "Nazrin + Ichirin Kumoi + Chen";
 -- ahky
 -- acat
 		t["A01G"][8][1] = "h00T,h036,h01K";
@@ -3842,7 +3842,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A01H"][5][1] = "|c00ffff00Yuuka Kazami|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01H"][6][1] = "Shikieiki Yamaxanadu[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[노던 위너] + 2 Unique Souls ";
+		t["A01H"][6][1] = "Shikieiki Yamaxanadu[Epic] + Medicine Melancholy[Epic] + Letty Whiterock[노던 위너] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01H"][8][1] = "h01W,h039,h03V,h05U,ehip";
@@ -3860,7 +3860,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["A01I"][5][1] = "|c00ffff00Utsuho Reiuji 핵반응 제어불능|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A01I"][7][1] = "카엔뵤우 린 + Marisa Kirisame[Bagua] + Cirno[Minus K]";
+		t["A01I"][7][1] = "Rin Kaenbyou + Marisa Kirisame[Bagua] + Cirno[Minus K]";
 -- ahky
 -- alig
 -- atat
@@ -3872,9 +3872,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 		t["A01J"][4][1] = "BTN\\BTNRan.blp";
 -- atp1 1
-		t["A01J"][5][1] = "|c00ffff00야쿠모 란|r Combination|c00FF8040[D]|r";
+		t["A01J"][5][1] = "|c00ffff00Ran Yakumo|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01J"][6][1] = "Chen + Yuyuko Saigyouji + 카엔뵤우 린";
+		t["A01J"][6][1] = "Chen + Yuyuko Saigyouji + Rin Kaenbyou";
 -- ahky
 -- acat
 		t["A01J"][8][1] = "h01K,h01G,h01A";
@@ -3890,7 +3890,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A01K"][5][1] = "|c00ffff00Nue Houjuu|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01K"][6][1] = "Unknown + Rumia EX + 나즈린";
+		t["A01K"][6][1] = "Unknown + Rumia EX + Nazrin";
 -- ahky
 -- acat
 		t["A01K"][8][1] = "h01J,h00T,h01H";
@@ -3922,7 +3922,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A01O"][5][1] = "|c00ffff00Ghost Orchestra[Phantom Ensemble]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01O"][6][1] = "Layla Prismriver + Tsukumo Yatsuhashi + Tsukumo Benben";
+		t["A01O"][6][1] = "Layla Prismriver + Yatsuhashi Tsukumo + Benben Tsukumo";
 -- ahky
 -- acat
 		t["A01O"][8][1] = "h03O,hmtm,hrif";
@@ -3938,7 +3938,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A01Q"][5][1] = "|c00ffff00Yukari Yakumo|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01Q"][6][1] = "Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + Yuyuko Saigyouji[반혼접] + 2 Unique Souls ";
+		t["A01Q"][6][1] = "Ran Yakumo[Epic] + Letty Whiterock[노던 위너] + Yuyuko Saigyouji[반혼접] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01Q"][8][1] = "h01T,h03V,h03Z,h05U,ehip";
@@ -3954,7 +3954,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A01R"][5][1] = "|c00ffff00Byakuren Hijiri|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01R"][6][1] = "Sho Toramaru우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls ";
+		t["A01R"][6][1] = "Shou Toramaru[Epic] + Mai Teireida[Epic] + Minamitsu Murasa[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A01R"][8][1] = "h021,nhym,h03A,h05U,ehip";
@@ -4041,13 +4041,13 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 		t["A024"][6][1] = "ReplaceableTextures\\CommandButtons\\Kana\\BTN_UP.blp";
 -- atp1 1
-		t["A024"][8][1] = "|c00FEE952[Unit Information]|r - 카나 아나베랄[Historic]";
+		t["A024"][8][1] = "|c00FEE952[Unit Information]|r - Kana Anaberal[Historic]";
 -- aub1 1
-		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A024"][9][1] = "|c00A8F13A[Combination]|r: Hina Kagiyama[Epic] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 420[Air movement]\r\
-|c00F8BA54[Upgrade]|r : 카나 아나베랄 Upgrade";
+|c00F8BA54[Upgrade]|r : Kana Anaberal Upgrade";
 -- [A025]
 -- arac
 -- atp1 1
@@ -4069,7 +4069,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["A028"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNSelfDestructOn.blp";
 -- [A02A]
 -- anam
-		t["A02A"][1][1] = "[Rare]사나에_R";
+		t["A02A"][1][1] = "[Rare]Sa Nae_R";
 -- atp1 1
 		t["A02A"][2][1] = "제비『어지러운 제비 연속뽑기』";
 -- aub1 1
@@ -4175,9 +4175,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- [A02T]
 -- arac
 -- atp1 1
-		t["A02T"][2][1] = "|c00FEE952[Unit Information]|r - Houraisan Kaguya[Phantasm]";
+		t["A02T"][2][1] = "|c00FEE952[Unit Information]|r - Kaguya Houraisan[Phantasm]";
 -- aub1 1
-		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Kanako Yasaka[Epic] + Fragment of the Moon + Fragment of Ancients and Fantasy\r\
+		t["A02T"][3][1] = "|c00A8F13A[Combination]|r: Kaguya Houraisan[Epic] + Kanako Yasaka[Epic] + Fragment of the Moon + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 라스트 엑자일(kaguya phan)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
@@ -4269,18 +4269,18 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["A031"][7][1] = "Icon\\Unit\\BTNBentoraRed_Rare.blp";
 -- [A033]
 -- atp1 1
-		t["A033"][1][1] = "|c00FEE952[Unit Information]|r - Kijin Seija[Chronicle]";
+		t["A033"][1][1] = "|c00FEE952[Unit Information]|r - Seija Kijin[Chronicle]";
 -- aub1 1
-		t["A033"][2][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + Sho Toramaru우[Epic] + Wriggle Nightbug[Epic] + 2 Unique Souls \r\
+		t["A033"][2][1] = "|c00A8F13A[Combination]|r: Seija Kijin[Epic] + Shou Toramaru[Epic] + Wriggle Nightbug[Epic] + 2 Unique Souls \r\
 \r\
-|c00FAB145[특수 Combination]|r\r\
-*다른 Chronicle을 Combination했어도 Combination할 수 있습니다.\r\
+|c00FAB145[Special Combination]|r\r\
+*Combination is possible even if you have made other Chronicle units.\r\
 *Type Command : 역습의 아마노자쿠[kijin chro]\r\
-Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teireida Mai[Epic]\r\
+Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai Teireida[Epic]\r\
 \r\
 [Attack Speed]: 0.37 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
-|c00F8BA54[Upgrade]|r : Kijin Seija Upgrade";
+|c00F8BA54[Upgrade]|r : Seija Kijin Upgrade";
 -- anam
 		t["A033"][3][1] = "[Chronicle_Unit Information]";
 -- aart
@@ -4310,7 +4310,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A035"][8][1] = "Icon\\Unit\\BTNStar_Leg.blp";
 -- aub1 1
-		t["A035"][9][1] = "Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + Sunny Milk[Rare] + Luna Child[Rare] + Unique Soul 1개 ";
+		t["A035"][9][1] = "Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + Sunny Milk[Rare] + Luna Child[Rare] + 1 Unique Soul ";
 -- aub1 3
 		t["A035"][10][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65,000의  Magical Damage를 입힙니다.\r\
 \r\
@@ -5245,7 +5245,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A041"][2][1] = "|c00FEE952[Unit Information]|r - Rumia[Phantasm]";
 -- aub1 1
-		t["A041"][3][1] = "|c00A8F13A[Combination]|r: Murasa 미나미츠[Epic] + Nishida Satono[Epic] + Rumia EX[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A041"][3][1] = "|c00A8F13A[Combination]|r: Minamitsu Murasa[Epic] + Nishida Satono[Epic] + Rumia EX[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 다크사이드 오브 더 문(rumia phan)\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
@@ -6274,7 +6274,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A04O"][2][1] = "|c00FEE952[Unit Information]|r - Wriggle Nightbug[Epic]";
 -- aub1 1
-		t["A04O"][3][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Unique] + Sa Nae[Unique] + 이터니티 라바[Unique]\r\
+		t["A04O"][3][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Unique] + Sa Nae[Unique] + Eternity Larva[Unique]\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 350\r\
@@ -6318,7 +6318,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A04O"][36][1] = "*쇼우가 초당 마나를 1씩 쌓습니다. 쇼우의 마나가 35가 됐을때 대상 주변 650범위에 있는 적들에게 850000의  Magical Damage를 입히고, 3초간 35%의 Movement Speed 감소 효과를 입힙니다.\r\
 *이 데미지는 골드 100당 1%씩 상승하며, 최대 100%까지 상승합니다.";
 -- aub1 3
-		t["A04O"][37][1] = "매 웨이브가 끝날때마다, [Sho Toramaru의 수*((((골드 투자수 + (골드 도박 카운트/10) * 죽인 수) + 50)/(3500-(Upgrade*100)))*웨이브수)]만큼의 금을 줍니다.";
+		t["A04O"][37][1] = "매 웨이브가 끝날때마다, [Shou Toramaru의 수*((((골드 투자수 + (골드 도박 카운트/10) * 죽인 수) + 50)/(3500-(Upgrade*100)))*웨이브수)]만큼의 금을 줍니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -6602,14 +6602,14 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A04Z"][2][1] = "개해『바다가 갈라지는 날』";
 -- aub1 1
-		t["A04Z"][3][1] = "*사나에가 공격시 9% 확률로 대상 지점 양방향으로 거대한 파도를 치게 합니다. 대상 주변 450범위 내에 있는 적에게 100,000의  Magical Damage를 입히고, 받는 |c00379BFF Magical Damage|r를 25% 증폭시킵니다.\r\
+		t["A04Z"][3][1] = "*Sa Nae가 공격시 9% 확률로 대상 지점 양방향으로 거대한 파도를 치게 합니다. 대상 주변 450범위 내에 있는 적에게 100,000의  Magical Damage를 입히고, 받는 |c00379BFF Magical Damage|r를 25% 증폭시킵니다.\r\
 *추가로 범위 내의 적의 이동 속도를 4초간 40% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 요괴퇴치『요력 스포일러』\r\
 \r\
 *적을 공격시 10% 확률로 요력이 흐르는 점혈을 4번 찔러 횟수당 60,000 x (0.5~2.0)의 |c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
 -- anam
-		t["A04Z"][4][1] = "[Arcana][사나에]";
+		t["A04Z"][4][1] = "[Arcana][Sa Nae]";
 -- aart
 		t["A04Z"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCrushingWave.blp";
 -- atp1 2
@@ -6972,7 +6972,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aub1 31
 		t["A05B"][63][1] = "공격시 10% 확률로 주변 700범위 20곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
 -- aub1 1
-		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Ghost Orchestra[Phantom Ensemble][Epic] + Sho Toramaru우[Epic] + 2 Unique Souls \r\
+		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: Hina Kagiyama[Epic] + Ghost Orchestra[Phantom Ensemble][Epic] + Shou Toramaru[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
 [Movement Speed]: 350[Air movement]\r\
@@ -7145,14 +7145,14 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A05K"][107][1] = "|c00FEE952[Unit Information]|r - Fujiwara no Mokou[Phantasm]";
 -- aub1 1
-		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: Fujiwara no Mokou[Epic] + Kanako Yasaka[Epic] + Kamishirasawa Keine[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A05K"][108][1] = "|c00A8F13A[Combination]|r: Fujiwara no Mokou[Epic] + Kanako Yasaka[Epic] + Keine Kamishirasawa[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 키메라 피닉스(mokou phan)\r\
 \r\
 [Attack Speed]: 0.28 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade\r\
 |c00C5EA53[Combination Synergy]|r영원한 환생의 불꽃\r\
--Kamishirasawa Keine EX[Epic 혹은 Extended]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 Cooldown이 8 seconds 감소합니다.";
+-Keine Kamishirasawa EX[Epic 혹은 Extended]를 보유하고 있을 경우, 『피닉스 재탄생』의 활력 Cooldown이 8 seconds 감소합니다.";
 -- aart
 		t["A05K"][109][1] = "BTN\\BTNMoko.blp";
 -- [A05L]
@@ -7452,7 +7452,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- [A05R]
 -- anam
 -- atp1 1
-		t["A05R"][2][1] = "|c00FEE952[Unit Information]|r - 히나나위 텐시[Chronicle]";
+		t["A05R"][2][1] = "|c00FEE952[Unit Information]|r - Tenshi Hinanawi[Chronicle]";
 -- aart
 		t["A05R"][3][1] = "Icon\\Unit\\BTNTenshi_Chro.blp";
 -- aub1 1
@@ -7468,7 +7468,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A05V"][2][1] = "|c00FEE952[Unit Information]|r - Hieda no Akyuu[Epic]";
 -- aub1 1
-		t["A05V"][3][1] = "|c00A8F13A[Combination]|r: Soga no Tojiko[Unique] + 레티 화이트락[Unique] + Yuyuko Saigyouji[Unique]\r\
+		t["A05V"][3][1] = "|c00A8F13A[Combination]|r: Soga no Tojiko[Unique] + Letty Whiterock[Unique] + Yuyuko Saigyouji[Unique]\r\
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 522\r\
@@ -7693,7 +7693,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A06N"][2][1] = "B018";
 -- atar 1
 -- atp1 1
-		t["A06N"][4][1] = "|c00ffff00이터니티 라바|r Combination|c00FF8040[F]|r";
+		t["A06N"][4][1] = "|c00ffff00Eternity Larva|r Combination|c00FF8040[F]|r";
 -- aub1 1
 		t["A06N"][5][1] = "Lily White + Kogasa Tatara + Lunasa Prismriver ";
 -- aart
@@ -7755,9 +7755,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A06S"][5][1] = "|c00ffff00호라이산 카구야|r Combination|c00FF8040[D]|r";
+		t["A06S"][5][1] = "|c00ffff00Kaguya Houraisan|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A06S"][6][1] = "Reisen Udongein Inaba + Renko Usami + Tsukumo Benben";
+		t["A06S"][6][1] = "Reisen Udongein Inaba + Renko Usami + Benben Tsukumo";
 -- ahky
 -- acat
 		t["A06S"][8][1] = "h016,h03S,hrif";
@@ -7840,10 +7840,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A06W"][2][1] = "『체인 리액션』";
 -- aub1 1
-		t["A06W"][3][1] = "*유메코가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
+		t["A06W"][3][1] = "*Yumeko가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
 *『체인 리액션』: 대상 적 Units의 전체 체력의 0.5%의 |c00379BFF Magical Damage|r를 대상 주변 450범위 내에 있는 적에게 입힙니다.";
 -- anam
-		t["A06W"][4][1] = "[유메코]";
+		t["A06W"][4][1] = "[Yumeko]";
 -- aart
 		t["A06W"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAdvancedStrengthOfTheMoon.blp";
 -- atp1 2
@@ -8132,10 +8132,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- anam
 -- atp1 1
-		t["A077"][5][1] = "|c00ffff00후지와라노 모코우|r Combination|c00FF8040[F]|r";
+		t["A077"][5][1] = "|c00ffff00Fujiwara no Mokou|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A077"][7][1] = "Kamishirasawa Keine + Reisen Udongein Inaba + Izayoi Sakuya[Special Stopwatch]";
+		t["A077"][7][1] = "Keine Kamishirasawa + Reisen Udongein Inaba + Sakuya Izayoi[Special Stopwatch]";
 -- ahky
 -- alig
 -- atat
@@ -8285,7 +8285,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A07W"][4][1] = "BTN\\BTNYugi.blp";
 -- atp1 1
-		t["A07W"][5][1] = "|c00ffff00호시구마 유기|r Combination|c00FF8040[D]|r";
+		t["A07W"][5][1] = "|c00ffff00Yuugi Hoshiguma|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A07W"][6][1] = "Mizuhashi Parsee + Yamame Kurodani + Kisume + Red UFO";
 -- ahky
@@ -8342,7 +8342,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A083"][10][1] = "ReplaceableTextures\\CommandButtons\\Kotohime\\BTN_UP.blp";
 -- aub1 1
-		t["A083"][11][1] = "Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy = Kotohime";
+		t["A083"][11][1] = "Kanako Yasaka[Epic] + Mamizou Futatsuiwa[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy = Kotohime";
 -- atp1 2
 		t["A083"][12][1] = "월부『감색의 광몽』- 습득 완료";
 -- aub1 2
@@ -8758,7 +8758,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 *모코우가 불사조의 힘을 대상 지점에 방출하며, 부활합니다. 대상 주변 550범위 적에게 전체 체력의 4% + 650,000 Physical Damage를 입힙니다.\r\
 *모코우가 부활시 모코우의 스킬 데미지가 1%씩 증가합니다. 최대 20번까지 부활가능하며, 부활 횟수는 스킬 이름 오른쪽에 표시됩니다.\r\
 *|c00C5EA53[Combination Synergy]|r영원한 환생의 불꽃\r\
--Kamishirasawa Keine EX[Epic]를 보유하고 있을 경우, 활력 Cooldown이 10 seconds 감소합니다.";
+-Keine Kamishirasawa EX[Epic]를 보유하고 있을 경우, 활력 Cooldown이 10 seconds 감소합니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -9420,7 +9420,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- abuf 1
 		t["A08Y"][4][1] = "B01K";
 -- atp1 1
-		t["A08Y"][5][1] = "|c00ffff00야타데라 나루미|r Combination|c00FF8040[F]|r";
+		t["A08Y"][5][1] = "|c00ffff00Narumi Yatadera|r Combination|c00FF8040[F]|r";
 -- aub1 1
 		t["A08Y"][6][1] = "Kasodani Kyouko + Orin[Rare] + Lyrica Prismriver[Rare]";
 -- aart
@@ -9747,7 +9747,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A097"][3][1] = "BTN\\BTNIku.blp";
 -- anam
 -- atp1 1
-		t["A097"][5][1] = "|c00ffff00나가에 이쿠|r Combination|c00FF8040[D]|r";
+		t["A097"][5][1] = "|c00ffff00Iku Nagae|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
 		t["A097"][7][1] = "Sunny Milk + Kogasa Tatara + Kochiya Sanae + Blue UFO\r\
@@ -9763,7 +9763,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- anam
 -- atp1 1
-		t["A098"][5][1] = "|c00ffff00레티 화이트락|r Combination|c00FF8040[F]|r";
+		t["A098"][5][1] = "|c00ffff00Letty Whiterock|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A098"][7][1] = "Cirno + Lily White + Minoriko Aki";
@@ -9793,7 +9793,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A09A"][5][1] = "|c00ffff00Murasa 미나미츠|r Combination|c00FF8040[D]|r";
+		t["A09A"][5][1] = "|c00ffff00Minamitsu Murasa|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A09A"][6][1] = "Ichirin Kumoi + Palanquin Ship + Sa Nae";
 -- ahky
@@ -9809,9 +9809,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A09B"][4][1] = "BTN\\BTNEXKeine.blp";
 -- atp1 1
-		t["A09B"][5][1] = "|c00ffff00카미시라사와 케이네 Ex|r Combination|c00FF8040[D]|r";
+		t["A09B"][5][1] = "|c00ffff00Keine Kamishirasawa Ex|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A09B"][6][1] = "Kamishirasawa Keine + Rumia EX + Patchouli Knowledge[Philosopher's Stone]";
+		t["A09B"][6][1] = "Keine Kamishirasawa + Rumia EX + Patchouli Knowledge[Philosopher's Stone]";
 -- ahky
 -- acat
 		t["A09B"][8][1] = "h01P,h01H,h019";
@@ -9825,9 +9825,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A09C"][4][1] = "BTN\\BTNMedicine.blp";
 -- atp1 1
-		t["A09C"][5][1] = "|c00ffff00메디슨 멜랑꼴리|r Combination|c00FF8040[D]|r";
+		t["A09C"][5][1] = "|c00ffff00Medicine Melancholy|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A09C"][6][1] = "Alice Margatroid[Doll Judgement] + Kagiyama Hina + Chen";
+		t["A09C"][6][1] = "Alice Margatroid[Doll Judgement] + Hina Kagiyama + Chen";
 -- ahky
 -- acat
 		t["A09C"][8][1] = "h048,h02N,h01K";
@@ -9885,7 +9885,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A09G"][2][1] = "『소로우 램넌트』";
 -- aub1 1
-		t["A09G"][3][1] = "*유메코가 공격시 마나를 1씩 쌓습니다. 마나가 100이 됐을때 대상 지점 주변 500범위 Units을 베어냅니다.\r\
+		t["A09G"][3][1] = "*Yumeko가 공격시 마나를 1씩 쌓습니다. 마나가 100이 됐을때 대상 지점 주변 500범위 Units을 베어냅니다.\r\
 *적 Units에게 잃은 체력의 7% + 400,000의 |c00379BFF Magical Damage|r를 입힙니다.";
 -- aart
 		t["A09G"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNPossession.blp";
@@ -10276,9 +10276,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A09Z"][2][1] = "『전투격노』";
 -- aub1 1
-		t["A09Z"][3][1] = "*침입자들을 처리하는데 특화되어 있는 유메코의 전투 기술입니다.\r\
-*유메코는 공격시 15% 확률로 적 전체 체력의 5%[보스의 경우 전체 체력의 0.2% + 125,000]에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*유메코가 공격시 7% 확률로 자신의 Attack Speed를 1.5 seconds간 50% 상승시킵니다.";
+		t["A09Z"][3][1] = "*침입자들을 처리하는데 특화되어 있는 Yumeko의 전투 기술입니다.\r\
+*Yumeko는 공격시 15% 확률로 적 전체 체력의 5%[보스의 경우 전체 체력의 0.2% + 125,000]에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*Yumeko가 공격시 7% 확률로 자신의 Attack Speed를 1.5 seconds간 50% 상승시킵니다.";
 -- anam
 -- aart
 		t["A09Z"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUnholyAura.blp";
@@ -10367,7 +10367,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aub1 1
 		t["A0A2"][3][1] = "＊공격 시 20% 확률로 전체 체력 5%(보스 0.5%)의 피해를 가합니다. 체력이 50% 이상이라면 |c00FF6464물리 피해|r로, 체력이 50% 미만이라면 |c00AC59FF절대 피해|r로 가합니다.\r\
 ＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 1 회복, 자신 주변 600 범위의 아군의 마력을 10% 회복시킵니다.\r\
-|c00ff2222[!]제한|r : Kamishirasawa Keine EX는 다른 마력 회복을 받지 않습니다.";
+|c00ff2222[!]제한|r : Keine Kamishirasawa EX는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -10995,10 +10995,10 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- anam
 -- atp1 1
-		t["A0AN"][5][1] = "|c00ffff00이자요이 사쿠야[Special Stopwatch]|r Combination|c00FF8040[D]|r";
+		t["A0AN"][5][1] = "|c00ffff00Sakuya Izayoi[Special Stopwatch]|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0AN"][7][1] = "Izayoi Sakuya + Hong Meiling + Hakurei Reimu";
+		t["A0AN"][7][1] = "Sakuya Izayoi + Hong Meiling + Hakurei Reimu";
 -- aani
 -- ahky
 -- alig
@@ -11080,9 +11080,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0AY"][10][1] = "|c00ffff00『유기농법! 유카 씨!』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A0AY"][11][1] = "*유카가 어디선가 배워온 나비 농법으로 꽃을 피워냅니다. 이 스킬을 이터니티 라바[Unique]에게 사용시『도원향』스킬을 얻습니다.\r\
+		t["A0AY"][11][1] = "*유카가 어디선가 배워온 나비 농법으로 꽃을 피워냅니다. 이 스킬을 Eternity Larva[Unique]에게 사용시『도원향』스킬을 얻습니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 이터니티 라바[Unique]는 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Eternity Larva[Unique]는 사라집니다.|r";
 -- ahky
 -- [A09Y]
 -- arac
@@ -11367,7 +11367,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0BF"][5][1] = "|c00ffff00Renko Usami|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BF"][6][1] = "Star Sapphire + Izayoi Sakuya + Luna Child + UFO[Normal]";
+		t["A0BF"][6][1] = "Star Sapphire + Sakuya Izayoi + Luna Child + UFO[Normal]";
 -- ahky
 -- acat
 		t["A0BF"][8][1] = "h00U,h00P,h00W,h009";
@@ -11431,7 +11431,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0BJ"][5][1] = "|c00ffff00Yuyuko Saigyouji[반혼접]|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0BJ"][7][1] = "Yuyuko Saigyouji + Komachi Onozuka + 레티 화이트락";
+		t["A0BJ"][7][1] = "Yuyuko Saigyouji + Komachi Onozuka + Letty Whiterock";
 -- ahky
 -- alig
 -- atat
@@ -11443,7 +11443,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A0BK"][4][1] = "BTN\\BTNmamizo.blp";
 -- atp1 1
-		t["A0BK"][5][1] = "|c00ffff00후타츠이와 마미조|r Combination|c00FF8040[D]|r";
+		t["A0BK"][5][1] = "|c00ffff00Mamizou Futatsuiwa|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BK"][6][1] = "Seiga Kaku + Soga no Tojiko + Iku Nagae";
 -- ahky
@@ -11477,7 +11477,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0BM"][5][1] = "|c00ffff00Aya Shameimaru|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BM"][6][1] = "Hatate Himekaidou + Marisa Kirisame[Bagua] + Hoshiguma Yuugi";
+		t["A0BM"][6][1] = "Hatate Himekaidou + Marisa Kirisame[Bagua] + Yuugi Hoshiguma";
 -- ahky
 -- acat
 		t["A0BM"][8][1] = "h03Q,h018,h034";
@@ -11506,9 +11506,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0BO"][5][1] = "|c00ffff00레티 화이트락[노던 위너]|r Combination|c00FF8040[D]|r";
+		t["A0BO"][5][1] = "|c00ffff00Letty Whiterock[노던 위너]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BO"][6][1] = "레티 화이트락 + Cirno[Minus K] + Alice Margatroid[Doll Judgement]";
+		t["A0BO"][6][1] = "Letty Whiterock + Cirno[Minus K] + Alice Margatroid[Doll Judgement]";
 -- ahky
 -- acat
 		t["A0BO"][8][1] = "h037,h01M,h048";
@@ -11540,7 +11540,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0BQ"][5][1] = "|c00ffff00Toyosatomimi no Miko|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BQ"][6][1] = "Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + Maribel Hearn[Epic] + 2 Unique Souls ";
+		t["A0BQ"][6][1] = "Mamizou Futatsuiwa[Epic] + Hina Kagiyama[액신] + Maribel Hearn[Epic] + 2 Unique Souls ";
 -- ahky
 -- acat
 		t["A0BQ"][8][1] = "h041,nanm,h03W,h05U,ehip";
@@ -11554,7 +11554,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A0BR"][4][1] = "ReplaceableTextures\\CommandButtons\\Kasen\\BTN_UP.blp";
 -- atp1 1
-		t["A0BR"][5][1] = "|c00ffff00이바라기 카센|r Combination|c00FF8040[D]|r";
+		t["A0BR"][5][1] = "|c00ffff00Kasen Ibaraki|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BR"][6][1] = "Namazu[Epic] + Hisoutensoku[Epic] + Mononobe no Futo[Epic] + 2 Unique Souls ";
 -- ahky
@@ -12485,7 +12485,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- [A0CV]
 -- anam
 -- aub1 1
-		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kaenbyou Rin[Unique] + Arcanist's Book * 2\r\
+		t["A0CV"][2][1] = "|c00A8F13A[Combination]|r: Kagerou Imaizumi[Unique] + Rin Kaenbyou[Unique] + Arcanist's Book * 2\r\
 |c00A8F13A[Type Command]|r: 귀걸조 조장(yachie arc)\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
@@ -12785,7 +12785,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- anam
 -- atp1 1
-		t["A0DO"][6][1] = "|c00ffff00Kagiyama Hina|r Combination|c00FF8040[F]|r";
+		t["A0DO"][6][1] = "|c00ffff00Hina Kagiyama|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0DO"][8][1] = "Momiji Inubashiri + Yamame Kurodani + Tewi Inaba";
@@ -12907,7 +12907,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1.05 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DQ]
 -- arac
@@ -12919,7 +12919,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1.3 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DR]
 -- arac
@@ -12931,7 +12931,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DS]
 -- arac
@@ -12958,7 +12958,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DU]
 -- arac
@@ -12970,7 +12970,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DV]
 -- arac
@@ -12982,7 +12982,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DW]
 -- arac
@@ -12994,7 +12994,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DX]
 -- arac
@@ -13006,15 +13006,15 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.85 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0DZ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Phantasm]";
+		t["A0DZ"][3][1] = "|c00FEE952[Unit Information]|r - Sakuya Izayoi[Phantasm]";
 -- aub1 1
-		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Koishi Komeiji[Epic] + Izayoi Sakuya[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A0DZ"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Koishi Komeiji[Epic] + Sakuya Izayoi[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: Devil의 메이드(sakuya phan)\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
@@ -13031,7 +13031,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 		t["A0E0"][5][1] = "BTN\\BTNMarisa.blp";
 -- [A0E1]
@@ -13044,7 +13044,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E2]
 -- arac
@@ -13056,7 +13056,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E3]
 -- arac
@@ -13068,7 +13068,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E4]
 -- arac
@@ -13080,7 +13080,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E5]
 -- arac
@@ -13092,7 +13092,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E6]
 -- arac
@@ -13104,7 +13104,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E7]
 -- arac
@@ -13116,7 +13116,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E8]
 -- arac
@@ -13128,7 +13128,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0E9]
 -- arac
@@ -13140,7 +13140,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1.25 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EA]
 -- arac
@@ -13152,7 +13152,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EB]
 -- arac
@@ -13164,7 +13164,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EC]
 -- arac
@@ -13176,7 +13176,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0ED]
 -- arac
@@ -13188,7 +13188,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EE]
 -- arac
@@ -13200,7 +13200,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EF]
 -- arac
@@ -13212,7 +13212,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 335\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EG]
 -- arac
@@ -13224,7 +13224,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EH]
 -- arac
@@ -13236,7 +13236,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EI]
 -- arac
@@ -13248,7 +13248,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 		t["A0EI"][5][1] = "Icon\\Unit\\BTNReimu_Rare.blp";
 -- [A0EJ]
@@ -13261,7 +13261,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EK]
 -- arac
@@ -13273,7 +13273,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 		t["A0EK"][5][1] = "BTN\\BTNMystia.blp";
 -- [A0EL]
@@ -13286,7 +13286,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EM]
 -- arac
@@ -13298,7 +13298,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EN]
 -- arac
@@ -13310,7 +13310,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EO]
 -- arac
@@ -13322,19 +13322,19 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EP]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EP"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Rare]";
+		t["A0EP"][3][1] = "|c00FEE952[Unit Information]|r - Sakuya Izayoi[Rare]";
 -- aub1 1
 		t["A0EP"][4][1] = "|c00A8F13A[Combination]|r: Small Devil[Magic] + Small Divine Spirit[Magic] + Human[Normal]\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EQ]
 -- arac
@@ -13346,7 +13346,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 365\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0ER]
 -- arac
@@ -13358,7 +13358,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0CR]
 -- anam
@@ -13373,7 +13373,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EU]
 -- arac
@@ -13385,7 +13385,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EV]
 -- arac
@@ -13397,7 +13397,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.95 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EW]
 -- arac
@@ -13409,7 +13409,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EX]
 -- arac
@@ -13421,19 +13421,19 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EY]
 -- arac
 -- anam
 -- atp1 1
-		t["A0EY"][3][1] = "|c00FEE952[Unit Information]|r - Kagiyama Hina[Unique]";
+		t["A0EY"][3][1] = "|c00FEE952[Unit Information]|r - Hina Kagiyama[Unique]";
 -- aub1 1
 		t["A0EY"][4][1] = "|c00A8F13A[Combination]|r: Momiji Inubashiri[Rare] + Yamame Kurodani[Rare] + Tewi Inaba[Rare]\r\
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0EZ]
 -- arac
@@ -13445,7 +13445,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F0]
 -- arac
@@ -13457,7 +13457,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F1]
 -- arac
@@ -13469,19 +13469,19 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F2]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F2"][3][1] = "|c00FEE952[Unit Information]|r - Kaenbyou Rin[Unique]";
+		t["A0F2"][3][1] = "|c00FEE952[Unit Information]|r - Rin Kaenbyou[Unique]";
 -- aub1 1
 		t["A0F2"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Yamame Kurodani[Rare] + Hakurei Reimu[Rare]\r\
 \r\
 [Attack Speed]: 1.05 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F3]
 -- arac
@@ -13493,7 +13493,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F4]
 -- arac
@@ -13505,7 +13505,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F5]
 -- arac
@@ -13523,13 +13523,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0F6"][3][1] = "|c00FEE952[Unit Information]|r - Hoshiguma Yuugi[Unique]";
+		t["A0F6"][3][1] = "|c00FEE952[Unit Information]|r - Yuugi Hoshiguma[Unique]";
 -- aub1 1
 		t["A0F6"][4][1] = "|c00A8F13A[Combination]|r: Mizuhashi Parsee[Rare] + Yamame Kurodani[Rare] + Kisume[Magic] + Red UFO[Rare]\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F7]
 -- arac
@@ -13537,23 +13537,23 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0F7"][3][1] = "|c00FEE952[Unit Information]|r - Renko Usami[Unique]";
 -- aub1 1
-		t["A0F7"][4][1] = "|c00A8F13A[Combination]|r: Star Sapphire[Rare] + Izayoi Sakuya[Rare] + Luna Child[Rare] + UFO[Normal]\r\
+		t["A0F7"][4][1] = "|c00A8F13A[Combination]|r: Star Sapphire[Rare] + Sakuya Izayoi[Rare] + Luna Child[Rare] + UFO[Normal]\r\
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F8]
 -- arac
 -- anam
 -- atp1 1
-		t["A0F8"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Unique]";
+		t["A0F8"][3][1] = "|c00FEE952[Unit Information]|r - Letty Whiterock[Unique]";
 -- aub1 1
 		t["A0F8"][4][1] = "|c00A8F13A[Combination]|r: Cirno[Rare] + Lily White[Rare] + Minoriko Aki[Rare]\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0F9]
 -- arac
@@ -13565,7 +13565,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FA]
 -- arac
@@ -13577,7 +13577,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FB]
 -- arac
@@ -13589,7 +13589,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1.05 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FC]
 -- arac
@@ -13601,7 +13601,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FD]
 -- arac
@@ -13609,11 +13609,11 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FD"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Unique]";
 -- aub1 1
-		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Marisa Kirisame[Rare] + Izayoi Sakuya[Rare]\r\
+		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Marisa Kirisame[Rare] + Sakuya Izayoi[Rare]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 350[Air movement]\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FE]
 -- arac
@@ -13622,7 +13622,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FE"][3][1] = "|c00FEE952[Unit Information]|r - Aya Shameimaru[Legendary]";
 -- aub1 1
-		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kasodani Kyouko[Rare] + Unique Soul 1개\r\
+		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kasodani Kyouko[Rare] + 1 Unique Soul\r\
 \r\
 [Attack Speed]: 0.27 Cooldown\r\
 [Movement Speed]: 500[Air movement]\r\
@@ -13633,13 +13633,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0FF"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine[Unique]";
+		t["A0FF"][3][1] = "|c00FEE952[Unit Information]|r - Keine Kamishirasawa[Unique]";
 -- aub1 1
 		t["A0FF"][4][1] = "|c00A8F13A[Combination]|r: Mystia Lorelei[Rare] + Patchouli Knowledge[Rare] + Tewi Inaba[Rare]\r\
 \r\
 [Attack Speed]: 1 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FG]
 -- arac
@@ -13651,7 +13651,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FH]
 -- arac
@@ -13663,31 +13663,31 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 1 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FI]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FI"][3][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Unique]";
+		t["A0FI"][3][1] = "|c00FEE952[Unit Information]|r - Sakuya Izayoi[Unique]";
 -- aub1 1
-		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Rare] + Hong Meiling[Rare] + Hakurei Reimu[Rare]\r\
+		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: Sakuya Izayoi[Rare] + Hong Meiling[Rare] + Hakurei Reimu[Rare]\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FJ]
 -- arac
 -- anam
 -- atp1 1
-		t["A0FJ"][3][1] = "|c00FEE952[Unit Information]|r - 나즈린[Unique]";
+		t["A0FJ"][3][1] = "|c00FEE952[Unit Information]|r - Nazrin[Unique]";
 -- aub1 1
 		t["A0FJ"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Hakurei Reimu[Rare] + Sunny Milk[Rare]\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FK]
 -- arac
@@ -13699,7 +13699,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FL]
 -- arac
@@ -13711,7 +13711,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0FM]
 -- arac
@@ -13719,7 +13719,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FM"][3][1] = "|c00FEE952[Unit Information]|r - Utsuho Reiuji[Epic]";
 -- aub1 1
-		t["A0FM"][4][1] = "|c00A8F13A[Combination]|r: 카엔뵤우 린[Unique] + Marisa Kirisame[Unique] + Cirno[Unique]\r\
+		t["A0FM"][4][1] = "|c00A8F13A[Combination]|r: Rin Kaenbyou[Unique] + Marisa Kirisame[Unique] + Cirno[Unique]\r\
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13731,7 +13731,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FN"][3][1] = "|c00FEE952[Unit Information]|r - Yuyuko Saigyouji[반혼접][Epic]";
 -- aub1 1
-		t["A0FN"][4][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Unique] + Komachi Onozuka[Unique] + 레티 화이트락[Unique]\r\
+		t["A0FN"][4][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Unique] + Komachi Onozuka[Unique] + Letty Whiterock[Unique]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300[Air movement]\r\
@@ -13771,9 +13771,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0FQ"][3][1] = "|c00FEE952[Unit Information]|r - Kamishirasawa Keine EX[Epic]";
+		t["A0FQ"][3][1] = "|c00FEE952[Unit Information]|r - Keine Kamishirasawa EX[Epic]";
 -- aub1 1
-		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + Rumia EX[Unique] + Patchouli Knowledge[Unique]\r\
+		t["A0FQ"][4][1] = "|c00A8F13A[Combination]|r: Keine Kamishirasawa[Unique] + Rumia EX[Unique] + Patchouli Knowledge[Unique]\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13783,7 +13783,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0FR"][3][1] = "|c00FEE952[Unit Information]|r - Murasa 미나미츠[Epic]";
+		t["A0FR"][3][1] = "|c00FEE952[Unit Information]|r - Minamitsu Murasa[Epic]";
 -- aub1 1
 		t["A0FR"][4][1] = "|c00A8F13A[Combination]|r: Ichirin Kumoi[Unique] + Sa Nae[Unique] + Palanquin Ship[Unique]\r\
 \r\
@@ -13797,9 +13797,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0FS"][3][1] = "|c00FEE952[Unit Information]|r - Houraisan Kaguya[Epic]";
+		t["A0FS"][3][1] = "|c00FEE952[Unit Information]|r - Kaguya Houraisan[Epic]";
 -- aub1 1
-		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Renko Usami[Unique] + Tsukumo Benben[Unique]\r\
+		t["A0FS"][4][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Renko Usami[Unique] + Benben Tsukumo[Unique]\r\
 \r\
 [Attack Speed]: 0.76 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
@@ -13813,7 +13813,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FT"][3][1] = "|c00FEE952[Unit Information]|r - Kanako Yasaka[Epic]";
 -- aub1 1
-		t["A0FT"][4][1] = "|c00A8F13A[Combination]|r: Sa Nae[Unique] + Hatate Himekaidou[Unique] + Kagiyama Hina[Unique]\r\
+		t["A0FT"][4][1] = "|c00A8F13A[Combination]|r: Sa Nae[Unique] + Hatate Himekaidou[Unique] + Hina Kagiyama[Unique]\r\
 \r\
 [Attack Speed]: 0.46 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13826,9 +13826,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0FU"][3][1] = "|c00FEE952[Unit Information]|r - Yakumo Ran[Epic]";
+		t["A0FU"][3][1] = "|c00FEE952[Unit Information]|r - Ran Yakumo[Epic]";
 -- aub1 1
-		t["A0FU"][4][1] = "|c00A8F13A[Combination]|r: Chen[Unique] + Yuyuko Saigyouji[Unique] + 카엔뵤우 린[Unique]\r\
+		t["A0FU"][4][1] = "|c00A8F13A[Combination]|r: Chen[Unique] + Yuyuko Saigyouji[Unique] + Rin Kaenbyou[Unique]\r\
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13842,7 +13842,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FV"][3][1] = "|c00FEE952[Unit Information]|r - Koishi Komeiji[Epic]";
 -- aub1 1
-		t["A0FV"][4][1] = "|c00A8F13A[Combination]|r: Hoshiguma Yuugi[Unique] + 카엔뵤우 린[Unique] + Tsukumo Yatsuhashi[Unique]\r\
+		t["A0FV"][4][1] = "|c00A8F13A[Combination]|r: Yuugi Hoshiguma[Unique] + Rin Kaenbyou[Unique] + Yatsuhashi Tsukumo[Unique]\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
@@ -13856,7 +13856,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FW"][3][1] = "|c00FEE952[Unit Information]|r - Toyosatomimi no Miko[Chronicle]";
 -- aub1 1
-		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Kagiyama Hina[액신] + Maribel Hearn[Epic] + 2 Unique Souls \r\
+		t["A0FW"][4][1] = "|c00A8F13A[Combination]|r: Mamizou Futatsuiwa[Epic] + Hina Kagiyama[액신] + Maribel Hearn[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.35 Cooldown[천상] / 0.4 Cooldown[인상]\r\
 [Movement Speed]: 420\r\
@@ -13868,7 +13868,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FX"][3][1] = "|c00FEE952[Unit Information]|r - Aya Shameimaru[Epic]";
 -- aub1 1
-		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: Hatate Himekaidou[Unique] + Marisa Kirisame[Unique] + Hoshiguma Yuugi[Unique]\r\
+		t["A0FX"][4][1] = "|c00A8F13A[Combination]|r: Hatate Himekaidou[Unique] + Marisa Kirisame[Unique] + Yuugi Hoshiguma[Unique]\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 350[Air movement]\r\
@@ -13880,7 +13880,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0FY"][3][1] = "|c00FEE952[Unit Information]|r - Hisoutensoku[Epic]";
 -- aub1 1
-		t["A0FY"][4][1] = "|c00A8F13A[Combination]|r: Suika Ibuki[Unique] + Hoshiguma Yuugi[Unique] + Hakurei Reimu[Unique]\r\
+		t["A0FY"][4][1] = "|c00A8F13A[Combination]|r: Suika Ibuki[Unique] + Yuugi Hoshiguma[Unique] + Hakurei Reimu[Unique]\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13906,9 +13906,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0G0"][3][1] = "|c00FEE952[Unit Information]|r - 레티 화이트락[Epic]";
+		t["A0G0"][3][1] = "|c00FEE952[Unit Information]|r - Letty Whiterock[Epic]";
 -- aub1 1
-		t["A0G0"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[Unique] + Cirno[Unique] + Alice Margatroid[Unique]\r\
+		t["A0G0"][4][1] = "|c00A8F13A[Combination]|r: Letty Whiterock[Unique] + Cirno[Unique] + Alice Margatroid[Unique]\r\
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13922,7 +13922,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0G1"][3][1] = "|c00FEE952[Unit Information]|r - Medicine Melancholy[Epic]";
 -- aub1 1
-		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Unique] + Kagiyama Hina[Unique] + Chen[Unique]\r\
+		t["A0G1"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Unique] + Hina Kagiyama[Unique] + Chen[Unique]\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13950,7 +13950,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0G4"][3][1] = "|c00FEE952[Unit Information]|r - Fujiwara no Mokou[Epic]";
 -- aub1 1
-		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine[Unique] + Reisen Udongein Inaba[Unique] + Izayoi Sakuya[Unique]\r\
+		t["A0G4"][4][1] = "|c00A8F13A[Combination]|r: Keine Kamishirasawa[Unique] + Reisen Udongein Inaba[Unique] + Sakuya Izayoi[Unique]\r\
 \r\
 [Attack Speed]: 0.65 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13964,7 +13964,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0G5"][3][1] = "|c00FEE952[Unit Information]|r - Nue Houjuu[Epic]";
 -- aub1 1
-		t["A0G5"][4][1] = "|c00A8F13A[Combination]|r: Unknown[Unique] + 나즈린[Unique] + Rumia EX[Unique]\r\
+		t["A0G5"][4][1] = "|c00A8F13A[Combination]|r: Unknown[Unique] + Nazrin[Unique] + Rumia EX[Unique]\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13976,9 +13976,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0G6"][3][1] = "|c00FEE952[Unit Information]|r - Sho Toramaru[Epic]";
+		t["A0G6"][3][1] = "|c00FEE952[Unit Information]|r - Shou Toramaru[Epic]";
 -- aub1 1
-		t["A0G6"][4][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Chen[Unique] + Ichirin Kumoi[Unique]\r\
+		t["A0G6"][4][1] = "|c00A8F13A[Combination]|r: Nazrin[Unique] + Chen[Unique] + Ichirin Kumoi[Unique]\r\
 \r\
 [Attack Speed]: 0.62 Cooldown\r\
 [Movement Speed]: 400\r\
@@ -14008,7 +14008,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0G8"][3][1] = "|c00FEE952[Unit Information]|r - Remilia Scarlet[Epic]";
 -- aub1 1
-		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Izayoi Sakuya[Special Stopwatch]\r\
+		t["A0G8"][4][1] = "|c00A8F13A[Combination]|r: Patchouli Knowledge[Philosopher's Stone] + Layla Prismriver[Unique] + Sakuya Izayoi[Special Stopwatch]\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 300[Air movement]\r\
@@ -14034,7 +14034,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0GA"][3][1] = "|c00FEE952[Unit Information]|r - Byakuren Hijiri[Chronicle]";
 -- aub1 1
-		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: Sho Toramaru우[Epic] + Teireida Mai[Epic] + Murasa 미나미츠[Epic] + 2 Unique Souls \r\
+		t["A0GA"][4][1] = "|c00A8F13A[Combination]|r: Shou Toramaru[Epic] + Mai Teireida[Epic] + Minamitsu Murasa[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -14044,7 +14044,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0GB"][3][1] = "|c00FEE952[Unit Information]|r - Futatsuiwa Mamizou[Epic]";
+		t["A0GB"][3][1] = "|c00FEE952[Unit Information]|r - Mamizou Futatsuiwa[Epic]";
 -- aub1 1
 		t["A0GB"][4][1] = "|c00A8F13A[Combination]|r: Seiga Kaku[Unique] + Soga no Tojiko[Unique] + Iku Nagae[Unique]\r\
 \r\
@@ -14060,7 +14060,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0GC"][3][1] = "|c00FEE952[Unit Information]|r - Yuuka Kazami[Chronicle]";
 -- aub1 1
-		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Medicine Melancholy[Epic] + 레티 화이트락[Epic] + 2 Unique Souls \r\
+		t["A0GC"][4][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Medicine Melancholy[Epic] + Letty Whiterock[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.44 Cooldown\r\
 [Movement Speed]: 400\r\
@@ -14082,13 +14082,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0GE"][3][1] = "|c00FEE952[Unit Information]|r - 야고코로 에이린[Chronicle]";
+		t["A0GE"][3][1] = "|c00FEE952[Unit Information]|r - Eirin Yagokoro[Chronicle]";
 -- aub1 1
-		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls \r\
+		t["A0GE"][4][1] = "|c00A8F13A[Combination]|r: Kaguya Houraisan[Epic] + Wriggle Nightbug[Epic] + Hieda no Akyuu[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 야고코로 에이린 Upgrade";
+|c00F8BA54[Upgrade]|r : Eirin Yagokoro Upgrade";
 -- aart
 -- [A0GF]
 -- arac
@@ -14108,7 +14108,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0GG"][3][1] = "|c00FEE952[Unit Information]|r - Yukari Yakumo[Chronicle]";
 -- aub1 1
-		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Epic] + 레티 화이트락[노던 위너] + Yuyuko Saigyouji[반혼접] + 2 Unique Souls \r\
+		t["A0GG"][4][1] = "|c00A8F13A[Combination]|r: Ran Yakumo[Epic] + Letty Whiterock[노던 위너] + Yuyuko Saigyouji[반혼접] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -14349,9 +14349,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0GZ"][4][1] = "hbew,nbel,h037";
 -- arac
 -- atp1 1
-		t["A0GZ"][7][1] = "|c00ffff00Teireida Mai|r Combination|c00FF8040[D]|r";
+		t["A0GZ"][7][1] = "|c00ffff00Mai Teireida|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0GZ"][8][1] = "Yatadera Narumi[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]";
+		t["A0GZ"][8][1] = "Narumi Yatadera[Unique] + Eternity Larva[Unique] + Letty Whiterock[Unique]";
 -- aart
 		t["A0GZ"][9][1] = "BTN\\BTNMai.blp";
 -- alig
@@ -14547,9 +14547,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- anam
 -- aart
 -- atp1 1
-		t["A0HJ"][4][1] = "|c00FEE952[Unit Information]|r - Teireida Mai[Epic]";
+		t["A0HJ"][4][1] = "|c00FEE952[Unit Information]|r - Mai Teireida[Epic]";
 -- aub1 1
-		t["A0HJ"][5][1] = "|c00A8F13A[Combination]|r: Yatadera Narumi[Unique] + 이터니티 라바[Unique] + 레티 화이트락[Unique]\r\
+		t["A0HJ"][5][1] = "|c00A8F13A[Combination]|r: Narumi Yatadera[Unique] + Eternity Larva[Unique] + Letty Whiterock[Unique]\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 365\r\
@@ -14720,7 +14720,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 인부『역린의 매우 거친 파도』\r\
 \r\
-*와카사기히메가 공격시 20% 확률로 대상 지점에 격류를 뿜어냅니다. 뿜어낸 격류는 350범위 내에 있는 적에게 125,000의 |c00FF6464 Physical Damage|r를 입히고, 3초간 스턴시킵니다.";
+*Wakasagihime가 공격시 20% 확률로 대상 지점에 격류를 뿜어냅니다. 뿜어낸 격류는 350범위 내에 있는 적에게 125,000의 |c00FF6464 Physical Damage|r를 입히고, 3초간 스턴시킵니다.";
 -- abuf 2
 -- abuf 3
 -- abuf 4
@@ -14788,7 +14788,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A076"][2][1] = "|c00FEE952[Unit Information]|r - Minoriko Aki[Arcana]";
 -- aub1 1
-		t["A076"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Kasodani Kyouko[Rare] + Minoriko Aki[Rare] + Arcanist's Book\r\
+		t["A076"][3][1] = "|c00A8F13A[Combination]|r: Nazrin[Unique] + Kasodani Kyouko[Rare] + Minoriko Aki[Rare] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 신님이라구?(minoriko arc)\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
@@ -14865,7 +14865,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0I9"][3][1] = "|c00ffff00Suika Ibuki|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0I9"][4][1] = "Hisoutensoku[Epic] + Tokiko[Epic] + Yakumo Ran[Epic] + 2 Unique Souls  = Suika Ibuki[Chronicle]";
+		t["A0I9"][4][1] = "Hisoutensoku[Epic] + Tokiko[Epic] + Ran Yakumo[Epic] + 2 Unique Souls  = Suika Ibuki[Chronicle]";
 -- abuf 1
 -- aart
 -- alig
@@ -14977,7 +14977,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- arac
 -- atp1 1
-		t["A08U"][4][1] = "|c00ffff00히나나위 텐시|r Combination|c00FF8040[D]|r";
+		t["A08U"][4][1] = "|c00ffff00Tenshi Hinanawi|r Combination|c00FF8040[D]|r";
 -- ahky
 -- aub1 1
 		t["A08U"][6][1] = "Utsuho Reiuji [핵반응 제어불능] + Namazu[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
@@ -15180,7 +15180,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 11
 		t["A0HM"][27][1] = "『영격』- |c00FF0000충전|r 10";
 -- aub1 1
-		t["A0HM"][28][1] = "Hong Meiling + Hoshiguma Yuugi + Imaizumi Kagerou + Arcanist's Book";
+		t["A0HM"][28][1] = "Hong Meiling + Yuugi Hoshiguma + Kagerou Imaizumi + Arcanist's Book";
 -- aub1 2
 		t["A0HM"][29][1] = "아군 Units의 '상수' 데미지를 증가시켜주는 『영격』입니다. Chronicle,Historic,Phantasm Units을 Combination할 시 수치가 3 상승하고, Legendary Units을 Combination할 시 수치가 2 상승합니다. 『영격』충전 수 1당 3%의 상수 데미지가 증가합니다.";
 -- aub1 3
@@ -15203,7 +15203,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0CS"][2][1] = "|c00FEE952[Unit Information]|r - Nishida Satono[Epic]";
 -- aub1 1
-		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: Marisa Kirisame[Unique] + Kishin Sagume[Unique] + 나즈린[Unique]\r\
+		t["A0CS"][3][1] = "|c00A8F13A[Combination]|r: Marisa Kirisame[Unique] + Kishin Sagume[Unique] + Nazrin[Unique]\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 350[공중 이동 가능]\r\
@@ -15405,7 +15405,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- aub1 1
-		t["A0JE"][3][1] = "Cirno[Minus K] + 테레이다 마이[Epic] + Remilia Scarlet[Epic] + Fragment of Ancients and Fantasy = Kurumi";
+		t["A0JE"][3][1] = "Cirno[Minus K] + Mai Teireida[Epic] + Remilia Scarlet[Epic] + Fragment of Ancients and Fantasy = Kurumi";
 -- atp1 1
 		t["A0JE"][4][1] = "|c00ffff00Kurumi|r Combination|c00FF8040[F]|r";
 -- aart
@@ -15603,7 +15603,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0JP"][4][1] = "|c00ffff00Nishida Satono|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0JP"][5][1] = "Marisa Kirisame[Bagua] + Kishin Sagume[Unique] + 나즈린[Unique]";
+		t["A0JP"][5][1] = "Marisa Kirisame[Bagua] + Kishin Sagume[Unique] + Nazrin[Unique]";
 -- aart
 -- arac
 -- ahky
@@ -16000,7 +16000,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0KH"][4][1] = "|c00ffff00Hieda no Akyuu|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KH"][5][1] = "Soga no Tojiko + 레티 화이트락 + Yuyuko Saigyouji";
+		t["A0KH"][5][1] = "Soga no Tojiko + Letty Whiterock + Yuyuko Saigyouji";
 -- anam
 -- aart
 -- ahky
@@ -16013,7 +16013,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aub1 1
 		t["A0KF"][5][1] = "Kappa + Fairy";
 -- atp1 1
-		t["A0KF"][6][1] = "|c00ffff00와카사기히메|r Combination|c00FF8040[F]|r";
+		t["A0KF"][6][1] = "|c00ffff00Wakasagihime|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0KF"][8][1] = "h003,h002";
@@ -16027,7 +16027,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0KG"][5][1] = "|c00ffff00이마이즈미 카게로우|r Combination|c00FF8040[D]|r";
+		t["A0KG"][5][1] = "|c00ffff00Kagero Imaizumi|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0KG"][6][1] = "Sekibanki + Kasodani Kyouko + Merlin Prismriver";
 -- ahky
@@ -16042,7 +16042,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0KI"][5][1] = "|c00ffff00츠쿠모 벤벤|r Combination|c00FF8040[D]|r";
+		t["A0KI"][5][1] = "|c00ffff00Benben Tsukumo|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0KI"][6][1] = "Lunasa Prismriver + Sekibanki + Merlin Prismriver";
 -- ahky
@@ -16055,13 +16055,13 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A05X"][3][1] = "|c00FEE952[Unit Information]|r - Tsukumo Yatsuhashi[Unique]";
+		t["A05X"][3][1] = "|c00FEE952[Unit Information]|r - Yatsuhashi Tsukumo[Unique]";
 -- aub1 1
 		t["A05X"][4][1] = "|c00A8F13A[Combination]|r: Lyrica Prismriver[Rare] + Sekibanki[Rare] + Mizuhashi Parsee[Rare]\r\
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 		t["A05X"][5][1] = "BTN\\BTNyatsuhashi.blp";
 -- [A05Y]
@@ -16085,7 +16085,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 -- anam
 -- atp1 1
-		t["A0D0"][6][1] = "|c00ffff00세키반키|r Combination|c00FF8040[F]|r";
+		t["A0D0"][6][1] = "|c00ffff00Sekibanki|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
 		t["A0D0"][8][1] = "Wakasagihime + Goblin + Small Devil";
@@ -16099,7 +16099,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0DG"][5][1] = "|c00ffff00츠쿠모 야츠하시|r Combination|c00FF8040[D]|r";
+		t["A0DG"][5][1] = "|c00ffff00Yatsuhashi Tsukumo|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0DG"][6][1] = "Lyrica Prismriver + Sekibanki + Mizuhashi Parsee";
 -- ahky
@@ -16114,9 +16114,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0DH"][5][1] = "|c00ffff00키진 세이자|r Combination|c00FF8040[D]|r";
+		t["A0DH"][5][1] = "|c00ffff00Seija Kijin|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DH"][6][1] = "Imaizumi Kagerou + Kishin Sagume + Seiga Kaku";
+		t["A0DH"][6][1] = "Kagerou Imaizumi + Kishin Sagume + Seiga Kaku";
 -- ahky
 -- acat
 		t["A0DH"][8][1] = "hkni,h05P,h03T";
@@ -16127,9 +16127,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- anam
 -- atp1 1
-		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - Kijin Seija[Epic]";
+		t["A0DI"][3][1] = "|c00FEE952[Unit Information]|r - Seija Kijin[Epic]";
 -- aub1 1
-		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kishin Sagume[Unique] + Seiga Kaku[Unique]\r\
+		t["A0DI"][4][1] = "|c00A8F13A[Combination]|r: Kagerou Imaizumi[Unique] + Kishin Sagume[Unique] + Seiga Kaku[Unique]\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 300[Air movement]\r\
@@ -16143,9 +16143,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atar 1
 -- aart
 -- atp1 1
-		t["A0DK"][5][1] = "|c00ffff00스쿠나 신묘마루|r Combination|c00FF8040[D]|r";
+		t["A0DK"][5][1] = "|c00ffff00Shinmyoumaru Sukuna|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0DK"][6][1] = "Tsukumo Benben + Tsukumo Yatsuhashi + Imaizumi Kagerou";
+		t["A0DK"][6][1] = "Benben Tsukumo + Yatsuhashi Tsukumo + Kagerou Imaizumi";
 -- ahky
 -- acat
 		t["A0DK"][8][1] = "hrif,hmtm,hkni";
@@ -16186,7 +16186,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0DN"][3][1] = "|c00FEE952[Unit Information]|r - Raiko Horikawa[Chronicle]";
 -- aub1 1
-		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Tokiko[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls \r\
+		t["A0DN"][4][1] = "|c00A8F13A[Combination]|r: Shinmyoumaru Sukuna[Epic] + Tokiko[Epic] + Kaguya Houraisan[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -16203,7 +16203,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0GN"][5][1] = "|c00ffff00Raiko Horikawa|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0GN"][7][1] = "Sukuna Shinmyoumaru[Epic] + Tokiko[Epic] + Houraisan Kaguya[Epic] + 2 Unique Souls ";
+		t["A0GN"][7][1] = "Shinmyoumaru Sukuna[Epic] + Tokiko[Epic] + Kaguya Houraisan[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -16235,7 +16235,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0GP"][3][1] = "|c00FEE952[Unit Information]|r - Sumireko Usami[Chronicle]";
 -- aub1 1
-		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls \r\
+		t["A0GP"][4][1] = "|c00A8F13A[Combination]|r: Maribel Hearn[Epic] + Fujiwara no Mokou[Epic] + Shinmyoumaru Sukuna[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
@@ -16283,7 +16283,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0IN"][5][1] = "|c00ffff00Sumireko Usami|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0IN"][7][1] = "Maribel Hearn[Epic] + Fujiwara no Mokou[Epic] + Sukuna Shinmyoumaru[Epic] + 2 Unique Souls ";
+		t["A0IN"][7][1] = "Maribel Hearn[Epic] + Fujiwara no Mokou[Epic] + Shinmyoumaru Sukuna[Epic] + 2 Unique Souls ";
 -- ahky
 -- alig
 -- atat
@@ -16309,9 +16309,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- [A0IQ]
 -- arac
 -- atp1 1
-		t["A0IQ"][2][1] = "Units 모으기|cffffcc00(Q)|r";
+		t["A0IQ"][2][1] = "Gather Units|cffffcc00(Q)|r";
 -- aub1 1
-		t["A0IQ"][3][1] = "Units을 같은 종류끼리 모읍니다.";
+		t["A0IQ"][3][1] = "Gathers all copies of this unit together.";
 -- anam
 		t["A0IQ"][4][1] = "#Units 모으기";
 -- aart
@@ -16362,9 +16362,9 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- acat
 		t["A0J0"][5][1] = "nanm,h01U,h03T,e03C";
 -- atp1 1
-		t["A0J0"][6][1] = "|c00ffff00카나 아나베랄|r Combination|c00FF8040[F]|r";
+		t["A0J0"][6][1] = "|c00ffff00Kana Anaberal|r Combination|c00FF8040[F]|r";
 -- aub1 1
-		t["A0J0"][7][1] = "Kagiyama Hina[액신] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + Fragment of Ancients and Fantasy";
+		t["A0J0"][7][1] = "Hina Kagiyama[액신] + Nue Houjuu[Epic] + Seiga Kaku[Unique] + Fragment of Ancients and Fantasy";
 -- ahky
 -- arac
 -- alig
@@ -17029,7 +17029,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- aart
 -- [A0JA]
 -- arac
@@ -17037,7 +17037,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aub1 1
 		t["A0JA"][5][1] = "Luna Child + Tewi Inaba + Mizuhashi Parsee";
 -- atp1 1
-		t["A0JA"][6][1] = "|c00ffff00키신 사구메|r Combination|c00FF8040[D]|r";
+		t["A0JA"][6][1] = "|c00ffff00Kishin Sagume|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0JA"][8][1] = "h00W,h00X,h02Y";
@@ -17066,7 +17066,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- aart
 -- aub1 1
-		t["A02K"][5][1] = "Yuyuko Saigyouji[반혼접] + Layla Prismriver[Unique] + Unique Soul 1개";
+		t["A02K"][5][1] = "Yuyuko Saigyouji[반혼접] + Layla Prismriver[Unique] + 1 Unique Soul";
 -- atp1 1
 		t["A02K"][6][1] = "|c00ffff00Youmu Konpaku[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -17086,7 +17086,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A05Z"][3][1] = "|c00FEE952[Unit Information]|r - Utsuho Reiuji[Legendary]";
 -- aub1 1
-		t["A05Z"][4][1] = "|c00A8F13A[Combination]|r: Utsuho Reiuji[Epic] +  카엔뵤우 린[Unique] + Unique Soul 1개\r\
+		t["A05Z"][4][1] = "|c00A8F13A[Combination]|r: Utsuho Reiuji[Epic] +  Rin Kaenbyou[Unique] + 1 Unique Soul\r\
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
@@ -17096,7 +17096,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- arac
 -- aart
 -- aub1 1
-		t["A0G3"][5][1] = "Utsuho Reiuji[Epic] +  카엔뵤우 린[Unique] + Unique Soul 1개";
+		t["A0G3"][5][1] = "Utsuho Reiuji[Epic] +  Rin Kaenbyou[Unique] + 1 Unique Soul";
 -- atp1 1
 		t["A0G3"][6][1] = "|c00ffff00Utsuho Reiuji[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -17182,20 +17182,20 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 		t["A0KN"][5][1] = "*Seiran은 보스를 공격할때 Attack Speed가 200% 증가합니다.\r\
 *보스 공격시 20% 확률로 전체 체력의 3% + 200,000의  |c00FF6464 Physical Damage|r를 입히고, 2초간 기절시킵니다.\r\
 *Seiran이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 Normal Units을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
-[나즈린 , Palanquin Ship]\r\
+[Nazrin , Palanquin Ship]\r\
 [자신 라인의 자경단 미션만 해당됩니다.]";
 -- [A0KO]
 -- aart
 -- arac
 -- anam
 -- atp1 1
-		t["A0KO"][4][1] = "|c00FEE952[Unit Information]|r - Yatadera Narumi[Unique]";
+		t["A0KO"][4][1] = "|c00FEE952[Unit Information]|r - Narumi Yatadera[Unique]";
 -- aub1 1
 		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Orin[Rare] + Lyrica Prismriver[Rare]\r\
 \r\
 [Attack Speed]: 3 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- [A0KP]
 -- aart
 		t["A0KP"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNBigBadVoodooSpell.blp";
@@ -17214,7 +17214,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0KQ"][4][1] = "|c00FEE952[Unit Information]|r - Mugetsu[Historic]";
 -- aub1 1
-		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + Fragment of Ancients and Fantasy\r\
+		t["A0KQ"][5][1] = "|c00A8F13A[Combination]|r: Sakuya Izayoi[Unique] + Shou Toramaru[Epic] + Maribel Hearn[Epic] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 1.2 Cooldown\r\
 [Movement Speed]: 335\r\
@@ -17233,7 +17233,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- aart
 		t["A0KR"][4][1] = "Icon\\Unit\\BTNCirno_Leg.blp";
 -- aub1 1
-		t["A0KR"][5][1] = "레티 화이트락[노던 위너] + Cirno[Minus K] + Unique Soul 1개";
+		t["A0KR"][5][1] = "Letty Whiterock[노던 위너] + Cirno[Minus K] + 1 Unique Soul";
 -- atp1 1
 		t["A0KR"][6][1] = "|c00ffff00Cirno[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -17253,7 +17253,7 @@ Kijin Seija[Extended] + Sukuna Shinmyoumaru[Epic] + Nishida Satono[Epic] + Teire
 -- atp1 1
 		t["A0KS"][3][1] = "|c00FEE952[Unit Information]|r - Cirno[Legendary]";
 -- aub1 1
-		t["A0KS"][4][1] = "|c00A8F13A[Combination]|r: 레티 화이트락[노던 위너] + Cirno[Minus K] + Unique Soul\r\
+		t["A0KS"][4][1] = "|c00A8F13A[Combination]|r: Letty Whiterock[노던 위너] + Cirno[Minus K] + Unique Soul\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 420[Air movement]\r\
@@ -18049,7 +18049,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- aart
 		t["A05O"][4][1] = "ReplaceableTextures\\CommandButtons\\Yumemi\\BTN_UP.blp";
 -- aub1 1
-		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + Fragment of Ancients and Fantasy = Yumemi Okazaki";
+		t["A05O"][5][1] = "Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Yatsuhashi Tsukumo[Unique] + Fragment of Ancients and Fantasy = Yumemi Okazaki";
 -- atp1 1
 		t["A05O"][6][1] = "|c00ffff00Yumemi Okazaki|r Combination|c00FF8040[F]|r";
 -- anam
@@ -18139,7 +18139,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A06U"][4][1] = "|c00FEE952[Unit Information]|r - Kochiya Sanae[Arcana]";
 -- aub1 1
-		t["A06U"][5][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + 사나에[Unique] + Unique Soul * 2 + Arcanist's Book\r\
+		t["A06U"][5][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + Sa Nae[Unique] + Unique Soul * 2 + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 기적의 미라클(sanae arc)\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
@@ -18191,7 +18191,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0L8"][3][1] = "|c00FEE952[Unit Information]|r - Remilia Scarlet[Legendary]";
 -- aub1 1
-		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique Soul 1개\r\
+		t["A0L8"][4][1] = "|c00A8F13A[Combination]|r: Remilia Scarlet[Epic] + Unknown[Unique] + Sakuya Izayoi[Rare] + 1 Unique Soul\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
@@ -18202,7 +18202,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0KL"][5][1] = "Remilia Scarlet[Epic] + Unknown[Unique] + Izayoi Sakuya[Rare] + Unique Soul 1개";
+		t["A0KL"][5][1] = "Remilia Scarlet[Epic] + Unknown[Unique] + Sakuya Izayoi[Rare] + 1 Unique Soul";
 -- atp1 1
 		t["A0KL"][6][1] = "|c00ffff00Remilia Scarlet[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -18249,7 +18249,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A05P"][3][1] = "|c00FEE952[Unit Information]|r - Yumemi Okazaki[Historic]";
 -- aub1 1
-		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Tsukumo Yatsuhashi[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A05P"][4][1] = "|c00A8F13A[Combination]|r: Hecatia Lapislazuli[Epic] + Tokiko[Epic] + Yatsuhashi Tsukumo[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
@@ -18555,7 +18555,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 		t["A026"][5][1] = "『머메이드 펀치』";
 -- aub1 1
 		t["A026"][6][1] = "*|c00FF80FF[활력]|r - 6초\r\
-*와카사기히메의 공격력의 50~100배에 해당하는  True Damage를 대상 Units에게 입히고 그 주변 350범위 Units에게는 20%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*Wakasagihime의 공격력의 50~100배에 해당하는  True Damage를 대상 Units에게 입히고 그 주변 350범위 Units에게는 20%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.\r\
 *보스에게는 20%의 데미지만 적용됩니다.\r\
 *주변 800범위 적의 방어력을 45 감소시킵니다.";
 -- abuf 1
@@ -18582,7 +18582,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 		t["A026"][23][1] = "『머메이드 펀치』- 물기 6";
 -- aub1 2
 		t["A026"][24][1] = "*|c00FF80FF[활력]|r - 12초\r\
-*와카사기히메의 공격력의 50~100배에 해당하는  True Damage를 대상 Units에게 입히고 그 주변 350범위 Units에게는 20%에 해당하는  Physical Damage를 입힙니다.\r\
+*Wakasagihime의 공격력의 50~100배에 해당하는  True Damage를 대상 Units에게 입히고 그 주변 350범위 Units에게는 20%에 해당하는  Physical Damage를 입힙니다.\r\
 *자경단 임무 보스에게는 10% . 스토리 보스에게는 5%의 데미지만 적용됩니다.\r\
 *주변 800범위 적의 방어력을 20 감소시킵니다.";
 -- aub1 3
@@ -18611,7 +18611,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0AE"][3][1] = "|c00FEE952[Unit Information]|r - Reisen Udongein Inaba[Legendary]";
 -- aub1 1
-		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Houraisan Kaguya[Epic] + Unique Soul 1개\r\
+		t["A0AE"][4][1] = "|c00A8F13A[Combination]|r: Reisen Udongein Inaba[Unique] + Kaguya Houraisan[Epic] + 1 Unique Soul\r\
 \r\
 [Attack Speed]: 0.32 Cooldown\r\
 [Movement Speed]: 380[Air movement]\r\
@@ -18671,7 +18671,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A0LN"][5][1] = "Reisen Udongein Inaba[Unique] + Houraisan Kaguya[Epic] + Unique Soul 1개";
+		t["A0LN"][5][1] = "Reisen Udongein Inaba[Unique] + Kaguya Houraisan[Epic] + 1 Unique Soul";
 -- atp1 1
 		t["A0LN"][6][1] = "|c00ffff00Reisen Udongein Inaba[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -18758,7 +18758,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- aart
 		t["A0LT"][4][1] = "Icon\\Unit\\BTNReimu_Leg.blp";
 -- aub1 1
-		t["A0LT"][5][1] = "Hakurei Reimu[Homing] + Futatsuiwa Mamizou[Epic] + Unique Soul 1개";
+		t["A0LT"][5][1] = "Hakurei Reimu[Homing] + Mamizou Futatsuiwa[Epic] + 1 Unique Soul";
 -- atp1 1
 		t["A0LT"][6][1] = "|c00ffff00Hakurei Reimu[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -18778,13 +18778,13 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0LU"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Legendary]";
 -- aub1 1
-		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Homing] + Futatsuiwa Mamizou[Epic] + Unique Soul\r\
+		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Homing] + Mamizou Futatsuiwa[Epic] + Unique Soul\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 *|c00C5EA53[Combination Synergy]|r신사의 멋진 탈 것\r\
--겐지 할아범[Special]를 보유하고 있을 경우, 신사 진영 능력인『신령강림』의 Cooldown이 300 seconds에서 250 seconds로 감소합니다.";
+-Grandfather Genji[Special]를 보유하고 있을 경우, 신사 진영 능력인『신령강림』의 Cooldown이 300 seconds에서 250 seconds로 감소합니다.";
 -- aart
 -- [A0LV]
 -- ahky
@@ -18813,7 +18813,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A03Q"][3][1] = "|c00FEE952[Unit Information]|r - Shinki[Historic]";
 -- aub1 1
-		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + Fragment of Ancients and Fantasy\r\
+		t["A03Q"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Shou Toramaru[Epic] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
 [Movement Speed]: 420\r\
@@ -18824,7 +18824,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- arac
 -- aart
 -- aub1 1
-		t["A03R"][5][1] = "Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Sho Toramaru우[Epic] + Fragment of Ancients and Fantasy = Shinki";
+		t["A03R"][5][1] = "Alice Margatroid[Doll Judgement] + Patchouli Knowledge[Philosopher's Stone] + Marisa Kirisame[Rare] + Shou Toramaru[Epic] + Fragment of Ancients and Fantasy = Shinki";
 -- atp1 1
 		t["A03R"][6][1] = "|c00ffff00Shinki|r Combination|c00FF8040[F]|r";
 -- anam
@@ -19436,7 +19436,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0GU"][2][1] = "『페이탈 블리츠』";
 -- aub1 1
-		t["A0GU"][3][1] = "*유메코가 공격시 6% 확률로 대상 Units의 심장을 검으로 빼내 터뜨립니다. 대상 Units 주변 500범위내에 있는 적에게 160,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0GU"][3][1] = "*Yumeko가 공격시 6% 확률로 대상 Units의 심장을 검으로 빼내 터뜨립니다. 대상 Units 주변 500범위내에 있는 적에게 160,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
 *『페이탈 블리츠』가 발동했을 때 대상 Units에게 잃은 체력의 7%에 해당하는 |c00AC59FF True Damage|r를 입히고, 체력이 15% 이하라면 즉사시킵니다.[이 효과는 보스에게 적용되지 않습니다]";
 -- anam
 -- aart
@@ -19507,7 +19507,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0I8"][4][1] = "|c00FEE952[Unit Information]|r - 사카타 네무노[Arcana]";
 -- aub1 1
-		t["A0I8"][5][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Luna Child[Rare] + Arcanist's Book\r\
+		t["A0I8"][5][1] = "|c00A8F13A[Combination]|r: Hina Kagiyama[Epic] + Luna Child[Rare] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 무서운 부엌칼(nemuno arc)\r\
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
@@ -19517,7 +19517,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- arac
 -- aart
 -- aub1 1
-		t["A014"][5][1] = "Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kasodani Kyouko[Rare] + Unique Soul 1개";
+		t["A014"][5][1] = "Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kasodani Kyouko[Rare] + 1 Unique Soul";
 -- atp1 1
 		t["A014"][6][1] = "|c00ffff00Aya Shameimaru[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -19590,17 +19590,17 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aart
 -- [A0M1]
 -- anam
-		t["A0M1"][2][1] = "[Units정보][Chronicle]하타노 코코로";
+		t["A0M1"][2][1] = "[Units정보][Chronicle]Hata no Kokoro";
 -- aart
 		t["A0M1"][3][1] = "ReplaceableTextures\\CommandButtons\\Kokoro\\BTN_UP.blp";
 -- atp1 1
-		t["A0M1"][4][1] = "|c00FEE952[Unit Information]|r - 하타노 코코로[Chronicle]";
+		t["A0M1"][4][1] = "|c00FEE952[Unit Information]|r - Hata no Kokoro[Chronicle]";
 -- aub1 1
-		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: Futatsuiwa Mamizou[Epic] + Koishi Komeiji[Epic] + Nue Houjuu[Epic] + 2 Unique Souls \r\
+		t["A0M1"][5][1] = "|c00A8F13A[Combination]|r: Mamizou Futatsuiwa[Epic] + Koishi Komeiji[Epic] + Nue Houjuu[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : 하타노 코코로 Upgrade";
+|c00F8BA54[Upgrade]|r : Hata no Kokoro Upgrade";
 -- [A0M2]
 -- atar 1
 -- acat
@@ -19608,10 +19608,10 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aart
 -- anam
 -- atp1 1
-		t["A0M2"][5][1] = "|c00ffff00하타노 코코로|r Combination|c00FF8040[F]|r";
+		t["A0M2"][5][1] = "|c00ffff00Hata no Kokoro|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0M2"][7][1] = "Futatsuiwa Mamizou[Epic] + Koishi Komeiji[Epic] + Nue Houjuu[Epic] + 2 Unique Souls ";
+		t["A0M2"][7][1] = "Mamizou Futatsuiwa[Epic] + Koishi Komeiji[Epic] + Nue Houjuu[Epic] + 2 Unique Souls ";
 -- ahky
 -- atat
 		t["A0M2"][11][1] = "h06K";
@@ -19821,8 +19821,8 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aub1 1
 		t["A03L"][6][1] = "*자신의 배에 탈 선원을 모집합니다. 선원에 따라 Murasa의 능력이 달라집니다. 선원을 모집하기 전에는 Murasa는 어떤 능력도 발휘하지 못합니다. 갈림길의 대상이 된 선원은 사라집니다.\r\
 [모집가능한 선원]\r\
--Kijin Seija[Epic], Sukuna Shinmyoumaru[Epic] -> |c00379BFF Magical Damage|r의 Murasa로 변경\r\
--Sho Toramaru우[Epic],Nue Houjuu[Epic] -> |c00FF6464 Physical Damage|r의 Murasa로 변경";
+-Seija Kijin[Epic], Shinmyoumaru Sukuna[Epic] -> |c00379BFF Magical Damage|r의 Murasa로 변경\r\
+-Shou Toramaru[Epic],Nue Houjuu[Epic] -> |c00FF6464 Physical Damage|r의 Murasa로 변경";
 -- aart
 		t["A03L"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNPackBeast.blp";
 -- atar 1
@@ -19871,7 +19871,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A009"][4][1] = "|c00ffff00Kanako Yasaka|r Combination|c00FF8040[F]|r";
 -- aub1 1
-		t["A009"][5][1] = "Hatate Himekaidou + Sa Nae + Kagiyama Hina";
+		t["A009"][5][1] = "Hatate Himekaidou + Sa Nae + Hina Kagiyama";
 -- ahky
 -- aart
 -- alig
@@ -19961,7 +19961,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0CG"][4][1] = "|c00FEE952[Unit Information]|r - Wakasagihime[Phantasm]";
 -- aub1 1
-		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: Kijin Seija[Epic] + Utsuho Reiuji[Epic] + Imaizumi Kagerou[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A0CG"][5][1] = "|c00A8F13A[Combination]|r: Seija Kijin[Epic] + Utsuho Reiuji[Epic] + Kagerou Imaizumi[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 워터 솔져(hime phan)\r\
 \r\
 [Attack Speed]: 0.54 Cooldown\r\
@@ -20219,7 +20219,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aub1 1
 		t["A07E"][5][1] = "Small Devil + Small Divine Spirit + Human";
 -- atp1 1
-		t["A07E"][6][1] = "|c00ffff00이자요이 사쿠야|r Combination|c00FF8040[W]|r";
+		t["A07E"][6][1] = "|c00ffff00Sakuya Izayoi|r Combination|c00FF8040[W]|r";
 -- anam
 -- acat
 		t["A07E"][8][1] = "h00D,h000,h00A";
@@ -20342,9 +20342,9 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- [A08S]
 -- anam
 -- atp1 1
-		t["A08S"][2][1] = "|c00FEE952[Unit Information]|r - 나즈린[Arcana]";
+		t["A08S"][2][1] = "|c00FEE952[Unit Information]|r - Nazrin[Arcana]";
 -- aub1 1
-		t["A08S"][3][1] = "|c00A8F13A[Combination]|r: 나즈린[Unique] + Rainbow UFO[Rare] + Arcanist's Book\r\
+		t["A08S"][3][1] = "|c00A8F13A[Combination]|r: Nazrin[Unique] + Rainbow UFO[Rare] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 작디작은 현장(nazrin arc)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
@@ -20439,10 +20439,10 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0AF"][6][1] = "|c00ffff00『냥줍』|r|c00FF8040[F]|r";
 -- aub1 1
-		t["A0AF"][7][1] = "*사토리가 길을 가다가 고양이 하나를 줍습니다. 카엔뵤우 린[Unique]에게 『냥줍』스킬을 사용시 퀘스트가 완료됩니다.\r\
+		t["A0AF"][7][1] = "*사토리가 길을 가다가 고양이 하나를 줍습니다. Rin Kaenbyou[Unique]에게 『냥줍』스킬을 사용시 퀘스트가 완료됩니다.\r\
 *『제 3의 눈』스킬이『마음을 읽는 정도의 능력』으로 변경됩니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 카엔뵤우 린[Unique]은 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Rin Kaenbyou[Unique]은 사라집니다.|r";
 -- aart
 		t["A0AF"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNRegeneration.blp";
 -- atar 1
@@ -20783,7 +20783,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aart
 		t["A0MC"][4][1] = "ReplaceableTextures\\CommandButtons\\Elly\\BTN_UP.blp";
 -- aub1 1
-		t["A0MC"][5][1] = "Shikieiki Yamaxanadu + Kamishirasawa Keine EX + Lily Black + Fragment of Ancients and Fantasy = Elly";
+		t["A0MC"][5][1] = "Shikieiki Yamaxanadu + Keine Kamishirasawa EX + Lily Black + Fragment of Ancients and Fantasy = Elly";
 -- atp1 1
 		t["A0MC"][6][1] = "|c00ffff00Elly|r Combination|c00FF8040[F]|r";
 -- anam
@@ -20799,7 +20799,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0MD"][3][1] = "|c00FEE952[Unit Information]|r - Elly[Historic]";
 -- aub1 1
-		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Kamishirasawa Keine EX[Epic] + Lily Black[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A0MD"][4][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Keine Kamishirasawa EX[Epic] + Lily Black[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.42 Cooldown\r\
 [Movement Speed]: 420\r\
@@ -22737,7 +22737,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A09R"][4][1] = "|c00FEE952[Unit Information]|r - Ghost Orchestra[Phantom Ensemble]";
 -- aub1 1
-		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: Layla Prismriver[Unique] + Tsukumo Yatsuhashi[Unique] + Tsukumo Benben[Unique]\r\
+		t["A09R"][5][1] = "|c00A8F13A[Combination]|r: Layla Prismriver[Unique] + Yatsuhashi Tsukumo[Unique] + Benben Tsukumo[Unique]\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -22776,7 +22776,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A03F"][3][1] = "|c00FEE952[Unit Information]|r - Mima[Historic]";
 -- aub1 1
-		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Kamishirasawa Keine EX[Epic] + Yakumo Ran[Epic] + Soga no Tojiko[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A03F"][4][1] = "|c00A8F13A[Combination]|r: Keine Kamishirasawa EX[Epic] + Ran Yakumo[Epic] + Soga no Tojiko[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 420\r\
@@ -22788,25 +22788,25 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 		t["A03G"][1][1] = "ReplaceableTextures\\CommandButtons\\Yumeko\\BTN_UP.blp";
 -- anam
 -- atp1 1
-		t["A03G"][3][1] = "|c00FEE952[Unit Information]|r - 유메코[Historic]";
+		t["A03G"][3][1] = "|c00FEE952[Unit Information]|r - Yumeko[Historic]";
 -- aub1 1
-		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: Koishi Komeiji[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A03G"][4][1] = "|c00A8F13A[Combination]|r: Koishi Komeiji[Epic] + Minamitsu Murasa[Epic] + Sakuya Izayoi[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.31 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
-|c00F8BA54[Upgrade]|r : 유메코 Upgrade";
+|c00F8BA54[Upgrade]|r : Yumeko Upgrade";
 -- arac
 -- [A03H]
 -- aart
 -- anam
 -- atp1 1
-		t["A03H"][3][1] = "|c00FEE952[Unit Information]|r - 이터니티 라바[Unique]";
+		t["A03H"][3][1] = "|c00FEE952[Unit Information]|r - Eternity Larva[Unique]";
 -- aub1 1
 		t["A03H"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Kogasa Tatara[Rare] + Lunasa Prismriver[Rare]\r\
 \r\
 [Attack Speed]: 1 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- arac
 -- [A03Z]
 -- aart
@@ -22845,7 +22845,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0AU"][3][1] = "|c00FEE952[Unit Information]|r - Doremy Sweet[Epic]";
 -- aub1 1
-		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: 이터니티 라바[Unique] + Soga no Tojiko[Unique] + Yatadera Narumi[Unique]\r\
+		t["A0AU"][4][1] = "|c00A8F13A[Combination]|r: Eternity Larva[Unique] + Soga no Tojiko[Unique] + Narumi Yatadera[Unique]\r\
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 400[Air movement]\r\
@@ -22916,7 +22916,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- arac
 -- aart
 -- aub1 1
-		t["A0IK"][5][1] = "Kamishirasawa Keine Ex + Yakumo Ran + Soga no Tojiko + Fragment of Ancients and Fantasy = Mima";
+		t["A0IK"][5][1] = "Keine Kamishirasawa Ex + Ran Yakumo + Soga no Tojiko + Fragment of Ancients and Fantasy = Mima";
 -- atp1 1
 		t["A0IK"][6][1] = "|c00ffff00Mima|r Combination|c00FF8040[F]|r";
 -- anam
@@ -22945,7 +22945,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aart
 		t["A082"][4][1] = "Icon\\Unit\\BTNNue_Leg.blp";
 -- aub1 1
-		t["A082"][5][1] = "Nue Houjuu[Epic] + Palanquin Ship[Unique] + Unique Soul 1개";
+		t["A082"][5][1] = "Nue Houjuu[Epic] + Palanquin Ship[Unique] + 1 Unique Soul";
 -- atp1 1
 		t["A082"][6][1] = "|c00ffff00Nue Houjuu[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -22997,7 +22997,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- [A0N3]
 -- arac
 -- aub1 1
-		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Clownpiece[Epic] + Arcanist's Book + Fragment of Ancients and Fantasy\r\
+		t["A0N3"][2][1] = "|c00A8F13A[Combination]|r: Mai Teireida[Epic] + Clownpiece[Epic] + Arcanist's Book + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 하니와 커맨더(mayumi arc)\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
@@ -23062,7 +23062,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A061"][4][1] = "|c00FEE952[Unit Information]|r - Matara Okino[Chronicle]";
 -- aub1 1
-		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Nishida Satono[Epic] + Doremy Sweet[Epic] + 2 Unique Souls \r\
+		t["A061"][5][1] = "|c00A8F13A[Combination]|r: Mai Teireida[Epic] + Nishida Satono[Epic] + Doremy Sweet[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.44 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
@@ -23104,7 +23104,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- arac
 -- aart
 -- aub1 1
-		t["A0NA"][5][1] = "Clownpiece[Epic] + Ichirin Kumoi[Unique] + Unique Soul 1개";
+		t["A0NA"][5][1] = "Clownpiece[Epic] + Ichirin Kumoi[Unique] + 1 Unique Soul";
 -- atp1 1
 		t["A0NA"][6][1] = "|c00ffff00Seiran[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -23388,7 +23388,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0DM"][3][1] = "|c00FEE952[Unit Information]|r - Watatsuki no Toyohime[Chronicle]";
 -- aub1 1
-		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: Watatsuki no Toyohime[Special] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + 3 Unique Souls\r\
+		t["A0DM"][4][1] = "|c00A8F13A[Combination]|r: Watatsuki no Toyohime[Special] + Seija Kijin[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + 3 Unique Souls\r\
 \r\
 |c00ffff00!주의 : 이 Units은 Combination시 플레이어의 라인존 중앙에 생성됩니다.|r\r\
 \r\
@@ -23409,7 +23409,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 		t["A0GI"][5][1] = "|c00ffff00Watatsuki no Toyohime|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0GI"][7][1] = "Watatsuki no Toyohime[Special] + Kijin Seija[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + 3 Unique Souls";
+		t["A0GI"][7][1] = "Watatsuki no Toyohime[Special] + Seija Kijin[Epic] + Mononobe no Futo[Epic] + Reisen Udongein Inaba[Unique] + 3 Unique Souls";
 -- ahky
 -- atat
 		t["A0GI"][11][1] = "h02X";
@@ -23655,7 +23655,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aart
 		t["A0NE"][4][1] = "Icon\\Unit\\BTNKomachi_Leg.blp";
 -- aub1 1
-		t["A0NE"][5][1] = "Komachi Onozuka[Unique] + Shikieiki Yamaxanadu[Epic] + Unique Soul 1개";
+		t["A0NE"][5][1] = "Komachi Onozuka[Unique] + Shikieiki Yamaxanadu[Epic] + 1 Unique Soul";
 -- atp1 1
 		t["A0NE"][6][1] = "|c00ffff00Komachi Onozuka[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -23688,9 +23688,9 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0NG"][2][1] = "『풍신의 기적』 - 기적 1";
 -- aub1 1
-		t["A0NG"][3][1] = "*사나에가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 5개까지 쌓이며, 기적 하나당 사나에의 스펠 데미지가 6%씩 상승합니다.\r\
+		t["A0NG"][3][1] = "*Sa Nae가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 5개까지 쌓이며, 기적 하나당 Sa Nae의 스펠 데미지가 6%씩 상승합니다.\r\
 *|c00FF80FF[활력]|r - 10 seconds\r\
-사나에가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. 자신 주변 800범위 적에게 [125,000~375,000] 사이의 |c00379BFF Magical Damage|r를 입히고, 3초의 스턴 효과를 입힙니다. 기적 스택당 0.4초간 추가로 스턴시킵니다.\r\
+Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. 자신 주변 800범위 적에게 [125,000~375,000] 사이의 |c00379BFF Magical Damage|r를 입히고, 3초의 스턴 효과를 입힙니다. 기적 스택당 0.4초간 추가로 스턴시킵니다.\r\
 *활력 효과 발동시 기적 스택이 모두 초기화됩니다.";
 -- anam
 -- aart
@@ -23719,14 +23719,14 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aub1 3
 -- aub1 4
 -- aub1 5
-		t["A0NG"][30][1] = "*사나에가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 5개까지 쌓이며, 기적 하나당 사나에의 스펠 데미지가 6%씩 상승합니다.\r\
+		t["A0NG"][30][1] = "*Sa Nae가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 5개까지 쌓이며, 기적 하나당 Sa Nae의 스펠 데미지가 6%씩 상승합니다.\r\
 *|c00FF80FF[활력]|r - 10 seconds\r\
-사나에가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. 자신 주변 800범위 적에게 [125,000~375,000] 사이의  Magical Damage를 입히고, 기적 스택당 0.4초간 기절시킵니다.\r\
+Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. 자신 주변 800범위 적에게 [125,000~375,000] 사이의  Magical Damage를 입히고, 기적 스택당 0.4초간 기절시킵니다.\r\
 *활력 효과 발동시 기적 스택이 모두 초기화됩니다.";
 -- aub1 6
-		t["A0NG"][31][1] = "*사나에가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 10개까지 쌓이며, 기적 하나당 사나에의 스펠 데미지가 3%씩 상승합니다.\r\
+		t["A0NG"][31][1] = "*Sa Nae가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 10개까지 쌓이며, 기적 하나당 Sa Nae의 스펠 데미지가 3%씩 상승합니다.\r\
 *|c00FF80FF[활력]|r - 12초\r\
-사나에가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. 자신 주변 800범위 적에게 [125,000~375,000] 사이의  Magical Damage를 입히고, 기적 스택당 0.2초간 기절시킵니다.\r\
+Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. 자신 주변 800범위 적에게 [125,000~375,000] 사이의  Magical Damage를 입히고, 기적 스택당 0.2초간 기절시킵니다.\r\
 *활력 효과 발동시 기적 스택이 모두 초기화됩니다.";
 -- aub1 7
 -- aub1 8
@@ -23777,13 +23777,13 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0NH"][4][1] = "|c00FEE952[Unit Information]|r - Suika Ibuki[Chronicle]";
 -- aub1 1
-		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] +  Tokiko[Epic] + Yakumo Ran[Epic] + 2 Unique Souls \r\
+		t["A0NH"][5][1] = "|c00A8F13A[Combination]|r: Hisoutensoku[Epic] +  Tokiko[Epic] + Ran Yakumo[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
 [Movement Speed]: 450\r\
 |c00F8BA54[Upgrade]|r : Suika Ibuki Upgrade\r\
 |c00C5EA53[Combination Synergy]|r어쩌다보니 합석\r\
--비루코[Special]를 보유하고 있을 경우, 귀부『미싱 파워』의 평타 데미지 증가 효과가 25,000에서 35,000으로 증가합니다.";
+-Beer Child[Special]를 보유하고 있을 경우, 귀부『미싱 파워』의 평타 데미지 증가 효과가 25,000에서 35,000으로 증가합니다.";
 -- atp1 2
 -- atp1 3
 		t["A0NH"][7][1] = "『묵화』-『신검합일 상승경지』";
@@ -24283,24 +24283,24 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- arac
 -- anam
 -- atp1 1
-		t["A0O5"][3][1] = "|c00FEE952[Unit Information]|r - Sukuna Shinmyoumaru[Legendary]";
+		t["A0O5"][3][1] = "|c00FEE952[Unit Information]|r - Shinmyoumaru Sukuna[Legendary]";
 -- aub1 1
-		t["A0O5"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Rumia EX[Unique] + Unique Soul\r\
+		t["A0O5"][4][1] = "|c00A8F13A[Combination]|r: Shinmyoumaru Sukuna[Epic] + Rumia EX[Unique] + Unique Soul\r\
 \r\
 [Attack Speed]: 0.35 Cooldown\r\
 [Movement Speed]: 420[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[Combination Synergy]|r뒤집어진 소인 공주님\r\
--플레이어가 Kijin Seija[Chronicle]을 보유하고 있을 경우, 이 Units의 스킬 데미지가  Magical Damage로 적용됩니다.";
+-플레이어가 Seija Kijin[Chronicle]을 보유하고 있을 경우, 이 Units의 스킬 데미지가  Magical Damage로 적용됩니다.";
 -- aart
 		t["A0O5"][5][1] = "Icon\\Unit\\BTNShinmyou_Leg.blp";
 -- [A0O6]
 -- arac
 -- aart
 -- aub1 1
-		t["A0O6"][5][1] = "Sukuna Shinmyoumaru[Epic] + Rumia EX[Unique] + Unique Soul 1개";
+		t["A0O6"][5][1] = "Shinmyoumaru Sukuna[Epic] + Rumia EX[Unique] + 1 Unique Soul";
 -- atp1 1
-		t["A0O6"][6][1] = "|c00ffff00스쿠나 신묘마루[Legendary]|r Combination|c00FF8040[F]|r";
+		t["A0O6"][6][1] = "|c00ffff00Shinmyoumaru Sukuna[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0O6"][8][1] = "hgry,h01H,h05U";
@@ -24422,10 +24422,10 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- aart
 -- anam
 -- atp1 1
-		t["A0OF"][5][1] = "|c00ffff00헤카티아 라피스라줄리|r Combination|c00FF8040[F]|r";
+		t["A0OF"][5][1] = "|c00ffff00Hecatia Lapislazuli|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0OF"][7][1] = "Iku Nagae + Sa Nae + Kamishirasawa Keine";
+		t["A0OF"][7][1] = "Iku Nagae + Sa Nae + Keine Kamishirasawa";
 -- ahky
 -- alig
 -- atat
@@ -25562,8 +25562,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0OS"][2][1] = "봉부『비지 로드』";
 -- aub1 1
-		t["A0OS"][3][1] = "*나즈린 주변 700범위 적의 방어력을 18 감소시킵니다.\r\
-*나즈린이 공격시 40% 확률로 55,000의 |c00FF6464 Physical Damage|r를 추가로 입히고, 2.4초간 스턴시킵니다.\r\
+		t["A0OS"][3][1] = "*Nazrin 주변 700범위 적의 방어력을 18 감소시킵니다.\r\
+*Nazrin이 공격시 40% 확률로 55,000의 |c00FF6464 Physical Damage|r를 추가로 입히고, 2.4초간 스턴시킵니다.\r\
 [보스의 경우 전체 체력의 0.25%에 해당하는 |c00AC59FF True Damage|r가 추가됩니다. 50라운드 이후에는 적용되지 않습니다.]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 수부『펜듈럼 가드』\r\
@@ -25571,7 +25571,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 *평타 공격시 300범위에 100% 범위 데미지를 입힙니다.\r\
 *공격시 15% 확률로 펜듈럼을 공명시켜 주변 600범위 적에게 45,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
-		t["A0OS"][4][1] = "[Arcana][나즈린]";
+		t["A0OS"][4][1] = "[Arcana][Nazrin]";
 -- aart
 -- atp1 2
 		t["A0OS"][7][1] = "역전『체인지 에어 브레이브』";
@@ -26663,7 +26663,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0P6"][4][1] = "|c00ffff00Matara Okino|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P6"][5][1] = "Teireida Mai[Epic] + Doremy Sweet[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
+		t["A0P6"][5][1] = "Mai Teireida[Epic] + Doremy Sweet[Epic] + Nishida Satono[Epic] + 2 Unique Souls ";
 -- acat
 		t["A0P6"][6][1] = "nhym,uobs,ufro,h05U,ehip";
 -- acap
@@ -26745,7 +26745,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0P9"][5][1] = "|c00ffff00Doremy Sweet|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0P9"][6][1] = "이터니티 라바 + Soga no Tojiko + Yatadera Narumi = Doremy Sweet";
+		t["A0P9"][6][1] = "Eternity Larva + Soga no Tojiko + Narumi Yatadera = Doremy Sweet";
 -- ahky
 -- acat
 		t["A0P9"][8][1] = "hbew,h042,nbel";
@@ -26971,9 +26971,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- aart
 -- aub1 1
-		t["A0PE"][5][1] = "Koishi Komeiji[Epic] + Murasa 미나미츠[Epic] + Izayoi Sakuya[Special Stopwatch] + Fragment of Ancients and Fantasy = 유메코";
+		t["A0PE"][5][1] = "Koishi Komeiji[Epic] + Minamitsu Murasa[Epic] + Sakuya Izayoi[Special Stopwatch] + Fragment of Ancients and Fantasy = Yumeko";
 -- atp1 1
-		t["A0PE"][6][1] = "|c00ffff00유메코|r Combination|c00FF8040[F]|r";
+		t["A0PE"][6][1] = "|c00ffff00Yumeko|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0PE"][8][1] = "h01N,h03N,e03C,h03A";
@@ -27192,9 +27192,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- aart
 -- aub1 1
-		t["A0PM"][5][1] = "Kagiyama Hina[액신] + Ghost Orchestra[Phantom Ensemble] + Sho Toramaru우[Epic] + 2 Unique Souls ";
+		t["A0PM"][5][1] = "Hina Kagiyama[액신] + Ghost Orchestra[Phantom Ensemble] + Shou Toramaru[Epic] + 2 Unique Souls ";
 -- atp1 1
-		t["A0PM"][6][1] = "|c00ffff00요리가미 죠온/시온|r Combination|c00FF8040[D]|r";
+		t["A0PM"][6][1] = "|c00ffff00Joon/Shion Yorigami|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0PM"][8][1] = "nanm,h03B,h021,h05U,ehip";
@@ -27373,8 +27373,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["S00Q"][3][1] = "대기적『야사카의 신풍』";
 -- aub1 1
-		t["S00Q"][4][1] = "*사나에 주변 800범위 아군의 Attack Speed를 12% 증가시킵니다.\r\
-*사나에가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 자신 주변에 신의 바람을 재현해냅니다. 자신 주변 1500범위 적에게 8 seconds 동안 매 2초마다 1.5 seconds의 스턴을 입히고, Current Health의 1% + 전체 체력의 0.5% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["S00Q"][4][1] = "*Sa Nae 주변 800범위 아군의 Attack Speed를 12% 증가시킵니다.\r\
+*Sa Nae가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 자신 주변에 신의 바람을 재현해냅니다. 자신 주변 1500범위 적에게 8 seconds 동안 매 2초마다 1.5 seconds의 스턴을 입히고, Current Health의 1% + 전체 체력의 0.5% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
 *|c00C5EA53[Combination Synergy]|r미라클 프로그\r\
 -Suwako Moriya[Chronicle]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
 -- anam
@@ -27626,7 +27626,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0Q2"][5][1] = "Doremy Sweet[Epic] + Namazu[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy = ";
 -- atp1 1
-		t["A0Q2"][6][1] = "|c00ffff00|r Combination|c00FF8040[F]|r";
+		t["A0Q2"][6][1] = "|c00ffff00Rikako Asakura|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0Q2"][8][1] = "uobs,h00S,h01J,e03C";
@@ -29454,7 +29454,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A03B"][36][1] = "*유메코가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
+		t["A03B"][36][1] = "*Yumeko가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
 *『체인 리액션』: 대상 적 Units의 전체 체력의 0.3% + 80,000의  Magical Damage를 대상 주변 450범위 내에 있는 적에게 입힙니다. 보스에게는 데미지를 입히지 않습니다.";
 -- aub1 3
 -- aub1 4
@@ -29490,7 +29490,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A03K"][2][1] = "|c00FEE952[Unit Information]|r - Kurumi[Historic]";
 -- aub1 1
-		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Teireida Mai[Epic] + Remilia Scarlet[Epic] + Fragment of Ancients and Fantasy\r\
+		t["A03K"][3][1] = "|c00A8F13A[Combination]|r: Cirno[Minus K] + Mai Teireida[Epic] + Remilia Scarlet[Epic] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.43 Cooldown\r\
 [Movement Speed]: 350\r\
@@ -30586,7 +30586,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A08D"][7][1] = "Kijin Seija[Epic] + Wriggle Nightbug[Epic] + Sho Toramaru우[Epic] + 2 Unique Souls  = Kijin Seija[Chronicle]";
+		t["A08D"][7][1] = "Seija Kijin[Epic] + Wriggle Nightbug[Epic] + Shou Toramaru[Epic] + 2 Unique Souls  = Seija Kijin[Chronicle]";
 -- ahky
 -- atat
 		t["A08D"][11][1] = "nlrv";
@@ -30726,7 +30726,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0BC"][6][1] = "*주변 800범위 적의 방어력을 45 감소시킵니다.\r\
 |c009292C9밤 보너스|r : 방어력 감소 효과가 45에서 60으로 증가합니다.\r\
 *|c00C5EA53[Combination Synergy]|r영원한 밤의 환상향\r\
--야고코로 에이린[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
+-Eirin Yagokoro[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
 -- atat
 -- abuf 1
 		t["A0BC"][8][1] = "B033";
@@ -30737,7 +30737,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0BC"][11][1] = "*주변 800범위 적의 방어력을 60 감소시킵니다.\r\
 |c009292C9밤 보너스|r : 방어력 감소 효과가 45에서 60으로 증가합니다.\r\
 *|c00C5EA53[Combination Synergy]|r영원한 밤의 환상향\r\
--야고코로 에이린[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
+-Eirin Yagokoro[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
 -- abuf 2
 -- [A0BS]
 -- anam
@@ -30787,7 +30787,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0CI"][5][1] = "|c00ffff00Wriggle Nightbug|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0CI"][6][1] = "Yuyuko Saigyouji[Unique] + Sa Nae[Unique] + 이터니티 라바[Unique]";
+		t["A0CI"][6][1] = "Yuyuko Saigyouji[Unique] + Sa Nae[Unique] + Eternity Larva[Unique]";
 -- ahky
 -- acat
 		t["A0CI"][8][1] = "h01A,h01F,nbel";
@@ -31329,7 +31329,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- acat
 		t["A0HT"][5][1] = "h039,h00J,hlum";
 -- aub1 1
-		t["A0HT"][6][1] = "테레이다 마이[Epic]  + Sunny Milk[Rare] + Arcanist's Book[Arcana]";
+		t["A0HT"][6][1] = "Mai Teireida[Epic]  + Sunny Milk[Rare] + Arcanist's Book[Arcana]";
 -- atp1 2
 -- atp1 3
 -- atp1 4
@@ -32280,7 +32280,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- anam
 -- atat
 -- aart
@@ -32331,7 +32331,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 3
 		t["A0L2"][34][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 1.5 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32344,7 +32344,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 4
 		t["A0L2"][35][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 2 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32357,7 +32357,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 5
 		t["A0L2"][36][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 2.5 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32370,7 +32370,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 6
 		t["A0L2"][37][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 3 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32383,7 +32383,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 7
 		t["A0L2"][38][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 3.5 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32396,7 +32396,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- aub1 8
 		t["A0L2"][39][1] = "*아큐가 자신을 포함하여 주변 아군의 마나를 초당 4 회복합니다.\r\
 *아큐는 기본적으로 마나를 초당 2.5씩 회복합니다.\r\
@@ -32408,7 +32408,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 \r\
 *아큐가 단명에 저항하기 위해 장수의 여신인 이와나가히메에게 제사를 올립니다. 제사의 효과가 플레이어게도 적용됩니다.\r\
 *아큐를 소유한 플레이어는 게임 오버 카운트가 20% 증가합니다. 소수점은 버립니다.\r\
-[야고코로 에이린[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
+[Eirin Yagokoro[Chronicle]을 소유할 경우, 에이린의 효과를 받기 전의 게임 오버 카운트의 20%가 증가합니다. 역도 동일]";
 -- [A0LL]
 -- anam
 		t["A0LL"][1][1] = "[엘룬]아큐 증폭[25%]";
@@ -32507,7 +32507,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0MY"][3][1] = "|c00FEE952[Unit Information]|r - Saki Kurokama[Legendary]";
 -- aub1 1
-		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Imaizumi Kagerou[Unique] + Kamishirasawa Keine EX[Epic] +  Unique Soul\r\
+		t["A0MY"][4][1] = "|c00A8F13A[Combination]|r: Kagerou Imaizumi[Unique] + Keine Kamishirasawa EX[Epic] +  Unique Soul\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 522[Air movement]\r\
@@ -32518,7 +32518,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0N5"][4][1] = "|c00ffff00Saki Kurokama[Legendary]|r Combination|c00FF8040[F]|r";
 -- aub1 1
-		t["A0N5"][5][1] = "Imaizumi Kagerou[Unique] + 카미사라사와 케이네 EX[Epic] + Unique Soul 1개";
+		t["A0N5"][5][1] = "Kagerou Imaizumi[Unique] + 카미사라사와 케이네 EX[Epic] + 1 Unique Soul";
 -- anam
 -- arac
 -- aart
@@ -33002,7 +33002,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- arac
 -- aart
 -- aub1 1
-		t["A0QV"][5][1] = "Izayoi Sakuya[Unique] + Sho Toramaru[Epic] + Maribel Hearn[Epic] + Fragment of Ancients and Fantasy = Mugetsu";
+		t["A0QV"][5][1] = "Sakuya Izayoi[Unique] + Shou Toramaru[Epic] + Maribel Hearn[Epic] + Fragment of Ancients and Fantasy = Mugetsu";
 -- atp1 1
 		t["A0QV"][6][1] = "|c00ffff00Mugetsu|r Combination|c00FF8040[D]|r";
 -- anam
@@ -33019,7 +33019,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A03O"][3][1] = "|c00FEE952[Unit Information]|r - Kishin Sagume[Phantasm]";
 -- aub1 1
-		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Kijin Seija[Epic] + Kishin Sagume[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A03O"][4][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Seija Kijin[Epic] + Kishin Sagume[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 환상향 침공의 주범(sagume phan)\r\
 \r\
 [Attack Speed]: 0.49 Cooldown\r\
@@ -33054,7 +33054,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A03U"][3][1] = "|c00FEE952[Unit Information]|r - Momiji Inubashiri[Arcana]";
 -- aub1 1
-		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: Sukuna Shinmyoumaru[Epic] + Aya Shameimaru[Epic] + Hatate Himekaidou[Unique] + Momiji Inubashiri[Rare] + Mitori Kawashiro[Special] + White Wolf Tengu's Soul + Arcanist's Book\r\
+		t["A03U"][4][1] = "|c00A8F13A[Combination]|r: Shinmyoumaru Sukuna[Epic] + Aya Shameimaru[Epic] + Hatate Himekaidou[Unique] + Momiji Inubashiri[Rare] + Mitori Kawashiro[Special] + White Wolf Tengu's Soul + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 완료형 변체도(momiji arc)\r\
 \r\
 [Attack Speed]: 0.25 Cooldown\r\
@@ -33084,9 +33084,9 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- arac
 -- anam
 -- atp1 1
-		t["A0HH"][4][1] = "|c00FEE952[Unit Information]|r - 모토오리 코스즈[Arcana]";
+		t["A0HH"][4][1] = "|c00FEE952[Unit Information]|r - Kosuzu Mootori[Arcana]";
 -- aub1 1
-		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: Hieda no Akyuu[Epic] + Kamishirasawa Keine[Unique] + Arcanist's Book\r\
+		t["A0HH"][5][1] = "|c00A8F13A[Combination]|r: Hieda no Akyuu[Epic] + Keine Kamishirasawa[Unique] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 스즈나안의 영광(kosuzu arc)\r\
 \r\
 [Attack Speed]: 0.22 Cooldown\r\
@@ -33100,7 +33100,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0HI"][4][1] = "|c00FEE952[Unit Information]|r - Watatsuki no Toyohime[Arcana]";
 -- aub1 1
-		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: Teireida Mai[Epic] + Watatsuki no Toyohime[Special] + Arcanist's Book\r\
+		t["A0HI"][5][1] = "|c00A8F13A[Combination]|r: Mai Teireida[Epic] + Watatsuki no Toyohime[Special] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 달의 선견자(toyohime arc)\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
@@ -33143,7 +33143,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0HS"][4][1] = "|c00FEE952[Unit Information]|r - Shikieiki Yamaxanadu[Arcana]";
 -- aub1 1
-		t["A0HS"][5][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Sho Toramaru[Epic] + Unique Soul * 2 + Arcanist's Book\r\
+		t["A0HS"][5][1] = "|c00A8F13A[Combination]|r: Shikieiki Yamaxanadu[Epic] + Shou Toramaru[Epic] + Unique Soul * 2 + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 고마우신 말씀(shiki arc)\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
@@ -33156,7 +33156,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0I3"][4][1] = "|c00FEE952[Unit Information]|r - Hong Meiling[Arcana]";
 -- aub1 1
-		t["A0I3"][5][1] = "|c00A8F13A[Combination]|r: Hoshiguma Yuugi[Unique] + Imaizumi Kagerou[Unique] + Hong Meiling[Rare] + Arcanist's Book\r\
+		t["A0I3"][5][1] = "|c00A8F13A[Combination]|r: Yuugi Hoshiguma[Unique] + Kagerou Imaizumi[Unique] + Hong Meiling[Rare] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 잠꾸러기 문지기(meiling arc)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
@@ -33638,7 +33638,7 @@ nhym,h02Q,hlum,e03C";
 -- atp1 1
 		t["S00V"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Chronicle]";
 -- aub1 1
-		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Unique] + Yakumo Ran[Epic] + Nue Houjuu[Epic] + Unique Soul 5개\r\
+		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Unique] + Ran Yakumo[Epic] + Nue Houjuu[Epic] + 5 Unique Souls\r\
 \r\
 [Attack Speed]: 0.46 Cooldown\r\
 [Movement Speed]: 522[Air movement]\r\
@@ -33707,7 +33707,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A0R1"][7][1] = "Hakurei Reimu[Unique] + Yakumo Ran[Epic] + Nue Houjuu[Epic] + Unique Soul 5개";
+		t["A0R1"][7][1] = "Hakurei Reimu[Unique] + Ran Yakumo[Epic] + Nue Houjuu[Epic] + 5 Unique Souls";
 -- ahky
 -- atat
 		t["A0R1"][11][1] = "nmgd";
@@ -34556,9 +34556,9 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 2
 -- [A0RL]
 -- atp1 1
-		t["A0RL"][1][1] = "|c00FEE952[Unit Information]|r - Yakumo Ran[Arcana]";
+		t["A0RL"][1][1] = "|c00FEE952[Unit Information]|r - Ran Yakumo[Arcana]";
 -- aub1 1
-		t["A0RL"][2][1] = "|c00A8F13A[Combination]|r: Yakumo Ran[Extended] + Chen[Unique] + Unknown[Unique] + Arcanist's Book\r\
+		t["A0RL"][2][1] = "|c00A8F13A[Combination]|r: Ran Yakumo[Extended] + Chen[Unique] + Unknown[Unique] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 책사 구미호(ran arc)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
@@ -34760,7 +34760,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- arac
 -- [A0QP]
 -- aub1 1
-		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + Futatsuiwa Mamizou[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A0QP"][1][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + Mamizou Futatsuiwa[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy\r\
 \r\
 [Attack Speed]: 0.36 Cooldown\r\
 [Movement Speed]: 450\r\
@@ -35492,7 +35492,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0RT"][3][1] = "＊1초마다 케이네 주변 700 범위의 자신을 제외한 아군 활력을 2% / 마력을 1% 회복시킵니다.\r\
 ＊|c00FF80FF[활력]|r - 45 seconds : 밤일 시 활력 회복, 대상 주변 600 범위의 적 역사를 편집하여 체력이 15% 이하인 적을 즉사시킵니다.\r\
-|c00ff2222[!]제한|r : 보스는 적용되지 않습니다. Kamishirasawa Keine EX는 다른 활력 회복을 받지 않습니다.";
+|c00ff2222[!]제한|r : 보스는 적용되지 않습니다. Keine Kamishirasawa EX는 다른 활력 회복을 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 3
@@ -36284,7 +36284,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0R6"][4][1] = "|c00FEE952[Unit Information]|r - Tewi Inaba[Phantasm]";
 -- aub1 1
-		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: Houraisan Kaguya[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + Fragment of Ancients and Fantasy\r\
+		t["A0R6"][5][1] = "|c00A8F13A[Combination]|r: Kaguya Houraisan[Epic] + Clownpiece[Epic] + Tewi Inaba[Rare] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 에인션트 듀퍼(tewi phan)\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
@@ -36671,7 +36671,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0SC"][1][1] = "|c00FEE952[Unit Information]|r - Ichirin Kumoi[Phantasm]";
 -- aub1 1
-		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Epic] + Houraisan Kaguya[Epic] + Ichirin Kumoi[Unique] + Fragment of Ancients and Fantasy\r\
+		t["A0SC"][2][1] = "|c00A8F13A[Combination]|r: Yuyuko Saigyouji[Epic] + Kaguya Houraisan[Epic] + Ichirin Kumoi[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 구름 승려(ichirin phan)\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
@@ -37696,7 +37696,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 30
 -- aub1 31
 -- aub1 1
-		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: Kagiyama Hina[Epic] + Ghost Orchestra[Phantom Ensemble][Epic] + Sho Toramaru우[Epic] + 2 Unique Souls \r\
+		t["A0K6"][64][1] = "|c00A8F13A[Combination]|r: Hina Kagiyama[Epic] + Ghost Orchestra[Phantom Ensemble][Epic] + Shou Toramaru[Epic] + 2 Unique Souls \r\
 \r\
 [Attack Speed]: 0.50 Cooldown\r\
 [Movement Speed]: 350[Air movement]\r\
@@ -38680,7 +38680,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- arac
 -- [A0T2]
 -- atp1 1
-		t["A0T2"][1][1] = "|c00FEE952[Unit Information]|r - 하쿠레이 선대무녀[Ascended]";
+		t["A0T2"][1][1] = "|c00FEE952[Unit Information]|r - Previous Hakurei Miko[Ascended]";
 -- anam
 -- aart
 		t["A0T2"][3][1] = "Icon\\Unit\\BTNSendai_Asc.blp";
@@ -38826,7 +38826,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- arac
 -- [A0T4]
 -- atp1 1
-		t["A0T4"][1][1] = "|c00FEE952[Unit Information]|r - Murasa 미나미츠[Ascended]";
+		t["A0T4"][1][1] = "|c00FEE952[Unit Information]|r - Minamitsu Murasa[Ascended]";
 -- anam
 -- aart
 		t["A0T4"][3][1] = "Icon\\Unit\\BTNMurasa_Asc.blp";
@@ -38899,7 +38899,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- arac
 -- [A0T5]
 -- atp1 1
-		t["A0T5"][1][1] = "|c00FEE952[Unit Information]|r - Izayoi Sakuya[Ascended]";
+		t["A0T5"][1][1] = "|c00FEE952[Unit Information]|r - Sakuya Izayoi[Ascended]";
 -- anam
 -- aart
 		t["A0T5"][3][1] = "Icon\\Unit\\BTNSakuya_Req.blp";
@@ -38976,7 +38976,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0T6"][3][1] = "|c00FEE952[Unit Information]|r - Medicine Melancholy[Legendary]";
 -- aub1 1
-		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Kagiyama Hina[Unique] + Unique Soul\r\
+		t["A0T6"][4][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Hina Kagiyama[Unique] + Unique Soul\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 350[Air movement]\r\
@@ -39118,7 +39118,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0TI"][5][1] = "|c00ffff00Medicine Melancholy[Legendary]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0TI"][6][1] = "Medicine Melancholy[Epic] +  Kagiyama Hina[Unique] + Unique Soul";
+		t["A0TI"][6][1] = "Medicine Melancholy[Epic] +  Hina Kagiyama[Unique] + Unique Soul";
 -- ahky
 -- acat
 		t["A0TI"][8][1] = "h039,h02N,h05U";
@@ -39923,7 +39923,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aart
 -- [A0UE]
 -- atp1 1
-		t["A0UE"][1][1] = "|c00FEE952[Unit Information]|r - 카이바 세토[Requiem]";
+		t["A0UE"][1][1] = "|c00FEE952[Unit Information]|r - Kaiba Seto[Requiem]";
 -- anam
 		t["A0UE"][2][1] = "[Requiem_Unit Information]";
 -- aart
@@ -40170,7 +40170,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UT]
 -- arac
 -- aub1 1
-		t["A0UT"][2][1] = "|c00A8F13A[Combination]|r: Namazu[Epic] + Yatadera Narumi[Unique] + Arcanist's Book\r\
+		t["A0UT"][2][1] = "|c00A8F13A[Combination]|r: Namazu[Epic] + Narumi Yatadera[Unique] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 죄업의 소(urumi arc)\r\
 \r\
 [Attack Speed]: 0.33 Cooldown\r\
