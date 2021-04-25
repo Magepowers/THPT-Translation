@@ -809,7 +809,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 -- atp1 1
 		t["ACct"][3][1] = "『소립자 분해 부채』";
 -- aub1 1
-		t["ACct"][4][1] = "＊공격 시 35% 확률로 공격력의 1.8배의 |c00379BFF치명타 피해|r를 가합니다.\r\
+		t["ACct"][4][1] = "＊공격 시 35% 확률로 공격력의 1.8배의 |c00379BFFCritical Damage|r를 가합니다.\r\
 ＊공격 시 5% 확률로 대상에게 Current Health의 9%의 |c00379BFFMagic Damage|r를 가하고 적의 체력이 20% 이하라면, 즉사시킵니다.";
 -- aart
 		t["ACct"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNTornado.blp";
@@ -11396,7 +11396,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aart
 		t["A0BH"][4][1] = "Icon\\Unit\\BTNLily_Uniq.blp";
 -- atp1 1
-		t["A0BH"][5][1] = "|c00ffff00릴리 블랙|r Combination|c00FF8040[D]|r";
+		t["A0BH"][5][1] = "|c00ffff00Lily Black|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0BH"][6][1] = "Lily White + Cirno + Kasodani Kyouko";
 -- ahky
@@ -11573,7 +11573,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A00H"][5][1] = "『수확』";
 -- aub1 1
-		t["A00H"][6][1] = "＊공격 시 35% 확률로 공격력의 2.25배 + 150|c00FF6464치명타 피해|r를 가한다.";
+		t["A00H"][6][1] = "＊공격 시 35% 확률로 공격력의 2.25배 + 150|c00FF6464Critical Damage|r를 가한다.";
 -- atp1 2
 		t["A00H"][7][1] = "『수확』Extra";
 -- aub1 2
@@ -11661,7 +11661,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- arac
 -- atar 1
 -- atp1 1
-		t["A0BZ"][4][1] = "흑화『릴리 블랙』- 잔존 Fairy 3마리";
+		t["A0BZ"][4][1] = "흑화『Lily Black』- 잔존 Fairy 3마리";
 -- aub1 1
 		t["A0BZ"][5][1] = "＊Around yourself 650 범위의 적 Movement Speed를 6% 감소시킨다.\r\
 ＊공격 시 10% 확률로 Around yourself 650 범위의 적에게 4,0005천의 |c00379BFFMagic Damage|r를 가한다. 이 효과로 적을 죽이면 마력 1 회복한다.\r\
@@ -11676,11 +11676,11 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- abuf 3
 -- abuf 4
 -- atp1 2
-		t["A0BZ"][14][1] = "흑화『릴리 블랙』- 잔존 Fairy 2마리";
+		t["A0BZ"][14][1] = "흑화『Lily Black』- 잔존 Fairy 2마리";
 -- atp1 3
-		t["A0BZ"][15][1] = "흑화『릴리 블랙』- 잔존 Fairy 1마리";
+		t["A0BZ"][15][1] = "흑화『Lily Black』- 잔존 Fairy 1마리";
 -- atp1 4
-		t["A0BZ"][16][1] = "흑화『릴리 블랙』- 잔존 Fairy 0마리";
+		t["A0BZ"][16][1] = "흑화『Lily Black』- 잔존 Fairy 0마리";
 -- aub1 2
 -- aub1 3
 -- aub1 4
@@ -11735,7 +11735,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 31
 		t["A0C0"][35][1] = "흐콰하였습니다. 매 공격시 50%확률로 대상의 선을 그어 6배의 데미지를 입히며, 『흑화』능력과 『멀티 샷』능력을 얻습니다.";
 -- atp1 2
-		t["A0C0"][36][1] = "흑화『릴리 블랙』";
+		t["A0C0"][36][1] = "흑화『Lily Black』";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -12890,9 +12890,9 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- anam
 -- arac
 -- atp1 1
-		t["A09O"][3][1] = "봄이에요~";
+		t["A09O"][3][1] = "It's spring!~";
 -- aub1 1
-		t["A09O"][4][1] = "＊공격 시 공격력의 1.15배 + 200|c00FF6464치명타 피해|r를 가한다.";
+		t["A09O"][4][1] = "＊On attack deal 1.15x Attack + 200|c00FF6464Critical Damage|r.";
 -- aart
 		t["A09O"][5][1] = "BTN\\BTNLily.blp";
 -- atar 1
@@ -20542,7 +20542,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A0GV"][2][1] = "『파도의 인도자』";
 -- aub1 1
-		t["A0GV"][3][1] = "＊|c00FF80FF[활력]|r - 4초 : 자신이 들고 있는 닻에 파도의 기운을 담아 적을 내려칩니다. 대상의 방어력을 5000 감소시킨 후(보스 제외), 공격력의 15~30배 치명타 피해를 가합니다. 또한, 그 피해를 주변 500범위에 |c00AC59FF절대 피해|r로 가합니다.";
+		t["A0GV"][3][1] = "＊|c00FF80FF[활력]|r - 4초 : 자신이 들고 있는 닻에 파도의 기운을 담아 적을 내려칩니다. 대상의 방어력을 5000 감소시킨 후(보스 제외), 공격력의 15~30배 Critical Damage를 가합니다. 또한, 그 피해를 주변 500범위에 |c00AC59FF절대 피해|r로 가합니다.";
 -- aart
 		t["A0GV"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNFrostMourne.blp";
 -- atp1 17
