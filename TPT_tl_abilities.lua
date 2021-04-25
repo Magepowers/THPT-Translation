@@ -19830,13 +19830,13 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 -- [A068]
 -- arac
 -- atp1 1
-		t["A068"][2][1] = "관령『히노 Phantasm』";
+		t["A068"][2][1] = "Trumpet Spirit 『Hino Phantasm』";
 -- anam
 		t["A068"][3][1] = "[Rare]메를랑_R";
 -- aub1 1
-		t["A068"][4][1] = "Condition : 공격 시 15%\r\
+		t["A068"][4][1] = "Condition : 15% on attack\r\
 Range : Around yourself 500\r\
-|c00FF6464Physical Damage|r : 3천";
+|c00FF6464Physical Damage|r : 3000";
 -- aart
 -- [A000]
 -- arac
