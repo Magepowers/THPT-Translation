@@ -389,7 +389,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 		t["ACev"][3][1] = "휘침『오니 죽이는 두 눈 찌르기 바늘』";
 -- aub1 1
 		t["ACev"][4][1] = "＊공격당한 적의 체력이 80% 이상이고 보스라면, 체력을 80%로 만듭니다.\r\
-＊공격 시 25% 확률로 바늘로 대상의 두 눈을 찔러 Current Health 10%(보스 1.5%)의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 25% 확률로 바늘로 대상의 두 눈을 찔러 Current Health 10%(보스 1.5%)의 |c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.";
 -- aart
 		t["ACev"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNQuillSprayOff.blp";
 -- atp1 2
@@ -408,7 +408,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 		t["ACav"][5][1] = "역부『천지유용』";
 -- aub1 1
 		t["ACav"][6][1] = "＊Around yourself 600 범위의 적 방어력을 24 감소시킵니다.\r\
-＊공격 시 10% 확률로 하늘과 땅을 뒤집어 엎어 대상 주변 450 범위의 적에게 55,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+＊공격 시 10% 확률로 하늘과 땅을 뒤집어 엎어 대상 주변 450 범위의 적에게 55,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- abuf 1
 		t["ACav"][8][1] = "BUav";
 -- atp1 2
@@ -822,7 +822,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 		t["AUau"][4][1] = "분노『공전절후 큰 꾸짖음』";
 -- aub1 1
 		t["AUau"][5][1] = "*|c00FF80FF[활력]|r - 10 seconds\r\
-운잔이 나타나 적을 향해 사자후를 내지릅니다. 주변 1000범위 내의 적에게 Maximum Health 2% + 450,000|c00FF6464물리 피해|r를 입힙니다.\r\
+운잔이 나타나 적을 향해 사자후를 내지릅니다. 주변 1000범위 내의 적에게 Maximum Health 2% + 450,000|c00FF6464Physical Damage|r를 입힙니다.\r\
 *위 효과가 발동할 때, 이치린 주변 1000범위 자신 소유 Units의 활력을 30% 회복시킵니다.\r\
 [이치린 자신과 활력 회복 효과를 받지 않는 Units에게는 적용되지 않습니다.]";
 -- atar 1
@@ -4062,7 +4062,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A028"][2][1] = "마부『아티풀 세크리파이스』";
 -- aub1 1
-		t["A028"][3][1] = "＊공격 시 15% 확률로 대상 주변 500 범위의 적에게 3천의 |c00FF6464물리 피해|r를 가한다.";
+		t["A028"][3][1] = "＊공격 시 15% 확률로 대상 주변 500 범위의 적에게 3천의 |c00FF6464Physical Damage|r를 가한다.";
 -- anam
 		t["A028"][4][1] = "[Rare]Alice_R";
 -- aart
@@ -4102,7 +4102,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A02F"][2][1] = "화부『파산포』";
 -- aub1 1
-		t["A02F"][3][1] = "＊공격 시 12.5% 확률로 주먹을 내질러 대상 주변 450 범위의 적에게 2천의 |c00FF6464물리 피해|r를 가하고 0.3초간 기절시킨다.";
+		t["A02F"][3][1] = "＊공격 시 12.5% 확률로 주먹을 내질러 대상 주변 450 범위의 적에게 2천의 |c00FF6464Physical Damage|r를 가하고 0.3초간 기절시킨다.";
 -- anam
 		t["A02F"][4][1] = "[Rare]메이링_R";
 -- aart
@@ -4123,7 +4123,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A02L"][2][1] = "시부『프라이빗 스퀘어』";
 -- aub1 1
-		t["A02L"][3][1] = "＊공격 시 25% 확률로 나이프로 약점을 정확히 노려 8백의 |c00FF6464물리 피해|r 를 가하고 0.4초간 기절시킨다.";
+		t["A02L"][3][1] = "＊공격 시 25% 확률로 나이프로 약점을 정확히 노려 8백의 |c00FF6464Physical Damage|r 를 가하고 0.4초간 기절시킨다.";
 -- aart
 -- atar 1
 		t["A02L"][5][1] = "air,ground";
@@ -4132,7 +4132,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A02N"][2][1] = "주정『좀비 페어리』";
 -- aub1 1
-		t["A02N"][3][1] = "＊공격 시 15% 확률로 좀비 페어리에게 공격 명령을 내려 대상 주변 500 범위의 적에게 3천의 |c00FF6464물리 피해|r를 가한다.";
+		t["A02N"][3][1] = "＊공격 시 15% 확률로 좀비 페어리에게 공격 명령을 내려 대상 주변 500 범위의 적에게 3천의 |c00FF6464Physical Damage|r를 가한다.";
 -- anam
 		t["A02N"][4][1] = "[Rare]Orin_R";
 -- aart
@@ -4549,7 +4549,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- atp1 30
 -- aub1 1
-		t["A037"][96][1] = "＊공격 시 10% 확률로 대상에게 전체 체력 3%(보스와 미션은 1%)의 |c00FF6464물리 피해|r를 가한다. (40 라운드까지)";
+		t["A037"][96][1] = "＊공격 시 10% 확률로 대상에게 전체 체력 3%(보스와 미션은 1%)의 |c00FF6464Physical Damage|r를 가한다. (40 라운드까지)";
 -- aub1 2
 		t["A037"][97][1] = "주변 400범위 적 Units의 방어력을 25감소 시킵니다.";
 -- aub1 3
@@ -5358,7 +5358,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A042"][2][1] = "암부『디마케이션』";
 -- aub1 1
-		t["A042"][3][1] = "＊공격 시 20% 확률로 대상에게 6,0005천의 |c00FF6464물리 피해|r를 가한다.";
+		t["A042"][3][1] = "＊공격 시 20% 확률로 대상에게 6,0005천의 |c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
 -- [A046]
@@ -5795,7 +5795,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A04F"][2][1] = "박명『얼마 남지 않은 여생』";
 -- aub1 1
-		t["A04F"][3][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 1,0008천의 |c00FF6464물리 피해|r를 가하고 추가로 대상에게 Current Health 2%의 |c00FF6464물리 피해|r를 가한다.";
+		t["A04F"][3][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 1,0008천의 |c00FF6464Physical Damage|r를 가하고 추가로 대상에게 Current Health 2%의 |c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
 		t["A04F"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNTemp.blp";
@@ -6056,7 +6056,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A04N"][2][1] = "USH『궁극 가학Human』";
 -- aub1 1
 		t["A04N"][3][1] = "＊공격이 공격력 1배의 범위 피해를 가한다.\r\
-＊공격 시 50% 확률로 대상에게 3,0005천의 |c00FF6464물리 피해|r(기절한 대상은 6,0005천의 |c00AC59FF절대 피해|r)를 가한다.";
+＊공격 시 50% 확률로 대상에게 3,0005천의 |c00FF6464Physical Damage|r(기절한 대상은 6,0005천의 |c00AC59FF절대 피해|r)를 가한다.";
 -- anam
 -- aart
 		t["A04N"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGhost.blp";
@@ -8029,7 +8029,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A072"][2][1] = "귀신『비상비사문천』";
 -- aub1 1
-		t["A072"][3][1] = "＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 3,000|c00FF6464물리 피해|r를 가하고 5 seconds간 아군 공격력을 15% 증가시킨다.";
+		t["A072"][3][1] = "＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 3,000|c00FF6464Physical Damage|r를 가하고 5 seconds간 아군 공격력을 15% 증가시킨다.";
 -- anam
 -- aart
 		t["A072"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNRedDragonDevour.blp";
@@ -8435,7 +8435,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A086"][3][1] = "역업『오오에산 폭풍』";
 -- aub1 1
-		t["A086"][4][1] = "＊공격 시 20% 확률로 폭풍을 일으켜 Around yourself 550 범위의 적에게 3,000|c00FF6464물리 피해|r를 가하고 1.5 seconds간 Movement Speed를 25% 감소시킨다.";
+		t["A086"][4][1] = "＊공격 시 20% 확률로 폭풍을 일으켜 Around yourself 550 범위의 적에게 3,000|c00FF6464Physical Damage|r를 가하고 1.5 seconds간 Movement Speed를 25% 감소시킨다.";
 -- aart
 		t["A086"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp";
 -- atp1 2
@@ -8510,9 +8510,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- anam
 -- arac
 -- atp1 1
-		t["A088"][3][1] = "신현『스트라디바리우스』";
+		t["A088"][3][1] = "Divine Strings 『Stradivarius』";
 -- aub1 1
-		t["A088"][4][1] = "＊공격 시 20% 확률로 우울한 곡을 연주해 2천의 |c00FF6464물리 피해|r를 가한다.";
+		t["A088"][4][1] = "＊20% chance to deal 2000 |c00FF6464Physical Damage|r.";
 -- aart
 		t["A088"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNScepterOfMastery.blp";
 -- [A089]
@@ -8633,7 +8633,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 1
-		t["A08E"][34][1] = "＊공격 시 15% 확률로 대상 지점 350 범위의 적에게 4,0005천의 |c00FF6464물리 피해|r를 가하고 1초간 Movement Speed를 45% 감소시킨다.";
+		t["A08E"][34][1] = "＊공격 시 15% 확률로 대상 지점 350 범위의 적에게 4,0005천의 |c00FF6464Physical Damage|r를 가하고 1초간 Movement Speed를 45% 감소시킨다.";
 -- aub1 2
 		t["A08E"][35][1] = "30%확률로 적에게 Normal 공격의 3배에 해당하는 데미지를 줍니다.";
 -- aub1 3
@@ -9238,7 +9238,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A08Q"][2][1] = "재보『골드 러쉬』";
 -- aub1 1
-		t["A08Q"][3][1] = "＊공격 시 20% 확률로 대상 주변 240 범위의 적에게 2,000|c00FF6464물리 피해|r를 가하고, 공격당한 대상이 보스라면 추가로 Current Health 1.2%의 |c00FF6464물리 피해|r를 가한다.\r\
+		t["A08Q"][3][1] = "＊공격 시 20% 확률로 대상 주변 240 범위의 적에게 2,000|c00FF6464Physical Damage|r를 가하고, 공격당한 대상이 보스라면 추가로 Current Health 1.2%의 |c00FF6464Physical Damage|r를 가한다.\r\
 ＊|c002C62EA[Mana]|r - 25 : 공격 시 마력 1 회복, 15 골드를 획득한다.";
 -- anam
 -- aart
@@ -9371,7 +9371,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08R"][36][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000|c00FF6464물리 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
+		t["A08R"][36][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000|c00FF6464Physical Damage|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
 -- aub1 3
 		t["A08R"][37][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000|c00AC59FF절대 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
 -- aub1 4
@@ -10365,7 +10365,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A0A2"][2][1] = "전세『되돌아오는 이치죠 다리』";
 -- aub1 1
-		t["A0A2"][3][1] = "＊공격 시 20% 확률로 전체 체력 5%(보스 0.5%)의 피해를 가합니다. 체력이 50% 이상이라면 |c00FF6464물리 피해|r로, 체력이 50% 미만이라면 |c00AC59FF절대 피해|r로 가합니다.\r\
+		t["A0A2"][3][1] = "＊공격 시 20% 확률로 전체 체력 5%(보스 0.5%)의 피해를 가합니다. 체력이 50% 이상이라면 |c00FF6464Physical Damage|r로, 체력이 50% 미만이라면 |c00AC59FF절대 피해|r로 가합니다.\r\
 ＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 1 회복, Around yourself 600 범위의 아군의 마력을 10% 회복시킵니다.\r\
 |c00ff2222[!]제한|r : Keine Kamishirasawa EX는 다른 마력 회복을 받지 않습니다.";
 -- anam
@@ -11026,7 +11026,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A0AR]
 -- aub1 1
 		t["A0AR"][1][1] = "＊Namazu 주변 800 범위의 자신 소유 Units Attack Speed를 10% 증가시킵니다.\r\
-＊공격 시 12% 확률로 Around yourself 600 범위의 적에게 전체 체력 0.4% + 95,000|c00FF6464물리 피해|r를 가합니다.";
+＊공격 시 12% 확률로 Around yourself 600 범위의 적에게 전체 체력 0.4% + 95,000|c00FF6464Physical Damage|r를 가합니다.";
 -- atar 1
 		t["A0AR"][2][1] = "invulnerable,self,player";
 -- atp1 1
@@ -11047,7 +11047,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A0AT"][2][1] = "기술『이터널 미크』";
 -- aub1 1
-		t["A0AT"][3][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 4,0005천(기절한 대상은 6,000)의 |c00FF6464물리 피해|r를 가한다.";
+		t["A0AT"][3][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 4,0005천(기절한 대상은 6,000)의 |c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
 		t["A0AT"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp";
@@ -12756,7 +12756,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0DB"][2][1] = "『팔백팔 너구리 하야시』";
 -- aub1 1
-		t["A0DB"][3][1] = "＊공격 시 10% 확률로 Around yourself 650 범위의 적에게 95,000|c00FF6464물리 피해|r를 가합니다.\r\
+		t["A0DB"][3][1] = "＊공격 시 10% 확률로 Around yourself 650 범위의 적에게 95,000|c00FF6464Physical Damage|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 3 (20% 확률로 5)";
 -- aart
 		t["A0DB"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNRacoon.blp";
@@ -12800,7 +12800,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 		t["A0B2"][3][1] = "원안『천구의 사이코그래피』";
 -- aub1 1
 		t["A0B2"][4][1] = "＊공격 시 35% 확률로 대상에게 3,0005천의 |c00AC59FF절대 피해|r를 가한다.\r\
-＊공격 시 15% 확률로 공격당한 대상이 보스라면 Current Health 2%의 |c00FF6464물리 피해|r를, 보스가 아니라면 주변 350 범위에 3,0005천의 |c00FF6464물리 피해|r를 가한다.";
+＊공격 시 15% 확률로 공격당한 대상이 보스라면 Current Health 2%의 |c00FF6464Physical Damage|r를, 보스가 아니라면 주변 350 범위에 3,0005천의 |c00FF6464Physical Damage|r를 가한다.";
 -- aart
 		t["A0B2"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNWispHealOn.blp";
 -- aub1 2
@@ -15642,7 +15642,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 -- aart
 -- aub1 1
-		t["A0JU"][5][1] = "＊공격 시 50% 확률로 대상에게 큰 돌을 던져 공격력 3배의 물리 피해를 가하고 0.8 seconds간 기절시킨다.";
+		t["A0JU"][5][1] = "＊공격 시 50% 확률로 대상에게 큰 돌을 던져 공격력 3배의 Physical Damage를 가하고 0.8 seconds간 기절시킨다.";
 -- abuf 1
 -- [A0JV]
 -- arac
@@ -19710,7 +19710,7 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 		t["A03I"][3][1] = "자부『브로큰 아뮬렛』";
 -- aub1 1
 		t["A03I"][4][1] = "＊액을 흘려보내 Around yourself 750 범위의 적 방어력을 22 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 500 범위에 Current Health 0.4% + 20,000|c00FF6464물리 피해|r를 입히고 1초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 주변 500 범위에 Current Health 0.4% + 20,000|c00FF6464Physical Damage|r를 입히고 1초간 기절시킵니다.";
 -- anam
 -- aart
 		t["A03I"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNEntrapmentWard.blp";
@@ -19735,7 +19735,7 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 -- atp1 1
 		t["A03J"][2][1] = "메기 \"액상화현상으로 대지도 진흙과 같구나!\"";
 -- aub1 1
-		t["A03J"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 2 회복, Namazu가 격렬하게 철벅거려 자신주변 500 범위의 적에게 전체 체력 2% + 300,000|c00FF6464물리 피해|r를 가합니다.\r\
+		t["A03J"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 2 회복, Namazu가 격렬하게 철벅거려 자신주변 500 범위의 적에게 전체 체력 2% + 300,000|c00FF6464Physical Damage|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 15";
 -- anam
 -- aart
@@ -19836,7 +19836,7 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 -- aub1 1
 		t["A068"][4][1] = "Condition : 공격 시 15%\r\
 Range : Around yourself 500\r\
-|c00FF6464물리 피해|r : 3천";
+|c00FF6464Physical Damage|r : 3천";
 -- aart
 -- [A000]
 -- arac
@@ -20811,7 +20811,7 @@ Range : Around yourself 500\r\
 		t["A09U"][2][1] = "주부『팬텀쉽 하버』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A09U"][3][1] = "＊『배 밑바닥의 비너스』의 방어력 감소가 30으로 증가합니다.\r\
-＊공격 시 10% 확률로 유령선이 지원나와 대상 지점을 향해 포격하여 주변 450 범위의 적에게 전체 체력 0.4% + 125,000|c00FF6464물리 피해|r를 가합니다.";
+＊공격 시 10% 확률로 유령선이 지원나와 대상 지점을 향해 포격하여 주변 450 범위의 적에게 전체 체력 0.4% + 125,000|c00FF6464Physical Damage|r를 가합니다.";
 -- anam
 -- aart
 		t["A09U"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUndeadTransport.blp";
@@ -21169,7 +21169,7 @@ Range : Around yourself 500\r\
 ───────────────────\r\
 『핵펀치』\r\
 \r\
-＊공격 시 12% 확률로 목표 지점을 있는 힘껏 타격해 대상 주변 400 범위의 적에게 전체 체력 0.3%의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 12% 확률로 목표 지점을 있는 힘껏 타격해 대상 주변 400 범위의 적에게 전체 체력 0.3%의 |c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.";
 -- abuf 1
 		t["A0MH"][8][1] = "B03Q";
 -- atp1 2
@@ -21188,12 +21188,12 @@ Range : Around yourself 500\r\
 -- [A0MI]
 -- aub1 1
 		t["A0MI"][1][1] = "＊레밀리아 주변 800 범위의 적 Movement Speed를 18% 감소시킵니다.\r\
-＊공격시 11% 확률로 대상 주변 350 범위의 적에게 75,000|c00FF6464물리 피해|r를 가합니다.\r\
+＊공격시 11% 확률로 대상 주변 350 범위의 적에게 75,000|c00FF6464Physical Damage|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
 ───────────────────\r\
 『데몬 로드 클로』\r\
 \r\
-＊공격 시 20% 확률로 대상을 할퀴어 Current Health 3%(보스 0.6%)의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 20% 확률로 대상을 할퀴어 Current Health 3%(보스 0.6%)의 |c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A0MI"][4][1] = "『홍색의 환상향』";
@@ -21494,7 +21494,7 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A04Y"][4][1] = "＊Around yourself 600 범위의 적 방어력을 24 감소시킵니다.\r\
 ＊공격당한 적의 체력이 90% 이상이라면, 체력을 90%로 만듭니다.\r\
-＊공격 시 10% 확률로 대상 주변 450 범위에 70,000|c00FF6464물리 피해|r를 가하고 1.2초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 주변 450 범위에 70,000|c00FF6464Physical Damage|r를 가하고 1.2초간 기절시킵니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -22032,7 +22032,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A01N"][2][1] = "『스위트 포이즌』 - |c0000FFFFExtended|r";
 -- aub1 1
-		t["A01N"][3][1] = "＊|c002C62EA[Mana]|r - 35 : 공격 시 마력 1 회복, 치명적인 독을 풀어 대상 주변 500 범위의 적에게 Current Health 1.25% + 145,000|c00FF6464물리 피해|r를 가하고 3초간 Movement Speed를 65% 감소시킵니다.";
+		t["A01N"][3][1] = "＊|c002C62EA[Mana]|r - 35 : 공격 시 마력 1 회복, 치명적인 독을 풀어 대상 주변 500 범위의 적에게 Current Health 1.25% + 145,000|c00FF6464Physical Damage|r를 가하고 3초간 Movement Speed를 65% 감소시킵니다.";
 -- aart
 		t["A01N"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNPlagueCloud.blp";
 -- atp1 2
@@ -24278,7 +24278,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- aub1 1
 		t["A0O4"][5][1] = "＊기본 공격이 450 범위의 적에게 50% 분산 피해를 가합니다.\r\
 ＊공격당한 적이 보스라면, 공격 시 60% 확률로 강력한 발차기를 날려 30,000|c00AC59FF절대 피해|r를 가하고 2초간 기절시킵니다.\r\
-＊공격 시 10% 확률로 궁극 리글킥을 날려 대상 주변 400 범위의 적에게 전체 체력 0.8% + 55,000|c00FF6464물리 피해|r를 가합니다.";
+＊공격 시 10% 확률로 궁극 리글킥을 날려 대상 주변 400 범위의 적에게 전체 체력 0.8% + 55,000|c00FF6464Physical Damage|r를 가합니다.";
 -- [A0O5]
 -- arac
 -- anam
@@ -24374,7 +24374,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- aub1 1
 		t["A0OB"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
 |c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
-＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 5,000|c00FF6464물리 피해|r를 가한다.";
+＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 5,000|c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
 -- atp1 2
@@ -24472,7 +24472,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- aub1 1
 		t["A06K"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
 |c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
-＊공격 시 20% 확률로 포효하여 Around yourself 400 범위의 적에게 3,000|c00FF6464물리 피해|r를 가한다.";
+＊공격 시 20% 확률로 포효하여 Around yourself 400 범위의 적에게 3,000|c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
 -- atp1 2
@@ -26625,12 +26625,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- aub1 1
 		t["A0P5"][4][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.";
 -- atp1 2
 		t["A0P5"][5][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 10%";
 -- aub1 2
 		t["A0P5"][6][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 10% 확률로 기묘한 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- atp1 3
 		t["A0P5"][7][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 15%";
@@ -26640,21 +26640,21 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0P5"][9][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 25%";
 -- aub1 3
 		t["A0P5"][10][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 15% 확률로 피버한 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- aub1 4
 		t["A0P5"][11][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 20% 확률로 미친 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- aub1 5
 		t["A0P5"][12][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 25% 확률로 죽이는 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- atp1 6
 		t["A0P5"][13][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 30%";
 -- aub1 6
 		t["A0P5"][14][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 30% 확률로 광기의 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- [A0P6]
 -- anam
@@ -27353,7 +27353,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 -- aub1 1
 		t["A0PX"][3][1] = "＊Around yourself 900 범위의 적 방어력을 30 감소시킵니다.\r\
-＊|c002C62EA[[Mana]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 전체 체력 2.5% + 275,000|c00FF6464물리 피해|r를 가하고 5 seconds간 Movement Speed를 80% 감소시키며, 1.5 seconds간 기절시킨다.";
+＊|c002C62EA[[Mana]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 전체 체력 2.5% + 275,000|c00FF6464Physical Damage|r를 가하고 5 seconds간 Movement Speed를 80% 감소시키며, 1.5 seconds간 기절시킨다.";
 -- anam
 -- aart
 -- atp1 2
@@ -29697,7 +29697,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A06J"][2][1] = "액부『브로큰 아뮬렛』";
 -- aub1 1
-		t["A06J"][3][1] = "＊공격 시 15% 확률로 대상 주변 450 범위의 적에게 3,0005천의 |c00FF6464물리 피해|r를 가한다.";
+		t["A06J"][3][1] = "＊공격 시 15% 확률로 대상 주변 450 범위의 적에게 3,0005천의 |c00FF6464Physical Damage|r를 가한다.";
 -- aart
 		t["A06J"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNDemolish.blp";
 -- atp1 17
@@ -29774,13 +29774,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A06Y"][3][1] = "『배 밑바닥의 비너스』";
 -- aub1 1
 		t["A06Y"][4][1] = "*Murasa 주변 600 범위의 적 방어력을 20 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
+＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
 -- anam
 -- aart
 -- atp1 2
 -- aub1 2
 		t["A06Y"][9][1] = "*Murasa 주변 600 범위의 적 방어력을 30 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
+＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
 -- abuf 1
 		t["A06Y"][10][1] = "B00G";
 -- atar 2
@@ -33662,7 +33662,7 @@ nhym,h02Q,hlum,e03C";
 ────────────────\r\
 주부『명주암투』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
-＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- anam
 -- aart
 -- atat
@@ -33676,11 +33676,11 @@ nhym,h02Q,hlum,e03C";
 ────────────────\r\
 Spirit Sign 『Fantasy Seal』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
-＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 2~4 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 2% + 700,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 2~4 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 2% + 700,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- atp1 3
 		t["A0QY"][13][1] = "주부『명주암투』";
 -- aub1 3
-		t["A0QY"][14][1] = "＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+		t["A0QY"][14][1] = "＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- atar 3
 -- aub1 4
 -- [A0QZ]
@@ -33718,7 +33718,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- anam
 -- aub1 1
 		t["A0R2"][4][1] = "*|c00FF80FF[활력]|r - 15 seconds\r\
-*대상 지점에 천상의 고리를 생성합니다. 고리는 폭발하여 대상 주변 300범위 내의 적에게 Maximum Health 4% + 350,000|c00FF6464물리 피해|r를 입힙니다.\r\
+*대상 지점에 천상의 고리를 생성합니다. 고리는 폭발하여 대상 주변 300범위 내의 적에게 Maximum Health 4% + 350,000|c00FF6464Physical Damage|r를 입힙니다.\r\
 *위 효과가 발동시 이슈아가 죄를 쌓아올려 이슈아의 스킬 피해가 2% 증가하고, 특정 횟수마다 효과를 얻습니다.\r\
 -최대 100%까지 증가합니다.\r\
 -50%: 방어력 감소 수치를 32로 변경\r\
@@ -35593,7 +35593,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0I5"][2][1] = "신부『신이 걸어간 오미와타리』";
 -- aub1 1
-		t["A0I5"][3][1] = "＊공격 시 12% 확률로 전방의 적에게 50,000|c00FF6464물리 피해|r를 가하고 3초간 기절시킵니다.\r\
+		t["A0I5"][3][1] = "＊공격 시 12% 확률로 전방의 적에게 50,000|c00FF6464Physical Damage|r를 가하고 3초간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 2";
 -- anam
 -- aart
@@ -35700,7 +35700,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0A6"][2][1] = "『이자나기 물질』";
 -- aub1 1
 		t["A0A6"][3][1] = "＊Around yourself 600 범위의 적 방어력을 24 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 전체 체력 0.5%의 |c00FF6464물리 피해|r를 가합니다.";
+＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 전체 체력 0.5%의 |c00FF6464Physical Damage|r를 가합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -35966,7 +35966,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 -- aub1 1
 		t["S002"][4][1] = "＊주변 700 범위 자신을 제외한 아군의 Attack Speed를 12% 증가시킵니다.\r\
-*공격 시 10% 확률로 자신의 신력을 해방시켜 대상 주변 400범위 적에게 잃은 체력의 1% + 100,000|c00FF6464물리 피해|r를 가하고 1.5 seconds간 기절시킵니다.\r\
+*공격 시 10% 확률로 자신의 신력을 해방시켜 대상 주변 400범위 적에게 잃은 체력의 1% + 100,000|c00FF6464Physical Damage|r를 가하고 1.5 seconds간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3";
 -- anam
 -- abuf 1
@@ -36373,7 +36373,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0S1"][4][1] = "*Meira가 공격시 마나를 1 회복합니다.\r\
 *Meira는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
 *Meira가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
-전방 700거리의 적을 베어 Maximum Health 0.4% + 80,000|c00FF6464물리 피해|r를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
+전방 700거리의 적을 베어 Maximum Health 0.4% + 80,000|c00FF6464Physical Damage|r를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
 -- aart
 -- atp1 2
 -- aub1 2
@@ -36395,7 +36395,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0S2"][3][1] = "『어둠의 힘』- 집중 0회";
 -- aub1 1
-		t["A0S2"][4][1] = "*이 스킬의 집중 횟수가 5회가 됐을 때, 대상 지점을 빠르게 휩쓸어 Maximum Health 9% + 500,000|c00FF6464물리 피해|r를 입히고, 대상의 방어력을 영구히 20 감소시킵니다.\r\
+		t["A0S2"][4][1] = "*이 스킬의 집중 횟수가 5회가 됐을 때, 대상 지점을 빠르게 휩쓸어 Maximum Health 9% + 500,000|c00FF6464Physical Damage|r를 입히고, 대상의 방어력을 영구히 20 감소시킵니다.\r\
 *이 스킬로 적을 1기라도 죽였을 경우, Meira의 집중 스택이 3 회복됩니다.";
 -- aart
 -- atp1 2
@@ -40218,7 +40218,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0UV"][5][1] = "석부『헤비 스톤 베이비』";
 -- aub1 1
 		t["A0UV"][6][1] = "＊우루미 주변 600 범위의 적 방어력을 20 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상에게 아기 돌지장을 던져 주변 500 범위의 적에게 75,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상에게 아기 돌지장을 던져 주변 500 범위의 적에게 75,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.";
 -- abuf 1
 -- atp1 2
 -- aub1 2
@@ -40232,13 +40232,13 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0UW"][4][1] = "『죄악의 무게』";
 -- aub1 1
-		t["A0UW"][5][1] = "＊|c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, Around yourself 700 범위의 적에게 죄악의 무게를 부여해 영구히 Movement Speed를 50 감소시킵니다. 중첩이 가능하며 적의 Movement Speed가 50이면 저지른 죄업에 짓눌려져 전체 체력 5%의 |c00FF6464물리 피해|r를 입습니다.";
+		t["A0UW"][5][1] = "＊|c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, Around yourself 700 범위의 적에게 죄악의 무게를 부여해 영구히 Movement Speed를 50 감소시킵니다. 중첩이 가능하며 적의 Movement Speed가 50이면 저지른 죄업에 짓눌려져 전체 체력 5%의 |c00FF6464Physical Damage|r를 입습니다.";
 -- [A0UX]
 -- arac
 -- atp1 1
 		t["A0UX"][2][1] = "귀부『헝그리 데몬 시즈』";
 -- aub1 1
-		t["A0UX"][3][1] = "*|c00FF80FF[활력]|r - 12초 : 미끼를 던져 고대어가 대상을 잡아먹도록 유도합니다. 2초 뒤, 고대어가 튀어올라 주변 500 범위의 적에게 250,000|c00FF6464물리 피해|r를 가하고 2초간 기절시키고 영구히 Movement Speed를 50 감소시킵니다.";
+		t["A0UX"][3][1] = "*|c00FF80FF[활력]|r - 12초 : 미끼를 던져 고대어가 대상을 잡아먹도록 유도합니다. 2초 뒤, 고대어가 튀어올라 주변 500 범위의 적에게 250,000|c00FF6464Physical Damage|r를 가하고 2초간 기절시키고 영구히 Movement Speed를 50 감소시킵니다.";
 -- anam
 -- aart
 -- [A0UY]
