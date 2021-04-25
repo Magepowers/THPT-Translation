@@ -82,7 +82,7 @@ If Mana is less than 15% full, recover to 15% on attack.(Except Satori Komeiji)|
 -- ifil
 -- [spsh]
 -- utip
-		t["spsh"][1][1] = "|c00FFA540,000Cycle of Life and Death|r";
+		t["spsh"][1][1] = "|c00FFA540Cycles of Life|r";
 -- unam
 		t["spsh"][2][1] = "[Legendary Item]|c00FFA540Cycles of Life|r";
 -- utub
