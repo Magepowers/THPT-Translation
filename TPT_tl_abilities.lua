@@ -29,7 +29,7 @@ TPT_abilities_loader = function(t)
 		t["AOae"][2][1] = "[Arcana]";
 -- aub1 1
 		t["AOae"][3][1] = "*써니 주변 700범위 적의 Movement Speed를 15% 감소시킵니다.\r\
-*Sunny Milk가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 Units에게 95,000의 |c00AC59FF True Damage|r를 입히고, 1초간 스턴시킵니다.\r\
+*Sunny Milk가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 Units에게 95,000|c00AC59FF True Damage|r를 입히고, 1초간 스턴시킵니다.\r\
 [시간이 낮일 경우, 스턴 시간이 3초로 증가합니다.]";
 -- aart
 		t["AOae"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp";
@@ -41,7 +41,7 @@ TPT_abilities_loader = function(t)
 -- atar 2
 -- aub1 2
 		t["AOae"][10][1] = "*써니 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
-*Sunny Milk가 공격시 10% 확률로 전방으로 눈이 멀정도로 강력한 햇빛을 발사합니다. 전방 650범위 Units에게 85,000의  True Damage를 입히고, 1.5 seconds간 스턴시킵니다.\r\
+*Sunny Milk가 공격시 10% 확률로 전방으로 눈이 멀정도로 강력한 햇빛을 발사합니다. 전방 650범위 Units에게 85,000 True Damage를 입히고, 1.5 seconds간 스턴시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
 [햇빛 보너스] : 낮일 경우 허영갑주 수치가 4로 증가하며, Movement Speed 감소 효과가 22%에서 30%로 증가합니다.";
 -- atp1 2
@@ -56,7 +56,7 @@ TPT_abilities_loader = function(t)
 -- auar
 		t["AIfw"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNOrbOfFire.blp";
 -- aub1 1
-		t["AIfw"][7][1] = "공격시 20%의 확률로 대상에게 폭발 마법이 담긴 불꽃탄을 던져 폭발 시켜 대상과 주변 적에게 2000의  Magical Damage를 줍니다.";
+		t["AIfw"][7][1] = "공격시 20%의 확률로 대상에게 폭발 마법이 담긴 불꽃탄을 던져 폭발 시켜 대상과 주변 적에게 2000 Magical Damage를 줍니다.";
 -- [AIlx]
 -- asat
 -- aart
@@ -66,7 +66,7 @@ TPT_abilities_loader = function(t)
 -- atp1 1
 		t["AIlx"][7][1] = "화금부『세인트 엘모 필라』";
 -- aub1 1
-		t["AIlx"][8][1] = "공격시 20%의 확률로 대상에게 폭발 마법이 담긴 불꽃탄을 던져 폭발 시켜 대상에게 2000의  Magical Damage를 주고 0.6초간 기절 시킵니다.";
+		t["AIlx"][8][1] = "공격시 20%의 확률로 대상에게 폭발 마법이 담긴 불꽃탄을 던져 폭발 시켜 대상에게 2000 Magical Damage를 주고 0.6초간 기절 시킵니다.";
 -- [ACac]
 -- anam
 		t["ACac"][1][1] = "[진영]";
@@ -238,7 +238,7 @@ Effect : Attack up to 4 nearby enemies\r\
 		t["AOcr"][2][1] = "[Legendary]";
 -- aub1 1
 		t["AOcr"][3][1] = "*Star Sapphire가 공격시 마나를 5 회복합니다. 마나 25를 소모하여 아래의 효과를 발동합니다.\r\
-*대상 Units과 그 주변 300범위 적에게 125,000의 |c00379BFF Magical Damage|r를 입히는 섬광을 발사합니다.\r\
+*대상 Units과 그 주변 300범위 적에게 125,000|c00379BFF Magical Damage|r를 입히는 섬광을 발사합니다.\r\
 *|c00C5EA53[Combination Synergy]|r말썽쟁이 3Fairy\r\
 -플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 Units의 체력이 15% 감소합니다.";
 -- aart
@@ -250,8 +250,8 @@ Effect : Attack up to 4 nearby enemies\r\
 -- anam
 -- aub1 1
 		t["ACpv"][4][1] = "＊＊|c0044BBFF[Mana]|r - 145 : 공격 시 마력 1 회복, 대상 주변 400 범위의 적에게  체력이 85%이상이라면 85%로 만듭니다.\r\
-*85% 이하라면 전체 체력의 2% + 450,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*발동할때마다 태양신의 기운을 모읍니다. 5번째 발동하는 아마테라스의 데미지는 전체 체력의 10% + 2000,000의 |c00379BFF Magical Damage|r로 적용됩니다.";
+*85% 이하라면 Maximum Health 2% + 450,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+*발동할때마다 태양신의 기운을 모읍니다. 5번째 발동하는 아마테라스의 데미지는 Maximum Health 10% + 2000,000|c00379BFF Magical Damage|r로 적용됩니다.";
 -- aart
 		t["ACpv"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNScrollOfProtection.blp";
 -- atp1 2
@@ -264,8 +264,8 @@ Effect : Attack up to 4 nearby enemies\r\
 		t["ACpv"][9][1] = "『아마테라스』- 4회";
 -- aub1 2
 		t["ACpv"][10][1] = "*공격시 마나를 1 회복합니다. 마나가 145가 됐을때, 대상 주변 400범위 적의 체력이 85%이상이라면 85%로 만듭니다.\r\
-*85% 이하라면 전체 체력의 2% + 450,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*발동할때마다 태양신의 기운을 모읍니다. 5번째 발동하는 아마테라스의 데미지는 전체 체력의 10% + 2000,000의 |c00379BFF Magical Damage|r로 적용됩니다.";
+*85% 이하라면 Maximum Health 2% + 450,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+*발동할때마다 태양신의 기운을 모읍니다. 5번째 발동하는 아마테라스의 데미지는 Maximum Health 10% + 2000,000|c00379BFF Magical Damage|r로 적용됩니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -273,16 +273,16 @@ Effect : Attack up to 4 nearby enemies\r\
 		t["ACpv"][14][1] = "『아마테라스』- 5회";
 -- aub1 6
 		t["ACpv"][15][1] = "*공격시 마나를 1 회복합니다. 마나가 145가 됐을때, 대상 주변 400범위 적의 체력이 85%이상이라면 85%로 만듭니다.\r\
-*85% 이하라면 전체 체력의 2% + 450,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*발동할때마다 태양신의 기운을 모읍니다. 5번째 발동하는 아마테라스의 데미지는 전체 체력의 5% + 1200,000의 |c00379BFF Magical Damage|r로 적용됩니다.";
+*85% 이하라면 Maximum Health 2% + 450,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+*발동할때마다 태양신의 기운을 모읍니다. 5번째 발동하는 아마테라스의 데미지는 Maximum Health 5% + 1200,000|c00379BFF Magical Damage|r로 적용됩니다.";
 -- atp1 7
 		t["ACpv"][16][1] = "『아마테라스』- 6회";
 -- atp1 8
 		t["ACpv"][17][1] = "『아마테라스』- 7회";
 -- aub1 7
 		t["ACpv"][18][1] = "*공격시 마나를 1 회복합니다. 마나가 145가 됐을때, 대상 주변 400범위 적의 체력이 85%이상이라면 85%로 만듭니다.\r\
-*85% 이하라면 전체 체력의 2% + 450,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*발동할때마다 태양신의 기운을 모읍니다. 7번째 발동하는 아마테라스의 데미지는 전체 체력의 5% + 1200,000의 |c00379BFF Magical Damage|r로 적용됩니다.";
+*85% 이하라면 Maximum Health 2% + 450,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+*발동할때마다 태양신의 기운을 모읍니다. 7번째 발동하는 아마테라스의 데미지는 Maximum Health 5% + 1200,000|c00379BFF Magical Damage|r로 적용됩니다.";
 -- aub1 8
 -- [SCae]
 -- atar 1
@@ -293,7 +293,7 @@ Effect : Attack up to 4 nearby enemies\r\
 -- aub1 1
 		t["SCae"][4][1] = "＊Around yourself 900 범위의 아군 Attack Speed를 12% 증가시킨다.\r\
 |c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.\r\
-＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 4,000의 |c00379BFF마법 피해|r를 가한다.";
+＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 4,000|c00379BFF마법 피해|r를 가한다.";
 -- anam
 		t["SCae"][5][1] = "[Unique]";
 -- abuf 1
@@ -307,7 +307,7 @@ Effect : Attack up to 4 nearby enemies\r\
 		t["AHad"][4][1] = "*Elly 주변 650 범위 적들의 방어력을 35% 감소시킵니다.\r\
 *Elly가 공격시 대상 주변 425범위 적에게 35%의 분산 |c00FF6464 Physical Damage|r를 입힙니다.\r\
 *|c00FF80FF[활력]|r - 4초 \r\
-Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 		t["AHad"][5][1] = "[Historic]";
 -- aart
@@ -358,7 +358,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aub1 1
 		t["ACes"][5][1] = "*공격시 7% 확률로 신묘마루의 크기가 0.4배 커집니다. 최대 4배까지 거대해집니다.\r\
 *|c00FF80FF[활력]|r - 25 seconds\r\
-신묘마루가 대상 지점을 강하게 내려칩니다. 대상 주변 600범위 적에게 Current Health의 2% + 400,000의 |c00AC59FF True Damage|r를 입힙니다. 신묘마루의 크기가 클수록 데미지가 강해집니다. 최대 5배까지 강해집니다.\r\
+신묘마루가 대상 지점을 강하게 내려칩니다. 대상 주변 600범위 적에게 Current Health의 2% + 400,000|c00AC59FF True Damage|r를 입힙니다. 신묘마루의 크기가 클수록 데미지가 강해집니다. 최대 5배까지 강해집니다.\r\
 *사용 후 신묘마루의 크기가 원래대로 돌아옵니다.";
 -- atp1 2
 -- aub1 2
@@ -408,14 +408,14 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["ACav"][5][1] = "역부『천지유용』";
 -- aub1 1
 		t["ACav"][6][1] = "＊Around yourself 600 범위의 적 방어력을 24 감소시킵니다.\r\
-＊공격 시 10% 확률로 하늘과 땅을 뒤집어 엎어 대상 주변 450 범위의 적에게 55,000의 |c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+＊공격 시 10% 확률로 하늘과 땅을 뒤집어 엎어 대상 주변 450 범위의 적에게 55,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- abuf 1
 		t["ACav"][8][1] = "BUav";
 -- atp1 2
 		t["ACav"][9][1] = "역부『천지유용』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["ACav"][10][1] = "*주변 600범위 적의 방어력을 32 감소시킵니다.\r\
-*세이자가 공격시 12% 확률로 대상 지점 주변 450범위를 뒤집어놓아 범위 내의 적을 1.8 seconds간 기절시키고, 80,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*세이자가 공격시 12% 확률로 대상 지점 주변 450범위를 뒤집어놓아 범위 내의 적을 1.8 seconds간 기절시키고, 80,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- atar 2
 -- abuf 2
 -- atar 3
@@ -458,7 +458,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["Afbk"][2][1] = "삼고『오전 영시의 쓰리 스트라이크』";
 -- aub1 1
-		t["Afbk"][3][1] = "*라이코가 공격시 10% 확률로 대상 지점에 번개를 내려꽂아 주변 400범위 적에게 전체 체력의 0.3%에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["Afbk"][3][1] = "*라이코가 공격시 10% 확률로 대상 지점에 번개를 내려꽂아 주변 400범위 적에게 Maximum Health 0.3%에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
 *[오버차지]이 스펠이 발동시 전체 체력 데미지가 0.3%p 증가하며, 최대 1.2%까지 증가한 후 다시 초기 데미지로 돌아갑니다.";
 -- aart
 		t["Afbk"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNPurge.blp";
@@ -473,7 +473,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["Afbt"][2][1] = "사고『랜드 퍼커스』";
 -- aub1 1
-		t["Afbt"][3][1] = "*라이코의 몸에서 정전기가 흘러나와 Around yourself 800범위 적에게 초당 50,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["Afbt"][3][1] = "*라이코의 몸에서 정전기가 흘러나와 Around yourself 800범위 적에게 초당 50,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *[오버차지]|c00FF80FF[활력]|r - 6초\r\
 공격시 정전기 데미지가 30,000 증가하며, 라이코의 남은 마나의 25%를 회복합니다.\r\
 최대 140,000까지 증가한 후 다시 초기 데미지로 돌아갑니다.";
@@ -484,7 +484,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 4
 -- aub1 2
 		t["Afbt"][10][1] = "*라이코 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
-*라이코의 몸에서 정전기가 흘러나와 Around yourself 800범위 적에게 초당 50,000의  Magical Damage를 입힙니다.\r\
+*라이코의 몸에서 정전기가 흘러나와 Around yourself 800범위 적에게 초당 50,000 Magical Damage를 입힙니다.\r\
 *[오버차지]|c00FF80FF[활력]|r - 15 seconds\r\
 공격시 정전기 데미지가 25,000 증가하며, 최대 125,000까지 증가한 후 다시 초기 데미지로 돌아갑니다.";
 -- aub1 3
@@ -507,7 +507,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aub1 3
 -- aub1 4
 -- aub1 5
-		t["Adtg"][14][1] = "*라이코가 공격시 10% 확률로 대상 지점에 거대한 번개를 내려쳐 대상 지점 주변 550범위 내의 적의 Movement Speed를 1초간 99% 감소시키고, 145,000의  Magical Damage를 입힙니다.";
+		t["Adtg"][14][1] = "*라이코가 공격시 10% 확률로 대상 지점에 거대한 번개를 내려쳐 대상 지점 주변 550범위 내의 적의 Movement Speed를 1초간 99% 감소시키고, 145,000 Magical Damage를 입힙니다.";
 -- aub1 6
 -- atp1 5
 -- [AUts]
@@ -610,14 +610,14 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["ACba"][10][1] = "*주변 1000범위 내의 아군의 마나를 초당 2씩 회복시킵니다.";
 -- [Aakb]
 -- atp1 1
-		t["Aakb"][1][1] = "광부『풀 문 나이트』";
+		t["Aakb"][1][1] = "Light Sign 『Full Moon Night』";
 -- anam
 		t["Aakb"][2][1] = "[Ascended]";
 -- aub1 1
-		t["Aakb"][3][1] = "*공격시 마나를 1 회복합니다. 마나가 100이 됐을때, 대상 지점에 달빛의 힘을 해방시킵니다.\r\
-*대상 주변 550범위 적에게 전체 체력의 4% + 650,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*Luna Child가 게임에 존재할 경우, 플레이어 존[1P 왼쪽 위 모서리부터 4P 오른쪽 아래 모서리까지의 사각형] 내에 12초마다 『풀 문 나이트』를 사용합니다.\r\
-[이 효과로 발동되는『풀 문 나이트』는 전체 체력의 10% + 850,000의 |c00AC59FF True Damage|r를 입힙니다.]";
+		t["Aakb"][3][1] = "*Restore 1 Mana on attack. Activates at 100 Mana.\r\
+*Deals 4% Maximum Health + 650,000|c00FF6464 Physical Damage|r in a 550 AoE.\r\
+*If Luna Child exists in the game, every 12 seconds activate 『Full Moon Night』 randomly in the 4 player zones.\r\
+[『Full Moon Night』 from this effect deals 10% Maximum Health + 850,000|c00AC59FF True Damage|r.]";
 -- aart
 		t["Aakb"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNCharm.blp";
 -- [Atru]
@@ -629,7 +629,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Atru"][5][1] = "귀화『초고밀도 인화술』";
 -- aub1 1
 		t["Atru"][6][1] = "*스이카가 공격시 20% 확률로 대상 지점에 용암구를 던져 폭발시킵니다.\r\
-*대상 지점 주변 500범위 내에 있는 적을 1.5 seconds간 스턴시키고, 전체 체력의 0.8% + 110,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*대상 지점 주변 500범위 내에 있는 적을 1.5 seconds간 스턴시키고, Maximum Health 0.8% + 110,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- [AHtb]
 -- amat
 		t["AHtb"][1][1] = "Abilities\\Weapons\\IllidanMissile\\IllidanMissile.mdl";
@@ -822,7 +822,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["AUau"][4][1] = "분노『공전절후 큰 꾸짖음』";
 -- aub1 1
 		t["AUau"][5][1] = "*|c00FF80FF[활력]|r - 10 seconds\r\
-운잔이 나타나 적을 향해 사자후를 내지릅니다. 주변 1000범위 내의 적에게 전체 체력의 2% + 450,000의 |c00FF6464물리 피해|r를 입힙니다.\r\
+운잔이 나타나 적을 향해 사자후를 내지릅니다. 주변 1000범위 내의 적에게 Maximum Health 2% + 450,000|c00FF6464물리 피해|r를 입힙니다.\r\
 *위 효과가 발동할 때, 이치린 주변 1000범위 자신 소유 Units의 활력을 30% 회복시킵니다.\r\
 [이치린 자신과 활력 회복 효과를 받지 않는 Units에게는 적용되지 않습니다.]";
 -- atar 1
@@ -834,7 +834,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["AUau"][11][1] = "서적『비 노이만형 계산기의 미래』";
 -- aub1 2
 		t["AUau"][12][1] = "*Tokiko 주변 650범위 적의 Movement Speed를 40% 감소시킵니다.\r\
-*Tokiko가 공격시 10% 확률로 대상 주변 475범위의 적에게 책을 읽으라고 일갈하여 1.7초의 스턴과 55,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+*Tokiko가 공격시 10% 확률로 대상 주변 475범위의 적에게 책을 읽으라고 일갈하여 1.7초의 스턴과 55,000|c00AC59FF True Damage|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 4";
 -- [ANth]
 -- aart
@@ -844,13 +844,13 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["ANth"][4][1] = "『넘쳐나는 하예』";
 -- aub1 1
-		t["ANth"][5][1] = "*Junko가 공격시 9% 확률로 Around yourself 1000범위를 더러운 기운으로 가득채웁니다. 대상이 적이라면 75,000의 |c00379BFF Magical Damage|r를 입히고, 아군이라면 마나를 전체 마나의 6%만큼 회복시킵니다.\r\
+		t["ANth"][5][1] = "*Junko가 공격시 9% 확률로 Around yourself 1000범위를 더러운 기운으로 가득채웁니다. 대상이 적이라면 75,000|c00379BFF Magical Damage|r를 입히고, 아군이라면 마나를 전체 마나의 6%만큼 회복시킵니다.\r\
 [마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 Units에게 적용되지 않습니다.]";
 -- [SCva]
 -- [ACrk]
 -- [Afbb]
 -- aub1 1
-		t["Afbb"][1][1] = "*Junko가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을 경우, 대상 지점 750범위 내에 있는 적에게 1초간 0.2초마다 50,000의 |c00379BFF Magical Damage|r를 입힙니다. 이후 거대한 폭발을 일으켜 대상 범위내의 적에게 전체 체력의 2% + 250,000의 |c00379BFF Magical Damage|r를 추가로 입힙니다.\r\
+		t["Afbb"][1][1] = "*Junko가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을 경우, 대상 지점 750범위 내에 있는 적에게 1초간 0.2초마다 50,000|c00379BFF Magical Damage|r를 입힙니다. 이후 거대한 폭발을 일으켜 대상 범위내의 적에게 Maximum Health 2% + 250,000|c00379BFF Magical Damage|r를 추가로 입힙니다.\r\
 *폭발시 주변 800범위 아군의 마나를 15% 회복시킵니다.[마나 회복을 받지 않는 Units과 자신 제외]";
 -- atp1 1
 		t["Afbb"][2][1] = "『살의의 백합』";
@@ -864,7 +864,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["ANde"][4][1] = "『떨며 얼어붙는 별』";
 -- aub1 1
 		t["ANde"][5][1] = "*Junko가 공격시 10% 확률로 주변 Units을 급속도로 냉각시킵니다. \r\
-*Around yourself 800범위 Units이 적이라면 2초간 스턴시키고, 200,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*Around yourself 800범위 Units이 적이라면 2초간 스턴시키고, 200,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *아군이라면 마나의 6%를 회복시킵니다.\r\
 [마나 회복 효과는 자신과 마나 리젠 효과를 받지 않는 Units에게 적용되지 않습니다.]";
 -- aart
@@ -878,7 +878,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["ACua"][5][1] = "『손바닥의 순광』";
 -- aub1 1
-		t["ACua"][6][1] = "*Junko가 공격시 10% 확률로 자신 전방 1000거리 250범위 내의 적에게 전체 체력의 0.4% + 125,000의 |c00379BFF Magical Damage|r를 입힙니다. 이 광선에 맞은 적은 정화되어  Magical Damage를 22% 증폭해서 받습니다.\r\
+		t["ACua"][6][1] = "*Junko가 공격시 10% 확률로 자신 전방 1000거리 250범위 내의 적에게 Maximum Health 0.4% + 125,000|c00379BFF Magical Damage|r를 입힙니다. 이 광선에 맞은 적은 정화되어  Magical Damage를 22% 증폭해서 받습니다.\r\
 *기본적으로 Junko 주변 750범위 내에 있는 적군의 Movement Speed를 40% 감소시킵니다.";
 -- abuf 1
 		t["ACua"][8][1] = "B02E";
@@ -890,7 +890,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Aprg"][4][1] = "금기『카고메 카고메』 - 단축키 (R)";
 -- aub1 1
 		t["Aprg"][5][1] = "*사용식 능력: 플랑드르가 아군 Units 하나를 술래로 지명합니다. 술래로 지명된 Units은 Attack Speed가 45% 상승합니다. 이 스킬을 술래에게 다시 사용할 경우 술래가 취소되며 술래를 다시 지정할 수 있습니다.\r\
-*플랑드르가 공격시 14% 확률로 Around yourself 750범위 Units에게 165,000의 |c00379BFF Magical Damage|r를입히고, 3초간 60%의 슬로우를 입힙니다.\r\
+*플랑드르가 공격시 14% 확률로 Around yourself 750범위 Units에게 165,000|c00379BFF Magical Damage|r를입히고, 3초간 60%의 슬로우를 입힙니다.\r\
 *플랑드르가 공격시 10% 확률로 공격한 적의 체력이 8% 이하라면 즉사시킵니다.[보스 Units 포함] 즉사시킨 적은 폭발하며 주변 450범위 적을 2초간 스턴시킵니다.";
 -- aart
 		t["Aprg"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNFaerieFire.blp";
@@ -909,7 +909,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["Apxf"][3][1] = "성광『스타 스톰』";
 -- aub1 1
-		t["Apxf"][4][1] = "*주변 800범위에 0.4초마다 별빛을 발사합니다. 발사한 별빛은 700의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["Apxf"][4][1] = "*주변 800범위에 0.4초마다 별빛을 발사합니다. 발사한 별빛은 700|c00379BFF Magical Damage|r를 입힙니다.";
 -- amat
 		t["Apxf"][5][1] = "Abilities\\Spells\\NightElf\\Starfall\\StarfallTarget.mdl";
 -- [ANsi]
@@ -1056,8 +1056,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["AIcd"][7][1] = "『한쪽 날개의 백로』";
 -- aub1 1
-		t["AIcd"][8][1] = "＊공격 시 6% 확률로 대상에게 6,000의 |c00379BFF마법 피해|r를 가합니다.\r\
-＊|c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, 대상 주변 600 범위에 10,000의 |c00379BFF마법 피해|r를 가하고 1초간 기절시킵니다.";
+		t["AIcd"][8][1] = "＊공격 시 6% 확률로 대상에게 6,000|c00379BFF마법 피해|r를 가합니다.\r\
+＊|c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, 대상 주변 600 범위에 10,000|c00379BFF마법 피해|r를 가하고 1초간 기절시킵니다.";
 -- [ACnr]
 -- anam
 -- atar 1
@@ -1205,14 +1205,14 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 		t["AIcs"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNMassTeleport.blp";
 -- aub1 1
-		t["AIcs"][5][1] = "*공격시 25% 확률로 대상 Units에게 전체 체력의 6% + 250,000의 |c00379BFF Magical Damage|r를 입히고, 4초간 스턴시킵니다.\r\
+		t["AIcs"][5][1] = "*공격시 25% 확률로 대상 Units에게 Maximum Health 6% + 250,000|c00379BFF Magical Damage|r를 입히고, 4초간 스턴시킵니다.\r\
 [보스에게는 체력 비례 데미지가 25%만 적용됩니다.]\r\
 *『체포하겠어요!』가 6번 발동시 다음 공격에 『조용히 하세요!』가 발동합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『조용히 하세요!』\r\
 \r\
 ＊대상에게 추가로 잃은 체력 10%(보스 1%)의 마법 피해를 추가로 가합니다.\r\
-*대상 주변 600범위 적에게 잃은 체력의 1% + 150,000의 |c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.";
+*대상 주변 600범위 적에게 잃은 체력의 1% + 150,000|c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.";
 -- atar 1
 -- atp1 2
 		t["AIcs"][7][1] = "『체포하겠어요!』- 1번";
@@ -1260,7 +1260,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aub1 5
 -- aub1 6
 -- aub1 7
-		t["AIcs"][32][1] = "*미스티아 야맹증에 걸린 적을 공격시 10% 확률로 선심쓰듯 가시가 많은 칠성 장어구이를 건네줍니다. 장어구이를 건네받은 단일 대상은 야맹증 효과가 해제되며 전체 체력의 0.7% + 70,000의 마법 대미지를 입습니다.\r\
+		t["AIcs"][32][1] = "*미스티아 야맹증에 걸린 적을 공격시 10% 확률로 선심쓰듯 가시가 많은 칠성 장어구이를 건네줍니다. 장어구이를 건네받은 단일 대상은 야맹증 효과가 해제되며 Maximum Health 0.7% + 70,000마법 대미지를 입습니다.\r\
 *야맹증에 걸린 적이 장어를 먹어 야맹증이 풀릴때마다 미스티아는 착한아이 스택을 1 얻습니다.\r\
 *착한아이 스택이 21 모일때마다 미스티아의 장어구이집에 손님이 찾아옵니다. 랜덤한 Normal Units을 획득합니다.";
 -- aub1 8
@@ -1408,7 +1408,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Agyb"][2][1] = "『몽상천생-선』";
 -- aub1 1
 		t["Agyb"][3][1] = "*선대무녀의 마나가 공격시 1씩 회복됩니다. 마나가 115가 됐을때, 선대무녀의 주변에 음양옥을 생성해 회전시킵니다.\r\
-*3초 뒤에 음양옥이 폭발하면서 선대무녀 주변 1000범위 내에 있는 적에게 잃은 체력의 5% + 300,000의 |c00AC59FF True Damage|r를 입히고 2초간 스턴시킵니다.";
+*3초 뒤에 음양옥이 폭발하면서 선대무녀 주변 1000범위 내에 있는 적에게 잃은 체력의 5% + 300,000|c00AC59FF True Damage|r를 입히고 2초간 스턴시킵니다.";
 -- anam
 -- aart
 		t["Agyb"][5][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNFeedBack.blp";
@@ -1424,7 +1424,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["Afrz"][8][1] = "『핵열강화 증기기관』";
 -- aub1 1
-		t["Afrz"][9][1] = "＊|c00FF80FF[활력]|r - 5 seconds : Hisoutensoku이 핵열로 강화된 증기 기관을 통해 열기를 뿜어 Around yourself 600 범위의 적에게 잃은 체력 1% + 125,000의 |c00AC59FF절대 피해|r를 가합니다.\r\
+		t["Afrz"][9][1] = "＊|c00FF80FF[활력]|r - 5 seconds : Hisoutensoku이 핵열로 강화된 증기 기관을 통해 열기를 뿜어 Around yourself 600 범위의 적에게 잃은 체력 1% + 125,000|c00AC59FF절대 피해|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 4";
 -- [Absk]
 -- anam
@@ -1445,7 +1445,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Ansk"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNTrueShot.blp";
 -- aub1 1
 		t["Ansk"][7][1] = "*|c00FF80FF[활력]|r - 3초\r\
-*사쿠야가 대상 Units을 베어 전체 체력의 15%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*사쿠야가 대상 Units을 베어 Maximum Health 15%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.\r\
 [보스에게는 10%의 데미지만 적용] \r\
 *위 효과 발동시 대상 주변 400범위에 145,000x(0.8~2)의 |c00FF6464 Physical Damage|r를 입힙니다. ";
 -- [AHwe]
@@ -1468,7 +1468,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["AEah"][5][1] = "옥부 『오합의 이중저주』";
 -- aub1 1
-		t["AEah"][6][1] = "*사구메가 공격할 때 대상 적의 남은 체력이 전체 체력의 50% 이상일시 더러움. 50% 이하일시 순수함으로 분류합니다. \r\
+		t["AEah"][6][1] = "*사구메가 공격할 때 대상 적의 남은 체력이 Maximum Health 50% 이상일시 더러움. 50% 이하일시 순수함으로 분류합니다. \r\
 *사구메의 스킬들은 사구메가 공격한 Units의 상태가 순수함일시와 더러움일시로 나뉘어 적용됩니다.\r\
 |c0000FFFF순수함|r : 사구메의 평타 공격이 55% 확률로 잃은 체력 1%의 |c00379BFF마법 피해|r를 입힙니다.\r\
 |c00800040더러움|r : 사구메의 평타 공격이 55% 확률로 Current Health 1%의 |c00AC59FF절대 피해|r를 입힙니다.";
@@ -1484,8 +1484,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["ACah"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNClusterRockets.blp";
 -- aub1 1
 		t["ACah"][8][1] = "*사구메가 공격시 7% 확률로 발동합니다. 대상 적에게 기뢰를 날려 대상의 상태에 따라 다음과 같은 효과를 발동시킵니다.\r\
-|c0000FFFF순수함|r : 기뢰를 날려 폭발시켜 대상 지점 주변 450범위 적에게 200,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-|c00800040더러움|r : 기뢰를 날려 폭발시켜 대상 지점 주변 450범위 적에게 150,000의 |c00AC59FF True Damage|r를 입힙니다.";
+|c0000FFFF순수함|r : 기뢰를 날려 폭발시켜 대상 지점 주변 450범위 적에게 200,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+|c00800040더러움|r : 기뢰를 날려 폭발시켜 대상 지점 주변 450범위 적에게 150,000|c00AC59FF True Damage|r를 입힙니다.";
 -- [Aabr]
 -- atar 1
 -- arac
@@ -1496,8 +1496,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Aabr"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNBearBlink.blp";
 -- aub1 1
 		t["Aabr"][8][1] = "*사구메가 공격시 9% 확률로 다음과 같은 효과를 발동합니다.\r\
-|c0000FFFF순수함|r : Around yourself 750범위에 잃은 체력 0.6% + 100,000의 |c00379BFF마법 피해|r를 입힙니다.\r\
-|c00800040더러움|r : 대상 Units 주변 650범위에 Current Health 0.6% + 100,000의 |c00AC59FF절대 피해|r를 입힙니다.";
+|c0000FFFF순수함|r : Around yourself 750범위에 잃은 체력 0.6% + 100,000|c00379BFF마법 피해|r를 입힙니다.\r\
+|c00800040더러움|r : 대상 Units 주변 650범위에 Current Health 0.6% + 100,000|c00AC59FF절대 피해|r를 입힙니다.";
 -- [Aven]
 -- anam
 -- atp1 1
@@ -1506,8 +1506,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["Aven"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNHeartOfAszune.blp";
 -- aub1 1
 		t["Aven"][8][1] = "*사구메가 공격시 마나를 1 쌓습니다. 마나가 200이 됐을때 자신을 강화시킵니다. [강화 버프 지속 시간 동안은 공격시 0.6의 마나를 회복합니다] \r\
-*강화 버프는 12초간 지속되며, 자신의 Attack Speed가 300% 상승합니다. 공격시 20% 확률로 대상 지점에 순수함의 파장을 퍼뜨려 350범위에 Current Health의 0.3% + 85,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
-*버프 발동과 동시에 깃퍼지미를 사용합니다. 깃털을 방사하여 주변 900범위 내의 적에게 전체 체력의 5% + 300,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*강화 버프는 12초간 지속되며, 자신의 Attack Speed가 300% 상승합니다. 공격시 20% 확률로 대상 지점에 순수함의 파장을 퍼뜨려 350범위에 Current Health의 0.3% + 85,000|c00AC59FF True Damage|r를 입힙니다.\r\
+*버프 발동과 동시에 깃퍼지미를 사용합니다. 깃털을 방사하여 주변 900범위 내의 적에게 Maximum Health 5% + 300,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *버프 Duration동안『신들의 빛나는 탄관』의 발동 확률이 9%에서 15%로 상승합니다. 오합의 이중저주의 데미지가 100% 상승합니다.";
 -- [ANsy]
 -- Nsy2B1
@@ -1548,7 +1548,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 |c0000FFFF*This unit can become Extended. You can acquire an Extended item that appears when you clear the S rank mission and Moon Lion mission which can be used on applicable Epic units..|r";
 -- anam
 -- aub1 2
-		t["AIba"][9][1] = "*Around yourself 650범위의 아군의 마나를 초당 1.5씩 회복시킵니다. 추가로 헤카티아가 공격시 10% 확률로 대상 지점 300범위에 지옥의 불길을 치솟게 해 범위 내의 적에게 66,000의 |c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 7% 증폭시킵니다.";
+		t["AIba"][9][1] = "*Around yourself 650범위의 아군의 마나를 초당 1.5씩 회복시킵니다. 추가로 헤카티아가 공격시 10% 확률로 대상 지점 300범위에 지옥의 불길을 치솟게 해 범위 내의 적에게 66,000|c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 7% 증폭시킵니다.";
 -- abuf 1
 		t["AIba"][10][1] = "Bams";
 -- abuf 2
@@ -1586,20 +1586,20 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- anam
 -- arac
 -- aub1 1
-		t["ACbh"][3][1] = "*Luna Child의 모든 스킬은 밤일때 강화되는 밤 보너스를 가집니다.\r\
-*공격시 25% 확률로 대상 Units에게 4배의 치명타와 2초의 스턴을 입힙니다.\r\
-*Luna Child의 평타 데미지는 350범위에 60%의 데미지를 입히는 범위 데미지로 적용됩니다.\r\
-*낮에 25,000의 추가 공격력을 얻습니다.\r\
-|c009292C9밤 보너스|r : 추가 공격력이 90,000으로 변경됩니다.\r\
+		t["ACbh"][3][1] = "*All of Luna Child's skills have a bonus during the night.\r\
+*25% chance to deal 4x Critical and stun a target for 2 seconds.\r\
+*Luna Child deals 60% Damage in a 350 AoE.\r\
+*Gain 25,000 Attack during the day.\r\
+|c009292C9Night Bonus|r : Gain 90,000 Attack instead.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-광벽 『월 브레이크』\r\
+Light Barrier 『Wall Break』\r\
 \r\
-*공격시 12% 확률로 대상 적의 안면을 가격해 밤 모양 입으로 바꿔버립니다.\r\
-*대상 주변 425범위 적에게 전체 체력의 0.8% + 145,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*Units의 체력이 높을수록 입히는 데미지가 증가하며, 최대 50%까지 증가합니다.\r\
-|c009292C9밤 보너스|r : 발동시 전체 마나의 5%를 회복합니다";
+*12% chance to proc on attack.\r\
+*Deals 0.8% Maximum Health + 145,000|c00FF6464 Physical Damage|r in a 425 AoE.\r\
+*Deals more damage the higher the Health of the target, up to 50%.\r\
+|c009292C9Night Bonus|r : Restores 5% Mana when activated";
 -- atp1 1
-		t["ACbh"][4][1] = "월부『다크 스틸니스』";
+		t["ACbh"][4][1] = "Moonlight 『Dark Stillness』";
 -- aart
 		t["ACbh"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNDispelMagic.blp";
 -- [AIrr]
@@ -1618,7 +1618,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 *유기는 공격시 5% 확률로 발을 한번 크게 구릅니다. 한번 구를때마다 맵 전체 적을 1.2초간 스턴시킵니다. \r\
 |c00FF712D[허영갑주]|r + 2\r\
 *세 번째 발걸음에 아래의 효과가 적용됩니다.\r\
-*유기가 공격시 대상 지점에 강력한 일격을 날립니다. 대상 주변 1500범위에 적 전체 체력의 3% + 450,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*유기가 공격시 대상 지점에 강력한 일격을 날립니다. 대상 주변 1500범위에 적 Maximum Health 3% + 450,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *공격시 마나를 1 회복합니다. 마나가 125일때 발동하는 삼보필살은 |c00AC59FF True Damage|r로 적용되며, 데미지가 2배로 적용됩니다.";
 -- atp1 1
 		t["ACrn"][4][1] = "사천왕오의『삼보필살』- 스택 0";
@@ -2046,8 +2046,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 100
 		t["ANfd"][207][1] = "마계의 신|cffffcc00(R)|r - 현재 마력 100";
 -- aub1 2
-		t["ANfd"][208][1] = "이 스킬을 사용해 Devil나 Small Devil를 흡수할 수 있습니다. Devil 하나당 5, Small Devil 하나당 10의 마력을 흡수합니다.\r\
-흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 Shinki의 모든 스킬은 흡수한 마력에 비례해 강해집니다. Shinki는 자신이 가진 마력 1당 10000의 추가  Physical Damage를 얻습니다.\r\
+		t["ANfd"][208][1] = "이 스킬을 사용해 Devil나 Small Devil를 흡수할 수 있습니다. Devil 하나당 5, Small Devil 하나당 10마력을 흡수합니다.\r\
+흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 Shinki의 모든 스킬은 흡수한 마력에 비례해 강해집니다. Shinki는 자신이 가진 마력 1당 10000추가  Physical Damage를 얻습니다.\r\
 기본적으로 Attack Speed가 매우 빠릅니다.";
 -- aub1 3
 -- aub1 4
@@ -2467,7 +2467,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- arac
 		t["Ambd"][4][1] = "undead";
 -- aub1 1
-		t["Ambd"][5][1] = "*하타테가 보스 공격시 50% 확률로 보스 Units의 전체 체력의 0.2% + 45,000에 해당하는 |c00AC59FF True Damage|r를 입히며, 1.2초간 스턴시킵니다.\r\
+		t["Ambd"][5][1] = "*하타테가 보스 공격시 50% 확률로 보스 Units의 Maximum Health 0.2% + 45,000에 해당하는 |c00AC59FF True Damage|r를 입히며, 1.2초간 스턴시킵니다.\r\
 *위 데미지 효과는 50라운드까지 적용됩니다.";
 -- atp1 1
 		t["Ambd"][6][1] = "취재『Hatate Himekaidou의 연습취재』";
@@ -2478,7 +2478,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["AUfn"][2][1] = "원안『텐구 사이코그래피』";
 -- aub1 1
 		t["AUfn"][3][1] = "*|c00FF80FF[활력]|r - 10 seconds\r\
-하타테가 대상 지점을 그대로 사진으로 옮깁니다. 대상 지점 주변 1000범위 내의 적에게 2초의 스턴을 입히고, 45,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+하타테가 대상 지점을 그대로 사진으로 옮깁니다. 대상 지점 주변 1000범위 내의 적에게 2초의 스턴을 입히고, 45,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 [50라운드 이후부터 하타테가 본격적인 취재에 나섭니다. 『텐구 사이코그래피』의 활력 Cooldown이 10 seconds에서 6초로 감소합니다.]\r\
 *50라운드까지는 위 활력 효과가 공격시 10% 확률로 발동합니다.";
 -- aart
@@ -2508,8 +2508,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["ANbh"][3][1] = "익부 『싱커블 보텍스』";
 -- aub1 1
-		t["ANbh"][4][1] = "*Murasa가 공격시 10% 확률로 자신의 능력으로 대상 지점에 물대포를 발사합니다. 대상 지점 주변 350범위 내의 적은 110,000의 |c00379BFF Magical Damage|r를 입고 2.2초간 스턴됩니다.\r\
-*Murasa가 공격시 15% 확률로 대상 적에게 85,000의 추가 |c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
+		t["ANbh"][4][1] = "*Murasa가 공격시 10% 확률로 자신의 능력으로 대상 지점에 물대포를 발사합니다. 대상 지점 주변 350범위 내의 적은 110,000|c00379BFF Magical Damage|r를 입고 2.2초간 스턴됩니다.\r\
+*Murasa가 공격시 15% 확률로 대상 적에게 85,000추가 |c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
 -- [ANta]
 -- aub1 1
 		t["ANta"][1][1] = "|c00A8F13A[Combination]|r: Minamitsu Murasa[Epic] + Palanquin Ship[Unique] + Arcanist's Book\r\
@@ -2538,7 +2538,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aart
 		t["Acan"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNWispSplode.blp";
 -- aub1 1
-		t["Acan"][7][1] = "*마리사가 공격시 10% 확률로 공격한 대상의 위치에 소행성을 떨어뜨립니다. 소행성은 떨어지면서 대상 주변 550범위 내에 있는 적에게 잃은 체력의 0.5% + 65,000의 |c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.";
+		t["Acan"][7][1] = "*마리사가 공격시 10% 확률로 공격한 대상의 위치에 소행성을 떨어뜨립니다. 소행성은 떨어지면서 대상 주변 550범위 내에 있는 적에게 잃은 체력의 0.5% + 65,000|c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.";
 -- atp1 1
 		t["Acan"][8][1] = "성부『익센트릭 애스터로이드』";
 -- anam
@@ -2551,8 +2551,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["Aeat"][7][1] = "마폐『딥 이콜로지컬 봄』";
 -- aub1 1
-		t["Aeat"][8][1] = "*마리사가 공격시 11% 확률로 공격한 대상의 위치에 마법폭탄병을 던져 폭발시킵니다. 대상 주변 550범위 내에 있는 적에게 125,000의 |c00379BFF Magical Damage|r를 입힙니다. 이 효과로 데미지를 입힌 적 하나당 마리사의 마나를 0.5씩 회복시킵니다.\r\
-*보스 공격시 30% 확률로 1.5 seconds간 스턴시키고 전체 체력의 0.3% + 90,000의 추가 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["Aeat"][8][1] = "*마리사가 공격시 11% 확률로 공격한 대상의 위치에 마법폭탄병을 던져 폭발시킵니다. 대상 주변 550범위 내에 있는 적에게 125,000|c00379BFF Magical Damage|r를 입힙니다. 이 효과로 데미지를 입힌 적 하나당 마리사의 마나를 0.5씩 회복시킵니다.\r\
+*보스 공격시 30% 확률로 1.5 seconds간 스턴시키고 Maximum Health 0.3% + 90,000추가 |c00379BFF Magical Damage|r를 입힙니다.";
 -- atar 1
 		t["Aeat"][9][1] = "none";
 -- [ACce]
@@ -2585,7 +2585,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["ANb2"][2][1] = "홍편복『뱀피리쉬 나이트』";
 -- aub1 1
-		t["ANb2"][3][1] = "*레밀리아가 공격할 시 15% 확률로 대상 적을 1.8 seconds간 스턴시키며 145,000의 \r\
+		t["ANb2"][3][1] = "*레밀리아가 공격할 시 15% 확률로 대상 적을 1.8 seconds간 스턴시키며 145,000\r\
 |c00379BFF Magical Damage|r를 추가로 입힙니다.";
 -- aart
 		t["ANb2"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNCarrionSwarm.blp";
@@ -2642,8 +2642,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- anam
 -- aub1 1
 		t["AEbl"][8][1] = "*사용식 능력 : 레밀리아가 맵 전체 어디든 이동합니다. [Cooldown 20 seconds]\r\
-*레밀리아가 공격시 10% 확률로 대상 지점에 자신의 요력으로 생성한 창을 생성해 투척합니다. 날아간 창은 전방 1000거리 250범위 내에 있는 적에게 250,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*레밀리아가 공격시 15% 확률로 대상 자경단 미션 Units에게 전체 체력의 1% + 100,000의 |c00379BFF Magical Damage|r을 입히고 2초간 스턴시킵니다.";
+*레밀리아가 공격시 10% 확률로 대상 지점에 자신의 요력으로 생성한 창을 생성해 투척합니다. 날아간 창은 전방 1000거리 250범위 내에 있는 적에게 250,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+*레밀리아가 공격시 15% 확률로 대상 자경단 미션 Units에게 Maximum Health 1% + 100,000|c00379BFF Magical Damage|r을 입히고 2초간 스턴시킵니다.";
 -- [ACc3]
 -- amat
 		t["ACc3"][1][1] = "gungnir new.mdx";
@@ -2778,7 +2778,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- anam
 		t["ACfn"][4][1] = "[향림당]";
 -- aub1 1
-		t["ACfn"][5][1] = "*자경단 보스에게 사용할 수 있습니다. 사용시 전체 체력의 4%에 해당하는  True Damage를 입히고, 5 seconds간 기절시킵니다.\r\
+		t["ACfn"][5][1] = "*자경단 보스에게 사용할 수 있습니다. 사용시 Maximum Health 4%에 해당하는  True Damage를 입히고, 5 seconds간 기절시킵니다.\r\
 *Cooldown 120 seconds";
 -- aart
 -- [AId0]
@@ -2799,7 +2799,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- anam
 -- aub1 1
 		t["ACt2"][8][1] = "*사용식 능력 : 아운이 5 seconds간 집중합니다. 집중을 마친 뒤 아운이 마지막 포효를 내지릅니다. 마지막 포효는 1000범위 내의 적 Units을 모두 제거합니다. \r\
-*보스 Units에게는 전체 체력의 60%에 해당하는 |c00AC59FF True Damage|r를 입힙니다. 사용 후 아운은 제거됩니다.\r\
+*보스 Units에게는 Maximum Health 60%에 해당하는 |c00AC59FF True Damage|r를 입힙니다. 사용 후 아운은 제거됩니다.\r\
 *85라운드 이후에는 효과가 발동하지 않습니다.\r\
 [스토리 보스에는 적용되지 않습니다]";
 -- [AId7]
@@ -2878,9 +2878,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["AIbx"][4][1] = "신귀 『레밀리아 스토커』";
 -- aub1 1
 		t["AIbx"][5][1] = "*레밀리아가 공격시 12% 확률로 아래의 액션을 발동합니다. 발동할때마다 다음의 액션으로 이동하며, 3번째 액션이 종료된 이후 첫번째로 돌아갑니다.\r\
-[1타 - 레밀리아가 대상 지점을 할퀴며 Current Health의 0.4% + 80,000의 |c00FF6464 Physical Damage|r를 입힙니다.]\r\
-[2타 - 레밀리아가 대상 지점을 내려찍어잃은 체력의 0.7% + 80,000의 |c00FF6464 Physical Damage|r를 입힙니다.]\r\
-[3타 - 레밀리아가 창으로 전방을 꿰뚫어 전체 체력의 0.5% + 80,000의 |c00FF6464 Physical Damage|r를 입힙니다.]";
+[1타 - 레밀리아가 대상 지점을 할퀴며 Current Health의 0.4% + 80,000|c00FF6464 Physical Damage|r를 입힙니다.]\r\
+[2타 - 레밀리아가 대상 지점을 내려찍어잃은 체력의 0.7% + 80,000|c00FF6464 Physical Damage|r를 입힙니다.]\r\
+[3타 - 레밀리아가 창으로 전방을 꿰뚫어 Maximum Health 0.5% + 80,000|c00FF6464 Physical Damage|r를 입힙니다.]";
 -- atar 1
 -- atar 2
 -- atar 3
@@ -2946,7 +2946,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["AOcl"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUnsummonBuilding.blp";
 -- arac
 -- aub1 1
-		t["AOcl"][8][1] = "*시리코다마를 5개 만들때마다 뽑아낸 시리코다마를 이용해 시리듐 원자로를 만들어 폭발시킵니다. Around yourself 1000범위 내에 있는 적에게 3초의 스턴과 전체 체력의 3% + 400,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["AOcl"][8][1] = "*시리코다마를 5개 만들때마다 뽑아낸 시리코다마를 이용해 시리듐 원자로를 만들어 폭발시킵니다. Around yourself 1000범위 내에 있는 적에게 3초의 스턴과 Maximum Health 3% + 400,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -2971,7 +2971,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aub1 5
 -- aub1 6
 		t["AOcl"][25][1] = "*사용식 능력 : 대상의 엉덩이에서 구슬을 뽑아내 즉사시킵니다. Cooldown 12초\r\
-*시리코다마를 6개 만들때마다 뽑아낸 시리코다마를 이용해 시리듐 원자로를 만들어 폭발시킵니다. Around yourself 1000범위 내에 있는 적에게 1.5 seconds의 스턴과 전체 체력의 1% + 400,000의  Magical Damage를 입힙니다.";
+*시리코다마를 6개 만들때마다 뽑아낸 시리코다마를 이용해 시리듐 원자로를 만들어 폭발시킵니다. Around yourself 1000범위 내에 있는 적에게 1.5 seconds의 스턴과 Maximum Health 1% + 400,000 Magical Damage를 입힙니다.";
 -- [ANst]
 -- aefs
 -- aefl
@@ -3064,7 +3064,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- aub1 1
 		t["ACmf"][3][1] = "*공격시 마나를 1씩 회복합니다. 마나 175에 발동합니다.\r\
 *Mima가 대상 지점 위로 0.3초마다 5개의 마법진을 설치합니다. 5개의 마법진이 모두 생성되면, 마법진을 통해 강력한 마력을 방출하여 대상 지점을 공격합니다.\r\
-*500범위 내의 적에게 전체 체력의 2.5% + 400,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*500범위 내의 적에게 Maximum Health 2.5% + 400,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 오중마법진은 Upgrade 효과의 스킬 데미지 증가치를 2배로 적용받습니다.\r\
 *이 스킬을 사용하여 오중마법진의 발동을 유보할 수 있습니다. 유보된 오중 마법진은 마나 250에 발동하며, 데미지가 2배가 됩니다.";
 -- auu1 1
@@ -3111,22 +3111,22 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 		t["ANms"][6][1] = "WLEN-Z-ss.blp";
 -- aub1 1
 		t["ANms"][7][1] = "*|c00FF80FF[활력]|r - 4초\r\
-요우무가 공격한 대상 적 전체 체력의 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
+요우무가 공격한 대상 적 Maximum Health 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
 [보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 단미검『미진지향참』\r\
 \r\
 *공격시 마나를 2 회복합니다. 마나가 100이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
-*범위 내의 적에게 전체 체력의 1% + 200,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*범위 내의 적에게 Maximum Health 1% + 200,000|c00AC59FF True Damage|r를 입힙니다.";
 -- auu1 1
 		t["ANms"][8][1] = "*|c00FF80FF[활력]|r - 4초\r\
-요우무가 공격한 대상 적 전체 체력의 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
+요우무가 공격한 대상 적 Maximum Health 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
 [보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 단미검『미진지향참』\r\
 \r\
 *공격시 마나를 2 회복합니다. 마나가 150이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
-*범위 내의 적에게 전체 체력의 1% + 200,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*범위 내의 적에게 Maximum Health 1% + 200,000|c00AC59FF True Damage|r를 입힙니다.";
 -- anam
 -- abuf 1
 		t["ANms"][10][1] = "B05X";
@@ -3244,7 +3244,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- auu1 1
 		t["ACim"][2][1] = "*스미레코는 꿈을 통해 환상향을 드나들 수 있습니다. 스미레코의 현 상태에 따라서 이 스킬의 효과가 달라집니다.\r\
 [이 스킬을 사용하여, 현실과 꿈을 오갈 수 있습니다.]\r\
-*스미레코가 공격시 10% 확률로 대상 주변 450범위 내의 적에게 175,000의 |c00FF6464 Physical Damage|r를 입히고 이하의 효과를 입힙니다.\r\
+*스미레코가 공격시 10% 확률로 대상 주변 450범위 내의 적에게 175,000|c00FF6464 Physical Damage|r를 입히고 이하의 효과를 입힙니다.\r\
 [현실 : Current Health의 0.6%의 |c00FF6464 Physical Damage|r가 추가됩니다.]\r\
 [꿈 : 범위 내의 적을 2.2초간 스턴시킵니다.]";
 -- ahky
@@ -3966,7 +3966,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A01W"][2][1] = "구부『레이비즈 바이트』";
 -- aub1 1
-		t["A01W"][3][1] = "＊공격 시 25% 확률로 대상을 물어뜯어 0.5 seconds 동안 0.05 seconds마다 250의 |c00379BFF마법 피해|r를 가하고 Movement Speed를 45% 감소시킨다.";
+		t["A01W"][3][1] = "＊공격 시 25% 확률로 대상을 물어뜯어 0.5 seconds 동안 0.05 seconds마다 250|c00379BFF마법 피해|r를 가하고 Movement Speed를 45% 감소시킨다.";
 -- anam
 		t["A01W"][4][1] = "[Rare]모미지_R";
 -- aart
@@ -3992,14 +3992,14 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 2
 		t["A01Y"][7][1] = "독부『카마키 코마치』Extra";
 -- aub1 2
-		t["A01Y"][8][1] = "300범위안의 적들에게 병세를 옮겨 6초동안 초당 1450의 데미지를 줍니다. 그러나 병뿐이기 때문에 이 공격으로인한 데미지에는 죽지 않습니다.";
+		t["A01Y"][8][1] = "300범위안의 적들에게 병세를 옮겨 6초동안 초당 1450데미지를 줍니다. 그러나 병뿐이기 때문에 이 공격으로인한 데미지에는 죽지 않습니다.";
 -- [A01Z]
 -- arac
 -- atp1 1
 		t["A01Z"][2][1] = "『플럭 피젼』- |c0080A8E6Ascended|r";
 -- aub1 1
 		t["A01Z"][3][1] = "*시온이 공격시 10% 확률로 자신이 받는 돈을 빈곤운으로 바꾸어 적에게 데미지를 입힙니다. \r\
-*스킬 발동시 금을 0.1% 소모하며, 적 전체 체력의 0.5% + 100,000의 |c00FF6464 Physical Damage|r를 대상 주변 450범위에 입힙니다.\r\
+*스킬 발동시 금을 0.1% 소모하며, 적 Maximum Health 0.5% + 100,000|c00FF6464 Physical Damage|r를 대상 주변 450범위에 입힙니다.\r\
 *위 데미지는 소유 골드 350당 1%씩 증가합니다.";
 -- anam
 		t["A01Z"][4][1] = "[시온]";
@@ -4156,8 +4156,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A02Q"][2][1] = "허사『환상향전설』";
 -- aub1 1
-		t["A02Q"][3][1] = "*공격시 15% 확률로 대상 Units을 1.5 seconds간 스턴시키고 전체 체력의 9%의 |c00379BFF Magical Damage|r를 입힙니다. \r\
-[보스에게는 125,000의 |c00379BFF Magical Damage|r를 입힙니다.]\r\
+		t["A02Q"][3][1] = "*공격시 15% 확률로 대상 Units을 1.5 seconds간 스턴시키고 Maximum Health 9%의 |c00379BFF Magical Damage|r를 입힙니다. \r\
+[보스에게는 125,000|c00379BFF Magical Damage|r를 입힙니다.]\r\
 *자신의 로스트 Cooldown이 15 seconds에서 10 seconds로 감소합니다.";
 -- anam
 		t["A02Q"][4][1] = "[Phantasm][케이네]허사『환상향전설』";
@@ -4169,7 +4169,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A02R"][2][1] = "주부『유령선 장기정박』";
 -- aub1 1
-		t["A02R"][3][1] = "＊|c002C62EA[Mana]|r - 135 : 공격 시 마력 1 회복, 자신의 뒤에서 유령선을 호출하여 목표 지점 400 범위를 4초 동안 포격합니다. 1초마다 전체 체력 1.5% + 200,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A02R"][3][1] = "＊|c002C62EA[Mana]|r - 135 : 공격 시 마력 1 회복, 자신의 뒤에서 유령선을 호출하여 목표 지점 400 범위를 4초 동안 포격합니다. 1초마다 전체 체력 1.5% + 200,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 -- [A02T]
@@ -4192,8 +4192,8 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000의 |c00FF6
 -- atp1 1
 		t["A02V"][3][1] = "토부『이나바의 흰 토끼』";
 -- aub1 1
-		t["A02V"][4][1] = "＊Around yourself 500 범위의 적 방어력을 5 감소시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.";
+		t["A02V"][4][1] = "＊Defense -5 in a 500 AoE.\r\
+|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.";
 -- aart
 		t["A02V"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNSpellBreakerMagicDefend.blp";
 -- abuf 1
@@ -4291,8 +4291,8 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A034"][2][1] = "한부『콜드 스냅』";
 -- aub1 1
-		t["A034"][3][1] = "*공격시 50% 확률로 대상 Units에게 한기를 불어넣습니다. 대상 Units은 0.3초간 스턴되며, Current Health의 1% + 85,000의 |c00379BFF Magical Damage|r를 입습니다.\r\
-[보스에게는 40,000의 |c00379BFF Magical Damage|r]\r\
+		t["A034"][3][1] = "*공격시 50% 확률로 대상 Units에게 한기를 불어넣습니다. 대상 Units은 0.3초간 스턴되며, Current Health의 1% + 85,000|c00379BFF Magical Damage|r를 입습니다.\r\
+[보스에게는 40,000|c00379BFF Magical Damage|r]\r\
 *위 효과가 발동했을때,『노던 위너』의 활력 Cooldown을 0.3초 감소시킵니다.";
 -- anam
 		t["A034"][4][1] = "[Phantasm][레티]";
@@ -4312,23 +4312,23 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 1
 		t["A035"][9][1] = "Wriggle Nightbug[Epic]  + Star Sapphire[Rare] + Sunny Milk[Rare] + Luna Child[Rare] + 1 Unique Soul ";
 -- aub1 3
-		t["A035"][10][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65,000의  Magical Damage를 입힙니다.\r\
+		t["A035"][10][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65,000 Magical Damage를 입힙니다.\r\
 \r\
 1단계 진화 : 휘두르기 범위 내의 적이 받는  Magical Damage를 20% 증폭시킵니다.\r\
 |c00EEA0112단계 진화|r : 휘두르기 범위 내의 적이 받는  Magical Damage를 30% 증폭시킵니다.\r\
-3단계 진화 : 65,000의  Magical Damage가 추가됩니다.";
+3단계 진화 : 65,000 Magical Damage가 추가됩니다.";
 -- aub1 4
-		t["A035"][11][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65,000의  Magical Damage를 입힙니다.\r\
+		t["A035"][11][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65,000 Magical Damage를 입힙니다.\r\
 \r\
 1단계 진화 : 휘두르기 범위 내의 적이 받는  Magical Damage를 20% 증폭시킵니다.\r\
 2단계 진화 : 휘두르기 범위 내의 적이 받는  Magical Damage를 30% 증폭시킵니다.\r\
-|c00EEA0113단계 진화|r : 65,000의  Magical Damage가 추가됩니다.";
+|c00EEA0113단계 진화|r : 65,000 Magical Damage가 추가됩니다.";
 -- aub1 2
-		t["A035"][12][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65,000의  Magical Damage를 입힙니다.\r\
+		t["A035"][12][1] = "이쿠가 공격시 10% 확률로 자신의 깃옷을 강하게 휘둘러 기류를 뿜어냅니다. 기본적으로 이쿠 주변 600범위에 65,000 Magical Damage를 입힙니다.\r\
 \r\
 |c00EEA0111단계 진화|r : 휘두르기 범위 내의 적이 받는  Magical Damage를 20% 증폭시킵니다.\r\
 2단계 진화 : 휘두르기 범위 내의 적이 받는  Magical Damage를 30% 증폭시킵니다.\r\
-3단계 진화 : 65,000의  Magical Damage가 추가됩니다.";
+3단계 진화 : 65,000 Magical Damage가 추가됩니다.";
 -- acat
 		t["A035"][13][1] = "nrvl,h00W,h00J,h00U,h05U";
 -- alig
@@ -4342,7 +4342,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A036"][2][1] = "『사회부연』- 잔존 좀비 페어리 7마리";
 -- aub1 1
 		t["A036"][3][1] = "＊최대 4명을 추가로 공격한다.\r\
-＊공격 시 10% 확률로 대상에게 6,000의 |c00379BFF마법 피해|r를 가하고, 체력이 6,000 이하라면 15% 확률로 좀비 페어리로 만든다.";
+＊공격 시 10% 확률로 대상에게 6,000|c00379BFF마법 피해|r를 가하고, 체력이 6,000 이하라면 15% 확률로 좀비 페어리로 만든다.";
 -- amat
 		t["A036"][5][1] = "Abilities\\Weapons\\MeatwagonMissile\\MeatwagonMissile.mdl";
 -- atar 1
@@ -4420,7 +4420,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 7
 -- aub1 8
 		t["A036"][71][1] = "＊최대 4명을 추가로 공격한다.\r\
-＊공격 시 10% 확률로 대상에게 6,000의 |c00379BFF마법 피해|r를 가한다.";
+＊공격 시 10% 확률로 대상에게 6,000|c00379BFF마법 피해|r를 가한다.";
 -- aub1 9
 		t["A036"][72][1] = "공격범위안에 있는 적들을 같이 공격하지만, 데미지가 줄어들게 됩니다.";
 -- aub1 10
@@ -4629,68 +4629,68 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A038"][36][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 16000의 데미지를 입습니다.";
+		t["A038"][36][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 16000데미지를 입습니다.";
 -- aub1 3
-		t["A038"][37][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 17000의 데미지를 입습니다.";
+		t["A038"][37][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 17000데미지를 입습니다.";
 -- aub1 4
-		t["A038"][38][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 18000의 데미지를 입습니다.";
+		t["A038"][38][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 18000데미지를 입습니다.";
 -- aub1 5
-		t["A038"][39][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 19000의 데미지를 입습니다.";
+		t["A038"][39][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 19000데미지를 입습니다.";
 -- aub1 6
-		t["A038"][40][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 20000의 데미지를 입습니다.";
+		t["A038"][40][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 20000데미지를 입습니다.";
 -- aub1 7
-		t["A038"][41][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 21000의 데미지를 입습니다.";
+		t["A038"][41][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 21000데미지를 입습니다.";
 -- aub1 8
-		t["A038"][42][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 22000의 데미지를 입습니다.";
+		t["A038"][42][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 22000데미지를 입습니다.";
 -- aub1 9
-		t["A038"][43][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 23000의 데미지를 입습니다.";
+		t["A038"][43][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 23000데미지를 입습니다.";
 -- aub1 11
-		t["A038"][44][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 25000의 데미지를 입습니다.";
+		t["A038"][44][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 25000데미지를 입습니다.";
 -- aub1 10
-		t["A038"][45][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 24000의 데미지를 입습니다.";
+		t["A038"][45][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 24000데미지를 입습니다.";
 -- aub1 12
-		t["A038"][46][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 26000의 데미지를 입습니다.";
+		t["A038"][46][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 26000데미지를 입습니다.";
 -- aub1 13
-		t["A038"][47][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 27000의 데미지를 입습니다.";
+		t["A038"][47][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 27000데미지를 입습니다.";
 -- aub1 14
-		t["A038"][48][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 28000의 데미지를 입습니다.";
+		t["A038"][48][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 28000데미지를 입습니다.";
 -- aub1 15
-		t["A038"][49][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 29000의 데미지를 입습니다.";
+		t["A038"][49][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 29000데미지를 입습니다.";
 -- aub1 16
-		t["A038"][50][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 30000의 데미지를 입습니다.";
+		t["A038"][50][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 30000데미지를 입습니다.";
 -- aub1 17
-		t["A038"][51][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 31000의 데미지를 입습니다.";
+		t["A038"][51][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 31000데미지를 입습니다.";
 -- aub1 18
-		t["A038"][52][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 32000의 데미지를 입습니다.";
+		t["A038"][52][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 32000데미지를 입습니다.";
 -- aub1 19
-		t["A038"][53][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 33000의 데미지를 입습니다.";
+		t["A038"][53][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 33000데미지를 입습니다.";
 -- aub1 20
-		t["A038"][54][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 34000의 데미지를 입습니다.";
+		t["A038"][54][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 34000데미지를 입습니다.";
 -- aub1 21
-		t["A038"][55][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 35000의 데미지를 입습니다.";
+		t["A038"][55][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 35000데미지를 입습니다.";
 -- aub1 22
-		t["A038"][56][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 36000의 데미지를 입습니다.";
+		t["A038"][56][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 36000데미지를 입습니다.";
 -- aub1 24
-		t["A038"][57][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 38000의 데미지를 입습니다.";
+		t["A038"][57][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 38000데미지를 입습니다.";
 -- aub1 25
-		t["A038"][58][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 39000의 데미지를 입습니다.";
+		t["A038"][58][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 39000데미지를 입습니다.";
 -- aub1 23
-		t["A038"][59][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 37000의 데미지를 입습니다.";
+		t["A038"][59][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 37000데미지를 입습니다.";
 -- aub1 26
-		t["A038"][60][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 40000의 데미지를 입습니다.";
+		t["A038"][60][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 40000데미지를 입습니다.";
 -- aub1 27
-		t["A038"][61][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 41000의 데미지를 입습니다.";
+		t["A038"][61][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 41000데미지를 입습니다.";
 -- aub1 29
-		t["A038"][62][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 43000의 데미지를 입습니다.";
+		t["A038"][62][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 43000데미지를 입습니다.";
 -- aub1 28
-		t["A038"][63][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 42000의 데미지를 입습니다.";
+		t["A038"][63][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 42000데미지를 입습니다.";
 -- aub1 30
-		t["A038"][64][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 44000의 데미지를 입습니다.";
+		t["A038"][64][1] = "공격시 25%확률로 레이무의 양쪽주변에서 공격대상을 향해 강력한 웨이브를 발사합니다. 웨이브에 닿인적은 44000데미지를 입습니다.";
 -- aub1 31
 -- [A03A]
 -- aub1 1
 		t["A03A"][1][1] = "＊Around yourself 600 범위의 적 Movement Speed를 10% 감소시킵니다.\r\
-＊공격 시 10% 확률로 지옥불이 솟아나 대상 주변 400 범위의 적에게 전체 체력의 0.3% + 50,000의 |c00379BFF마법 피해|r를 가합니다.";
+＊공격 시 10% 확률로 지옥불이 솟아나 대상 주변 400 범위의 적에게 Maximum Health 0.3% + 50,000|c00379BFF마법 피해|r를 가합니다.";
 -- atar 1
 -- atp1 1
 		t["A03A"][4][1] = "옥염『그레이즈 인페르노』";
@@ -4792,7 +4792,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- aub1 2
 		t["A03A"][98][1] = "*Clownpiece 주변 900범위 적의 Movement Speed를 16% 감소시킵니다.\r\
-*공격시 11% 확률로 공격한 적 주변 450범위에 불꽃의 폭발을 일으킵니다. 이 폭발은 범위 내의 적에게 적 Current Health의 0.6% + 50,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+*공격시 11% 확률로 공격한 적 주변 450범위에 불꽃의 폭발을 일으킵니다. 이 폭발은 범위 내의 적에게 적 Current Health의 0.6% + 50,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aub1 3
 		t["A03A"][99][1] = "주변 600범위의 적군의 Movement Speed를 8% 떨어뜨립니다.";
 -- aub1 4
@@ -4834,7 +4834,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A03C"][2][1] = "연부『마스터 스파크』";
 -- aub1 1
-		t["A03C"][3][1] = "＊공격 시 10% 확률로 전방 800 범위의 적에게 7,000의 |c00379BFF마법 피해|r를 가한다.";
+		t["A03C"][3][1] = "＊공격 시 10% 확률로 전방 800 범위의 적에게 7,000|c00379BFF마법 피해|r를 가한다.";
 -- anam
 -- aart
 		t["A03C"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp";
@@ -4968,47 +4968,47 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 27
 -- atp1 30
 -- aub1 2
-		t["A03D"][38][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 20000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][38][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 20000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 3
-		t["A03D"][39][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 22000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][39][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 22000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 4
-		t["A03D"][40][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 24000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][40][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 24000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 6
-		t["A03D"][41][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 28000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][41][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 28000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 5
-		t["A03D"][42][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 26000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][42][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 26000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 7
-		t["A03D"][43][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 30000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][43][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 30000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 8
-		t["A03D"][44][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 32000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][44][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 32000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 9
-		t["A03D"][45][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 34000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][45][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 34000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 10
-		t["A03D"][46][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 36000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][46][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 36000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 11
-		t["A03D"][47][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 38000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][47][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 38000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 12
-		t["A03D"][48][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 40000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][48][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 40000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 13
-		t["A03D"][49][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 42000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][49][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 42000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 14
-		t["A03D"][50][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 44000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][50][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 44000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 15
-		t["A03D"][51][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 46000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][51][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 46000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 16
-		t["A03D"][52][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 48000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][52][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 48000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 17
-		t["A03D"][53][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 50000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][53][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 50000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 19
-		t["A03D"][54][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 54000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][54][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 54000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 18
-		t["A03D"][55][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 52000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][55][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 52000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 20
-		t["A03D"][56][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 56000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][56][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 56000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 21
-		t["A03D"][57][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 58000의 데미지와 1초의 스턴을 입힙니다.";
+		t["A03D"][57][1] = "공격시 10%의 확률로 대상 지점에 폭발을 일으켜 주변 600범위에 58000데미지와 1초의 스턴을 입힙니다.";
 -- aub1 22
-		t["A03D"][58][1] = "공격시 15%의 확률로 대상에게 불꽃탄을 던져 36000데미지를 주고 주변 300범위에 2.5 seconds간 초당 21000의 데미지를 줍니다.";
+		t["A03D"][58][1] = "공격시 15%의 확률로 대상에게 불꽃탄을 던져 36000데미지를 주고 주변 300범위에 2.5 seconds간 초당 21000데미지를 줍니다.";
 -- aub1 23
 -- aub1 24
 -- aub1 25
@@ -5018,10 +5018,10 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A03D"][67][1] = "공격시 15%의 확률로 대상에게 불꽃탄을 던져 48000데미지를 주고 주변 300범위에 2.5 seconds간 초당 28000의 데미지를 줍니다.";
+		t["A03D"][67][1] = "공격시 15%의 확률로 대상에게 불꽃탄을 던져 48000데미지를 주고 주변 300범위에 2.5 seconds간 초당 28000데미지를 줍니다.";
 -- [A03M]
 -- aub1 1
-		t["A03M"][1][1] = "*모미지가 공격시 15% 확률로 Around yourself 650범위를 검으로 휩쓸어냅니다. 적의 전체 체력의 1% + 135,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A03M"][1][1] = "*모미지가 공격시 15% 확률로 Around yourself 650범위를 검으로 휩쓸어냅니다. 적의 Maximum Health 1% + 135,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *위 효과가 발동할 경우 20% 확률로 극대화 효과가 발동합니다. 극대화 효과 발동시 데미지가 [2~3.5배]로 적용됩니다.";
 -- anam
 		t["A03M"][3][1] = "[Arcana][모미지]";
@@ -5110,19 +5110,19 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 3
 -- atp1 4
 -- aub1 3
-		t["A03V"][11][1] = "이쿠가 공격시 12% 확률로 자신의 위치에 번개를 치게 합니다. 이쿠는 그 번개를 그대로 적에게 흘려 데미지와 스턴 효과를 줍니다. 기본적으로 85,000의  Magical Damage와 Around yourself 600범위에 1.1초의 스턴을 입힙니다.\r\
+		t["A03V"][11][1] = "이쿠가 공격시 12% 확률로 자신의 위치에 번개를 치게 합니다. 이쿠는 그 번개를 그대로 적에게 흘려 데미지와 스턴 효과를 줍니다. 기본적으로 85,000 Magical Damage와 Around yourself 600범위에 1.1초의 스턴을 입힙니다.\r\
 \r\
 1단계 진화 : 추가로 3초간 지속되는 55%의 슬로우 효과를 주며 데미지가 150000 상승합니다.\r\
 |c00EEA0112단계 진화|r : 스턴 시간이 1.5 seconds로 늘어나며 슬로우 지속 시간이 5 seconds로 늘어납니다.\r\
 3단계 진화 :  Magical Damage가 50% 상승합니다.";
 -- aub1 4
-		t["A03V"][12][1] = "이쿠가 공격시 12% 확률로 자신의 위치에 번개를 치게 합니다. 이쿠는 그 번개를 그대로 적에게 흘려 데미지와 스턴 효과를 줍니다. 기본적으로 85,000의  Magical Damage와 Around yourself 600범위에 1.1초의 스턴을 입힙니다.\r\
+		t["A03V"][12][1] = "이쿠가 공격시 12% 확률로 자신의 위치에 번개를 치게 합니다. 이쿠는 그 번개를 그대로 적에게 흘려 데미지와 스턴 효과를 줍니다. 기본적으로 85,000 Magical Damage와 Around yourself 600범위에 1.1초의 스턴을 입힙니다.\r\
 \r\
 1단계 진화 : 추가로 3초간 지속되는 55%의 슬로우 효과를 주며 데미지가 150000 상승합니다.\r\
 2단계 진화 : 스턴 시간이 1.5 seconds로 늘어나며 슬로우 지속 시간이 5 seconds로 늘어납니다.\r\
 |c00EEA0113단계 진화|r :  Magical Damage가 50% 상승합니다.";
 -- aub1 2
-		t["A03V"][13][1] = "이쿠가 공격시 12% 확률로 자신의 위치에 번개를 치게 합니다. 이쿠는 그 번개를 그대로 적에게 흘려 데미지와 스턴 효과를 줍니다. 기본적으로 85,000의  Magical Damage와 Around yourself 600범위에 1.1초의 스턴을 입힙니다.\r\
+		t["A03V"][13][1] = "이쿠가 공격시 12% 확률로 자신의 위치에 번개를 치게 합니다. 이쿠는 그 번개를 그대로 적에게 흘려 데미지와 스턴 효과를 줍니다. 기본적으로 85,000 Magical Damage와 Around yourself 600범위에 1.1초의 스턴을 입힙니다.\r\
 \r\
 |c00EEA0111단계 진화|r : 추가로 3초간 지속되는 55%의 슬로우 효과를 주며 데미지가 150000 상승합니다.\r\
 2단계 진화 : 스턴 시간이 1.5 seconds로 늘어나며 슬로우 지속 시간이 5 seconds로 늘어납니다.\r\
@@ -5138,8 +5138,8 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 1
 		t["A03W"][1][1] = "|c00FF8000\"진정한 불자는 눈으로 설법한다\"|r\r\
 *뱌쿠렌이 공격시 마나를 1씩 회복합니다. 마나가 150이 됐을때 발동합니다.\r\
-*뱌쿠렌이 범천의 법력을 모아 대상 지점을 빛으로 포격합니다. 대상 지점 주변 350범위 적에게 650,000의 |c00FF6464 Physical Damage|r를 입히고, 뱌쿠렌의 스킬 랭크에 따라 이하의 추가 효과가 발생합니다.\r\
-[비루다카의 검 - EX] : 적 전체 체력의 2%에 해당하는  Physical Damage 추가\r\
+*뱌쿠렌이 범천의 법력을 모아 대상 지점을 빛으로 포격합니다. 대상 지점 주변 350범위 적에게 650,000|c00FF6464 Physical Damage|r를 입히고, 뱌쿠렌의 스킬 랭크에 따라 이하의 추가 효과가 발생합니다.\r\
+[비루다카의 검 - EX] : 적 Maximum Health 2%에 해당하는  Physical Damage 추가\r\
 [하누만의 춤 - EX] : 타격 범위 350에서 550으로 증가\r\
 [스타소드의 호법 - EX] : 발동시 마나 25를 돌려받음";
 -- anam
@@ -5181,65 +5181,65 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 27
 -- atp1 30
 -- aub1 2
-		t["A03W"][38][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][38][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42000데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 3
-		t["A03W"][39][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 54000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][39][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 54000데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 4
-		t["A03W"][40][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][40][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 6
-		t["A03W"][41][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][41][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 5
-		t["A03W"][42][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000의 데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
+		t["A03W"][42][1] = "공격시 10%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000데미지를 주고 0.4초간 기절시킵니다. 트랩이 4초안에 폭발하지 못할 경우 사라집니다.";
 -- aub1 7
-		t["A03W"][43][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][43][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 66000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 8
-		t["A03W"][44][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][44][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 9
-		t["A03W"][45][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][45][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 78000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 10
-		t["A03W"][46][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 84000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][46][1] = "공격시 12%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 84000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 11
-		t["A03W"][47][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 40000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][47][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 40000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 12
-		t["A03W"][48][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][48][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 42500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 13
-		t["A03W"][49][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 45000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][49][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 45000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 14
-		t["A03W"][50][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 47500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][50][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 47500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 15
-		t["A03W"][51][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 50000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][51][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 50000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 16
-		t["A03W"][52][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 52500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][52][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 52500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 17
-		t["A03W"][53][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 55000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][53][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 55000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 19
-		t["A03W"][54][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 60000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][54][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 60000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 18
-		t["A03W"][55][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 57500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][55][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 57500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 20
-		t["A03W"][56][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 62500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][56][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 62500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 21
-		t["A03W"][57][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 65000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][57][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 65000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 22
-		t["A03W"][58][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 67500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][58][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 67500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 23
-		t["A03W"][59][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 70000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][59][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 70000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 24
-		t["A03W"][60][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][60][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 72500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 25
-		t["A03W"][61][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 75000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][61][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 75000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 26
-		t["A03W"][62][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 77500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][62][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 77500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 27
-		t["A03W"][63][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 80000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][63][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 80000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 28
-		t["A03W"][64][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 82500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][64][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 82500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 29
-		t["A03W"][65][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 85000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][65][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 85000데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 30
-		t["A03W"][66][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 87500의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][66][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 87500데미지를 주고 0.6초간 기절시킵니다.";
 -- aub1 31
-		t["A03W"][67][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000의 데미지를 주고 0.6초간 기절시킵니다.";
+		t["A03W"][67][1] = "공격시 15%의 확률로 발동합니다. 발동시 522의 Movement Speed를 가진 트랩을 하나 소환합니다. 이 트랩은 스스로 적을 찾아가 폭팔하면서 400범위에 90000데미지를 주고 0.6초간 기절시킵니다.";
 -- [A041]
 -- arac
 -- atp1 1
@@ -5542,37 +5542,37 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 27
 -- atp1 30
 -- aub1 2
-		t["A04B"][37][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 3000의 데미지를 입습니다.";
+		t["A04B"][37][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 3000데미지를 입습니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 6
-		t["A04B"][40][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 4500의 데미지를 입습니다.";
+		t["A04B"][40][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 4500데미지를 입습니다.";
 -- aub1 5
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A04B"][46][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 6000의 데미지를 입습니다.";
+		t["A04B"][46][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 6000데미지를 입습니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A04B"][51][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 7500의 데미지를 입습니다.";
+		t["A04B"][51][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 7500데미지를 입습니다.";
 -- aub1 17
 -- aub1 19
 -- aub1 18
 -- aub1 20
 -- aub1 21
-		t["A04B"][56][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 9000의 데미지를 입습니다.";
+		t["A04B"][56][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 9000데미지를 입습니다.";
 -- aub1 22
-		t["A04B"][57][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 7000의 데미지를 입습니다.";
+		t["A04B"][57][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 7000데미지를 입습니다.";
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A04B"][61][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 8000의 데미지를 입습니다.";
+		t["A04B"][61][1] = "공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 8000데미지를 입습니다.";
 -- aub1 27
 -- aub1 28
 -- aub1 29
@@ -5920,47 +5920,47 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 3
 		t["A04I"][39][1] = "코마치의 Normal 공격은 대상의 방어력을 35,000큼 감소시킨 후 데미지가 들어갑니다.";
 -- aub1 4
-		t["A04I"][40][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 2000의 데미지를 입습니다.";
+		t["A04I"][40][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 2000데미지를 입습니다.";
 -- aub1 6
-		t["A04I"][41][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 4000의 데미지를 입습니다.";
+		t["A04I"][41][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 4000데미지를 입습니다.";
 -- aub1 5
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A04I"][47][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 6000의 데미지를 입습니다.";
+		t["A04I"][47][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 6000데미지를 입습니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A04I"][52][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 8000의 데미지를 입습니다.";
+		t["A04I"][52][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 8000데미지를 입습니다.";
 -- aub1 17
 -- aub1 19
 -- aub1 18
 -- aub1 20
 -- aub1 21
-		t["A04I"][57][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 10000의 데미지를 입습니다.";
+		t["A04I"][57][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 10000데미지를 입습니다.";
 -- aub1 22
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A04I"][62][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 12000의 데미지를 입습니다.";
+		t["A04I"][62][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 12000데미지를 입습니다.";
 -- aub1 27
 -- aub1 28
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A04I"][67][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 14000의 데미지를 입습니다.";
+		t["A04I"][67][1] = "공격시 33%의 확률로 발동됩니다. 공격한 대상쪽으로 부채꼴형태의 탄막을 발사합니다. 닿인적은 14000데미지를 입습니다.";
 -- [A04G]
 -- arac
 -- atp1 1
 		t["A04G"][2][1] = "『환시 - 신계』- |c00AC59FF Physical Damage|r";
 -- aub1 1
 		t["A04G"][3][1] = "*|c00FF80FF[활력]|r - 10 seconds\r\
-공격시 Around yourself 600범위 적에게 전체 체력의 (2~3.5%) + 300,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+공격시 Around yourself 600범위 적에게 Maximum Health (2~3.5%) + 300,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -5997,7 +5997,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- aub1 2
 		t["A04G"][36][1] = "*|c00FF80FF[활력]|r - 10 seconds\r\
-공격시 Around yourself 600범위 적에게 전체 체력의 (2~3.5%) + 300,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+공격시 Around yourself 600범위 적에게 Maximum Health (2~3.5%) + 300,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aub1 3
 		t["A04G"][37][1] = "공격시 10%확률로 공격한 Units 주변 400범위의 적의 역사를 지워 25000+(공격한 Units의 Current Health의 1%)의 데미지를 줍니다. 보스에게는 통하지 않습니다.";
 -- aub1 4
@@ -6160,7 +6160,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A04R"][2][1] = "심판『정파리 심판』";
 -- aub1 1
-		t["A04R"][3][1] = "＊공격 시 18% 확률로 심판을 내려 대상 주변 400 범위의 적에게 105,000의 |c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.\r\
+		t["A04R"][3][1] = "＊공격 시 18% 확률로 심판을 내려 대상 주변 400 범위의 적에게 105,000|c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.\r\
 ＊공격한 적이 보스가 아니고 체력이 50% 이하라면, 전체 체력 1%의 |c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
@@ -6199,7 +6199,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04R"][36][1] = "＊공격 시 18% 확률로 심판을 내려 대상 주변 400 범위의 적에게 155,000의 |c00379BFF마법 피해|r를 가하고 1.8 seconds간 기절시킵니다.\r\
+		t["A04R"][36][1] = "＊공격 시 18% 확률로 심판을 내려 대상 주변 400 범위의 적에게 155,000|c00379BFF마법 피해|r를 가하고 1.8 seconds간 기절시킵니다.\r\
 ＊공격한 적이 보스가 아니고 체력이 50% 이하라면, 전체 체력 1%의 |c00379BFF마법 피해|r를 가합니다.";
 -- aub1 3
 		t["A04R"][37][1] = "매 공격시 마다 대상에게 |c00ffff00[3*(웨이브수*3)*(웨이브 잔류 몹*45)]|r 만큼의 데미지를 줍니다.";
@@ -6232,18 +6232,18 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 21
 		t["A04R"][55][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지를 추가로 줍니다.";
 -- aub1 22
-		t["A04R"][56][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 16000의 데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 감소합니다.";
+		t["A04R"][56][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 16000데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 감소합니다.";
 -- aub1 24
 -- aub1 25
 -- aub1 23
 -- aub1 26
-		t["A04R"][60][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 18000의 데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동합니다.";
+		t["A04R"][60][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 18000데미지를 줍니다. 이 전격은 최고 5명에게 옮겨 이동합니다.";
 -- aub1 27
 -- aub1 29
 -- aub1 28
 -- aub1 30
 -- aub1 31
-		t["A04R"][65][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 20000의 데미지를 줍니다. 이 전격은 최고 6명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 증가합니다.";
+		t["A04R"][65][1] = "3초마다 주변 800범위안의 Units들에게 전격을 발사하여 20000데미지를 줍니다. 이 전격은 최고 6명에게 옮겨 이동하며 이동할때마다 10%의 데미지가 증가합니다.";
 -- [A04S]
 -- arac
 -- aub1 1
@@ -6315,7 +6315,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04O"][36][1] = "*쇼우가 초당 마나를 1씩 쌓습니다. 쇼우의 마나가 35가 됐을때 대상 주변 650범위에 있는 적들에게 850000의  Magical Damage를 입히고, 3초간 35%의 Movement Speed 감소 효과를 입힙니다.\r\
+		t["A04O"][36][1] = "*쇼우가 초당 마나를 1씩 쌓습니다. 쇼우의 마나가 35가 됐을때 대상 주변 650범위에 있는 적들에게 850000 Magical Damage를 입히고, 3초간 35%의 Movement Speed 감소 효과를 입힙니다.\r\
 *이 데미지는 골드 100당 1%씩 상승하며, 최대 100%까지 상승합니다.";
 -- aub1 3
 		t["A04O"][37][1] = "매 웨이브가 끝날때마다, [Shou Toramaru의 수*((((골드 투자수 + (골드 도박 카운트/10) * 죽인 수) + 50)/(3500-(Upgrade*100)))*웨이브수)]만큼의 금을 줍니다.";
@@ -6351,7 +6351,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- arac
 -- atp1 1
 -- aub1 1
-		t["A04T"][3][1] = "＊공격 시 13% 확률로 레바테인을 휘둘러 대상 주변 400 범위의 적에게 전체 체력 0.4% + 120,000의 |c00379BFF마법 피해|r를 가합니다.\r\
+		t["A04T"][3][1] = "＊공격 시 13% 확률로 레바테인을 휘둘러 대상 주변 400 범위의 적에게 전체 체력 0.4% + 120,000|c00379BFF마법 피해|r를 가합니다.\r\
 ＊|c00C5EA53[Combination Synergy]|r핏빛달\r\
 -Remilia Scarlet[Arcana]가 존재할 경우, 레밀리아가 공격 시 0.5% 확률로 Q.E.D『495년의 파문』을 발동시킵니다.\r\
 [내부 Cooldown은 없습니다.]";
@@ -6391,13 +6391,13 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 2
 		t["A04T"][36][1] = "*플랑드르가 공격시 13% 확률로 폭발을 일으킵니다. 폭발은 400범위에 적 Current Health의 0.4% + 120,000에 해당하는  Magical Damage를 입히고, 1초간 스턴시킵니다.";
 -- aub1 3
-		t["A04T"][37][1] = "적을 공격시 40%확률로 Current Health의 31%와 240000의 데미지를 가합니다. Current Health의 31%가 340000이하일 경우 340000의 피해를 가합니다.";
+		t["A04T"][37][1] = "적을 공격시 40%확률로 Current Health의 31%와 240000데미지를 가합니다. Current Health의 31%가 340000이하일 경우 340000피해를 가합니다.";
 -- aub1 4
-		t["A04T"][38][1] = "적을 공격시 40%확률로 Current Health의 34%와 300000의 데미지를 가합니다. Current Health의 34%가 420000이하일 경우 420000의 피해를 가합니다.";
+		t["A04T"][38][1] = "적을 공격시 40%확률로 Current Health의 34%와 300000데미지를 가합니다. Current Health의 34%가 420000이하일 경우 420000피해를 가합니다.";
 -- aub1 5
-		t["A04T"][39][1] = "적을 공격시 40%확률로 Current Health의 37%와 360000의 데미지를 가합니다. Current Health의 37%가 500000이하일 경우 500000의 피해를 가합니다.";
+		t["A04T"][39][1] = "적을 공격시 40%확률로 Current Health의 37%와 360000데미지를 가합니다. Current Health의 37%가 500000이하일 경우 500000피해를 가합니다.";
 -- aub1 6
-		t["A04T"][40][1] = "적을 공격시 40%확률로 Current Health의 40%와 420000의 데미지를 가합니다. Current Health의 40%가 580000이하일 경우 580000의 피해를 가합니다. 보스 Units을 공격할시 3%확률로 전체체력의 1%만큼의   Magical Damage를 줍니다.";
+		t["A04T"][40][1] = "적을 공격시 40%확률로 Current Health의 40%와 420000데미지를 가합니다. Current Health의 40%가 580000이하일 경우 580000피해를 가합니다. 보스 Units을 공격할시 3%확률로 전체체력의 1%만큼의   Magical Damage를 줍니다.";
 -- aub1 7
 		t["A04T"][41][1] = "적을 공격시 50%확률로 대상 전체체력의 25%만큼의 데미지를 줍니다.";
 -- aub1 8
@@ -6553,7 +6553,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04W"][36][1] = "공격시 18% 확률로 대상 지점 주변 450범위에 820000의 데미지를 입힙니다. 전귀의 수호를 받을때는  Physical Damage를, 후귀의 수호를 받을때는  Magical Damage를 입힙니다.";
+		t["A04W"][36][1] = "공격시 18% 확률로 대상 지점 주변 450범위에 820000데미지를 입힙니다. 전귀의 수호를 받을때는  Physical Damage를, 후귀의 수호를 받을때는  Magical Damage를 입힙니다.";
 -- aub1 3
 		t["A04W"][37][1] = "매 공격시 25%의 확률로 2초동안 0.25 seconds당 7,000 데미지의 탄막을 무작위 범위에 발사합니다.";
 -- aub1 4
@@ -6573,15 +6573,15 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 10
 		t["A04W"][45][1] = "매 공격시 25%의 확률로 2초동안 0.25 seconds당 14,000 데미지의 탄막을 무작위 범위에 발사합니다.";
 -- aub1 12
-		t["A04W"][46][1] = "매 공격시 80%의 확률로 주변 1200범위에 117000의 데미지를 줍니다. Cooldown 3초.";
+		t["A04W"][46][1] = "매 공격시 80%의 확률로 주변 1200범위에 117000데미지를 줍니다. Cooldown 3초.";
 -- aub1 13
-		t["A04W"][47][1] = "매 공격시 85%의 확률로 주변 1200범위에 124000의 데미지를 줍니다. Cooldown 3초.";
+		t["A04W"][47][1] = "매 공격시 85%의 확률로 주변 1200범위에 124000데미지를 줍니다. Cooldown 3초.";
 -- aub1 14
-		t["A04W"][48][1] = "매 공격시 90%의 확률로 주변 1200범위에 131000의 데미지를 줍니다. Cooldown 3초.";
+		t["A04W"][48][1] = "매 공격시 90%의 확률로 주변 1200범위에 131000데미지를 줍니다. Cooldown 3초.";
 -- aub1 15
-		t["A04W"][49][1] = "매 공격시 95%의 확률로 주변 1200범위에 138000의 데미지를 줍니다. Cooldown 3초.";
+		t["A04W"][49][1] = "매 공격시 95%의 확률로 주변 1200범위에 138000데미지를 줍니다. Cooldown 3초.";
 -- aub1 16
-		t["A04W"][50][1] = "매 공격시 주변 1200범위에 145000의 데미지를 줍니다. Cooldown 5 seconds.";
+		t["A04W"][50][1] = "매 공격시 주변 1200범위에 145000데미지를 줍니다. Cooldown 5 seconds.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
@@ -6602,7 +6602,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A04Z"][2][1] = "개해『바다가 갈라지는 날』";
 -- aub1 1
-		t["A04Z"][3][1] = "*Sa Nae가 공격시 9% 확률로 대상 지점 양방향으로 거대한 파도를 치게 합니다. 대상 주변 450범위 내에 있는 적에게 100,000의  Magical Damage를 입히고, 받는 |c00379BFF Magical Damage|r를 25% 증폭시킵니다.\r\
+		t["A04Z"][3][1] = "*Sa Nae가 공격시 9% 확률로 대상 지점 양방향으로 거대한 파도를 치게 합니다. 대상 주변 450범위 내에 있는 적에게 100,000 Magical Damage를 입히고, 받는 |c00379BFF Magical Damage|r를 25% 증폭시킵니다.\r\
 *추가로 범위 내의 적의 이동 속도를 4초간 40% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 요괴퇴치『요력 스포일러』\r\
@@ -6652,23 +6652,23 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 |c00FF00FF효과:|r 400범위 적에게 랜덤한  Magical Damage\r\
 |c00FF00FF설명:|r Unknown의 누에인만큼 데미지도 Unknown입니다.";
 -- aub1 3
-		t["A04Z"][37][1] = "매 공격시 대상 주변 400범위에 1~18,000의 데미지를 줍니다.";
+		t["A04Z"][37][1] = "매 공격시 대상 주변 400범위에 1~18,000데미지를 줍니다.";
 -- aub1 4
-		t["A04Z"][38][1] = "매 공격시 대상 주변 400범위에 1~22,000의 데미지를 줍니다.";
+		t["A04Z"][38][1] = "매 공격시 대상 주변 400범위에 1~22,000데미지를 줍니다.";
 -- aub1 5
-		t["A04Z"][39][1] = "매 공격시 대상 주변 400범위에 1~26,000의 데미지를 줍니다.";
+		t["A04Z"][39][1] = "매 공격시 대상 주변 400범위에 1~26,000데미지를 줍니다.";
 -- aub1 6
-		t["A04Z"][40][1] = "매 공격시 대상 주변 400범위에 1~30,000의 데미지를 줍니다.";
+		t["A04Z"][40][1] = "매 공격시 대상 주변 400범위에 1~30,000데미지를 줍니다.";
 -- aub1 7
-		t["A04Z"][41][1] = "매 공격시 대상 주변 400범위에 1~34,000의 데미지를 줍니다.";
+		t["A04Z"][41][1] = "매 공격시 대상 주변 400범위에 1~34,000데미지를 줍니다.";
 -- aub1 8
-		t["A04Z"][42][1] = "매 공격시 대상 주변 400범위에 1~38,000의 데미지를 줍니다.";
+		t["A04Z"][42][1] = "매 공격시 대상 주변 400범위에 1~38,000데미지를 줍니다.";
 -- aub1 9
-		t["A04Z"][43][1] = "매 공격시 대상 주변 400범위에 1~42,000의 데미지를 줍니다.";
+		t["A04Z"][43][1] = "매 공격시 대상 주변 400범위에 1~42,000데미지를 줍니다.";
 -- aub1 11
-		t["A04Z"][44][1] = "매 공격시 대상 주변 400범위에 10,000~50,000의 데미지를 줍니다.";
+		t["A04Z"][44][1] = "매 공격시 대상 주변 400범위에 10,000~50,000데미지를 줍니다.";
 -- aub1 10
-		t["A04Z"][45][1] = "매 공격시 대상 주변 400범위에 1~46,000의 데미지를 줍니다.";
+		t["A04Z"][45][1] = "매 공격시 대상 주변 400범위에 1~46,000데미지를 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -6934,43 +6934,43 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A05B"][34][1] = "공격시 12% 확률로 주변 1000범위 8곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][34][1] = "공격시 12% 확률로 주변 1000범위 8곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A05B"][38][1] = "공격시 12% 확률로 주변 900범위 10곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][38][1] = "공격시 12% 확률로 주변 900범위 10곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 11
-		t["A05B"][42][1] = "공격시 12% 확률로 주변 800범위 12곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][42][1] = "공격시 12% 확률로 주변 800범위 12곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 10
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A05B"][48][1] = "공격시 12% 확률로 주변 700범위 14곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][48][1] = "공격시 12% 확률로 주변 700범위 14곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A05B"][53][1] = "공격시 12% 확률로 주변 600범위 16곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][53][1] = "공격시 12% 확률로 주변 600범위 16곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 22
-		t["A05B"][54][1] = "공격시 10% 확률로 주변 800범위 16곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][54][1] = "공격시 10% 확률로 주변 800범위 16곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 24
 -- aub1 25
 -- aub1 23
 -- aub1 26
-		t["A05B"][58][1] = "공격시 10% 확률로 주변 800범위 18곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][58][1] = "공격시 10% 확률로 주변 800범위 18곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 27
 -- aub1 29
 -- aub1 28
 -- aub1 30
 -- aub1 31
-		t["A05B"][63][1] = "공격시 10% 확률로 주변 700범위 20곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000의 데미지를 줍니다.";
+		t["A05B"][63][1] = "공격시 10% 확률로 주변 700범위 20곳에 좀비를 부활시켜 350범위에 0.5 seconds간 스턴을 주며, 2초뒤 터트리며 9000데미지를 줍니다.";
 -- aub1 1
 		t["A05B"][64][1] = "|c00A8F13A[Combination]|r: Hina Kagiyama[Epic] + Ghost Orchestra[Phantom Ensemble][Epic] + Shou Toramaru[Epic] + 2 Unique Souls \r\
 \r\
@@ -6997,7 +6997,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- arac
 -- aub1 1
 		t["A05E"][2][1] = "*스이카 주변 1000범위 적의 Movement Speed를 45% 감소시킵니다.\r\
-*공격시 20% 확률로 Goblin 안개를 여러겹 겹쳐 전방에 있는 적에게 180,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*공격시 20% 확률로 Goblin 안개를 여러겹 겹쳐 전방에 있는 적에게 180,000|c00AC59FF True Damage|r를 입힙니다.";
 -- atar 1
 -- atat
 -- atp1 1
@@ -7159,9 +7159,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- arac
 -- anam
 -- aub1 1
-		t["A05L"][3][1] = "＊사토리가 스킬『공포최면술』,『카메라 샤이로즈』,『브레인 핑거프린트』중 3번 발동할 때마다 Around yourself 850 범위의 적에게 50,000의 |c00379BFF마법 피해|r를 가하고 0.9초간 기절시킨다.\r\
+		t["A05L"][3][1] = "＊사토리가 스킬『공포최면술』,『카메라 샤이로즈』,『브레인 핑거프린트』중 3번 발동할 때마다 Around yourself 850 범위의 적에게 50,000|c00379BFF마법 피해|r를 가하고 0.9초간 기절시킨다.\r\
 ＊|c00C5EA53[Combination Synergy]|r서드아이 시스터즈\r\
--Koishi Komeiji[Ascended]를 보유하고 있을 경우, 잃은 체력 0.3% + 75,000의 |c00379BFF마법 피해|r로 변경됩니다.";
+-Koishi Komeiji[Ascended]를 보유하고 있을 경우, 잃은 체력 0.3% + 75,000|c00379BFF마법 피해|r로 변경됩니다.";
 -- atp1 1
 		t["A05L"][4][1] = "『제3의 눈』- 발동 횟수 0번";
 -- aart
@@ -7184,7 +7184,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 카기야마 히다[쌍둥이 액신인형]\r\
 \r\
 ＊액을 흘려보내 Around yourself 750 범위의 적 방어력을 15% 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 500 범위에 공격하는 대상의 Current Health 0.4% + 20,000의 |c00AC59FF절대 피해|r를 입히고 1초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 주변 500 범위에 공격하는 대상의 Current Health 0.4% + 20,000|c00AC59FF절대 피해|r를 입히고 1초간 기절시킵니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -7258,7 +7258,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A05M"][2][1] = "역궁『천양몽궁의 조칙』";
 -- aub1 1
 		t["A05M"][3][1] = "*|c00FF80FF[활력]|r - 7초\r\
-대상 지점에 요력으로 된 화살을 발사합니다. 화살은 폭발하여 잃은 체력의 3.5% + 225,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+대상 지점에 요력으로 된 화살을 발사합니다. 화살은 폭발하여 잃은 체력의 3.5% + 225,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- anam
 		t["A05M"][4][1] = "[Chronicle][세이자]";
 -- aart
@@ -7327,7 +7327,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A05N"][2][1] = "비의『후호의 광언』";
 -- aub1 1
-		t["A05N"][3][1] = "*오키나가 공격시 10% 확률로 대상 주변 450범위 내의 적에게 Current Health의 0.4% + 95,000의 |c00379BFF Magical Damage|r를 입힙니다. 이 스킬은 『절대비신의 후광』으로 인한 추가 데미지를 2배로 적용받습니다.";
+		t["A05N"][3][1] = "*오키나가 공격시 10% 확률로 대상 주변 450범위 내의 적에게 Current Health의 0.4% + 95,000|c00379BFF Magical Damage|r를 입힙니다. 이 스킬은 『절대비신의 후광』으로 인한 추가 데미지를 2배로 적용받습니다.";
 -- anam
 		t["A05N"][4][1] = "[오키나]";
 -- aart
@@ -7365,25 +7365,25 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A05N"][36][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 305범위의 적들은 1.2초간 스턴에 걸리며 80000의 데미지를 받습니다.";
+		t["A05N"][36][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 305범위의 적들은 1.2초간 스턴에 걸리며 80000데미지를 받습니다.";
 -- aub1 3
-		t["A05N"][37][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 310범위의 적들은 1.2초간 스턴에 걸리며 95000의 데미지를 받습니다.";
+		t["A05N"][37][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 310범위의 적들은 1.2초간 스턴에 걸리며 95000데미지를 받습니다.";
 -- aub1 4
-		t["A05N"][38][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 315범위의 적들은 1.2초간 스턴에 걸리며 110000의 데미지를 받습니다.";
+		t["A05N"][38][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 315범위의 적들은 1.2초간 스턴에 걸리며 110000데미지를 받습니다.";
 -- aub1 5
-		t["A05N"][39][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 320범위의 적들은 1.2초간 스턴에 걸리며 125000의 데미지를 받습니다.";
+		t["A05N"][39][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 320범위의 적들은 1.2초간 스턴에 걸리며 125000데미지를 받습니다.";
 -- aub1 6
-		t["A05N"][40][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 325범위의 적들은 1.2초간 스턴에 걸리며 140000의 데미지를 받습니다.";
+		t["A05N"][40][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 325범위의 적들은 1.2초간 스턴에 걸리며 140000데미지를 받습니다.";
 -- aub1 7
-		t["A05N"][41][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 330범위의 적들은 1.2초간 스턴에 걸리며 155000의 데미지를 받습니다.";
+		t["A05N"][41][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 330범위의 적들은 1.2초간 스턴에 걸리며 155000데미지를 받습니다.";
 -- aub1 8
-		t["A05N"][42][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 335범위의 적들은 1.2초간 스턴에 걸리며 170000의 데미지를 받습니다.";
+		t["A05N"][42][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 335범위의 적들은 1.2초간 스턴에 걸리며 170000데미지를 받습니다.";
 -- aub1 9
-		t["A05N"][43][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 340범위의 적들은 1.2초간 스턴에 걸리며 185000의 데미지를 받습니다.";
+		t["A05N"][43][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 340범위의 적들은 1.2초간 스턴에 걸리며 185000데미지를 받습니다.";
 -- aub1 11
-		t["A05N"][44][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 350범위의 적들은 1.2초간 스턴에 걸리며 215000의 데미지를 받습니다.";
+		t["A05N"][44][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 350범위의 적들은 1.2초간 스턴에 걸리며 215000데미지를 받습니다.";
 -- aub1 10
-		t["A05N"][45][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 345범위의 적들은 1.2초간 스턴에 걸리며 200000의 데미지를 받습니다.";
+		t["A05N"][45][1] = "공격시 20% 확률로 공격한 대상의 위치에 세전함을 낙하시킵니다. 낙하된 세전함 주변 345범위의 적들은 1.2초간 스턴에 걸리며 200000데미지를 받습니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -7411,7 +7411,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- ahky
 -- auhk
 -- aub1 1
-		t["A05Q"][5][1] = "*공격시 15% 확률로 Around yourself 900범위 적에게 120,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+		t["A05Q"][5][1] = "*공격시 15% 확률로 Around yourself 900범위 적에게 120,000|c00AC59FF True Damage|r를 입힙니다.\r\
 \r\
 이 스킬들은 온/오프가 가능합니다. 켜져있을때와 꺼져있을때 미코가 사용하는 스킬들의 데미지 타입과 스킬의 발동 효과가 다르게 적용됩니다.\r\
 \r\
@@ -7493,7 +7493,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A063"][2][1] = "심판『라스트 저지먼트』- |c0000FFFFExtended|r";
 -- aub1 1
-		t["A063"][3][1] = "＊|c0044BBFF[Mana]|r - 90 : 공격 시 마력 1 회복, 대상 주변 600 범위의 적을 심판해 전체 체력의 2% + 300,000의 |c00379BFF마법 피해|r를 가합니다. 만약 자신의 Units 카운트가 기본 게임 오버 카운트의 절반 이상이라면, 피해가 2배로 증가합니다.\r\
+		t["A063"][3][1] = "＊|c0044BBFF[Mana]|r - 90 : 공격 시 마력 1 회복, 대상 주변 600 범위의 적을 심판해 Maximum Health 2% + 300,000|c00379BFF마법 피해|r를 가합니다. 만약 자신의 Units 카운트가 기본 게임 오버 카운트의 절반 이상이라면, 피해가 2배로 증가합니다.\r\
 |c00ff2222[!]제한|r : 시키에이키는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
@@ -7532,23 +7532,23 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A063"][36][1] = "단 한번, 플레이어의 웨이브 몹수가 99마리가 될시 발동, 웨이브 몬스터의 전체체력의 40%만큼의 데미지를 모든 몬스터에게 줍니다.\r\
 -|c00ff0000 이미 사용하셨습니다. 600 seconds후  다시 사용하실수 있습니다.|r -";
 -- aub1 3
-		t["A063"][37][1] = "매 공격시 35%의 확률로 주변 1200범위에 54000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][37][1] = "매 공격시 35%의 확률로 주변 1200범위에 54000데미지를 줍니다. Cooldown 3초.";
 -- aub1 4
-		t["A063"][38][1] = "매 공격시 40%의 확률로 주변 1200범위에 61000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][38][1] = "매 공격시 40%의 확률로 주변 1200범위에 61000데미지를 줍니다. Cooldown 3초.";
 -- aub1 5
-		t["A063"][39][1] = "매 공격시 45%의 확률로 주변 1200범위에 68000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][39][1] = "매 공격시 45%의 확률로 주변 1200범위에 68000데미지를 줍니다. Cooldown 3초.";
 -- aub1 6
-		t["A063"][40][1] = "매 공격시 50%의 확률로 주변 1200범위에 75000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][40][1] = "매 공격시 50%의 확률로 주변 1200범위에 75000데미지를 줍니다. Cooldown 3초.";
 -- aub1 7
-		t["A063"][41][1] = "매 공격시 55%의 확률로 주변 1200범위에 82000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][41][1] = "매 공격시 55%의 확률로 주변 1200범위에 82000데미지를 줍니다. Cooldown 3초.";
 -- aub1 8
-		t["A063"][42][1] = "매 공격시 60%의 확률로 주변 1200범위에 89000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][42][1] = "매 공격시 60%의 확률로 주변 1200범위에 89000데미지를 줍니다. Cooldown 3초.";
 -- aub1 9
-		t["A063"][43][1] = "매 공격시 65%의 확률로 주변 1200범위에 96000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][43][1] = "매 공격시 65%의 확률로 주변 1200범위에 96000데미지를 줍니다. Cooldown 3초.";
 -- aub1 11
-		t["A063"][44][1] = "매 공격시 75%의 확률로 주변 1200범위에 110000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][44][1] = "매 공격시 75%의 확률로 주변 1200범위에 110000데미지를 줍니다. Cooldown 3초.";
 -- aub1 10
-		t["A063"][45][1] = "매 공격시 70%의 확률로 주변 1200범위에 103000의 데미지를 줍니다. Cooldown 3초.";
+		t["A063"][45][1] = "매 공격시 70%의 확률로 주변 1200범위에 103000데미지를 줍니다. Cooldown 3초.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -7587,7 +7587,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A065"][2][1] = "폐부『지저의 구석에 홀로 서서』";
 -- aub1 1
-		t["A065"][3][1] = "＊공격 시 20% 확률로 대상을 자신한테 끌고 오며 섭취한 오이 갯수 * 3000의 |c00AC59FF절대 피해|r를 가합니다.";
+		t["A065"][3][1] = "＊공격 시 20% 확률로 대상을 자신한테 끌고 오며 섭취한 오이 갯수 * 3000|c00AC59FF절대 피해|r를 가합니다.";
 -- anam
 -- aart
 		t["A065"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCannibalize.blp";
@@ -7671,7 +7671,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- arac
 -- aub1 1
 		t["A06D"][2][1] = "＊어둠의 공포를 재현해 Around yourself 600 범위의 적 Movement Speed를 18% 감소시킵니다.\r\
-＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 50~150,000의 |c00379BFF마법 피해|r를 가합니다.";
+＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 50~150,000|c00379BFF마법 피해|r를 가합니다.";
 -- atar 1
 -- atp1 1
 		t["A06D"][5][1] = "『헤이안쿄의 악몽』";
@@ -7709,7 +7709,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A06O"][2][1] = "마부『불릿 골렘』";
 -- aub1 1
-		t["A06O"][3][1] = "＊1초마다 Around yourself 600 범위의 무작위 적에게 15,000의 |c00379BFF마법 피해|r를 가하고 2초간 기절(보스는 1초)시킨다.";
+		t["A06O"][3][1] = "＊1초마다 Around yourself 600 범위의 무작위 적에게 15,000|c00379BFF마법 피해|r를 가하고 2초간 기절(보스는 1초)시킨다.";
 -- anam
 		t["A06O"][4][1] = "[Unique]나루미_R";
 -- aart
@@ -7769,7 +7769,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A06T"][2][1] = "난제『부처의 석발 -꺾이지 않는 의지-』";
 -- aub1 1
-		t["A06T"][3][1] = "＊공격 시 9% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 전체 체력 0.2% + 90,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A06T"][3][1] = "＊공격 시 9% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 전체 체력 0.2% + 90,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 		t["A06T"][5][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNMagicImmunity.blp";
@@ -7805,7 +7805,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A06T"][36][1] = "＊공격 시 18% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 전체 체력 0.2% + 90,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A06T"][36][1] = "＊공격 시 18% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 전체 체력 0.2% + 90,000|c00379BFF마법 피해|r를 가합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -7841,7 +7841,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A06W"][2][1] = "『체인 리액션』";
 -- aub1 1
 		t["A06W"][3][1] = "*Yumeko가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
-*『체인 리액션』: 대상 적 Units의 전체 체력의 0.5%의 |c00379BFF Magical Damage|r를 대상 주변 450범위 내에 있는 적에게 입힙니다.";
+*『체인 리액션』: 대상 적 Units의 Maximum Health 0.5%의 |c00379BFF Magical Damage|r를 대상 주변 450범위 내에 있는 적에게 입힙니다.";
 -- anam
 		t["A06W"][4][1] = "[Yumeko]";
 -- aart
@@ -8029,7 +8029,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A072"][2][1] = "귀신『비상비사문천』";
 -- aub1 1
-		t["A072"][3][1] = "＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 3,000의 |c00FF6464물리 피해|r를 가하고 5 seconds간 아군 공격력을 15% 증가시킨다.";
+		t["A072"][3][1] = "＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 3,000|c00FF6464물리 피해|r를 가하고 5 seconds간 아군 공격력을 15% 증가시킨다.";
 -- anam
 -- aart
 		t["A072"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNRedDragonDevour.blp";
@@ -8093,7 +8093,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A074"][36][1] = "*모코우가 공격시 12% 확률로 대상 주변 350범위 내의 적에게 Current Health의 0.4% + 55,000의 |c00AC59FF True Damage|r를 입히고, 1.2초간 스턴시킵니다.";
+		t["A074"][36][1] = "*모코우가 공격시 12% 확률로 대상 주변 350범위 내의 적에게 Current Health의 0.4% + 55,000|c00AC59FF True Damage|r를 입히고, 1.2초간 스턴시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -8344,9 +8344,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 1
 		t["A083"][11][1] = "Kanako Yasaka[Epic] + Mamizou Futatsuiwa[Epic] + Unknown[Unique] + Fragment of Ancients and Fantasy = Kotohime";
 -- atp1 2
-		t["A083"][12][1] = "월부『감색의 광몽』- 습득 완료";
+		t["A083"][12][1] = "Moonlight 『감색의 광몽』- 습득 완료";
 -- aub1 2
-		t["A083"][13][1] = "*공격시 10% 확률로 도레미 주변 1000범위 적 Units에게 1.1초의 스턴과 100,000의  Magical Damage를 입힙니다. 이 스킬이 발동할 경우 도레미의 마나를 모두 회복합니다.";
+		t["A083"][13][1] = "*공격시 10% 확률로 도레미 주변 1000범위 적 Units에게 1.1초의 스턴과 100,000 Magical Damage를 입힙니다. 이 스킬이 발동할 경우 도레미의 마나를 모두 회복합니다.";
 -- alig
 -- atat
 		t["A083"][15][1] = "nban";
@@ -8393,7 +8393,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- abuf 5
 -- atp1 5
 		t["A085"][46][1] = "*공격시 11% 확률로 레이센이 적 Units이 있는 위치에 보라색 폭발을 일으킵니다.\r\
-폭발에 휘말린 600범위 내의 적은 Movement Speed가 5 seconds간 40% 감소하며 60,000의  Physical Damage를 입습니다.";
+폭발에 휘말린 600범위 내의 적은 Movement Speed가 5 seconds간 40% 감소하며 60,000 Physical Damage를 입습니다.";
 -- abuf 6
 -- abuf 7
 -- atp1 7
@@ -8435,7 +8435,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A086"][3][1] = "역업『오오에산 폭풍』";
 -- aub1 1
-		t["A086"][4][1] = "＊공격 시 20% 확률로 폭풍을 일으켜 Around yourself 550 범위의 적에게 3,000의 |c00FF6464물리 피해|r를 가하고 1.5 seconds간 Movement Speed를 25% 감소시킨다.";
+		t["A086"][4][1] = "＊공격 시 20% 확률로 폭풍을 일으켜 Around yourself 550 범위의 적에게 3,000|c00FF6464물리 피해|r를 가하고 1.5 seconds간 Movement Speed를 25% 감소시킨다.";
 -- aart
 		t["A086"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCyclone.blp";
 -- atp1 2
@@ -8469,43 +8469,43 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A086"][36][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 13000의 데미지와 55%의 슬로우를 1.5 seconds간 겁니다.";
+		t["A086"][36][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 13000데미지와 55%의 슬로우를 1.5 seconds간 겁니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A086"][40][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 18000의 데미지와 55%의 슬로우를 1.75 seconds간 겁니다.";
+		t["A086"][40][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 18000데미지와 55%의 슬로우를 1.75 seconds간 겁니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A086"][45][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 23000의 데미지와 55%의 슬로우를 2초간 겁니다.";
+		t["A086"][45][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 23000데미지와 55%의 슬로우를 2초간 겁니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A086"][50][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 28000의 데미지와 55%의 슬로우를 2.25 seconds간 겁니다.";
+		t["A086"][50][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 28000데미지와 55%의 슬로우를 2.25 seconds간 겁니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A086"][55][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 33000의 데미지와 55%의 슬로우를 2.5 seconds간 겁니다.";
+		t["A086"][55][1] = "매 공격시 7.5%의 확률로 폭풍을 일으켜 주위 550범위에 33000데미지와 55%의 슬로우를 2.5 seconds간 겁니다.";
 -- aub1 22
-		t["A086"][56][1] = "매 공격시 5%의 확률로 폭풍을 일으켜 주위 550범위에 23000의 데미지와 90%의 슬로우를 3초간 겁니다.";
+		t["A086"][56][1] = "매 공격시 5%의 확률로 폭풍을 일으켜 주위 550범위에 23000데미지와 90%의 슬로우를 3초간 겁니다.";
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A086"][60][1] = "매 공격시 5%의 확률로 폭풍을 일으켜 주위 550범위에 27000의 데미지와 90%의 슬로우를 3.25 seconds간 겁니다.";
+		t["A086"][60][1] = "매 공격시 5%의 확률로 폭풍을 일으켜 주위 550범위에 27000데미지와 90%의 슬로우를 3.25 seconds간 겁니다.";
 -- aub1 27
 -- aub1 28
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A086"][65][1] = "매 공격시 5%의 확률로 폭풍을 일으켜 주위 550범위에 31000의 데미지와 90%의 슬로우를 3.5 seconds간 겁니다.";
+		t["A086"][65][1] = "매 공격시 5%의 확률로 폭풍을 일으켜 주위 550범위에 31000데미지와 90%의 슬로우를 3.5 seconds간 겁니다.";
 -- [A088]
 -- anam
 -- arac
@@ -8530,7 +8530,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A08B"][3][1] = "괴부『테이블 터닝』";
 -- aub1 1
-		t["A08B"][4][1] = "＊공격 시 10% 확률로 한기를 불어 넣어 대상 주변 400 범위의 적에게 5,000의 |c00379BFF마법 피해|r를 가하고 3초간 Movement Speed를 30% 감소시킨다.";
+		t["A08B"][4][1] = "＊공격 시 10% 확률로 한기를 불어 넣어 대상 주변 400 범위의 적에게 5,000|c00379BFF마법 피해|r를 가하고 3초간 Movement Speed를 30% 감소시킨다.";
 -- aart
 		t["A08B"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNIceShard.blp";
 -- atp1 2
@@ -8564,7 +8564,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08B"][36][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 10개가 될 경우 주위 700범위에 10000의 데미지를 주고 3초간 40%만큼 느리게 합니다.";
+		t["A08B"][36][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 10개가 될 경우 주위 700범위에 10000데미지를 주고 3초간 40%만큼 느리게 합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -8574,7 +8574,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A08B"][45][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 15개가 될 경우 주위 700범위에 15000의 데미지를 주고 3초간 40%만큼 느리게 합니다.";
+		t["A08B"][45][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 15개가 될 경우 주위 700범위에 15000데미지를 주고 3초간 40%만큼 느리게 합니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -8584,9 +8584,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 18
 -- aub1 19
 -- aub1 26
-		t["A08B"][54][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 20개가 될 경우 주위 700범위에 20000의 데미지를 주고 3초간 40%만큼 느리게 합니다.";
+		t["A08B"][54][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 20개가 될 경우 주위 700범위에 20000데미지를 주고 3초간 40%만큼 느리게 합니다.";
 -- aub1 31
-		t["A08B"][55][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 25개가 될 경우 주위 700범위에 25000의 데미지를 주고 3초간 40%만큼 느리게 합니다.";
+		t["A08B"][55][1] = "링거링 콜드가 발동할때마다 1의 카운트를 쌓습니다. 카운터가 25개가 될 경우 주위 700범위에 25000데미지를 주고 3초간 40%만큼 느리게 합니다.";
 -- aub1 22
 -- aub1 20
 -- aub1 21
@@ -8680,7 +8680,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A08F"][3][1] = "『피닉스 재탄생』- 부활 횟수 1";
 -- aub1 1
 		t["A08F"][4][1] = "*|c00FF80FF[활력]|r - 18 seconds\r\
-*모코우가 불사조의 힘을 대상 지점에 방출하며, 부활합니다. 대상 주변 550범위 적에게 전체 체력의 8% + 1000,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*모코우가 불사조의 힘을 대상 지점에 방출하며, 부활합니다. 대상 주변 550범위 적에게 Maximum Health 8% + 1000,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *모코우가 부활시 모코우의 스킬 데미지가 3%씩 증가합니다. 최대 10번까지 부활가능하며, 부활 횟수는 스킬 이름 오른쪽에 표시됩니다.";
 -- aart
 		t["A08F"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNPhoenixEgg.blp";
@@ -8755,7 +8755,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 10
 -- aub1 11
 		t["A08F"][45][1] = "*|c00FF80FF[활력]|r - 20 seconds\r\
-*모코우가 불사조의 힘을 대상 지점에 방출하며, 부활합니다. 대상 주변 550범위 적에게 전체 체력의 4% + 650,000 Physical Damage를 입힙니다.\r\
+*모코우가 불사조의 힘을 대상 지점에 방출하며, 부활합니다. 대상 주변 550범위 적에게 Maximum Health 4% + 650,000 Physical Damage를 입힙니다.\r\
 *모코우가 부활시 모코우의 스킬 데미지가 1%씩 증가합니다. 최대 20번까지 부활가능하며, 부활 횟수는 스킬 이름 오른쪽에 표시됩니다.\r\
 *|c00C5EA53[Combination Synergy]|r영원한 환생의 불꽃\r\
 -Keine Kamishirasawa EX[Epic]를 보유하고 있을 경우, 활력 Cooldown이 10 seconds 감소합니다.";
@@ -8885,67 +8885,67 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- aub1 2
 		t["A08H"][36][1] = "*Kappa단원의 신념이 든 오이를 적의 후방에 찍습니다.\r\
-*Kappa단원이 공격시 마나를 1 회복하며, 마나가 75가 될때마다 진귀한 오이인 '비트오이'를 먹고 폭발합니다. Around yourself 650범위 내에 있는 적에게 220,000의 |c00379BFF Magical Damage|r와 1.8 seconds의 스턴을 입힙니다.[폭발한다고 사라지지는 않습니다.]\r\
+*Kappa단원이 공격시 마나를 1 회복하며, 마나가 75가 될때마다 진귀한 오이인 '비트오이'를 먹고 폭발합니다. Around yourself 650범위 내에 있는 적에게 220,000|c00379BFF Magical Damage|r와 1.8 seconds의 스턴을 입힙니다.[폭발한다고 사라지지는 않습니다.]\r\
 *|c00FF80FF[활력]|r - 15 seconds\r\
 대상 Units의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
 -- aub1 3
-		t["A08H"][37][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 4500의 추가 데미지를 입힙니다.";
+		t["A08H"][37][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 4500추가 데미지를 입힙니다.";
 -- aub1 4
-		t["A08H"][38][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 5500의 추가 데미지를 입힙니다.";
+		t["A08H"][38][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 5500추가 데미지를 입힙니다.";
 -- aub1 5
-		t["A08H"][39][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 6500의 추가 데미지를 입힙니다.";
+		t["A08H"][39][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 6500추가 데미지를 입힙니다.";
 -- aub1 6
-		t["A08H"][40][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 7500의 추가 데미지를 입힙니다.";
+		t["A08H"][40][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 7500추가 데미지를 입힙니다.";
 -- aub1 7
-		t["A08H"][41][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 8500의 추가 데미지를 입힙니다.";
+		t["A08H"][41][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 8500추가 데미지를 입힙니다.";
 -- aub1 8
-		t["A08H"][42][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 9500의 추가 데미지를 입힙니다.";
+		t["A08H"][42][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 9500추가 데미지를 입힙니다.";
 -- aub1 9
-		t["A08H"][43][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 10500의 추가 데미지를 입힙니다.";
+		t["A08H"][43][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 10500추가 데미지를 입힙니다.";
 -- aub1 11
-		t["A08H"][44][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 12500의 추가 데미지를 입힙니다.";
+		t["A08H"][44][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 12500추가 데미지를 입힙니다.";
 -- aub1 10
-		t["A08H"][45][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 11500의 추가 데미지를 입힙니다.";
+		t["A08H"][45][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 11500추가 데미지를 입힙니다.";
 -- aub1 12
-		t["A08H"][46][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 13500의 추가 데미지를 입힙니다.";
+		t["A08H"][46][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 13500추가 데미지를 입힙니다.";
 -- aub1 13
-		t["A08H"][47][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 14500의 추가 데미지를 입힙니다.";
+		t["A08H"][47][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 14500추가 데미지를 입힙니다.";
 -- aub1 14
-		t["A08H"][48][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 15500의 추가 데미지를 입힙니다.";
+		t["A08H"][48][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 15500추가 데미지를 입힙니다.";
 -- aub1 15
-		t["A08H"][49][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 16500의 추가 데미지를 입힙니다.";
+		t["A08H"][49][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 16500추가 데미지를 입힙니다.";
 -- aub1 16
-		t["A08H"][50][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 17500의 추가 데미지를 입힙니다.";
+		t["A08H"][50][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 17500추가 데미지를 입힙니다.";
 -- aub1 17
-		t["A08H"][51][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 18500의 추가 데미지를 입힙니다.";
+		t["A08H"][51][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 18500추가 데미지를 입힙니다.";
 -- aub1 18
-		t["A08H"][52][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 19500의 추가 데미지를 입힙니다.";
+		t["A08H"][52][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 19500추가 데미지를 입힙니다.";
 -- aub1 19
-		t["A08H"][53][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 20500의 추가 데미지를 입힙니다.";
+		t["A08H"][53][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 20500추가 데미지를 입힙니다.";
 -- aub1 20
-		t["A08H"][54][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 21500의 추가 데미지를 입힙니다.";
+		t["A08H"][54][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 21500추가 데미지를 입힙니다.";
 -- aub1 21
-		t["A08H"][55][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 22500의 추가 데미지를 입힙니다.";
+		t["A08H"][55][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 22500추가 데미지를 입힙니다.";
 -- aub1 22
-		t["A08H"][56][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 23500의 추가 데미지를 입힙니다.";
+		t["A08H"][56][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 23500추가 데미지를 입힙니다.";
 -- aub1 24
-		t["A08H"][57][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 25500의 추가 데미지를 입힙니다.";
+		t["A08H"][57][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 25500추가 데미지를 입힙니다.";
 -- aub1 25
-		t["A08H"][58][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 26500의 추가 데미지를 입힙니다.";
+		t["A08H"][58][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 26500추가 데미지를 입힙니다.";
 -- aub1 23
-		t["A08H"][59][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 24500의 추가 데미지를 입힙니다.";
+		t["A08H"][59][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 24500추가 데미지를 입힙니다.";
 -- aub1 26
-		t["A08H"][60][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 27500의 추가 데미지를 입힙니다.";
+		t["A08H"][60][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 27500추가 데미지를 입힙니다.";
 -- aub1 27
-		t["A08H"][61][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 28500의 추가 데미지를 입힙니다.";
+		t["A08H"][61][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 28500추가 데미지를 입힙니다.";
 -- aub1 29
-		t["A08H"][62][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 30500의 추가 데미지를 입힙니다.";
+		t["A08H"][62][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 30500추가 데미지를 입힙니다.";
 -- aub1 28
-		t["A08H"][63][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 29500의 추가 데미지를 입힙니다.";
+		t["A08H"][63][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 29500추가 데미지를 입힙니다.";
 -- aub1 30
-		t["A08H"][64][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 31500의 추가 데미지를 입힙니다.";
+		t["A08H"][64][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 31500추가 데미지를 입힙니다.";
 -- aub1 31
-		t["A08H"][65][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 32500의 추가 데미지를 입힙니다.";
+		t["A08H"][65][1] = "케이네의 공격은 공격 지점의 250범위 내의 모든 Units들에게 32500추가 데미지를 입힙니다.";
 -- [A08J]
 -- arac
 -- atp1 1
@@ -8987,7 +8987,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08J"][36][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 7%느리게하며, 0.2초마다 3000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][36][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 7%느리게하며, 0.2초마다 3000데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -8996,7 +8996,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 8
 -- aub1 9
 -- aub1 11
-		t["A08J"][44][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 8%느리게하며, 0.2초마다 4000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][44][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 8%느리게하며, 0.2초마다 4000데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- aub1 10
 -- aub1 12
 -- aub1 13
@@ -9008,7 +9008,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A08J"][55][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 9%느리게하며, 0.2초마다 5000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][55][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 9%느리게하며, 0.2초마다 5000데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- aub1 22
 -- aub1 24
 -- aub1 25
@@ -9019,7 +9019,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 28
 -- aub1 30
 -- aub1 31
-		t["A08J"][65][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 10%느리게하며, 0.2초마다 6000의 데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
+		t["A08J"][65][1] = "공격시 4%확률로 혼돈의 본능을 일깨워 정면에 영광의 비석을 소환해냅니다. 족쇄는 없지만.. 영광의 비석은 주위 400범위 내의 Units들을 10%느리게하며, 0.2초마다 6000데미지를 주는 피닉스 파이어를 갖고 있습니다. 6초간 지속됩니다.";
 -- [A08K]
 -- anam
 -- arac
@@ -9060,7 +9060,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A08K"][35][1] = "*오키나가 적이 바라보는 방향의 후방에서 공격할 경우 입히는 데미지가 45% 상승합니다.\r\
 [다른 스펠의 % 데미지는 상승하지 않지만, 『Anarchy Bullet Hell』은 % 데미지도 상승합니다.]\r\
 *오키나 주변 800범위 적의 Movement Speed를 25% 감소시킵니다.\r\
-*오키나가 공격시 10% 확률로 Around yourself 800범위내의 적에게 145,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*오키나가 공격시 10% 확률로 Around yourself 800범위내의 적에게 145,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *『Anarchy Bullet Hell』을 습득할 경우, 후방에 있지 않아도 스킬 데미지가 증폭됩니다.";
 -- atat
 -- [A08L]
@@ -9106,7 +9106,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A08M"][2][1] = "뇌어『뇌운어유영탄』";
 -- aub1 1
-		t["A08M"][3][1] = "＊공격 시 35% 확률로 최대 5번 튕기는 용어탄을 발사해 5,000의 |c00379BFF마법 피해|r를 가한다.";
+		t["A08M"][3][1] = "＊공격 시 35% 확률로 최대 5번 튕기는 용어탄을 발사해 5,000|c00379BFF마법 피해|r를 가한다.";
 -- anam
 -- aart
 		t["A08M"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNChainLightning.blp";
@@ -9141,64 +9141,64 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08M"][36][1] = "공격시 65%확률로 6번 바운스 하며 15800의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][36][1] = "공격시 65%확률로 6번 바운스 하며 15800데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 3
-		t["A08M"][37][1] = "공격시 65%확률로 6번 바운스 하며 16600의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][37][1] = "공격시 65%확률로 6번 바운스 하며 16600데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 4
-		t["A08M"][38][1] = "공격시 65%확률로 6번 바운스 하며 17400의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][38][1] = "공격시 65%확률로 6번 바운스 하며 17400데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 5
-		t["A08M"][39][1] = "공격시 65%확률로 6번 바운스 하며 18200의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][39][1] = "공격시 65%확률로 6번 바운스 하며 18200데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 6
-		t["A08M"][40][1] = "공격시 65%확률로 6번 바운스 하며 19000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][40][1] = "공격시 65%확률로 6번 바운스 하며 19000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 7
-		t["A08M"][41][1] = "공격시 65%확률로 6번 바운스 하며 19800의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][41][1] = "공격시 65%확률로 6번 바운스 하며 19800데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 8
-		t["A08M"][42][1] = "공격시 65%확률로 6번 바운스 하며 20600의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][42][1] = "공격시 65%확률로 6번 바운스 하며 20600데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 9
-		t["A08M"][43][1] = "공격시 65%확률로 6번 바운스 하며 21400의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][43][1] = "공격시 65%확률로 6번 바운스 하며 21400데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 11
-		t["A08M"][44][1] = "공격시 65%확률로 6번 바운스 하며 23000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][44][1] = "공격시 65%확률로 6번 바운스 하며 23000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 10
-		t["A08M"][45][1] = "공격시 65%확률로 6번 바운스 하며 22200의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][45][1] = "공격시 65%확률로 6번 바운스 하며 22200데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 12
-		t["A08M"][46][1] = "공격시 65%확률로 6번 바운스 하며 23800의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][46][1] = "공격시 65%확률로 6번 바운스 하며 23800데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 13
-		t["A08M"][47][1] = "공격시 65%확률로 6번 바운스 하며 24600의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][47][1] = "공격시 65%확률로 6번 바운스 하며 24600데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 14
-		t["A08M"][48][1] = "공격시 65%확률로 6번 바운스 하며 25400의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][48][1] = "공격시 65%확률로 6번 바운스 하며 25400데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 15
-		t["A08M"][49][1] = "공격시 65%확률로 6번 바운스 하며 26200의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][49][1] = "공격시 65%확률로 6번 바운스 하며 26200데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 16
-		t["A08M"][50][1] = "공격시 65%확률로 6번 바운스 하며 27000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][50][1] = "공격시 65%확률로 6번 바운스 하며 27000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 17
-		t["A08M"][51][1] = "공격시 65%확률로 6번 바운스 하며 27800의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][51][1] = "공격시 65%확률로 6번 바운스 하며 27800데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 18
-		t["A08M"][52][1] = "공격시 65%확률로 6번 바운스 하며 28600의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][52][1] = "공격시 65%확률로 6번 바운스 하며 28600데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 19
-		t["A08M"][53][1] = "공격시 65%확률로 6번 바운스 하며 29400의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][53][1] = "공격시 65%확률로 6번 바운스 하며 29400데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 20
-		t["A08M"][54][1] = "공격시 65%확률로 6번 바운스 하며 30200의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][54][1] = "공격시 65%확률로 6번 바운스 하며 30200데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 21
-		t["A08M"][55][1] = "공격시 65%확률로 6번 바운스 하며 31000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][55][1] = "공격시 65%확률로 6번 바운스 하며 31000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 22
-		t["A08M"][56][1] = "공격시 65%확률로 6번 바운스 하며 20500의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][56][1] = "공격시 65%확률로 6번 바운스 하며 20500데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 24
-		t["A08M"][57][1] = "공격시 65%확률로 6번 바운스 하며 21500의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][57][1] = "공격시 65%확률로 6번 바운스 하며 21500데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 25
-		t["A08M"][58][1] = "공격시 65%확률로 6번 바운스 하며 22000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][58][1] = "공격시 65%확률로 6번 바운스 하며 22000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 23
-		t["A08M"][59][1] = "공격시 65%확률로 6번 바운스 하며 21000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][59][1] = "공격시 65%확률로 6번 바운스 하며 21000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 26
-		t["A08M"][60][1] = "공격시 65%확률로 6번 바운스 하며 22500의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][60][1] = "공격시 65%확률로 6번 바운스 하며 22500데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 27
 -- aub1 29
-		t["A08M"][62][1] = "공격시 65%확률로 6번 바운스 하며 24000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][62][1] = "공격시 65%확률로 6번 바운스 하며 24000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 28
-		t["A08M"][63][1] = "공격시 65%확률로 6번 바운스 하며 23500의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][63][1] = "공격시 65%확률로 6번 바운스 하며 23500데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 30
-		t["A08M"][64][1] = "공격시 65%확률로 6번 바운스 하며 24500의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][64][1] = "공격시 65%확률로 6번 바운스 하며 24500데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- aub1 31
-		t["A08M"][65][1] = "공격시 65%확률로 6번 바운스 하며 25000의 데미지를 입히는 체인 라이트닝을 쏩니다.";
+		t["A08M"][65][1] = "공격시 65%확률로 6번 바운스 하며 25000데미지를 입히는 체인 라이트닝을 쏩니다.";
 -- [A08O]
 -- anam
 		t["A08O"][1][1] = "더미 뇌운어유영탄";
@@ -9238,7 +9238,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A08Q"][2][1] = "재보『골드 러쉬』";
 -- aub1 1
-		t["A08Q"][3][1] = "＊공격 시 20% 확률로 대상 주변 240 범위의 적에게 2,000의 |c00FF6464물리 피해|r를 가하고, 공격당한 대상이 보스라면 추가로 Current Health 1.2%의 |c00FF6464물리 피해|r를 가한다.\r\
+		t["A08Q"][3][1] = "＊공격 시 20% 확률로 대상 주변 240 범위의 적에게 2,000|c00FF6464물리 피해|r를 가하고, 공격당한 대상이 보스라면 추가로 Current Health 1.2%의 |c00FF6464물리 피해|r를 가한다.\r\
 ＊|c002C62EA[Mana]|r - 25 : 공격 시 마력 1 회복, 15 골드를 획득한다.";
 -- anam
 -- aart
@@ -9273,71 +9273,71 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08Q"][36][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 18900의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][36][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 18900데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 3
-		t["A08Q"][37][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 19800의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][37][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 19800데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 4
-		t["A08Q"][38][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 20700의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][38][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 20700데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 5
-		t["A08Q"][39][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 21600의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][39][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 21600데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 6
-		t["A08Q"][40][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 22500의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][40][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 22500데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 7
-		t["A08Q"][41][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 23400의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][41][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 23400데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 8
-		t["A08Q"][42][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 24300의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][42][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 24300데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 9
-		t["A08Q"][43][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 25200의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][43][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 25200데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 11
-		t["A08Q"][44][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 27000의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][44][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 27000데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 10
-		t["A08Q"][45][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 26100의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][45][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 26100데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 12
-		t["A08Q"][46][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 27900의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][46][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 27900데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 13
-		t["A08Q"][47][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 28800의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][47][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 28800데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 14
-		t["A08Q"][48][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 29700의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][48][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 29700데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 15
-		t["A08Q"][49][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 30600의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][49][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 30600데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 16
-		t["A08Q"][50][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 31500의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][50][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 31500데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 17
-		t["A08Q"][51][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 32400의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][51][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 32400데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 18
-		t["A08Q"][52][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 33300의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][52][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 33300데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 19
-		t["A08Q"][53][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 34200의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][53][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 34200데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 20
-		t["A08Q"][54][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 35100의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][54][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 35100데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 21
-		t["A08Q"][55][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 36000의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
+		t["A08Q"][55][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 240범위에 36000데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 2%의 추가 데미지를 줍니다.";
 -- aub1 22
-		t["A08Q"][56][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 29700의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][56][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 29700데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 24
-		t["A08Q"][57][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 31100의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][57][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 31100데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 25
-		t["A08Q"][58][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 31800의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][58][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 31800데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 23
-		t["A08Q"][59][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 30400의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][59][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 30400데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 26
-		t["A08Q"][60][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 32500의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][60][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 32500데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 27
-		t["A08Q"][61][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 33200의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][61][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 33200데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 29
-		t["A08Q"][62][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 34600의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][62][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 34600데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 28
-		t["A08Q"][63][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 33900의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][63][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 33900데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 30
-		t["A08Q"][64][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 35300의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][64][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 35300데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- aub1 31
-		t["A08Q"][65][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 36000의 데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
+		t["A08Q"][65][1] = "매 공격시 투척한 동전을 20%확률로 폭발시켜 200범위에 36000데미지를 줍니다. 공격 대상이 보스 몬스터일 경우 Current Health의 1%의 추가 데미지를 줍니다.";
 -- [A08R]
 -- arac
 -- atp1 1
 		t["A08R"][2][1] = "상기『어슴푸레 떠오르는 금각사』";
 -- aub1 1
-		t["A08R"][3][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000의 |c00379BFF마법 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
+		t["A08R"][3][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000|c00379BFF마법 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -9371,9 +9371,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A08R"][36][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000의 |c00FF6464물리 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
+		t["A08R"][36][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000|c00FF6464물리 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
 -- aub1 3
-		t["A08R"][37][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000의 |c00AC59FF절대 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
+		t["A08R"][37][1] = "＊공격 시 7% 확률로 빛의 폭발을 일으켜 Current Health 0.6% + 65,000|c00AC59FF절대 피해|r를 가합니다. 휘말린 적이 보스가 아니고 체력이 10% 이하라면, 뇌리에 박힌 안 좋은 기억을 억지로 끄집어내 즉사시킵니다.";
 -- aub1 4
 -- aub1 5
 -- aub1 6
@@ -9408,7 +9408,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A08V"][2][1] = "『생명유희~라이프 게임~』";
 -- aub1 1
-		t["A08V"][3][1] = "*에이린이 공격시 대상에게 약물을 투입하여 초당 45,000의 |c00379BFF Magical Damage|r를 3초간 주고 55%만큼 느려지게 합니다.\r\
+		t["A08V"][3][1] = "*에이린이 공격시 대상에게 약물을 투입하여 초당 45,000|c00379BFF Magical Damage|r를 3초간 주고 55%만큼 느려지게 합니다.\r\
 *에이린을 소유한 플레이어는 게임 오버 카운트가 15% 증가합니다.[소수점 버림]";
 -- atar 1
 -- arac
@@ -9439,7 +9439,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A08Z"][4][1] = "『감주의 약』- 0/4회";
 -- aub1 1
-		t["A08Z"][5][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A08Z"][5][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 20% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
 [에이린 자신은 Attack Speed가 증가하지 않습니다.]";
@@ -9466,39 +9466,39 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 8
 -- atp1 9
 -- aub1 2
-		t["A08Z"][23][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A08Z"][23][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 25% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
 [에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 3
-		t["A08Z"][24][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A08Z"][24][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 30% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
 [에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 4
-		t["A08Z"][25][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A08Z"][25][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 35% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
 [에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 5
-		t["A08Z"][26][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A08Z"][26][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는 |c00FF6464 Physical Damage|r와 185,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 40% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 40%]\r\
 [에이린 자신은 Attack Speed가 증가하지 않습니다.]";
 -- aub1 6
-		t["A08Z"][27][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000의  Magical Damage를 입힙니다.\r\
+		t["A08Z"][27][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000 Magical Damage를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 35% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- aub1 7
-		t["A08Z"][28][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000의  Magical Damage를 입힙니다.\r\
+		t["A08Z"][28][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000 Magical Damage를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 40% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- aub1 8
-		t["A08Z"][29][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000의  Magical Damage를 입힙니다.\r\
+		t["A08Z"][29][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000 Magical Damage를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 45% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- aub1 9
-		t["A08Z"][30][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000의  Magical Damage를 입힙니다.\r\
+		t["A08Z"][30][1] = "*에이린이 공격시 5% 확률로 주변 700범위 내의 적에게 성분을 알 수 없는『감주의 약』을 복용시킵니다. Current Health의 0.8%에 해당하는  Physical Damage와 185,000 Magical Damage를 입힙니다.\r\
 *적 Units이 갖고 있는 버프 수 하나당 데미지가 5% 상승합니다.\r\
 *에이린 주변 900범위 아군의 Attack Speed를 50% 상승시킵니다. 이 효과는 포도주를 에이린에게 시전할때마다 5%씩 상승합니다.[최대 50%]";
 -- atar 1
@@ -9512,7 +9512,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A090"][2][1] = "금약『봉래의 약』";
 -- aub1 1
-		t["A090"][3][1] = "*에이린에게 공격 받을시 25% 확률로 주변 400범위에 대상 전체 체력의 1.4%의 |c00FF6464물리|r + |c00379BFF마법|r 데미지를 줍니다.\r\
+		t["A090"][3][1] = "*에이린에게 공격 받을시 25% 확률로 주변 400범위에 대상 Maximum Health 1.4%의 |c00FF6464물리|r + |c00379BFF마법|r 데미지를 줍니다.\r\
 *[물리 방어력과 마법 방어력에 모두 감소됩니다.]";
 -- aart
 		t["A090"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNGreaterRejuvPotion.blp";
@@ -9525,7 +9525,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A091"][3][1] = "*에이린이 공격시 마나를 1씩 회복합니다. 마나가 200이 됐을때 거짓된 달을 만들어냅니다. 거짓된 달은 12초간 지속됩니다.\r\
 *1000범위 적 Units의 Movement Speed를 70% 감소킵니다.\r\
 *500범위 적이 받는  Magical Damage를 15% 증폭시키고, 방어력을 30 감소시킵니다.[영구 지속]\r\
-*500범위의 적에게 1초마다 잃은 체력의 0.5% + 15,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*500범위의 적에게 1초마다 잃은 체력의 0.5% + 15,000|c00AC59FF True Damage|r를 입힙니다.";
 -- aart
 		t["A091"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNElunesBlessing.blp";
 -- atp1 2
@@ -9537,13 +9537,13 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 2
 		t["A091"][10][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 55,000 Physical Damage와 0.75 seconds 스턴을 줍니다.";
 -- aub1 3
-		t["A091"][11][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 60,000의 데미지와 1초 스턴을 줍니다.";
+		t["A091"][11][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 60,000데미지와 1초 스턴을 줍니다.";
 -- aub1 4
-		t["A091"][12][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 65,000의 데미지와 1.25 seconds 스턴을 줍니다.";
+		t["A091"][12][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 65,000데미지와 1.25 seconds 스턴을 줍니다.";
 -- aub1 5
-		t["A091"][13][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 70,000의 데미지와 1.5 seconds 스턴을 줍니다.";
+		t["A091"][13][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 70,000데미지와 1.5 seconds 스턴을 줍니다.";
 -- aub1 6
-		t["A091"][14][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 75,000의 데미지와 1.5 seconds 스턴을 줍니다.";
+		t["A091"][14][1] = "공격 시 13%의 확률로 공격 대상 주위의 700 범위에 75,000데미지와 1.5 seconds 스턴을 줍니다.";
 -- arac
 -- [A094]
 -- arac
@@ -9590,25 +9590,25 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A094"][36][1] = "공격시 12% 확률로 대상 적 주변 600범위에 2초의 스턴을 입히고 300000의 데미지를 줍니다.";
+		t["A094"][36][1] = "공격시 12% 확률로 대상 적 주변 600범위에 2초의 스턴을 입히고 300000데미지를 줍니다.";
 -- aub1 3
-		t["A094"][37][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 50000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][37][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 50000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 4
-		t["A094"][38][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 60000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][38][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 60000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 5
-		t["A094"][39][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 70000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][39][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 70000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 6
-		t["A094"][40][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 80000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][40][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 80000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 7
-		t["A094"][41][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 90000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][41][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 90000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 8
-		t["A094"][42][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 100000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][42][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 100000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 9
-		t["A094"][43][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 110000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][43][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 110000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 11
 		t["A094"][44][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 30%를 추가로 줍니다.";
 -- aub1 10
-		t["A094"][45][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 120000의 데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
+		t["A094"][45][1] = "매 공격시 20%의 확률로 자신의 맵 전체에 120000데미지를 주고 3초간 25%만큼 느리게 만듭니다.";
 -- aub1 12
 		t["A094"][46][1] = "매 공격시 마다 공격한 대상의 주변 300범위에 기본 데미지의 33%를 추가로 줍니다.";
 -- aub1 13
@@ -9687,22 +9687,22 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -공격력(|c00379BFF마법|r) : Current Health 5%(보스는 0.5%)\r\
 -Attack Speed : 0.5 Cooldown";
 -- aub1 3
-		t["A096"][37][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 86000의 데미지를 줍니다.";
+		t["A096"][37][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 86000데미지를 줍니다.";
 -- aub1 4
-		t["A096"][38][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 94000의 데미지를 줍니다.";
+		t["A096"][38][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 94000데미지를 줍니다.";
 -- aub1 5
-		t["A096"][39][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 102000의 데미지를 줍니다.";
+		t["A096"][39][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 102000데미지를 줍니다.";
 -- aub1 6
-		t["A096"][40][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 110000의 데미지를 줍니다.";
+		t["A096"][40][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 110000데미지를 줍니다.";
 -- aub1 7
-		t["A096"][41][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 118000의 데미지를 줍니다.";
+		t["A096"][41][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 118000데미지를 줍니다.";
 -- aub1 8
-		t["A096"][42][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 126000의 데미지를 줍니다.";
+		t["A096"][42][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 126000데미지를 줍니다.";
 -- aub1 9
-		t["A096"][43][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 134000의 데미지를 줍니다.";
+		t["A096"][43][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 134000데미지를 줍니다.";
 -- aub1 11
 -- aub1 10
-		t["A096"][45][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 1420000의 데미지를 줍니다.";
+		t["A096"][45][1] = "매 공격시 20%의 확률로 자신의 전방에 돌을 떨어뜨려 1420000데미지를 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -9861,23 +9861,23 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 [후귀 : 이후 받는  Magical Damage 10% 증폭]\r\
 [전귀 : 물리 방어력 영구히 10 감소]";
 -- aub1 3
-		t["A09F"][16][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 115000의 데미지를 줍니다.";
+		t["A09F"][16][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 115000데미지를 줍니다.";
 -- aub1 4
-		t["A09F"][17][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 140000의 데미지를 줍니다.";
+		t["A09F"][17][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 140000데미지를 줍니다.";
 -- aub1 5
-		t["A09F"][18][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 165000의 데미지를 줍니다.";
+		t["A09F"][18][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 165000데미지를 줍니다.";
 -- aub1 6
-		t["A09F"][19][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 190000의 데미지를 줍니다.";
+		t["A09F"][19][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 190000데미지를 줍니다.";
 -- aub1 7
-		t["A09F"][20][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 215000의 데미지를 줍니다.";
+		t["A09F"][20][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 215000데미지를 줍니다.";
 -- aub1 8
-		t["A09F"][21][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 240000의 데미지를 줍니다.";
+		t["A09F"][21][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 240000데미지를 줍니다.";
 -- aub1 9
-		t["A09F"][22][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 265000의 데미지를 줍니다.";
+		t["A09F"][22][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 265000데미지를 줍니다.";
 -- aub1 10
-		t["A09F"][23][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 290000의 데미지를 줍니다.";
+		t["A09F"][23][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 290000데미지를 줍니다.";
 -- aub1 11
-		t["A09F"][24][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 315000의 데미지를 줍니다.";
+		t["A09F"][24][1] = "공격시 20%확률로 포이즌 브레스를 발사해 맞은 적에게 3초간 초당 315000데미지를 줍니다.";
 -- areq
 		t["A09F"][25][1] = "h06T";
 -- [A09G]
@@ -9886,7 +9886,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A09G"][2][1] = "『소로우 램넌트』";
 -- aub1 1
 		t["A09G"][3][1] = "*Yumeko가 공격시 마나를 1씩 쌓습니다. 마나가 100이 됐을때 대상 지점 주변 500범위 Units을 베어냅니다.\r\
-*적 Units에게 잃은 체력의 7% + 400,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+*적 Units에게 잃은 체력의 7% + 400,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aart
 		t["A09G"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNPossession.blp";
 -- atp1 2
@@ -10024,7 +10024,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A09M"][2][1] = "『환상춘화』";
 -- aub1 1
-		t["A09M"][3][1] = "*유카가 공격시 11% 확률로 요기를 방출합니다. 방출된 요기는 Around yourself 600범위 내에 있는 적에게 전체 체력의 0.5% + 150,000에 해당하는 |c00FF6464 Physical Damage|r를 줍니다.";
+		t["A09M"][3][1] = "*유카가 공격시 11% 확률로 요기를 방출합니다. 방출된 요기는 Around yourself 600범위 내에 있는 적에게 Maximum Health 0.5% + 150,000에 해당하는 |c00FF6464 Physical Damage|r를 줍니다.";
 -- amat
 		t["A09M"][5][1] = "Abilities\\Weapons\\SpiritOfVengeanceMissile\\SpiritOfVengeanceMissile.mdl";
 -- atar 1
@@ -10125,7 +10125,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A09N"][2][1] = "성열 『아이스 디졸버』";
 -- aub1 1
-		t["A09N"][3][1] = "*공격시 10% 확률로 대상 지점에 강렬한 별불꽃을 투하합니다. 별불꽃에 피격된 적은 전체 체력의 0.5% + 100,000의 |c00379BFF Magical Damage|r를 입습니다.\r\
+		t["A09N"][3][1] = "*공격시 10% 확률로 대상 지점에 강렬한 별불꽃을 투하합니다. 별불꽃에 피격된 적은 Maximum Health 0.5% + 100,000|c00379BFF Magical Damage|r를 입습니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『속이 시커먼 Fairy』\r\
 *겉보기와는 다르게 교활한 Fairy으로, 어느 진영에서든 Combination할 수 있습니다.\r\
@@ -10166,15 +10166,15 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A09N"][36][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 106000의 데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
+		t["A09N"][36][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 106000데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
 -- aub1 3
-		t["A09N"][37][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 122000의 데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
+		t["A09N"][37][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 122000데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
 -- aub1 4
-		t["A09N"][38][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 138000의 데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
+		t["A09N"][38][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 138000데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
 -- aub1 5
-		t["A09N"][39][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 154000의 데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
+		t["A09N"][39][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 154000데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
 -- aub1 6
-		t["A09N"][40][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 170000의 데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
+		t["A09N"][40][1] = "공격시 6%확률로 전방 원형 400범위에 0.4초마다 170000데미지와 0.5 seconds의 스턴을 줍니다. 지속 2초";
 -- aub1 7
 -- aub1 8
 -- aub1 9
@@ -10205,7 +10205,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A09T"][2][1] = "『플라워 듀얼 스파크』";
 -- aub1 1
-		t["A09T"][3][1] = "*유카가 공격시 마나를 1씩 회복합니다. 마나가 120이 됐을때, 양쪽 방향에서 자신의 잔상을 소환해 자신이 공격한 지점으로 광선을 발사합니다. 발사된 광선은 유카가 공격한 지점의 600범위를 포격하며, 전체 체력의 3% + 475,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+		t["A09T"][3][1] = "*유카가 공격시 마나를 1씩 회복합니다. 마나가 120이 됐을때, 양쪽 방향에서 자신의 잔상을 소환해 자신이 공격한 지점으로 광선을 발사합니다. 발사된 광선은 유카가 공격한 지점의 600범위를 포격하며, Maximum Health 3% + 475,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 		t["A09T"][4][1] = "[유카]화조풍월";
 -- aart
@@ -10241,7 +10241,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A09T"][36][1] = "매 공격시 30%의 확률로 주변 1200범위에 47000의 데미지를 줍니다. Cooldown 3초.";
+		t["A09T"][36][1] = "매 공격시 30%의 확률로 주변 1200범위에 47000데미지를 줍니다. Cooldown 3초.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -10277,7 +10277,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A09Z"][2][1] = "『전투격노』";
 -- aub1 1
 		t["A09Z"][3][1] = "*침입자들을 처리하는데 특화되어 있는 Yumeko의 전투 기술입니다.\r\
-*Yumeko는 공격시 15% 확률로 적 전체 체력의 5%[보스의 경우 전체 체력의 0.2% + 125,000]에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*Yumeko는 공격시 15% 확률로 적 Maximum Health 5%[보스의 경우 Maximum Health 0.2% + 125,000]에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
 *Yumeko가 공격시 7% 확률로 자신의 Attack Speed를 1.5 seconds간 50% 상승시킵니다.";
 -- anam
 -- aart
@@ -10316,35 +10316,35 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A09Z"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 660000의  Physical Damage와 1.2초의 기절, 기절이 풀린 후 3초간 Movement Speed 35% 감소 효과를 줍니다.";
+		t["A09Z"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 660000 Physical Damage와 1.2초의 기절, 기절이 풀린 후 3초간 Movement Speed 35% 감소 효과를 줍니다.";
 -- aub1 3
-		t["A09Z"][37][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 70000/65000/60000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][37][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 70000/65000/60000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 4
-		t["A09Z"][38][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 90000/85000/80000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][38][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 90000/85000/80000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 5
-		t["A09Z"][39][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 110000/105000/100000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][39][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 110000/105000/100000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 6
-		t["A09Z"][40][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 130000/125000/120000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][40][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 130000/125000/120000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 7
-		t["A09Z"][41][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 150000/145000/140000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][41][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 150000/145000/140000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 8
-		t["A09Z"][42][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 170000/165000/160000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][42][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 170000/165000/160000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 9
-		t["A09Z"][43][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 190000/185000/180000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][43][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 190000/185000/180000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 11
-		t["A09Z"][44][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 230000/225000/220000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][44][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 230000/225000/220000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 10
-		t["A09Z"][45][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 210000/205000/200000의 데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
+		t["A09Z"][45][1] = "공격시 30%확률로 공격 대상에게 Current Health의 15%의 피해를, Murasa 주위의 적군들에게 210000/205000/200000데미지를 줍니다. 외곽으로 갈수록 데미지가 감소하며 보스몹에게는 발동하지 않습니다.";
 -- aub1 12
-		t["A09Z"][46][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 265000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][46][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 265000데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 13
-		t["A09Z"][47][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 280000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][47][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 280000데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 14
-		t["A09Z"][48][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 295000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][48][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 295000데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 15
-		t["A09Z"][49][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 310000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][49][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 522의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 310000데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 16
-		t["A09Z"][50][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 400의 속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000의 데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 325000의 데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
+		t["A09Z"][50][1] = "매 공격시 20% 확률로 10 seconds동안 피닉스를 소환해서 공격한 대상에게 돌진시킵니다. 피닉스는 400속도로 돌진하며, 돌진하는동안 주변에 있는 적에게 0.2초당 3,000데미지를 주는 불꽃을 발사합니다. 공격한 Units에게 부딫힐경우 325000데미지와 3초의 스턴을 주변에 주지만, 그렇지않을시 그냥 사라집니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
@@ -10404,26 +10404,26 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- aub1 2
 		t["A0A2"][36][1] = "*케이네가 공격한 대상 Units의 체력이 10% 이하라면 발동합니다. \r\
-*공격시 15% 확률로Instantly kills a target unit. 공격한 대상 Units의 체력이 70% 이상이라면 대상 전체 체력의 15%의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*공격시 15% 확률로Instantly kills a target unit. 공격한 대상 Units의 체력이 70% 이상이라면 대상 Maximum Health 15%의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
 [미션,스토리 보스에게는 적용되지 않습니다.]";
 -- aub1 3
-		t["A0A2"][37][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 90000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][37][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 90000피해를 5 seconds간 줍니다.";
 -- aub1 4
-		t["A0A2"][38][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 110000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][38][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 110000피해를 5 seconds간 줍니다.";
 -- aub1 5
-		t["A0A2"][39][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 130000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][39][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 130000피해를 5 seconds간 줍니다.";
 -- aub1 6
-		t["A0A2"][40][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 150000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][40][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 150000피해를 5 seconds간 줍니다.";
 -- aub1 7
-		t["A0A2"][41][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 170000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][41][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 170000피해를 5 seconds간 줍니다.";
 -- aub1 8
-		t["A0A2"][42][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 190000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][42][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 190000피해를 5 seconds간 줍니다.";
 -- aub1 9
-		t["A0A2"][43][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 210000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][43][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 210000피해를 5 seconds간 줍니다.";
 -- aub1 11
-		t["A0A2"][44][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 250000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][44][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 250000피해를 5 seconds간 줍니다.";
 -- aub1 10
-		t["A0A2"][45][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000의 데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 230000의 피해를 5 seconds간 줍니다.";
+		t["A0A2"][45][1] = "공격시 20%확률로 대상의 미래를 암울하게 만들어 150000데미지를 주고, 주변인들이 피해다니게 만듭니다. 대상의 주위 적들에게 초당 230000피해를 5 seconds간 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -10449,8 +10449,8 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A0A3"][2][1] = "구사『구비경사 - Old History』";
 -- aub1 1
-		t["A0A3"][3][1] = "*케이네가 공격시 9% 확률로 대상 지점 주변 400범위 내의 적의 역사를 뒤틀어 30,000의 |c00AC59FF True Damage|r를 입히고, 2초간 스턴시킵니다.\r\
-*보스 판정 Units에게는 44,000의 |c00FF6464 Physical Damage|r를 확률이 아닌 무Condition부로 입히고 0.3초간 스턴시킵니다. ";
+		t["A0A3"][3][1] = "*케이네가 공격시 9% 확률로 대상 지점 주변 400범위 내의 적의 역사를 뒤틀어 30,000|c00AC59FF True Damage|r를 입히고, 2초간 스턴시킵니다.\r\
+*보스 판정 Units에게는 44,000|c00FF6464 Physical Damage|r를 확률이 아닌 무Condition부로 입히고 0.3초간 스턴시킵니다. ";
 -- anam
 		t["A0A3"][4][1] = "[Epic_사용되지 않음]";
 -- aart
@@ -10487,26 +10487,26 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0A3"][36][1] = "*케이네가 공격시 9% 확률로 대상 지점 주변 400범위 내의 적의 역사를 뒤틀어 60,000의 |c00AC59FF True Damage|r를 입히고, 2.5 seconds간 스턴시킵니다.\r\
-*보스 판정 Units에게는 66,000의 |c00FF6464 Physical Damage|r를 확률이 아닌 무Condition부로 입히고 0.3초간 스턴시킵니다. ";
+		t["A0A3"][36][1] = "*케이네가 공격시 9% 확률로 대상 지점 주변 400범위 내의 적의 역사를 뒤틀어 60,000|c00AC59FF True Damage|r를 입히고, 2.5 seconds간 스턴시킵니다.\r\
+*보스 판정 Units에게는 66,000|c00FF6464 Physical Damage|r를 확률이 아닌 무Condition부로 입히고 0.3초간 스턴시킵니다. ";
 -- aub1 3
-		t["A0A3"][37][1] = "공격시 10%확률로 주위의 적군들에게 120000의 데미지를 줍니다.";
+		t["A0A3"][37][1] = "공격시 10%확률로 주위의 적군들에게 120000데미지를 줍니다.";
 -- aub1 4
-		t["A0A3"][38][1] = "공격시 10%확률로 주위의 적군들에게 140000의 데미지를 줍니다.";
+		t["A0A3"][38][1] = "공격시 10%확률로 주위의 적군들에게 140000데미지를 줍니다.";
 -- aub1 5
-		t["A0A3"][39][1] = "공격시 10%확률로 주위의 적군들에게 160000의 데미지를 줍니다.";
+		t["A0A3"][39][1] = "공격시 10%확률로 주위의 적군들에게 160000데미지를 줍니다.";
 -- aub1 6
-		t["A0A3"][40][1] = "공격시 10%확률로 주위의 적군들에게 180000의 데미지를 줍니다.";
+		t["A0A3"][40][1] = "공격시 10%확률로 주위의 적군들에게 180000데미지를 줍니다.";
 -- aub1 7
-		t["A0A3"][41][1] = "공격시 10%확률로 주위의 적군들에게 200000의 데미지를 줍니다.";
+		t["A0A3"][41][1] = "공격시 10%확률로 주위의 적군들에게 200000데미지를 줍니다.";
 -- aub1 8
-		t["A0A3"][42][1] = "공격시 10%확률로 주위의 적군들에게 220000의 데미지를 줍니다.";
+		t["A0A3"][42][1] = "공격시 10%확률로 주위의 적군들에게 220000데미지를 줍니다.";
 -- aub1 9
-		t["A0A3"][43][1] = "공격시 10%확률로 주위의 적군들에게 240000의 데미지를 줍니다.";
+		t["A0A3"][43][1] = "공격시 10%확률로 주위의 적군들에게 240000데미지를 줍니다.";
 -- aub1 11
-		t["A0A3"][44][1] = "공격시 10%확률로 주위의 적군들에게 280000의 데미지를 줍니다.";
+		t["A0A3"][44][1] = "공격시 10%확률로 주위의 적군들에게 280000데미지를 줍니다.";
 -- aub1 10
-		t["A0A3"][45][1] = "공격시 10%확률로 주위의 적군들에게 260000의 데미지를 줍니다.";
+		t["A0A3"][45][1] = "공격시 10%확률로 주위의 적군들에게 260000데미지를 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -10534,7 +10534,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 1
 		t["A0A4"][3][1] = "*공격시 코이시의 마나가 1씩 회복됩니다. 마나가 450이 됐을때 다음의 효과를 발동합니다.\r\
 *악몽 속의 사토리를 무의식에서 꺼내 코이시의 위치에 소환해 제 3의 눈과 연결합니다. 코이시와 사토리의 거리가 500 이상이라면 초록색 선을, 코이시와 사토리의 거리가 500 미만이라면 분홍색 선을 생성합니다.\r\
-*선위에 있는 적은 1초마다 전체 체력의 0.4% + 50,000의 |c00379BFF Magical Damage|r를 입습니다. 선은 10 seconds간 지속됩니다.";
+*선위에 있는 적은 1초마다 Maximum Health 0.4% + 50,000|c00379BFF Magical Damage|r를 입습니다. 선은 10 seconds간 지속됩니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -10568,7 +10568,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0A4"][36][1] = "공격시 10%확률로 주위의 적군들에게 100000의 데미지를 줍니다.";
+		t["A0A4"][36][1] = "공격시 10%확률로 주위의 적군들에게 100000데미지를 줍니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -10686,7 +10686,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A02P"][2][1] = "원수『스와의 맑은 물』";
 -- aub1 1
-		t["A02P"][3][1] = "＊공격 시 10% 확률로 스와코가 머금은 물을 뿜어 대상 지점 400 범위의 적에게 175,000의 |c00379BFF마법 피해|r를 가하고 2초간 기절시킵니다. 그 후, 마력을 4 회복합니다.";
+		t["A02P"][3][1] = "＊공격 시 10% 확률로 스와코가 머금은 물을 뿜어 대상 지점 400 범위의 적에게 175,000|c00379BFF마법 피해|r를 가하고 2초간 기절시킵니다. 그 후, 마력을 4 회복합니다.";
 -- anam
 -- aart
 		t["A02P"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNBreathOfFrost.blp";
@@ -10753,14 +10753,14 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A044]
 -- arac
 -- atp1 1
-		t["A044"][2][1] = "광부『정의의 위광』";
+		t["A044"][2][1] = "Light Sign 『정의의 위광』";
 -- aub1 1
-		t["A044"][3][1] = "＊공격 시 10% 확률로 대상 주변 550 범위의 적에게 110,000의 |c00379BFF마법 피해|r를 가하고 1.4초간 기절시킵니다.";
+		t["A044"][3][1] = "＊공격 시 10% 확률로 대상 주변 550 범위의 적에게 110,000|c00379BFF마법 피해|r를 가하고 1.4초간 기절시킵니다.";
 -- anam
 -- aart
 		t["A044"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNManaFlareOff.blp";
 -- atp1 2
-		t["A044"][6][1] = "광부『정의의 위광』 - |c0000FFFFExtended|r";
+		t["A044"][6][1] = "Light Sign 『정의의 위광』 - |c0000FFFFExtended|r";
 -- atp1 3
 		t["A044"][7][1] = "법력『지보의 독고저』";
 -- atp1 4
@@ -10792,25 +10792,25 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A044"][36][1] = "＊공격 시 10% 확률로 대상 주변 550 범위의 적에게 160,000의 |c00379BFF마법 피해|r를 가하고 1.4초간 기절시킵니다.";
+		t["A044"][36][1] = "＊공격 시 10% 확률로 대상 주변 550 범위의 적에게 160,000|c00379BFF마법 피해|r를 가하고 1.4초간 기절시킵니다.";
 -- aub1 3
-		t["A044"][37][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 20000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][37][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 20000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 4
-		t["A044"][38][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 25000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][38][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 25000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 5
-		t["A044"][39][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 30000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][39][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 30000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 6
-		t["A044"][40][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 35000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][40][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 35000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 7
-		t["A044"][41][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 40000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][41][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 40000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 8
-		t["A044"][42][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 45000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][42][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 45000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 9
-		t["A044"][43][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 50000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][43][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 50000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 11
-		t["A044"][44][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 60000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][44][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 60000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 10
-		t["A044"][45][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 55000의 데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
+		t["A044"][45][1] = "공격시 5%확률로 자신 주위 1125범위 내에 랜덤한 위치에 독고저 2개를 생성시켜 회전시킵니다. 독고저는 주위 400범위에 0.4초마다 55000데미지를 입힙니다. 독고저는 8 seconds간 지속되며 이동안 쇼우는 강제 채널링 상태입니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -10886,7 +10886,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A0AA"][2][1] = "불멸『피닉스의 꼬리』";
 -- aub1 1
-		t["A0AA"][3][1] = "＊공격 시 10% 확률로 대상에게 전체 체력의 3% + 175,000(보스 175,000)의 |c00379BFF마법 피해|r를 가하고 2.5 seconds간 기절시키며, 대상 주변 450 범위의 적에게 105,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0AA"][3][1] = "＊공격 시 10% 확률로 대상에게 Maximum Health 3% + 175,000(보스 175,000)의 |c00379BFF마법 피해|r를 가하고 2.5 seconds간 기절시키며, 대상 주변 450 범위의 적에게 105,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 		t["A0AA"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNEnchantedCrows.blp";
@@ -10922,7 +10922,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0AA"][36][1] = "*모코우가 공격시 15% 확률로 전방에 불새를 날려 100,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0AA"][36][1] = "*모코우가 공격시 15% 확률로 전방에 불새를 날려 100,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -11009,7 +11009,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A0AO"][2][1] = "『마공학 분해광선』";
 -- aub1 1
-		t["A0AO"][3][1] = "*리카코가 공격시 10% 확률로 자신의 전방의 적에게 충격광을 발사합니다. 충격광에 닿은 적은 145,000의 |c00FF6464 Physical Damage|r를 입습니다.\r\
+		t["A0AO"][3][1] = "*리카코가 공격시 10% 확률로 자신의 전방의 적에게 충격광을 발사합니다. 충격광에 닿은 적은 145,000|c00FF6464 Physical Damage|r를 입습니다.\r\
 *이 스킬이 발동할때마다『오버플로우』의 활력 Cooldown이 0.2초씩 감소합니다.";
 -- aart
 -- atar 1
@@ -11017,7 +11017,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A0AP]
 -- aub1 1
 		t["A0AP"][1][1] = "*|c00FF80FF[활력]|r - 15 seconds\r\
-*마리사가 자신의 마력을 총동원한 최강의 빔을 전방에 발사합니다. 피격당한 적은 666,000의 |c00379BFF Magical Damage|r를 입습니다.";
+*마리사가 자신의 마력을 총동원한 최강의 빔을 전방에 발사합니다. 피격당한 적은 666,000|c00379BFF Magical Damage|r를 입습니다.";
 -- anam
 		t["A0AP"][3][1] = "[Arcana][마리사]마스터 스파크";
 -- atp1 1
@@ -11026,7 +11026,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A0AR]
 -- aub1 1
 		t["A0AR"][1][1] = "＊Namazu 주변 800 범위의 자신 소유 Units Attack Speed를 10% 증가시킵니다.\r\
-＊공격 시 12% 확률로 Around yourself 600 범위의 적에게 전체 체력 0.4% + 95,000의 |c00FF6464물리 피해|r를 가합니다.";
+＊공격 시 12% 확률로 Around yourself 600 범위의 적에게 전체 체력 0.4% + 95,000|c00FF6464물리 피해|r를 가합니다.";
 -- atar 1
 		t["A0AR"][2][1] = "invulnerable,self,player";
 -- atp1 1
@@ -11038,7 +11038,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- abuf 2
 -- aub1 2
 		t["A0AR"][10][1] = "*기본적으로 Around yourself 800범위 아군의 Attack Speed를 18% 증가시킵니다.\r\
-*공격시 16% 확률로 Around yourself 600범위 적에게 80,000의 |c00FF6464 Physical Damage|r를 입히고, 2.5 seconds간 기절시킵니다.\r\
+*공격시 16% 확률로 Around yourself 600범위 적에게 80,000|c00FF6464 Physical Damage|r를 입히고, 2.5 seconds간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3";
 -- atp1 2
 		t["A0AR"][11][1] = "메기『올 전화로 에콜로지다!』- |c0000FFFFExtended|r";
@@ -11220,8 +11220,8 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aart
 		t["A0B3"][4][1] = "ReplaceableTextures\\CommandButtons\\JoonShion\\BTN_UP.blp";
 -- aub1 1
-		t["A0B3"][5][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 전체 체력의 2% + 125,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*125,000의 상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
+		t["A0B3"][5][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 Maximum Health 2% + 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*125,000상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
 *이 스킬을 발동할 경우 독촉장을 1장씩 획득합니다. 독촉장이 4장일때 발동하는 이 스킬의 데미지가 [1배~2배 사이로 적용됩니다]\r\
 *금으로 인한 데미지가 선으로 상승된 후 독촉장의 데미지 증폭이 적용됩니다.\r\
 *현재 독촉장 - 1장";
@@ -11229,20 +11229,20 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 3
 -- atp1 4
 -- aub1 2
-		t["A0B3"][9][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 전체 체력의 2% + 125,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*125,000의 상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
+		t["A0B3"][9][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 Maximum Health 2% + 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*125,000상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
 *이 스킬을 발동할 경우 독촉장을 1장씩 획득합니다. 독촉장이 4장일때 발동하는 이 스킬의 데미지가 [1배~2배 사이로 적용됩니다]\r\
 *금으로 인한 데미지가 선으로 상승된 후 독촉장의 데미지 증폭이 적용됩니다.\r\
 *현재 독촉장 - 2장";
 -- aub1 3
-		t["A0B3"][10][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 전체 체력의 2% + 125,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*125,000의 상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
+		t["A0B3"][10][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 Maximum Health 2% + 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*125,000상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
 *이 스킬을 발동할 경우 독촉장을 1장씩 획득합니다. 독촉장이 4장일때 발동하는 이 스킬의 데미지가 [1배~2배 사이로 적용됩니다]\r\
 *금으로 인한 데미지가 선으로 상승된 후 독촉장의 데미지 증폭이 적용됩니다.\r\
 *현재 독촉장 - 3장";
 -- aub1 4
-		t["A0B3"][11][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 전체 체력의 2% + 125,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*125,000의 상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
+		t["A0B3"][11][1] = "*죠온의 마나가 120이 됐을때 대상 지점을 내려쳐 대상 지점 주변 500범위내에 있는 적에게 Maximum Health 2% + 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*125,000상수 데미지는 플레이어의 금 1000당 데미지가 10% 증가합니다.[최대 200%]\r\
 *이 스킬을 발동할 경우 독촉장을 1장씩 획득합니다. 독촉장이 4장일때 발동하는 이 스킬의 데미지가 [1배~2배 사이로 적용됩니다]\r\
 *금으로 인한 데미지가 선으로 상승된 후 독촉장의 데미지 증폭이 적용됩니다.\r\
 *현재 독촉장 - 4장";
@@ -11573,11 +11573,11 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A00H"][5][1] = "『수확』";
 -- aub1 1
-		t["A00H"][6][1] = "＊공격 시 35% 확률로 공격력의 2.25배 + 150의 |c00FF6464치명타 피해|r를 가한다.";
+		t["A00H"][6][1] = "＊공격 시 35% 확률로 공격력의 2.25배 + 150|c00FF6464치명타 피해|r를 가한다.";
 -- atp1 2
 		t["A00H"][7][1] = "『수확』Extra";
 -- aub1 2
-		t["A00H"][8][1] = "가을의 추수하듯 대상을 수확하여 35%확률로 2.75배의 데미지와 450의 추가 데미지를 입힙니다.";
+		t["A00H"][8][1] = "가을의 추수하듯 대상을 수확하여 35%확률로 2.75배의 데미지와 450추가 데미지를 입힙니다.";
 -- [A021]
 -- anam
 -- arac
@@ -11585,12 +11585,12 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A021"][3][1] = "신난제『금각사의 천정 한겹』";
 -- aub1 1
 		t["A021"][4][1] = "*카구야가 공격시 10% 확률로 대상 Units에게 12배의 치명타 데미지를 입힙니다.\r\
-*카구야가 공격시 마나를 1씩 회복합니다. 마나가 110이 됐을때 대상 지점 주변 750범위 내에 있는 적에게 400,000의 |c00AC59FF True Damage|r와 잃은 체력의 8%의 |c00FF6464 Physical Damage|r를 입히고 2.5 seconds간 스턴시킵니다.\r\
+*카구야가 공격시 마나를 1씩 회복합니다. 마나가 110이 됐을때 대상 지점 주변 750범위 내에 있는 적에게 400,000|c00AC59FF True Damage|r와 잃은 체력의 8%의 |c00FF6464 Physical Damage|r를 입히고 2.5 seconds간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 신난제『달의 일메나이트』\r\
 \r\
 *카구야가 공격시 10% 확률로 달의 광석인 일메나이트로 벼려낸 검을 휘두릅니다.\r\
-*카구야의 전방으로 달빛이 뿜어져나가 적 전체 체력의 0.4% + 155,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*카구야의 전방으로 달빛이 뿜어져나가 적 Maximum Health 0.4% + 155,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- aart
 -- [A040]
 -- atar 1
@@ -11651,9 +11651,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- anam
 -- arac
 -- atp1 1
-		t["A0BW"][3][1] = "광부『어그레시브 라이트』";
+		t["A0BW"][3][1] = "Light Sign 『어그레시브 라이트』";
 -- aub1 1
-		t["A0BW"][4][1] = "＊공격당한 대상이 Remilia Scarlet[보스]라면, 파문의 빛으로 1,000의 |c00379BFF마법 피해|r를 가한다.";
+		t["A0BW"][4][1] = "＊공격당한 대상이 Remilia Scarlet[보스]라면, 파문의 빛으로 1,000|c00379BFF마법 피해|r를 가한다.";
 -- aart
 		t["A0BW"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNHealingWave.blp";
 -- [A0BZ]
@@ -11693,7 +11693,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A0C0"][4][1] = "기부『천계기상의 검』";
 -- aub1 1
 		t["A0C0"][5][1] = "*|c00FF80FF[활력]|r - 5 seconds\r\
-텐시가 전방의 Units에게 전체 체력의 0.5% + 50,000의  Magical Damage를 입히고, 2.5 seconds간 스턴시킵니다.\r\
+텐시가 전방의 Units에게 Maximum Health 0.5% + 50,000 Magical Damage를 입히고, 2.5 seconds간 스턴시킵니다.\r\
 *텐시가 보유한 버프가 8개 이상일 경우 , 위 효과의 데미지가 7배가 됩니다.\r\
 [디버프는 포함되지 않습니다]";
 -- aub1 2
@@ -11793,7 +11793,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A017"][2][1] = "『마공학 중력장』";
 -- aub1 1
-		t["A017"][3][1] = "*리카코가 공격시 9% 확률로 대상 지점에 중력장을 생성합니다. 중력장 주변 400범위 적에게 110,000의 |c00FF6464 Physical Damage|r를 입히고, 2.5 seconds간 스턴시킵니다.\r\
+		t["A017"][3][1] = "*리카코가 공격시 9% 확률로 대상 지점에 중력장을 생성합니다. 중력장 주변 400범위 적에게 110,000|c00FF6464 Physical Damage|r를 입히고, 2.5 seconds간 스턴시킵니다.\r\
 *이 스킬이 발동할때마다『오버플로우』의 활력 Cooldown이 0.2초씩 감소합니다.";
 -- [A0C3]
 -- anam
@@ -11898,44 +11898,44 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- abuf 30
 -- abuf 31
 -- aub1 2
-		t["A0C9"][67][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 12000의 데미지를 줍니다.";
+		t["A0C9"][67][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 12000데미지를 줍니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A0C9"][71][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 15000의 데미지를 줍니다.";
+		t["A0C9"][71][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 15000데미지를 줍니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 10
 -- aub1 11
-		t["A0C9"][76][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 21000의 데미지를 줍니다.";
+		t["A0C9"][76][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 21000데미지를 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A0C9"][81][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 27000의 데미지를 줍니다.";
+		t["A0C9"][81][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 27000데미지를 줍니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A0C9"][86][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 30000의 데미지를 줍니다.";
+		t["A0C9"][86][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 35%느리게 하며 초당 30000데미지를 줍니다.";
 -- aub1 22
-		t["A0C9"][87][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 33000의 데미지를 줍니다.";
+		t["A0C9"][87][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 33000데미지를 줍니다.";
 -- aub1 23
 -- aub1 24
 -- aub1 25
-		t["A0C9"][90][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 36000의 데미지를 줍니다.";
+		t["A0C9"][90][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 36000데미지를 줍니다.";
 -- aub1 26
 -- aub1 27
 -- aub1 28
-		t["A0C9"][93][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 39000의 데미지를 줍니다.";
+		t["A0C9"][93][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 39000데미지를 줍니다.";
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A0C9"][96][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 42000의 데미지를 줍니다.";
+		t["A0C9"][96][1] = "요시카가 대상을 공격할 때 대상을 5 seconds간 20%느리게 하며 초당 42000데미지를 줍니다.";
 -- atp1 2
 -- atp1 3
 -- atp1 4
@@ -11983,7 +11983,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- aub1 1
 		t["A0CC"][3][1] = "*사쿠야를 제외한 주변 700범위 Units들의 Movement Speed가 35% 감소합니다.[자신 소유 Units 및 아군도 포함합니다.]\r\
 *사쿠야 주위 700범위 적들의 방어력이 40 감소합니다.\r\
-*사쿠야가 공격시 10% 확률로 적에게 보이지 않을 정도로 빠르게 나이프를 휘둘러 대상 주변 500범위 적에게 Current Health의 1% + 120,000의 |c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.";
+*사쿠야가 공격시 10% 확률로 적에게 보이지 않을 정도로 빠르게 나이프를 휘둘러 대상 주변 500범위 적에게 Current Health의 1% + 120,000|c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.";
 -- atar 1
 		t["A0CC"][4][1] = "notself";
 -- aart
@@ -11995,7 +11995,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0CE"][2][1] = "염부『태을진화』- 0번째 방화";
 -- aub1 1
-		t["A0CE"][3][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 전체 체력 0.3% + 70,000의 |c00379BFF마법 피해|r를 가합니다. 4번째 발동할 때마다 마법 피해를 10% 증폭시키는 효과가 추가됩니다.";
+		t["A0CE"][3][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 전체 체력 0.3% + 70,000|c00379BFF마법 피해|r를 가합니다. 4번째 발동할 때마다 마법 피해를 10% 증폭시키는 효과가 추가됩니다.";
 -- anam
 -- aart
 		t["A0CE"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNFire.blp";
@@ -12038,19 +12038,19 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- aub1 3
 -- aub1 4
 -- aub1 5
-		t["A0CE"][39][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 전체 체력 0.3% + 70,000의 |c00379BFF마법 피해|r를 가하고 마법 피해를 10% 증폭시킵니다.";
+		t["A0CE"][39][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 전체 체력 0.3% + 70,000|c00379BFF마법 피해|r를 가하고 마법 피해를 10% 증폭시킵니다.";
 -- aub1 6
-		t["A0CE"][40][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 75000의 데미지를 8회 입히며, 닿은 적에게 초당 22500의 데미지를 5 seconds간 줍니다.";
+		t["A0CE"][40][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 75000데미지를 8회 입히며, 닿은 적에게 초당 22500데미지를 5 seconds간 줍니다.";
 -- aub1 7
-		t["A0CE"][41][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 80000의 데미지를 8회 입히며, 닿은 적에게 초당 25000의 데미지를 5 seconds간 줍니다.";
+		t["A0CE"][41][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 80000데미지를 8회 입히며, 닿은 적에게 초당 25000데미지를 5 seconds간 줍니다.";
 -- aub1 8
-		t["A0CE"][42][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 85000의 데미지를 8회 입히며, 닿은 적에게 초당 27500의 데미지를 5 seconds간 줍니다.";
+		t["A0CE"][42][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 85000데미지를 8회 입히며, 닿은 적에게 초당 27500데미지를 5 seconds간 줍니다.";
 -- aub1 9
-		t["A0CE"][43][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 90000의 데미지를 8회 입히며, 닿은 적에게 초당 30000의 데미지를 5 seconds간 줍니다.";
+		t["A0CE"][43][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 90000데미지를 8회 입히며, 닿은 적에게 초당 30000데미지를 5 seconds간 줍니다.";
 -- aub1 11
-		t["A0CE"][44][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 100000의 데미지를 8회 입히며, 닿은 적에게 초당 35000의 데미지를 5 seconds간 줍니다.";
+		t["A0CE"][44][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 100000데미지를 8회 입히며, 닿은 적에게 초당 35000데미지를 5 seconds간 줍니다.";
 -- aub1 10
-		t["A0CE"][45][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 95000의 데미지를 8회 입히며, 닿은 적에게 초당 32500의 데미지를 5 seconds간 줍니다.";
+		t["A0CE"][45][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 95000데미지를 8회 입히며, 닿은 적에게 초당 32500데미지를 5 seconds간 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -12170,7 +12170,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A00C"][2][1] = "수명『무수국으로의 약속어음』";
 -- aub1 1
-		t["A00C"][3][1] = "＊공격 시 10% 확률로 수명을 깎는 저주를 대상 주변 450 범위의 적에게 퍼부어 잃은 체력 0.6% + 95,000의 |c00379BFF마법 피해|r를 가합니다.\r\
+		t["A00C"][3][1] = "＊공격 시 10% 확률로 수명을 깎는 저주를 대상 주변 450 범위의 적에게 퍼부어 잃은 체력 0.6% + 95,000|c00379BFF마법 피해|r를 가합니다.\r\
 ＊공격당한 적의 체력이 5% 이하라면, 즉사시킵니다.";
 -- aart
 		t["A00C"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNOrbOfDeathOn.blp";
@@ -12219,7 +12219,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- aub1 7
 		t["A00C"][40][1] = "매 공격시 대상에게 사령을 붙여 2초간 방어력을 170,000큼 감소시키며 대상을 공격할 경우 0.7초후 99999의 데미지를 입습니다.";
 -- aub1 8
-		t["A00C"][41][1] = "매 공격시 대상에게 사령을 붙여 2초간 방어력을 185,000큼 감소시키며 대상을 공격할 경우 0.7초후 111110의 데미지를 입습니다.";
+		t["A00C"][41][1] = "매 공격시 대상에게 사령을 붙여 2초간 방어력을 185,000큼 감소시키며 대상을 공격할 경우 0.7초후 111110데미지를 입습니다.";
 -- aub1 9
 		t["A00C"][42][1] = "매 공격시 대상에게 사령을 붙여 2초간 방어력을 200,000큼 감소시키며 대상을 공격할 경우 0.7초후 122221의 데미지를 입습니다.";
 -- aub1 10
@@ -12385,29 +12385,29 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0CO"][2][1] = "부적『대 요괴 방위막이』";
 -- aub1 1
-		t["A0CO"][3][1] = "*레이무가 공격시 10% 확률로 대상 지점에 부적을 투척하여 요력을 막는 결계를 생성합니다. 대상 지점 주변 400범위 내의 적을 2.5 seconds간 스턴시키고, 전체 체력의 0.4% + 100,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0CO"][3][1] = "*레이무가 공격시 10% 확률로 대상 지점에 부적을 투척하여 요력을 막는 결계를 생성합니다. 대상 지점 주변 400범위 내의 적을 2.5 seconds간 스턴시키고, Maximum Health 0.4% + 100,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 몽부『환상일중』\r\
 \r\
-*레이무가 공격시 10% 확률로 대상 지점 주변 400범위 적을 2.5 seconds간 스턴시키고, Current Health의 0.7% + 125,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*이 스킬에 피격된 대상 적 1기는 전체 체력의 50%에 해당하는 |c00FF6464 Physical Damage|r를 입습니다.[보스에게는 적용되지 않습니다]";
+*레이무가 공격시 10% 확률로 대상 지점 주변 400범위 적을 2.5 seconds간 스턴시키고, Current Health의 0.7% + 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*이 스킬에 피격된 대상 적 1기는 Maximum Health 50%에 해당하는 |c00FF6464 Physical Damage|r를 입습니다.[보스에게는 적용되지 않습니다]";
 -- aart
 -- arac
 -- atp1 2
 		t["A0CO"][6][1] = "『핵펀치』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A0CO"][7][1] = "*Hisoutensoku이 공격시 15% 확률로 대상 지점을 있는 힘껏 타격합니다.\r\
-*대상 지점 주변 400범위 내에 있는 적을 1.5 seconds간 스턴시키고, 전체 체력의 0.6% + 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*대상 지점 주변 400범위 내에 있는 적을 1.5 seconds간 스턴시키고, Maximum Health 0.6% + 150,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- [A0CP]
 -- anam
 -- atp1 1
-		t["A0CP"][2][1] = "광부『구세 플래쉬』 - 『천상』";
+		t["A0CP"][2][1] = "Light Sign 『구세 플래쉬』 - 『천상』";
 -- aub1 1
-		t["A0CP"][3][1] = "*공격시 12% 확률로 다음의 효과를 발동합니다. 자신의 위치에 강렬한 빛을 내뿜어 750범위 내의 적에게 180,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0CP"][3][1] = "*공격시 12% 확률로 다음의 효과를 발동합니다. 자신의 위치에 강렬한 빛을 내뿜어 750범위 내의 적에게 180,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *위 효과 발동시 6초간 Around yourself 600범위 아군의 공격력을 100% 증가시키고, 초당 마나를 1.5 회복시킵니다.";
 -- aart
 -- atp1 2
-		t["A0CP"][5][1] = "광부『구세 플래쉬』 - 『인상』";
+		t["A0CP"][5][1] = "Light Sign 『구세 플래쉬』 - 『인상』";
 -- atp1 3
 		t["A0CP"][6][1] = "『별이 내리는 신령묘』";
 -- atp1 4
@@ -12419,37 +12419,37 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 10
 -- atp1 11
 -- aub1 2
-		t["A0CP"][15][1] = "*미코가 공격시 40% 확률로 대상 지점 주변 500범위 내에 있는 적에게 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*미코가 공격시 20% 확률로 보스 Units에게 Current Health의 0.6% + 95,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0CP"][15][1] = "*미코가 공격시 40% 확률로 대상 지점 주변 500범위 내에 있는 적에게 100,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+*미코가 공격시 20% 확률로 보스 Units에게 Current Health의 0.6% + 95,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aub1 3
-		t["A0CP"][16][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.9초마다 74000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][16][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.9초마다 74000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 4
-		t["A0CP"][17][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.8 seconds마다 74000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][17][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.8 seconds마다 74000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 5
-		t["A0CP"][18][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.8 seconds마다 78000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][18][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.8 seconds마다 78000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 6
-		t["A0CP"][19][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.7초마다 78000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][19][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.7초마다 78000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 7
-		t["A0CP"][20][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.7초마다 82000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][20][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.7초마다 82000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 8
-		t["A0CP"][21][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.6초마다 82000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][21][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.6초마다 82000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 9
-		t["A0CP"][22][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.6초마다 86000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][22][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.6초마다 86000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 10
-		t["A0CP"][23][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.5 seconds마다 86000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][23][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.5 seconds마다 86000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- aub1 11
-		t["A0CP"][24][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.5 seconds마다 90000의 데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
+		t["A0CP"][24][1] = "공격시 10%확률로 자신의 필드 중앙에 신령묘를 세워 자신의 필드 전체에 0.5 seconds마다 90000데미지를 줍니다. 10 seconds간 지속됩니다. 중복 발동 안함.";
 -- arac
 -- [A0CT]
 -- anam
 -- atp1 1
 		t["A0CT"][2][1] = "동부『노던 위너』";
 -- aub1 1
-		t["A0CT"][3][1] = "＊공격 시 10% 확률로 대상 주변 400 범위의 적에게 80,000의 |c00379BFF마법 피해|r를 가하고 1.6초간 기절시킵니다.\r\
+		t["A0CT"][3][1] = "＊공격 시 10% 확률로 대상 주변 400 범위의 적에게 80,000|c00379BFF마법 피해|r를 가하고 1.6초간 기절시킵니다.\r\
 ───────────────────\r\
 『저체온증』\r\
 \r\
-＊공격한 대상이 보스라면, 50% 확률로 Current Health 0.4% + 15,000의 |c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.";
+＊공격한 대상이 보스라면, 50% 확률로 Current Health 0.4% + 15,000|c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.";
 -- aart
 		t["A0CT"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNFrost.blp";
 -- atp1 2
@@ -12463,25 +12463,25 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 10
 -- atp1 11
 -- aub1 2
-		t["A0CT"][15][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 25500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][15][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 25500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 3
-		t["A0CT"][16][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 28500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][16][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 28500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 4
-		t["A0CT"][17][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 31500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][17][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 31500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 5
-		t["A0CT"][18][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 34500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][18][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 34500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 6
-		t["A0CT"][19][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 37500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][19][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 37500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 7
-		t["A0CT"][20][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 40500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][20][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 40500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 8
-		t["A0CT"][21][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 43500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][21][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 43500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 9
-		t["A0CT"][22][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 46500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][22][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 46500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 10
-		t["A0CT"][23][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 49500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][23][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 49500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- aub1 11
-		t["A0CT"][24][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 52500의 데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
+		t["A0CT"][24][1] = "공격시 16%확률로 대상을 강력하게 얼린 후 1.2초동안 0.12초마다 52500데미지를 대상 주위 300범위에 줍니다. 대상이 죽을 경우 취소됩니다.";
 -- [A0CV]
 -- anam
 -- aub1 1
@@ -12505,65 +12505,65 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- anam
 -- aart
 -- aub1 2
-		t["A0CW"][6][1] = "적을 공격할시 21.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 15000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][6][1] = "적을 공격할시 21.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 15000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 3
-		t["A0CW"][7][1] = "적을 공격할시 23%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 20000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][7][1] = "적을 공격할시 23%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 20000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 4
-		t["A0CW"][8][1] = "적을 공격할시 24.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 20000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][8][1] = "적을 공격할시 24.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 20000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 5
-		t["A0CW"][9][1] = "적을 공격할시 26%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 25000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][9][1] = "적을 공격할시 26%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 25000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 6
-		t["A0CW"][10][1] = "적을 공격할시 27.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 25000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][10][1] = "적을 공격할시 27.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 25000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 7
-		t["A0CW"][11][1] = "적을 공격할시 29%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 30000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][11][1] = "적을 공격할시 29%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 30000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 8
-		t["A0CW"][12][1] = "적을 공격할시 30.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 30000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][12][1] = "적을 공격할시 30.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 30000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 9
-		t["A0CW"][13][1] = "적을 공격할시 32%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 35000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][13][1] = "적을 공격할시 32%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 35000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 10
-		t["A0CW"][14][1] = "적을 공격할시 33.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 35000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][14][1] = "적을 공격할시 33.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 35000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 11
-		t["A0CW"][15][1] = "적을 공격할시 35%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 40000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][15][1] = "적을 공격할시 35%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 40000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 12
-		t["A0CW"][16][1] = "적을 공격할시 36.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 40000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][16][1] = "적을 공격할시 36.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 40000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 13
-		t["A0CW"][17][1] = "적을 공격할시 38%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 45000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][17][1] = "적을 공격할시 38%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 45000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 14
-		t["A0CW"][18][1] = "적을 공격할시 39.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 45000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][18][1] = "적을 공격할시 39.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 45000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 15
-		t["A0CW"][19][1] = "적을 공격할시 41%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 50000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][19][1] = "적을 공격할시 41%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 50000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 16
-		t["A0CW"][20][1] = "적을 공격할시 42.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 50000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][20][1] = "적을 공격할시 42.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 50000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 17
-		t["A0CW"][21][1] = "적을 공격할시 44%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 55000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][21][1] = "적을 공격할시 44%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 55000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 18
-		t["A0CW"][22][1] = "적을 공격할시 45.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 55000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][22][1] = "적을 공격할시 45.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 55000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 19
-		t["A0CW"][23][1] = "적을 공격할시 47%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 60000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][23][1] = "적을 공격할시 47%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 60000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 20
-		t["A0CW"][24][1] = "적을 공격할시 48.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 60000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][24][1] = "적을 공격할시 48.5%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 60000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 21
-		t["A0CW"][25][1] = "적을 공격할시 50%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 65000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][25][1] = "적을 공격할시 50%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 65000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 22
-		t["A0CW"][26][1] = "적을 공격할시 41%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 65000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][26][1] = "적을 공격할시 41%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 65000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 23
-		t["A0CW"][27][1] = "적을 공격할시 42%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 70000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][27][1] = "적을 공격할시 42%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 70000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 24
-		t["A0CW"][28][1] = "적을 공격할시 43%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 70000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][28][1] = "적을 공격할시 43%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 70000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 25
-		t["A0CW"][29][1] = "적을 공격할시 44%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 75000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][29][1] = "적을 공격할시 44%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 75000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 26
-		t["A0CW"][30][1] = "적을 공격할시 45%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 75000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][30][1] = "적을 공격할시 45%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 75000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 27
-		t["A0CW"][31][1] = "적을 공격할시 46%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 80000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][31][1] = "적을 공격할시 46%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 80000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 28
-		t["A0CW"][32][1] = "적을 공격할시 47%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 80000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][32][1] = "적을 공격할시 47%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 80000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 29
-		t["A0CW"][33][1] = "적을 공격할시 48%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 85000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][33][1] = "적을 공격할시 48%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 85000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 30
-		t["A0CW"][34][1] = "적을 공격할시 49%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 85000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][34][1] = "적을 공격할시 49%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 85000데미지와 0.4초의 스턴을 줍니다.";
 -- aub1 31
-		t["A0CW"][35][1] = "적을 공격할시 50%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 90000의 데미지와 0.4초의 스턴을 줍니다.";
+		t["A0CW"][35][1] = "적을 공격할시 50%확률로 발동됩니다. 공격 대상의 위치에 벼락을 떨어뜨려 90000데미지와 0.4초의 스턴을 줍니다.";
 -- atp1 2
 -- atp1 3
 -- atp1 4
@@ -12599,7 +12599,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0CX"][2][1] = "망향『망아향 -오랜 죄-』";
 -- aub1 1
-		t["A0CX"][3][1] = "＊공격 시 10% 확률로 Around yourself 500 범위의 적에게 9,000의 |c00379BFF마법 피해|r를 가한다.";
+		t["A0CX"][3][1] = "＊공격 시 10% 확률로 Around yourself 500 범위의 적에게 9,000|c00379BFF마법 피해|r를 가한다.";
 -- aart
 -- atp1 17
 -- atp1 16
@@ -12636,23 +12636,23 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- aub1 2
 		t["A0CX"][35][1] = "매 공격시 22%확률로 경계를 뒤틀어 대상의 Current Health의 15%에 해당하는  True Damage를 줍니다. ";
 -- aub1 3
-		t["A0CX"][36][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 37%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 23%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][36][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 37%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 23%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 4
-		t["A0CX"][37][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 38%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 22%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][37][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 38%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 22%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 5
-		t["A0CX"][38][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 39%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 21%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][38][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 39%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 21%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 6
-		t["A0CX"][39][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 40%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 20%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][39][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 40%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 20%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 7
-		t["A0CX"][40][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 41%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 19%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][40][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 41%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 19%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 8
-		t["A0CX"][41][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 42%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 18%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][41][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 42%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 18%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 9
-		t["A0CX"][42][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 43%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 17%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][42][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 43%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 17%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 10
-		t["A0CX"][43][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 44%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 16%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][43][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 44%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 16%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 11
-		t["A0CX"][44][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 전체 체력의 45%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 전체 체력의 15%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
+		t["A0CX"][44][1] = "매 공격시 20%확률로 경계를 뒤틀어 대상의 Maximum Health 45%에 해당하는 데미지를 줍니다. 5 seconds 뒤에도 대상 Units이 살아있다면 Maximum Health 15%만큼 회복시킵니다. 마법 면역 Units에게 발동하지 않습니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -12709,7 +12709,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0D4"][2][1] = "무의식『탄막 로르샤흐』- |c0000FFFFExtended|r";
 -- aub1 1
-		t["A0D4"][3][1] = "*코이시가 공격시 10% 확률로 코이시와 코이시 앞 1000 거리에서 동시에 탄막을 발사합니다. 탄막은 900 거리의 적에게 99,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0D4"][3][1] = "*코이시가 공격시 10% 확률로 코이시와 코이시 앞 1000 거리에서 동시에 탄막을 발사합니다. 탄막은 900 거리의 적에게 99,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aart
 -- atp1 2
 		t["A0D4"][5][1] = "마수『카마이타치 베어링』";
@@ -12756,7 +12756,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0DB"][2][1] = "『팔백팔 너구리 하야시』";
 -- aub1 1
-		t["A0DB"][3][1] = "＊공격 시 10% 확률로 Around yourself 650 범위의 적에게 95,000의 |c00FF6464물리 피해|r를 가합니다.\r\
+		t["A0DB"][3][1] = "＊공격 시 10% 확률로 Around yourself 650 범위의 적에게 95,000|c00FF6464물리 피해|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 3 (20% 확률로 5)";
 -- aart
 		t["A0DB"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNRacoon.blp";
@@ -12768,16 +12768,16 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 5
 -- atp1 6
 -- aub1 2
-		t["A0DB"][10][1] = "*공격시 20% 확률로 Around yourself 650범위 적에게 125,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0DB"][10][1] = "*공격시 20% 확률로 Around yourself 650범위 적에게 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 3";
 -- aub1 3
-		t["A0DB"][11][1] = "공격시 13%확률로 부딪힐 시 160000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
+		t["A0DB"][11][1] = "공격시 13%확률로 부딪힐 시 160000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
 -- aub1 4
-		t["A0DB"][12][1] = "공격시 13%확률로 부딪힐 시 190000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
+		t["A0DB"][12][1] = "공격시 13%확률로 부딪힐 시 190000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
 -- aub1 5
-		t["A0DB"][13][1] = "공격시 13%확률로 부딪힐 시 220000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
+		t["A0DB"][13][1] = "공격시 13%확률로 부딪힐 시 220000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
 -- aub1 6
-		t["A0DB"][14][1] = "공격시 13%확률로 부딪힐 시 250000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
+		t["A0DB"][14][1] = "공격시 13%확률로 부딪힐 시 250000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
 -- [A0DO]
 -- atar 1
 -- acat
@@ -12804,58 +12804,58 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- aart
 		t["A0B2"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNWispHealOn.blp";
 -- aub1 2
-		t["A0B2"][6][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 7000의 추가피해를 가합니다.";
+		t["A0B2"][6][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 7000추가피해를 가합니다.";
 -- aub1 3
-		t["A0B2"][7][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 7500의 추가피해를 가합니다.";
+		t["A0B2"][7][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 7500추가피해를 가합니다.";
 -- aub1 4
-		t["A0B2"][8][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 8000의 추가피해를 가합니다.";
+		t["A0B2"][8][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 8000추가피해를 가합니다.";
 -- aub1 5
-		t["A0B2"][9][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 8500의 추가피해를 가합니다.";
+		t["A0B2"][9][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 8500추가피해를 가합니다.";
 -- aub1 6
-		t["A0B2"][10][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 9000의 추가피해를 가합니다.";
+		t["A0B2"][10][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 9000추가피해를 가합니다.";
 -- aub1 7
-		t["A0B2"][11][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 9500의 추가피해를 가합니다.";
+		t["A0B2"][11][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 9500추가피해를 가합니다.";
 -- aub1 8
-		t["A0B2"][12][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 10000의 추가피해를 가합니다.";
+		t["A0B2"][12][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 10000추가피해를 가합니다.";
 -- aub1 9
-		t["A0B2"][13][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 10500의 추가피해를 가합니다.";
+		t["A0B2"][13][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 10500추가피해를 가합니다.";
 -- aub1 10
-		t["A0B2"][14][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 11000의 추가피해를 가합니다.";
+		t["A0B2"][14][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 11000추가피해를 가합니다.";
 -- aub1 11
-		t["A0B2"][15][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 11500의 추가피해를 가합니다.";
+		t["A0B2"][15][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 11500추가피해를 가합니다.";
 -- aub1 12
-		t["A0B2"][16][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 12000의 추가피해를 가합니다.";
+		t["A0B2"][16][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 12000추가피해를 가합니다.";
 -- aub1 13
-		t["A0B2"][17][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 12500의 추가피해를 가합니다.";
+		t["A0B2"][17][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 12500추가피해를 가합니다.";
 -- aub1 14
-		t["A0B2"][18][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 13000의 추가피해를 가합니다.";
+		t["A0B2"][18][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 13000추가피해를 가합니다.";
 -- aub1 15
-		t["A0B2"][19][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 13500의 추가피해를 가합니다.";
+		t["A0B2"][19][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 13500추가피해를 가합니다.";
 -- aub1 16
-		t["A0B2"][20][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 14000의 추가피해를 가합니다.";
+		t["A0B2"][20][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 14000추가피해를 가합니다.";
 -- aub1 17
-		t["A0B2"][21][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 14500의 추가피해를 가합니다.";
+		t["A0B2"][21][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 14500추가피해를 가합니다.";
 -- aub1 18
-		t["A0B2"][22][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 15000의 추가피해를 가합니다.";
+		t["A0B2"][22][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 15000추가피해를 가합니다.";
 -- aub1 19
-		t["A0B2"][23][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 15500의 추가피해를 가합니다.";
+		t["A0B2"][23][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 15500추가피해를 가합니다.";
 -- aub1 20
-		t["A0B2"][24][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 16000의 추가피해를 가합니다.";
+		t["A0B2"][24][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 16000추가피해를 가합니다.";
 -- aub1 21
-		t["A0B2"][25][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 16500의 추가피해를 가합니다.";
+		t["A0B2"][25][1] = "한번 공격했던 대상을 다시 공격하게 될 경우 16500추가피해를 가합니다.";
 -- aub1 22
-		t["A0B2"][26][1] = "매 공격시 25%확률로 자신과 주위 600범위내의 적을 1.2초간 정지시키며 90000의 데미지를 줍니다.";
+		t["A0B2"][26][1] = "매 공격시 25%확률로 자신과 주위 600범위내의 적을 1.2초간 정지시키며 90000데미지를 줍니다.";
 -- aub1 23
 -- aub1 24
 -- aub1 25
 -- aub1 26
-		t["A0B2"][30][1] = "매 공격시 25%확률로 자신과 주위 650범위내의 적을 1.2초간 정지시키며 100000의 데미지를 줍니다.";
+		t["A0B2"][30][1] = "매 공격시 25%확률로 자신과 주위 650범위내의 적을 1.2초간 정지시키며 100000데미지를 줍니다.";
 -- aub1 27
 -- aub1 28
 -- aub1 29
 -- aub1 30
 -- aub1 31
-		t["A0B2"][35][1] = "매 공격시 25%확률로 자신과 주위 700범위내의 적을 1.2초간 정지시키며 110000의 데미지를 줍니다.";
+		t["A0B2"][35][1] = "매 공격시 25%확률로 자신과 주위 700범위내의 적을 1.2초간 정지시키며 110000데미지를 줍니다.";
 -- atp1 2
 -- atp1 3
 -- atp1 4
@@ -12942,7 +12942,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 		t["A0DS"][4][1] = "[마나 Condition이나 활력 Condition 둘 중 하나만 갖추어도 발동하며, 활력 혹은 마나 둘 중 하나만 소모합니다.]\r\
 *모미지가 공격시 마나를 1 회복합니다. 마나가 160이 될때 발동합니다.\r\
 *|c00FF80FF[활력]|r - 20 seconds\r\
-*모미지가 대상 지점을 보이지 않는 속도로 일격을 날려 적을 양단합니다. 대상 지점 주변 500범위 적에게 전체 체력의 5% + 1250,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*모미지가 대상 지점을 보이지 않는 속도로 일격을 날려 적을 양단합니다. 대상 지점 주변 500범위 적에게 Maximum Health 5% + 1250,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *효과 발동후 5 seconds간 스킬의 극대화 효과가 60% 확률로 발동합니다.";
 -- aart
 		t["A0DS"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp";
@@ -14162,7 +14162,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0DF"][3][1] = "검술 『기염만장의 검』";
 -- aub1 1
-		t["A0DF"][4][1] = "*텐시가 공격시 20% 확률로 대상 Units 하나에게 전체 체력의 5% + 300,000의 |c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.\r\
+		t["A0DF"][4][1] = "*텐시가 공격시 20% 확률로 대상 Units 하나에게 Maximum Health 5% + 300,000|c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.\r\
 [전체 체력 비례 데미지는 보스에게는 20%의 데미지만 입힙니다.]";
 -- aart
 -- areq
@@ -14173,11 +14173,11 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 5
 -- atp1 6
 -- aub1 2
-		t["A0DF"][12][1] = "*텐시가 공격시 20% 확률로 대상 Units 하나에게 전체 체력의 3% + 165,000의 |c00379BFF Magical Damage|r[보스에게는 20%의 데미지]를 입히고 2초간 스턴시킵니다.\r\
+		t["A0DF"][12][1] = "*텐시가 공격시 20% 확률로 대상 Units 하나에게 Maximum Health 3% + 165,000|c00379BFF Magical Damage|r[보스에게는 20%의 데미지]를 입히고 2초간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『선우후락의 검』\r\
 \r\
-*『비상비비상비의 검』을 5회 발동할때마다 주변 800범위 적을 5 seconds간 스턴시키고 450,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*『비상비비상비의 검』을 5회 발동할때마다 주변 800범위 적을 5 seconds간 스턴시키고 450,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *『선우후락의 검』은 『무념무상의 경지』의 효과를 적용받지 않습니다.";
 -- aub1 3
 -- aub1 4
@@ -14231,21 +14231,21 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 7
 -- atp1 8
 -- aub1 1
-		t["A0GQ"][11][1] = "*목표 지점 375범위에 1.4초간 0.2초마다 15000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 120 seconds";
+		t["A0GQ"][11][1] = "*목표 지점 375범위에 1.4초간 0.2초마다 15000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 120 seconds";
 -- aub1 2
-		t["A0GQ"][12][1] = "목표 지점 275범위에 1.4초간 0.2초마다 8500의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 20웨이브)|r";
+		t["A0GQ"][12][1] = "목표 지점 275범위에 1.4초간 0.2초마다 8500데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 20웨이브)|r";
 -- aub1 3
-		t["A0GQ"][13][1] = "목표 지점 275범위에 1.4초간 0.2초마다 18000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 30웨이브)|r";
+		t["A0GQ"][13][1] = "목표 지점 275범위에 1.4초간 0.2초마다 18000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 30웨이브)|r";
 -- aub1 4
-		t["A0GQ"][14][1] = "목표 지점 275범위에 1.4초간 0.2초마다 45000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 40웨이브)|r";
+		t["A0GQ"][14][1] = "목표 지점 275범위에 1.4초간 0.2초마다 45000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 40웨이브)|r";
 -- aub1 5
-		t["A0GQ"][15][1] = "목표 지점 275범위에 1.4초간 0.2초마다 90000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 50웨이브)|r";
+		t["A0GQ"][15][1] = "목표 지점 275범위에 1.4초간 0.2초마다 90000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 50웨이브)|r";
 -- aub1 6
-		t["A0GQ"][16][1] = "목표 지점 275범위에 1.4초간 0.2초마다 180000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 60웨이브)|r";
+		t["A0GQ"][16][1] = "목표 지점 275범위에 1.4초간 0.2초마다 180000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 60웨이브)|r";
 -- aub1 7
-		t["A0GQ"][17][1] = "목표 지점 275범위에 1.4초간 0.2초마다 400000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 70웨이브)|r";
+		t["A0GQ"][17][1] = "목표 지점 275범위에 1.4초간 0.2초마다 400000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 70웨이브)|r";
 -- aub1 8
-		t["A0GQ"][18][1] = "목표 지점 275범위에 1.4초간 0.2초마다 800000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 80웨이브)|r";
+		t["A0GQ"][18][1] = "목표 지점 275범위에 1.4초간 0.2초마다 800000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 80웨이브)|r";
 -- ahky
 -- aeff 1
 		t["A0GQ"][20][1] = "X003";
@@ -14268,7 +14268,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- aeff 9
 -- atp1 9
 -- aub1 9
-		t["A0GQ"][39][1] = "목표 지점 275범위에 1.4초간 0.2초마다 1800000의 데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 80웨이브)|r";
+		t["A0GQ"][39][1] = "목표 지점 275범위에 1.4초간 0.2초마다 1800000데미지를 줍니다. 보스몹은 맞지 않습니다. 채널링 스킬. 쿨타임 240 seconds|cffffcc00(다음 레벨 제한 : 80웨이브)|r";
 -- [A0GR]
 -- anam
 -- atp1 1
@@ -14293,13 +14293,13 @@ Effect : 5 seconds간 Movement Speed -35%";
 |c00FF00FF효과:|r 범위 내 적에게 0.8 seconds간 80%의 슬로우 효과\r\
 |c00FF00FF설명:|r 마미조가 자신의 꼬리를 크게 휘둘러칩니다. 별 위력이 없을것 같다고 느낀 적은 의외의 데미지에 깜짝 놀랍니다.";
 -- aub1 3
-		t["A0GR"][11][1] = "공격시 15%확률로 부딪힐 시 140000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
+		t["A0GR"][11][1] = "공격시 15%확률로 부딪힐 시 140000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
 -- aub1 4
-		t["A0GR"][12][1] = "공격시 15%확률로 부딪힐 시 160000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
+		t["A0GR"][12][1] = "공격시 15%확률로 부딪힐 시 160000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
 -- aub1 5
-		t["A0GR"][13][1] = "공격시 15%확률로 부딪힐 시 180000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
+		t["A0GR"][13][1] = "공격시 15%확률로 부딪힐 시 180000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
 -- aub1 6
-		t["A0GR"][14][1] = "공격시 15%확률로 부딪힐 시 200000의 데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
+		t["A0GR"][14][1] = "공격시 15%확률로 부딪힐 시 200000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다.";
 -- arac
 -- [A0CU]
 -- anam
@@ -14391,7 +14391,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0H7"][3][1] = "*|c00FF80FF[활력]|r - 28 seconds\r\
 *스이카가 잔영을 생성하여 2초간 정신집중을 한 뒤 대상 적을 있는 힘껏 공격합니다. 정신집중이 시작될때 대상 지점 주변 1000범위 내에 있는 적을 3초간 스턴시킵니다.\r\
 *대상이 된 적 1기는 즉사합니다.\r\
-*대상 지점 주변 1000범위 내에 있는 적에게 전체 체력의 10% + 1500,000의 |c00AC59FF절대 피해|r를 입힙니다.";
+*대상 지점 주변 1000범위 내에 있는 적에게 Maximum Health 10% + 1500,000|c00AC59FF절대 피해|r를 입힙니다.";
 -- anam
 		t["A0H7"][4][1] = "[스이카]";
 -- aart
@@ -14428,65 +14428,65 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0H7"][36][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 34000의 데미지를 줍니다.";
+		t["A0H7"][36][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 34000데미지를 줍니다.";
 -- aub1 3
-		t["A0H7"][37][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 36000의 데미지를 줍니다.";
+		t["A0H7"][37][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 36000데미지를 줍니다.";
 -- aub1 4
-		t["A0H7"][38][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 38000의 데미지를 줍니다.";
+		t["A0H7"][38][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 38000데미지를 줍니다.";
 -- aub1 5
-		t["A0H7"][39][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 40000의 데미지를 줍니다.";
+		t["A0H7"][39][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 40000데미지를 줍니다.";
 -- aub1 6
-		t["A0H7"][40][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 42000의 데미지를 줍니다.";
+		t["A0H7"][40][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 42000데미지를 줍니다.";
 -- aub1 7
-		t["A0H7"][41][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 44000의 데미지를 줍니다.";
+		t["A0H7"][41][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 44000데미지를 줍니다.";
 -- aub1 8
-		t["A0H7"][42][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 46000의 데미지를 줍니다.";
+		t["A0H7"][42][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 46000데미지를 줍니다.";
 -- aub1 9
-		t["A0H7"][43][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 48000의 데미지를 줍니다.";
+		t["A0H7"][43][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 48000데미지를 줍니다.";
 -- aub1 10
-		t["A0H7"][44][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 50000의 데미지를 줍니다.";
+		t["A0H7"][44][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 50000데미지를 줍니다.";
 -- aub1 11
-		t["A0H7"][45][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 52000의 데미지를 줍니다.";
+		t["A0H7"][45][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 52000데미지를 줍니다.";
 -- aub1 12
-		t["A0H7"][46][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 54000의 데미지를 줍니다.";
+		t["A0H7"][46][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 54000데미지를 줍니다.";
 -- aub1 13
-		t["A0H7"][47][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 56000의 데미지를 줍니다.";
+		t["A0H7"][47][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 56000데미지를 줍니다.";
 -- aub1 14
-		t["A0H7"][48][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 58000의 데미지를 줍니다.";
+		t["A0H7"][48][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 58000데미지를 줍니다.";
 -- aub1 15
-		t["A0H7"][49][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 60000의 데미지를 줍니다.";
+		t["A0H7"][49][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 60000데미지를 줍니다.";
 -- aub1 16
-		t["A0H7"][50][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 62000의 데미지를 줍니다.";
+		t["A0H7"][50][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 62000데미지를 줍니다.";
 -- aub1 17
-		t["A0H7"][51][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 64000의 데미지를 줍니다.";
+		t["A0H7"][51][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 64000데미지를 줍니다.";
 -- aub1 18
-		t["A0H7"][52][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 66000의 데미지를 줍니다.";
+		t["A0H7"][52][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 66000데미지를 줍니다.";
 -- aub1 19
-		t["A0H7"][53][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 68000의 데미지를 줍니다.";
+		t["A0H7"][53][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 68000데미지를 줍니다.";
 -- aub1 20
-		t["A0H7"][54][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 70000의 데미지를 줍니다.";
+		t["A0H7"][54][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 70000데미지를 줍니다.";
 -- aub1 21
-		t["A0H7"][55][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 72000의 데미지를 줍니다.";
+		t["A0H7"][55][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 72000데미지를 줍니다.";
 -- aub1 22
-		t["A0H7"][56][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 67000의 데미지를 줍니다.";
+		t["A0H7"][56][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 67000데미지를 줍니다.";
 -- aub1 23
-		t["A0H7"][57][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 69000의 데미지를 줍니다.";
+		t["A0H7"][57][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 69000데미지를 줍니다.";
 -- aub1 24
-		t["A0H7"][58][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 71000의 데미지를 줍니다.";
+		t["A0H7"][58][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 71000데미지를 줍니다.";
 -- aub1 25
-		t["A0H7"][59][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 73000의 데미지를 줍니다.";
+		t["A0H7"][59][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 73000데미지를 줍니다.";
 -- aub1 26
-		t["A0H7"][60][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 75000의 데미지를 줍니다.";
+		t["A0H7"][60][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 75000데미지를 줍니다.";
 -- aub1 27
-		t["A0H7"][61][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 77000의 데미지를 줍니다.";
+		t["A0H7"][61][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 77000데미지를 줍니다.";
 -- aub1 28
-		t["A0H7"][62][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 79000의 데미지를 줍니다.";
+		t["A0H7"][62][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 79000데미지를 줍니다.";
 -- aub1 29
-		t["A0H7"][63][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 81000의 데미지를 줍니다.";
+		t["A0H7"][63][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 81000데미지를 줍니다.";
 -- aub1 30
-		t["A0H7"][64][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 83000의 데미지를 줍니다.";
+		t["A0H7"][64][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 83000데미지를 줍니다.";
 -- aub1 31
-		t["A0H7"][65][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 85000의 데미지를 줍니다.";
+		t["A0H7"][65][1] = "공격시 25% 확률로 대상을 향해 거대한 바위를 집어던져 1.2초간 기절시키며 대상과 주변에 85000데미지를 줍니다.";
 -- [A0H8]
 -- anam
 		t["A0H8"][1][1] = "야고코로 제약사 - 공격력";
@@ -14562,7 +14562,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A09V"][2][1] = "『딸기 크로스』";
 -- aub1 1
 		t["A09V"][3][1] = "*유메미가 공격시 마나를 1 회복합니다.\r\
-*유메미의 마나가 120이 됐을때 공격한 지점에 딸기색의 십자가를 생성합니다. 십자가는 주변 600범위 Units을 4.5 seconds간 스턴시키며 적 Current Health 3% + 145,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*유메미의 마나가 120이 됐을때 공격한 지점에 딸기색의 십자가를 생성합니다. 십자가는 주변 600범위 Units을 4.5 seconds간 스턴시키며 적 Current Health 3% + 145,000|c00AC59FF True Damage|r를 입힙니다.";
 -- anam
 		t["A09V"][4][1] = "[유메미]이치고 크로스";
 -- aart
@@ -14716,11 +14716,11 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0HX"][2][1] = "『피할 수 없는 꼬리지느러미』";
 -- aub1 1
 		t["A0HX"][3][1] = "*공격시 마나를 3 회복합니다. 마나가 115일때 발동합니다.\r\
-*지느러미에 기류를 모아 대상 Units에게 폭발시킵니다. 대상 주변 450범위 내의 적에게 Current Health의 4% + 300,000의 |c00FF6464 Physical Damage|r를 입히고, 방어력을 영구히 12 감소시킵니다.\r\
+*지느러미에 기류를 모아 대상 Units에게 폭발시킵니다. 대상 주변 450범위 내의 적에게 Current Health의 4% + 300,000|c00FF6464 Physical Damage|r를 입히고, 방어력을 영구히 12 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 인부『역린의 매우 거친 파도』\r\
 \r\
-*Wakasagihime가 공격시 20% 확률로 대상 지점에 격류를 뿜어냅니다. 뿜어낸 격류는 350범위 내에 있는 적에게 125,000의 |c00FF6464 Physical Damage|r를 입히고, 3초간 스턴시킵니다.";
+*Wakasagihime가 공격시 20% 확률로 대상 지점에 격류를 뿜어냅니다. 뿜어낸 격류는 350범위 내에 있는 적에게 125,000|c00FF6464 Physical Damage|r를 입히고, 3초간 스턴시킵니다.";
 -- abuf 2
 -- abuf 3
 -- abuf 4
@@ -14769,7 +14769,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 1
 		t["A0I6"][6][1] = "＊Around yourself 600 범위의 자신 소유 Units Attack Speed를 12% 증가시킵니다.\r\
 ＊Around yourself 600 범위의 아군 마력을 초당 1 회복시킵니다.\r\
-＊공격 시 10% 확률로 지옥불을 뿜어내 대상 주변 400 범위의 적에게 66,000의 |c00379BFF마법 피해|r를 가하고, 받는 마법 피해를 7% |c0000FFFF증폭|r시킵니다.";
+＊공격 시 10% 확률로 지옥불을 뿜어내 대상 주변 400 범위의 적에게 66,000|c00379BFF마법 피해|r를 가하고, 받는 마법 피해를 7% |c0000FFFF증폭|r시킵니다.";
 -- atar 2
 -- aart
 		t["A0I6"][8][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNImmolation.blp";
@@ -14781,8 +14781,8 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 이계『봉마의 각』- |c0000FFFFExtended|r\r\
 \r\
-*공격시 대상 적 Units이 보스 Units이라면 30% 확률로 25,000의 |c00379BFF Magical Damage|r를 입힙니다. \r\
-*보스 Units이 아니라면 헤카티아가 공격한 적 주변 450범위에 14,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+*공격시 대상 적 Units이 보스 Units이라면 30% 확률로 25,000|c00379BFF Magical Damage|r를 입힙니다. \r\
+*보스 Units이 아니라면 헤카티아가 공격한 적 주변 450범위에 14,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- [A076]
 -- arac
 -- atp1 1
@@ -14918,7 +14918,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0ID"][3][1] = "[사용시 정보]";
 -- aub1 1
 		t["A0ID"][4][1] = "|c00FF80FF[활력]|r - 20 seconds\r\
-*Mugetsu가 트라움 샷을 발동했을때 발동합니다. 대상 주변 700범위 적의 체력이 50% 이하라면, 전체 체력의 4%에 해당하는 |c00AC59FF True Damage|r를 입히고, 적의 생명을 수확합니다.[보스 제외]\r\
+*Mugetsu가 트라움 샷을 발동했을때 발동합니다. 대상 주변 700범위 적의 체력이 50% 이하라면, Maximum Health 4%에 해당하는 |c00AC59FF True Damage|r를 입히고, 적의 생명을 수확합니다.[보스 제외]\r\
 *수확한 생명 하나당 트라움 샷과 몽환의 수확 데미지가 1% 증가합니다.\r\
 *이 스킬을 사용하여 데미지 상승률을 확인할 수 있습니다.\r\
 *플레이어의 Mugetsu는 수확 스택을 공유합니다.";
@@ -14955,15 +14955,15 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 5
 -- atp1 6
 -- aub1 2
-		t["A0CY"][11][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 300000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][11][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 300000데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 3
-		t["A0CY"][12][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 360000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][12][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 360000데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 4
-		t["A0CY"][13][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 420000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][13][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 420000데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 5
-		t["A0CY"][14][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 480000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][14][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 480000데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- aub1 6
-		t["A0CY"][15][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 540000의 데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
+		t["A0CY"][15][1] = "공격시 20%확률로 주변에 꽃을 피워 1500범위 내의 적들에게 1.5 seconds 스턴과 540000데미지를 준다. 또한 Yuuka Kazami는 1000범위 내의 투명 Units을 볼 수 있습니다.";
 -- atar 2
 		t["A0CY"][16][1] = "vuln,invu";
 -- atar 3
@@ -14992,7 +14992,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0A9"][2][1] = "『환상향 공중신전』";
 -- aub1 1
-		t["A0A9"][3][1] = "＊|c002C62EA[Mana]|r - 150 : 공격 시 마력 1 회복, 대상 위에 신앙심으로 건설된 공중신전을 내려꽂아 주변 600 범위의 적에게 전체 체력 5% + 400,000의 |c00379BFF마법 피해|r를 가합니다. 폭발 후 남은 신앙이 스와코에게 다시 깃들어 마력을 20~50% 회복합니다.";
+		t["A0A9"][3][1] = "＊|c002C62EA[Mana]|r - 150 : 공격 시 마력 1 회복, 대상 위에 신앙심으로 건설된 공중신전을 내려꽂아 주변 600 범위의 적에게 전체 체력 5% + 400,000|c00379BFF마법 피해|r를 가합니다. 폭발 후 남은 신앙이 스와코에게 다시 깃들어 마력을 20~50% 회복합니다.";
 -- anam
 -- aart
 		t["A0A9"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp";
@@ -15084,7 +15084,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0IH"][3][1] = "*|c00FF80FF[활력]|r - 25 seconds\r\
 *야마메가 Around yourself 800범위 적에게 거미알을 심어 부화시킵니다. 거미는 다음의 클리어 횟수 비례 목록에 따라 5개까지 부화합니다.\r\
 [5클리어 이하 : 1~3기 , 10클리어 이하 : 2~4기 , 15클리어 이하 : 2~5기]\r\
-*거미가 부화할경우, 적은 잃은 체력의 4% + 100,000의 |c00379BFF Magical Damage|r를 입으며, 몸에서 거미가 솟아나왔다는 충격에 1초간 스턴당합니다.\r\
+*거미가 부화할경우, 적은 잃은 체력의 4% + 100,000|c00379BFF Magical Damage|r를 입으며, 몸에서 거미가 솟아나왔다는 충격에 1초간 스턴당합니다.\r\
 *거미가 5기 부화할경우, 데미지 타입이 마법이 아닌  True Damage로 적용됩니다.\r\
 *거미 1기당 상수 데미지가 100,000씩 증가합니다.[5기 기준 500,000]";
 -- anam
@@ -15123,7 +15123,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0IH"][36][1] = "*공격시 20% 확률로 대상 Units의 Movement Speed를 2초간 99% 감소시키며, 대상 Units 주변 450범위 내에 있는 적에게 42,000의 데미지를 입힙니다. 유니래터럴 콘택트가 발동됐을때 대상 Units의 체력이 90% 이상이라면 90%로 만듭니다.\r\
+		t["A0IH"][36][1] = "*공격시 20% 확률로 대상 Units의 Movement Speed를 2초간 99% 감소시키며, 대상 Units 주변 450범위 내에 있는 적에게 42,000데미지를 입힙니다. 유니래터럴 콘택트가 발동됐을때 대상 Units의 체력이 90% 이상이라면 90%로 만듭니다.\r\
 *전귀-  Physical Damage, 후귀 -  Magical Damage";
 -- aub1 3
 -- aub1 4
@@ -15223,25 +15223,25 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 10
 -- atp1 11
 -- aub1 2
-		t["A0CS"][15][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 38000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][15][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 38000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 3
-		t["A0CS"][16][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 41000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][16][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 41000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 4
-		t["A0CS"][17][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 44000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][17][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 44000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 5
-		t["A0CS"][18][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 47000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][18][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 47000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 6
-		t["A0CS"][19][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 50000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][19][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 50000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 7
-		t["A0CS"][20][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 53000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][20][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 53000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 8
-		t["A0CS"][21][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 56000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][21][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 56000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 9
-		t["A0CS"][22][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 59000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][22][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 59000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 10
-		t["A0CS"][23][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 62000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][23][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 62000데미지를 대상 주위 300범위에 줍니다.";
 -- aub1 11
-		t["A0CS"][24][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 65000의 데미지를 대상 주위 300범위에 줍니다.";
+		t["A0CS"][24][1] = "공격시 18%확률로 대상을 강력하게 얼린 후 1.5 seconds동안 0.15 seconds마다 65000데미지를 대상 주위 300범위에 줍니다.";
 -- arac
 -- [A0HF]
 -- anam
@@ -15249,7 +15249,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0HF"][2][1] = "몽소실『Lost Dream』- 영혼 1개";
 -- aub1 1
 		t["A0HF"][3][1] = "*카나가 『쉐도우 레이즈』를 발동할때마다 영혼을 [1개~3개]씩 모읍니다. 영혼이 12개가 모일 경우 다음의 효과를 발동합니다.\r\
-*카나 주변 750범위 내에 있는 적에게 Current Health의 4% + 75,000의 |c00379BFF Magical Damage|r를 입히고, 3초간 스턴시킵니다.";
+*카나 주변 750범위 내에 있는 적에게 Current Health의 4% + 75,000|c00379BFF Magical Damage|r를 입히고, 3초간 스턴시킵니다.";
 -- aart
 		t["A0HF"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNCloakOfFlames.blp";
 -- atp1 17
@@ -15309,7 +15309,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 12
 -- aub1 13
 		t["A0HF"][46][1] = "*카나가 『쉐도우 레이즈』를 발동할때마다 영혼을 [1개~3개]씩 모읍니다. 영혼이 15개가 모일 경우 다음의 효과를 발동합니다.\r\
-*카나 주변 750범위 내에 있는 적에게 Current Health의 4% + 75,000의  Magical Damage를 입히고, 3초간 스턴시킵니다.";
+*카나 주변 750범위 내에 있는 적에게 Current Health의 4% + 75,000 Magical Damage를 입히고, 3초간 스턴시킵니다.";
 -- aub1 14
 -- aub1 15
 -- aub1 16
@@ -15375,7 +15375,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0JB"][3][1] = "『가을바라기』";
 -- aub1 1
-		t["A0JB"][4][1] = "*모미지가 공격시 30% 확률로 대상 Units을 강하게 베어 3초의 스턴을 입히고, 전체 체력의 10%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.[보스에게는 7%의 데미지만 적용]\r\
+		t["A0JB"][4][1] = "*모미지가 공격시 30% 확률로 대상 Units을 강하게 베어 3초의 스턴을 입히고, Maximum Health 10%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.[보스에게는 7%의 데미지만 적용]\r\
 *위 효과가 발동할 경우 20% 확률로 극대화 효과가 발동합니다. 극대화 효과 발동시 데미지가 [1.5~3.5배]로 적용됩니다.\r\
 *『가을바라기』가 5번 발동할 경우 『단풍휩쓸기』가 자동으로 발동합니다.";
 -- aart
@@ -15395,7 +15395,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atar 1
 -- aart
 -- aub1 1
-		t["A0JD"][5][1] = "*쿄코가 공격시 10% 확률로 대상 지점에 메아리를 외칩니다. 지점 주변 400범위 내의 적에게 95,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0JD"][5][1] = "*쿄코가 공격시 10% 확률로 대상 지점에 메아리를 외칩니다. 지점 주변 400범위 내의 적에게 95,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *2번째 사용시 데미지가 2배가 되며, 다시 첫번째로 돌아갑니다.";
 -- atp1 1
 		t["A0JD"][6][1] = "메아리 『앰플리파이 에코』";
@@ -15474,13 +15474,13 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0JI"][2][1] = "난제『불쥐의 가죽옷 -침착한 마음-』";
 -- aub1 1
-		t["A0JI"][3][1] = "＊공격 시 12% 확률로 전방을 향해 가죽옷을 펄럭여 불꽃을 뿜어내 600 범위의 적에게 80,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0JI"][3][1] = "＊공격 시 12% 확률로 전방을 향해 가죽옷을 펄럭여 불꽃을 뿜어내 600 범위의 적에게 80,000|c00379BFF마법 피해|r를 가합니다.";
 -- atar 1
 -- arac
 -- atp1 2
 		t["A0JI"][8][1] = "난제『불쥐의 가죽옷 -침착한 마음-』- |c0000FFFFExtended|r";
 -- aub1 2
-		t["A0JI"][9][1] = "＊공격 시 12% 확률로 전방을 향해 가죽옷을 펄럭여 불꽃을 뿜어내 600 범위의 적에게 105,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0JI"][9][1] = "＊공격 시 12% 확률로 전방을 향해 가죽옷을 펄럭여 불꽃을 뿜어내 600 범위의 적에게 105,000|c00379BFF마법 피해|r를 가합니다.";
 -- aart
 		t["A0JI"][10][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNUnholyAura.blp";
 -- [A0JJ]
@@ -15533,43 +15533,43 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0JN"][36][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 45000의 데미지를 줍니다.";
+		t["A0JN"][36][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 45000데미지를 줍니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["A0JN"][40][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 65000의 데미지를 줍니다.";
+		t["A0JN"][40][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 65000데미지를 줍니다.";
 -- aub1 7
 -- aub1 8
 -- aub1 9
 -- aub1 11
-		t["A0JN"][44][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 85000의 데미지를 줍니다.";
+		t["A0JN"][44][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 85000데미지를 줍니다.";
 -- aub1 10
 -- aub1 12
 -- aub1 13
 -- aub1 14
 -- aub1 15
 -- aub1 16
-		t["A0JN"][50][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 105000의 데미지를 줍니다.";
+		t["A0JN"][50][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 105000데미지를 줍니다.";
 -- aub1 17
 -- aub1 18
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["A0JN"][55][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 125000의 데미지를 줍니다.";
+		t["A0JN"][55][1] = "공격시 17%확률로 정면을 향해 강력한 공격을 날립니다. 공격에 닿는 적에게 125000데미지를 줍니다.";
 -- aub1 22
-		t["A0JN"][56][1] = "공격시 15%확률로 자신 주위 375범위에 32000의 데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
+		t["A0JN"][56][1] = "공격시 15%확률로 자신 주위 375범위에 32000데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
 -- aub1 24
 -- aub1 25
 -- aub1 23
 -- aub1 26
-		t["A0JN"][60][1] = "공격시 15%확률로 자신 주위 375범위에 36000의 데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
+		t["A0JN"][60][1] = "공격시 15%확률로 자신 주위 375범위에 36000데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
 -- aub1 27
 -- aub1 29
 -- aub1 28
 -- aub1 30
 -- aub1 31
-		t["A0JN"][65][1] = "공격시 15%확률로 자신 주위 375범위에 40000의 데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
+		t["A0JN"][65][1] = "공격시 15%확률로 자신 주위 375범위에 40000데미지를 주고, 3초간 Movement Speed가 50%만큼 감소합니다.";
 -- [A0JO]
 -- atar 1
 -- arac
@@ -15650,7 +15650,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0JV"][5][1] = "역부『이블 인 더 미러』";
 -- aub1 1
-		t["A0JV"][6][1] = "*세이자가 공격시 10% 확률로 대상 지점 주변 400범위 적을 2.5 seconds간 스턴시키고, 75,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0JV"][6][1] = "*세이자가 공격시 10% 확률로 대상 지점 주변 400범위 적을 2.5 seconds간 스턴시키고, 75,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aart
 		t["A0JV"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNNeutralManaShieldOff.blp";
 -- atp1 2
@@ -15693,7 +15693,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0JV"][26][1] = "홍마『스칼렛 데빌』- 선혈 20";
 -- aub1 2
 		t["A0JV"][27][1] = "*레밀리아가 공격시 마나를 1씩 쌓습니다\r\
-*마나가 200이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5 seconds간 지속되며, 0.5 seconds마다 대상 지점 650범위 내에 있는 Units을 0.5 seconds간 스턴시키며 40,000의  Magical Damage를 입힙니다.";
+*마나가 200이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5 seconds간 지속되며, 0.5 seconds마다 대상 지점 650범위 내에 있는 Units을 0.5 seconds간 스턴시키며 40,000 Magical Damage를 입힙니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -15704,7 +15704,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 10
 -- aub1 11
 		t["A0JV"][36][1] = "*레밀리아가 공격시 마나를 1씩 쌓습니다\r\
-*마나가 300이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5 seconds간 지속되며, 0.5 seconds마다 대상 지점 내에 있는 Units을 0.5 seconds간 스턴시키며 40,000의  Magical Damage를 입힙니다.";
+*마나가 300이 됐을 경우에 발동하며, 레밀리아가 있는 위치에 거대한 요력을 십자가 형태로 생성합니다. 이 십자가는 2.5 seconds간 지속되며, 0.5 seconds마다 대상 지점 내에 있는 Units을 0.5 seconds간 스턴시키며 40,000 Magical Damage를 입힙니다.";
 -- aub1 13
 -- aub1 14
 -- aub1 15
@@ -15898,12 +15898,12 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- arut
 		t["A0K9"][17][1] = "자신의 필드에 박쥐떼를 닮은 탄막을 뿌려 적들을 공격합니다. 데미지는 웨이브에 따라 달라집니다. 쿨타임 150 seconds.";
 -- aub1 1
-		t["A0K9"][18][1] = "*모코우가 공격시 마나를 1씩 쌓습니다. 마나가 140이 됐을때, 자신의 위치에 거대한 폭발을 일으킵니다. 폭발은 Around yourself 1200범위 내에 있는 적의 Current Health을 5% 감소시키고, 750,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0K9"][18][1] = "*모코우가 공격시 마나를 1씩 쌓습니다. 마나가 140이 됐을때, 자신의 위치에 거대한 폭발을 일으킵니다. 폭발은 Around yourself 1200범위 내에 있는 적의 Current Health을 5% 감소시키고, 750,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 [체력 감소 효과는 데미지로 인정되지 않습니다.]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『개풍쾌청청천각』\r\
 \r\
-*모코우가 공격시 10% 확률로 자신의 전방으로 발차기를 날립니다. 전방 900거리 220범위 내에 있는 적에게 전체 체력의 0.8% + 155,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*모코우가 공격시 10% 확률로 자신의 전방으로 발차기를 날립니다. 전방 900거리 220범위 내에 있는 적에게 Maximum Health 0.8% + 155,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *발동시 모코우의 마나를 4 회복시킵니다.";
 -- arhk
 -- aart
@@ -15947,7 +15947,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 장기『원인불명의 열병』\r\
 \r\
 *공격시 마나를 1 회복합니다. 마나가 120이 됐을때, Around yourself 1000범위 적에게 열병을 겁니다.\r\
-*열병은 3초동안 매 초마다 적의 전체 체력의 0.4% + Current Health의 0.8% + 120,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+*열병은 3초동안 매 초마다 적의 Maximum Health 0.4% + Current Health의 0.8% + 120,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aub1 2
 		t["A0KA"][10][1] = "*세이자가 공격시 12% 확률로 대상 적을 2초간 기절시킵니다. 기절한 적을 제외한 대상 주변 450범위내의 적에게 55,000 Physical Damage를 입힙니다.\r\
 *대상 적이 보스인 경우, 최대 체력의 0.8%에 해당하는  Physical Damage를 추가로 입힙니다.\r\
@@ -15982,7 +15982,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0KD"][4][1] = "*|c00FF80FF[활력]|r - 55 seconds\r\
 *Rumia가 어둠의 마녀를 생성합니다. 어둠의 마녀는 30 seconds간 지속되며, 500범위 평타 공격 능력을 가집니다.\r\
 *Duration동안 마녀와 Rumia의 검이 공명하여 Rumia의 평타 공격이 500범위에 25%의 분산  True Damage로 적용됩니다.\r\
-*어둠의 마녀의 Duration이 끝나면 주변 900범위 적을 그림자로 끌고 갑니다. 체력이 50% 이하인 적에게 전체 체력의 10%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
+*어둠의 마녀의 Duration이 끝나면 주변 900범위 적을 그림자로 끌고 갑니다. 체력이 50% 이하인 적에게 Maximum Health 10%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
 [보스 미적용]";
 -- aart
 		t["A0KD"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAvengingWatcher.blp";
@@ -16158,7 +16158,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0DL"][3][1] = "『바람의 호흡 - 질풍일섬』";
 -- aub1 1
-		t["A0DL"][4][1] = "*하타테가 공격시 15% 확률로 전방의 적을 공격합니다. 전방의 적에게 잃은 체력의 0.7% + 105,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0DL"][4][1] = "*하타테가 공격시 15% 확률로 전방의 적을 공격합니다. 전방의 적에게 잃은 체력의 0.7% + 105,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *하타테가 폭풍의 인장을 1개 쌓습니다. 폭풍의 인장이 10개가 됐을때 발동하는 이 스킬은 10배의 데미지를 입힙니다.";
 -- aart
 		t["A0DL"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNRune.blp";
@@ -16249,9 +16249,9 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0GX"][2][1] = "『3D 프린터건』- 0회";
 -- anam
 -- aub1 1
-		t["A0GX"][4][1] = "*스미레코가 공격시 15% 확률로 대상 Units의 전체 체력의 8%에 해당하는 |c00FF6464 Physical Damage|r를 추가로 입힙니다.\r\
-*4번째 발동할때마다 전체 체력의 25%의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*보스에게는 발동 횟수와 관계없이 300,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+		t["A0GX"][4][1] = "*스미레코가 공격시 15% 확률로 대상 Units의 Maximum Health 8%에 해당하는 |c00FF6464 Physical Damage|r를 추가로 입힙니다.\r\
+*4번째 발동할때마다 Maximum Health 25%의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*보스에게는 발동 횟수와 관계없이 300,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- atp1 2
 		t["A0GX"][5][1] = "『3D 프린터건』- 1회";
 -- aub1 2
@@ -16269,7 +16269,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0I2"][6][1] = "『심비의 에소테릭 세븐』";
 -- aub1 1
-		t["A0I2"][7][1] = "*공격시 6% 확률로 대상 주변 500범위에 오컬트볼을 폭발시켜 전체 체력의 1.5% + 450,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0I2"][7][1] = "*공격시 6% 확률로 대상 주변 500범위에 오컬트볼을 폭발시켜 Maximum Health 1.5% + 450,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 6";
 -- anam
 		t["A0I2"][8][1] = "[스미레코]";
@@ -16330,7 +16330,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0IS"][3][1] = "광기의 달빛|cffffcc00(R)|r";
 -- ahky
 -- aub1 1
-		t["A0IS"][5][1] = "*광기의 달빛을 적군 Units에게 비춥니다. 맵 전체에 있는 적 Units에게 전체 체력의 15%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
+		t["A0IS"][5][1] = "*광기의 달빛을 적군 Units에게 비춥니다. 맵 전체에 있는 적 Units에게 Maximum Health 15%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
 *연옥 난이도 이상의 75라운드부터는 효과가 없습니다.\r\
 *Cooldown 300 seconds";
 -- aart
@@ -16347,10 +16347,10 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 1
 		t["A0IU"][8][1] = "＊Around yourself 600 범위의 적 방어력을 18 감소시킵니다.\r\
 ＊Around yourself 600 범위의 적 Movement Speed를 25% 감소시킵니다.\r\
-＊공격 시 10% 확률로 독설을 퍼부어 대상 주변 400 범위의 적에게 30,000의 |c00FF6464물리|r + 30,000의 |c00379BFF마법|r + 30,000의 |c00AC59FF절대|r 피해를 가합니다.";
+＊공격 시 10% 확률로 독설을 퍼부어 대상 주변 400 범위의 적에게 30,000|c00FF6464물리|r + 30,000|c00379BFF마법|r + 30,000|c00AC59FF절대|r 피해를 가합니다.";
 -- aub1 2
 		t["A0IU"][9][1] = "*주변 800범위 아군의 Movement Speed를 15% 증가시킵니다.\r\
-*공격시 20% 확률로 대상 주변 300범위 적이 받는  Magical Damage를 7% 증폭시키며, 90,000의 |c00379BFF Magical Damage|r를 입힙니다. 환상향 연기가 발동할때마다 아큐의 마나가 5 회복됩니다.";
+*공격시 20% 확률로 대상 주변 300범위 적이 받는  Magical Damage를 7% 증폭시키며, 90,000|c00379BFF Magical Damage|r를 입힙니다. 환상향 연기가 발동할때마다 아큐의 마나가 5 회복됩니다.";
 -- aart
 		t["A0IU"][10][1] = "ReplaceableTextures\\CommandButtons\\BTNTomeBrown.blp";
 -- abuf 2
@@ -16377,7 +16377,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0J1"][2][1] = "『오버플로우』";
 -- aub1 1
 		t["A0J1"][3][1] = "*|c00FF80FF[활력]|r - 25 seconds\r\
-*리카코가 10 seconds간『마공학 핵』에 담긴 힘을 폭주시킵니다. Around yourself 1000범위에 있는 적에게 2초마다 전체 체력의 0.8% + 80,000의 |c00FF6464 Physical Damage|r를 입힙니다. \r\
+*리카코가 10 seconds간『마공학 핵』에 담긴 힘을 폭주시킵니다. Around yourself 1000범위에 있는 적에게 2초마다 Maximum Health 0.8% + 80,000|c00FF6464 Physical Damage|r를 입힙니다. \r\
 *『오버플로우』가 종료될 경우 리카코 주변 1000범위 아군의 마나를 모두 회복시킵니다.\r\
 [마나 회복을 받지 않는 Units은 회복시키지 않습니다]";
 -- anam
@@ -16464,7 +16464,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0J3"][3][1] = "『프리스틴 비트』";
 -- aub1 1
 		t["A0J3"][4][1] = "*공격시 마나를 2 회복합니다. 마나가 150가 될 경우, 번개를 방출하는 드럼을 칩니다.\r\
-*라이코 주변 1000범위 적에게 전체 체력의 3% + 500,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*라이코 주변 1000범위 적에게 Maximum Health 3% + 500,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *[오버차지]스펠 발동시 데미지가 50% 증가합니다. 최대 200%까지 증가한 후 다시 초기 데미지로 돌아갑니다.\r\
 [사토리가 마나 스킬을 가져와 사용할 경우, 오버차지 효과가 발동하지 않습니다.]";
 -- aart
@@ -16790,7 +16790,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- [A0C4]
 -- aub1 1
 		t["A0C4"][1][1] = "*카센이 공격시 마나를 1 회복합니다. 마나 175에 발동합니다.\r\
-*대상 지점 주변 550범위 적에게 Current Health의 5% + 500,000의 |c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시키며, 방어력을 영구히 25 감소시킵니다.";
+*대상 지점 주변 550범위 적에게 Current Health의 5% + 500,000|c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시키며, 방어력을 영구히 25 감소시킵니다.";
 -- atp1 1
 		t["A0C4"][2][1] = "뇌부『미속의 무코』";
 -- anam
@@ -16807,7 +16807,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["S001"][3][1] = "용부『드래곤즈 그로울』";
 -- aub1 1
 		t["S001"][4][1] = "*기본적으로 카센과 주변 1000범위 아군의 Attack Speed를 10% 상승시킵니다. \r\
-*카센이 공격시 5% 확률로 자신이 부리는 선룡인 코테이를 소환해 전방의 적에게 포효를 가합니다. 카센 전방 900거리 200범위 내에 있는 적에게 Current Health의 1% + 200,000의 |c00FF6464 Physical Damage|r와 4초의 스턴을 입힙니다.";
+*카센이 공격시 5% 확률로 자신이 부리는 선룡인 코테이를 소환해 전방의 적에게 포효를 가합니다. 카센 전방 900거리 200범위 내에 있는 적에게 Current Health의 1% + 200,000|c00FF6464 Physical Damage|r와 4초의 스턴을 입힙니다.";
 -- anam
 		t["S001"][5][1] = "[카센]";
 -- abuf 1
@@ -16824,7 +16824,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 2
 		t["S001"][12][1] = " 카센이 공격시마다 마나를 쌓습니다. 마나는 최대 1200까지 쌓을 수 있으며 \r\
 쌓은 마나가 1200이 될 시 선인 버프가 적용됩니다. 선인 버프가 걸린 카센은 Attack Speed가 최대치로 상승하며 공격시 5% 확률로 전방의 800거리 400범위의 지면을 내려쳐 적에게 1.2초의 스턴을 입히고\r\
-100,000의  Physical Damage를 입힙니다. ";
+100,000 Physical Damage를 입힙니다. ";
 -- [A0D2]
 -- arac
 -- atar 1
@@ -17118,7 +17118,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0HA"][4][1] = "박명 『얼마 남지 않은 여생』";
 -- aub1 1
-		t["A0HA"][5][1] = "*공격시 20% 확률로 대상 라인 Units의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 Current Health의 3% + 35,000의 |c00379BFF Magical Damage|r를 입힙니다. [보스 Units에게는 30%의 데미지만 적용됩니다]\r\
+		t["A0HA"][5][1] = "*공격시 20% 확률로 대상 라인 Units의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 Current Health의 3% + 35,000|c00379BFF Magical Damage|r를 입힙니다. [보스 Units에게는 30%의 데미지만 적용됩니다]\r\
 *보스 Units을 공격시 35% 확률로 잃은 체력의 1%에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.";
 -- [A0HB]
 -- aart
@@ -17129,17 +17129,17 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 1
 		t["A0HB"][5][1] = "*기본적으로 우츠호 주변 800범위내에 있는 적의 방어력을 35 감소시킵니다.\r\
 *기본적으로 우츠호 주변 800범위내에 있는 적의 Movement Speed를 25% 감소시킵니다.\r\
-*우츠호가 공격시 마나를 1 회복합니다. 우츠호의 마나가 115가 됐을때 핵융합의 힘으로 폭발을 일으켜 Around yourself 1000범위 적을 3초간 스턴시키고, Current Health의 2.5% + 250,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*우츠호가 공격시 마나를 1 회복합니다. 우츠호의 마나가 115가 됐을때 핵융합의 힘으로 폭발을 일으켜 Around yourself 1000범위 적을 3초간 스턴시키고, Current Health의 2.5% + 250,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- [A0HC]
 -- aart
 -- arac
 -- anam
 		t["A0HC"][3][1] = "[미코]";
 -- atp1 1
-		t["A0HC"][4][1] = "신광『거스름이 없음을 으뜸으로 여기라』";
+		t["A0HC"][4][1] = "신광『거스름이 None을 으뜸으로 여기라』";
 -- aub1 1
 		t["A0HC"][5][1] = "*미코가 공격시 마나를 1씩 쌓습니다. 마나가 200이 됐을때 발동합니다.\r\
-*대상 지점에 태양의 빛을 내립니다. 지점 주변 600범위 내에 있는 적 Units에게 전체 체력의 4% + 700,000의 |c00379BFF Magical Damage|r를 입히고, 3초간 스턴시킵니다.";
+*대상 지점에 태양의 빛을 내립니다. 지점 주변 600범위 내에 있는 적 Units에게 Maximum Health 4% + 700,000|c00379BFF Magical Damage|r를 입히고, 3초간 스턴시킵니다.";
 -- [A0HD]
 -- aart
 -- arac
@@ -17151,7 +17151,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0HD"][5][1] = "*Alice가 공격시 마나를 1 회복합니다. 마나가 105가 됐을때 아래의 효과를 발동합니다.\r\
 *자신의 Units에 Marisa Kirisame[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
 *자신의 Units에 Patchouli Knowledge[Unique]가 존재할 경우 공격시 마나를 추가로 0.5 회복합니다.\r\
-*Alice가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*Alice가 인형을 생성하여 전방의 적을 사정없이 찌릅니다. 0.2초마다 한번씩 찌르며, 찔린 적에게 140,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *총 3초간 지속됩니다.";
 -- [A0JT]
 -- anam
@@ -17180,7 +17180,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0KN"][4][1] = "탄부『래빗 팔코너』";
 -- aub1 1
 		t["A0KN"][5][1] = "*Seiran은 보스를 공격할때 Attack Speed가 200% 증가합니다.\r\
-*보스 공격시 20% 확률로 전체 체력의 3% + 200,000의  |c00FF6464 Physical Damage|r를 입히고, 2초간 기절시킵니다.\r\
+*보스 공격시 20% 확률로 Maximum Health 3% + 200,000 |c00FF6464 Physical Damage|r를 입히고, 2초간 기절시킵니다.\r\
 *Seiran이 다음의 자경단 미션을 직접 처치하여 완료할 경우, 랜덤한 Normal Units을 전리품으로 얻습니다. 이 효과는 60라운드까지만 적용됩니다.\r\
 [Nazrin , Palanquin Ship]\r\
 [자신 라인의 자경단 미션만 해당됩니다.]";
@@ -17205,7 +17205,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0KP"][4][1] = "지옥『무간의 틈』";
 -- aub1 1
-		t["A0KP"][5][1] = "*코마치가 공격시 12% 확률로 공격한 대상 지점 425범위 내에 있는 적에게 잃은 체력의 1.2% + 115,000의 |c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
+		t["A0KP"][5][1] = "*코마치가 공격시 12% 확률로 공격한 대상 지점 425범위 내에 있는 적에게 잃은 체력의 1.2% + 115,000|c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
 -- [A0KQ]
 -- aart
 		t["A0KQ"][1][1] = "ReplaceableTextures\\CommandButtons\\mugetsu\\BTN_UP.blp";
@@ -17268,7 +17268,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 1
 		t["S003"][4][1] = "*Around yourself 650범위 아군을 선혈로 물들여 Attack Speed를 12% 상승시킵니다.\r\
 *Around yourself 650범위 적을 선혈로 물들여 Movement Speed를 25% 감소시킵니다.\r\
-*레밀리아가 공격시 5% 확률로 대상 적의 피를 폭발시켜 주변 450범위내의 적에게 공격한 대상 적의 Current Health의 0.6% + 230,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*레밀리아가 공격시 5% 확률로 대상 적의 피를 폭발시켜 주변 450범위내의 적에게 공격한 대상 적의 Current Health의 0.6% + 230,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *위 효과가 발동할 경우 대상 적 1기의 Current Health을 절반 감소시킵니다.[보스 미적용]";
 -- anam
 		t["S003"][5][1] = "[Arcana][레밀리아]";
@@ -17284,7 +17284,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["S004"][3][1] = "『세계의 끝』";
 -- aub1 1
-		t["S004"][4][1] = "*Shinki가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, Around yourself 1200범위 적의 체력을 Current Health의 75%로 만들고, 225,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["S004"][4][1] = "*Shinki가 초당 마나를 1씩 회복합니다. 마나가 225가 됐을때, Around yourself 1200범위 적의 체력을 Current Health의 75%로 만들고, 225,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *자신 이외의 마나 회복 효과를 받지 않습니다.\r\
 *Shinki 주변 1000범위 아군의 Attack Speed를 18% , Movement Speed를 100% 증가시킵니다.";
 -- anam
@@ -17388,7 +17388,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 1
 		t["S005"][4][1] = "*기본적으로 공중 이동이 가능합니다.\r\
 *토요히메 주변 750범위 내에 있는 적의 Movement Speed를 20% 감소시킵니다.\r\
-*공격시 10% 확률로 대상 주변 425범위내의 적에게 100,000의 |c00379BFF Magical Damage|r를 입히고, 2.2초간 스턴시킵니다.\r\
+*공격시 10% 확률로 대상 주변 425범위내의 적에게 100,000|c00379BFF Magical Damage|r를 입히고, 2.2초간 스턴시킵니다.\r\
 *발동시 마나를 4 회복합니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『맛있는 복숭아』\r\
@@ -17410,7 +17410,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A03P"][5][1] = "『휘침검의 극의』- 0 Hit";
 -- aub1 1
-		t["A03P"][6][1] = "*신묘마루가 6번 공격시 직선상 900거리 300범위 적에게 전체 체력의 0.3% + Current Health의 0.6%의 |c00FF6464 Physical Damage|r를 입히는 휘침검술『섬단』을 시전합니다.\r\
+		t["A03P"][6][1] = "*신묘마루가 6번 공격시 직선상 900거리 300범위 적에게 Maximum Health 0.3% + Current Health의 0.6%의 |c00FF6464 Physical Damage|r를 입히는 휘침검술『섬단』을 시전합니다.\r\
 *신묘마루 주변 900범위 내에 있는 적의 방어력을 22,000큼 감소시킵니다.\r\
 *『섬단』발동시 마나를 5씩 회복합니다.";
 -- abuf 1
@@ -17446,11 +17446,11 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- aub1 6
 -- aub1 7
 -- aub1 8
-		t["A03P"][31][1] = "*신묘마루가 7번 공격시 직선상 900거리 300범위 적에게 Current Health의 0.6% + 45,000의 데미지를 입히는 휘침검술『섬단』을 시전합니다.\r\
+		t["A03P"][31][1] = "*신묘마루가 7번 공격시 직선상 900거리 300범위 적에게 Current Health의 0.6% + 45,000데미지를 입히는 휘침검술『섬단』을 시전합니다.\r\
 *신묘마루 주변 900범위 내에 있는 적의 방어력을 22,000큼 감소시킵니다.\r\
 *『섬단』발동시 마나를 4씩 회복합니다.";
 -- aub1 9
-		t["A03P"][32][1] = "*신묘마루가 8번 공격시 직선상 900거리 300범위 적에게 Current Health의 0.6% + 45,000의 데미지를 입히는 휘침검술『섬단』을 시전합니다.\r\
+		t["A03P"][32][1] = "*신묘마루가 8번 공격시 직선상 900거리 300범위 적에게 Current Health의 0.6% + 45,000데미지를 입히는 휘침검술『섬단』을 시전합니다.\r\
 *신묘마루 주변 900범위 내에 있는 적의 방어력을 22,000큼 감소시킵니다.\r\
 *『섬단』발동시 마나를 4씩 회복합니다.";
 -- abuf 2
@@ -17753,7 +17753,7 @@ C랭크 : 뱌쿠렌의 공격력 60% 상승 , 스킬 공격력 25% 상승\r\
 B랭크 : 뱌쿠렌의 공격력 75% 상승 , 스킬 공격력 30% 상승\r\
 A랭크 : 뱌쿠렌의 공격력 100% 상승 , 스킬 공격력 35% 상승\r\
 S랭크 : 뱌쿠렌의 공격력 120% 상승 , 스킬 공격력 50% 상승\r\
-EX랭크 : 공격시 10% 확률로 대상 주변 325범위 Units에게 225,000의 |c00FF6464 Physical Damage|r";
+EX랭크 : 공격시 10% 확률로 대상 주변 325범위 Units에게 225,000|c00FF6464 Physical Damage|r";
 -- ata1
 		t["A07B"][9][1] = "hand,right";
 -- atar 2
@@ -17868,12 +17868,12 @@ EX랭크 : 공격시 10% 확률로 대상 주변 325범위 Units에게 225,000�
 -- aub1 1
 		t["A07D"][5][1] = "*뱌쿠렌이 공격시 11% 확률로 적 Units의 지점에 별빛을 꽂아 데미지를 입힙니다.\r\
 \r\
-E랭크 : 50,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-D랭크 : 65,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-C랭크 : 75,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-B랭크 : 90,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-A랭크 : 60,000의 |c00FF6464 Physical Damage|r와 40,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
-S랭크 : 75,000의 |c00FF6464 Physical Damage|r와 55,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+E랭크 : 50,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+D랭크 : 65,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+C랭크 : 75,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+B랭크 : 90,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+A랭크 : 60,000|c00FF6464 Physical Damage|r와 40,000|c00AC59FF True Damage|r를 입힙니다.\r\
+S랭크 : 75,000|c00FF6464 Physical Damage|r와 55,000|c00AC59FF True Damage|r를 입힙니다.\r\
 EX랭크 : 대상 Units에게 Current Health의 2%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.";
 -- atar 1
 -- atar 2
@@ -17923,13 +17923,13 @@ EX랭크 : 대상 Units에게 Current Health의 2%에 해당하는 |c00FF6464 Ph
 -- aub1 1
 		t["A07I"][5][1] = "*뱌쿠렌이 공격시 15% 확률로 자신의 독고저로 검을 생성해 적의 위치를 크게 베어냅니다. \r\
 \r\
-E랭크 : 350범위에 75,000의 |c00FF6464 Physical Damage|r\r\
-D랭크 : 350범위에 85,000의 |c00FF6464 Physical Damage|r\r\
-C랭크 : 350범위에 95,000의 |c00FF6464 Physical Damage|r\r\
-B랭크 : 350범위에 105,000의 |c00FF6464 Physical Damage|r\r\
-A랭크 : 350범위에 115,000의 |c00FF6464 Physical Damage|r\r\
-S랭크 : 350범위에 125,000의 |c00FF6464 Physical Damage|r\r\
-EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
+E랭크 : 350범위에 75,000|c00FF6464 Physical Damage|r\r\
+D랭크 : 350범위에 85,000|c00FF6464 Physical Damage|r\r\
+C랭크 : 350범위에 95,000|c00FF6464 Physical Damage|r\r\
+B랭크 : 350범위에 105,000|c00FF6464 Physical Damage|r\r\
+A랭크 : 350범위에 115,000|c00FF6464 Physical Damage|r\r\
+S랭크 : 350범위에 125,000|c00FF6464 Physical Damage|r\r\
+EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- atar 1
 -- atar 2
 -- atar 3
@@ -17976,7 +17976,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0L1"][4][1] = "모미지류『텐구 바람검』";
 -- aub1 1
-		t["A0L1"][5][1] = "*아야가 공격시 10% 확률로 전방에 검기를 날려보냅니다. 검기는 닿은 적에게 250,000의 |c00379BFF Magical Damage|r를 입히고, 마나를 3 회복합니다.";
+		t["A0L1"][5][1] = "*아야가 공격시 10% 확률로 전방에 검기를 날려보냅니다. 검기는 닿은 적에게 250,000|c00379BFF Magical Damage|r를 입히고, 마나를 3 회복합니다.";
 -- atat
 		t["A0L1"][6][1] = "cycloneshield.mdx";
 -- atar 1
@@ -18065,9 +18065,9 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 		t["A0L6"][2][1] = "초시공함 『가능성 공간이동선』";
 -- aub1 1
 		t["A0L6"][3][1] = "*유메미가 공격시 11% 확률로 공간이동선에게 분해 광선 요청을 내립니다.\r\
-*분해광선은 유메미가 공격한 Units에게 발사되며, 분해광선에 맞은 대상 Units은 350,000의 |c00AC59FF True Damage|r를 입습니다.\r\
+*분해광선은 유메미가 공격한 Units에게 발사되며, 분해광선에 맞은 대상 Units은 350,000|c00AC59FF True Damage|r를 입습니다.\r\
 [보스에게는 30%의 데미지만 입힙니다.]\r\
-*대상 주변 500범위 내에 있는 적에게도 90,000의 |c00FF6464 Physical Damage|r와 90,000의 |c00AC59FF True Damage|r를 입히고, 1초간 스턴시킵니다.";
+*대상 주변 500범위 내에 있는 적에게도 90,000|c00FF6464 Physical Damage|r와 90,000|c00AC59FF True Damage|r를 입히고, 1초간 스턴시킵니다.";
 -- anam
 		t["A0L6"][4][1] = "[유메미]초시공함선";
 -- aart
@@ -18152,7 +18152,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0JR"][4][1] = "『리니어 건』- 충전 1";
 -- aub1 1
-		t["A0JR"][5][1] = "*렌코가 공격시 11% 확률로 전방에 강력한 광포를 발사합니다. 광포에 피격된 적은 155,000의 |c00379BFF Magical Damage|r를 받습니다.\r\
+		t["A0JR"][5][1] = "*렌코가 공격시 11% 확률로 전방에 강력한 광포를 발사합니다. 광포에 피격된 적은 155,000|c00379BFF Magical Damage|r를 받습니다.\r\
 *광포는 3번째 발사할때마다 강화되어 2배의 데미지를 입힙니다.";
 -- atp1 2
 		t["A0JR"][9][1] = "『리니어 건』- 충전 2";
@@ -18170,11 +18170,11 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0JS"][4][1] = "『카운터 쇼크』";
 -- aub1 1
-		t["A0JS"][5][1] = "*렌코가 공격시 12% 확률로 대상 지점에 강력한 전기충격을 가합니다. 대상 지점 주변 450범위 내에 있는 적에게 잃은 체력의 1% + 115,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0JS"][5][1] = "*렌코가 공격시 12% 확률로 대상 지점에 강력한 전기충격을 가합니다. 대상 지점 주변 450범위 내에 있는 적에게 잃은 체력의 1% + 115,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『초끈이론』\r\
 \r\
-*렌코가 공격시 14% 확률로 대상 Units과 자신에게 끈을 만들어 '대상 Units'의 전체 체력의 0.6%의 |c00379BFF Magical Damage|r를 주변 450범위에 입힙니다.";
+*렌코가 공격시 14% 확률로 대상 Units과 자신에게 끈을 만들어 '대상 Units'의 Maximum Health 0.6%의 |c00379BFF Magical Damage|r를 주변 450범위에 입힙니다.";
 -- [A0L7]
 -- aart
 -- arac
@@ -18274,7 +18274,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 -- aub1 1
 		t["A0LE"][3][1] = "＊공격 시 15% 확률로 대상에게 전체 체력 6%(보스 0.6%)의 |c00379BFF마법 피해|r를 가합니다.\r\
-＊공격 시 11% 확률로 달의 마안을 개방해 대상 주변 400 범위의 적에게 전체 체력 0.5% + 100,000의 |c00379BFF마법 피해|r를 가합니다.";
+＊공격 시 11% 확률로 달의 마안을 개방해 대상 주변 400 범위의 적에게 전체 체력 0.5% + 100,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -18342,8 +18342,8 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0LF"][2][1] = "『죽음의 무도』- 스택 1";
 -- aub1 1
-		t["A0LF"][3][1] = "＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 85,000의 |c00AC59FF절대 피해|r를 가합니다.\r\
-*|c002C62EA[Mana]|r - 30 : 공격 시 마력 3 회복, 죽음을 퍼뜨려 Around yourself 600 범위의 적에게 전체 체력 0.4% + 250,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0LF"][3][1] = "＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 85,000|c00AC59FF절대 피해|r를 가합니다.\r\
+*|c002C62EA[Mana]|r - 30 : 공격 시 마력 3 회복, 죽음을 퍼뜨려 Around yourself 600 범위의 적에게 전체 체력 0.4% + 250,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 		t["A0LF"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp";
@@ -18421,7 +18421,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0LD"][2][1] = "『달빛쇄도』";
 -- aub1 1
-		t["A0LD"][3][1] = "＊Sariel이『죽음의 무도』를 발동할 때마다 스택을 1씩 쌓습니다. 스택이 10이 됐을 때 공격 시 대상 주변 600 범위에 6번의 달빛을 퍼뜨립니다. 달빛은 70,000~100,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0LD"][3][1] = "＊Sariel이『죽음의 무도』를 발동할 때마다 스택을 1씩 쌓습니다. 스택이 10이 됐을 때 공격 시 대상 주변 600 범위에 6번의 달빛을 퍼뜨립니다. 달빛은 70,000~100,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -18456,7 +18456,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0LD"][36][1] = "*|c002C62EA[Mana]|r - 135 : 공격 시 마력 1 회복, 대상 주변 600 범위에 6번의 달빛을 퍼뜨립니다. 달빛은 70,000~100,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0LD"][36][1] = "*|c002C62EA[Mana]|r - 135 : 공격 시 마력 1 회복, 대상 주변 600 범위에 6번의 달빛을 퍼뜨립니다. 달빛은 70,000~100,000|c00379BFF마법 피해|r를 가합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -18541,7 +18541,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- aub1 1
 		t["A09Q"][5][1] = "*코스즈가 공격시 10% 확률로 대상 적에게 음침한 손이 튀어나오는 그림책을 읽어냅니다. 대상 적 Current Health의 4%만큼의 |c00AC59FF True Damage|r를 입힙니다. 스토리 보스에게는 적용되지 않으나, 미션 보스에게는 2% Physical Damage로 적용됩니다. 이 효과가 발동할 경우 코스즈의 마나를 5 회복시킵니다.\r\
 *기본적으로 코스즈 주변 750범위 내의 적의 이동 속도를 22% 감소시킵니다.\r\
-* 코스즈의 마나가 120이 될 경우, 그림책에 깃든 공포심을 해방시켜 Around yourself 750범위 아군의 마나를 모두 회복시키고, 적에게 200,000의 |c00FF6464 Physical Damage|r를 입힙니다. \r\
+* 코스즈의 마나가 120이 될 경우, 그림책에 깃든 공포심을 해방시켜 Around yourself 750범위 아군의 마나를 모두 회복시키고, 적에게 200,000|c00FF6464 Physical Damage|r를 입힙니다. \r\
 [마나 회복 효과는 코스즈와 마나 리젠 효과를 받지 않는 아군에게는 적용되지 않습니다.]";
 -- atar 1
 -- aart
@@ -18557,7 +18557,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 		t["A026"][6][1] = "*|c00FF80FF[활력]|r - 6초\r\
 *Wakasagihime의 공격력의 50~100배에 해당하는  True Damage를 대상 Units에게 입히고 그 주변 350범위 Units에게는 20%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.\r\
 *보스에게는 20%의 데미지만 적용됩니다.\r\
-*주변 800범위 적의 방어력을 45 감소시킵니다.";
+*-45 Defense in an 800 AoE.";
 -- abuf 1
 		t["A026"][8][1] = "B02K";
 -- atar 2
@@ -18596,7 +18596,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 		t["S007"][3][1] = "허언『텅 오브 울프』";
 -- aub1 1
 		t["S007"][4][1] = "*시키에이키가 공격시 15% 확률로 자신의 회오봉을 앞으로 내지르며 탄막을 발사합니다. \r\
-*전방 900거리 250범위 내에 있는 적에게 185,000의 |c00379BFF Magical Damage|r를 입히고 받는  Magical Damage를 15% 증폭시킵니다.\r\
+*전방 900거리 250범위 내에 있는 적에게 185,000|c00379BFF Magical Damage|r를 입히고 받는  Magical Damage를 15% 증폭시킵니다.\r\
 *기본적으로 시키 주변 750범위 내에 있는 자신 소유 Units의 Attack Speed를 17% 상승시킵니다.";
 -- anam
 		t["S007"][5][1] = "[Arcana][시키]텅 오브 울프";
@@ -18630,7 +18630,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 *공격시 마나를 1씩 쌓습니다. 마나가 110이 되면 다음의 효과를 발동시킵니다.\r\
 \r\
 |c00FFFF00눈을 뜸|r : Around yourself 1000범위에 Current Health의 4%의 |c00FF6464 Physical Damage|r와 5 seconds간 Attack Speed 30% 증가 효과\r\
-|c00FFFF00눈을 감음|r : Around yourself 1000범위에 185,000의 |c00FF6464 Physical Damage|r와 4.5 seconds의 스턴 효과.";
+|c00FFFF00눈을 감음|r : Around yourself 1000범위에 185,000|c00FF6464 Physical Damage|r와 4.5 seconds의 스턴 효과.";
 -- anam
 -- abuf 1
 		t["S008"][6][1] = "B03A";
@@ -18645,7 +18645,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0H5"][4][1] = "독연막『가스연막의 구슬』";
 -- aub1 1
-		t["A0H5"][5][1] = "*공격시 10% 확률로 대상 주변 650범위 내의 적에게 125,000의 |c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 기절시킵니다.\r\
+		t["A0H5"][5][1] = "*공격시 10% 확률로 대상 주변 650범위 내의 적에게 125,000|c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
 *|c00C5EA53[Combination Synergy]|r행운의 토끼 드롭스\r\
 -Tewi Inaba[Rare]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
@@ -18719,7 +18719,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0LQ"][4][1] = "Treasure Sign 『Yin-Yang Treasure Orb』";
 -- aub1 1
-		t["A0LQ"][5][1] = "*레이무가 공격시 11% 확률로 손에 음양옥의 기를 모아 내지르듯이 방출합니다. 대상 지점 주변 400범위 내에 있는 적에게 잃은 체력의 0.4% + 145,000의 |c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.\r\
+		t["A0LQ"][5][1] = "*레이무가 공격시 11% 확률로 손에 음양옥의 기를 모아 내지르듯이 방출합니다. 대상 지점 주변 400범위 내에 있는 적에게 잃은 체력의 0.4% + 145,000|c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.\r\
 *『Yin-Yang Treasure Orb』 restores Reimu's Mana by 4.";
 -- [S009]
 -- atar 1
@@ -18727,7 +18727,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 -- aub1 1
 		t["S009"][4][1] = "*레이무 주변 600범위 Units의 Movement Speed를 60% 감소시킵니다.\r\
-*대상 Units이 보스 Units일 경우, 공격시 60% 확률로 Current Health의 0.4% + 45,000의 |c00379BFF Magical Damage|r를 추가로 입히고, 1초간 스턴시킵니다.";
+*대상 Units이 보스 Units일 경우, 공격시 60% 확률로 Current Health의 0.4% + 45,000|c00379BFF Magical Damage|r를 추가로 입히고, 1초간 스턴시킵니다.";
 -- anam
 -- abuf 1
 		t["S009"][6][1] = "B03D";
@@ -18792,7 +18792,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 		t["A0LV"][5][1] = "『지옥의 초신성』|cffffcc00[R]|r";
 -- aub1 1
 		t["A0LV"][6][1] = "*|c00FF80FF[활력]|r - 30 seconds\r\
-*우츠호가 초신성으로 변합니다. 초신성으로 변한 우츠호는 아무런 행동을 하지 못하며, 주변 1000범위 적에게 초당 전체 체력의 3% + 200,000의 |c00FF6464 Physical Damage|r를 입힙니다. 초신성은 5 seconds간 지속되며, 초신성에서 부활한 우츠호는 마나를 모두 회복하고, 『야타가라스 다이브』의 Cooldown이 초기화됩니다.\r\
+*우츠호가 초신성으로 변합니다. 초신성으로 변한 우츠호는 아무런 행동을 하지 못하며, 주변 1000범위 적에게 초당 Maximum Health 3% + 200,000|c00FF6464 Physical Damage|r를 입힙니다. 초신성은 5 seconds간 지속되며, 초신성에서 부활한 우츠호는 마나를 모두 회복하고, 『야타가라스 다이브』의 Cooldown이 초기화됩니다.\r\
 *초신성은 염성『픽스드 스타』의 효과를 1.5배로 적용한 염성『십흉성』 스펠을 보유하고 있습니다.";
 -- anam
 -- arac
@@ -18839,7 +18839,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0GS"][2][1] = "몽부『수영원의 꿈』";
 -- aub1 1
-		t["A0GS"][3][1] = "＊|c0044BBFF[Mana]|r - 6 : 공격 시 마력 1 회복, 실체화한 악몽을 전방 1000거리까지 날려 닿은 적에게 66,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0GS"][3][1] = "＊|c0044BBFF[Mana]|r - 6 : 공격 시 마력 1 회복, 실체화한 악몽을 전방 1000거리까지 날려 닿은 적에게 66,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -18924,8 +18924,8 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0GT"][5][1] = "광열『하이텐션 블레이드』";
 -- aub1 1
-		t["A0GT"][6][1] = "*우츠호가 공격시 10% 확률로 자신의 제어봉에서 칼날 형태의 빔을 발사합니다. 900거리 250범위 내에 있는 적에게 Current Health의 0.9% + 90,000의 |c00FF6464 Physical Damage|r를 입히고, 1.8 seconds간 스턴시킵니다.\r\
-*우츠호가 보스 Units을 공격시 40% 확률로 대상 Current Health의 1.5% + 45,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+		t["A0GT"][6][1] = "*우츠호가 공격시 10% 확률로 자신의 제어봉에서 칼날 형태의 빔을 발사합니다. 900거리 250범위 내에 있는 적에게 Current Health의 0.9% + 90,000|c00FF6464 Physical Damage|r를 입히고, 1.8 seconds간 스턴시킵니다.\r\
+*우츠호가 보스 Units을 공격시 40% 확률로 대상 Current Health의 1.5% + 45,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- atat
 -- abuf 1
 		t["A0GT"][8][1] = "B03P";
@@ -19332,7 +19332,7 @@ EX랭크 : 500범위에 150,000의 |c00FF6464 Physical Damage|r";
 		t["A0GT"][307][1] = "Shinki가 Combination되면 자신이 갖고 있는 모든 Devil와 Small Devil가 사라집니다.\r\
 Devil 하나당 3, 하급Devil와 Small Devil 하나당 6의 마력을 흡수합니다.\r\
 흡수한 마력은 마신 스킬의 레벨에 표시됩니다. 최대 100까지 증가 시킬 수 있으며 Shinki의 모든 스킬은 흡수한 마력에 비례해 강해집니다.\r\
-Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니다.\r\
+Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.\r\
 기본적으로 Attack Speed가 매우 빠릅니다.";
 -- aub1 4
 -- aub1 5
@@ -19436,7 +19436,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A0GU"][2][1] = "『페이탈 블리츠』";
 -- aub1 1
-		t["A0GU"][3][1] = "*Yumeko가 공격시 6% 확률로 대상 Units의 심장을 검으로 빼내 터뜨립니다. 대상 Units 주변 500범위내에 있는 적에게 160,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0GU"][3][1] = "*Yumeko가 공격시 6% 확률로 대상 Units의 심장을 검으로 빼내 터뜨립니다. 대상 Units 주변 500범위내에 있는 적에게 160,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *『페이탈 블리츠』가 발동했을 때 대상 Units에게 잃은 체력의 7%에 해당하는 |c00AC59FF True Damage|r를 입히고, 체력이 15% 이하라면 즉사시킵니다.[이 효과는 보스에게 적용되지 않습니다]";
 -- anam
 -- aart
@@ -19538,12 +19538,12 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 1
 		t["A03X"][4][1] = "풍부『천구도의 개풍』";
 -- aub1 1
-		t["A03X"][5][1] = "*아야가 공격시 10% 확률로 전방의 적에게 선풍을 발사하여 전체 체력의 0.5% + 50,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*공격시 25% 확률로 바람의 기운을 담은 검으로 적을 베어 60,000의 |c00379BFF Magical Damage|r와 60,000의 |c00AC59FF True Damage|r를 입히고 1.5 seconds간 기절시킵니다.";
+		t["A03X"][5][1] = "*아야가 공격시 10% 확률로 전방의 적에게 선풍을 발사하여 Maximum Health 0.5% + 50,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+*공격시 25% 확률로 바람의 기운을 담은 검으로 적을 베어 60,000|c00379BFF Magical Damage|r와 60,000|c00AC59FF True Damage|r를 입히고 1.5 seconds간 기절시킵니다.";
 -- atp1 2
 		t["A03X"][9][1] = "『재넘이』";
 -- aub1 2
-		t["A03X"][10][1] = "*아야가 공격시 25% 확률로 단일 대상 Units에게 125,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A03X"][10][1] = "*아야가 공격시 25% 확률로 단일 대상 Units에게 125,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *적의 체력이 60% 이하라면, 잃은 체력의 4%에 해당하는 |c00379BFF Magical Damage|r를 추가로 입힙니다. 잃은 체력 비례 데미지는 보스에게 40%만 적용됩니다.";
 -- [A0LX]
 -- aart
@@ -19554,7 +19554,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 		t["A0LX"][4][1] = "『쉐도우 레이즈』";
 -- aub1 1
 		t["A0LX"][5][1] = "*|c00FF80FF[활력]|r - 3초\r\
-카나가 공격시 해당 지점에 어둠의 기운을 치솟게 해 주변 300범위 내에 있는 적에게 105,000의 |c00AC59FF True Damage|r를 입힙니다.";
+카나가 공격시 해당 지점에 어둠의 기운을 치솟게 해 주변 300범위 내에 있는 적에게 105,000|c00AC59FF True Damage|r를 입힙니다.";
 -- [A0LZ]
 -- anam
 		t["A0LZ"][1][1] = "[Legendary][아야][더미]데미지 오라";
@@ -19666,7 +19666,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 		t["S00B"][15][1] = "주변 750범위의 적 Units의 Movement Speed를 50% 감소시킵니다.";
 -- [A0M4]
 -- aub1 1
-		t["A0M4"][1][1] = "*코코로가 공격시 10% 확률로 분노의 가면을 해방시킵니다. 자신 800범위 내에 있는 적에게 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+		t["A0M4"][1][1] = "*코코로가 공격시 10% 확률로 분노의 가면을 해방시킵니다. 자신 800범위 내에 있는 적에게 150,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- atp1 1
 		t["A0M4"][2][1] = "『분노한 기량의 가면』";
 -- anam
@@ -19678,19 +19678,19 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 2
 		t["A0M4"][8][1] = "『분노한 기량의 가면』 - |c00FF0000암흑노가쿠|r";
 -- aub1 2
-		t["A0M4"][9][1] = "공격시 적에게 90,000의 추가  Physical Damage를 입힙니다. 이 데미지는 적의 잃은 체력에 비례해 최대 2배까지 상승합니다.";
+		t["A0M4"][9][1] = "공격시 적에게 90,000추가  Physical Damage를 입힙니다. 이 데미지는 적의 잃은 체력에 비례해 최대 2배까지 상승합니다.";
 -- atp1 3
 		t["A0M4"][10][1] = "|c008000FF되찾은|r『분노한 기량의 가면』";
 -- aub1 3
-		t["A0M4"][11][1] = "공격시 적에게 110,000의 추가  Physical Damage를 입힙니다. 이 데미지는 적의 잃은 체력에 비례해 최대 2배까지 상승합니다.";
+		t["A0M4"][11][1] = "공격시 적에게 110,000추가  Physical Damage를 입힙니다. 이 데미지는 적의 잃은 체력에 비례해 최대 2배까지 상승합니다.";
 -- [A0M5]
 -- anam
 -- arac
 -- atp1 1
 		t["A0M5"][3][1] = "『가면상심무 암흑노가쿠』";
 -- aub1 1
-		t["A0M5"][4][1] = "*코코로가 공격시 마나를 1씩 회복합니다. 마나가 165가 됐을때 코코로가 자신의 분신을 생성하여 가면무를 춥니다. 가면무는 총 10 seconds간 지속되며, 2초마다 주변 1000범위의 적에게 125,000의 |c00FF6464 Physical Damage|r를 입힙니다. 가면무는 다음의 효과중 하나를 2초마다 하나씩 발동시킵니다.\r\
--『기쁨의 춤』: 범위 내의 적에게 150,000의 |c00FF6464 Physical Damage|r를 추가로 입힙니다.\r\
+		t["A0M5"][4][1] = "*코코로가 공격시 마나를 1씩 회복합니다. 마나가 165가 됐을때 코코로가 자신의 분신을 생성하여 가면무를 춥니다. 가면무는 총 10 seconds간 지속되며, 2초마다 주변 1000범위의 적에게 125,000|c00FF6464 Physical Damage|r를 입힙니다. 가면무는 다음의 효과중 하나를 2초마다 하나씩 발동시킵니다.\r\
+-『기쁨의 춤』: 범위 내의 적에게 150,000|c00FF6464 Physical Damage|r를 추가로 입힙니다.\r\
 -『슬픔의 춤』: 범위 내 적을 1.5 seconds간 스턴시킵니다.";
 -- aart
 -- atp1 2
@@ -19710,7 +19710,7 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 		t["A03I"][3][1] = "자부『브로큰 아뮬렛』";
 -- aub1 1
 		t["A03I"][4][1] = "＊액을 흘려보내 Around yourself 750 범위의 적 방어력을 22 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 500 범위에 Current Health 0.4% + 20,000의 |c00FF6464물리 피해|r를 입히고 1초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 주변 500 범위에 Current Health 0.4% + 20,000|c00FF6464물리 피해|r를 입히고 1초간 기절시킵니다.";
 -- anam
 -- aart
 		t["A03I"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNEntrapmentWard.blp";
@@ -19729,13 +19729,13 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 		t["A03I"][14][1] = "B03K";
 -- aub1 2
 		t["A03I"][15][1] = "＊액을 흘려보내 Around yourself 750 범위의 적 방어력을 15% 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 500 범위에 공격하는 대상의 Current Health 0.4% + 20,000의 |c00AC59FF절대 피해|r를 입히고 1초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 주변 500 범위에 공격하는 대상의 Current Health 0.4% + 20,000|c00AC59FF절대 피해|r를 입히고 1초간 기절시킵니다.";
 -- [A03J]
 -- arac
 -- atp1 1
 		t["A03J"][2][1] = "메기 \"액상화현상으로 대지도 진흙과 같구나!\"";
 -- aub1 1
-		t["A03J"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 2 회복, Namazu가 격렬하게 철벅거려 자신주변 500 범위의 적에게 전체 체력 2% + 300,000의 |c00FF6464물리 피해|r를 가합니다.\r\
+		t["A03J"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 2 회복, Namazu가 격렬하게 철벅거려 자신주변 500 범위의 적에게 전체 체력 2% + 300,000|c00FF6464물리 피해|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 15";
 -- anam
 -- aart
@@ -19772,24 +19772,24 @@ Shinki는 자신이 가진 마력 1당 10000의 추가  True Damage를 얻습니
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A03J"][36][1] = "매 공격시 9%의 확률로 자신의 주변 550범위에 55,000의  Magical Damage를 줍니다.";
+		t["A03J"][36][1] = "매 공격시 9%의 확률로 자신의 주변 550범위에 55,000 Magical Damage를 줍니다.";
 -- aub1 3
-		t["A03J"][37][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 160000의 데미지를 줍니다.";
+		t["A03J"][37][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 160000데미지를 줍니다.";
 -- aub1 4
-		t["A03J"][38][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 190000의 데미지를 줍니다.";
+		t["A03J"][38][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 190000데미지를 줍니다.";
 -- aub1 5
-		t["A03J"][39][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 220000의 데미지를 줍니다.";
+		t["A03J"][39][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 220000데미지를 줍니다.";
 -- aub1 6
-		t["A03J"][40][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 250000의 데미지를 줍니다.";
+		t["A03J"][40][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 250000데미지를 줍니다.";
 -- aub1 7
-		t["A03J"][41][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 280000의 데미지를 줍니다.";
+		t["A03J"][41][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 280000데미지를 줍니다.";
 -- aub1 8
-		t["A03J"][42][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 310000의 데미지를 줍니다.";
+		t["A03J"][42][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 310000데미지를 줍니다.";
 -- aub1 9
-		t["A03J"][43][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 340000의 데미지를 줍니다.";
+		t["A03J"][43][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 340000데미지를 줍니다.";
 -- aub1 11
 -- aub1 10
-		t["A03J"][45][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 370000의 데미지를 줍니다.";
+		t["A03J"][45][1] = "매 공격시 5%의 확률로 자신의 전방에 돌을 떨어뜨려 370000데미지를 줍니다.";
 -- aub1 12
 -- aub1 13
 -- aub1 14
@@ -20011,7 +20011,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A07L"][2][1] = "『파동과 입자의 경계』";
 -- aub1 1
-		t["A07L"][3][1] = "*공격할 시 14% 확률로 대상 주변 600범위의 Units이 받는  Magical Damage를 20% 증폭시키며, 145,000의 |c00379BFF Magical Damage|r를 줍니다.\r\
+		t["A07L"][3][1] = "*공격할 시 14% 확률로 대상 주변 600범위의 Units이 받는  Magical Damage를 20% 증폭시키며, 145,000|c00379BFF Magical Damage|r를 줍니다.\r\
 *이 스킬의 효과를 받을때마다 이 스킬로 증폭되는  Magical Damage 증폭률이 2배로 상승합니다.[최대 40%]";
 -- anam
 -- aart
@@ -20080,7 +20080,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A07M"][2][1] = "마안『라플라스의 Devil』";
 -- aub1 1
-		t["A07M"][3][1] = "*유카리가 공격시 10% 확률로 경계를 열어 적을 포격합니다. 대상 주변 500범위 적에게 전체 체력의 [0.2%~0.4%]의  Magical Damage를 입히고, 2.5 seconds간 스턴시킵니다.";
+		t["A07M"][3][1] = "*유카리가 공격시 10% 확률로 경계를 열어 적을 포격합니다. 대상 주변 500범위 적에게 Maximum Health [0.2%~0.4%]의  Magical Damage를 입히고, 2.5 seconds간 스턴시킵니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -20151,7 +20151,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A07O"][4][1] = "공이『중독성 있는 미끼』";
 -- aub1 1
-		t["A07O"][5][1] = "*유카리가 공격시 마나를 1씩 회복합니다. 마나가 145가 됐을때 고속비행물체를 생성하여 대상 지점 750범위를 빠르게 이동시킵니다. 범위 내의 적은 0.1초마다 10,000의  Magical Damage를 입습니다. 비행 물체는 2.5 seconds간 지속되며, 이동을 끝내고 난 후 폭발하여 적 전체 체력의 4% + 550,000에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A07O"][5][1] = "*유카리가 공격시 마나를 1씩 회복합니다. 마나가 145가 됐을때 고속비행물체를 생성하여 대상 지점 750범위를 빠르게 이동시킵니다. 범위 내의 적은 0.1초마다 10,000 Magical Damage를 입습니다. 비행 물체는 2.5 seconds간 지속되며, 이동을 끝내고 난 후 폭발하여 적 Maximum Health 4% + 550,000에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.";
 -- arac
 -- [S00C]
 -- atar 1
@@ -20205,8 +20205,8 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["S00D"][3][1] = "『천망지망포접의 법』";
 -- aub1 1
-		t["S00D"][4][1] = "*에이린이 공격시 10%의 확률로 공격당한 적 Units의 이동 능력을 봉쇄하고 전체 체력의 2.5%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.[보스에게는 20%의 피해만 입힙니다]\r\
-*위 효과를 받은 대상 Units 주변 200범위 내에 있는 Units에게 90,000의 |c00FF6464 Physical Damage|r 와 90,000의 |c00379BFF Magical Damage|r를 입히고, Movement Speed를 2초간 80% 감소시킵니다.";
+		t["S00D"][4][1] = "*에이린이 공격시 10%의 확률로 공격당한 적 Units의 이동 능력을 봉쇄하고 Maximum Health 2.5%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.[보스에게는 20%의 피해만 입힙니다]\r\
+*위 효과를 받은 대상 Units 주변 200범위 내에 있는 Units에게 90,000|c00FF6464 Physical Damage|r 와 90,000|c00379BFF Magical Damage|r를 입히고, Movement Speed를 2초간 80% 감소시킵니다.";
 -- anam
 -- aart
 		t["S00D"][8][1] = "ReplaceableTextures\\CommandButtons\\BTNEnsnare.blp";
@@ -20256,7 +20256,7 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["S00E"][4][1] = "*시온이 초당 마나를 1씩, 공격시 죠온의 마나를 1씩 회복시킵니다. 죠온이 공격시 시온의 마나를 1 회복시킵니다.\r\
 [다른 마나 회복의 효과를 받지 않습니다]\r\
-*자신의 마나가 125가 됐을때 Around yourself 800범위 적에게 불행을 퍼뜨려 잃은 체력의 5% + 250,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*자신의 마나가 125가 됐을때 Around yourself 800범위 적에게 불행을 퍼뜨려 잃은 체력의 5% + 250,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 -- atar 2
 -- atar 3
@@ -20276,7 +20276,7 @@ Range : Around yourself 500\r\
 -- aub1 2
 		t["S00E"][22][1] = "*시온이 공격시 마나를 1씩 회복합니다.\r\
 [다른 마나 회복의 효과를 받지 않습니다]\r\
-*자신의 마나가 75가 됐을때 Around yourself 800범위 적에게 불행을 퍼뜨려 잃은 체력의 5% + 250,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*자신의 마나가 75가 됐을때 Around yourself 800범위 적에게 불행을 퍼뜨려 잃은 체력의 5% + 250,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *20 골드를 소모합니다.\r\
 *100~3000 골드를 가졌다면, 잃은 체력이 7%로 강화됩니다.";
 -- aub1 3
@@ -20302,7 +20302,7 @@ Range : Around yourself 500\r\
 		t["S00F"][3][1] = "*죽을때까지 소원을 비는 손*";
 -- aub1 1
 		t["S00F"][4][1] = "*기본적으로 카센 주변 800범위 적의 Movement Speed를 30% 감소시킵니다.\r\
-*카센이 공격시 7% 확률로 자신의 의완에 영기를 모아 전방으로 방출합니다. 전방에 있는 Units에게 165,000의 |c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시킵니다.\r\
+*카센이 공격시 7% 확률로 자신의 의완에 영기를 모아 전방으로 방출합니다. 전방에 있는 Units에게 165,000|c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시킵니다.\r\
 *발동시 카센이 보유한 마나의 12%를 회복합니다.";
 -- anam
 -- abuf 1
@@ -20385,8 +20385,8 @@ Range : Around yourself 500\r\
 -- atp1 31
 -- aub1 2
 		t["A08S"][35][1] = "*광활한 국토를 가졌던 로마 제국의 황제로 비행가능합니다.\r\
-*네로가 공격시 25% 확률로 대상 Units을 1.5 seconds간 스턴시키고, 45,000의  Magical Damage를 입힙니다. 보스일 경우, Current Health의 0.2%의  Magical Damage가 추가됩니다.\r\
-*스킬이 3번째 발동했을때, 자신의 위치에 찬란한 불꽃을 퍼뜨려 주변 550범위 내에 있는 적이 받는  Magical Damage를 20% 증폭시키고, 65,000의  Magical Damage를 입힙니다.";
+*네로가 공격시 25% 확률로 대상 Units을 1.5 seconds간 스턴시키고, 45,000 Magical Damage를 입힙니다. 보스일 경우, Current Health의 0.2%의  Magical Damage가 추가됩니다.\r\
+*스킬이 3번째 발동했을때, 자신의 위치에 찬란한 불꽃을 퍼뜨려 주변 550범위 내에 있는 적이 받는  Magical Damage를 20% 증폭시키고, 65,000 Magical Damage를 입힙니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -20466,16 +20466,16 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A0CQ"][4][1] = "『이노센스』";
 -- aub1 1
-		t["A0CQ"][5][1] = "*Gengetsu가 공격시 11% 확률로 자신의 위치에 검은 기운을 뿜어냅니다. 뿜어낸 기운은 Around yourself 600범위에 있는 적을 3초간 스턴시키고 110,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0CQ"][5][1] = "*Gengetsu가 공격시 11% 확률로 자신의 위치에 검은 기운을 뿜어냅니다. 뿜어낸 기운은 Around yourself 600범위에 있는 적을 3초간 스턴시키고 110,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- [A0D8]
 -- arac
 -- aub1 1
-		t["A0D8"][2][1] = "*공격시 10% 확률로 Around yourself 700범위 적에게 2초의 스턴을 입히고 85,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0D8"][2][1] = "*공격시 10% 확률로 Around yourself 700범위 적에게 2초의 스턴을 입히고 85,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 경질기『머슬 익스플로젼』\r\
 \r\
 *주변 700범위 아군의 평타 공격력을 35% 증가시킵니다.\r\
-*대상 Units의 체력이 50% 이하일 경우, 공격시 10% 확률로 대상 Units의 전체 체력의 25%에 해당하는  True Damage를 입힙니다.\r\
+*대상 Units의 체력이 50% 이하일 경우, 공격시 10% 확률로 대상 Units의 Maximum Health 25%에 해당하는  True Damage를 입힙니다.\r\
 [보스에게는 5%에 해당하는 데미지만 입힙니다.]";
 -- atp1 1
 		t["A0D8"][3][1] = "『귀형의 호이 폴로이』";
@@ -20510,7 +20510,7 @@ Range : Around yourself 500\r\
 		t["S00G"][3][1] = "신난제『미스테리움』";
 -- aub1 1
 		t["S00G"][4][1] = "*|c00FF80FF[활력]|r - 5 seconds\r\
-*카구야가 공격시 신비한 힘을 뿜어내어 대상 지점 주변 650범위 내에 있는 적에게 전체 체력의 0.5% + 185,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*카구야가 공격시 신비한 힘을 뿜어내어 대상 지점 주변 650범위 내에 있는 적에게 Maximum Health 0.5% + 185,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 		t["S00G"][5][1] = "[카구야]";
 -- abuf 1
@@ -20524,7 +20524,7 @@ Range : Around yourself 500\r\
 		t["S00G"][11][1] = "『풍신님의 신덕』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["S00G"][12][1] = "*주변 700범위 자신을 제외한 아군의 Attack Speed를 12% 증가시킵니다.\r\
-*카나코가 공격시 10% 확률로 대상 지점에 신력을 해방시킵니다. 대상 주변 400범위 적에게 잃은 체력의 1% + 100,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*카나코가 공격시 10% 확률로 대상 지점에 신력을 해방시킵니다. 대상 주변 400범위 적에게 잃은 체력의 1% + 100,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- [A0DY]
 -- arac
 -- anam
@@ -20577,17 +20577,17 @@ Range : Around yourself 500\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0GV"][35][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 300000의 데미지를 입힙니다.";
+		t["A0GV"][35][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 300000데미지를 입힙니다.";
 -- aub1 3
-		t["A0GV"][36][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 350000의 데미지를 입힙니다.";
+		t["A0GV"][36][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 350000데미지를 입힙니다.";
 -- aub1 4
-		t["A0GV"][37][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 400000의 데미지를 입힙니다.";
+		t["A0GV"][37][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 400000데미지를 입힙니다.";
 -- aub1 5
-		t["A0GV"][38][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 450000의 데미지를 입힙니다.";
+		t["A0GV"][38][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 450000데미지를 입힙니다.";
 -- aub1 6
-		t["A0GV"][39][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 500000의 데미지를 입힙니다.";
+		t["A0GV"][39][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 500000데미지를 입힙니다.";
 -- aub1 7
-		t["A0GV"][40][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 600000의 데미지를 입힙니다.";
+		t["A0GV"][40][1] = "매 공격시 45%확률로 8번 바운드 되는 번개를 날립니다. 바운드 된 번개는 600000데미지를 입힙니다.";
 -- aub1 8
 		t["A0GV"][41][1] = "매 공격시 25%확률로 주위 최대 4명의 Units에게 5000데미지의 번개를 날립니다.";
 -- aub1 9
@@ -20759,8 +20759,8 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A0M9"][4][1] = "『몽환관의 문지기』";
 -- aub1 1
-		t["A0M9"][5][1] = "*Elly가 공격할때마다 적 Current Health의 0.8% + 15,000의 |c00FF6464 Physical Damage|r를 추가로 입힙니다.[보스에게는 40%의 데미지만 적용됩니다.]\r\
-*공격시 25% 확률로 대상의 영혼을 가져와 적 Current Health의 6% + 45,000의 |c00FF6464 Physical Damage|r를 추가로 입힙니다.[보스에게는 15%의 데미지만 적용됩니다.]";
+		t["A0M9"][5][1] = "*Elly가 공격할때마다 적 Current Health의 0.8% + 15,000|c00FF6464 Physical Damage|r를 추가로 입힙니다.[보스에게는 40%의 데미지만 적용됩니다.]\r\
+*공격시 25% 확률로 대상의 영혼을 가져와 적 Current Health의 6% + 45,000|c00FF6464 Physical Damage|r를 추가로 입힙니다.[보스에게는 15%의 데미지만 적용됩니다.]";
 -- [A0MA]
 -- anam
 -- aart
@@ -20768,15 +20768,15 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A0MA"][4][1] = "『영전 ~Perdition Crisis~』";
 -- aub1 1
-		t["A0MA"][5][1] = "*Elly가 공격시 10% 확률로 Elly 주변 900범위에 자신이 쌓은 영혼들을 해방시켜 115,000의 |c00FF6464 Physical Damage|r를 입힙니다. ";
+		t["A0MA"][5][1] = "*Elly가 공격시 10% 확률로 Elly 주변 900범위에 자신이 쌓은 영혼들을 해방시켜 115,000|c00FF6464 Physical Damage|r를 입힙니다. ";
 -- [A0MB]
 -- anam
 -- aart
 -- atp1 1
 		t["A0MB"][4][1] = "『몽환관의 단두대』";
 -- aub1 1
-		t["A0MB"][5][1] = "*Elly가 공격시 10% 확률로 낫을 휘두릅니다. 휘두른 낫은 600범위 적에게 115,000의 |c00FF6464 Physical Damage|r를 입힙니다. \r\
-*Elly가 공격시 마나를 1씩 회복합니다. 마나가 120이 되면 대상 지점 500범위를 빠른 속도로 6번 낫으로 베어 횟수당 전체 체력의 0.3% + 65,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0MB"][5][1] = "*Elly가 공격시 10% 확률로 낫을 휘두릅니다. 휘두른 낫은 600범위 적에게 115,000|c00FF6464 Physical Damage|r를 입힙니다. \r\
+*Elly가 공격시 마나를 1씩 회복합니다. 마나가 120이 되면 대상 지점 500범위를 빠른 속도로 6번 낫으로 베어 횟수당 Maximum Health 0.3% + 65,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 12";
 -- [A0MC]
 -- arac
@@ -20811,7 +20811,7 @@ Range : Around yourself 500\r\
 		t["A09U"][2][1] = "주부『팬텀쉽 하버』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A09U"][3][1] = "＊『배 밑바닥의 비너스』의 방어력 감소가 30으로 증가합니다.\r\
-＊공격 시 10% 확률로 유령선이 지원나와 대상 지점을 향해 포격하여 주변 450 범위의 적에게 전체 체력 0.4% + 125,000의 |c00FF6464물리 피해|r를 가합니다.";
+＊공격 시 10% 확률로 유령선이 지원나와 대상 지점을 향해 포격하여 주변 450 범위의 적에게 전체 체력 0.4% + 125,000|c00FF6464물리 피해|r를 가합니다.";
 -- anam
 -- aart
 		t["A09U"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUndeadTransport.blp";
@@ -20846,7 +20846,7 @@ Range : Around yourself 500\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A09U"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 440000의  Physical Damage와 1.2초의 기절, 기절이 풀린 후 3초간 Movement Speed 45% 감소 효과를 줍니다.";
+		t["A09U"][36][1] = "공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 440000 Physical Damage와 1.2초의 기절, 기절이 풀린 후 3초간 Movement Speed 45% 감소 효과를 줍니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -20897,7 +20897,7 @@ Range : Around yourself 500\r\
 		t["A0AB"][2][1] = "금기『포비든 푸르츠』";
 -- aub1 1
 		t["A0AB"][3][1] = "＊공격 시 5% 확률로 마력을 20 회복합니다.\r\
-＊공격 시 15% 확률로 적에게 선악과를 억지로 먹이고 죄를 알려 대상 주변 450 범위에 200,000의 |c00AC59FF절대 피해|r를 가하고 플랑드르의 체력을 6% 감소시킵니다.";
+＊공격 시 15% 확률로 적에게 선악과를 억지로 먹이고 죄를 알려 대상 주변 450 범위에 200,000|c00AC59FF절대 피해|r를 가하고 플랑드르의 체력을 6% 감소시킵니다.";
 -- anam
 -- aart
 		t["A0AB"][5][1] = "ReplaceableTextures\\CommandButtons\\BTN3M3.blp";
@@ -20932,7 +20932,7 @@ Range : Around yourself 500\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0AB"][36][1] = "적을 공격시 40%확률로 Current Health의 28%와 180000의 데미지를 가합니다. Current Health의 28%가 260000이하일 경우 260000의 피해를 가합니다.";
+		t["A0AB"][36][1] = "적을 공격시 40%확률로 Current Health의 28%와 180000데미지를 가합니다. Current Health의 28%가 260000이하일 경우 260000피해를 가합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -20972,7 +20972,7 @@ Range : Around yourself 500\r\
 		t["A0MF"][5][1] = "선부『해뜨는 나라의 도사』";
 -- aub1 1
 		t["A0MF"][6][1] = "*기본적으로 Around yourself 650범위 적의 방어력을 50 감소시킵니다.\r\
-*공격시 10% 확률로 대상 주변 450범위에 Current Health의 0.5% + 85,000의 |c00FF6464 Physical Damage|r를 입히고 1.5 seconds간 스턴시키며, 마나를 2 회복합니다.\r\
+*공격시 10% 확률로 대상 주변 450범위에 Current Health의 0.5% + 85,000|c00FF6464 Physical Damage|r를 입히고 1.5 seconds간 스턴시키며, 마나를 2 회복합니다.\r\
 *보스 공격시 방어력을 50 감소시킵니다.";
 -- abuf 1
 -- atp1 2
@@ -20986,7 +20986,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["S00H"][3][1] = "녹석『제이드 브레이크』";
 -- aub1 1
-		t["S00H"][4][1] = "*스와코가 공격시 10% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 전체 체력의 0.7% + 150,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["S00H"][4][1] = "*스와코가 공격시 10% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 Maximum Health 0.7% + 150,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 * 기본적으로 주변 800범위 아군의 Attack Speed를 10% 상승시킵니다.\r\
 *발동시 스와코의 마나가 5 회복됩니다.";
 -- anam
@@ -21112,7 +21112,7 @@ Range : Around yourself 500\r\
 -- atp1 30
 		t["S00H"][95][1] = "녹석『제이드 브레이크』- 비취 조각 30개";
 -- aub1 2
-		t["S00H"][96][1] = "*스와코가 공격시 8% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 전체 체력의 0.5% + 100,000의  Magical Damage를 입힙니다.\r\
+		t["S00H"][96][1] = "*스와코가 공격시 8% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 Maximum Health 0.5% + 100,000 Magical Damage를 입힙니다.\r\
 * 기본적으로 주변 800범위 아군의 Attack Speed를 12% 상승시킵니다.\r\
 *발동시 스와코의 마나가 5 회복됩니다.\r\
 *위 효과가 발동할 경우, 비취조각 1개를 쌓으며, 스와코의 위치에 3초간 지속되는 비취수호병을 생성합니다. [최대 20개]";
@@ -21135,7 +21135,7 @@ Range : Around yourself 500\r\
 -- aub1 19
 -- aub1 20
 -- aub1 21
-		t["S00H"][115][1] = "*스와코가 공격시 10% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 전체 체력의 1% + 100,000의  Magical Damage를 입히고 받는  Magical Damage를 30% 증폭시킵니다.\r\
+		t["S00H"][115][1] = "*스와코가 공격시 10% 확률로 대상 지점에 비취석을 던져 폭발시킵니다. 폭발시킨 대상 주변 600범위 내에 있는 적에게 Maximum Health 1% + 100,000 Magical Damage를 입히고 받는  Magical Damage를 30% 증폭시킵니다.\r\
 * 기본적으로 주변 800범위 아군의 Attack Speed를 22% 상승시킵니다.\r\
 *위 효과가 발동할 경우, 비취조각 1개를 쌓으며, 3초간 지속되는 비취수호병을 생성합니다. ";
 -- aub1 22
@@ -21180,7 +21180,7 @@ Range : Around yourself 500\r\
 『핵펀치』- |c0000FFFFExtended|r\r\
 \r\
 *Hisoutensoku이 공격시 12% 확률로 대상 지점을 있는 힘껏 타격합니다.\r\
-*대상 지점 주변 400범위 내에 있는 적을 2초간 스턴시키고, 전체 체력의 0.6%의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*대상 지점 주변 400범위 내에 있는 적을 2초간 스턴시키고, Maximum Health 0.6%의 |c00FF6464 Physical Damage|r를 입힙니다.";
 -- abuf 2
 -- atar 2
 -- atar 3
@@ -21188,7 +21188,7 @@ Range : Around yourself 500\r\
 -- [A0MI]
 -- aub1 1
 		t["A0MI"][1][1] = "＊레밀리아 주변 800 범위의 적 Movement Speed를 18% 감소시킵니다.\r\
-＊공격시 11% 확률로 대상 주변 350 범위의 적에게 75,000의 |c00FF6464물리 피해|r를 가합니다.\r\
+＊공격시 11% 확률로 대상 주변 350 범위의 적에게 75,000|c00FF6464물리 피해|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 3\r\
 ───────────────────\r\
 『데몬 로드 클로』\r\
@@ -21329,8 +21329,8 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A0MJ"][5][1] = "＊Around yourself 650 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
 ＊공격당한 적의 체력이 90% 이상이라면, 체력을 90%로 만듭니다.\r\
-＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 70,000의 |c00379BFF마법 피해|r를 가하고 1.2초간 기절시킵니다.\r\
-＊공격당한 대상이 보스라면, 공격 시 40% 확률로 45,000의 |c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.\r\
+＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 70,000|c00379BFF마법 피해|r를 가하고 1.2초간 기절시킵니다.\r\
+＊공격당한 대상이 보스라면, 공격 시 40% 확률로 45,000|c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.\r\
 ＊란의 Attack Speed가 12% 상승합니다.";
 -- atp1 1
 		t["A0MJ"][6][1] = "|c00ffff00식신『후귀의 수호』|r |c00FF8040[W]|r";
@@ -21353,8 +21353,8 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A04V"][1][1] = "＊Around yourself 650 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
 ＊공격당한 적의 체력이 90% 이상이라면, 체력을 90%로 만듭니다.\r\
-＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 70,000의 |c00379BFF마법 피해|r를 가하고 1.2초간 기절시킵니다.\r\
-＊공격당한 대상이 보스라면, 공격 시 40% 확률로 45,000의 |c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 70,000|c00379BFF마법 피해|r를 가하고 1.2초간 기절시킵니다.\r\
+＊공격당한 대상이 보스라면, 공격 시 40% 확률로 45,000|c00379BFF마법 피해|r를 가하고 1.5 seconds간 기절시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A04V"][4][1] = "식신『후귀의 수호』";
@@ -21455,8 +21455,8 @@ Range : Around yourself 500\r\
 -- atp1 31
 -- aub1 2
 		t["A04V"][98][1] = "*주변 650범위 Units의 Movement Speed를 22% 감소시킵니다. 공격시 대상 Units의 체력이 90% 이상이라면 90%로 만듭니다.\r\
-*공격시 15% 확률로 대상 지점 450범위에 100,000의 |c00379BFF Magical Damage|r를 입히고 1.2초간 스턴시킵니다.\r\
-*공격시 40% 확률로 대상 보스 Units에게 45,000의 |c00379BFF Magical Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.";
+*공격시 15% 확률로 대상 지점 450범위에 100,000|c00379BFF Magical Damage|r를 입히고 1.2초간 스턴시킵니다.\r\
+*공격시 40% 확률로 대상 보스 Units에게 45,000|c00379BFF Magical Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -21494,14 +21494,14 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A04Y"][4][1] = "＊Around yourself 600 범위의 적 방어력을 24 감소시킵니다.\r\
 ＊공격당한 적의 체력이 90% 이상이라면, 체력을 90%로 만듭니다.\r\
-＊공격 시 10% 확률로 대상 주변 450 범위에 70,000의 |c00FF6464물리 피해|r를 가하고 1.2초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 주변 450 범위에 70,000|c00FF6464물리 피해|r를 가하고 1.2초간 기절시킵니다.";
 -- anam
 -- aart
 -- atp1 2
 		t["A04Y"][8][1] = "식신『전귀의 수호』 - |c0000FFFFExtended|r";
 -- aub1 2
 		t["A04Y"][9][1] = "*주변 600범위 적 Units의 방어력을 30 낮춥니다. 공격시 대상 Units의 체력이 90% 이상이라면 90%로 만듭니다.\r\
-*공격시 15% 확률로 대상 지점 주변 450범위에 100,000의 |c00FF6464 Physical Damage|r를 입히고 1.2초간 스턴시킵니다.";
+*공격시 15% 확률로 대상 지점 주변 450범위에 100,000|c00FF6464 Physical Damage|r를 입히고 1.2초간 스턴시킵니다.";
 -- abuf 1
 		t["A04Y"][10][1] = "B03V";
 -- atar 2
@@ -21563,7 +21563,7 @@ Range : Around yourself 500\r\
 -- aart
 		t["A0MO"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNDarkSummoning.blp";
 -- aub1 1
-		t["A0MO"][6][1] = "*오키나가 공격시 9% 확률로 Around yourself 800범위 내의 적에게 50,000의  Magical Damage를 입히고 받는 |c00379BFF Magical Damage|r를 25% 증폭시킵니다.";
+		t["A0MO"][6][1] = "*오키나가 공격시 9% 확률로 Around yourself 800범위 내의 적에게 50,000 Magical Damage를 입히고 받는 |c00379BFF Magical Damage|r를 25% 증폭시킵니다.";
 -- [A0MP]
 -- arac
 -- anam
@@ -21778,9 +21778,9 @@ Range : Around yourself 500\r\
 -- aub1 2
 		t["A0MS"][29][1] = "*메구밍의 공격은 500범위의 100% 분산 데미지로 적용됩니다.\r\
 *메구밍의 마력에 따라 폭렬마법의 데미지가 달라집니다.\r\
--마력 ~33 : 대상 주변 1000범위 적에게 전체 체력의 5% + 500,000 Physical Damage\r\
--34~66 : 대상 주변 3000범위 적에게 전체 체력의 7% + 700,000 Physical Damage\r\
--67~100 : 대상 주변 5000범위 적에게 전체 체력의 10% + 1000,000 Physical Damage";
+-마력 ~33 : 대상 주변 1000범위 적에게 Maximum Health 5% + 500,000 Physical Damage\r\
+-34~66 : 대상 주변 3000범위 적에게 Maximum Health 7% + 700,000 Physical Damage\r\
+-67~100 : 대상 주변 5000범위 적에게 Maximum Health 10% + 1000,000 Physical Damage";
 -- aub1 3
 -- atar 11
 -- atar 12
@@ -21831,7 +21831,7 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A0MU"][3][1] = "*|c00FF80FF[활력]|r - 6초\r\
 유카리가 공격시 대상 지점에 결계를 생성합니다. 결계 안의 모든 적은 Movement Speed가 45% 감소합니다. 6초간 지속됩니다. \r\
-*유카리가 심탄막결계 내부에 있는 적을 공격할시 25% 확률로 파장을 일으켜 대상 주변 450범위 Units에게 145,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*유카리가 심탄막결계 내부에 있는 적을 공격할시 25% 확률로 파장을 일으켜 대상 주변 450범위 Units에게 145,000|c00AC59FF True Damage|r를 입힙니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -21897,7 +21897,7 @@ Range : Around yourself 500\r\
 -- [A0HU]
 -- aub1 1
 		t["A0HU"][1][1] = "＊핵융합 에너지를 순환시켜 Around yourself 900 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
-＊|c00FF80FF[활력]|r - 4초 : 공격 시 추가로 활력 0.2초 회복, 몸에 핵융합 반응을 일으켜 Around yourself 600 범위의 적에게 Current Health 0.4% + 75,000의 |c00379BFF마법 피해|r를 가합니다. ";
+＊|c00FF80FF[활력]|r - 4초 : 공격 시 추가로 활력 0.2초 회복, 몸에 핵융합 반응을 일으켜 Around yourself 600 범위의 적에게 Current Health 0.4% + 75,000|c00379BFF마법 피해|r를 가합니다. ";
 -- atar 1
 -- atp1 1
 		t["A0HU"][4][1] = "제어『셀프 토카막』";
@@ -21997,7 +21997,7 @@ Range : Around yourself 500\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0HU"][98][1] = "*우츠호가 주변 900범위 적의 Movement Speed를 35% 감소시키고, 초당 5,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0HU"][98][1] = "*우츠호가 주변 900범위 적의 Movement Speed를 35% 감소시키고, 초당 5,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -22032,7 +22032,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A01N"][2][1] = "『스위트 포이즌』 - |c0000FFFFExtended|r";
 -- aub1 1
-		t["A01N"][3][1] = "＊|c002C62EA[Mana]|r - 35 : 공격 시 마력 1 회복, 치명적인 독을 풀어 대상 주변 500 범위의 적에게 Current Health 1.25% + 145,000의 |c00FF6464물리 피해|r를 가하고 3초간 Movement Speed를 65% 감소시킵니다.";
+		t["A01N"][3][1] = "＊|c002C62EA[Mana]|r - 35 : 공격 시 마력 1 회복, 치명적인 독을 풀어 대상 주변 500 범위의 적에게 Current Health 1.25% + 145,000|c00FF6464물리 피해|r를 가하고 3초간 Movement Speed를 65% 감소시킵니다.";
 -- aart
 		t["A01N"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNPlagueCloud.blp";
 -- atp1 2
@@ -22099,7 +22099,7 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A06H"][2][1] = "*환시하라 이 세계의 광기를!*";
 -- aub1 1
-		t["A06H"][3][1] = "*공격시 마나를 2 회복합니다. 마나가 160이 됐을때, 염력을 폭주시켜 맵 전체에 있는 적 Units에게 전체 체력의 5% + 500,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+		t["A06H"][3][1] = "*공격시 마나를 2 회복합니다. 마나가 160이 됐을때, 염력을 폭주시켜 맵 전체에 있는 적 Units에게 Maximum Health 5% + 500,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 -- aart
 		t["A06H"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGreaterRejuvScroll.blp";
@@ -22120,8 +22120,8 @@ Range : Around yourself 500\r\
 		t["A06I"][2][1] = "선부『홍엽선풍』";
 -- aub1 1
 		t["A06I"][3][1] = "＊맵 전체의 자신 소유 Units Attack Speed를 10% 증가시킵니다.\r\
-＊공격 시 11% 확률로 대상 발밑에 회오리바람이 몰아쳐 주변 450 범위의 적에게 75,000의 |c00379BFF마법 피해|r를 가하고 1.8 seconds간 기절시킵니다.\r\
-＊정보 캐는데 특화인 아야는 공격한 대상이 보스라면 5,000의 |c00379BFF마법 피해|r를 가합니다.";
+＊공격 시 11% 확률로 대상 발밑에 회오리바람이 몰아쳐 주변 450 범위의 적에게 75,000|c00379BFF마법 피해|r를 가하고 1.8 seconds간 기절시킵니다.\r\
+＊정보 캐는데 특화인 아야는 공격한 대상이 보스라면 5,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- atar 1
 -- abuf 1
@@ -22138,14 +22138,14 @@ Range : Around yourself 500\r\
 		t["A06M"][7][1] = "빙의『희로애락 퍼제션』";
 -- aub1 1
 		t["A06M"][8][1] = "*『변환자재의 감정이입』의 효과가 50% 상승합니다.\r\
-*코코로가 공격시 10% 확률로 전방 900거리 300범위 내에 있는 적에게 275,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*코코로가 공격시 10% 확률로 전방 900거리 300범위 내에 있는 적에게 275,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- abuf 2
 -- atar 2
 -- atp1 2
 		t["A06M"][11][1] = "빙의『희로애락 퍼제션』 - 감정 강화";
 -- aub1 2
 		t["A06M"][12][1] = "*『변환자재의 감정이입』의 효과가 50% 상승합니다.\r\
-*코코로가 공격시 10% 확률로 전방 900거리 300범위 내에 있는 적에게 275,000의 |c00FF6464 Physical Damage|r를 입히고, 2.5 seconds간 스턴시킵니다.";
+*코코로가 공격시 10% 확률로 전방 900거리 300범위 내에 있는 적에게 275,000|c00FF6464 Physical Damage|r를 입히고, 2.5 seconds간 스턴시킵니다.";
 -- [A0C7]
 -- arac
 -- anam
@@ -22525,13 +22525,13 @@ Effect : 0.5 seconds간 기절";
 		t["A0MX"][7][1] = "상부『프로스트 칼럼스』";
 -- aub1 1
 		t["A0MX"][8][1] = "*Cirno 주변 1000범위 적의 Movement Speed를 49% 감소시킵니다.\r\
-*Cirno가 공격시 10% 확률로 대상 주변 600범위 Units에게 65,000의 |c00379BFF Magical Damage|r를 입히고, 3.5 seconds간 스턴시킵니다.\r\
+*Cirno가 공격시 10% 확률로 대상 주변 600범위 Units에게 65,000|c00379BFF Magical Damage|r를 입히고, 3.5 seconds간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 빙부『아이시클 머신건』\r\
 \r\
-*공격시 30% 확률로 대상 Units을 2.5 seconds간 스턴시키고, 전체 체력의 3% + 250,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
-[보스 Units의 경우 전체 체력의 0.2% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.]\r\
-*1초마다 Cirno의 몸에서 냉기 파편이 주변 보스에게 날아갑니다. 파편은 개당 100,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+*공격시 30% 확률로 대상 Units을 2.5 seconds간 스턴시키고, Maximum Health 3% + 250,000|c00379BFF Magical Damage|r를 입힙니다.\r\
+[보스 Units의 경우 Maximum Health 0.2% + 100,000|c00379BFF Magical Damage|r를 입힙니다.]\r\
+*1초마다 Cirno의 몸에서 냉기 파편이 주변 보스에게 날아갑니다. 파편은 개당 100,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- [S00I]
 -- atar 1
 -- arac
@@ -22539,7 +22539,7 @@ Effect : 0.5 seconds간 기절";
 		t["S00I"][3][1] = "*특별히 양쪽 모두 고르게 해주마*";
 -- aub1 1
 		t["S00I"][4][1] = "*미코가 공격시 마나를 1 회복합니다. 미코의 마나가 160이 됐을때 공격시 발동합니다.\r\
-*미코가 자신의 무기고에서 자신이 가장 애용하던 황금검을 뽑아들어 전방으로 휘두릅니다. 황금검은 전방 1500범위로 검기를 발사하며 대상이 잃은 체력의 20% + 650,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*미코가 자신의 무기고에서 자신이 가장 애용하던 황금검을 뽑아들어 전방으로 휘두릅니다. 황금검은 전방 1500범위로 검기를 발사하며 대상이 잃은 체력의 20% + 650,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 -- abuf 1
 -- atar 2
@@ -22558,7 +22558,7 @@ Effect : 0.5 seconds간 기절";
 -- abuf 7
 -- abuf 8
 -- aub1 2
-		t["S00I"][21][1] = "*미코가 공격시 11% 확률로 자신이 가진 검으로 전방을 꿰뚫습니다. 1000거리 300범위 내의 적에게 전체 체력의 0.6% + 55,000의 |c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 12%만큼 증폭시키며 1초간 스턴시킵니다.\r\
+		t["S00I"][21][1] = "*미코가 공격시 11% 확률로 자신이 가진 검으로 전방을 꿰뚫습니다. 1000거리 300범위 내의 적에게 Maximum Health 0.6% + 55,000|c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 12%만큼 증폭시키며 1초간 스턴시킵니다.\r\
 *맵 전체 아군의 Attack Speed를 10% 상승시킵니다.";
 -- aub1 3
 -- atp1 2
@@ -22570,7 +22570,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 7
 -- atp1 8
 -- aub1 4
-		t["S00I"][30][1] = "*미코가 공격시 11% 확률로 자신이 가진 검으로 전방을 꿰뚫습니다. 1000거리 300범위 내의 적에게 전체 체력의 0.6% + 55,000의 |c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 12%만큼 증폭시키며 1초간 스턴시킵니다.\r\
+		t["S00I"][30][1] = "*미코가 공격시 11% 확률로 자신이 가진 검으로 전방을 꿰뚫습니다. 1000거리 300범위 내의 적에게 Maximum Health 0.6% + 55,000|c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 12%만큼 증폭시키며 1초간 스턴시킵니다.\r\
 *맵 전체 아군의 Attack Speed를 15% 상승시킵니다.";
 -- aub1 5
 -- aub1 6
@@ -22581,11 +22581,11 @@ Effect : 0.5 seconds간 기절";
 -- [A0N0]
 -- aub1 1
 		t["A0N0"][1][1] = "*기본적으로 Murasa 주변 650범위 내에 있는 적의 Movement Speed를 15% 감소시킵니다.\r\
-*Murasa가 공격시 마나를 1씩 쌓으며, 마나가 120이 됐을때, 닻 모양의 탄막을 대상 지점에 투척하여 대상 지점 주변 600범위 내에 있는 적에게 2초의 스턴을 입히고, 잃은 체력의 4% + 250,000의 |c00379BFF Magical Damage|r를 입힙니다. \r\
+*Murasa가 공격시 마나를 1씩 쌓으며, 마나가 120이 됐을때, 닻 모양의 탄막을 대상 지점에 투척하여 대상 지점 주변 600범위 내에 있는 적에게 2초의 스턴을 입히고, 잃은 체력의 4% + 250,000|c00379BFF Magical Damage|r를 입힙니다. \r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 전복『격침 앵커』\r\
 \r\
-*Murasa가 공격시 10% 확률로 대상 지점에 격류를 생성해 450범위내에 있는 적을 1.4초간 스턴시키고 잃은 체력의 0.4% + 75,000의 |c00379BFF Magical Damage|r를 입힙니다. 『격침 앵커』의 효과를 받은 적은 4초간 45%의 슬로우 효과를 받습니다.";
+*Murasa가 공격시 10% 확률로 대상 지점에 격류를 생성해 450범위내에 있는 적을 1.4초간 스턴시키고 잃은 체력의 0.4% + 75,000|c00379BFF Magical Damage|r를 입힙니다. 『격침 앵커』의 효과를 받은 적은 4초간 45%의 슬로우 효과를 받습니다.";
 -- atar 1
 -- atat
 		t["A0N0"][3][1] = "Murasa_Coat.mdx";
@@ -22751,7 +22751,7 @@ Effect : 0.5 seconds간 기절";
 		t["A09R"][11][1] = "명관『고스트 클리퍼드』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A09R"][12][1] = "*Ghost Orchestra 주변 650범위 적 Units의 Movement Speed를 30% 감소시킵니다.\r\
-*공격시 10% 확률로 주변 650범위 적 Units에게 75,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*공격시 10% 확률로 주변 650범위 적 Units에게 75,000|c00AC59FF True Damage|r를 입힙니다.";
 -- [A02E]
 -- atp1 1
 		t["A02E"][5][1] = "『악령의 책』";
@@ -22767,7 +22767,7 @@ Effect : 0.5 seconds간 기절";
 		t["A03E"][1][1] = "『마력파장』";
 -- anam
 -- aub1 1
-		t["A03E"][3][1] = "*Mima가 공격시 10% 확률로 Around yourself 600범위에 마력을 방출하여 185,000의 |c00379BFF Magical Damage|r를 입히고 3초간 스턴시킵니다.";
+		t["A03E"][3][1] = "*Mima가 공격시 10% 확률로 Around yourself 600범위에 마력을 방출하여 185,000|c00379BFF Magical Damage|r를 입히고 3초간 스턴시킵니다.";
 -- aart
 		t["A03E"][6][1] = "BTN\\BTNwex.blp";
 -- [A03F]
@@ -22816,8 +22816,8 @@ Effect : 0.5 seconds간 기절";
 -- atp1 1
 		t["A03Z"][4][1] = "인부『야만바의 부엌칼 갈기』";
 -- aub1 1
-		t["A03Z"][5][1] = "*공격시 20% 확률로 네무노가 자신의 칼을 날카롭게 갈아냅니다. 칼을 갈아낸 후 첫번째 공격은 적 전체 체력의 12%의 |c00FF6464 Physical Damage|r를 입히고 1.5 seconds간 스턴시킵니다. \r\
-*공격받은 적 450범위 주변 Units에게는 65,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A03Z"][5][1] = "*공격시 20% 확률로 네무노가 자신의 칼을 날카롭게 갈아냅니다. 칼을 갈아낸 후 첫번째 공격은 적 Maximum Health 12%의 |c00FF6464 Physical Damage|r를 입히고 1.5 seconds간 스턴시킵니다. \r\
+*공격받은 적 450범위 주변 Units에게는 65,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *보스 Units에게는 10%의 데미지만 입힙니다.\r\
 *부엌칼을 한번 갈때마다 네무노의 마나가 5,000큼 상승합니다.";
 -- [A0A7]
@@ -22828,7 +22828,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 1
 		t["A0A7"][4][1] = "『마운틴 머더』";
 -- aub1 1
-		t["A0A7"][5][1] = "*네무노의 마나가 100이 됐을때 5 seconds간 광폭화 상태로 돌입합니다. 칼을 갈아낼 확률이 20% 증가합니다. 추가로 Attack Speed가 35% 증가합니다. 1초마다 네무노가 서있는 위치에서 땅이 흔들려 주변 700범위 적에게 Current Health의 0.5% + 35,000의 |c00FF6464 Physical Damage|r를 입힙니다. \r\
+		t["A0A7"][5][1] = "*네무노의 마나가 100이 됐을때 5 seconds간 광폭화 상태로 돌입합니다. 칼을 갈아낼 확률이 20% 증가합니다. 추가로 Attack Speed가 35% 증가합니다. 1초마다 네무노가 서있는 위치에서 땅이 흔들려 주변 700범위 적에게 Current Health의 0.5% + 35,000|c00FF6464 Physical Damage|r를 입힙니다. \r\
 *광폭화 상태에서는 『야만바의 부엌칼 갈기』로 마나를 회복하지 않습니다.";
 -- [A0AS]
 -- aart
@@ -22837,7 +22837,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 1
 		t["A0AS"][4][1] = "비의『칠성의 검』";
 -- aub1 1
-		t["A0AS"][5][1] = "*오키나가 공격시 10% 확률로 자신 전방 750거리 300범위내에 있는 적에게 전체 체력의 0.4% + 85,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0AS"][5][1] = "*오키나가 공격시 10% 확률로 자신 전방 750거리 300범위내에 있는 적에게 Maximum Health 0.4% + 85,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- [A0AU]
 -- aart
 		t["A0AU"][1][1] = "BTN\\BTNDoremy.blp";
@@ -22858,7 +22858,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 1
 		t["A0DE"][2][1] = "폭부 『페타 플Rare』";
 -- aub1 1
-		t["A0DE"][3][1] = "*우츠호가 공격시 20% 확률로 대상 지점에 강력한 폭발을 일으켜, 주변 500범위 적을 2초간 스턴시키고 전체 체력의 1% + 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+		t["A0DE"][3][1] = "*우츠호가 공격시 20% 확률로 대상 지점에 강력한 폭발을 일으켜, 주변 500범위 적을 2초간 스턴시키고 Maximum Health 1% + 150,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 -- atar 1
 -- abuf 1
@@ -22969,7 +22969,7 @@ Effect : 0.5 seconds간 기절";
 		t["A0IM"][4][1] = "누에부 『탄막 키메라』";
 -- aub1 1
 		t["A0IM"][5][1] = "*누에가 공격할때마다 마나를 5 회복합니다. 보스 Units 공격시는 마나를 10 회복합니다.\r\
-*마나가 50이 됐을때 공격시 대상 Units에게 전체 체력의 5% + 300,000의 |c00379BFF Magical Damage|r를 입히고, [3~5]초간 스턴시킵니다.\r\
+*마나가 50이 됐을때 공격시 대상 Units에게 Maximum Health 5% + 300,000|c00379BFF Magical Damage|r를 입히고, [3~5]초간 스턴시킵니다.\r\
 [보스에게는 25%의 데미지만 입힙니다]";
 -- [A0N1]
 -- aart
@@ -22992,7 +22992,7 @@ Effect : 0.5 seconds간 기절";
 		t["A0N2"][3][1] = "[Legendary][Nue Houjuu]헤이안쿄의 악몽";
 -- atp1 1
 -- aub1 1
-		t["A0N2"][5][1] = "*누에가 공격시 25% 확률로 대상 Units에게 [전체 체력의 2% + 99,000]*(0.7~2.2)의 |c00379BFF Magical Damage|r를 추가로 입힙니다.\r\
+		t["A0N2"][5][1] = "*누에가 공격시 25% 확률로 대상 Units에게 [Maximum Health 2% + 99,000]*(0.7~2.2)의 |c00379BFF Magical Damage|r를 추가로 입힙니다.\r\
 [보스에게 발동시 전체 체력 비례 데미지가 25%만 적용됩니다]";
 -- [A0N3]
 -- arac
@@ -23126,15 +23126,15 @@ Effect : 0.5 seconds간 기절";
 -- atp1 1
 -- aub1 1
 		t["A0N7"][5][1] = "*공격시 마나를 1 회복합니다. 마나가 250이 됐을때 발동합니다.\r\
-*자신의 위치에 태양을 형상화한 탄막을 생성하여 2.5 seconds 뒤 폭발시킵니다. 태양 주변 800범위 적에게 750,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*자신의 위치에 태양을 형상화한 탄막을 생성하여 2.5 seconds 뒤 폭발시킵니다. 태양 주변 800범위 적에게 750,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *로열 플Rare에 휘말린 적은 마법에 대항할 능력을 잃어버려 5 seconds간  Magical Damage를 40% 증폭하여 받습니다.";
 -- aub1 2
 		t["A0N7"][9][1] = "*공격시 마나를 1 회복합니다. 마나가 200이 됐을때 발동합니다.\r\
-*대상 지점을 회전하는 2개의 탄막을 생성합니다. 탄막 내부의 적은 1초마다 1.5 seconds간 스턴당합니다. 탄막은 총 6초간 유지되며, 내부의 적에게 초당 200,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*대상 지점을 회전하는 2개의 탄막을 생성합니다. 탄막 내부의 적은 1초마다 1.5 seconds간 스턴당합니다. 탄막은 총 6초간 유지되며, 내부의 적에게 초당 200,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *새틀라이트 히마와리가 종료될 경우 파츄리는 마나를 20~50% 돌려받습니다.";
 -- aub1 3
 		t["A0N7"][10][1] = "*공격시 마나를 1 회복합니다. 마나가 250이 됐을때 발동합니다.\r\
-*대상 주변 700범위의 넓은 지역에 수정을 퍼뜨립니다. 수정은 4초간 지속되며, 대상 범위 내의 적에게 초당 전체 체력의 2%의 |c00379BFF Magical Damage|r를 입힙니다.";
+*대상 주변 700범위의 넓은 지역에 수정을 퍼뜨립니다. 수정은 4초간 지속되며, 대상 범위 내의 적에게 초당 Maximum Health 2%의 |c00379BFF Magical Damage|r를 입힙니다.";
 -- atp1 2
 		t["A0N7"][11][1] = "월목부『새틀라이트 히마와리』";
 -- atp1 3
@@ -23161,13 +23161,13 @@ Effect : 0.5 seconds간 기절";
 -- atp1 2
 		t["A05T"][6][1] = "『네크로 판타지아』 - |c0000FFFFExtended|r";
 -- aub1 2
-		t["A05T"][7][1] = "공격시 대상의 경계를 노려 22%확률로 9배의 데미지를 입힐 수 있습니다. 위 확률과 관계없이 미션 보스나 스토리 보스 공격할때마다 90,000의 데미지를 입힙니다.";
+		t["A05T"][7][1] = "공격시 대상의 경계를 노려 22%확률로 9배의 데미지를 입힐 수 있습니다. 위 확률과 관계없이 미션 보스나 스토리 보스 공격할때마다 90,000데미지를 입힙니다.";
 -- [A05U]
 -- arac
 -- atp1 1
 		t["A05U"][2][1] = "정화의 신『이즈노메』";
 -- aub1 1
-		t["A05U"][3][1] = "*공격시 7% 확률로 정화의 신 이즈노메를 강림시켜 Around yourself 750범위의 적을 정화시킵니다. Current Health의 0.6% + 100,000의 |c00FF6464 Physical Damage|r를 입힙니다. \r\
+		t["A05U"][3][1] = "*공격시 7% 확률로 정화의 신 이즈노메를 강림시켜 Around yourself 750범위의 적을 정화시킵니다. Current Health의 0.6% + 100,000|c00FF6464 Physical Damage|r를 입힙니다. \r\
 *이 효과로 정화시킨적 하나당 요리히메의 마나를 0.3씩 회복합니다.";
 -- anam
 -- aart
@@ -23202,7 +23202,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A05U"][36][1] = "공격시 11% 확률로 자신의 Units 카운트가 40 이상일때만 발동합니다. 대상 주변 600범위에 (자신의 Units 카운트-40) * 40000의  Magical Damage를 입히고 1초간 스턴시킵니다.";
+		t["A05U"][36][1] = "공격시 11% 확률로 자신의 Units 카운트가 40 이상일때만 발동합니다. 대상 주변 600범위에 (자신의 Units 카운트-40) * 40000 Magical Damage를 입히고 1초간 스턴시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -23238,7 +23238,7 @@ Effect : 0.5 seconds간 기절";
 		t["A06G"][2][1] = "별의신『아마츠미카보시』";
 -- aub1 1
 		t["A06G"][3][1] = "*요리히메가 공격시 마나를 1씩 회복시킵니다.\r\
-*마나가 120이 됐을때 대상 800범위 지점을 별빛의 검기로 베어냅니다. 별빛의 검기로 베어진 적은 1.5 seconds간 스턴당하며 공격한 적의 전체 체력의 2.5% + 300,000의 |c00FF6464 Physical Damage|r를 입습니다. 별빛의 검기가 사라지고 난 후 3초 후에 후속타로 별빛을 폭발시켜 검기가 있던 위치에서 800범위에 있는 적들에게 150,000의 |c00FF6464 Physical Damage|r를 추가로 입힙니다.\r\
+*마나가 120이 됐을때 대상 800범위 지점을 별빛의 검기로 베어냅니다. 별빛의 검기로 베어진 적은 1.5 seconds간 스턴당하며 공격한 적의 Maximum Health 2.5% + 300,000|c00FF6464 Physical Damage|r를 입습니다. 별빛의 검기가 사라지고 난 후 3초 후에 후속타로 별빛을 폭발시켜 검기가 있던 위치에서 800범위에 있는 적들에게 150,000|c00FF6464 Physical Damage|r를 추가로 입힙니다.\r\
 *|c00C5EA53[Combination Synergy]|r신령을 받드는 몸\r\
 -Hakurei Reimu[Homing]을 보유하고 있을때, Watatsuki no Toyohime[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
 -- anam
@@ -23277,7 +23277,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 31
 -- aub1 2
 		t["A06G"][36][1] = "*요리히메가 공격시 마나를 1씩 회복합니다. 마나 165에 발동합니다.\r\
-*별의 신의 힘을 빌어 대상 지점의 모든 것을 베어버립니다. 대상 지점 주변 400범위내의 적에게 전체 체력의 4% + 550,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*별의 신의 힘을 빌어 대상 지점의 모든 것을 베어버립니다. 대상 지점 주변 400범위내의 적에게 Maximum Health 4% + 550,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *게임 오버까지의 카운트가 5개 이하라면 전체 체력 비례 데미지가 8%로 증가합니다.\r\
 *|c00C5EA53[Combination Synergy]|r신령을 받드는 몸\r\
 -Hakurei Reimu[Homing]을 보유하고 있을때, Watatsuki no Toyohime[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
@@ -23316,7 +23316,7 @@ Effect : 0.5 seconds간 기절";
 		t["A084"][2][1] = "『무명검』";
 -- aub1 1
 		t["A084"][3][1] = "*평소엔 아무런 힘이 없는 요리히메의 검이지만, 신령을 강림시켜 위력을 발휘합니다.\r\
-*요리히메가 공격시 10% 확률로 전방 900거리 200범위 내의 적에게 180,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*요리히메가 공격시 10% 확률로 전방 900거리 200범위 내의 적에게 180,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *요리히메가 공격시 25% 확률로 3.2배의 데미지를 입히고, 1초간 스턴시킵니다.";
 -- anam
 		t["A084"][4][1] = "[요리히메]무명검";
@@ -23468,7 +23468,7 @@ Effect : 0.5 seconds간 기절";
 -- [A059]
 -- aub1 1
 		t["A059"][1][1] = "＊Around yourself 600 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 475 범위의 적에게 50,000의 |c00379BFF마법 피해|r를 가하고 [2~3]초간 기절시키며 받는 마법 피해를 5% |c0000FFFF증폭|r시킵니다.";
+＊공격 시 10% 확률로 대상 주변 475 범위의 적에게 50,000|c00379BFF마법 피해|r를 가하고 [2~3]초간 기절시키며 받는 마법 피해를 5% |c0000FFFF증폭|r시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A059"][4][1] = "『무의식의 유전자』";
@@ -23570,8 +23570,8 @@ Effect : 0.5 seconds간 기절";
 -- atp1 31
 -- aub1 2
 		t["A059"][98][1] = "*주변 1000범위 적의 Movement Speed를 35% 감소시킵니다. \r\
-*코이시가 이변 보스 Units을 공격시 20% 확률로 25,000의 |c00379BFF Magical Damage|r를 추가로 입힙니다.\r\
-*코이시가 공격시 10% 확률로 대상 적에게 흐름의 기류를 발사합니다. 흐름의 기류는 최대 10마리까지 튕기며 100,000의 |c00379BFF Magical Damage|r를 입히고 튕길때마다 8%의 데미지가 증폭됩니다.";
+*코이시가 이변 보스 Units을 공격시 20% 확률로 25,000|c00379BFF Magical Damage|r를 추가로 입힙니다.\r\
+*코이시가 공격시 10% 확률로 대상 적에게 흐름의 기류를 발사합니다. 흐름의 기류는 최대 10마리까지 튕기며 100,000|c00379BFF Magical Damage|r를 입히고 튕길때마다 8%의 데미지가 증폭됩니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -23623,7 +23623,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 1
 		t["A0NB"][4][1] = "한부『링거링 콜드』";
 -- aub1 1
-		t["A0NB"][5][1] = "*|c00FF80FF[활력]|r - 7초 : 공격당한 대상 Units의 체력이 25% 이하라면, 즉사시킨 다음 대상 주변 450 범위의 적에게 전체 체력의 1% * [1.00 + 현재 라운드/100]의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0NB"][5][1] = "*|c00FF80FF[활력]|r - 7초 : 공격당한 대상 Units의 체력이 25% 이하라면, 즉사시킨 다음 대상 주변 450 범위의 적에게 Maximum Health 1% * [1.00 + 현재 라운드/100]의 |c00379BFF마법 피해|r를 가합니다.";
 -- areq
 		t["A0NB"][9][1] = "h07U";
 -- [A0NC]
@@ -23636,10 +23636,10 @@ Effect : 0.5 seconds간 기절";
 -- aub1 1
 		t["A0NC"][5][1] = "*쿄코가 공격시 마나를 1 회복합니다. 마나가 40일때 발동합니다.\r\
 *쿄코가 자신의 폐활량을 총동원해 전방에 엄청난 소리를 내지릅니다. 소리는 다음의 구성으로 |c00379BFF Magical Damage|r를 입힙니다.\r\
--호 : 전체 체력의 1.5% + 300,000의  Magical Damage를 입힙니다.\r\
--에 : 전체 체력의 0.5%에 해당하는  Magical Damage를 입힙니다.\r\
+-호 : Maximum Health 1.5% + 300,000 Magical Damage를 입힙니다.\r\
+-에 : Maximum Health 0.5%에 해당하는  Magical Damage를 입힙니다.\r\
 호는 처음의 한번만, 에는 랜덤으로 최대 10번까지 이어나옵니다. 마지막의 엥~!은 아무 효과가 없습니다\r\
-*발동시 30% 확률로 숨고르기에 실패해 콜록..콜록케켁..을 출력하며 전체 체력의 3% + 200,000의  True Damage를 입힙니다.";
+*발동시 30% 확률로 숨고르기에 실패해 콜록..콜록케켁..을 출력하며 Maximum Health 3% + 200,000 True Damage를 입힙니다.";
 -- [A0ND]
 -- aart
 		t["A0ND"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNDOTMasterTraining.blp";
@@ -23648,7 +23648,7 @@ Effect : 0.5 seconds간 기절";
 -- atp1 1
 -- aub1 1
 		t["A0ND"][5][1] = "*25 seconds마다 공격한 적을 하나 즉사시킵니다[보스에게는 적용되지 않습니다]\r\
-*공격시 20% 확률로 대상 라인 Units의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 Current Health의 3% + 35,000의 |c00379BFF Magical Damage|r를 입힙니다. [보스 Units에게는 30%의 데미지만 적용됩니다]\r\
+*공격시 20% 확률로 대상 라인 Units의 난이도 마법 방어력 보정을 한 단계 감소시킵니다. 추가로 적 Current Health의 3% + 35,000|c00379BFF Magical Damage|r를 입힙니다. [보스 Units에게는 30%의 데미지만 적용됩니다]\r\
 *보스 Units을 공격시 35% 확률로 잃은 체력의 1%에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.";
 -- [A0NE]
 -- arac
@@ -23804,15 +23804,15 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0NI"][3][1] = "발도『나생문』";
 -- aub1 1
 		t["A0NI"][4][1] = "*Kongara가 공격시 30% 확률로 대상 Units의 Current Health의 8%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-[보스의 경우 전체 체력의 0.4%+75,000의 추가  Physical Damage를 입힙니다]\r\
-*Kongara가 공격시 12% 확률로 칼을 빠르게 뽑아내어 대상 지점을 갈라버립니다. 지점 주변 600범위내에 있는 적에게 Current Health의 0.6% + 88,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+[보스의 경우 Maximum Health 0.4%+75,000추가  Physical Damage를 입힙니다]\r\
+*Kongara가 공격시 12% 확률로 칼을 빠르게 뽑아내어 대상 지점을 갈라버립니다. 지점 주변 600범위내에 있는 적에게 Current Health의 0.6% + 88,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- [A0NK]
 -- anam
 		t["A0NK"][2][1] = "[Kongara]";
 -- aart
 -- atp1 1
 -- aub1 1
-		t["A0NK"][5][1] = "*Kongara가 공격시 10% 확률로 대상 지점에 적이 눈치채지도 못할 정도로 빠른 검격을 날립니다. 대상 지점 주변 650범위 내에 있는 적에게 200,000의 |c00FF6464 Physical Damage|r를 입히고 마나를 4 회복합니다.\r\
+		t["A0NK"][5][1] = "*Kongara가 공격시 10% 확률로 대상 지점에 적이 눈치채지도 못할 정도로 빠른 검격을 날립니다. 대상 지점 주변 650범위 내에 있는 적에게 200,000|c00FF6464 Physical Damage|r를 입히고 마나를 4 회복합니다.\r\
 *Kongara가 공격시 25% 확률로 5배의 치명타를 입힙니다.";
 -- [A0NL]
 -- anam
@@ -24170,7 +24170,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0O0"][4][1] = "『Anarchy Bullet Hell』";
 -- aub1 1
 		t["A0O0"][5][1] = "*오키나가 공격시 마나를 1씩 쌓습니다. 마나가 130이 됐을때 발동합니다.\r\
-*대상 주변 7범위에서 별을 모아 폭발시킵니다. 대상 주변 750범위 내에 있는 적에게 잃은 체력의 10% + 450,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+*대상 주변 7범위에서 별을 모아 폭발시킵니다. 대상 주변 750범위 내에 있는 적에게 잃은 체력의 10% + 450,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- [A0O1]
 -- arac
 -- anam
@@ -24192,7 +24192,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- aub1 1
 		t["A0O2"][3][1] = "*사쿠야가 공격시 마나를 [1~3] 회복합니다. 마나가 150이 될 경우, 자신에게 시간 가속 버프를 적용합니다.\r\
 *시간 가속 버프는 9초간 지속되며, Duration 동안 사쿠야의 스킬이 발동할 확률이 5%p 증가합니다.\r\
-*시간 가속 버프의 Duration 동안 사쿠야가 공격시 10% 확률로 대상 전체 체력의 10%를 감소시키고, 감소시킨 체력의 15%에 해당하는 |c00FF6464 Physical Damage|r를 주변 400범위 적에게 입힙니다.\r\
+*시간 가속 버프의 Duration 동안 사쿠야가 공격시 10% 확률로 대상 Maximum Health 10%를 감소시키고, 감소시킨 체력의 15%에 해당하는 |c00FF6464 Physical Damage|r를 주변 400범위 적에게 입힙니다.\r\
 [보스에게는 단일 체력 감소 효과가 30%만 적용됩니다.]\r\
 *시간 가속 버프가 지속되는 동안 『타임스토퍼 사쿠야』 스킬로 순간이동 할 경우, 거리에 상관없이 기본 데미지를 맵 전체 Units에게 입힙니다.";
 -- anam
@@ -24266,7 +24266,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0O3"][4][1] = "*환상의 나라 블레퍼스크*";
 -- aub1 1
 		t["A0O3"][5][1] = "*신묘마루가 공격시 마나를 1 회복합니다.마나가 150이 됐을때 공격시 휘침검을 휘둘러 대상 적을 구체 안에 가둡니다. 1초마다 구체 내의 적을 1초간 스턴시킵니다.\r\
-*3초 후 휘침검을 휘둘러 구체 내에 있는 적을 베어냅니다. 적은 Current Health의 4.5% + 100,000의 |c00FF6464 Physical Damage|r를 입습니다.\r\
+*3초 후 휘침검을 휘둘러 구체 내에 있는 적을 베어냅니다. 적은 Current Health의 4.5% + 100,000|c00FF6464 Physical Damage|r를 입습니다.\r\
 *공격한 대상 Units은 즉사합니다.[보스 제외]";
 -- [A0O4]
 -- aart
@@ -24277,8 +24277,8 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0O4"][4][1] = "『리글킥』";
 -- aub1 1
 		t["A0O4"][5][1] = "＊기본 공격이 450 범위의 적에게 50% 분산 피해를 가합니다.\r\
-＊공격당한 적이 보스라면, 공격 시 60% 확률로 강력한 발차기를 날려 30,000의 |c00AC59FF절대 피해|r를 가하고 2초간 기절시킵니다.\r\
-＊공격 시 10% 확률로 궁극 리글킥을 날려 대상 주변 400 범위의 적에게 전체 체력 0.8% + 55,000의 |c00FF6464물리 피해|r를 가합니다.";
+＊공격당한 적이 보스라면, 공격 시 60% 확률로 강력한 발차기를 날려 30,000|c00AC59FF절대 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 10% 확률로 궁극 리글킥을 날려 대상 주변 400 범위의 적에게 전체 체력 0.8% + 55,000|c00FF6464물리 피해|r를 가합니다.";
 -- [A0O5]
 -- arac
 -- anam
@@ -24336,14 +24336,14 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0O8"][2][1] = "『백식관음』";
 -- aub1 1
 		t["A0O8"][3][1] = "*공격시 8% 확률로 보이지 않을 정도로 빠른 속도로 합장을 한 뒤 대상을 공격합니다.\r\
-*대상 Units의 Current Health의 0.4% + 100,000의 |c00AC59FF True Damage|r를 대상 주변 500범위에 입히고, 1.5 seconds간 스턴시킵니다. ";
+*대상 Units의 Current Health의 0.4% + 100,000|c00AC59FF True Damage|r를 대상 주변 500범위에 입히고, 1.5 seconds간 스턴시킵니다. ";
 -- anam
 -- aart
 		t["A0O8"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNImprovedStrengthOfTheWild.blp";
 -- atp1 2
 -- aub1 2
 		t["A0O8"][8][1] = "*공격시 8% 확률로 보이지 않을 정도로 빠른 속도로 합장을 한 뒤 대상을 공격합니다.\r\
-*대상 Units의 전체 체력의 0.4% + 100,000의 |c00AC59FF True Damage|r를 대상 주변 500범위에 입히고, 1.5 seconds간 스턴시킵니다. ";
+*대상 Units의 Maximum Health 0.4% + 100,000|c00AC59FF True Damage|r를 대상 주변 500범위에 입히고, 1.5 seconds간 스턴시킵니다. ";
 -- abuf 1
 		t["A0O8"][9][1] = "Bwea";
 -- atar 2
@@ -24358,7 +24358,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0OA"][3][1] = "금부『제행무상의 고토소리』";
 -- aub1 1
 		t["A0OA"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
+|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
 ＊공격 시 15% 확률로 3초 동안 소리를 탄막으로 소환한다.\r\
 -공격력(|c00FF6464물리|r) : 3,0005천\r\
 -Attack Speed : 0.4 Cooldown";
@@ -24373,8 +24373,8 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- atp1 1
 -- aub1 1
 		t["A0OB"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
-＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 5,000의 |c00FF6464물리 피해|r를 가한다.";
+|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
+＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 5,000|c00FF6464물리 피해|r를 가한다.";
 -- anam
 -- aart
 -- atp1 2
@@ -24471,8 +24471,8 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A06K"][3][1] = "포효『만월의 울부짖음』";
 -- aub1 1
 		t["A06K"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
-＊공격 시 20% 확률로 포효하여 Around yourself 400 범위의 적에게 3,000의 |c00FF6464물리 피해|r를 가한다.";
+|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
+＊공격 시 20% 확률로 포효하여 Around yourself 400 범위의 적에게 3,000|c00FF6464물리 피해|r를 가한다.";
 -- anam
 -- aart
 -- atp1 2
@@ -24494,7 +24494,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A093"][2][1] = "『아돌 영식』";
 -- aub1 1
 		t["A093"][3][1] = "*Around yourself 1000범위 아군의 Attack Speed를 25% 증가시킵니다.\r\
-*공격시 18% 확률로 대상 주변 400범위 적에게 185,000의 |c00AC59FF True Damage|r를 입히고, 1.5 seconds의 스턴을 입힙니다.";
+*공격시 18% 확률로 대상 주변 400범위 적에게 185,000|c00AC59FF True Damage|r를 입히고, 1.5 seconds의 스턴을 입힙니다.";
 -- anam
 -- atar 1
 		t["A093"][5][1] = "air,friend,ground,invulnerable,self,vulnerable";
@@ -24788,7 +24788,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- atp1 2
 -- aub1 2
-		t["A092"][8][1] = "Phantom Ensemble 주변 650범위 적군의 방어력을 14% 감소시킵니다. 공격시 10% 확률로 Around yourself 650범위에 12,000의  True Damage를 입힙니다.";
+		t["A092"][8][1] = "Phantom Ensemble 주변 650범위 적군의 방어력을 14% 감소시킵니다. 공격시 10% 확률로 Around yourself 650범위에 12,000 True Damage를 입힙니다.";
 -- abuf 1
 -- atar 2
 -- abuf 2
@@ -24800,7 +24800,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0OI"][3][1] = "『라스트 저지먼트』";
 -- aub1 1
-		t["A0OI"][4][1] = "*시키에이키가 공격시 10% 확률로 대상 지점에 심판의 빛을 내립니다. 450범위에 전체 체력의 0.5% + 250,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0OI"][4][1] = "*시키에이키가 공격시 10% 확률로 대상 지점에 심판의 빛을 내립니다. 450범위에 Maximum Health 0.5% + 250,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *발동시 마나가 4 회복됩니다.";
 -- aart
 -- atp1 2
@@ -24902,7 +24902,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 50
 		t["A0OI"][54][1] = "『라스트 저지먼트』- 카르마 50";
 -- aub1 2
-		t["A0OI"][55][1] = "*시키에이키가 공격시 8% 확률로 대상 지점에 심판의 빛을 내립니다. '대상 적의 전체 체력의' 1.4% + 210,000의  Magical Damage를 입히고, 3초간 65%의 슬로우 효과를 입힙니다.『라스트 저지먼트』가 발동할 경우 시키에이키의 마나가 10 회복됩니다.";
+		t["A0OI"][55][1] = "*시키에이키가 공격시 8% 확률로 대상 지점에 심판의 빛을 내립니다. '대상 적의 Maximum Health' 1.4% + 210,000 Magical Damage를 입히고, 3초간 65%의 슬로우 효과를 입힙니다.『라스트 저지먼트』가 발동할 경우 시키에이키의 마나가 10 회복됩니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -24959,7 +24959,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 -- aub1 1
 		t["A0OJ"][4][1] = "*시키에이키가 공격시 마나를 1씩 회복합니다. 마나가 80이 됐을때 공격하는 대상 적의 생전의 업을 심판합니다.\r\
-*대상 Units의 잃은 체력의 4% + 200,000의 |c00379BFF Magical Damage|r를 대상 주변 400범위에 입힙니다.\r\
+*대상 Units의 잃은 체력의 4% + 200,000|c00379BFF Magical Damage|r를 대상 주변 400범위에 입힙니다.\r\
 *위 효과 발동시『라스트 저지먼트』가 발동합니다.\r\
 *|c00FF80FF[활력]|r - 12초\r\
 대상 Units 1기를 즉사시킵니다.[보스 제외], 시키에이키의 마나를 30% 회복시킵니다.";
@@ -25069,7 +25069,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0OK"][3][1] = "불운『어서오세요 극빈의 세계에』";
 -- aub1 1
-		t["A0OK"][4][1] = "*죠온이 공격시 7% 확률로 대상 지점에 강한 주먹을 날려 대상 범위 350내의 적에게 Current Health의 0.4% + 205,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0OK"][4][1] = "*죠온이 공격시 7% 확률로 대상 지점에 강한 주먹을 날려 대상 범위 350내의 적에게 Current Health의 0.4% + 205,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 \r\
 *시온이 공격시 10% 확률로 대상 지점에 빈곤의 기운을 해방시켜 대상 주변 350범위내의 적에게 잃은 체력의 0.8% + 225,000 Physical Damage를 입힙니다.";
 -- aart
@@ -25124,7 +25124,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 49
 -- atp1 50
 -- aub1 2
-		t["A0OK"][55][1] = "*시온이 공격시 10% 확률로 대상 지점에 빈곤의 기운을 해방시켜 전체 체력의 0.4% + 225,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0OK"][55][1] = "*시온이 공격시 10% 확률로 대상 지점에 빈곤의 기운을 해방시켜 Maximum Health 0.4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *10 골드를 소모합니다.\r\
 *100~3000 골드를 가졌다면, 전체 체력 0.6%로 강화됩니다.";
 -- aub1 3
@@ -25195,7 +25195,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A0OM]
 -- aub1 1
 		t["A0OM"][1][1] = "*유유코 주변 650범위 내에 있는 아군의 Attack Speed를 14% 상승시킵니다.[다른 Attack Speed와 중첩 가능]\r\
-*유유코가 공격시 10% 확률로 대상 지점에 벚꽃잎을 퍼뜨려 450범위 내에 있는 적에게 Current Health의 0.3% + 60,000의 |c00AC59FF True Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.";
+*유유코가 공격시 10% 확률로 대상 지점에 벚꽃잎을 퍼뜨려 450범위 내에 있는 적에게 Current Health의 0.3% + 60,000|c00AC59FF True Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.";
 -- atar 1
 		t["A0OM"][2][1] = "invulnerable,self,notself,friend,player";
 -- atat
@@ -25336,7 +25336,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0ON"][4][1] = "영접『나비 날개바람 삶에 잠시』";
 -- aub1 1
-		t["A0ON"][5][1] = "*유유코가 공격시 마나를 1씩 쌓습니다. 마나가 115가 됐을때, 자신의 부채를 휘둘러 주변 650범위 적에게 전체 체력의 3%의 |c00AC59FF True Damage|r를 입힙니다.";
+		t["A0ON"][5][1] = "*유유코가 공격시 마나를 1씩 쌓습니다. 마나가 115가 됐을때, 자신의 부채를 휘둘러 주변 650범위 적에게 Maximum Health 3%의 |c00AC59FF True Damage|r를 입힙니다.";
 -- atar 1
 -- aart
 		t["A0ON"][8][1] = "BLP\\Butterfly.blp";
@@ -25416,7 +25416,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 2
 		t["A0OQ"][35][1] = "*주변 850범위 내에 있는 아군의 마나를 초당 1씩 회복시킵니다.\r\
 *마리사는 기본적으로 공중 이동이 가능합니다.\r\
-*마리사가 스킬을 발동할때마다 팔괘로에 마력을 충전합니다. 마리사가 공격할시 팔괘로 내에 마력이 10회 충전되어 있다면 마력을 해방시켜 자신의 전방 1500거리 350범위에 250,000의  Magical Damage를 입히는 『마스터 스파크』를 발사합니다.";
+*마리사가 스킬을 발동할때마다 팔괘로에 마력을 충전합니다. 마리사가 공격할시 팔괘로 내에 마력이 10회 충전되어 있다면 마력을 해방시켜 자신의 전방 1500거리 350범위에 250,000 Magical Damage를 입히는 『마스터 스파크』를 발사합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -25563,13 +25563,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0OS"][2][1] = "봉부『비지 로드』";
 -- aub1 1
 		t["A0OS"][3][1] = "*Nazrin 주변 700범위 적의 방어력을 18 감소시킵니다.\r\
-*Nazrin이 공격시 40% 확률로 55,000의 |c00FF6464 Physical Damage|r를 추가로 입히고, 2.4초간 스턴시킵니다.\r\
-[보스의 경우 전체 체력의 0.25%에 해당하는 |c00AC59FF True Damage|r가 추가됩니다. 50라운드 이후에는 적용되지 않습니다.]\r\
+*Nazrin이 공격시 40% 확률로 55,000|c00FF6464 Physical Damage|r를 추가로 입히고, 2.4초간 스턴시킵니다.\r\
+[보스의 경우 Maximum Health 0.25%에 해당하는 |c00AC59FF True Damage|r가 추가됩니다. 50라운드 이후에는 적용되지 않습니다.]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 수부『펜듈럼 가드』\r\
 \r\
 *평타 공격시 300범위에 100% 범위 데미지를 입힙니다.\r\
-*공격시 15% 확률로 펜듈럼을 공명시켜 주변 600범위 적에게 45,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*공격시 15% 확률로 펜듈럼을 공명시켜 주변 600범위 적에게 45,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 		t["A0OS"][4][1] = "[Arcana][Nazrin]";
 -- aart
@@ -25577,7 +25577,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0OS"][7][1] = "역전『체인지 에어 브레이브』";
 -- aub1 2
 		t["A0OS"][8][1] = "*세이자가 공격시 마나를 1씩 회복합니다.세이자의 마나가 99가 됐을때, 아래 효과를 발동합니다.[세이자는 마나 회복 효과를 받지 않습니다]\r\
-*Around yourself 1200범위의 적 Units의 기본 Movement Speed를 250으로 고정시킵니다. 전체 체력의 1.5% + 185,000의  True Damage를 입히고, 역습의 길 레벨에 따라서 적 Units 1기당 아래의 마나를 회복합니다. \r\
+*Around yourself 1200범위의 적 Units의 기본 Movement Speed를 250으로 고정시킵니다. Maximum Health 1.5% + 185,000 True Damage를 입히고, 역습의 길 레벨에 따라서 적 Units 1기당 아래의 마나를 회복합니다. \r\
 『반역자』 : 마나 0.5 회복 \r\
 『선구자』 : 마나 0.75 회복\r\
 『계몽가』 : 마나 1 회복\r\
@@ -25651,8 +25651,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 2
 		t["A0OY"][10][1] = "|c00FF00FF형식:|r 디버프\r\
 |c00FF00FF발동 확률:|r 상시\r\
-|c00FF00FF데미지 타입:|r 없음\r\
-|c00FF00FF데미지:|r 없음\r\
+|c00FF00FF데미지 타입:|r None\r\
+|c00FF00FF데미지:|r None\r\
 |c00FF00FF효과:|r 주변 900범위 적의 방어력 36 감소\r\
 |c00FF00FF설명:|r 메디슨이 주변 적에게 신경독을 주입해 방어력을 감소시킵니다.";
 -- atar 2
@@ -25669,7 +25669,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0OZ"][6][1] = "*Seiran 주변 1100범위 적의 방어력을 25 감소시킵니다.\r\
 *Seiran의 공격은 대상 주변 350범위의 스플래쉬 데미지로 적용됩니다.\r\
-*Seiran이 공격시 마나를 2 회복합니다. 마나가 50이 됐을때, 전방의 적을 관통하는 탄알을 발사하여 보스 이외의 적에게 Current Health의 3% Physical Damage + 200,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+*Seiran이 공격시 마나를 2 회복합니다. 마나가 50이 됐을때, 전방의 적을 관통하는 탄알을 발사하여 보스 이외의 적에게 Current Health의 3% Physical Damage + 200,000|c00AC59FF True Damage|r를 입힙니다.\r\
 [보스 공격시에는 1의 마나가 회복됩니다.]";
 -- abuf 1
 		t["A0OZ"][8][1] = "B053";
@@ -25973,7 +25973,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 100
 -- aub1 2
 		t["A0OZ"][306][1] = "*Around yourself 800범위 적의 방어력을 15 감소시킵니다.\r\
-*공격시 20% 확률로 대상 Units 1기를 3초간 스턴시키고, 65,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*공격시 20% 확률로 대상 Units 1기를 3초간 스턴시키고, 65,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 |c00FFFF00구상자 : 화유월|r";
 -- aub1 3
 -- aub1 4
@@ -26083,7 +26083,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0P0"][5][1] = "대륙탄도탄『ICBM 미미쨩』";
 -- aub1 1
-		t["A0P0"][6][1] = "*유메미가 공격시 10% 확률로 ICBM 미미쨩을 폭발시킵니다. 폭발의 여파로 대상 지점 주변 600범위 적에게 120,000의 |c00FF6464 Physical Damage|r를 입히고 2초간 스턴시킵니다.\r\
+		t["A0P0"][6][1] = "*유메미가 공격시 10% 확률로 ICBM 미미쨩을 폭발시킵니다. 폭발의 여파로 대상 지점 주변 600범위 적에게 120,000|c00FF6464 Physical Damage|r를 입히고 2초간 스턴시킵니다.\r\
 *300범위의 스플래쉬 평타";
 -- abuf 1
 		t["A0P0"][8][1] = "B054";
@@ -26500,9 +26500,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["S00J"][3][1] = "『곳쿠리씨의 계약』";
 -- aub1 1
 		t["S00J"][4][1] = "*플레이어 번호에 따라 이 스킬의 효과가 바뀝니다.\r\
-[플레이어 1] : 속박의 여우의 힘을 빌립니다. 공격시 10% 확률로 대상 주변 500범위 적을 3초간 스턴시키고, 80,000의  Magical Damage를 입힙니다.\r\
+[플레이어 1] : 속박의 여우의 힘을 빌립니다. 공격시 10% 확률로 대상 주변 500범위 적을 3초간 스턴시키고, 80,000 Magical Damage를 입힙니다.\r\
 [플레이어 2] : 자비의 여우의 힘을 빌립니다. 공격시 10% 확률로 Around yourself 800범위 아군의 마나를 4% 회복시킵니다.\r\
-[플레이어 3] : 파괴의 여우의 힘을 빌립니다. 공격시 10% 확률로 대상 주변 400범위 적에게 전체 체력의 0.2% + 100,000의  True Damage를 입힙니다.\r\
+[플레이어 3] : 파괴의 여우의 힘을 빌립니다. 공격시 10% 확률로 대상 주변 400범위 적에게 Maximum Health 0.2% + 100,000 True Damage를 입힙니다.\r\
 [플레이어 4] : 풍작의 여우의 힘을 빌립니다. 공격시 0.6% 확률로 대상 Units을 즉사시키고, 목재 1을 획득합니다. ";
 -- anam
 		t["S00J"][5][1] = "[Arcana][란]곳쿠리";
@@ -26567,7 +26567,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0P2"][3][1] = "『7인의 잇슨보시』";
 -- aub1 1
-		t["A0P2"][4][1] = "*신묘마루가 공격시 10% 확률로 대상 Units에게 225,000의 |c00FF6464 Physical Damage|r를 입히고 2초간 스턴시킵니다.\r\
+		t["A0P2"][4][1] = "*신묘마루가 공격시 10% 확률로 대상 Units에게 225,000|c00FF6464 Physical Damage|r를 입히고 2초간 스턴시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『요술망치』\r\
 *신묘마루의 평타 공격은 대상 주변 450범위의 범위 데미지로 적용됩니다.";
@@ -26609,12 +26609,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0P4"][5][1] = "상혼『소울 스컬쳐』";
 -- aub1 1
 		t["A0P4"][6][1] = "*사쿠야 주변 1000범위 적의 방어력을 30 감소시킵니다.\r\
-*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 Units에게 Current Health의 15%에 해당하는 |c00FF6464 Physical Damage|r를 3번 입히고[보스 Units에게는 10%의 데미지만 입힙니다.], 대상 Units 주변 400범위 적에게 Current Health의 0.4% + 225,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 Units에게 Current Health의 15%에 해당하는 |c00FF6464 Physical Damage|r를 3번 입히고[보스 Units에게는 10%의 데미지만 입힙니다.], 대상 Units 주변 400범위 적에게 Current Health의 0.4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- abuf 1
 -- atp1 2
 -- aub1 2
 		t["A0P4"][10][1] = "*사쿠야 주변 1000범위 적의 방어력을 40 감소시킵니다.\r\
-*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 Units에게 Current Health의 15%에 해당하는 |c00FF6464 Physical Damage|r를 3번 입히고[보스 Units에게는 10%의 데미지만 입힙니다.], 대상 Units 주변 400범위 적에게 Current Health의 0.4% + 225,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*사쿠야가 공격시 마나를 5씩 회복합니다. 사쿠야의 마나가 200이 됐을때 대상 Units에게 Current Health의 15%에 해당하는 |c00FF6464 Physical Damage|r를 3번 입히고[보스 Units에게는 10%의 데미지만 입힙니다.], 대상 Units 주변 400범위 적에게 Current Health의 0.4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- atar 2
 -- abuf 2
 -- acat
@@ -26625,12 +26625,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- aub1 1
 		t["A0P5"][4][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
 -- atp1 2
 		t["A0P5"][5][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 10%";
 -- aub1 2
 		t["A0P5"][6][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 10% 확률로 기묘한 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- atp1 3
 		t["A0P5"][7][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 15%";
@@ -26640,21 +26640,21 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0P5"][9][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 25%";
 -- aub1 3
 		t["A0P5"][10][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 15% 확률로 피버한 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- aub1 4
 		t["A0P5"][11][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 20% 확률로 미친 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- aub1 5
 		t["A0P5"][12][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 25% 확률로 죽이는 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- atp1 6
 		t["A0P5"][13][1] = "죽부『뱀부 크레이지 댄스』- 텐구 겁주기 30%";
 -- aub1 6
 		t["A0P5"][14][1] = "＊공격당한 대상이 보스라면, 마이의 Attack Speed가 100% 증가합니다.\r\
-＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 25% 확률로 대상에게 Current Health 3%(보스 0.5%) + 50,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.\r\
 ＊공격 시 30% 확률로 광기의 춤을 춰 대상 주변 500 범위의 적을 2.5 seconds간 기절시킵니다.";
 -- [A0P6]
 -- anam
@@ -26680,7 +26680,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0P7"][5][1] = "『마력 흡수』";
 -- aub1 1
-		t["A0P7"][6][1] = "*Shinki가 공격시 10% 확률로 Around yourself 650범위 내에 있는 적을 1.8 seconds간 스턴시키고 75,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0P7"][6][1] = "*Shinki가 공격시 10% 확률로 Around yourself 650범위 내에 있는 적을 1.8 seconds간 스턴시키고 75,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *Shinki 주변 1000범위 내에 있는 적의 방어력을 24 감소시킵니다.";
 -- abuf 1
 -- atp1 2
@@ -26782,7 +26782,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0PB"][1][1] = "*하타테 주변 800범위 적의 Movement Speed를 35% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
-하타테가 텐마의 힘을 각성하여 시간을 제어합니다. Around yourself 800범위 적에게 Current Health의 1.5% + 120,000의 |c00379BFF Magical Damage|r를 입히고 폭풍의 인장을 2개 쌓습니다.";
+하타테가 텐마의 힘을 각성하여 시간을 제어합니다. Around yourself 800범위 적에게 Current Health의 1.5% + 120,000|c00379BFF Magical Damage|r를 입히고 폭풍의 인장을 2개 쌓습니다.";
 -- atar 1
 -- atp1 1
 		t["A0PB"][4][1] = "텐구비술『천각시제어』";
@@ -26948,7 +26948,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0PD"][3][1] = "기부『맹호내경』";
 -- aub1 1
 		t["A0PD"][4][1] = "*기본적으로 주변 750범위 내에 있는 적의 방어력을 20 감소시킵니다.\r\
-*메이링이 공격시 12% 확률로 몸의 기를 폭발시켜 Around yourself 550범위 내에 있는 적에게 잃은 체력의 0.8% + 75,000의 |c00FF6464 Physical Damage|r를 주고 2초간 스턴시킵니다.\r\
+*메이링이 공격시 12% 확률로 몸의 기를 폭발시켜 Around yourself 550범위 내에 있는 적에게 잃은 체력의 0.8% + 75,000|c00FF6464 Physical Damage|r를 주고 2초간 스턴시킵니다.\r\
 |c00FF712D[허영갑주]|r + 2";
 -- anam
 		t["A0PD"][5][1] = "[Arcana][홍메이링]";
@@ -27051,7 +27051,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0PI"][5][1] = "귀성『괴멸의 포효』";
 -- aub1 1
 		t["A0PI"][6][1] = "*기본적으로 유기 주변 1000범위 적의 방어력을 30% 감소시킵니다.\r\
-*유기가 공격시 8% 확률로 큰 함성을 지릅니다. Around yourself 750범위의 적에게 200,000의 |c00FF6464 Physical Damage|r를 입힙니다. 추가로 Around yourself 1000범위 아군의 공격력을 5 seconds간 75% 상승시킵니다.\r\
+*유기가 공격시 8% 확률로 큰 함성을 지릅니다. Around yourself 750범위의 적에게 200,000|c00FF6464 Physical Damage|r를 입힙니다. 추가로 Around yourself 1000범위 아군의 공격력을 5 seconds간 75% 상승시킵니다.\r\
 *유기의 평타 공격은 355범위에 140%의 데미지를 입힙니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 귀부『귀기광란』\r\
@@ -27069,7 +27069,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0PJ"][1][1] = "수부『Kappa의 환상대폭포』";
 -- aub1 1
-		t["A0PJ"][2][1] = "*공격시 10% 확률로 대상 지점에 물폭탄을 던져 500범위 적에게 145,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0PJ"][2][1] = "*공격시 10% 확률로 대상 지점에 물폭탄을 던져 500범위 적에게 145,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *니토리 주변 1000범위 아군 Units의 마나를 초당 4씩 회복시킵니다.\r\
 *|c00FF80FF[활력]|r - 10 seconds\r\
 대상 Units의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
@@ -27081,7 +27081,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0PJ"][7][1] = "B05F";
 -- atp1 2
 -- aub1 2
-		t["A0PJ"][9][1] = "*공격시 10% 확률로 대상 지점에 물폭탄을 던져 500범위 적에게 145,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0PJ"][9][1] = "*공격시 10% 확률로 대상 지점에 물폭탄을 던져 500범위 적에게 145,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *맵 전체 아군 Units의 마나를 초당 6씩 회복시킵니다.\r\
 *|c00FF80FF[활력]|r - 10 seconds\r\
 대상 Units의 엉덩이에서 시리코다마를 뽑아내 즉사시킵니다.[보스 제외]";
@@ -27093,7 +27093,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0PK"][2][1] = "＊사토노 주변 750 범위의 아군 마력을 초당 1 회복시킵니다.\r\
 ＊공격 시 15% 확률로 죽이는 춤을 춰 대상 주변 700 범위의 적을 2.5 seconds간 기절시킵니다.\r\
-＊|c00FF80FF[활력]|r - 6초 : 대상 후방에 탄막 20발을 흩뿌려 탄막에 닿은 적에게 15,000의 |c00379BFF마법 피해|r를 가합니다.";
+＊|c00FF80FF[활력]|r - 6초 : 대상 후방에 탄막 20발을 흩뿌려 탄막에 닿은 적에게 15,000|c00379BFF마법 피해|r를 가합니다.";
 -- anam
 -- aart
 		t["A0PK"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNWellSpring.blp";
@@ -27114,14 +27114,14 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 3
 		t["A0PK"][16][1] = "＊사토노 주변 750 범위의 아군 마력을 초당 2.2 회복시킵니다.\r\
 ＊공격 시 15% 확률로 죽이는 춤을 춰 대상 주변 700 범위의 적을 2.5 seconds간 기절시킵니다.\r\
-＊|c00FF80FF[활력]|r - 6초 : 대상 후방에 탄막 20발을 흩뿌려 탄막에 닿은 적에게 15,000의 |c00379BFF마법 피해|r를 가합니다.";
+＊|c00FF80FF[활력]|r - 6초 : 대상 후방에 탄막 20발을 흩뿌려 탄막에 닿은 적에게 15,000|c00379BFF마법 피해|r를 가합니다.";
 -- [A0PL]
 -- arac
 -- atp1 1
 		t["A0PL"][2][1] = "『젤러시 봄버』";
 -- aub1 1
 		t["A0PL"][3][1] = "*파르시 주변 650범위 아군의 Attack Speed를 14% 상승시킵니다.\r\
-*파르시가 공격시 10% 확률로 대상 주변 650범위에 있는 적에게 120,000의 |c00379BFF Magical Damage|r를 입히고 1초간 스턴시킵니다.";
+*파르시가 공격시 10% 확률로 대상 주변 650범위에 있는 적에게 120,000|c00379BFF Magical Damage|r를 입히고 1초간 스턴시킵니다.";
 -- anam
 -- atar 1
 -- abuf 1
@@ -27170,7 +27170,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["S00N"][3][1] = "*기본적으로 Around yourself 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
-시온의 위치에 빈곤의 기운을 퍼뜨려 Around yourself 700범위 내에 있는 적에게 80,000의 |c00AC59FF True Damage|r와 160,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+시온의 위치에 빈곤의 기운을 퍼뜨려 Around yourself 700범위 내에 있는 적에게 80,000|c00AC59FF True Damage|r와 160,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 |c00FF712D[허영갑주]|r + 4";
 -- anam
 -- abuf 1
@@ -27182,7 +27182,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 2
 		t["S00N"][10][1] = "*기본적으로 Around yourself 700범위 적의 Movement Speed를 40% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
-시온의 위치에 빈곤의 기운을 퍼뜨려 Around yourself 700범위 내에 있는 적에게 200,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+시온의 위치에 빈곤의 기운을 퍼뜨려 Around yourself 700범위 내에 있는 적에게 200,000|c00AC59FF True Damage|r를 입힙니다.\r\
 *100~3000 골드를 가졌다면, 허영갑주가 6으로 강화됩니다.\r\
 |c00FF712D[허영갑주]|r + 4";
 -- abuf 2
@@ -27209,7 +27209,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["S00P"][3][1] = "『혐오스러운 자의 필로소피』";
 -- aub1 1
 		t["S00P"][4][1] = "*코이시 주변 1000범위 적의 Movement Speed를 40% 감소시킵니다.\r\
-*코이시가 공격시 10% 확률로 Around yourself 700범위 적에게 Current Health의 1% + 105,000의 |c00379BFF Magical Damage|r를 입히고, 받는 마법 피해를 15.14% 증폭시킵니다.";
+*코이시가 공격시 10% 확률로 Around yourself 700범위 적에게 Current Health의 1% + 105,000|c00379BFF Magical Damage|r를 입히고, 받는 마법 피해를 15.14% 증폭시킵니다.";
 -- anam
 -- abuf 1
 		t["S00P"][6][1] = "B05L";
@@ -27245,7 +27245,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0PQ"][3][1] = "*기본적으로 죠온 주변 1000범위 적의 방어력을 35 감소시킵니다.\r\
 *죠온이 공격시 20% 확률로 적의 혼을 빼놓을만큼 강력한 타격을 가해 적의 육체와 혼을 분리시킵니다. 적의 체력을 절반 감소시키며, 적의 체력이 60% 이하일때는 발동하지 않습니다.\r\
-*보스의 체력은 감소시키지 않고 Current Health의 1.2% + 125,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*보스의 체력은 감소시키지 않고 Current Health의 1.2% + 125,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 -- aart
 		t["A0PQ"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNRingPurple.blp";
@@ -27281,7 +27281,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0PU"][2][1] = "Q.E.D『495년의 파문』";
 -- aub1 1
 		t["A0PU"][3][1] = "*기본적으로 플랑드르 주변 800범위 Units의 Movement Speed를 10% 감소시킵니다.\r\
-*플랑드르가 공격시 1% 확률로 모든 살의와 공포를 담아 대상 지점에 해방시킵니다. 대상 지점 주변 500범위 적에게 전체 체력의 10%에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*플랑드르가 공격시 1% 확률로 모든 살의와 공포를 담아 대상 지점에 해방시킵니다. 대상 지점 주변 500범위 적에게 Maximum Health 10%에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
 *플랑드르의 체력이 낮을수록 데미지가 증가하며, 최대 2배까지 증가합니다. 이 효과 발동시 체력을 모두 회복합니다.\r\
 *내부 Cooldown 4초";
 -- anam
@@ -27353,14 +27353,14 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 -- aub1 1
 		t["A0PX"][3][1] = "＊Around yourself 900 범위의 적 방어력을 30 감소시킵니다.\r\
-＊|c002C62EA[[Mana]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 전체 체력 2.5% + 275,000의 |c00FF6464물리 피해|r를 가하고 5 seconds간 Movement Speed를 80% 감소시키며, 1.5 seconds간 기절시킨다.";
+＊|c002C62EA[[Mana]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 전체 체력 2.5% + 275,000|c00FF6464물리 피해|r를 가하고 5 seconds간 Movement Speed를 80% 감소시키며, 1.5 seconds간 기절시킨다.";
 -- anam
 -- aart
 -- atp1 2
 		t["A0PX"][7][1] = "암부『디머케이션』- 어둠 분신";
 -- aub1 2
 		t["A0PX"][8][1] = "*기본적으로 Rumia 주변 900범위 내에 있는 적의 방어력을 15 감소시킵니다.\r\
-*Rumia가 공격시 마나를 1씩 회복합니다. 마나가 140이 됐을때, 대상 지점에 거대한 어둠의 구체를 만들어 폭발시킵니다. 구체 주변 600범위 내에 있는 적에게 5 seconds간 80%의 Movement Speed 감소 효과를 입히고, 1.5 seconds간 기절시키며 전체 체력의 2.5% + 275,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*Rumia가 공격시 마나를 1씩 회복합니다. 마나가 140이 됐을때, 대상 지점에 거대한 어둠의 구체를 만들어 폭발시킵니다. 구체 주변 600범위 내에 있는 적에게 5 seconds간 80%의 Movement Speed 감소 효과를 입히고, 1.5 seconds간 기절시키며 Maximum Health 2.5% + 275,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- abuf 1
 		t["A0PX"][9][1] = "B05N";
 -- atar 2
@@ -27374,7 +27374,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["S00Q"][3][1] = "대기적『야사카의 신풍』";
 -- aub1 1
 		t["S00Q"][4][1] = "*Sa Nae 주변 800범위 아군의 Attack Speed를 12% 증가시킵니다.\r\
-*Sa Nae가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 Around yourself에 신의 바람을 재현해냅니다. Around yourself 1500범위 적에게 8 seconds 동안 매 2초마다 1.5 seconds의 스턴을 입히고, Current Health의 1% + 전체 체력의 0.5% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*Sa Nae가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 Around yourself에 신의 바람을 재현해냅니다. Around yourself 1500범위 적에게 8 seconds 동안 매 2초마다 1.5 seconds의 스턴을 입히고, Current Health의 1% + Maximum Health 0.5% + 100,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *|c00C5EA53[Combination Synergy]|r미라클 프로그\r\
 -Suwako Moriya[Chronicle]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
 -- anam
@@ -27435,12 +27435,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0PZ"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNBearForm.blp";
 -- anam
 -- atp1 1
-		t["A0PZ"][5][1] = "야부『문 스틸니스』";
+		t["A0PZ"][5][1] = "Moonlight 『Moon Stillness』";
 -- aub1 1
-		t["A0PZ"][6][1] = "＊Around yourself 500 범위의 적 방어력을 5 감소시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 방어력 감소와 중첩되지 않습니다.\r\
+		t["A0PZ"][6][1] = "＊Defense -5 in a 500 AoE.\r\
+|c00ff2222[!]Limit|r : Does not stack with Defense Reduction of Unique and below units.\r\
 \r\
-|c00959595소리를 지우는 정도의 능력!|r";
+|c00959595Ability to erase sound!|r";
 -- abuf 1
 -- atp1 2
 		t["A0PZ"][9][1] = "『차원분할의 눈』";
@@ -27661,11 +27661,11 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0Q6"][3][1] = "『황금의 검 지팡구』";
 -- aart
 -- aub1 1
-		t["A0Q6"][5][1] = "*공격시 10% 확률로 자신이 과거에 모아두었던 무기를 꺼내 적의 위치에 투척합니다. 무기가 꽂힌 지점 450범위에 적 Current Health의 0.6% + 145,000의 |c00FF6464 Physical Damage|r를 입히고 마나를 2 회복합니다.\r\
+		t["A0Q6"][5][1] = "*공격시 10% 확률로 자신이 과거에 모아두었던 무기를 꺼내 적의 위치에 투척합니다. 무기가 꽂힌 지점 450범위에 적 Current Health의 0.6% + 145,000|c00FF6464 Physical Damage|r를 입히고 마나를 2 회복합니다.\r\
 *[보스 및 미션 Units]을 공격시 20% 확률로 3배의 치명타와 2초의 스턴을 입힙니다.";
 -- abuf 1
 -- aub1 2
-		t["A0Q6"][7][1] = "*미코가 공격시 10% 확률로 대상 위치에 별을 떨어뜨립니다. 별이 떨어진 위치 주변 400범위 내의 적에게 잃은 체력의 1% + 135,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0Q6"][7][1] = "*미코가 공격시 10% 확률로 대상 위치에 별을 떨어뜨립니다. 별이 떨어진 위치 주변 400범위 내의 적에게 잃은 체력의 1% + 135,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *위 효과가 발동할 경우, 주변 1000범위 내에 있는 아군 마력을 2% 회복시킵니다. 미코 자신은 마나 회복의 효과를 받지 않습니다.";
 -- atp1 2
 -- atar 1
@@ -27674,7 +27674,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atar 3
 -- abuf 3
 -- aub1 3
-		t["A0Q6"][14][1] = "*미코가 공격시 10% 확률로 대상 위치에 별을 떨어뜨립니다. 별이 떨어진 위치 주변 400범위 내의 적에게 잃은 체력의 1% + 135,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0Q6"][14][1] = "*미코가 공격시 10% 확률로 대상 위치에 별을 떨어뜨립니다. 별이 떨어진 위치 주변 400범위 내의 적에게 잃은 체력의 1% + 135,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *위 효과가 발동할 경우, 전 맵의 아군 마력을 2% 회복시킵니다. 미코 자신은 마나 회복의 효과를 받지 않습니다.";
 -- atp1 3
 -- [A0Q7]
@@ -27727,7 +27727,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 2
 -- aub1 1
 		t["A0QA"][9][1] = "*맵 전체 자신 소유 Units의 Attack Speed를 15% 증가시킵니다.\r\
-*야마메가 공격시 20% 확률로 대상 지점 주변 400범위 적에게 120,000의 |c00379BFF Magical Damage|r와 [2~3]초의 스턴 효과를 입힙니다.\r\
+*야마메가 공격시 20% 확률로 대상 지점 주변 400범위 적에게 120,000|c00379BFF Magical Damage|r와 [2~3]초의 스턴 효과를 입힙니다.\r\
 *발동시 야마메의 활력 Cooldown을 1.5 seconds 감소시킵니다.";
 -- aub1 2
 -- abuf 3
@@ -27746,7 +27746,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- [A0QC]
 -- aub1 1
-		t["A0QC"][1][1] = "＊손에 쥔 이호로 연주해 1초마다 Around yourself 600 범위의 적에게 15,000의 |c00379BFF마법 피해|r를 가합니다.\r\
+		t["A0QC"][1][1] = "＊손에 쥔 이호로 연주해 1초마다 Around yourself 600 범위의 적에게 15,000|c00379BFF마법 피해|r를 가합니다.\r\
 ＊Around yourself 600 범위의 Units의 Attack Speed를 16%, Movement Speed를 20% 증가시킵니다.";
 -- atar 1
 -- atp1 1
@@ -27906,7 +27906,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 		t["A09P"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNCurse.blp";
 -- aub1 1
-		t["A09P"][4][1] = "*요우무가 공격시 10% 확률로 대상 지점 350범위 내의 적을 2초간 스턴시키고, 85,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+		t["A09P"][4][1] = "*요우무가 공격시 10% 확률로 대상 지점 350범위 내의 적을 2초간 스턴시키고, 85,000|c00AC59FF True Damage|r를 입힙니다.\r\
 *요우무가 공격한 적이 보스 Units이라면 40% 확률로 2초간 기절시키고 3.5배의 치명타 데미지를 입힙니다.";
 -- abuf 1
 -- atar 1
@@ -28070,7 +28070,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- aspt
 -- aub1 1
-		t["A0QF"][7][1] = "*공격시 20% 확률로 대상 Units을 2초간 스턴시키고, Current Health의 3% + 225,000의  Magical Damage를 입힙니다. 대상 주변 300범위에 해당 피해의 25%의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0QF"][7][1] = "*공격시 20% 확률로 대상 Units을 2초간 스턴시키고, Current Health의 3% + 225,000 Magical Damage를 입힙니다. 대상 주변 300범위에 해당 피해의 25%의 |c00379BFF Magical Damage|r를 입힙니다.\r\
 [보스 Units 공격시 단일 데미지가 30%만 적용됩니다]\r\
 *스킬 데미지가 20% 증가합니다.\r\
 [Arcana Upgrade 1회당 스킬 데미지가 2%p 증가합니다]";
@@ -28141,7 +28141,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 16
 -- [A0QG]
 -- aub1 1
-		t["A0QG"][1][1] = "*공격시 15% 확률로 자신의 유령선을 생성하여 대상 지점을 포격합니다. 포격 지점 주변 400범위 내의 적에게 전체 체력의 0.7% + 165,000의 |c00379BFF Magical Damage|r를 입히고, 1.2초간 스턴시킵니다.\r\
+		t["A0QG"][1][1] = "*공격시 15% 확률로 자신의 유령선을 생성하여 대상 지점을 포격합니다. 포격 지점 주변 400범위 내의 적에게 Maximum Health 0.7% + 165,000|c00379BFF Magical Damage|r를 입히고, 1.2초간 스턴시킵니다.\r\
 *Around yourself 800범위 적의 Movement Speed를 45% 감소시킵니다.";
 -- atar 1
 -- atp1 1
@@ -28276,7 +28276,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0QH"][5][1] = "『성련군의 해이한 규율』";
 -- aub1 1
 		t["A0QH"][6][1] = "*Around yourself 800범위 적의 방어력을 60 감소시킵니다.\r\
-*공격시 12% 확률로 대상 지점에 격류를 생성합니다. 대상 지점 주변 400범위 적을 1.8 seconds간 스턴시키고 전체 체력의 0.4% + 잃은 체력의 0.6% + 135,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*공격시 12% 확률로 대상 지점에 격류를 생성합니다. 대상 지점 주변 400범위 적을 1.8 seconds간 스턴시키고 Maximum Health 0.4% + 잃은 체력의 0.6% + 135,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- abuf 1
 		t["A0QH"][8][1] = "B061";
 -- atar 2
@@ -28288,7 +28288,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0QH"][14][1] = "라인 내에 있는 적 Units의 방어력을 12 감소시킵니다.";
 -- [A0QI]
 -- aub1 1
-		t["A0QI"][1][1] = "*공격시 마나를 1 회복합니다.  마나가 120이 됐을때, Around yourself 1000범위에 익사한 수몰령을 생성하여 적 Units을 3초간 기절시키고, 잃은 체력의 15% + 2500,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0QI"][1][1] = "*공격시 마나를 1 회복합니다.  마나가 120이 됐을때, Around yourself 1000범위에 익사한 수몰령을 생성하여 적 Units을 3초간 기절시키고, 잃은 체력의 15% + 2500,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *Around yourself 800범위 아군의 Attack Speed를 25% 증가시킵니다.";
 -- atar 1
 -- atp1 1
@@ -29109,7 +29109,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A02J"][1][1] = "화금부『세인트 엘모 필러』";
 -- aub1 1
-		t["A02J"][2][1] = "*공격시 10% 확률로 대상 주변 300범위에 2초의 스턴과 155,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A02J"][2][1] = "*공격시 10% 확률로 대상 주변 300범위에 2초의 스턴과 155,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- anam
 -- aart
 -- atar 1
@@ -29118,12 +29118,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A043]
 -- aub1 1
 		t["A043"][1][1] = "*|c00FF80FF[활력]|r - 6초\r\
-*대상 지점 주변 450범위에 달빛을 형성시켜 범위 내의 적에게 전체 체력의 1% + 120,000의 |c00379BFF Magical Damage|r를 입힙니다.  \r\
+*대상 지점 주변 450범위에 달빛을 형성시켜 범위 내의 적에게 Maximum Health 1% + 120,000|c00379BFF Magical Damage|r를 입힙니다.  \r\
 *파츄리의 마나가 절반 이상일 경우, 데미지가 2배로 적용됩니다.\r\
 *파츄리의 마나가 절반 이하일 경우, 파츄리의 마나를 5% 회복시킵니다.";
 -- atar 1
 -- atp1 1
-		t["A043"][4][1] = "월부『사일런트 셀레네』";
+		t["A043"][4][1] = "Moonlight 『사일런트 셀레네』";
 -- anam
 -- aart
 -- abuf 1
@@ -29254,7 +29254,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A04A"][2][1] = "구악『코마이누 회전』";
 -- aub1 1
-		t["A04A"][3][1] = "*아운이 공격시 10% 확률로 자신의 위치에서 힘껏 돌아 회오리바람을 생성해 전방으로 발사합니다. 직선 900거리 내에 있는 적에게 15,000의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A04A"][3][1] = "*아운이 공격시 10% 확률로 자신의 위치에서 힘껏 돌아 회오리바람을 생성해 전방으로 발사합니다. 직선 900거리 내에 있는 적에게 15,000|c00379BFF Magical Damage|r를 입힙니다.";
 -- anam
 		t["A04A"][4][1] = "[코마노]";
 -- aart
@@ -29289,7 +29289,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A04A"][36][1] = "*케이네가 공격한 대상 Units의 체력이 10% 이하라면 발동합니다. 공격시 15% 확률로Instantly kills a target unit. 공격한 대상 Units의 체력이 70% 이상이라면 대상 전체 체력의 15% Physical Damage를 입힙니다.\r\
+		t["A04A"][36][1] = "*케이네가 공격한 대상 Units의 체력이 10% 이하라면 발동합니다. 공격시 15% 확률로Instantly kills a target unit. 공격한 대상 Units의 체력이 70% 이상이라면 대상 Maximum Health 15% Physical Damage를 입힙니다.\r\
 미션,스토리 보스에게는 적용되지 않습니다.";
 -- aub1 3
 -- aub1 4
@@ -29328,7 +29328,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A02D"][4][1] = "Abilities\\Spells\\Other\\Stampede\\StampedeMissileDeath.mdl";
 -- aub1 1
 		t["A02D"][6][1] = "＊|c00FF80FF[활력]|r - 30 seconds\r\
-*피를 칼날로 만들어 대상 주변 350범위에 있는 적에게 [전체 체력의 3% + 950,000]의 |c00379BFF Magical Damage|r를 입히고, 받는  Magical Damage를 10 seconds간 15% 증폭시킵니다.[수치가 같은  Magical Damage 증폭 효과와 함께 적용됩니다]\r\
+*피를 칼날로 만들어 대상 주변 350범위에 있는 적에게 [Maximum Health 3% + 950,000]의 |c00379BFF Magical Damage|r를 입히고, 받는  Magical Damage를 10 seconds간 15% 증폭시킵니다.[수치가 같은  Magical Damage 증폭 효과와 함께 적용됩니다]\r\
 *발동시 마나를 모두 회복합니다.\r\
 [사용 효과]\r\
 *대상 Unique Units을 흡혈하여 50 seconds간 정지시킵니다. 정지 상태일때는 Combination 재료로 사용할 수 없으며, 어떠한 행동도 할 수 없습니다.[Unique Soul 추출은 가능합니다] 이미 정지한 Units은 흡혈할 수 없습니다.\r\
@@ -29342,7 +29342,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A02M"][2][1] = "『고갈』";
 -- aub1 1
-		t["A02M"][3][1] = "*Kurumi가 공격시 30% 확률로 대상 Units을 흡혈합니다. 125,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A02M"][3][1] = "*Kurumi가 공격시 30% 확률로 대상 Units을 흡혈합니다. 125,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF Magical Damage|r를 대상 주변 500범위 적에게 입힙니다.\r\
 *고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 Cooldown을 1초 감소시킵니다.";
@@ -29380,7 +29380,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A02M"][36][1] = "*Kurumi가 공격시 60% 확률로 대상 Units을 흡혈합니다. 125,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A02M"][36][1] = "*Kurumi가 공격시 60% 확률로 대상 Units을 흡혈합니다. 125,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF Magical Damage|r를 대상 주변 500범위 적에게 입힙니다.\r\
 *고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 Cooldown을 1초 감소시킵니다.";
@@ -29419,7 +29419,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A03B"][2][1] = "『Break the Sabbath』";
 -- aub1 1
 		t["A03B"][3][1] = "*공격시 마나를 4 회복합니다. 마나가 444가 됐을때 발동합니다. Kurumi가 8 seconds간 상시 흡혈 상태로 전환되며, 매 공격시 60% 확률로 『고갈』이 발동합니다. 흡혈 상태에서는 공격시 마나를 절반만 회복합니다.\r\
-*흡혈 상태가 종료될 경우, 흡수한 피를 폭발시켜 주변 600범위에 600,000의 |c00379BFF Magical Damage|r를 입히고, 4초간 80%의 Movement Speed 감소 효과를 입힙니다.\r\
+*흡혈 상태가 종료될 경우, 흡수한 피를 폭발시켜 주변 600범위에 600,000|c00379BFF Magical Damage|r를 입히고, 4초간 80%의 Movement Speed 감소 효과를 입힙니다.\r\
 *Kurumi는 다른 Units의 활력/마나 회복 효과를 받지 않습니다.";
 -- anam
 -- aart
@@ -29455,7 +29455,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 31
 -- aub1 2
 		t["A03B"][36][1] = "*Yumeko가 스킬을 발동한 후에 공격하는 첫 공격은『체인 리액션』효과를 받습니다.\r\
-*『체인 리액션』: 대상 적 Units의 전체 체력의 0.3% + 80,000의  Magical Damage를 대상 주변 450범위 내에 있는 적에게 입힙니다. 보스에게는 데미지를 입히지 않습니다.";
+*『체인 리액션』: 대상 적 Units의 Maximum Health 0.3% + 80,000 Magical Damage를 대상 주변 450범위 내에 있는 적에게 입힙니다. 보스에게는 데미지를 입히지 않습니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -29536,7 +29536,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A05S"][1][1] = "*Around yourself 700범위 적의 Movement Speed를 15% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 4초\r\
-마쿠라가 악몽을 형상화하여 적을 공포에 질리게 합니다. Around yourself 700범위 적에게 전체 체력의 1%에 해당하는 |c00AC59FF True Damage|r를 입히고, 받는  Magical Damage를 20% 증폭시킵니다.\r\
+마쿠라가 악몽을 형상화하여 적을 공포에 질리게 합니다. Around yourself 700범위 적에게 Maximum Health 1%에 해당하는 |c00AC59FF True Damage|r를 입히고, 받는  Magical Damage를 20% 증폭시킵니다.\r\
 [꿈 6개 흡수시 강화]\r\
 -전체 체력 비례 데미지가 1%에서 2%로 증가하며, 발동시 25% 확률로 활력 Cooldown이 초기화됩니다.";
 -- atar 1
@@ -29674,7 +29674,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A066"][3][1] = "『Elly, Elly, 레마 사박타니』";
 -- aub1 1
 		t["A066"][4][1] = "*매 라운드가 끝날때마다, 자신이 소유한 이슈아를 포함한 모든 Units의 활력과 마나를 모두 회복합니다.\r\
-*공격시 14% 확률로 대상 지점에 신의 심판을 내려 250범위 내의 적에게 250,000의 |c00FF6464 Physical Damage|r를 입히고, 1.2초간 기절시킵니다.\r\
+*공격시 14% 확률로 대상 지점에 신의 심판을 내려 250범위 내의 적에게 250,000|c00FF6464 Physical Damage|r를 입히고, 1.2초간 기절시킵니다.\r\
 *공격한 적의 체력이 80% 이상이라면, 80%로 만듭니다. 이 효과가 발동시 이슈아의 마나가 5% 회복됩니다.";
 -- aart
 		t["A066"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNHealOn.blp";
@@ -29687,7 +29687,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A06F"][3][1] = "『가이우스 카시우스의 성창』";
 -- aub1 1
 		t["A06F"][4][1] = "*공격시 마나를 2씩 회복합니다. 마나가 300이 됐을때, 성창을 생성하여 대상 지점을 공격합니다.\r\
-*대상 지점 주변 450범위 적에게 잃은 체력의 12% + 1600,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*대상 지점 주변 450범위 적에게 잃은 체력의 12% + 1600,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *이 스킬은 엔젤 하이로의 스킬 데미지 증가 효과를 받지 않습니다.";
 -- aart
 -- atp1 2
@@ -29774,13 +29774,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A06Y"][3][1] = "『배 밑바닥의 비너스』";
 -- aub1 1
 		t["A06Y"][4][1] = "*Murasa 주변 600 범위의 적 방어력을 20 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
+＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
 -- anam
 -- aart
 -- atp1 2
 -- aub1 2
 		t["A06Y"][9][1] = "*Murasa 주변 600 범위의 적 방어력을 30 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
+＊공격 시 10% 확률로 대상 주변 400 범위에 격류를 일으켜 적에게 70,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킴과 동시에 5 seconds간 Movement Speed를 35% 감소시킵니다.";
 -- abuf 1
 		t["A06Y"][10][1] = "B00G";
 -- atar 2
@@ -29823,7 +29823,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A07J"][5][1] = "월견주『루나틱 셉템버』";
 -- aub1 1
 		t["A07J"][6][1] = "*주변 800범위 적의 방어력을 20 감소시킵니다.\r\
-*공격시 마나를 1 회복합니다. 마나가 120이 됐을때, 대상 주변 500범위 적에게 전체 체력의 2% + 100,000의 |c00FF6464 Physical Damage|r를 입히고, 경단의 맛에 따라 다음의 효과를 발동합니다.\r\
+*공격시 마나를 1 회복합니다. 마나가 120이 됐을때, 대상 주변 500범위 적에게 Maximum Health 2% + 100,000|c00FF6464 Physical Damage|r를 입히고, 경단의 맛에 따라 다음의 효과를 발동합니다.\r\
 [빨간색 타바스코 경단] : Around yourself 800범위 적의 체력이 10% 이하라면 즉사시킵니다.\r\
 [파란색 소다맛 경단] : Around yourself 800범위 자신 소유 Units의 마나를 30% 회복시킵니다.\r\
 [초록색 와사비맛 경단] : Around yourself 800범위 자신 소유 Units의 활력 수치를 35% 회복시킵니다.";
@@ -29855,7 +29855,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["S00L"][3][1] = "Warp Sign『쇼와의 비』";
 -- aub1 1
 		t["S00L"][4][1] = "*Around yourself 800범위 아군의 Attack Speed를 10% 증가시킵니다.\r\
-*공격시 12% 확률로 자신이 공격한 적의 전체 체력의 0.3% + 165,000의 |c00379BFF Magical Damage|r를 대상 주변 350범위에 입힙니다.";
+*공격시 12% 확률로 자신이 공격한 적의 Maximum Health 0.3% + 165,000|c00379BFF Magical Damage|r를 대상 주변 350범위에 입힙니다.";
 -- anam
 		t["S00L"][5][1] = "[Phantasm][케이네]";
 -- abuf 1
@@ -30077,13 +30077,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A03Y"][2][1] = "마수『카마이타치 베일링』";
 -- aub1 1
-		t["A03Y"][3][1] = "*아야의 몸에 칼바람을 둘러 적을 공격합니다. Around yourself 700범위 적에게 초당 30,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A03Y"][3][1] = "*아야의 몸에 칼바람을 둘러 적을 공격합니다. Around yourself 700범위 적에게 초당 30,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *아야 주변 700범위 적의 Movement Speed를 25% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 용권『천손강림의 이정표』\r\
 \r\
 *아야가 공격시 마나를 1 회복합니다. 마나가 150이 됐을때 거대한 회오리바람을 생성합니다. 회오리 바람은 5 seconds간 지속됩니다.\r\
-*회오리 바람 주변 500범위 적은 초당 Current Health의 1%의 |c00379BFF Magical Damage|r를 입습니다. 회오리바람이 사라질 때, 후폭풍을 일으켜 600 범위 내의 적에게 전체 체력의 3%의 |c00379BFF Magical Damage|r를 추가로 입힙니다.";
+*회오리 바람 주변 500범위 적은 초당 Current Health의 1%의 |c00379BFF Magical Damage|r를 입습니다. 회오리바람이 사라질 때, 후폭풍을 일으켜 600 범위 내의 적에게 Maximum Health 3%의 |c00379BFF Magical Damage|r를 추가로 입힙니다.";
 -- anam
 -- atar 1
 -- abuf 1
@@ -30093,13 +30093,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- abuf 2
 -- atp1 2
 -- aub1 2
-		t["A03Y"][12][1] = "*아야의 몸에 칼바람을 둘러 적을 공격합니다. Around yourself 700범위 적에게 초당 30,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A03Y"][12][1] = "*아야의 몸에 칼바람을 둘러 적을 공격합니다. Around yourself 700범위 적에게 초당 30,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *아야 주변 700범위 적의 Movement Speed를 25% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 용권『천손강림의 이정표』\r\
 \r\
 *아야가 공격시 마나를 1 회복합니다. 마나가 150이 됐을때 거대한 회오리바람을 생성합니다. 회오리 바람은 5 seconds간 지속됩니다.\r\
-*회오리 바람 주변 500범위 적은 초당 Current Health의 1%의 |c00379BFF Magical Damage|r를 입습니다. 회오리바람이 사라질 때, 후폭풍을 일으켜 600 범위 내의 적에게 전체 체력의 3%의 |c00AC59FF True Damage|r를 추가로 입힙니다.";
+*회오리 바람 주변 500범위 적은 초당 Current Health의 1%의 |c00379BFF Magical Damage|r를 입습니다. 회오리바람이 사라질 때, 후폭풍을 일으켜 600 범위 내의 적에게 Maximum Health 3%의 |c00AC59FF True Damage|r를 추가로 입힙니다.";
 -- [A079]
 -- arac
 -- atp1 1
@@ -30416,7 +30416,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A081]
 -- aub1 1
 		t["A081"][1][1] = "*주변 700범위 적의 Movement Speed를 35% 감소시킵니다.\r\
-*세이자가 공격시 10% 확률로 대상 지점 주변 500범위를 뒤엎어 Current Health의 1% + 125,000의 |c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 15% 증폭시킵니다.";
+*세이자가 공격시 10% 확률로 대상 지점 주변 500범위를 뒤엎어 Current Health의 1% + 125,000|c00379BFF Magical Damage|r를 입히고, 적이 받는  Magical Damage를 15% 증폭시킵니다.";
 -- atar 1
 -- atp1 1
 		t["A081"][4][1] = "역부『천하전복』";
@@ -30597,8 +30597,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 -- aub1 1
 		t["S00S"][4][1] = "*기본적으로 이쿠 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
-*이쿠가 공격시 15% 확률로 10번 튕기는 유영탄을 발사하여 적에게 85,000의 |c00379BFF Magical Damage|r를 입힙니다. 이 데미지는 튕길때마다 10%씩 증가합니다.\r\
-*이쿠가 보스 Units을 공격할 경우 50% 확률로 감전시켜 3초간 기절시키고, 90,000의 추가 |c00379BFF Magical Damage|r를 입힙니다.";
+*이쿠가 공격시 15% 확률로 10번 튕기는 유영탄을 발사하여 적에게 85,000|c00379BFF Magical Damage|r를 입힙니다. 이 데미지는 튕길때마다 10%씩 증가합니다.\r\
+*이쿠가 보스 Units을 공격할 경우 50% 확률로 감전시켜 3초간 기절시키고, 90,000추가 |c00379BFF Magical Damage|r를 입힙니다.";
 -- anam
 		t["S00S"][5][1] = "[Arcana][이쿠]";
 -- abuf 1
@@ -30721,23 +30721,23 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- anam
 		t["A0BC"][4][1] = "[Ascended][루나]";
 -- atp1 1
-		t["A0BC"][5][1] = "월부『루나틱 레인』- 낮";
+		t["A0BC"][5][1] = "Moonlight 『Lunatic Rain』 - Day";
 -- aub1 1
-		t["A0BC"][6][1] = "*주변 800범위 적의 방어력을 45 감소시킵니다.\r\
-|c009292C9밤 보너스|r : 방어력 감소 효과가 45에서 60으로 증가합니다.\r\
-*|c00C5EA53[Combination Synergy]|r영원한 밤의 환상향\r\
--Eirin Yagokoro[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
+		t["A0BC"][6][1] = "*-45 Defense in an 800 AoE.\r\
+|c009292C9Night Bonus|r : Defense reduction increased to 60.\r\
+*|c00C5EA53[Combination Synergy]|rIllusion of Eternal Night\r\
+-Having Eirin Yagokoro[Chronicle] makes the Night Bonuses always active.";
 -- atat
 -- abuf 1
 		t["A0BC"][8][1] = "B033";
 -- atar 2
 -- atp1 2
-		t["A0BC"][10][1] = "월부『루나틱 레인』- 밤";
+		t["A0BC"][10][1] = "Moonlight 『Lunatic Rain』- 밤";
 -- aub1 2
 		t["A0BC"][11][1] = "*주변 800범위 적의 방어력을 60 감소시킵니다.\r\
-|c009292C9밤 보너스|r : 방어력 감소 효과가 45에서 60으로 증가합니다.\r\
+|c009292C9Night Bonus|r : Defense reduction increased to 60.\r\
 *|c00C5EA53[Combination Synergy]|r영원한 밤의 환상향\r\
--Eirin Yagokoro[Chronicle]을 보유할 경우, 루나의 밤 보너스가 상시 적용됩니다.";
+-Eirin Yagokoro[Chronicle]을 보유할 경우, 루나의 Night Bonus가 상시 적용됩니다.";
 -- abuf 2
 -- [A0BS]
 -- anam
@@ -30769,14 +30769,14 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 -- aub1 1
 		t["A0BX"][6][1] = "＊성스러운 후광으로 Around yourself 600 범위의 적 방어력을 15 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 전체 체력 0.2% + 40,000의 |c00AC59FF절대 피해|r를 가합니다.";
+＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 전체 체력 0.2% + 40,000|c00AC59FF절대 피해|r를 가합니다.";
 -- abuf 1
 		t["A0BX"][8][1] = "B034";
 -- atp1 2
 		t["A0BX"][9][1] = "보부『황금의 진현』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A0BX"][10][1] = "*주변 600범위 적의 방어력을 22 감소시킵니다.\r\
-*공격시 10% 확률로 Around yourself 600범위 적에게 80,000의 |c00FF6464 Physical Damage|r를 입힙니다.";
+*공격시 10% 확률로 Around yourself 600범위 적에게 80,000|c00FF6464 Physical Damage|r를 입힙니다.";
 -- atar 2
 -- abuf 2
 -- [A0CI]
@@ -30917,7 +30917,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0HP"][6][1] = "*써니 주변 700범위 적의 방어력을 35 감소시킵니다.\r\
 *Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 60이 됐을때 발동합니다.\r\
-*대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 Maximum Health 1% + 155,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 |c009292C9보너스 효과|r : 자신이 Chronicle Units을 Combination하지 않았다면[세이자 특수 Combination 제외] 발동시 주변 800범위 아군의 마나를 20% 회복시킵니다.";
 -- abuf 1
 		t["A0HP"][8][1] = "B041";
@@ -31221,7 +31221,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 2
 		t["A0HP"][306][1] = "*써니 주변 700범위 적의 방어력을 16 감소시킵니다.\r\
 *Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
-*대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 전체 체력의 1% + 155,000 Physical Damage를 입힙니다.\r\
+*대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 Maximum Health 1% + 155,000 Physical Damage를 입힙니다.\r\
 |c009292C9보너스 효과|r : 자신이 Chronicle Units을 Combination하지 않았다면[세이자 특수 Combination 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
 -- aub1 3
 -- aub1 4
@@ -31352,8 +31352,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0I7"][6][1] = "*레밀리아 주변 700범위 적의 방어력을 15% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - 7초\r\
--레밀리아가 대상 적을 흡혈하여 전체 체력의 10%에 해당하는 |c00FF6464 Physical Damage|r를 입히고, 3초간 스턴시키며 마나를 12% 회복합니다.\r\
-[보스에게는 전체 체력의 1%]\r\
+-레밀리아가 대상 적을 흡혈하여 Maximum Health 10%에 해당하는 |c00FF6464 Physical Damage|r를 입히고, 3초간 스턴시키며 마나를 12% 회복합니다.\r\
+[보스에게는 Maximum Health 1%]\r\
 *레밀리아 스토커가 발동할 때마다 활력 Cooldown이 2초씩 감소합니다.";
 -- atat
 -- abuf 1
@@ -31760,7 +31760,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0IG"][2][1] = "마광『데블리 라이트레이』";
 -- aub1 1
-		t["A0IG"][3][1] = "*Alice가 공격시 20% 확률로 대상 지점 주변 425범위 내에 있는 적에게 225,000의  Magical Damage를 입히고 |c00379BFF Magical Damage|r를 20% 증폭해서 받습니다.";
+		t["A0IG"][3][1] = "*Alice가 공격시 20% 확률로 대상 지점 주변 425범위 내에 있는 적에게 225,000 Magical Damage를 입히고 |c00379BFF Magical Damage|r를 20% 증폭해서 받습니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -31777,7 +31777,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["A0IJ"][1][1] = "*기본적으로 Alice 주변 800범위 적을 인형실로 휘감아 Movement Speed를 50% 감소시킵니다.\r\
 *|c00FF80FF[활력]|r - [1~3]초 중 랜덤\r\
-Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시킵니다. 폭발에 휘말린 적에게 전체 체력의 1.2% + 200,000의 |c00379BFF Magical Damage|r를 주고 1.1초간 스턴시킵니다.";
+Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시킵니다. 폭발에 휘말린 적에게 Maximum Health 1.2% + 200,000|c00379BFF Magical Damage|r를 주고 1.1초간 스턴시킵니다.";
 -- atar 1
 -- atat
 		t["A0IJ"][3][1] = "chro.mdx";
@@ -31880,7 +31880,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- aub1 2
 		t["A0IJ"][98][1] = "|c00FF00FF형식:|r 디버프\r\
 |c00FF00FF발동 확률:|r 상시\r\
-|c00FF00FF데미지 타입:|r 없음\r\
+|c00FF00FF데미지 타입:|r None\r\
 |c00FF00FF데미지:|r 초당 50000\r\
 |c00FF00FF효과:|r 주변 900범위 적의 Movement Speed를 15% 감소\r\
 |c00FF00FF설명:|r 핵반응으로 적의 다리를 녹여 Movement Speed를 감소시키고, 1초마다 데미지를 입힙니다.";
@@ -31919,7 +31919,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0K0"][2][1] = "토착신『테나가아시나가님』";
 -- aub1 1
-		t["A0K0"][3][1] = "＊공격 시 10% 확률로 대상 지점에 신력을 방출해 주변 400 범위 내의 적에게 Current Health 1% + 175,000의 |c00379BFF마법 피해|r를 가합니다.";
+		t["A0K0"][3][1] = "＊공격 시 10% 확률로 대상 지점에 신력을 방출해 주변 400 범위 내의 적에게 Current Health 1% + 175,000|c00379BFF마법 피해|r를 가합니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -32451,7 +32451,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 -- aub1 1
 		t["A0LW"][3][1] = "*|c00FF80FF[활력]|r - 35 seconds\r\
-*레티가 직접 자신의 힘을 이용해 일시적으로 겨울을 만들어 대상 적을 얼려버립니다. Around yourself 750범위 내에 있는 적을 3초간 스턴시키고, 2초 뒤에 잃은 체력의 10% + 1000,000의 |c00379BFF Magical Damage|r를 입히며 이후 받는 데미지를 10% 증폭시킵니다.";
+*레티가 직접 자신의 힘을 이용해 일시적으로 겨울을 만들어 대상 적을 얼려버립니다. Around yourself 750범위 내에 있는 적을 3초간 스턴시키고, 2초 뒤에 잃은 체력의 10% + 1000,000|c00379BFF Magical Damage|r를 입히며 이후 받는 데미지를 10% 증폭시킵니다.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -32463,7 +32463,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- atp1 1
 		t["A0LY"][2][1] = "『천사와 Devil』";
 -- aub1 1
-		t["A0LY"][3][1] = "*Gengetsu가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는  Magical Damage를 20% 증폭시키며, 110,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+		t["A0LY"][3][1] = "*Gengetsu가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는  Magical Damage를 20% 증폭시키며, 110,000|c00AC59FF True Damage|r를 입힙니다.\r\
 *발동시 Gengetsu의 마나를 3 회복시킵니다.";
 -- atar 2
 -- atar 3
@@ -32472,7 +32472,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- aart
 -- atp1 2
 -- aub1 2
-		t["A0LY"][10][1] = "*Gengetsu가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는  Magical Damage를 15% 증폭시키며, 110,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+		t["A0LY"][10][1] = "*Gengetsu가 공격시 11% 확률로 대상 지점에 폭발을 일으킵니다. 대상 주변 450범위 내에 있는 적이 받는  Magical Damage를 15% 증폭시키며, 110,000|c00AC59FF True Damage|r를 입힙니다.\r\
 *발동시 Gengetsu의 마나를 3 회복시킵니다.";
 -- [A0MR]
 -- arac
@@ -32497,8 +32497,8 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- aub1 2
 		t["A0MR"][15][1] = "|c00FF00FF형식:|r 방어력 감소\r\
 |c00FF00FF발동 확률:|r 상시\r\
-|c00FF00FF데미지 타입:|r 없음\r\
-|c00FF00FF데미지:|r 없음\r\
+|c00FF00FF데미지 타입:|r None\r\
+|c00FF00FF데미지:|r None\r\
 |c00FF00FF효과:|r 주변 750범위 적의 방어력 15% 감소.\r\
 |c00FF00FF설명:|r 히다가 자신의 주변에 액의 기운을 퍼뜨려 적들의 방어력을 감소시킵니다.";
 -- [A0MY]
@@ -32579,7 +32579,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 		t["A0NU"][7][1] = "charm";
 -- aart
 -- aub1 1
-		t["A0NU"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, 전체 체력의 0.5% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0NU"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, Maximum Health 0.5% + 100,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *『방형조각품』: 소지한 Units의 Attack Speed를 50% 증가시킵니다.";
 -- atar 1
 -- atp1 2
@@ -32597,7 +32597,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- aart
 		t["A0NV"][9][1] = "ReplaceableTextures\\CommandButtons\\BTNWandOfNeutralization.blp";
 -- aub1 1
-		t["A0NV"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, 잃은 체력의 1% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0NV"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, 잃은 체력의 1% + 100,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *『진원조각품』: 소지한 Units의 마나를 초당 3 회복시킵니다.";
 -- atar 1
 -- atar 2
@@ -32615,7 +32615,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 -- aart
 		t["A0NZ"][9][1] = "ReplaceableTextures\\CommandButtons\\BTNGhoulFrenzy.blp";
 -- aub1 1
-		t["A0NZ"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, Current Health의 0.7% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+		t["A0NZ"][10][1] = "*대상 지점 주변 500범위 적에게 1초의 스턴을 입히고, Current Health의 0.7% + 100,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *『선형조각품』: 소지한 Units이 공격시 10% 확률로 대상 주변 400범위 적에게 1.5 seconds의 스턴을 입힙니다.";
 -- atar 1
 -- Ncl6G2
@@ -32675,7 +32675,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 		t["A0QQ"][5][1] = "췌부『토카쿠시산 던지기』";
 -- aub1 1
 		t["A0QQ"][6][1] = "*스이카가 공격시 25% 확률로 대상 지점에 산처럼 거대한 돌덩이를 던집니다.\r\
-*대상 지점 400범위 내에 있는 적의 Movement Speed를 5 seconds간 60% 감소시키고 대상 적 Units 하나에게 전체 체력의 10%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.[보스 200,000]\r\
+*대상 지점 400범위 내에 있는 적의 Movement Speed를 5 seconds간 60% 감소시키고 대상 적 Units 하나에게 Maximum Health 10%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.[보스 200,000]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『밀도를 조종하는 정도의 능력』\r\
 \r\
@@ -32731,12 +32731,12 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 		t["S00U"][3][1] = "비상『비상비비상비의 검』";
 -- aub1 1
 		t["S00U"][4][1] = "*텐시 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
-*텐시가 공격시 10% 확률로 자신의 검에 주변의 『기질』을 응축시켜 공격합니다. 대상 350범위 내 적의 Current Health의 0.3% + 100,000의 |c00379BFF Magical Damage|r를 입힙니다.\r\
+*텐시가 공격시 10% 확률로 자신의 검에 주변의 『기질』을 응축시켜 공격합니다. 대상 350범위 내 적의 Current Health의 0.3% + 100,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 『전인류의 비상천』\r\
 \r\
 *『비상비비상비의 검』을 6번 발동할때마다 아래의 효과를 발동시킵니다.\r\
-*직선 1500거리 400 폭에 적 최대 체력의 2% + Current Health의 3% + 250,000의 |c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
+*직선 1500거리 400 폭에 적 최대 체력의 2% + Current Health의 3% + 250,000|c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
 -- anam
 -- abuf 1
 		t["S00U"][6][1] = "B06Q";
@@ -32949,7 +32949,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 		t["A0CD"][6][1] = "『야타가라스 다이브』|cffffcc00[E]|r";
 -- aub1 1
 		t["A0CD"][7][1] = "*우츠호가 공격시 마나를 1 회복합니다. 마나가 125가 됐을때 사용 시 대상 지점에 강력한 에너지를 응축한 불새를 날려 범위 내의 적을 초토화시킵니다.\r\
-*불새는 맵 전역 어디든 날릴 수 있으며, 5000의 Movement Speed를 가집니다. 날아간 불새는 폭발하여 범위 내의 적에게 전체 체력의 7% + 2000,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*불새는 맵 전역 어디든 날릴 수 있으며, 5000Movement Speed를 가집니다. 날아간 불새는 폭발하여 범위 내의 적에게 Maximum Health 7% + 2000,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *Cooldown 25 seconds";
 -- aart
 -- areq
@@ -32991,7 +32991,7 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 		t["A0LI"][6][1] = "*기본적으로 주변 800범위 적의 방어력을 30 감소시킵니다.\r\
 *Mugetsu의 마나가 초당 5 회복됩니다.\r\
 *Mugetsu의 평타 공격시 마나가 20 이상일때, 마나 20를 소모하여 발동합니다.\r\
-*전방의 적에게 150,000의 |c00AC59FF절대 피해|r를 입힙니다.";
+*전방의 적에게 150,000|c00AC59FF절대 피해|r를 입힙니다.";
 -- abuf 1
 		t["A0LI"][8][1] = "B05Q";
 -- atp1 2
@@ -33662,7 +33662,7 @@ nhym,h02Q,hlum,e03C";
 ────────────────\r\
 주부『명주암투』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
-＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000의 |c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- anam
 -- aart
 -- atat
@@ -33676,11 +33676,11 @@ nhym,h02Q,hlum,e03C";
 ────────────────\r\
 Spirit Sign 『Fantasy Seal』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
-＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 2~4 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 2% + 700,000의 |c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 2~4 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 2% + 700,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- atp1 3
 		t["A0QY"][13][1] = "주부『명주암투』";
 -- aub1 3
-		t["A0QY"][14][1] = "＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000의 |c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
+		t["A0QY"][14][1] = "＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464물리 피해|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- atar 3
 -- aub1 4
 -- [A0QZ]
@@ -33718,7 +33718,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- anam
 -- aub1 1
 		t["A0R2"][4][1] = "*|c00FF80FF[활력]|r - 15 seconds\r\
-*대상 지점에 천상의 고리를 생성합니다. 고리는 폭발하여 대상 주변 300범위 내의 적에게 전체 체력의 4% + 350,000의 |c00FF6464물리 피해|r를 입힙니다.\r\
+*대상 지점에 천상의 고리를 생성합니다. 고리는 폭발하여 대상 주변 300범위 내의 적에게 Maximum Health 4% + 350,000|c00FF6464물리 피해|r를 입힙니다.\r\
 *위 효과가 발동시 이슈아가 죄를 쌓아올려 이슈아의 스킬 피해가 2% 증가하고, 특정 횟수마다 효과를 얻습니다.\r\
 -최대 100%까지 증가합니다.\r\
 -50%: 방어력 감소 수치를 32로 변경\r\
@@ -33794,7 +33794,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0RA"][3][1] = "*야치에를 Combination한 플레이어의 라인에서 나오는 라인 Units의 기본 Movement Speed를 250으로 고정시킵니다.\r\
 *야치에 주변 800범위 적의 방어력을 35 감소시킵니다.\r\
-*야치에가 공격시 마나를 1 회복합니다. 마나가 128이 됐을때, 전체 체력의 4%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.";
+*야치에가 공격시 마나를 1 회복합니다. 마나가 128이 됐을때, Maximum Health 4%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.";
 -- anam
 		t["A0RA"][4][1] = "[Arcana][야치에]";
 -- aart
@@ -33814,7 +33814,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0RB"][2][1] = "귀부『유격의 귀축』";
 -- aub1 1
-		t["A0RB"][3][1] = "*야치에가 공격시 12% 확률로 대상 지점 450범위 적을 들이받습니다. 범위 내의 적에게 잃은 체력의 1% + 55,000의 |c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시킵니다.";
+		t["A0RB"][3][1] = "*야치에가 공격시 12% 확률로 대상 지점 450범위 적을 들이받습니다. 범위 내의 적에게 잃은 체력의 1% + 55,000|c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시킵니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -33884,7 +33884,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["S00W"][3][1] = "『정화패』";
 -- aub1 1
 		t["S00W"][4][1] = "*토요히메가 초당 마나를 1씩 / 공격시 0.7씩 쌓습니다. 마나가 80이 됐을때, 지상의 존재를 정화시키는 포격을 달에 요청합니다.\r\
-*대상 Units 주변 600범위내에 있는 적의 Current Health의 3.5% + 225,000의 |c00379BFF마법|r/|c00AC59FF절대|r 복합 데미지를 입히고, 이후 받는  Magical Damage를 15% 증폭시킵니다.\r\
+*대상 Units 주변 600범위내에 있는 적의 Current Health의 3.5% + 225,000|c00379BFF마법|r/|c00AC59FF절대|r 복합 데미지를 입히고, 이후 받는  Magical Damage를 15% 증폭시킵니다.\r\
 [절반은 마법 / 절반은  True Damage로 적용됩니다]";
 -- anam
 		t["S00W"][5][1] = "[Arcana][토요히메]정화패";
@@ -34516,7 +34516,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0RK"][3][1] = "*Kongara 주변 700범위 적의 방어력을 23 감소시킵니다.\r\
 *Kongara가 공격시 마나를 2씩 회복합니다. 마나가 120이 되었을때 빠른 속도로 대상 지점을 6번 베어냅니다.\r\
-*베어진 적에게 Current Health의 3.5% + 165,000의 |c00FF6464 Physical Damage|r를 입히며, 2.5 seconds간 99%의 슬로우를 입힙니다.";
+*베어진 적에게 Current Health의 3.5% + 165,000|c00FF6464 Physical Damage|r를 입히며, 2.5 seconds간 99%의 슬로우를 입힙니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -34541,7 +34541,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 -- aub1 1
 		t["A0NJ"][3][1] = "*|c00FF80FF[활력]|r - [2초~5 seconds]\r\
-전방으로 영묘한 기운을 레이저로 발사합니다. 피격당한 적은 전체 체력의 1% + 145,000의 |c00379BFF Magical Damage|r를 입고, 이후  Magical Damage를 15% 증폭하여 받습니다.\r\
+전방으로 영묘한 기운을 레이저로 발사합니다. 피격당한 적은 Maximum Health 1% + 145,000|c00379BFF Magical Damage|r를 입고, 이후  Magical Damage를 15% 증폭하여 받습니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 식신『선호사념』\r\
 \r\
@@ -34650,14 +34650,14 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A09H"][5][1] = "『세계의 마지막에 홀로 오는 이』";
 -- aub1 1
 		t["A09H"][6][1] = "*Around yourself 700범위 적의 방어력을 24 감소시킵니다.\r\
-*공격시 25% 확률로 대상 Units 1기에게 전체 체력의 4% + 225,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*공격시 25% 확률로 대상 Units 1기에게 Maximum Health 4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *보스 Units에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
 -- abuf 1
 		t["A09H"][8][1] = "B004";
 -- atp1 2
 -- aub1 2
 		t["A09H"][10][1] = "*Around yourself 700범위 적의 방어력을 32 감소시킵니다.\r\
-*공격시 25% 확률로 대상 Units 1기에게 전체 체력의 4% + 225,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*공격시 25% 확률로 대상 Units 1기에게 Maximum Health 4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *보스 Units에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
 -- atar 2
 -- abuf 2
@@ -34668,7 +34668,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A09J"][3][1] = "『낙원의 모든 꿈이여』";
 -- aub1 1
 		t["A09J"][4][1] = "*마쿠라가 공격시 마나를 1 회복합니다. 마나가 165가 됐을때 발동합니다.\r\
-*마쿠라가 꿈의 요괴인 맥을 소환하여 대상 지점을 포격합니다. 주변 800범위 적에게 전체 체력의 14%의 |c00379BFF마법 피해|r를 입힙니다.\r\
+*마쿠라가 꿈의 요괴인 맥을 소환하여 대상 지점을 포격합니다. 주변 800범위 적에게 Maximum Health 14%의 |c00379BFF마법 피해|r를 입힙니다.\r\
 [다른 마나 회복 효과를 받지 않습니다.]\r\
 [꿈 9개 흡수시 강화]\r\
 -다른 마나 회복 효과를 받을 수 있도록 변경되고, 전체 체력 21%의 마법 피해로 증가합니다.";
@@ -34720,15 +34720,15 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0N8"][2][1] = "상기『공포 최면술』";
 -- aub1 1
-		t["A0N8"][3][1] = "＊사토리가 공격시 10% 확률로 트라우마를 억지로 떠올리게 해 대상 주변 600 범위의 적에게 145,000의 |c00AC59FF절대 피해|r를 가하고 1초간 기절시킵니다.\r\
+		t["A0N8"][3][1] = "＊사토리가 공격시 10% 확률로 트라우마를 억지로 떠올리게 해 대상 주변 600 범위의 적에게 145,000|c00AC59FF절대 피해|r를 가하고 1초간 기절시킵니다.\r\
 ───────────────────\r\
 뇌부『브레인 핑거프린트』\r\
 \r\
-＊공격 시 9% 확률로 세번째 눈에서 최대 10번 튕기는 광선이 날아가 적에게 165,000의 |c00379BFF마법 피해|r를 가합니다. 튕길 때마다 피해 수치가 20% 증가합니다.\r\
+＊공격 시 9% 확률로 세번째 눈에서 최대 10번 튕기는 광선이 날아가 적에게 165,000|c00379BFF마법 피해|r를 가합니다. 튕길 때마다 피해 수치가 20% 증가합니다.\r\
 ───────────────────\r\
 심화『카메라 샤이로즈』\r\
 \r\
-＊공격 시 10% 확률로 대상 발밑에 장미를 발화시켜 주변 600 범위의 적에게 185,000의 |c00AC59FF절대 피해|r를 가하고 1초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상 발밑에 장미를 발화시켜 주변 600 범위의 적에게 185,000|c00AC59FF절대 피해|r를 가하고 1초간 기절시킵니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -34746,9 +34746,9 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aart
 -- aspt
 -- aub1 1
-		t["A0RN"][7][1] = "*Rumia가 공격시 11% 확률로 자신의 마검을 휘둘러 전방 900거리 200범위 내에 있는 적에게 Current Health의 0.3% + 150,000의 |c00FF6464 Physical Damage|r를 입히고 1.5 seconds간 기절시킵니다.\r\
+		t["A0RN"][7][1] = "*Rumia가 공격시 11% 확률로 자신의 마검을 휘둘러 전방 900거리 200범위 내에 있는 적에게 Current Health의 0.3% + 150,000|c00FF6464 Physical Damage|r를 입히고 1.5 seconds간 기절시킵니다.\r\
 *이 스킬이 발동할 경우 Rumia의 마나가 4회복됩니다.\r\
-*Rumia가 공격시 25% 확률로 대상 Units에게 전체 체력의 12%에 해당하는 |c00FF6464 Physical Damage|r를 입히고 2초간 스턴시킵니다.[보스에게 10%의 데미지만 입힙니다]";
+*Rumia가 공격시 25% 확률로 대상 Units에게 Maximum Health 12%에 해당하는 |c00FF6464 Physical Damage|r를 입히고 2초간 스턴시킵니다.[보스에게 10%의 데미지만 입힙니다]";
 -- atar 1
 -- atp1 2
 -- aub1 2
@@ -35390,7 +35390,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A06E"][96][1] = "＊Around yourself 700 범위의 자신 소유 Units Attack Speed를 5% 증가시키고, 버프를 받고 있다면 활력 스킬을 발동할 때 활력을 15% 회복시킵니다.";
 -- aub1 2
-		t["A06E"][97][1] = "*공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 120,000의 |c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.\r\
+		t["A06E"][97][1] = "*공격시 14% 확률로 Murasa의 주변 450범위에 물을 터뜨립니다. 터진 물은 적에게 120,000|c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.\r\
 *스턴이 풀린 후 5 seconds간 Movement Speed 35% 감소 효과를 줍니다. \r\
 *추가로 주변 750범위의 아군의 Attack Speed를 12%, Movement Speed를 25% 상승시킵니다.";
 -- aub1 4
@@ -35433,7 +35433,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A045"][6][1] = "＊Extended한 라운드에 따라서 다음의 효과를 가집니다.\r\
 |c00FF6464홀수 라운드|r : 거센 바람을 일으켜 Around yourself 700 범위의 적 방어력을 25 감소시킵니다.\r\
-|c00379BFF짝수 라운드|r : 공격 시 10% 확률로 풍압탄을 날려 대상 주변 400 범위의 적에게 95,000의 |c00379BFF마법 피해|r를 가하고 받는 마법 피해를 10% |c0000FFFF증폭|r시킵니다.";
+|c00379BFF짝수 라운드|r : 공격 시 10% 확률로 풍압탄을 날려 대상 주변 400 범위의 적에게 95,000|c00379BFF마법 피해|r를 가하고 받는 마법 피해를 10% |c0000FFFF증폭|r시킵니다.";
 -- atp1 2
 		t["A045"][9][1] = "역풍『Human금제의 길』- 홀수";
 -- aub1 2
@@ -35448,7 +35448,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 3
 		t["A045"][16][1] = "돌부『텐구의 매크로버스트』- 짝수";
 -- aub1 3
-		t["A045"][17][1] = "＊공격 시 10% 확률로 풍압탄을 날려 대상 주변 400 범위의 적에게 95,000의 |c00379BFF마법 피해|r를 가하고 받는 마법 피해를 10% |c0000FFFF증폭|r시킵니다.";
+		t["A045"][17][1] = "＊공격 시 10% 확률로 풍압탄을 날려 대상 주변 400 범위의 적에게 95,000|c00379BFF마법 피해|r를 가하고 받는 마법 피해를 10% |c0000FFFF증폭|r시킵니다.";
 -- [A06C]
 -- anam
 -- atar 2
@@ -35460,7 +35460,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0RR"][2][1] = "『선대수라패황권』";
 -- aub1 1
 		t["A0RR"][3][1] = "*공격시 3% 확률로 선대무녀가 마지막 힘을 끌어내어 지저의 오니를 상대할 때 사용했던 황금장방형을 일격의 형태로 구현해 전방의 적을 공격합니다.\r\
-*전방의 적에게 전체 체력의 12%의 |c00FF6464 Physical Damage|r + 잃은 체력의 15%의 |c00379BFF Magical Damage|r를 입힙니다. 보스를 공격할 경우 효과가 발동하지 않습니다.";
+*전방의 적에게 Maximum Health 12%의 |c00FF6464 Physical Damage|r + 잃은 체력의 15%의 |c00379BFF Magical Damage|r를 입힙니다. 보스를 공격할 경우 효과가 발동하지 않습니다.";
 -- anam
 -- aart
 -- [A0RS]
@@ -35525,7 +35525,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0RT"][35][1] = "*공격시 12% 확률로 불을 치솟게 해 대상 Units 주변 400범위 내에 있는 적에게 120,000의 |c00379BFF Magical Damage|r와 1.5 seconds의 스턴을 입힙니다.";
+		t["A0RT"][35][1] = "*공격시 12% 확률로 불을 치솟게 해 대상 Units 주변 400범위 내에 있는 적에게 120,000|c00379BFF Magical Damage|r와 1.5 seconds의 스턴을 입힙니다.";
 -- aub1 3
 		t["A0RT"][36][1] = "공격시 3%확률로 발동합니다. 10 seconds동안 자신의 Attack Speed를 270% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 2Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 4
@@ -35593,7 +35593,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0I5"][2][1] = "신부『신이 걸어간 오미와타리』";
 -- aub1 1
-		t["A0I5"][3][1] = "＊공격 시 12% 확률로 전방의 적에게 50,000의 |c00FF6464물리 피해|r를 가하고 3초간 기절시킵니다.\r\
+		t["A0I5"][3][1] = "＊공격 시 12% 확률로 전방의 적에게 50,000|c00FF6464물리 피해|r를 가하고 3초간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 2";
 -- anam
 -- aart
@@ -35790,7 +35790,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0D7]
 -- aub1 1
 		t["A0D7"][1][1] = "*Gengetsu가 공격시 마나를 1 회복합니다. 마나가 100일 때 발동합니다.\r\
-*자신 전방에 흑백의 광선을 발사해 전방의 적에게 400,000의 |c00AC59FF True Damage|r를 입힙니다.\r\
+*자신 전방에 흑백의 광선을 발사해 전방의 적에게 400,000|c00AC59FF True Damage|r를 입힙니다.\r\
 *기본적으로 주변 700범위 자신 소유 Units의 공격 속도를 5% 증가시킵니다. 이 효과를 받는 Units이 마나 스킬 사용시 마나를 5~15% 회복시킵니다.";
 -- atar 1
 -- atp1 1
@@ -35951,7 +35951,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0PS"][5][1] = "서적『비 노이만 형 계산기의 미래』";
 -- aub1 1
 		t["A0PS"][6][1] = "＊Tokiko 주변 650 범위의 적 방어력을 20 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 475 범위의 적에게 책을 읽으라고 일갈하여 55,000의 |c00AC59FF절대 피해|r를 가하고 2초간 기절시킵니다.\r\
+＊공격 시 10% 확률로 대상 주변 475 범위의 적에게 책을 읽으라고 일갈하여 55,000|c00AC59FF절대 피해|r를 가하고 2초간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 2";
 -- abuf 1
 		t["A0PS"][8][1] = "B07D";
@@ -35966,7 +35966,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 -- aub1 1
 		t["S002"][4][1] = "＊주변 700 범위 자신을 제외한 아군의 Attack Speed를 12% 증가시킵니다.\r\
-*공격 시 10% 확률로 자신의 신력을 해방시켜 대상 주변 400범위 적에게 잃은 체력의 1% + 100,000의 |c00FF6464물리 피해|r를 가하고 1.5 seconds간 기절시킵니다.\r\
+*공격 시 10% 확률로 자신의 신력을 해방시켜 대상 주변 400범위 적에게 잃은 체력의 1% + 100,000|c00FF6464물리 피해|r를 가하고 1.5 seconds간 기절시킵니다.\r\
 |c00FF712D[허영갑주]|r + 3";
 -- anam
 -- abuf 1
@@ -36090,7 +36090,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0BU"][2][1] = "『환시 - 경계』";
 -- aub1 1
-		t["A0BU"][3][1] = "*공격시 [|c000080FF8%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0BU"][3][1] = "*공격시 [|c000080FF8%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- anam
 -- aart
@@ -36125,25 +36125,25 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A0BU"][36][1] = "*공격시 [|c000080FF9%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0BU"][36][1] = "*공격시 [|c000080FF9%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 3
-		t["A0BU"][37][1] = "*공격시 [|c000080FF10%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0BU"][37][1] = "*공격시 [|c000080FF10%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 4
-		t["A0BU"][38][1] = "*공격시 [|c000080FF11%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0BU"][38][1] = "*공격시 [|c000080FF11%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 5
-		t["A0BU"][39][1] = "*공격시 [|c00FABE2112%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0BU"][39][1] = "*공격시 [|c00FABE2112%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 6
-		t["A0BU"][40][1] = "*공격시 [|c00FABE2113%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0BU"][40][1] = "*공격시 [|c00FABE2113%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 7
-		t["A0BU"][41][1] = "*공격시 [|c00FABE2114%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0BU"][41][1] = "*공격시 [|c00FABE2114%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 8
-		t["A0BU"][42][1] = "*공격시 [|c00FFA6FF15%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, 전체 체력의 (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0BU"][42][1] = "*공격시 [|c00FFA6FF15%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 (1.5 seconds ~ 3.5 seconds)간 기절시키고, Maximum Health (0.5~1.5)% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 9
 -- aub1 11
@@ -36175,8 +36175,8 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0MK"][3][1] = "*메리가 공격시 마나를 [|c000080FF0.5|r] 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *공격받은 대상을 즉사시키거나, 체력을 모두 회복시킵니다. 확률은 반반입니다.\r\
-*즉사시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500,000의 |c00379BFF Magical Damage|r를 입히고, 자신의 마나를 (15~50)% 회복합니다.";
+*즉사시켰을 경우, 대상 Units 주변 600범위에 Maximum Health (3~5%) + 500,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 Maximum Health (3~5%) + 500,000|c00379BFF Magical Damage|r를 입히고, 자신의 마나를 (15~50)% 회복합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -36212,27 +36212,27 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 2
 		t["A0MK"][36][1] = "*메리가 공격시 마나를 [|c00FABE211|r] 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *공격받은 대상을 즉사시키거나, 체력을 모두 회복시킵니다. 확률은 반반입니다.\r\
-*즉사시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500,000의 |c00379BFF Magical Damage|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
+*즉사시켰을 경우, 대상 Units 주변 600범위에 Maximum Health (3~5%) + 500,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 Maximum Health (3~5%) + 500,000|c00379BFF Magical Damage|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
 -- aub1 3
 		t["A0MK"][37][1] = "*메리가 공격시 마나를 [|c00FFA6FF1.5|r] 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *공격받은 대상을 즉사시키거나, 체력을 모두 회복시킵니다. 확률은 반반입니다.\r\
-*즉사시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
-*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 전체 체력의 (3~5%) + 500,000의 |c00379BFF Magical Damage|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
+*즉사시켰을 경우, 대상 Units 주변 600범위에 Maximum Health (3~5%) + 500,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+*체력을 모두 회복시켰을 경우, 대상 Units 주변 600범위에 Maximum Health (3~5%) + 500,000|c00379BFF Magical Damage|r를 입히고, 자신의 마나를 (15~50%) 회복합니다.";
 -- aub1 4
-		t["A0MK"][38][1] = "*공격시 [|c00008FD511%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, 전체 체력의 <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0MK"][38][1] = "*공격시 [|c00008FD511%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, Maximum Health <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 5
-		t["A0MK"][39][1] = "*공격시 [|c00FCAE1D12%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, 전체 체력의 <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0MK"][39][1] = "*공격시 [|c00FCAE1D12%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, Maximum Health <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 6
-		t["A0MK"][40][1] = "*공격시 [|c00FCAE1D13%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, 전체 체력의 <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0MK"][40][1] = "*공격시 [|c00FCAE1D13%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, Maximum Health <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 7
-		t["A0MK"][41][1] = "*공격시 [|c00FCAE1D14%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, 전체 체력의 <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0MK"][41][1] = "*공격시 [|c00FCAE1D14%|r] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, Maximum Health <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 8
-		t["A0MK"][42][1] = "*공격시 [[|c00BF00FF1c00FF80404%r]] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, 전체 체력의 <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
+		t["A0MK"][42][1] = "*공격시 [[|c00BF00FF1c00FF80404%r]] 확률로 메리 주변 600범위 경계를 뒤틀어 적을 <1.5 seconds ~ 3.5 seconds>간 기절시키고, Maximum Health <0.5~1.5>% + 150,000 Physical Damage를 입힙니다.\r\
 *이 스킬이 발동되었을때, 메리의 활력 Cooldown이 1초 감소합니다.";
 -- aub1 9
 -- aub1 11
@@ -36305,7 +36305,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0RJ"][4][1] = "토부『운이 트이는 큰 무늬』";
 -- aub1 1
 		t["A0RJ"][5][1] = "*|c00FF80FF[활력]|r - 15 seconds\r\
-테위가 공격시 대상 지점을 망치로 힘껏 내려 찍어 대상 주변 450범위 적을 3초간 스턴시키고, 전체 체력의 3% + 200,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+테위가 공격시 대상 지점을 망치로 힘껏 내려 찍어 대상 주변 450범위 적을 3초간 스턴시키고, Maximum Health 3% + 200,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *발동시 아주 잠깐 테위가 정지됩니다.\r\
 [테위는 자신 이외의 활력 회복 효과를 받지 않습니다.]";
 -- [A0RX]
@@ -36373,7 +36373,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0S1"][4][1] = "*Meira가 공격시 마나를 1 회복합니다.\r\
 *Meira는 밤에 공격시 Attack Speed가 50% 증가합니다.\r\
 *Meira가 공격시 10% 확률로/ 마나가 50이 될 경우 / [활력]|r - 7초\r\
-전방 700거리의 적을 베어 전체 체력의 0.4% + 80,000의 |c00FF6464물리 피해|r를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
+전방 700거리의 적을 베어 Maximum Health 0.4% + 80,000|c00FF6464물리 피해|r를 입히고, 20% 확률로 집중 스택을 1회 획득합니다.";
 -- aart
 -- atp1 2
 -- aub1 2
@@ -36395,7 +36395,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0S2"][3][1] = "『어둠의 힘』- 집중 0회";
 -- aub1 1
-		t["A0S2"][4][1] = "*이 스킬의 집중 횟수가 5회가 됐을 때, 대상 지점을 빠르게 휩쓸어 전체 체력의 9% + 500,000의 |c00FF6464물리 피해|r를 입히고, 대상의 방어력을 영구히 20 감소시킵니다.\r\
+		t["A0S2"][4][1] = "*이 스킬의 집중 횟수가 5회가 됐을 때, 대상 지점을 빠르게 휩쓸어 Maximum Health 9% + 500,000|c00FF6464물리 피해|r를 입히고, 대상의 방어력을 영구히 20 감소시킵니다.\r\
 *이 스킬로 적을 1기라도 죽였을 경우, Meira의 집중 스택이 3 회복됩니다.";
 -- aart
 -- atp1 2
@@ -36500,7 +36500,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aart
 -- ahky
 -- aub1 1
-		t["A0QO"][8][1] = "*미노리코가 공격시 9% 확률로 대상 주변 500범위 내에 있는 적을 수확합니다. 20,000의 |c00FF6464 Physical Damage|r를 입히며, 범위 내에 있는 적 Units의 체력이 7% 이하라면 즉사시킵니다.\r\
+		t["A0QO"][8][1] = "*미노리코가 공격시 9% 확률로 대상 주변 500범위 내에 있는 적을 수확합니다. 20,000|c00FF6464 Physical Damage|r를 입히며, 범위 내에 있는 적 Units의 체력이 7% 이하라면 즉사시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 [사용식 능력]\r\
 *사용시 미노리코가 수확제를 일으켜 목재를 1 획득합니다.\r\
@@ -36528,7 +36528,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0AI"][3][1] = "*유기는 공격시 5% 확률로 발을 한번 크게 구릅니다. 한번 구를때마다 맵 전체 적을 1.2초간 스턴시킵니다. \r\
 |c00FF712D[허영갑주]|r + 2\r\
 *세 번째 발걸음에 아래의 효과가 적용됩니다.\r\
-*유기가 공격시 대상 지점에 강력한 일격을 날립니다. 대상 주변 1500범위에 적 전체 체력의 3% + 450,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*유기가 공격시 대상 지점에 강력한 일격을 날립니다. 대상 주변 1500범위에 적 Maximum Health 3% + 450,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *공격시 마나를 1 회복합니다. 마나가 125일때 발동하는 삼보필살은 |c00AC59FF True Damage|r로 적용되며, 데미지가 2배로 적용됩니다.";
 -- aart
 		t["A0AI"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNReincarnation.blp";
@@ -36643,13 +36643,13 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aart
 -- aub1 1
 		t["A0AD"][4][1] = "*|c00FF80FF[활력]|r - 4초\r\
-요우무가 공격한 대상 적 전체 체력의 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
+요우무가 공격한 대상 적 Maximum Health 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
 [보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
 단미검『미진지향참』\r\
 \r\
 *공격시 마나를 2 회복합니다. 마나가 120이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
-*범위 내의 적에게 전체 체력의 1% + 200,000의 |c00AC59FF True Damage|r를 입힙니다.";
+*범위 내의 적에게 Maximum Health 1% + 200,000|c00AC59FF True Damage|r를 입힙니다.";
 -- abuf 1
 -- atar 1
 -- [A0SA]
@@ -37099,8 +37099,8 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0SE"][3][1] = "권부 『천망 샌드백』";
 -- aub1 1
-		t["A0SE"][4][1] = "*이치린이 공격시 10% 확률로 운잔이 대상 지점을 강하게 내려칩니다. 대상 주변 400범위 적에게 145,000의 |c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시킵니다.\r\
-*이 스킬의 대상이 된 단일 Units 1기는 4초간 스턴되며, 500,000의 |c00FF6464 Physical Damage|r를 입습니다.";
+		t["A0SE"][4][1] = "*이치린이 공격시 10% 확률로 운잔이 대상 지점을 강하게 내려칩니다. 대상 주변 400범위 적에게 145,000|c00FF6464 Physical Damage|r를 입히고, 2초간 스턴시킵니다.\r\
+*이 스킬의 대상이 된 단일 Units 1기는 4초간 스턴되며, 500,000|c00FF6464 Physical Damage|r를 입습니다.";
 -- aart
 -- atp1 2
 -- aub1 2
@@ -37137,7 +37137,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0SG"][7][1] = "죄부『방황하는 대죄』";
 -- aub1 1
 		t["A0SG"][8][1] = "＊Around yourself 600 범위의 적 Movement Speed를 15% 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 400 범위의 적에게 잃은 체력의 1% + 50,000의 |c00379BFF마법 피해|r를 가합니다. 이 스킬은 [라운드]%만큼 추가로 피해가 증가합니다.\r\
+＊공격 시 10% 확률로 대상 주변 400 범위의 적에게 잃은 체력의 1% + 50,000|c00379BFF마법 피해|r를 가합니다. 이 스킬은 [라운드]%만큼 추가로 피해가 증가합니다.\r\
 ＊Extended 시 이 스킬을 발동할 때 마력을 3 회복합니다.";
 -- [A08X]
 -- atar 1
@@ -37160,7 +37160,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0SH"][6][1] = "『타임스토퍼 사쿠야』|cffffcc00[R]|r";
 -- aub1 1
 		t["A0SH"][7][1] = "*사쿠야가 시간을 정지시키고 대상 지점으로 순간이동 합니다.\r\
-*도착한 지점이 대상 지점보다 1500 거리 이상일 경우, 시공간의 균열을 일으켜 도착 지점 주변 500범위 적에게 전체 체력의 3% + 300,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+*도착한 지점이 대상 지점보다 1500 거리 이상일 경우, 시공간의 균열을 일으켜 도착 지점 주변 500범위 적에게 Maximum Health 3% + 300,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *도착한 거리가 멀수록 데미지가 증가합니다. 3000거리일때 최대로 증가합니다.[2배]\r\
 *Cooldown 7초";
 -- aart
@@ -37182,7 +37182,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0SI"][5][1] = "시부『실버 어큐트 360』";
 -- aub1 1
-		t["A0SI"][6][1] = "*사쿠야가 공격시 10% 확률로 나이프를 던져 대상 Units을 공격합니다. 대상 주변 500범위 적에게 전체 체력의 0.3% + 100,000의 |c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0SI"][6][1] = "*사쿠야가 공격시 10% 확률로 나이프를 던져 대상 Units을 공격합니다. 대상 주변 500범위 적에게 Maximum Health 0.3% + 100,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *|c00FF80FF[활력]|r - 3초\r\
 위 확률과 관계 없이 『실버 어큐트 360』이 발동합니다. 활력 효과로 발동시 데미지가 3배로 적용됩니다.";
 -- abuf 1
@@ -37782,7 +37782,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0SM"][2][1] = "해치워 주마!";
 -- aub1 1
 		t["A0SM"][3][1] = "＊미약한 전기를 통해 Around yourself 700 범위의 자신 소유 Units의 Attack Speed를 15% 증가시킵니다.\r\
-＊공격 시 15% 확률로 대상 주변 700 범위의 적에게 Current Health 0.5% + 100,000의 |c00379BFF마법 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 15% 확률로 대상 주변 700 범위의 적에게 Current Health 0.5% + 100,000|c00379BFF마법 피해|r를 가하고 2초간 기절시킵니다.";
 -- anam
 -- atar 1
 -- abuf 1
@@ -37814,7 +37814,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0SO"][1][1] = "원령『이루카의 벼락』";
 -- aub1 1
-		t["A0SO"][2][1] = "＊|c0044BBFF[Mana]|r - 130 : 대상에게 각인을 5 seconds 동안 새겨 대상 주변 450 범위의 적에게 0.5 seconds마다 전체 체력 0.2% + 50,000의 |c00379BFF마법 피해|r를 가합니다. 만약 각인된 대상이 사망한다면, 전체 체력 5.5% + 100,000의 |c00379BFF마법 피해|r를 가하고 자신의 마력을 25% 회복합니다.";
+		t["A0SO"][2][1] = "＊|c0044BBFF[Mana]|r - 130 : 대상에게 각인을 5 seconds 동안 새겨 대상 주변 450 범위의 적에게 0.5 seconds마다 전체 체력 0.2% + 50,000|c00379BFF마법 피해|r를 가합니다. 만약 각인된 대상이 사망한다면, 전체 체력 5.5% + 100,000|c00379BFF마법 피해|r를 가하고 자신의 마력을 25% 회복합니다.";
 -- anam
 -- aart
 -- atar 1
@@ -37936,9 +37936,9 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0SQ"][108][1] = "|c00A8F13A[Combination]|r: Unique Soul * 4 + Fragment of Ancients and Fantasy * 2\r\
 |c00A8F13A[Type Command]|r: 인셉션 걸(satsuki phan)\r\
 \r\
-[Attack Speed]: 없음\r\
+[Attack Speed]: None\r\
 [Movement Speed]: 300\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- aart
 		t["A0SQ"][109][1] = "Icon\\Unit\\BTNSatsuki_Phan.blp";
 -- [A0SR]
@@ -38238,7 +38238,7 @@ Spirit Sign 『Fantasy Seal』\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0SW]
 -- atp1 1
@@ -38311,7 +38311,7 @@ Spirit Sign 『Fantasy Seal』\r\
 \r\
 [Attack Speed]: 0.37 Cooldown\r\
 [Movement Speed]: 400\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0SX]
 -- atp1 1
@@ -38384,7 +38384,7 @@ Spirit Sign 『Fantasy Seal』\r\
 \r\
 [Attack Speed]: 0.3 Cooldown\r\
 [Movement Speed]: 325[Air movement]\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0SY]
 -- atp1 1
@@ -38455,9 +38455,9 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0SY"][64][1] = "|c00A8F13A[Combination]|r: ?\r\
 \r\
-[Attack Speed]: 없음\r\
+[Attack Speed]: None\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0SZ]
 -- atp1 1
@@ -38530,7 +38530,7 @@ Spirit Sign 『Fantasy Seal』\r\
 \r\
 [Attack Speed]: 0.21 Cooldown\r\
 [Movement Speed]: 355\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0T0]
 -- atp1 1
@@ -38676,7 +38676,7 @@ Spirit Sign 『Fantasy Seal』\r\
 \r\
 [Attack Speed]: 0.75 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0T2]
 -- atp1 1
@@ -38822,7 +38822,7 @@ Spirit Sign 『Fantasy Seal』\r\
 \r\
 [Attack Speed]: 0.38 Cooldown\r\
 [Movement Speed]: 450\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0T4]
 -- atp1 1
@@ -38968,7 +38968,7 @@ Spirit Sign 『Fantasy Seal』\r\
 \r\
 [Attack Speed]: 0.25 Cooldown\r\
 [Movement Speed]: 400\r\
-|c00F8BA54[Upgrade]|r : 없음";
+|c00F8BA54[Upgrade]|r : None";
 -- arac
 -- [A0T6]
 -- arac
@@ -39003,7 +39003,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["S00Y"][4][1] = "＊Around yourself 600 범위의 자신 소유 Units의 Attack Speed를 20% 증가시킵니다.\r\
 ＊Around yourself 600 범위의 적 Movement Speed를 25% 감소시킵니다.\r\
-＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 1 회복합니다. 메디슨 기준으로 달콤한 독을 뿌려 Around yourself 600 범위의 적에게 Current Health 2% + 80,000의 |c00AC59FF절대 피해|r를 가하고 6초간 아군의 공격력을 80% 증가시킵니다.";
+＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 1 회복합니다. 메디슨 기준으로 달콤한 독을 뿌려 Around yourself 600 범위의 적에게 Current Health 2% + 80,000|c00AC59FF절대 피해|r를 가하고 6초간 아군의 공격력을 80% 증가시킵니다.";
 -- anam
 -- abuf 1
 		t["S00Y"][6][1] = "B07R";
@@ -39014,8 +39014,8 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["S00Z"][3][1] = "무부『개싱 가든』";
 -- aub1 1
-		t["S00Z"][4][1] = "＊공격 시 12% 확률로 Around yourself 500 범위의 적에게 100,000의 |c00AC59FF절대 피해|r를 가하고 1.2초간 기절시킵니다.\r\
-＊|c00FF80FF[활력]|r - 24초 : 메디슨이 체내에 쌓인 독을 발산해 Around yourself 600 범위의 적에게 Current Health 3% + 150,000의 |c00AC59FF절대 피해|r를 가하고 자신과 회복할 수 없는 아군을 제외한 아군의 활력을 20% 회복시킵니다.";
+		t["S00Z"][4][1] = "＊공격 시 12% 확률로 Around yourself 500 범위의 적에게 100,000|c00AC59FF절대 피해|r를 가하고 1.2초간 기절시킵니다.\r\
+＊|c00FF80FF[활력]|r - 24초 : 메디슨이 체내에 쌓인 독을 발산해 Around yourself 600 범위의 적에게 Current Health 3% + 150,000|c00AC59FF절대 피해|r를 가하고 자신과 회복할 수 없는 아군을 제외한 아군의 활력을 20% 회복시킵니다.";
 -- anam
 -- abuf 1
 		t["S00Z"][6][1] = "B07Q";
@@ -39165,7 +39165,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 -- aub1 1
 		t["A0TL"][8][1] = "＊Around yourself 750 범위의 적 Movement Speed를 11% 감소시킨다.\r\
-＊공격 시 10% 확률로 Around yourself 750 범위의 적에게 5,000의 |c00379BFF마법 피해|r를 가하고 0.5 seconds간 기절시킨다.";
+＊공격 시 10% 확률로 Around yourself 750 범위의 적에게 5,000|c00379BFF마법 피해|r를 가하고 0.5 seconds간 기절시킨다.";
 -- atar 2
 -- atp1 2
 -- aub1 2
@@ -39797,11 +39797,11 @@ Spirit Sign 『Fantasy Seal』\r\
 -- arac
 -- [A0U9]
 -- atp1 1
-		t["A0U9"][1][1] = "『낙원의 입구를 향하여』|cffffcc00(B)|r";
+		t["A0U9"][1][1] = "『Towards the Entrance to Paradise』|cffffcc00(B)|r";
 -- aub1 1
-		t["A0U9"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 경계 이동합니다.\r\
+		t["A0U9"][2][1] = "＊[Ability] : 1100 Range blink.\r\
 \r\
-|c00959595보지 마. 오지 마. 알지 마. 건너지 마.|r";
+|c00959595|r";
 -- anam
 -- arac
 -- asat
@@ -39856,7 +39856,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A00S"][4][1] = "＊[사용식 능력] : 골드 1,000을 소모하고 소환합니다. 소환 후 이 카드를 묘지로 보냅니다.\r\
 ＊공격 시 대상 주변 400 범위 내의 적을 0.3초간 얼리고, 공격한 대상이 보스가 아니고 체력이 10% 이하라면 즉사시킵니다.\r\
-＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 0.9% + 100,000의 |c00AC59FF절대 피해|r를 가하고 1.3초간 기절시킵니다.\r\
+＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 0.9% + 100,000|c00AC59FF절대 피해|r를 가하고 1.3초간 기절시킵니다.\r\
 ＊푸른 눈의 백룡은 멸망의 폭렬질풍탄|cffffcc00[Q]|r 사용 가능\r\
 -공격력(|c00AC59FF절대|r) : 30,000\r\
 -Attack Speed : 0.4 Cooldown";
@@ -39905,7 +39905,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0UD"][4][1] = "＊[사용식 능력] : 백룡이 기를 모은 후 고밀도의 에너지 포를 전방에 쏴 잃은 체력 15%의 |c00AC59FF절대 피해|r를 가하고, 푸른 눈의 백룡은 사라집니다.\r\
 ＊공격 시 대상 주변 400 범위 내의 적을 0.3초간 얼리고, 공격한 대상이 보스가 아니고 체력이 10% 이하라면 즉사시킵니다.\r\
-＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 0.9% + 100,000의 |c00AC59FF절대 피해|r를 가하고 1.3초간 기절시킵니다.";
+＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 0.9% + 100,000|c00AC59FF절대 피해|r를 가하고 1.3초간 기절시킵니다.";
 -- ahky
 -- areq
 -- Ncl6G1
@@ -39917,7 +39917,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 2
 		t["A0UD"][16][1] = "＊[사용식 능력] : 백룡이 기를 모은 후 고밀도의 에너지 포를 전방에 쏴 잃은 체력 30%의 |c00AC59FF절대 피해|r를 가하고, 푸른 눈의 백룡은 사라집니다.\r\
 ＊공격 시 대상 주변 400 범위 내의 적을 0.3초간 얼리고, 공격한 대상이 보스가 아니고 체력이 20% 이하라면 즉사시킵니다.\r\
-＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 1.8% + 200,000의 |c00AC59FF절대 피해|r를 가하고 2.6초간 기절시킵니다.";
+＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 1.8% + 200,000|c00AC59FF절대 피해|r를 가하고 2.6초간 기절시킵니다.";
 -- atar 1
 -- atar 2
 -- aart
@@ -40218,7 +40218,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0UV"][5][1] = "석부『헤비 스톤 베이비』";
 -- aub1 1
 		t["A0UV"][6][1] = "＊우루미 주변 600 범위의 적 방어력을 20 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상에게 아기 돌지장을 던져 주변 500 범위의 적에게 75,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 10% 확률로 대상에게 아기 돌지장을 던져 주변 500 범위의 적에게 75,000|c00FF6464물리 피해|r를 가하고 2초간 기절시킵니다.";
 -- abuf 1
 -- atp1 2
 -- aub1 2
@@ -40238,7 +40238,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0UX"][2][1] = "귀부『헝그리 데몬 시즈』";
 -- aub1 1
-		t["A0UX"][3][1] = "*|c00FF80FF[활력]|r - 12초 : 미끼를 던져 고대어가 대상을 잡아먹도록 유도합니다. 2초 뒤, 고대어가 튀어올라 주변 500 범위의 적에게 250,000의 |c00FF6464물리 피해|r를 가하고 2초간 기절시키고 영구히 Movement Speed를 50 감소시킵니다.";
+		t["A0UX"][3][1] = "*|c00FF80FF[활력]|r - 12초 : 미끼를 던져 고대어가 대상을 잡아먹도록 유도합니다. 2초 뒤, 고대어가 튀어올라 주변 500 범위의 적에게 250,000|c00FF6464물리 피해|r를 가하고 2초간 기절시키고 영구히 Movement Speed를 50 감소시킵니다.";
 -- anam
 -- aart
 -- [A0UY]
