@@ -15725,14 +15725,14 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- Osf1 1
 -- anam
 -- atp1 1
-		t["A0JX"][4][1] = "UFO 해체|cffffcc00(Q)|r";
+		t["A0JX"][4][1] = "UFO Dismantiling|cffffcc00(Q)|r";
 -- ahky
 -- aart
 		t["A0JX"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNRepair.blp";
 -- aub1 1
-		t["A0JX"][7][1] = "＊컬러 UFO를 해체합니다. 해체는 5 seconds 동안 진행되며 취소할 수 있습니다.\r\
--레드, 블루, 그린 : Normal UFO 획득\r\
--레인보우 : 두 종류의 컬러 UFO 획득";
+		t["A0JX"][7][1] = "＊Dismantles a colored UFO. 5 seecond cast time and can be canceled.\r\
+-Red,Blue,Green : Normal UFO\r\
+-Rainbow : Two Colored UFO";
 -- [A0JY]
 -- anam
 -- atp1 1
