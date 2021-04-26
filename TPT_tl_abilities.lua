@@ -24,13 +24,13 @@ TPT_abilities_loader = function(t)
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade";
 -- [AOae]
 -- atp1 1
-		t["AOae"][1][1] = "일부『다이렉트 선라이트』";
+		t["AOae"][1][1] = "Sun Sign 『Direct Sunlight』";
 -- anam
 		t["AOae"][2][1] = "[Arcana]";
 -- aub1 1
-		t["AOae"][3][1] = "*써니 주변 700범위 적의 Movement Speed를 15% 감소시킵니다.\r\
-*Sunny Milk가 공격시 25% 확률로 적에게 눈이 멀정도로 강력한 햇빛을 발사합니다. 대상 Units에게 95,000|c00AC59FF True Damage|r를 입히고, 1초간 스턴시킵니다.\r\
-[시간이 낮일 경우, 스턴 시간이 3초로 증가합니다.]";
+		t["AOae"][3][1] = "*Reduce Movement Speed by 15% in a 700 AoE.\r\
+*25% chance on attack to deal 95,000|c00AC59FF True Damage|r and stun for 1 second.\r\
+[If it is morning, stun time is increased to 3 seconds.]";
 -- aart
 		t["AOae"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNResurrection.blp";
 -- abuf 1
@@ -11651,9 +11651,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- anam
 -- arac
 -- atp1 1
-		t["A0BW"][3][1] = "Light Sign 『어그레시브 라이트』";
+		t["A0BW"][3][1] = "Sun Sign 『Aggressive Light』";
 -- aub1 1
-		t["A0BW"][4][1] = "＊공격당한 대상이 Remilia Scarlet[보스]라면, 파문의 빛으로 1,000|c00379BFFMagic Damage|r를 가한다.";
+		t["A0BW"][4][1] = "＊When attacking Remilia Scarlet[Boss], deal 1,000|c00379BFFMagic Damage|r.";
 -- aart
 		t["A0BW"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNHealingWave.blp";
 -- [A0BZ]
@@ -14388,7 +14388,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0H7"][2][1] = "사천왕오의『삼보괴폐』";
 -- aub1 1
-		t["A0H7"][3][1] = "*|c00FF80FF[활력]|r - 28 seconds\r\
+		t["A0H7"][3][1] = "*|c00FF80FF[Health]|r - 28 seconds\r\
 *스이카가 잔영을 생성하여 2초간 정신집중을 한 뒤 대상 적을 있는 힘껏 공격합니다. 정신집중이 시작될때 대상 지점 주변 1000범위 내에 있는 적을 3초간 스턴시킵니다.\r\
 *대상이 된 적 1기는 즉사합니다.\r\
 *대상 지점 주변 1000범위 내에 있는 적에게 Maximum Health 10% + 1500,000|c00AC59FF절대 피해|r를 입힙니다.";
@@ -30913,12 +30913,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- anam
 		t["A0HP"][4][1] = "[써니]";
 -- atp1 1
-		t["A0HP"][5][1] = "순광『페이탈 플래쉬』";
+		t["A0HP"][5][1] = "Flickering Light 『Fatal Flash』";
 -- aub1 1
-		t["A0HP"][6][1] = "*써니 주변 700범위 적의 방어력을 35 감소시킵니다.\r\
-*Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 60이 됐을때 발동합니다.\r\
-*대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 Maximum Health 1% + 155,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-|c009292C9보너스 효과|r : 자신이 Chronicle Units을 Combination하지 않았다면[세이자 특수 Combination 제외] 발동시 주변 800범위 아군의 마나를 20% 회복시킵니다.";
+		t["A0HP"][6][1] = "*-35 Defense in a 700 AoE.\r\
+*Restore 1 Mana on attack. Activates at 60 Mana.\r\
+*Deals 1% Maximum Health + 155,000|c00FF6464 Physical Damage|r in a 550 AoE.\r\
+|c009292C9Bonus Effect|r : If you haven't made any Chronicle units [Seija Special Combination excluded], restores 20% Mana to nearby allies in an 800 AoE upon activation.";
 -- abuf 1
 		t["A0HP"][8][1] = "B041";
 -- atar 2
@@ -31222,7 +31222,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A0HP"][306][1] = "*써니 주변 700범위 적의 방어력을 16 감소시킵니다.\r\
 *Sunny Milk가 공격시 마나를 1 회복합니다. 마나가 100이 됐을때 발동합니다.\r\
 *대상 지점에 엄청난 섬광을 내뿜습니다. 섬광 주변 550범위 적에게 Maximum Health 1% + 155,000 Physical Damage를 입힙니다.\r\
-|c009292C9보너스 효과|r : 자신이 Chronicle Units을 Combination하지 않았다면[세이자 특수 Combination 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
+|c009292C9Bonus Effect|r : 자신이 Chronicle Units을 Combination하지 않았다면[세이자 특수 Combination 제외] 발동시 주변 800범위 아군의 마나를 10% 회복시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
