@@ -233,14 +233,14 @@ Effect : Attack up to 4 nearby enemies\r\
 |c00F8BA54[Upgrade]|r : Unique and Below Upgrade";
 -- [AOcr]
 -- atp1 1
-		t["AOcr"][1][1] = "성광『스타 레이저』";
+		t["AOcr"][1][1] = "Starlight 『Star Laser』";
 -- anam
 		t["AOcr"][2][1] = "[Legendary]";
 -- aub1 1
-		t["AOcr"][3][1] = "*Star Sapphire가 공격시 마나를 5 회복합니다. 마나 25를 소모하여 아래의 효과를 발동합니다.\r\
-*대상 Units과 그 주변 300범위 적에게 125,000|c00379BFF Magical Damage|r를 입히는 섬광을 발사합니다.\r\
-*|c00C5EA53[Combination Synergy]|r말썽쟁이 3Fairy\r\
--플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 Units의 체력이 15% 감소합니다.";
+		t["AOcr"][3][1] = "*Restore 5 Mana on attack. Activates at 25 Mana.\r\
+*Deal 125,000|c00379BFF Magical Damage|r in a 300 AoE.\r\
+*|c00C5EA53[Combination Synergy]|rThree Fairies\r\
+-If the player has Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended], reduce the Health of all lane units by 15% when they spawn.";
 -- aart
 		t["AOcr"][4][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNGenericSpellImmunity.blp";
 -- [ACpv]
@@ -907,9 +907,9 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 		t["Apxf"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNStarfall.blp";
 -- anam
 -- atp1 1
-		t["Apxf"][3][1] = "성광『스타 스톰』";
+		t["Apxf"][3][1] = "Starlight 『Star Storm』";
 -- aub1 1
-		t["Apxf"][4][1] = "*주변 800범위에 0.4초마다 별빛을 발사합니다. 발사한 별빛은 700|c00379BFF Magical Damage|r를 입힙니다.";
+		t["Apxf"][4][1] = "*Every 0.4 seconds deal 700|c00379BFF Magical Damage|r in a 800 AoE.";
 -- amat
 		t["Apxf"][5][1] = "Abilities\\Spells\\NightElf\\Starfall\\StarfallTarget.mdl";
 -- [ANsi]
@@ -8296,7 +8296,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A07W"][11][1] = "h034";
 -- [A07X]
 -- anam
-		t["A07X"][1][1] = "스타 레이저";
+		t["A07X"][1][1] = "Star Laser";
 -- atar 1
 -- alig
 		t["A07X"][3][1] = "MFPB";
@@ -10123,14 +10123,14 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A09N]
 -- arac
 -- atp1 1
-		t["A09N"][2][1] = "성열 『아이스 디졸버』";
+		t["A09N"][2][1] = "Starfire 『Ice Dissolver』";
 -- aub1 1
-		t["A09N"][3][1] = "*공격시 10% 확률로 대상 지점에 강렬한 별불꽃을 투하합니다. 별불꽃에 피격된 적은 Maximum Health 0.5% + 100,000|c00379BFF Magical Damage|r를 입습니다.\r\
+		t["A09N"][3][1] = "*10% chance to deal 0.5% Maximum Health + 100,000|c00379BFF Magical Damage|r.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-『속이 시커먼 Fairy』\r\
-*겉보기와는 다르게 교활한 Fairy으로, 어느 진영에서든 Combination할 수 있습니다.\r\
-*Star Sapphire[Legendary]를 Combination할 경우, 진영에서 생성할 수 있는 Normal Units의 갯수가 초기화됩니다.\r\
-*Star Sapphire[Legendary]는 플레이어당 하나만 Combination할 수 있습니다.";
+『Corrupted Fairy』\r\
+*Can be combined regardless of chosen camp.\r\
+*When creating Star Sapphire[Legendary], reset the purchase count of Normal units in your faction.\r\
+*Only one Star Sapphire[Legendary] can be made per player.";
 -- anam
 		t["A09N"][4][1] = "[스타]";
 -- aart
@@ -11809,7 +11809,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- arac
 -- atp1 1
 -- aub1 1
-		t["A0C5"][3][1] = "＊스타가 별똥별 탄막을 발사해 Around yourself 800 범위의 적에게 0.4초마다 7백의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A0C5"][3][1] = "＊Every 0.4 seconds deal 700 |c00379BFFMagic Damage|r in a 800 AoE.";
 -- anam
 		t["A0C5"][4][1] = "[Rare]스타_R";
 -- aart
@@ -16075,8 +16075,8 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
-|c0097FF2F[Combination Synergy]|r말썽쟁이 3Fairy\r\
--플레이어가 Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended]를 보유하고 있을 경우, 라인에 생성되는 Units의 체력이 15% 감소합니다.";
+|c0097FF2F[Combination Synergy]|rThree Fairies\r\
+-If the player has Sunny Milk[Arcana]/Star Sapphire[Legendary]/Luna Child[Ascended], reduce the Health of all lane units by 15% when they spawn.";
 -- aart
 -- [A0D0]
 -- atar 1
@@ -31955,15 +31955,15 @@ Alice가 공격시 대상 지점에 마력이 깃든 인형을 던져 폭발시�
 		t["A0K3"][24][1] = "ngh2";
 -- [A09E]
 -- aub1 1
-		t["A09E"][1][1] = "*기본적으로 스타 주변 700범위 적의 Movement Speed를 25% 감소시킵니다.\r\
-*플레이어의 Star Sapphire가 입힌 데미지의 10%~30%를 모아둡니다. 모은 수치가 2억이 될때마다 발동하며, Star Sapphire가 휴대용 우주를 설치합니다.\r\
-*휴대용 우주 주변 800범위내의 Units의 마나를 초당 15씩 회복시킵니다.\r\
-*휴대용 우주는 10 seconds간 지속되며, 휴대용 우주가 지속중일 경우, 휴대용 우주를 설치하기 위해 필요한 데미지가 쌓이지 않습니다.";
+		t["A09E"][1][1] = "*Reduce Movement Speed by 25% in a 700 AoE.\r\
+*Collects 10% to 30% of damage dealt by Star Sapphire. Triggers every time the collected value reaches 200,000,000, creating a portable universe.\r\
+*Restores 15 Mana per second for all allies in an 800 AoE.\r\
+*The portable universe lasts for 10 seconds. When the portable universe is present, damage is not accumulated.";
 -- atar 1
 -- atp1 1
-		t["A09E"][4][1] = "광성『오리온 벨트』";
+		t["A09E"][4][1] = "Bright Star 『Orion Belt』";
 -- anam
-		t["A09E"][5][1] = "[스타]오리온 벨트";
+		t["A09E"][5][1] = "[스타]Orion Belt";
 -- aart
 -- abuf 1
 		t["A09E"][7][1] = "B06F";
