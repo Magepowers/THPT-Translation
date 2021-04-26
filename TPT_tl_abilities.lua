@@ -11799,9 +11799,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- anam
 		t["A0C3"][1][1] = "[Rare]요시카_R";
 -- atp1 1
-		t["A0C3"][2][1] = "독조『포이즌 레이즈』";
+		t["A0C3"][2][1] = "Poison Nail 『Poison Raze』";
 -- aub1 1
-		t["A0C3"][3][1] = "＊공격 시 2초 동안 1초마다 8백의 |c00379BFFMagic Damage|r를 가하고 Movement Speed를 20% 감소시킨다.";
+		t["A0C3"][3][1] = "＊On attack for 2 seconds, each second deal 800 |c00379BFFMagic Damage|r and reduce Movement Speed by 20%.";
 -- aart
 		t["A0C3"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNPoisonArrow.blp";
 -- arac
