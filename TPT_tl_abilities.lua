@@ -164,16 +164,16 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["Awar"][1][1] = "[Phantasm]";
 -- atp1 1
-		t["Awar"][2][1] = "질투『녹색의 눈을 한 보이지 않는 괴물』";
+		t["Awar"][2][1] = "Envy 『Green-Eyed Invisible Monster』";
 -- aub1 1
-		t["Awar"][3][1] = "*파르시 주변 600범위 적의 Movement Speed를 20% 감소시킵니다.\r\
-*파르시의 스킬이 발동했을때 다음과 같은 확률에 따라 질투합니다. 질투한 횟수만큼 데미지가 배수로 적용됩니다.\r\
+		t["Awar"][3][1] = "*Reduces Movement Speed by 20% in a 650 AoE.\r\
+*Parsee becomes jealous when activating skills. Damage is multipled based on the number of times she becomes jealous.\r\
 \r\
-40% + 클리어 횟수당 0.15% 상승 : 2번 질투합니다.\r\
-25% + 클리어 횟수당 0.1% 상승 : 3번 질투합니다.\r\
-15% + 클리어 횟수당 0.075% 상승 : 4번 질투합니다.\r\
+40% + 0.15% x Clear Count : Jealous 2 times.\r\
+25% + 0.1% x Clear Count : Jealous 3 times.\r\
+15% + 0.075% x Clear Count : Jealous 4 times.\r\
 \r\
-|c008000FF*각 확률이 클리어 횟수에 비례해 증가합니다. 80회의 클리어 제한이 있습니다.|r";
+|c008000FF*There is a limit of 80 clears.|r";
 -- aart
 		t["Awar"][5][1] = "Renningan.blp";
 -- arac
@@ -8306,9 +8306,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- anam
 -- arac
 -- atp1 1
-		t["A07Y"][3][1] = "화소야『시로의 재』";
+		t["A07Y"][3][1] = "Grandpa Hanasaka 『Shiro's Ashes』";
 -- aub1 1
-		t["A07Y"][4][1] = "＊공격 시 15% 확률로 Around yourself 800 범위의 적에게 3천의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A07Y"][4][1] = "＊15% chance on attack to deal 3000 |c00379BFFMagic Damage|r in an 800 AoE.";
 -- aart
 -- [A07Z]
 -- anam
@@ -25628,9 +25628,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- anam
 		t["A0OX"][1][1] = "[파르시][엘룬]";
 -- atp1 1
-		t["A0OX"][2][1] = "원한염법『사무친 원한 갚기』";
+		t["A0OX"][2][1] = "Resentment Art 『Grudge Returning』";
 -- aub1 1
-		t["A0OX"][3][1] = "*파르시가 공격시 10% 확률로 전방 750거리, 250범위 내의 적에게 원한을 뿜어내어 적이 받는  Magical Damage를 45% 증폭시킵니다.";
+		t["A0OX"][3][1] = "*10% chance to make enemies in a 250-750 AoE receive 45% more Magic Damage.";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -27118,10 +27118,10 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A0PL]
 -- arac
 -- atp1 1
-		t["A0PL"][2][1] = "『젤러시 봄버』";
+		t["A0PL"][2][1] = "『Jealousy Bomber』";
 -- aub1 1
-		t["A0PL"][3][1] = "*파르시 주변 650범위 아군의 Attack Speed를 14% 상승시킵니다.\r\
-*파르시가 공격시 10% 확률로 대상 주변 650범위에 있는 적에게 120,000|c00379BFF Magical Damage|r를 입히고 1초간 스턴시킵니다.";
+		t["A0PL"][3][1] = "*Increases Attack Speed by 14% in a 650 AoE.\r\
+*10% chance to deal 120,000|c00379BFF Magical Damage|r and stun for 1 second in a 650 AoE.";
 -- anam
 -- atar 1
 -- abuf 1
@@ -33955,11 +33955,11 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0RG]
 -- arac
 -- atp1 1
-		t["A0RG"][2][1] = "화소야『꽃 피우는 인자한 자를 향한 질투』";
+		t["A0RG"][2][1] = "Grandpa Hanasaka 『Jealousy of the Kind and Lovely』";
 -- aub1 1
-		t["A0RG"][3][1] = "*파르시가 공격시 마나를 1씩 회복합니다. 마나가 150이 됐을때, 맵 전체 적 Units을 질투합니다. 맵 전체 적 Units의 체력을 5% 감소시킵니다.[보스 Units 제외] 질투한 Units 1기당 0.5의 마나를 돌려받습니다.\r\
-*질투『녹색의 눈을 한 보이지 않는 괴물』의 효과로 연쇄질투 시 체력을 1%씩 추가로 감소시킵니다.\r\
-*파르시는 다른 마나 회복의 효과를 받지 않습니다.";
+		t["A0RG"][3][1] = "*Restores 1 Mana on attack. At 150 mana make all enemy units on the map jealous, reducing their Health by 5%.[Boss units excluded] Get 0.5 mana back for every affected unit.\r\
+*Envy 『Green-Eyed Invisible Monster』 reduces an additional 1% Health by affected units.\r\
+*Parsee is not affected by other sources of Mana Regeneration.";
 -- anam
 -- atar 1
 -- abuf 1
