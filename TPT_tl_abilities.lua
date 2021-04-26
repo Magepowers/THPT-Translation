@@ -4216,12 +4216,12 @@ Light Barrier 『Wall Break』\r\
 -- [A02X]
 -- arac
 -- aub1 1
-		t["A02X"][2][1] = "＊UFO 주변 1000 범위의 적 Movement Speed를 6% 감소시킵니다.";
+		t["A02X"][2][1] = "＊Decreases Movement Speed by 6% in a 1000 AoE.";
 -- atar 1
 -- atat
 		t["A02X"][4][1] = "Abilities\\Spells\\Undead\\UnholyAura\\UnholyAura.mdl";
 -- atp1 1
-		t["A02X"][5][1] = "Unknown『애수의 블루 UFO 습격』";
+		t["A02X"][5][1] = "Unknown『Blue UFO of Sadness』";
 -- anam
 		t["A02X"][6][1] = "[Magic]";
 -- aart
@@ -4259,9 +4259,9 @@ Light Barrier 『Wall Break』\r\
 -- arac
 -- anam
 -- atp1 1
-		t["A031"][3][1] = "Unknown『분노의 레드 UFO 습격』";
+		t["A031"][3][1] = "Unknown『Red UFO of Fury』";
 -- aub1 1
-		t["A031"][4][1] = "＊맵 전체의 자신 소유 Units 공격력을 10% 증가시킵니다.";
+		t["A031"][4][1] = "＊Increase Attack by 10% for all of your units on the map.";
 -- atar 1
 -- abuf 1
 		t["A031"][6][1] = "B007";
@@ -40383,11 +40383,11 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A01S]
 -- arac
 -- aub1 1
-		t["A01S"][2][1] = "＊맵 전체의 자신 소유 Units Attack Speed를 5% 증가시킵니다.";
+		t["A01S"][2][1] = "＊Increases Attack Speed by 5% for all of the units on your map.";
 -- atar 1
 -- atat
 -- atp1 1
-		t["A01S"][5][1] = "Unknown『의심의 그린 UFO 습격』";
+		t["A01S"][5][1] = "Unknown『Green UFO of Doubt』";
 -- anam
 -- aart
 -- abuf 1
