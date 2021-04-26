@@ -8949,9 +8949,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A08J]
 -- arac
 -- atp1 1
-		t["A08J"][2][1] = "야맹『야작의 노래』";
+		t["A08J"][2][1] = "Night-Blindness 『Song of the Night Sparrow』";
 -- aub1 1
-		t["A08J"][3][1] = "＊공격당한 대상이 보스가 아니라면, 1천5백의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A08J"][3][1] = "＊If the target is not a Boss, deal 1500 |c00379BFFMagic Damage|r.";
 -- anam
 		t["A08J"][4][1] = "[Rare]미스티아_R";
 -- aart
