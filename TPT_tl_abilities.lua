@@ -889,7 +889,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 -- atp1 1
 		t["Aprg"][4][1] = "금기『카고메 카고메』 - 단축키 (R)";
 -- aub1 1
-		t["Aprg"][5][1] = "*사용식 능력: 플랑드르가 아군 Units 하나를 술래로 지명합니다. 술래로 지명된 Units은 Attack Speed가 45% 상승합니다. 이 스킬을 술래에게 다시 사용할 경우 술래가 취소되며 술래를 다시 지정할 수 있습니다.\r\
+		t["Aprg"][5][1] = "*Active Ability: 플랑드르가 아군 Units 하나를 술래로 지명합니다. 술래로 지명된 Units은 Attack Speed가 45% 상승합니다. 이 스킬을 술래에게 다시 사용할 경우 술래가 취소되며 술래를 다시 지정할 수 있습니다.\r\
 *플랑드르가 공격시 14% 확률로 Around yourself 750범위 Units에게 165,000|c00379BFF Magical Damage|r를입히고, 3초간 60%의 슬로우를 입힙니다.\r\
 *플랑드르가 공격시 10% 확률로 공격한 적의 체력이 8% 이하라면 즉사시킵니다.[보스 Units 포함] 즉사시킨 적은 폭발하며 주변 450범위 적을 2초간 스턴시킵니다.";
 -- aart
@@ -1080,7 +1080,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 -- atp1 1
 		t["ANht"][3][1] = "『폭포Kappa단원 소집』|cffffcc00(W)|r - 1기 소환 가능";
 -- aub1 1
-		t["ANht"][5][1] = "*사용식 능력 : 목재 3을 소모해 폭포Kappa단원 한 기를 소집합니다. \r\
+		t["ANht"][5][1] = "*Active Ability : 목재 3을 소모해 폭포Kappa단원 한 기를 소집합니다. \r\
 *시전 시간 3초. Cooldown 135 seconds\r\
 *Kappa단원은 영구히 지속되며, 비행가능합니다.";
 -- anam
@@ -2641,7 +2641,7 @@ Light Barrier 『Wall Break』\r\
 		t["AEbl"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNNagaWeaponUp3.blp";
 -- anam
 -- aub1 1
-		t["AEbl"][8][1] = "*사용식 능력 : 레밀리아가 맵 전체 어디든 이동합니다. [Cooldown 20 seconds]\r\
+		t["AEbl"][8][1] = "*Active Ability : 레밀리아가 맵 전체 어디든 이동합니다. [Cooldown 20 seconds]\r\
 *레밀리아가 공격시 10% 확률로 대상 지점에 자신의 요력으로 생성한 창을 생성해 투척합니다. 날아간 창은 전방 1000거리 250범위 내에 있는 적에게 250,000|c00379BFF Magical Damage|r를 입힙니다.\r\
 *레밀리아가 공격시 15% 확률로 대상 자경단 미션 Units에게 Maximum Health 1% + 100,000|c00379BFF Magical Damage|r을 입히고 2초간 스턴시킵니다.";
 -- [ACc3]
@@ -2798,7 +2798,7 @@ Light Barrier 『Wall Break』\r\
 		t["ACt2"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNSpiritWolf.blp";
 -- anam
 -- aub1 1
-		t["ACt2"][8][1] = "*사용식 능력 : 아운이 5 seconds간 집중합니다. 집중을 마친 뒤 아운이 마지막 포효를 내지릅니다. 마지막 포효는 1000범위 내의 적 Units을 모두 제거합니다. \r\
+		t["ACt2"][8][1] = "*Active Ability : 아운이 5 seconds간 집중합니다. 집중을 마친 뒤 아운이 마지막 포효를 내지릅니다. 마지막 포효는 1000범위 내의 적 Units을 모두 제거합니다. \r\
 *보스 Units에게는 Maximum Health 60%에 해당하는 |c00AC59FF True Damage|r를 입힙니다. 사용 후 아운은 제거됩니다.\r\
 *85라운드 이후에는 효과가 발동하지 않습니다.\r\
 [스토리 보스에는 적용되지 않습니다]";
@@ -2970,7 +2970,7 @@ Light Barrier 『Wall Break』\r\
 -- aub1 4
 -- aub1 5
 -- aub1 6
-		t["AOcl"][25][1] = "*사용식 능력 : 대상의 엉덩이에서 구슬을 뽑아내 즉사시킵니다. Cooldown 12초\r\
+		t["AOcl"][25][1] = "*Active Ability : 대상의 엉덩이에서 구슬을 뽑아내 즉사시킵니다. Cooldown 12초\r\
 *시리코다마를 6개 만들때마다 뽑아낸 시리코다마를 이용해 시리듐 원자로를 만들어 폭발시킵니다. Around yourself 1000범위 내에 있는 적에게 1.5 seconds의 스턴과 Maximum Health 1% + 400,000 Magical Damage를 입힙니다.";
 -- [ANst]
 -- aefs
@@ -11573,11 +11573,11 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A00H"][5][1] = "『수확』";
 -- aub1 1
-		t["A00H"][6][1] = "＊공격 시 35% 확률로 공격력의 2.25배 + 150|c00FF6464Critical Damage|r를 가한다.";
+		t["A00H"][6][1] = "＊35% chance on attack to deal 2.25 x Damage + 150|c00FF6464Critical Damage|r.";
 -- atp1 2
 		t["A00H"][7][1] = "『수확』Extra";
 -- aub1 2
-		t["A00H"][8][1] = "가을의 추수하듯 대상을 수확하여 35%확률로 2.75배의 데미지와 450추가 데미지를 입힙니다.";
+		t["A00H"][8][1] = "35% chance on attack to deal 2.75 x Damage + 450 Damage.";
 -- [A021]
 -- anam
 -- arac
@@ -14187,7 +14187,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0GJ"][1][1] = "『쉽고 빠른 이동방법』|cffffcc00(B)|r";
 -- aub1 1
-		t["A0GJ"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0GJ"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595이동계의 혁명인 블링크. 멀리 이동하기엔 비전력이 부조카당|r";
 -- anam
@@ -26913,10 +26913,10 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- atar 1
 -- atp1 1
-		t["A0PC"][3][1] = "추부『가을 하늘과 소녀의 마음』";
+		t["A0PC"][3][1] = "Autumn Sign 『The Autumn Sky and a Maiden's Heart』";
 -- aub1 1
-		t["A0PC"][4][1] = "*미노리코 주변 750범위 내에 있는 적의 방어력을 20 감소시킵니다.\r\
-*미노리코가 공격시 25% 확률로 대상 Units을 자신의 위치로 끌어오고 2초간 스턴시킵니다.";
+		t["A0PC"][4][1] = "*Defense -20 in a 750 AoE.\r\
+*25% chance to drag a target unit on attack to your location and stun them for 2 seconds.";
 -- anam
 		t["A0PC"][5][1] = "[마미조][미노리코]";
 -- aart
@@ -36500,13 +36500,13 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aart
 -- ahky
 -- aub1 1
-		t["A0QO"][8][1] = "*미노리코가 공격시 9% 확률로 대상 주변 500범위 내에 있는 적을 수확합니다. 20,000|c00FF6464 Physical Damage|r를 입히며, 범위 내에 있는 적 Units의 체력이 7% 이하라면 즉사시킵니다.\r\
+		t["A0QO"][8][1] = "*9% Chance to harvest enemies in a 500 AoE. Deals 20,000|c00FF6464 Physical Damage|r and instantly kills units if their Health is less than 7%.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-[사용식 능력]\r\
-*사용시 미노리코가 수확제를 일으켜 목재를 1 획득합니다.\r\
+[Active Ability]\r\
+*When used, creates a harvest festival, giving 1 Wood.\r\
 *Cooldown 135 seconds";
 -- atp1 1
-		t["A0QO"][9][1] = "실부『웜 컬러 하베스트』|cffffcc00[R]|r";
+		t["A0QO"][9][1] = "Fruit Sign 『Warm Color Harvest』|cffffcc00[R]|r";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -37614,7 +37614,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0SK"][7][1] = "『한 번 본 것을 잊지 않는 정도의 능력』|c00FF8040[E]|r";
 -- aub1 1
-		t["A0SK"][8][1] = "＊[사용식 능력] : 대상을 기억하고 기록하여 이하의 효과를 얻습니다. 한 번 기록하면 바꿀 수 없습니다.\r\
+		t["A0SK"][8][1] = "＊[Active Ability] : 대상을 기억하고 기록하여 이하의 효과를 얻습니다. 한 번 기록하면 바꿀 수 없습니다.\r\
 ＊|c00FF80FF[활력]|r - 20 seconds / |c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, 아큐가 활력/마력 효과를 발동한다면, 기록한 Units의 활력/마력을 모두 회복시킵니다.\r\
 |c00ff2222[!]제한|r : 회복을 받지 않는 Units은 제외됩니다. Extended한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
 -- aub1 2
@@ -39023,7 +39023,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0T9]
 -- atp1 1
 -- aub1 1
-		t["A0T9"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0T9"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595콘파로~ 콘파로~|r";
 -- anam
@@ -39147,7 +39147,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0TK]
 -- atp1 1
 -- aub1 1
-		t["A0TK"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0TK"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595아인스, 쯔바이, 드라이, 피어!|r";
 -- anam
@@ -39622,7 +39622,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- spb1A1
 		t["A0TS"][3][1] = "A0TX,A0TY,A0U0,A0TZ";
 -- aub1 1
-		t["A0TS"][4][1] = "＊[사용식 능력] : Devil의 계약으로 이익을 줌과 동시에 대가를 가져갑니다. 계약이 성사되면 이 스킬은 사라집니다. 같은 계약을 하면 대가만 지불합니다.\r\
+		t["A0TS"][4][1] = "＊[Active Ability] : Devil의 계약으로 이익을 줌과 동시에 대가를 가져갑니다. 계약이 성사되면 이 스킬은 사라집니다. 같은 계약을 하면 대가만 지불합니다.\r\
 -Extended 부적을 하나 갖지만, 자신 소유 Units의 Attack Speed를 20% 감소시킨다.\r\
 -Around yourself 500 범위의 아군 Attack Speed를 40% 증가시키지만, 적의 Movement Speed를 60% 증가시킨다.\r\
 -마경『비나의 폐허』에 허영갑주 60과 받는 Magic Damage 45% 증폭 효과가 추가되지만, 자신의 Units 카운트를 20 감소시킨다.\r\
@@ -39838,7 +39838,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A00R"][3][1] = "내 차례군, 드로우!|cffffcc00[D]|r";
 -- aub1 1
-		t["A00R"][4][1] = "＊[사용식 능력] : 목재 4를 소모하고 덱에서 카드를 드로우 합니다. 도화전 척척박사 할아버지도 어떤 카드가 나올지 모릅니다. 2장 중 하나만 활성화됩니다. Cooldown 225 seconds\r\
+		t["A00R"][4][1] = "＊[Active Ability] : 목재 4를 소모하고 덱에서 카드를 드로우 합니다. 도화전 척척박사 할아버지도 어떤 카드가 나올지 모릅니다. 2장 중 하나만 활성화됩니다. Cooldown 225 seconds\r\
 -몬스터 카드 : 푸른 눈의 백룡\r\
 -마법 카드 : 융합";
 -- ahky
@@ -39854,7 +39854,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A00S"][3][1] = "몬스터 카드 : 푸른 눈의 백룡 |cffffcc00[Q]|r";
 -- aub1 1
-		t["A00S"][4][1] = "＊[사용식 능력] : 골드 1,000을 소모하고 소환합니다. 소환 후 이 카드를 묘지로 보냅니다.\r\
+		t["A00S"][4][1] = "＊[Active Ability] : 골드 1,000을 소모하고 소환합니다. 소환 후 이 카드를 묘지로 보냅니다.\r\
 ＊공격 시 대상 주변 400 범위 내의 적을 0.3초간 얼리고, 공격한 대상이 보스가 아니고 체력이 10% 이하라면 즉사시킵니다.\r\
 ＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 0.9% + 100,000|c00AC59FF절대 피해|r를 가하고 1.3초간 기절시킵니다.\r\
 ＊푸른 눈의 백룡은 멸망의 폭렬질풍탄|cffffcc00[Q]|r 사용 가능\r\
@@ -39873,7 +39873,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0UB"][3][1] = "마법 카드 : 융합 |cffffcc00[W]|r";
 -- aub1 1
-		t["A0UB"][4][1] = "＊[사용식 능력] : 목재 3을 소모하고 발동합니다.\r\
+		t["A0UB"][4][1] = "＊[Active Ability] : 목재 3을 소모하고 발동합니다.\r\
 ＊같은 등급 Units 2기를 선택해 제물로 바쳐 무작위 상위 Units을 소환합니다.\r\
 -Unique Units 2기 제물 : Epic Units 1기 소환\r\
 -Epic Units 2기 제물 : Historic/Phantasm 1기 소환";
@@ -39889,7 +39889,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0UC"][3][1] = "함정 카드 : 죽음의 덱 파괴 바이러스 |cffffcc00[E]|r";
 -- aub1 1
-		t["A0UC"][4][1] = "＊[사용식 능력] : Rare 이상의 Units을 소모하고 발동합니다.\r\
+		t["A0UC"][4][1] = "＊[Active Ability] : Rare 이상의 Units을 소모하고 발동합니다.\r\
 ＊대상 Units을 폭사시켜 주변 600 범위의 보스를 제외한 적을 감염시켜 1초마다 전체 체력 3%의 |c00AC59FF절대 피해|r를 가합니다. 감염된 적의 체력이 20% 이하라면, 즉사시키고 다시 주변의 적을 감염시킵니다. 감염은 중첩되지 않으며 라운드가 지나면 치료됩니다.";
 -- ahky
 -- areq
@@ -39903,7 +39903,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0UD"][3][1] = "멸망의 폭렬질풍탄 |cffffcc00[Q]|r";
 -- aub1 1
-		t["A0UD"][4][1] = "＊[사용식 능력] : 백룡이 기를 모은 후 고밀도의 에너지 포를 전방에 쏴 잃은 체력 15%의 |c00AC59FF절대 피해|r를 가하고, 푸른 눈의 백룡은 사라집니다.\r\
+		t["A0UD"][4][1] = "＊[Active Ability] : 백룡이 기를 모은 후 고밀도의 에너지 포를 전방에 쏴 잃은 체력 15%의 |c00AC59FF절대 피해|r를 가하고, 푸른 눈의 백룡은 사라집니다.\r\
 ＊공격 시 대상 주변 400 범위 내의 적을 0.3초간 얼리고, 공격한 대상이 보스가 아니고 체력이 10% 이하라면 즉사시킵니다.\r\
 ＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 0.9% + 100,000|c00AC59FF절대 피해|r를 가하고 1.3초간 기절시킵니다.";
 -- ahky
@@ -39915,7 +39915,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 2
 		t["A0UD"][15][1] = "얼티밋 버스트 |cffffcc00[Q]|r";
 -- aub1 2
-		t["A0UD"][16][1] = "＊[사용식 능력] : 백룡이 기를 모은 후 고밀도의 에너지 포를 전방에 쏴 잃은 체력 30%의 |c00AC59FF절대 피해|r를 가하고, 푸른 눈의 백룡은 사라집니다.\r\
+		t["A0UD"][16][1] = "＊[Active Ability] : 백룡이 기를 모은 후 고밀도의 에너지 포를 전방에 쏴 잃은 체력 30%의 |c00AC59FF절대 피해|r를 가하고, 푸른 눈의 백룡은 사라집니다.\r\
 ＊공격 시 대상 주변 400 범위 내의 적을 0.3초간 얼리고, 공격한 대상이 보스가 아니고 체력이 20% 이하라면 즉사시킵니다.\r\
 ＊공격 시 12% 확률로 푸른 눈의 우뢰탄을 쏴 600 범위의 적에게 Current Health 1.8% + 200,000|c00AC59FF절대 피해|r를 가하고 2.6초간 기절시킵니다.";
 -- atar 1
@@ -39997,7 +39997,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0UF"][3][1] = "연회의 주인공 |cffffcc00[D]|r";
 -- aub1 1
-		t["A0UF"][4][1] = "＊[사용식 능력] : 연회의 주인공을 초대합니다. 인형이 변경되며, 그 Units을 Combination 시 대사랑 음악이 달라집니다.";
+		t["A0UF"][4][1] = "＊[Active Ability] : 연회의 주인공을 초대합니다. 인형이 변경되며, 그 Units을 Combination 시 대사랑 음악이 달라집니다.";
 -- ahky
 -- Ncl6G1
 -- aart
@@ -40005,7 +40005,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UG]
 -- atp1 1
 -- aub1 1
-		t["A0UG"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UG"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595놀리지 마! 나도 날 수 있는 걸!|r";
 -- anam
@@ -40018,7 +40018,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UH]
 -- atp1 1
 -- aub1 1
-		t["A0UH"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UH"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595앞으로~ 앞으로~ 용진 또 용진~|r";
 -- anam
@@ -40031,7 +40031,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UI]
 -- atp1 1
 -- aub1 1
-		t["A0UI"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UI"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595췌귀술! 몽몽미무!|r";
 -- anam
@@ -40044,7 +40044,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UJ]
 -- atp1 1
 -- aub1 1
-		t["A0UJ"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UJ"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595티타임 시간이네요.|r";
 -- anam
@@ -40056,7 +40056,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UK]
 -- atp1 1
 -- aub1 1
-		t["A0UK"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UK"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595들키기 전에 도망치면 Unknown이지.|r";
 -- anam
@@ -40068,7 +40068,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UL]
 -- atp1 1
 -- aub1 1
-		t["A0UL"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UL"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595내 진압봉은 정의를 지배한다!|r";
 -- anam
@@ -40081,7 +40081,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UM]
 -- atp1 1
 -- aub1 1
-		t["A0UM"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UM"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595여긴 어디? 난 누구야?|r";
 -- anam
@@ -40094,7 +40094,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UN]
 -- atp1 1
 -- aub1 1
-		t["A0UN"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UN"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595평생 엎드려 살다 죽으렴.|r";
 -- anam
@@ -40107,7 +40107,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UO]
 -- atp1 1
 -- aub1 1
-		t["A0UO"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UO"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595달로 안내해줄게.|r";
 -- anam
@@ -40120,7 +40120,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UP]
 -- atp1 1
 -- aub1 1
-		t["A0UP"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UP"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595넌 너무 많이 알았어.|r";
 -- anam
@@ -40132,7 +40132,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UQ]
 -- atp1 1
 -- aub1 1
-		t["A0UQ"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UQ"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595밤하늘의 안내자여...|r";
 -- anam
@@ -40145,7 +40145,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0UR]
 -- atp1 1
 -- aub1 1
-		t["A0UR"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0UR"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595보물 반응!|r";
 -- anam
@@ -40157,7 +40157,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0US]
 -- atp1 1
 -- aub1 1
-		t["A0US"][2][1] = "＊[사용식 능력] : 최대 1100 거리까지 이동합니다.\r\
+		t["A0US"][2][1] = "＊[Active Ability] : 최대 1100 거리까지 이동합니다.\r\
 \r\
 |c00959595강하게 살으렴.|r";
 -- anam
@@ -40248,7 +40248,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A0UY"][3][1] = "환상향 천도 계획|cffffcc00[D]|r";
 -- aub1 1
-		t["A0UY"][4][1] = "＊[사용식 능력] : 환상향을 정화시켜 더러움을 없애고 완전무결한 땅으로 만듭니다. Around yourself 700 범위의 적에게 Current Health 15%의 |c00AC59FF절대 피해|r를 가하고, 월인을 제외한 맵 전체의 자신 소유 Units을 5 seconds간 기절시킵니다. Cooldown 300 seconds";
+		t["A0UY"][4][1] = "＊[Active Ability] : 환상향을 정화시켜 더러움을 없애고 완전무결한 땅으로 만듭니다. Around yourself 700 범위의 적에게 Current Health 15%의 |c00AC59FF절대 피해|r를 가하고, 월인을 제외한 맵 전체의 자신 소유 Units을 5 seconds간 기절시킵니다. Cooldown 300 seconds";
 -- ahky
 -- areq
 -- Ncl6G1
