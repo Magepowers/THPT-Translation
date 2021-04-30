@@ -4023,7 +4023,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A022"][2][1] = "동부『퍼펙트 프리즈』";
 -- aub1 1
-		t["A022"][3][1] = "＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 2천의 |c00379BFFMagic Damage|r를 가하고 0.1초간 Movement Speed를 45% 감소시킨다.";
+		t["A022"][3][1] = "＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 2000 |c00379BFFMagic Damage|r를 가하고 0.1초간 Movement Speed를 45% 감소시킨다.";
 -- anam
 		t["A022"][4][1] = "[Rare]Cirno_R";
 -- aart
@@ -4089,7 +4089,7 @@ Light Barrier 『Wall Break』\r\
 		t["A029"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNShade.blp";
 -- [A02C]
 -- aub1 1
-		t["A02C"][1][1] = "＊공격 시 20% 확률로 파이어볼을 발사해 대상 주변 450 범위의 적에게 2천의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A02C"][1][1] = "＊공격 시 20% 확률로 파이어볼을 발사해 대상 주변 450 범위의 적에게 2000 |c00379BFFMagic Damage|r를 가한다.";
 -- anam
 		t["A02C"][3][1] = "[Rare]파츄리_R";
 -- atp1 1
@@ -4102,7 +4102,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A02F"][2][1] = "화부『파산포』";
 -- aub1 1
-		t["A02F"][3][1] = "＊공격 시 12.5% 확률로 주먹을 내질러 대상 주변 450 범위의 적에게 2천의 |c00FF6464Physical Damage|r를 가하고 0.3초간 기절시킨다.";
+		t["A02F"][3][1] = "＊공격 시 12.5% 확률로 주먹을 내질러 대상 주변 450 범위의 적에게 2000 |c00FF6464Physical Damage|r를 가하고 0.3초간 기절시킨다.";
 -- anam
 		t["A02F"][4][1] = "[Rare]메이링_R";
 -- aart
@@ -4130,9 +4130,9 @@ Light Barrier 『Wall Break』\r\
 -- [A02N]
 -- arac
 -- atp1 1
-		t["A02N"][2][1] = "주정『좀비 페어리』";
+		t["A02N"][2][1] = "Cursed Sprite 『Zombie Fairy』";
 -- aub1 1
-		t["A02N"][3][1] = "＊공격 시 15% 확률로 좀비 페어리에게 공격 명령을 내려 대상 주변 500 범위의 적에게 3천의 |c00FF6464Physical Damage|r를 가한다.";
+		t["A02N"][3][1] = "＊15% chance to deal 3000 |c00FF6464Physical Damage|r in a 500 AoE.";
 -- anam
 		t["A02N"][4][1] = "[Rare]Orin_R";
 -- aart
@@ -4339,10 +4339,10 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A036]
 -- anam
 -- atp1 1
-		t["A036"][2][1] = "『사회부연』- 잔존 좀비 페어리 7마리";
+		t["A036"][2][1] = "『사회부연』- 잔존 Zombie Fairy 7마리";
 -- aub1 1
 		t["A036"][3][1] = "＊최대 4명을 추가로 공격한다.\r\
-＊공격 시 10% 확률로 대상에게 6,000|c00379BFFMagic Damage|r를 가하고, 체력이 6,000 이하라면 15% 확률로 좀비 페어리로 만든다.";
+＊공격 시 10% 확률로 대상에게 6,000|c00379BFFMagic Damage|r를 가하고, 체력이 6,000 이하라면 15% 확률로 Zombie Fairy로 만든다.";
 -- amat
 		t["A036"][5][1] = "Abilities\\Weapons\\MeatwagonMissile\\MeatwagonMissile.mdl";
 -- atar 1
@@ -4376,19 +4376,19 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atar 30
 -- atar 29
 -- atp1 2
-		t["A036"][36][1] = "『사회부연』- 잔존 좀비 페어리 6마리";
+		t["A036"][36][1] = "『사회부연』- 잔존 Zombie Fairy 6마리";
 -- atp1 3
-		t["A036"][37][1] = "『사회부연』- 잔존 좀비 페어리 5마리";
+		t["A036"][37][1] = "『사회부연』- 잔존 Zombie Fairy 5마리";
 -- atp1 4
-		t["A036"][38][1] = "『사회부연』- 잔존 좀비 페어리 4마리";
+		t["A036"][38][1] = "『사회부연』- 잔존 Zombie Fairy 4마리";
 -- atp1 5
-		t["A036"][39][1] = "『사회부연』- 잔존 좀비 페어리 3마리";
+		t["A036"][39][1] = "『사회부연』- 잔존 Zombie Fairy 3마리";
 -- atp1 6
-		t["A036"][40][1] = "『사회부연』- 잔존 좀비 페어리 2마리";
+		t["A036"][40][1] = "『사회부연』- 잔존 Zombie Fairy 2마리";
 -- atp1 7
-		t["A036"][41][1] = "『사회부연』- 잔존 좀비 페어리 1마리";
+		t["A036"][41][1] = "『사회부연』- 잔존 Zombie Fairy 1마리";
 -- atp1 8
-		t["A036"][42][1] = "『사회부연』- 잔존 좀비 페어리 0마리";
+		t["A036"][42][1] = "『사회부연』- 잔존 Zombie Fairy 0마리";
 -- atp1 9
 		t["A036"][43][1] = "환토『평행교차(페러렐 크로스)』";
 -- atp1 10
@@ -5138,7 +5138,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 1
 		t["A03W"][1][1] = "|c00FF8000\"진정한 불자는 눈으로 설법한다\"|r\r\
 *뱌쿠렌이 공격시 마나를 1씩 회복합니다. 마나가 150이 됐을때 발동합니다.\r\
-*뱌쿠렌이 범천의 법력을 모아 대상 지점을 빛으로 포격합니다. 대상 지점 주변 350범위 적에게 650,000|c00FF6464 Physical Damage|r를 입히고, 뱌쿠렌의 스킬 랭크에 따라 이하의 추가 효과가 발생합니다.\r\
+*뱌쿠렌이 범000 법력을 모아 대상 지점을 빛으로 포격합니다. 대상 지점 주변 350범위 적에게 650,000|c00FF6464 Physical Damage|r를 입히고, 뱌쿠렌의 스킬 랭크에 따라 이하의 추가 효과가 발생합니다.\r\
 [비루다카의 검 - EX] : 적 Maximum Health 2%에 해당하는  Physical Damage 추가\r\
 [하누만의 춤 - EX] : 타격 범위 350에서 550으로 증가\r\
 [스타소드의 호법 - EX] : 발동시 마나 25를 돌려받음";
@@ -5389,7 +5389,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A048"][2][1] = "『유성에서의 탄막X』";
 -- aub1 1
-		t["A048"][3][1] = "＊0.1초마다 Around yourself 500 범위의 적에게 4천의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A048"][3][1] = "＊0.1초마다 Around yourself 500 범위의 적에게 4000 |c00379BFFMagic Damage|r를 가한다.";
 -- anam
 -- aart
 		t["A048"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNFlare.blp";
@@ -5647,9 +5647,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- abuf 30
 -- abuf 31
 -- atp1 1
-		t["A04C"][66][1] = "『비사문천의 가호』";
+		t["A04C"][66][1] = "『비사문000 가호』";
 -- atp1 2
-		t["A04C"][67][1] = "비사문천의 가호";
+		t["A04C"][67][1] = "비사문000 가호";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -5683,7 +5683,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A04C"][97][1] = "＊맵 전체의 자신 Units Attack Speed를 15%, Movement Speed를 12% 증가시킨다.\r\
 |c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 2
-		t["A04C"][98][1] = "20 seconds마다 [20+(Unique Upgrade*3)]%확률로 아군에게 비사문천의 가호를 내려 20 seconds동안 Attack Speed를 45% 증가시키고 Movement Speed를 25% 증가시킵니다.";
+		t["A04C"][98][1] = "20 seconds마다 [20+(Unique Upgrade*3)]%확률로 아군에게 비사문000 가호를 내려 20 seconds동안 Attack Speed를 45% 증가시키고 Movement Speed를 25% 증가시킵니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -5795,7 +5795,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A04F"][2][1] = "박명『얼마 남지 않은 여생』";
 -- aub1 1
-		t["A04F"][3][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 1,0008천의 |c00FF6464Physical Damage|r를 가하고 추가로 대상에게 Current Health 2%의 |c00FF6464Physical Damage|r를 가한다.";
+		t["A04F"][3][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 1,0008000 |c00FF6464Physical Damage|r를 가하고 추가로 대상에게 Current Health 2%의 |c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
 		t["A04F"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNTemp.blp";
@@ -15498,7 +15498,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0JN"][2][1] = "초전자포『리니어 건』";
 -- aub1 1
-		t["A0JN"][3][1] = "＊공격 시 17% 확률로 전방 1000 범위의 적에게 4,000 5천의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A0JN"][3][1] = "＊공격 시 17% 확률로 전방 1000 범위의 적에게 4,000 5000 |c00379BFFMagic Damage|r를 가한다.";
 -- anam
 -- aart
 -- atp1 2
