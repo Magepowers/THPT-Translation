@@ -661,7 +661,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 		t["AOw2"][11][1] = "[Epic] 아야 : 450 1.8 seconds 75,000";
 -- atar 4
 -- atp1 4
-		t["AOw2"][14][1] = "[Unique] 세이가 : 800 0.8 seconds 4,0005천";
+		t["AOw2"][14][1] = "[Unique] 세이가 : 800 0.8 seconds 4500";
 -- atar 5
 -- atp1 5
 		t["AOw2"][17][1] = "[기타] 선대, 스이카 : ";
@@ -4121,9 +4121,9 @@ Light Barrier 『Wall Break』\r\
 -- [A02L]
 -- anam
 -- atp1 1
-		t["A02L"][2][1] = "시부『프라이빗 스퀘어』";
+		t["A02L"][2][1] = "Time Sign 『Private Square』";
 -- aub1 1
-		t["A02L"][3][1] = "＊공격 시 25% 확률로 나이프로 약점을 정확히 노려 8백의 |c00FF6464Physical Damage|r 를 가하고 0.4초간 기절시킨다.";
+		t["A02L"][3][1] = "＊25% chance to deal 800 |c00FF6464Physical Damage|r and stun for 0.4 seconds.";
 -- aart
 -- atar 1
 		t["A02L"][5][1] = "air,ground";
@@ -7431,7 +7431,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- abuf 1
 		t["S000"][4][1] = "B00Y";
 -- atp1 1
-		t["S000"][5][1] = "기술『이터널 믹』";
+		t["S000"][5][1] = "Conjuring 『이터널 믹』";
 -- aart
 		t["S000"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNDaggerOfEscape.blp";
 -- aub1 1
@@ -11045,9 +11045,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A0AT]
 -- arac
 -- atp1 1
-		t["A0AT"][2][1] = "기술『이터널 미크』";
+		t["A0AT"][2][1] = "Conjuring 『Eternal Meek』";
 -- aub1 1
-		t["A0AT"][3][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 4,0005천(기절한 대상은 6,000)의 |c00FF6464Physical Damage|r를 가한다.";
+		t["A0AT"][3][1] = "＊10% chance to deal 4500 (6000 to stunned targets) |c00FF6464Physical Damage|r in a 500 AoE.";
 -- anam
 -- aart
 		t["A0AT"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNMarksmanship.blp";
@@ -11979,11 +11979,11 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- [A0CC]
 -- anam
 -- atp1 1
-		t["A0CC"][2][1] = "환장『밤안개의 환영살인귀』";
+		t["A0CC"][2][1] = "Buriallusion 『Phantomic Killer in Night Mist』";
 -- aub1 1
-		t["A0CC"][3][1] = "*사쿠야를 제외한 주변 700범위 Units들의 Movement Speed가 35% 감소합니다.[자신 소유 Units 및 아군도 포함합니다.]\r\
-*사쿠야 주위 700범위 적들의 방어력이 40 감소합니다.\r\
-*사쿠야가 공격시 10% 확률로 적에게 보이지 않을 정도로 빠르게 나이프를 휘둘러 대상 주변 500범위 적에게 Current Health의 1% + 120,000|c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 스턴시킵니다.";
+		t["A0CC"][3][1] = "*Movement Speed -35% in a 700 AoE.[Includes your own units and allies.]\r\
+*Defense -40 in a 700 AoE.\r\
+*10% chance to deal 1% Current Health + 120,000|c00FF6464 Physical Damage|r in a 500 AoE and stun for 1.5 seconds.";
 -- atar 1
 		t["A0CC"][4][1] = "notself";
 -- aart
@@ -24188,13 +24188,13 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- [A0O2]
 -- arac
 -- atp1 1
-		t["A0O2"][2][1] = "『디플레이션 월드』";
+		t["A0O2"][2][1] = "『Deflation World』";
 -- aub1 1
-		t["A0O2"][3][1] = "*사쿠야가 공격시 마나를 [1~3] 회복합니다. 마나가 150이 될 경우, 자신에게 시간 가속 버프를 적용합니다.\r\
-*시간 가속 버프는 9초간 지속되며, Duration 동안 사쿠야의 스킬이 발동할 확률이 5%p 증가합니다.\r\
-*시간 가속 버프의 Duration 동안 사쿠야가 공격시 10% 확률로 대상 Maximum Health 10%를 감소시키고, 감소시킨 체력의 15%에 해당하는 |c00FF6464 Physical Damage|r를 주변 400범위 적에게 입힙니다.\r\
-[보스에게는 단일 체력 감소 효과가 30%만 적용됩니다.]\r\
-*시간 가속 버프가 지속되는 동안 『타임스토퍼 사쿠야』 스킬로 순간이동 할 경우, 거리에 상관없이 기본 데미지를 맵 전체 Units에게 입힙니다.";
+		t["A0O2"][3][1] = "*Restores [1~3] Mana on attack. Applies a buff to yourself at 150 Mana.\r\
+*The buff lasts for 9 seconds, increasing skill activation chance by 5%.\r\
+*During the buff Sakuya has a 10% chance on attack to reduce the enemy's Health by 10%, dealing 15% of the damage dealt as |c00FF6464 Physical Damage|r in a 400 AoE.\r\
+[Only 30% of the Health Reduction is applied to bosses.]\r\
+*Using 『Timestopper Sakuya』 during the buff will damage all enemies on the map regardless of distance.";
 -- anam
 -- aart
 		t["A0O2"][5][1] = "SakuyaWorld2.blp";
@@ -24360,7 +24360,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0OA"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
 |c00ff2222[!]Caution|r : Does not stack with Defense Reduction of Unique and below units.\r\
 ＊공격 시 15% 확률로 3초 동안 소리를 탄막으로 소환한다.\r\
--공격력(|c00FF6464물리|r) : 3,0005천\r\
+-공격력(|c00FF6464물리|r) : 3500\r\
 -Attack Speed : 0.4 Cooldown";
 -- anam
 -- aart
@@ -37157,17 +37157,17 @@ Stuns and deals damage in a 450 AoE, dealing 3% Maximum Health + 200,000|c00FF64
 -- anam
 -- arac
 -- atp1 1
-		t["A0SH"][6][1] = "『타임스토퍼 사쿠야』|cffffcc00[R]|r";
+		t["A0SH"][6][1] = "『Timestopper Sakuya』|cffffcc00[R]|r";
 -- aub1 1
-		t["A0SH"][7][1] = "*사쿠야가 시간을 정지시키고 대상 지점으로 순간이동 합니다.\r\
-*도착한 지점이 대상 지점보다 1500 거리 이상일 경우, 시공간의 균열을 일으켜 도착 지점 주변 500범위 적에게 Maximum Health 3% + 300,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*도착한 거리가 멀수록 데미지가 증가합니다. 3000거리일때 최대로 증가합니다.[2배]\r\
-*Cooldown 7초";
+		t["A0SH"][7][1] = "*Stops time and teleports to the target location.\r\
+*If the arrival point is more than 1500 units away, in a 500 AoE around the arrival point, deal 3% Maximum Health + 300,000|c00FF6464 Physical Damage|r.\r\
+*Damage is increased with more distance. Maximum of 3000 units.[2x]\r\
+*Cooldown 7 seconds";
 -- aart
 		t["A0SH"][9][1] = "SakuyaWorld1.blp";
 -- areq
 -- atp1 2
-		t["A0SH"][11][1] = "『타임스토퍼 사쿠야』|cffffcc00[R]|r - 환원";
+		t["A0SH"][11][1] = "『Timestopper Sakuya』|cffffcc00[R]|r - 환원";
 -- aub1 2
 		t["A0SH"][12][1] = "*사쿠야가 원래 있던 곳으로 되돌아갑니다. 6초 내에 사용하지 않을 경우, 되돌아가지 않습니다.\r\
 *Cooldown 1초";
@@ -37180,11 +37180,11 @@ Stuns and deals damage in a 450 AoE, dealing 3% Maximum Health + 200,000|c00FF64
 -- aart
 -- anam
 -- atp1 1
-		t["A0SI"][5][1] = "시부『실버 어큐트 360』";
+		t["A0SI"][5][1] = "Time Sign 『Silver Acute 360』";
 -- aub1 1
-		t["A0SI"][6][1] = "*사쿠야가 공격시 10% 확률로 나이프를 던져 대상 Units을 공격합니다. 대상 주변 500범위 적에게 Maximum Health 0.3% + 100,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*|c00FF80FF[Vitality]|r - 3초\r\
-위 확률과 관계 없이 『실버 어큐트 360』이 발동합니다. 활력 효과로 발동시 데미지가 3배로 적용됩니다.";
+		t["A0SI"][6][1] = "*10% chance to deal 0.3% Maximum Health + 100,000|c00FF6464 Physical Damage|r in a 500 AoE.\r\
+*|c00FF80FF[Vitality]|r - 3 seconds\r\
+From the above effect, activates 『Silver Acute 360』 regardless of chance. Damage is tripled when activated from Health.";
 -- abuf 1
 		t["A0SI"][8][1] = "B04M";
 -- atar 2
