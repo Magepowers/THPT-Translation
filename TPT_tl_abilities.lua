@@ -4142,10 +4142,10 @@ Light Barrier 『Wall Break』\r\
 -- arac
 -- anam
 -- aut1 1
-		t["A02O"][4][1] = "『지옥극락 멜트다운』";
+		t["A02O"][4][1] = "『Heaven and Hell Meltdown』";
 -- atp1 1
 -- aub1 1
-		t["A02O"][6][1] = "＊핵융합 에너지를 순환시켜 Around yourself 500 범위의 적에게 0.75 seconds마다 2천5백의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A02O"][6][1] = "＊Every 0.75 seconds deal 2500 |c00379BFFMagic Damage|r in a 500 AoE.";
 -- auu1 1
 -- abuf 1
 		t["A02O"][8][1] = "B001";
@@ -12144,7 +12144,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A00J"][2][1] = "『차지드 야호』";
 -- aub1 1
-		t["A00J"][3][1] = "＊공격 시 10% 확률로 크게 소리쳐 Around yourself 1000 범위의 적에게 4천5백의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A00J"][3][1] = "＊공격 시 10% 확률로 크게 소리쳐 Around yourself 1000 범위의 적에게 4500의 |c00379BFFMagic Damage|r를 가한다.";
 -- anam
 		t["A00J"][4][1] = "[Rare]쿄코_R";
 -- aart
