@@ -292,7 +292,7 @@ Effect : Attack up to 4 nearby enemies\r\
 		t["SCae"][3][1] = "평곡『기원정사의 종소리』";
 -- aub1 1
 		t["SCae"][4][1] = "＊Around yourself 900 범위의 아군 Attack Speed를 12% 증가시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.\r\
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.\r\
 ＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 4,000|c00379BFFMagic Damage|r를 가한다.";
 -- anam
 		t["SCae"][5][1] = "[Unique]";
@@ -518,7 +518,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 -- aart
 -- aub1 1
 		t["AUts"][6][1] = "＊공격 시 4% 확률로 대상을 어둠의 기운으로 휘감아 무적으로 만들고, 4초 후 즉사시킵니다.\r\
-|c00ff2222[!]제한|r : 보스는 적용되지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 적용되지 않습니다.";
 -- auar
 		t["AUts"][7][1] = " ";
 -- atp1 2
@@ -4190,10 +4190,10 @@ Light Barrier 『Wall Break』\r\
 -- atar 1
 -- anam
 -- atp1 1
-		t["A02V"][3][1] = "토부『이나바의 흰 토끼』";
+		t["A02V"][3][1] = "Rabbit Sign 『White Rabbit of Inaba』";
 -- aub1 1
 		t["A02V"][4][1] = "＊Defense -5 in a 500 AoE.\r\
-|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.";
+|c00ff2222[!]Caution|r : Does not stack with Defense Reduction of Unique and below units.";
 -- aart
 		t["A02V"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNSpellBreakerMagicDefend.blp";
 -- abuf 1
@@ -5032,7 +5032,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aart
 		t["A03M"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNInnerFire.blp";
 -- atp1 2
-		t["A03M"][8][1] = "화수목금토부『현자의 돌』";
+		t["A03M"][8][1] = "화수목금Rabbit Sign 『현자의 돌』";
 -- atp1 4
 -- atp1 3
 -- atp1 5
@@ -5681,7 +5681,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- aub1 1
 		t["A04C"][97][1] = "＊맵 전체의 자신 Units Attack Speed를 15%, Movement Speed를 12% 증가시킨다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 2
 		t["A04C"][98][1] = "20 seconds마다 [20+(Unique Upgrade*3)]%확률로 아군에게 비사문000 가호를 내려 20 seconds동안 Attack Speed를 45% 증가시키고 Movement Speed를 25% 증가시킵니다.";
 -- aub1 3
@@ -6432,7 +6432,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A04U"][2][1] = "『어비스 노바』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A04U"][3][1] = "＊|c0044BBFF[Mana]|r - 115 : 공격 시 마력 1 회복, 몸 속의 핵에너지를 폭발시켜 Around yourself 1000 범위의 적에게 전체 체력 3%의 |c00AC59FF절대 피해|r를 가하고 받는 Magic Damage를 10% |c0000FFFF증폭|r시킵니다. 피해받은 적의 체력이 15% 이하라면, 즉사시킵니다.\r\
-|c00ff2222[!]제한|r : 보스는 제외됩니다.";
+|c00ff2222[!]Caution|r : 보스는 제외됩니다.";
 -- anam
 -- aart
 -- atp1 3
@@ -7494,7 +7494,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A063"][2][1] = "심판『라스트 저지먼트』- |c0000FFFFExtended|r";
 -- aub1 1
 		t["A063"][3][1] = "＊|c0044BBFF[Mana]|r - 90 : 공격 시 마력 1 회복, 대상 주변 600 범위의 적을 심판해 Maximum Health 2% + 300,000|c00379BFFMagic Damage|r를 가합니다. 만약 자신의 Units 카운트가 기본 게임 오버 카운트의 절반 이상이라면, 피해가 2배로 증가합니다.\r\
-|c00ff2222[!]제한|r : 시키에이키는 다른 마력 회복을 받지 않습니다.";
+|c00ff2222[!]Caution|r : 시키에이키는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -7922,7 +7922,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A06X"][2][1] = "옥부『버스팅 그루지』- 옥염 0";
 -- aub1 1
 		t["A06X"][3][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 1%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
-|c00ff2222[!]제한|r : 보스는 체력 감소 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -7962,19 +7962,19 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- aub1 2
 		t["A06X"][36][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 2%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
-|c00ff2222[!]제한|r : 보스는 체력 감소 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 3
 		t["A06X"][37][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 3%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
-|c00ff2222[!]제한|r : 보스는 체력 감소 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 4
 		t["A06X"][38][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 4%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
-|c00ff2222[!]제한|r : 보스는 체력 감소 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 5
 		t["A06X"][39][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 5%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
-|c00ff2222[!]제한|r : 보스는 체력 감소 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 6
 		t["A06X"][40][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 6%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
-|c00ff2222[!]제한|r : 보스는 체력 감소 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 7
 		t["A06X"][41][1] = "공격시 3%확률로 발동합니다. 10 seconds동안 자신의 Attack Speed를 310% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 6Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
 -- aub1 8
@@ -8057,7 +8057,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 1
 		t["A074"][3][1] = "＊공격 시 0~10% 확률로 대상을 즉사시킵니다. 대상의 체력이 낮을 수록 확률이 증가합니다.\r\
 ＊|c0044BBFF[Mana]|r - 500 : 즉사시킨 적의 체력 비율만큼 마력 회복, 대상 주변 500 범위의 적을 멸각해 전체 체력 5~15%의 |c00379BFFMagic Damage|r를 가합니다.\r\
-|c00ff2222[!]제한|r : 모코우는 다른 마력 회복을 받지 않습니다.";
+|c00ff2222[!]Caution|r : 모코우는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
 		t["A074"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNReincarnation.blp";
@@ -10367,7 +10367,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 1
 		t["A0A2"][3][1] = "＊공격 시 20% 확률로 전체 체력 5%(보스 0.5%)의 피해를 가합니다. 체력이 50% 이상이라면 |c00FF6464Physical Damage|r로, 체력이 50% 미만이라면 |c00AC59FF절대 피해|r로 가합니다.\r\
 ＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 1 회복, Around yourself 600 범위의 아군의 마력을 10% 회복시킵니다.\r\
-|c00ff2222[!]제한|r : Keine Kamishirasawa EX는 다른 마력 회복을 받지 않습니다.";
+|c00ff2222[!]Caution|r : Keine Kamishirasawa EX는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -12259,7 +12259,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 		t["A00N"][2][1] = "사부『취한 자의 삶, 죽음의 몽환』";
 -- aub1 1
 		t["A00N"][3][1] = "*|c00FF80FF[Vitality]|r - 7초 : 죽음의 나비로 생명을 거둬 주변 600 범위의 적에게 전체 체력을 2% 감소시킵니다.\r\
-|c00ff2222[!]제한|r : 보스는 감소되지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 감소되지 않습니다.";
 -- anam
 -- aart
 		t["A00N"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNPhaseShiftOn.blp";
@@ -13993,7 +13993,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 		t["A0G7"][3][1] = "대합장『영차 콘체르토 그로소 괴』";
 -- aub1 1
 		t["A0G7"][4][1] = "＊|c0044BBFF[Mana]|r - 150 : 공격 시 마력 1 회복, 7초 동안 연주를 시작해 Around yourself 800 범위에 영향을 끼칩니다. 연주가 시작되면 아군 마력을 15% 회복시키고, 연주가 끝나면 적의 체력을 5% 감소시킵니다. 연주 중엔 마력을 회복해도 스킬이 다시 발동하지 않습니다.\r\
-|c00ff2222[!]제한|r : Ghost Orchestra은 다른 마력 회복 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : Ghost Orchestra은 다른 마력 회복 효과를 받지 않습니다.";
 -- aart
 -- areq
 		t["A0G7"][6][1] = "h073";
@@ -14001,7 +14001,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 		t["A0G7"][7][1] = "대합장『영차 콘체르토 그로소 괴』- 연주 중";
 -- aub1 2
 		t["A0G7"][8][1] = "＊연주가 끝나면 적의 체력을 5% 감소시킵니다. 연주 중엔 마력을 회복해도 스킬이 다시 발동하지 않습니다.\r\
-|c00ff2222[!]제한|r : Ghost Orchestra은 다른 마력 회복 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : Ghost Orchestra은 다른 마력 회복 효과를 받지 않습니다.";
 -- [A0G8]
 -- arac
 -- anam
@@ -16865,10 +16865,10 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 2
 -- aub1 1
 		t["A04D"][9][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 11% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 2
 		t["A04D"][10][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 12% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aart
 -- abuf 2
 -- atar 3
@@ -16943,28 +16943,28 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 25
 -- aub1 3
 		t["A04D"][83][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 13% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 4
 		t["A04D"][84][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 14% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 5
 		t["A04D"][85][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 15% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 6
 		t["A04D"][86][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 16% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 7
 		t["A04D"][87][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 17% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 8
 		t["A04D"][88][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 18% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 9
 		t["A04D"][89][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 19% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 10
 		t["A04D"][90][1] = "*주변 900범위 자신 소유 Units의 Attack Speed를 20% 상승시킵니다.\r\
-|c00ff2222[!]제한|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
+|c00ff2222[!]Caution|r : Unique 이하 등급의 Attack Speed 증가와 중첩되지 않습니다.";
 -- aub1 11
 		t["A04D"][91][1] = "*주변 900범위 아군 Units의 Attack Speed를 21% 상승시킵니다.";
 -- aub1 12
@@ -24358,7 +24358,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A0OA"][3][1] = "금부『제행무상의 고토소리』";
 -- aub1 1
 		t["A0OA"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
+|c00ff2222[!]Caution|r : Does not stack with Defense Reduction of Unique and below units.\r\
 ＊공격 시 15% 확률로 3초 동안 소리를 탄막으로 소환한다.\r\
 -공격력(|c00FF6464물리|r) : 3,0005천\r\
 -Attack Speed : 0.4 Cooldown";
@@ -24373,7 +24373,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- atp1 1
 -- aub1 1
 		t["A0OB"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
+|c00ff2222[!]Caution|r : Does not stack with Defense Reduction of Unique and below units.\r\
 ＊공격 시 10% 확률로 Around yourself 400 범위의 적에게 5,000|c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
@@ -24471,7 +24471,7 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 		t["A06K"][3][1] = "포효『만월의 울부짖음』";
 -- aub1 1
 		t["A06K"][4][1] = "＊Around yourself 650 범위의 적 방어력을 15 감소시킨다.\r\
-|c00ff2222[!]제한|r : Does not stack with Defense Reduction of Unique and below units.\r\
+|c00ff2222[!]Caution|r : Does not stack with Defense Reduction of Unique and below units.\r\
 ＊공격 시 20% 확률로 포효하여 Around yourself 400 범위의 적에게 3,000|c00FF6464Physical Damage|r를 가한다.";
 -- anam
 -- aart
@@ -29092,7 +29092,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A02I"][2][1] = "*파츄리 주변 800범위 아군 Units의 마나를 초당 2 회복시킵니다.\r\
 *파츄리 주변 800범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-화수목금토부『현자의 돌』|cffffcc00(Q)|r\r\
+화수목금Rabbit Sign 『현자의 돌』|cffffcc00(Q)|r\r\
 \r\
 *사용시 마나 스킬을 랜덤한 효과로 변화시킵니다.\r\
 *파츄리는 Combination시 랜덤한 마나 스킬을 가집니다. 이 스킬을 사용하여 다른 스킬로 변화시킬 수 있습니다. 운이 좋지 않다면 스킬이 바뀌지 않을 수도 있습니다.\r\
@@ -29797,7 +29797,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A075]
 -- ahky
 -- atp1 1
-		t["A075"][5][1] = "토부『경단 세자매』|cffffcc00(E)|r - |c00FF0000빨강|r";
+		t["A075"][5][1] = "Rabbit Sign 『경단 세자매』|cffffcc00(E)|r - |c00FF0000빨강|r";
 -- aub1 1
 		t["A075"][6][1] = "*스킬 사용시 경단의 색을 다르게 교체합니다. 루나틱 셉템버의 마나 스킬 발동 효과가 경단의 색에 따라 변경됩니다. 변경 순서는\r\
 *빨강 - 파랑 - 초록 경단 순서입니다.\r\
@@ -29810,9 +29810,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 2
 -- aub1 3
 -- atp1 2
-		t["A075"][17][1] = "토부『경단 세자매』|cffffcc00(E)|r - |c000080FF파랑|r";
+		t["A075"][17][1] = "Rabbit Sign 『경단 세자매』|cffffcc00(E)|r - |c000080FF파랑|r";
 -- atp1 3
-		t["A075"][18][1] = "토부『경단 세자매』|cffffcc00(E)|r - |c0050EA15 seconds록|r";
+		t["A075"][18][1] = "Rabbit Sign 『경단 세자매』|cffffcc00(E)|r - |c0050EA15 seconds록|r";
 -- [A07J]
 -- arac
 -- atar 1
@@ -33658,7 +33658,7 @@ nhym,h02Q,hlum,e03C";
 -- aub1 1
 		t["A0QY"][3][1] = "＊레이무 주변 600 범위의 적 방어력을 25 감소시킵니다.\r\
 ＊레이무 주변 600 범위의 적 Movement Speed를 50% 감소시킵니다.\r\
-|c00ff2222[!]제한|r : Hakurei Reimu[Legendary]의 Dream Sign 『Evil-Sealing Circle』이랑 중첩되지 않습니다.\r\
+|c00ff2222[!]Caution|r : Hakurei Reimu[Legendary]의 Dream Sign 『Evil-Sealing Circle』이랑 중첩되지 않습니다.\r\
 ────────────────\r\
 주부『명주암투』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
@@ -35492,7 +35492,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0RT"][3][1] = "＊1초마다 케이네 주변 700 범위의 자신을 제외한 아군 활력을 2% / 마력을 1% 회복시킵니다.\r\
 ＊|c00FF80FF[Vitality]|r - 45 seconds : 밤일 시 활력 회복, 대상 주변 600 범위의 적 역사를 편집하여 체력이 15% 이하인 적을 즉사시킵니다.\r\
-|c00ff2222[!]제한|r : 보스는 적용되지 않습니다. Keine Kamishirasawa EX는 다른 활력 회복을 받지 않습니다.";
+|c00ff2222[!]Caution|r : 보스는 적용되지 않습니다. Keine Kamishirasawa EX는 다른 활력 회복을 받지 않습니다.";
 -- anam
 -- aart
 -- atp1 3
@@ -35664,7 +35664,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0A1"][5][1] = "『인 투 딜리리엄』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A0A1"][6][1] = "＊대상 Units에게 극도의 흥분상태에 빠뜨리는 독을 부여해 공격 속도가 35% 증가하며, 공격 시 0.5의 마력을 추가로 회복시킵니다.\r\
-|c00ff2222[!]제한|r : 다른 마력 회복 효과를 받지 않는 Units은 제외되며, 사용 시 이 스킬을 사용할 수 없습니다.";
+|c00ff2222[!]Caution|r : 다른 마력 회복 효과를 받지 않는 Units은 제외되며, 사용 시 이 스킬을 사용할 수 없습니다.";
 -- aart
 		t["A0A1"][7][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNPoisonSting.blp";
 -- atar 1
@@ -35721,7 +35721,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0CZ"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 1 회복, Around yourself 500 범위의 무작위 아군에게 신비한 경계를 들여다보는 힘을 부여합니다. 10 seconds 동안 공격력이 45,000 증가하고 1초마다 마력을 2% 회복시킵니다.\r\
 ＊대상은 |c00B77615Legendary|r/|c0000FF40Arcana|r/|c00FF0080Phantasm|r/|c00FF0000Historic|r/|c0080A8E6Ascended|r/|c00808080Chronicle|r 등급으로 한정됩니다.\r\
-|c00ff2222[!]제한|r : 회복을 받지 않는 Units은 제외되며, 지속 도중 다시 발동하지 않습니다. ";
+|c00ff2222[!]Caution|r : 회복을 받지 않는 Units은 제외되며, 지속 도중 다시 발동하지 않습니다. ";
 -- anam
 -- aart
 -- atp1 2
@@ -36265,9 +36265,9 @@ Spirit Sign 『Fantasy Seal』\r\
 -- anam
 -- atp1 1
 -- aub1 1
-		t["A0R5"][4][1] = "*테위가 주변 700범위 적을 속입니다. 자신이 속았다는 사실에 절망한 적은 다음의 효과를 받습니다.\r\
-*방어력 40 감소 / Movement Speed 25% 감소\r\
-*공격시 테위의 활력을 0.5~1초 추가로 회복시킵니다.";
+		t["A0R5"][4][1] = "*Tewi applies the following effects to enemies in a 700 AoE.\r\
+*Defense -40 / Movement Speed -25%\r\
+*Heal Health for an additional 0.5~1 seconds on attack.";
 -- aart
 		t["A0R5"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNCritterRabbit.blp";
 -- abuf 1
@@ -36302,12 +36302,12 @@ Spirit Sign 『Fantasy Seal』\r\
 -- arac
 -- anam
 -- atp1 1
-		t["A0RJ"][4][1] = "토부『운이 트이는 큰 무늬』";
+		t["A0RJ"][4][1] = "Rabbit Sign 『Great Fortune Crest』";
 -- aub1 1
 		t["A0RJ"][5][1] = "*|c00FF80FF[Vitality]|r - 15 seconds\r\
-테위가 공격시 대상 지점을 망치로 힘껏 내려 찍어 대상 주변 450범위 적을 3초간 스턴시키고, Maximum Health 3% + 200,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*발동시 아주 잠깐 테위가 정지됩니다.\r\
-[테위는 자신 이외의 활력 회복 효과를 받지 않습니다.]";
+Stuns and deals damage in a 450 AoE, dealing 3% Maximum Health + 200,000|c00FF6464 Physical Damage|r.\r\
+*Twei pauses for a short time after this is used.\r\
+[Tewi can not regenerate health from any other source.]";
 -- [A0RX]
 -- atar 1
 -- arac
@@ -36315,12 +36315,12 @@ Spirit Sign 『Fantasy Seal』\r\
 -- alig
 -- atat
 -- atp1 1
-		t["A0RX"][6][1] = "차부『오오나무치 님의 약』- |c00FF8040[W]|r";
+		t["A0RX"][6][1] = "Owing Sign 『Vulnerary of Ohnamuji』- |c00FF8040[W]|r";
 -- aub1 1
-		t["A0RX"][7][1] = "*테위가 공격시 마나를 1 회복합니다. 테위가 마나가 100이 될 경우, 이 스킬을 사용하여 대상 아군에게 뭔지 모를 약을 먹일 수 있습니다.[Unique 이하 Units에게는 투여할 수 없습니다.]\r\
-*아군에게 토끼신의 힘을 불어넣어 평타 공격력을 10,000 증가시킵니다. Units 하나당 최대 3번까지 사용할 수 있습니다.\r\
-*테위 자신에게는 사용할 수 없습니다.\r\
-[테위는 이 스킬 이외의 마나 회복을 받지 않습니다.]\r\
+		t["A0RX"][7][1] = "*Restores 1 Mana on attack. This skill can be used to buff allies at 100 Mana.[Can not be given to Unique or below units.]\r\
+*Increases Attack by 10000. Can be used up to 3 times per unit.\r\
+*Can not be used on Tewi herself.\r\
+[Tewi is not affected by any other forms of mana recovery.]\r\
 *Cooldown 45 seconds";
 -- ahky
 -- aart
@@ -36446,7 +36446,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["S00O"][4][1] = "＊마미조 주변 700 범위의 자신 소유 Units 공격 속도를 10% 증가시킵니다.\r\
 ＊|c0044BBFF[Mana]|r - 150 : 공격 시 마력 1 회복, 자신의 수하인 둔갑너구리를 불러 통나무로 변신하게 합니다. 30% 확률로 성공해 목재 1을 얻습니다.\r\
-|c00ff2222[!]제한|r : 마미조는 다른 마력 회복을 받지 않습니다.";
+|c00ff2222[!]Caution|r : 마미조는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- abuf 1
 		t["S00O"][6][1] = "B07H";
@@ -37616,11 +37616,11 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0SK"][8][1] = "＊[Active Ability] : 대상을 기억하고 기록하여 이하의 효과를 얻습니다. 한 번 기록하면 바꿀 수 없습니다.\r\
 ＊|c00FF80FF[Vitality]|r - 20 seconds / |c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, 아큐가 활력/마력 효과를 발동한다면, 기록한 Units의 활력/마력을 모두 회복시킵니다.\r\
-|c00ff2222[!]제한|r : 회복을 받지 않는 Units은 제외됩니다. Extended한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 회복을 받지 않는 Units은 제외됩니다. Extended한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
 -- aub1 2
 -- aub1 3
 		t["A0SK"][10][1] = "＊|c00FF80FF[Vitality]|r - 20 seconds / |c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, 아큐가 활력/마력 효과를 발동한다면, 기록한 Units의 활력/마력을 모두 회복시킵니다.\r\
-|c00ff2222[!]제한|r : 회복을 받지 않는 Units은 제외됩니다. Extended한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
+|c00ff2222[!]Caution|r : 회복을 받지 않는 Units은 제외됩니다. Extended한 아큐는 다른 마력 회복 효과를 받지 않습니다.";
 -- atp1 2
 -- atp1 3
 		t["A0SK"][12][1] = "『한 번 본 것을 잊지 않는 정도의 능력』- 기록 중";
