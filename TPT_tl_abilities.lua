@@ -3964,9 +3964,9 @@ Light Barrier 『Wall Break』\r\
 -- [A01W]
 -- arac
 -- atp1 1
-		t["A01W"][2][1] = "구부『레이비즈 바이트』";
+		t["A01W"][2][1] = "Dog Sign 『Rabies Bite』";
 -- aub1 1
-		t["A01W"][3][1] = "＊공격 시 25% 확률로 대상을 물어뜯어 0.5 seconds 동안 0.05 seconds마다 250|c00379BFFMagic Damage|r를 가하고 Movement Speed를 45% 감소시킨다.";
+		t["A01W"][3][1] = "＊25% chance on attack to deal 250|c00379BFFMagic Damage|r every 0.05 seconds for 0.5 seconds and reduce Movement Speed by 45%.";
 -- anam
 		t["A01W"][4][1] = "[Rare]모미지_R";
 -- aart
@@ -5021,8 +5021,8 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A03D"][67][1] = "공격시 15%의 확률로 대상에게 불꽃탄을 던져 48000데미지를 주고 주변 300범위에 2.5 seconds간 초당 28000데미지를 줍니다.";
 -- [A03M]
 -- aub1 1
-		t["A03M"][1][1] = "*모미지가 공격시 15% 확률로 Around yourself 650범위를 검으로 휩쓸어냅니다. 적의 Maximum Health 1% + 135,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*위 효과가 발동할 경우 20% 확률로 극대화 효과가 발동합니다. 극대화 효과 발동시 데미지가 [2~3.5배]로 적용됩니다.";
+		t["A03M"][1][1] = "*15% chance to deal damage in a 650 AoE. Deals 1% Maximum Health + 135,000|c00FF6464 Physical Damage|r.\r\
+*20% chance to strike critically when the above effect is activated. Deals [2~3.5x] damage.";
 -- anam
 		t["A03M"][3][1] = "[Arcana][모미지]";
 -- atp1 1
@@ -12939,11 +12939,11 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0DS"][3][1] = "『백랑텐구비검 - 단풍연무』";
 -- aub1 1
-		t["A0DS"][4][1] = "[마나 Condition이나 활력 Condition 둘 중 하나만 갖추어도 발동하며, 활력 혹은 마나 둘 중 하나만 소모합니다.]\r\
-*모미지가 공격시 마나를 1 회복합니다. 마나가 160이 될때 발동합니다.\r\
+		t["A0DS"][4][1] = "[Activates if either the Mana or Health condition is met. Only consumes Health or Mana when activated.]\r\
+*Restores 1 Mana on attack. Activates at 160 Mana.\r\
 *|c00FF80FF[Vitality]|r - 20 seconds\r\
-*모미지가 대상 지점을 보이지 않는 속도로 일격을 날려 적을 양단합니다. 대상 지점 주변 500범위 적에게 Maximum Health 5% + 1250,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*효과 발동후 5 seconds간 스킬의 극대화 효과가 60% 확률로 발동합니다.";
+*Deals Maximum Health 5% + 1250,000|c00FF6464 Physical Damage|r in a 500 AoE.\r\
+*Skills can strike critically at a 60% chance for 5 seconds when activated.";
 -- aart
 		t["A0DS"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNDeathAndDecay.blp";
 -- atp1 2
@@ -15375,9 +15375,9 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0JB"][3][1] = "『가을바라기』";
 -- aub1 1
-		t["A0JB"][4][1] = "*모미지가 공격시 30% 확률로 대상 Units을 강하게 베어 3초의 스턴을 입히고, Maximum Health 10%에 해당하는 |c00FF6464 Physical Damage|r를 입힙니다.[보스에게는 7%의 데미지만 적용]\r\
-*위 효과가 발동할 경우 20% 확률로 극대화 효과가 발동합니다. 극대화 효과 발동시 데미지가 [1.5~3.5배]로 적용됩니다.\r\
-*『가을바라기』가 5번 발동할 경우 『단풍휩쓸기』가 자동으로 발동합니다.";
+		t["A0JB"][4][1] = "*30% chance to stun an enemy for 3 seconds and deal 10% Maximum Health  |c00FF6464 Physical Damage|r.[7% to Bosses]\r\
+*20% chance to strike critically when activating the above effect. Deals [1.5~3.5x] damage.\r\
+*『가을바라기』 activating 5 times will activate 『단풍휩쓸기』 automatically.";
 -- aart
 -- atp1 2
 -- atp1 3
@@ -25599,8 +25599,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0OT"][5][1] = "『만인요지적』";
 -- aub1 1
-		t["A0OT"][6][1] = "*모미지 주변 750범위 내의 적의 방어력을 22 감소시킵니다.\r\
-*위 방어력 감소 효과를 받는 적이 자신이 소유한 Units에게[=아군 플레이어 제외] 데미지를 입을 경우, 그 데미지의 20%를 추가 |c00FF6464 Physical Damage|r로 입힙니다.";
+		t["A0OT"][6][1] = "*Defense -22 in a 750 AoE.\r\
+*If the enemy is affected by the above effect, your units deal an additional 20% |c00FF6464 Physical Damage|r.";
 -- atat
 -- abuf 1
 		t["A0OT"][8][1] = "B04Y";
