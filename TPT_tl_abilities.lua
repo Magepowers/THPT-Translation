@@ -16,7 +16,7 @@ TPT_abilities_loader = function(t)
 -- aart
 		t["Assk"][6][1] = "BTN\\BTNParsee.blp";
 -- aub1 1
-		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Hieda no Akyuu[Epic] + Kochiya Sanae[Unique] + Fragment of Ancients and Fantasy\r\
+		t["Assk"][7][1] = "|c00A8F13A[Combination]|r: Clownpiece[Epic] + Hieda no Akyuu[Epic] + Sanae Kochiya[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 울지않아 파르시쨩(parsee phan)\r\
 \r\
 [Attack Speed]: 0.67 Cooldown\r\
@@ -3633,7 +3633,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A015"][5][1] = "|c00ffff00Sa Nae|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A015"][6][1] = "Kochiya Sanae + Minoriko Aki + Kogasa Tatara + Green UFO\r\
+		t["A015"][6][1] = "Sanae Kochiya + Minoriko Aki + Kogasa Tatara + Green UFO\r\
 ";
 -- ahky
 -- acat
@@ -3682,7 +3682,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A01B"][5][1] = "|c00ffff00Palanquin Ship|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01B"][6][1] = "Kogasa Tatara + Kochiya Sanae + Lily White + Red UFO\r\
+		t["A01B"][6][1] = "Kogasa Tatara + Sanae Kochiya + Lily White + Red UFO\r\
 ";
 -- ahky
 -- acat
@@ -4071,9 +4071,9 @@ Light Barrier 『Wall Break』\r\
 -- anam
 		t["A02A"][1][1] = "[Rare]Sa Nae_R";
 -- atp1 1
-		t["A02A"][2][1] = "제비『어지러운 제비 연속뽑기』";
+		t["A02A"][2][1] = "Omikuji 『Random Omikuji Barrage』";
 -- aub1 1
-		t["A02A"][3][1] = "＊공격 시 Around yourself 650 범위의 적 2명을 추가로 공격한다.";
+		t["A02A"][3][1] = "＊2 Target Multishot in a 650 AoE.";
 -- amat
 		t["A02A"][5][1] = "Abilities\\Spells\\Undead\\AbsorbMana\\AbsorbManaBirthMissile.mdl";
 -- atar 1
@@ -6053,10 +6053,10 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A04N]
 -- arac
 -- atp1 1
-		t["A04N"][2][1] = "USH『궁극 가학Human』";
+		t["A04N"][2][1] = "USH 『Ultimate Sadistic Human』";
 -- aub1 1
-		t["A04N"][3][1] = "＊공격이 공격력 1배의 범위 피해를 가한다.\r\
-＊공격 시 50% 확률로 대상에게 35,000 |c00FF6464Physical Damage|r(기절한 대상은 65,000 |c00AC59FF절대 피해|r)를 가한다.";
+		t["A04N"][3][1] = "＊Deals 1x Damage in an area.\r\
+＊50% chance to deal 35,000 |c00FF6464Physical Damage|r(65,000 to stunned targets |c00AC59FFTrue Damage|r).";
 -- anam
 -- aart
 		t["A04N"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNGhost.blp";
@@ -6600,14 +6600,14 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A04Z]
 -- arac
 -- atp1 1
-		t["A04Z"][2][1] = "개해『바다가 갈라지는 날』";
+		t["A04Z"][2][1] = "Sea Opening 『The Day the Sea Split』";
 -- aub1 1
-		t["A04Z"][3][1] = "*Sa Nae가 공격시 9% 확률로 대상 지점 양방향으로 거대한 파도를 치게 합니다. 대상 주변 450범위 내에 있는 적에게 100,000 Magical Damage를 입히고, 받는 |c00379BFF Magical Damage|r를 25% 증폭시킵니다.\r\
-*추가로 범위 내의 적의 이동 속도를 4초간 40% 감소시킵니다.\r\
+		t["A04Z"][3][1] = "*9% chance to deal 100,000 Magical Damage and increase |c00379BFF Magical Damage|r taken by 25% by enemies in a 450 AoE.\r\
+*Additionally reduces enemies' Movement Speed by 45%.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-요괴퇴치『요력 스포일러』\r\
+Youkai Extermination 『Yokai Power Spoiler』\r\
 \r\
-*적을 공격시 10% 확률로 요력이 흐르는 점혈을 4번 찔러 횟수당 60,000 x (0.5~2.0)의 |c00379BFF Magical Damage|r를 입히고, 2초간 스턴시킵니다.";
+*10% chance to deal 4 times 60,000 x (0.5~2.0) |c00379BFF Magical Damage|r and stun for 2 seconds.";
 -- anam
 		t["A04Z"][4][1] = "[Arcana][Sa Nae]";
 -- aart
@@ -7189,7 +7189,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aart
 -- atp1 2
 -- atp1 3
-		t["A05G"][7][1] = "요괴퇴치『요력 스포일러』";
+		t["A05G"][7][1] = "Youkai Extermination 『Yokai Power Spoiler』";
 -- atp1 4
 -- atp1 5
 -- atp1 6
@@ -8421,7 +8421,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 15
 		t["A085"][64][1] = "[오에야마 폭풍]";
 -- atp1 16
-		t["A085"][65][1] = "[바다가 갈라지는 날]";
+		t["A085"][65][1] = "[The Day the Sea Split]";
 -- abuf 16
 -- abuf 17
 -- atp1 17
@@ -9750,7 +9750,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A097"][5][1] = "|c00ffff00Iku Nagae|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A097"][7][1] = "Sunny Milk + Kogasa Tatara + Kochiya Sanae + Blue UFO\r\
+		t["A097"][7][1] = "Sunny Milk + Kogasa Tatara + Sanae Kochiya + Blue UFO\r\
 ";
 -- ahky
 -- alig
@@ -12365,7 +12365,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0CL"][5][1] = "|c00ffff00Hatate Himekaidou|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0CL"][6][1] = "Momiji Inubashiri + Kochiya Sanae + Minoriko Aki";
+		t["A0CL"][6][1] = "Momiji Inubashiri + Sanae Kochiya + Minoriko Aki";
 -- ahky
 -- acat
 		t["A0CL"][8][1] = "h01V,h046,h011";
@@ -13110,7 +13110,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- arac
 -- anam
 -- atp1 1
-		t["A0E7"][3][1] = "|c00FEE952[Unit Information]|r - Kochiya Sanae[Rare]";
+		t["A0E7"][3][1] = "|c00FEE952[Unit Information]|r - Sanae Kochiya[Rare]";
 -- aub1 1
 		t["A0E7"][4][1] = "|c00A8F13A[Combination]|r: Green UFO[Rare] + Shizuha Aki[Magic]\r\
 \r\
@@ -13393,7 +13393,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0EV"][3][1] = "|c00FEE952[Unit Information]|r - Iku Nagae[Unique]";
 -- aub1 1
-		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: Sunny Milk[Rare] + Kogasa Tatara[Rare] + Kochiya Sanae[Rare] + Blue UFO[Rare]\r\
+		t["A0EV"][4][1] = "|c00A8F13A[Combination]|r: Sunny Milk[Rare] + Kogasa Tatara[Rare] + Sanae Kochiya[Rare] + Blue UFO[Rare]\r\
 \r\
 [Attack Speed]: 0.95 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13453,7 +13453,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0F0"][3][1] = "|c00FEE952[Unit Information]|r - Sa Nae[Unique]";
 -- aub1 1
-		t["A0F0"][4][1] = "|c00A8F13A[Combination]|r: Kochiya Sanae[Rare] + Minoriko Aki[Rare] + Kogasa Tatara[Rare] + Green UFO[Rare]\r\
+		t["A0F0"][4][1] = "|c00A8F13A[Combination]|r: Sanae Kochiya[Rare] + Minoriko Aki[Rare] + Kogasa Tatara[Rare] + Green UFO[Rare]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13513,7 +13513,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0F5"][3][1] = "|c00FEE952[Unit Information]|r - Hatate Himekaidou[Unique]";
 -- aub1 1
-		t["A0F5"][4][1] = "|c00A8F13A[Combination]|r: Momiji Inubashiri[Rare] + Kochiya Sanae[Rare] + Minoriko Aki[Rare]\r\
+		t["A0F5"][4][1] = "|c00A8F13A[Combination]|r: Momiji Inubashiri[Rare] + Sanae Kochiya[Rare] + Minoriko Aki[Rare]\r\
 \r\
 [Attack Speed]: 0.9 Cooldown\r\
 [Movement Speed]: 330\r\
@@ -13695,7 +13695,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FK"][3][1] = "|c00FEE952[Unit Information]|r - Palanquin Ship[Unique]";
 -- aub1 1
-		t["A0FK"][4][1] = "|c00A8F13A[Combination]|r: Kogasa Tatara[Rare] + Lily White[Rare] + Kochiya Sanae[Rare] + Red UFO[Rare]\r\
+		t["A0FK"][4][1] = "|c00A8F13A[Combination]|r: Kogasa Tatara[Rare] + Lily White[Rare] + Sanae Kochiya[Rare] + Red UFO[Rare]\r\
 \r\
 [Attack Speed]: 0.8 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -18137,7 +18137,7 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A06U"][4][1] = "|c00FEE952[Unit Information]|r - Kochiya Sanae[Arcana]";
+		t["A06U"][4][1] = "|c00FEE952[Unit Information]|r - Sanae Kochiya[Arcana]";
 -- aub1 1
 		t["A06U"][5][1] = "|c00A8F13A[Combination]|r: Kanako Yasaka[Epic] + Sa Nae[Unique] + Unique Soul * 2 + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 기적의 미라클(sanae arc)\r\
@@ -22932,7 +22932,7 @@ Ice Sign 『Icicle Machine Gun』\r\
 -- aub1 1
 		t["A0IL"][5][1] = "Green UFO + Shizuha Aki";
 -- atp1 1
-		t["A0IL"][6][1] = "|c00ffff00Kochiya Sanae|r Combination|c00FF8040[D]|r";
+		t["A0IL"][6][1] = "|c00ffff00Sanae Kochiya|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A0IL"][8][1] = "h00C,h012";
@@ -23686,12 +23686,12 @@ Randomly casts 1 of two parts at random 10 times. The last shout has no effect.\
 -- [A0NG]
 -- arac
 -- atp1 1
-		t["A0NG"][2][1] = "『풍신의 기적』 - 기적 1";
+		t["A0NG"][2][1] = "『Wind God's Miracle』 - Miracle 1";
 -- aub1 1
-		t["A0NG"][3][1] = "*Sa Nae가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 5개까지 쌓이며, 기적 하나당 Sa Nae의 스펠 데미지가 6%씩 상승합니다.\r\
+		t["A0NG"][3][1] = "*25% chance to collect a miracle on attack, increasing Magical Damage by 6% per miracle collected, up to 5 times.\r\
 *|c00FF80FF[Vitality]|r - 10 seconds\r\
-Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. Around yourself 800범위 적에게 [125,000~375,000] 사이의 |c00379BFF Magical Damage|r를 입히고, 3초의 스턴 효과를 입힙니다. 기적 스택당 0.4초간 추가로 스턴시킵니다.\r\
-*활력 효과 발동시 기적 스택이 모두 초기화됩니다.";
+Deal [125,000~375,000] |c00379BFF Magical Damage|r in an 800 AoE around yourself, and stun enemies for 3 seconds, stunning for 0.4 more seconds per miracle.\r\
+*All miracle stacks will be reset after the Vitality effect is activated.";
 -- anam
 -- aart
 -- atp1 11
@@ -23719,15 +23719,15 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- aub1 3
 -- aub1 4
 -- aub1 5
-		t["A0NG"][30][1] = "*Sa Nae가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 5개까지 쌓이며, 기적 하나당 Sa Nae의 스펠 데미지가 6%씩 상승합니다.\r\
+		t["A0NG"][30][1] = "*25% chance to collect a miracle on attack, increasing Magical Damage by 6% per miracle collected, up to 5 times.\r\
 *|c00FF80FF[Vitality]|r - 10 seconds\r\
-Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. Around yourself 800범위 적에게 [125,000~375,000] 사이의  Magical Damage를 입히고, 기적 스택당 0.4초간 기절시킵니다.\r\
-*활력 효과 발동시 기적 스택이 모두 초기화됩니다.";
+Deal [125,000~375,000] |c00379BFF Magical Damage|r in an 800 AoE around yourself, and stun enemies for 3 seconds, stunning for 0.4 more seconds per miracle.\r\
+*All miracle stacks will be reset after the Vitality effect is activated.";
 -- aub1 6
-		t["A0NG"][31][1] = "*Sa Nae가 공격시 25% 확률로 기적을 불러모읍니다. 기적은 최대 10개까지 쌓이며, 기적 하나당 Sa Nae의 스펠 데미지가 3%씩 상승합니다.\r\
-*|c00FF80FF[Vitality]|r - 12초\r\
-Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 일을 벌입니다. Around yourself 800범위 적에게 [125,000~375,000] 사이의  Magical Damage를 입히고, 기적 스택당 0.2초간 기절시킵니다.\r\
-*활력 효과 발동시 기적 스택이 모두 초기화됩니다.";
+		t["A0NG"][31][1] = "*25% chance to collect a miracle on attack, increasing Magical Damage by 3% per miracle collected, up to 10 times.\r\
+*|c00FF80FF[Vitality]|r - 12 seconds\r\
+Deal [125,000~375,000] |c00379BFF Magical Damage|r in an 800 AoE around yourself, and stun enemies for 3 seconds, stunning for 0.4 more seconds per miracle.\r\
+*All miracle stacks will be reset after the Vitality effect is activated..";
 -- aub1 7
 -- aub1 8
 -- aub1 9
@@ -23754,23 +23754,23 @@ Sa Nae가 공격시 자신이 모았던 기적을 해방시켜 상식 이외의 
 -- aub1 30
 -- aub1 31
 -- atp1 2
-		t["A0NG"][57][1] = "『풍신의 기적』 - 기적 2";
+		t["A0NG"][57][1] = "『Wind God's Miracle』 - Miracle 2";
 -- atp1 3
-		t["A0NG"][58][1] = "『풍신의 기적』 - 기적 3";
+		t["A0NG"][58][1] = "『Wind God's Miracle』 - Miracle 3";
 -- atp1 4
-		t["A0NG"][59][1] = "『풍신의 기적』 - 기적 4";
+		t["A0NG"][59][1] = "『Wind God's Miracle』 - Miracle 4";
 -- atp1 5
-		t["A0NG"][60][1] = "『풍신의 기적』 - 기적 5";
+		t["A0NG"][60][1] = "『Wind God's Miracle』 - Miracle 5";
 -- atp1 6
-		t["A0NG"][61][1] = "『풍신의 기적』 - 기적 6";
+		t["A0NG"][61][1] = "『Wind God's Miracle』 - Miracle 6";
 -- atp1 7
-		t["A0NG"][62][1] = "『풍신의 기적』 - 기적 7";
+		t["A0NG"][62][1] = "『Wind God's Miracle』 - Miracle 7";
 -- atp1 8
-		t["A0NG"][63][1] = "『풍신의 기적』 - 기적 8";
+		t["A0NG"][63][1] = "『Wind God's Miracle』 - Miracle 8";
 -- atp1 9
-		t["A0NG"][64][1] = "『풍신의 기적』 - 기적 9";
+		t["A0NG"][64][1] = "『Wind God's Miracle』 - Miracle 9";
 -- atp1 10
-		t["A0NG"][65][1] = "『풍신의 기적』 - 기적 10";
+		t["A0NG"][65][1] = "『Wind God's Miracle』 - Miracle 10";
 -- [A0NH]
 -- anam
 -- aart
@@ -27371,12 +27371,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atar 1
 -- arac
 -- atp1 1
-		t["S00Q"][3][1] = "대기적『야사카의 신풍』";
+		t["S00Q"][3][1] = "Great Miracle 『Yasaka's Divine Wind』";
 -- aub1 1
-		t["S00Q"][4][1] = "*Sa Nae 주변 800범위 아군의 Attack Speed를 12% 증가시킵니다.\r\
-*Sa Nae가 공격시 마나를 1씩 회복합니다. 마나가 180이 됐을때, 기적을 행하여 Around yourself에 신의 바람을 재현해냅니다. Around yourself 1500범위 적에게 8 seconds 동안 매 2초마다 1.5 seconds의 스턴을 입히고, Current Health의 1% + Maximum Health 0.5% + 100,000|c00379BFF Magical Damage|r를 입힙니다.\r\
-*|c00C5EA53[Combination Synergy]|r미라클 프로그\r\
--Suwako Moriya[Chronicle]를 보유하고 있을 경우, 신풍이 종료될때 범위 내에 스와코가 있다면 스와코의 마나를 80% 회복시킵니다.";
+		t["S00Q"][4][1] = "*Attack Speed +12% in an 800 AoE.\r\
+*Gain 1 Mana on attack. Activates at 180 Mana. For 8 seconds, every 2 seconds inflict a 1.5 second stun on enemies and deal 1% Current Health + 0.5% Maximum Health + 100,000|c00379BFF Magical Damage|r in a 1500 AoE around yourself.\r\
+*|c00C5EA53[Combination Synergy]|r Miracle Frog\r\
+-If Suwako Moriya[Chronicle] is nearby when this skill ends, restore their Mana by 80%.";
 -- anam
 -- abuf 1
 		t["S00Q"][6][1] = "B05I";
@@ -33075,7 +33075,7 @@ Deals 1.2% Maximum Health + 200,000|c00379BFF Magical Damage|r and stun for 1.1 
 [Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade\r\
 |c00C5EA53[Combination Synergy]|r기적의 마법!\r\
--이 스킬은 Kochiya Sanae[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
+-이 스킬은 Sanae Kochiya[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
 -- aart
 		t["A05J"][5][1] = "Icon\\Unit\\BTNMarisa_Arc.blp";
 -- [A0HH]
