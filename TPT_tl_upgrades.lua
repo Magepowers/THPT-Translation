@@ -1699,7 +1699,7 @@ TPT_upgrades_loader = function(t)
 -- gar1 4
 -- gar1 5
 -- gar1 6
-		t["R008"][11][1] = "icon\\Kochiya Sanae.blp";
+		t["R008"][11][1] = "icon\\Sanae Kochiya.blp";
 -- gar1 7
 -- gar1 8
 -- gar1 9

@@ -1818,7 +1818,7 @@ TPT_units_loader = function(t)
 		t["ndtr"][1][1] = "zaomiao.mdl";
 -- urac
 -- unam
-		t["ndtr"][3][1] = "Kochiya Sanae - |c0054EB67Arcana|r|N|c00FFA275산의 새로운 신님|r";
+		t["ndtr"][3][1] = "Sanae Kochiya - |c0054EB67Arcana|r|N|c00FFA275산의 새로운 신님|r";
 -- upgr
 -- ua1m
 		t["ndtr"][8][1] = "Abilities\\Weapons\\SludgeMissile\\SludgeMissile.mdl";
@@ -3410,7 +3410,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h011"][7][1] = "Kochiya Sanae - |c00ffff00Rare|r";
+		t["h011"][7][1] = "Sanae Kochiya - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -4920,7 +4920,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e01T"][7][1] = "WAVE59 - Kochiya Sanae";
+		t["e01T"][7][1] = "WAVE59 - Sanae Kochiya";
 -- upgr
 -- umdl
 -- uarm
