@@ -3300,7 +3300,7 @@ Light Barrier 『Wall Break』\r\
 [Movement Speed]: 380\r\
 |c00F8BA54[Upgrade]|r : Phantasm Units Upgrade\r\
 |c0097FF2F[Combination Synergy]|r윈터러\r\
--Cirno[Legendary]를 보유했을 때, 레티가 동부『노던 위너』를 발동하면 자신의 활력 Cooldown을 5 seconds 감소시킵니다.";
+-Cirno[Legendary]를 보유했을 때, 레티가 Freeze Sign 『노던 위너』를 발동하면 자신의 활력 Cooldown을 5 seconds 감소시킵니다.";
 -- [ANd3]
 -- arac
 -- aart
@@ -4021,9 +4021,9 @@ Light Barrier 『Wall Break』\r\
 -- [A022]
 -- arac
 -- atp1 1
-		t["A022"][2][1] = "동부『퍼펙트 프리즈』";
+		t["A022"][2][1] = "Freeze Sign 『Perfect Freeze』";
 -- aub1 1
-		t["A022"][3][1] = "＊공격 시 20% 확률로 대상 주변 400 범위의 적에게 2000 |c00379BFFMagic Damage|r를 가하고 0.1초간 Movement Speed를 45% 감소시킨다.";
+		t["A022"][3][1] = "＊20% chance to deal 2000 |c00379BFFMagic Damage|r and reduce Movement Speed by 45% for 0.1 seconds in a 400 AoE.";
 -- anam
 		t["A022"][4][1] = "[Rare]Cirno_R";
 -- aart
@@ -5715,10 +5715,10 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aub1 31
 -- [A04E]
 -- aub1 1
-		t["A04E"][1][1] = "＊공격 시 ⑨% 확률로 대상 주변 ⑨⑨⑨ 범위의 적에게 ⑨⑨⑨⑨⑨의 |c00379BFFMagic Damage|r를 가하고 0.⑨초간 기절시킨다.";
+		t["A04E"][1][1] = "＊⑨% chance to deal ⑨⑨⑨⑨⑨  |c00379BFFMagic Damage|r and stun for 0.⑨초 in a ⑨⑨⑨ AoE.";
 -- anam
 -- atp1 1
-		t["A04E"][4][1] = "빙부『아이시클 폴 -easy-』";
+		t["A04E"][4][1] = "Ice Sign 『Icicle Fall -easy-』";
 -- atar 1
 -- arac
 -- aart
@@ -12443,7 +12443,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- [A0CT]
 -- anam
 -- atp1 1
-		t["A0CT"][2][1] = "동부『노던 위너』";
+		t["A0CT"][2][1] = "Freeze Sign 『노던 위너』";
 -- aub1 1
 		t["A0CT"][3][1] = "＊공격 시 10% 확률로 대상 주변 400 범위의 적에게 80,000|c00379BFFMagic Damage|r를 가하고 1.6초간 기절시킵니다.\r\
 ───────────────────\r\
@@ -22522,16 +22522,16 @@ Effect : 0.5 seconds간 기절";
 -- abuf 1
 		t["A0MX"][6][1] = "B00F";
 -- atp1 1
-		t["A0MX"][7][1] = "상부『프로스트 칼럼스』";
+		t["A0MX"][7][1] = "Frost Sign 『Frost Columns』";
 -- aub1 1
-		t["A0MX"][8][1] = "*Cirno 주변 1000범위 적의 Movement Speed를 49% 감소시킵니다.\r\
-*Cirno가 공격시 10% 확률로 대상 주변 600범위 Units에게 65,000|c00379BFF Magical Damage|r를 입히고, 3.5 seconds간 스턴시킵니다.\r\
+		t["A0MX"][8][1] = "*Movement Speed -49% in a 1000 AoE.\r\
+*10% chance to deal 65,000|c00379BFF Magical Damage|r and stun for 3.5 seconds in a 600 AoE.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-빙부『아이시클 머신건』\r\
+Ice Sign 『Icicle Machine Gun』\r\
 \r\
-*공격시 30% 확률로 대상 Units을 2.5 seconds간 스턴시키고, Maximum Health 3% + 250,000|c00379BFF Magical Damage|r를 입힙니다.\r\
-[보스 Units의 경우 Maximum Health 0.2% + 100,000|c00379BFF Magical Damage|r를 입힙니다.]\r\
-*1초마다 Cirno의 몸에서 냉기 파편이 주변 보스에게 날아갑니다. 파편은 개당 100,000|c00379BFF Magical Damage|r를 입힙니다.";
+*30% chance to deal 3% Maximum Health + 250,000|c00379BFF Magical Damage|r and stun for 2.5 seconds.\r\
+[Boss units take 0.2% Maximum Health + 100,000|c00379BFF Magical Damage|r instead.]\r\
+*Every 1 second to bosses deal 100,000|c00379BFF Magical Damage|r.";
 -- [S00I]
 -- atar 1
 -- arac
@@ -27419,7 +27419,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 1
 		t["S00R"][4][1] = "*레티 주변 650범위 내에 있는 적의 Movement Speed를 35% 감소시킵니다.\r\
 *레티가 공격시 22% 확률로 대상 Units을 눈의 칼날로 베어버립니다. 대상 Units Current Health의 21%를 감소시킵니다.\r\
-*백부『언듀레이션 레이』발동 시 동부『노던 위너』의 활력 Cooldown이 1초씩 감소합니다.";
+*백부『언듀레이션 레이』발동 시 Freeze Sign 『노던 위너』의 활력 Cooldown이 1초씩 감소합니다.";
 -- anam
 -- abuf 1
 		t["S00R"][6][1] = "B021";
@@ -33911,7 +33911,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0RD"][1][1] = "[Legendary][엘룬]";
 -- atp1 1
 -- aub1 1
-		t["A0RD"][3][1] = "*Cirno가 공격시 마나를 9 회복합니다. 마나가 999가 됐을때, Around yourself 900범위 적의 다리를 얼려 5 seconds간 기절시킵니다. 이 효과를 받은 적은 이후  Magical Damage를 20% 증폭하여 받습니다.";
+		t["A0RD"][3][1] = "*On attack gain 9 Mana. At 999 Mana, in a 900 AoE around yourself stun enemies for 5 seconds. Enemies under this effect take 20% more Magical Damage.";
 -- atar 2
 -- atar 3
 -- atar 4
