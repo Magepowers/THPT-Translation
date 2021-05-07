@@ -2348,7 +2348,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- umvt
 -- unam
-		t["ubsp"][5][1] = "Kasodani Kyouko - |c0054EB67Arcana|r|N|c00FFA275평범진부한 야마비코\r\
+		t["ubsp"][5][1] = "Kyouko Kasodani - |c0054EB67Arcana|r|N|c00FFA275평범진부한 야마비코\r\
 	\r\
 |r";
 -- upgr
@@ -3322,7 +3322,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00V"][7][1] = "Kasodani Kyouko - |c00ffff00Rare|r";
+		t["h00V"][7][1] = "Kyouko Kasodani - |c00ffff00Rare|r";
 -- ua1m
 -- umdl
 -- uico
@@ -6264,7 +6264,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02R"][7][1] = "WAVE81 - Kasodani Kyouko";
+		t["e02R"][7][1] = "WAVE81 - Kyouko Kasodani";
 -- upgr
 -- umdl
 		t["e02R"][12][1] = "units\\demon\\EredarWarlockPurple\\EredarWarlockPurple.mdl";

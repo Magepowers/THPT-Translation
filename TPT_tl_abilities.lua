@@ -210,7 +210,7 @@ Effect : Attack up to 4 nearby enemies\r\
 -- atp1 1
 		t["Afsh"][6][1] = "|c00FEE952[Unit Information]|r - Kagerou Imaizumi[Unique]";
 -- aub1 1
-		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: Sekibanki[Rare] + Kasodani Kyouko[Rare] + Merlin Prismriver[Rare]\r\
+		t["Afsh"][7][1] = "|c00A8F13A[Combination]|r: Sekibanki[Rare] + Kyouko Kasodani[Rare] + Merlin Prismriver[Rare]\r\
 \r\
 [Attack Speed]: 0.6 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -3666,7 +3666,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["A01A"][5][1] = "|c00ffff00Chen|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A01A"][6][1] = "Orin + Kasodani Kyouko + Sunny Milk";
+		t["A01A"][6][1] = "Orin + Kyouko Kasodani + Sunny Milk";
 -- ahky
 -- acat
 		t["A01A"][8][1] = "h00Q,h00J,h00V";
@@ -9422,7 +9422,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A08Y"][5][1] = "|c00ffff00Narumi Yatadera|r Combination|c00FF8040[F]|r";
 -- aub1 1
-		t["A08Y"][6][1] = "Kasodani Kyouko + Orin[Rare] + Lyrica Prismriver[Rare]";
+		t["A08Y"][6][1] = "Kyouko Kasodani + Orin[Rare] + Lyrica Prismriver[Rare]";
 -- aart
 		t["A08Y"][7][1] = "BTN\\BTNnarumi.blp";
 -- ahky
@@ -11317,7 +11317,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aart
 		t["A0B9"][4][1] = "BTN\\BTNKyouko.blp";
 -- atp1 1
-		t["A0B9"][5][1] = "|c00ffff00Kasodani Kyouko|r Combination|c00FF8040[D]|r";
+		t["A0B9"][5][1] = "|c00ffff00Kyouko Kasodani|r Combination|c00FF8040[D]|r";
 -- aub1 1
 		t["A0B9"][6][1] = "Small Divine Spirit + Kisume + Zako";
 -- ahky
@@ -11398,7 +11398,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A0BH"][5][1] = "|c00ffff00Lily Black|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BH"][6][1] = "Lily White + Cirno + Kasodani Kyouko";
+		t["A0BH"][6][1] = "Lily White + Cirno + Kyouko Kasodani";
 -- ahky
 -- acat
 		t["A0BH"][8][1] = "h044,h00I,h00V";
@@ -11414,7 +11414,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A0BI"][5][1] = "|c00ffff00Soga no Tojiko|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BI"][6][1] = "Kasodani Kyouko + Youmu Konpaku + Yoshika Miyako";
+		t["A0BI"][6][1] = "Kyouko Kasodani + Youmu Konpaku + Yoshika Miyako";
 -- ahky
 -- acat
 		t["A0BI"][8][1] = "h00V,h00Z,h001";
@@ -12142,9 +12142,9 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- [A00J]
 -- arac
 -- atp1 1
-		t["A00J"][2][1] = "『차지드 야호』";
+		t["A00J"][2][1] = "『Charged Yahoo』";
 -- aub1 1
-		t["A00J"][3][1] = "＊공격 시 10% 확률로 크게 소리쳐 Around yourself 1000 범위의 적에게 4500의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A00J"][3][1] = "＊10% chance to deal 4500 |c00379BFFMagic Damage|r in a 1000 AoE around yourself.";
 -- anam
 		t["A00J"][4][1] = "[Rare]쿄코_R";
 -- aart
@@ -13230,7 +13230,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- arac
 -- anam
 -- atp1 1
-		t["A0EH"][3][1] = "|c00FEE952[Unit Information]|r - Kasodani Kyouko[Rare]";
+		t["A0EH"][3][1] = "|c00FEE952[Unit Information]|r - Kyouko Kasodani[Rare]";
 -- aub1 1
 		t["A0EH"][4][1] = "|c00A8F13A[Combination]|r: Small Divine Spirit[Magic] + Kisume[Magic] + Zako[Normal]\r\
 \r\
@@ -13465,7 +13465,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0F1"][3][1] = "|c00FEE952[Unit Information]|r - Chen[Unique]";
 -- aub1 1
-		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Kasodani Kyouko[Rare] + Sunny Milk[Rare]\r\
+		t["A0F1"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Kyouko Kasodani[Rare] + Sunny Milk[Rare]\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13573,7 +13573,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FA"][3][1] = "|c00FEE952[Unit Information]|r - Soga no Tojiko[Unique]";
 -- aub1 1
-		t["A0FA"][4][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Youmu Konpaku[Rare] + Yoshika Miyako[Rare]\r\
+		t["A0FA"][4][1] = "|c00A8F13A[Combination]|r: Kyouko Kasodani[Rare] + Youmu Konpaku[Rare] + Yoshika Miyako[Rare]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13597,7 +13597,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FC"][3][1] = "|c00FEE952[Unit Information]|r - Lily Black[Unique]";
 -- aub1 1
-		t["A0FC"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Cirno[Rare] + Kasodani Kyouko[Rare]\r\
+		t["A0FC"][4][1] = "|c00A8F13A[Combination]|r: Lily White[Rare] + Cirno[Rare] + Kyouko Kasodani[Rare]\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13622,7 +13622,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FE"][3][1] = "|c00FEE952[Unit Information]|r - Aya Shameimaru[Legendary]";
 -- aub1 1
-		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kasodani Kyouko[Rare] + 1 Unique Soul\r\
+		t["A0FE"][4][1] = "|c00A8F13A[Combination]|r: Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kyouko Kasodani[Rare] + 1 Unique Soul\r\
 \r\
 [Attack Speed]: 0.27 Cooldown\r\
 [Movement Speed]: 500[Air movement]\r\
@@ -14788,7 +14788,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A076"][2][1] = "|c00FEE952[Unit Information]|r - Minoriko Aki[Arcana]";
 -- aub1 1
-		t["A076"][3][1] = "|c00A8F13A[Combination]|r: Nazrin[Unique] + Kasodani Kyouko[Rare] + Minoriko Aki[Rare] + Arcanist's Book\r\
+		t["A076"][3][1] = "|c00A8F13A[Combination]|r: Nazrin[Unique] + Kyouko Kasodani[Rare] + Minoriko Aki[Rare] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 신님이라구?(minoriko arc)\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
@@ -15395,10 +15395,10 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atar 1
 -- aart
 -- aub1 1
-		t["A0JD"][5][1] = "*쿄코가 공격시 10% 확률로 대상 지점에 메아리를 외칩니다. 지점 주변 400범위 내의 적에게 95,000|c00379BFF Magical Damage|r를 입힙니다.\r\
-*2번째 사용시 데미지가 2배가 되며, 다시 첫번째로 돌아갑니다.";
+		t["A0JD"][5][1] = "*10% chance to deal 95,000|c00379BFF Magical Damage|r in a 400 AoE.\r\
+*The damage is doubled on the second cast and then resets to normal damage on the next cast.";
 -- atp1 1
-		t["A0JD"][6][1] = "메아리 『앰플리파이 에코』";
+		t["A0JD"][6][1] = "Mountain Echo 『Amplify Echo』";
 -- atp1 2
 -- aub1 2
 -- [A0JE]
@@ -16029,7 +16029,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0KG"][5][1] = "|c00ffff00Kagero Imaizumi|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0KG"][6][1] = "Sekibanki + Kasodani Kyouko + Merlin Prismriver";
+		t["A0KG"][6][1] = "Sekibanki + Kyouko Kasodani + Merlin Prismriver";
 -- ahky
 -- acat
 		t["A0KG"][8][1] = "hfoo,h00V,h031";
@@ -17191,7 +17191,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 -- atp1 1
 		t["A0KO"][4][1] = "|c00FEE952[Unit Information]|r - Narumi Yatadera[Unique]";
 -- aub1 1
-		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: Kasodani Kyouko[Rare] + Orin[Rare] + Lyrica Prismriver[Rare]\r\
+		t["A0KO"][5][1] = "|c00A8F13A[Combination]|r: Kyouko Kasodani[Rare] + Orin[Rare] + Lyrica Prismriver[Rare]\r\
 \r\
 [Attack Speed]: 3 Cooldown\r\
 [Movement Speed]: 350\r\
@@ -19517,7 +19517,7 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 -- arac
 -- aart
 -- aub1 1
-		t["A014"][5][1] = "Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kasodani Kyouko[Rare] + 1 Unique Soul";
+		t["A014"][5][1] = "Aya Shameimaru[Epic] + Momiji Inubashiri[Rare] + Kyouko Kasodani[Rare] + 1 Unique Soul";
 -- atp1 1
 		t["A014"][6][1] = "|c00ffff00Aya Shameimaru[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
@@ -23632,14 +23632,14 @@ Ice Sign 『Icicle Machine Gun』\r\
 -- anam
 		t["A0NC"][3][1] = "[쿄코]마운틴 에코";
 -- atp1 1
-		t["A0NC"][4][1] = "향부 『마운틴 에코 스크램블』";
+		t["A0NC"][4][1] = "향부 『Mountain Echo Scramble』";
 -- aub1 1
-		t["A0NC"][5][1] = "*쿄코가 공격시 마나를 1 회복합니다. 마나가 40일때 발동합니다.\r\
-*쿄코가 자신의 폐활량을 총동원해 전방에 엄청난 소리를 내지릅니다. 소리는 다음의 구성으로 |c00379BFF Magical Damage|r를 입힙니다.\r\
--호 : Maximum Health 1.5% + 300,000 Magical Damage를 입힙니다.\r\
--에 : Maximum Health 0.5%에 해당하는  Magical Damage를 입힙니다.\r\
-호는 처음의 한번만, 에는 랜덤으로 최대 10번까지 이어나옵니다. 마지막의 엥~!은 아무 효과가 없습니다\r\
-*발동시 30% 확률로 숨고르기에 실패해 콜록..콜록케켁..을 출력하며 Maximum Health 3% + 200,000 True Damage를 입힙니다.";
+		t["A0NC"][5][1] = "*Gain 1 Mana on attack. Activates at 40 Mana.\r\
+*Kyouko releases a burst of sound dealing |c00379BFF Magical Damage|r.\r\
+-Hoo : 1.5% Maximum Health + 300,000 Magical Damage.\r\
+-ray : 0.5% Maximum Health Magical Damage.\r\
+Randomly casts 1 of two parts at random 10 times. The last shout has no effect.\r\
+*30% chance for the ability to fail and instead deal 3% Maximum Health + 200,000 True Damage.";
 -- [A0ND]
 -- aart
 		t["A0ND"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNDOTMasterTraining.blp";
@@ -33387,9 +33387,9 @@ Deals 1.2% Maximum Health + 200,000|c00379BFF Magical Damage|r and stun for 1.1 
 -- [A0KE]
 -- anam
 -- atp1 1
-		t["A0KE"][2][1] = "|c00FEE952[Unit Information]|r - Kasodani Kyouko[Arcana]";
+		t["A0KE"][2][1] = "|c00FEE952[Unit Information]|r - Kyouko Kasodani[Arcana]";
 -- aub1 1
-		t["A0KE"][3][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic] + Kasodani Kyouko[Rare] + Arcanist's Book\r\
+		t["A0KE"][3][1] = "|c00A8F13A[Combination]|r: Wriggle Nightbug[Epic] + Kyouko Kasodani[Rare] + Arcanist's Book\r\
 |c00A8F13A[Type Command]|r: 얌전한 야마비코(kyouko arc)\r\
 \r\
 [Attack Speed]: 0.55 Cooldown\r\
