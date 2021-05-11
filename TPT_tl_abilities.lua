@@ -64,7 +64,7 @@ TPT_abilities_loader = function(t)
 -- anam
 		t["AIlx"][6][1] = "[사용되지 않음]";
 -- atp1 1
-		t["AIlx"][7][1] = "화금부『세인트 엘모 필라』";
+		t["AIlx"][7][1] = "Fire Metal Sign 『세인트 엘모 필라』";
 -- aub1 1
 		t["AIlx"][8][1] = "공격시 20%의 확률로 대상에게 폭발 마법이 담긴 불꽃탄을 던져 폭발 시켜 대상에게 2000 Magical Damage를 주고 0.6초간 기절 시킵니다.";
 -- [ACac]
@@ -4089,7 +4089,7 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 		t["A029"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNShade.blp";
 -- [A02C]
 -- aub1 1
-		t["A02C"][1][1] = "＊공격 시 20% 확률로 파이어볼을 발사해 대상 주변 450 범위의 적에게 2000 |c00379BFFMagic Damage|r를 가한다.";
+		t["A02C"][1][1] = "＊20% chance to deal 2000 |c00379BFFMagic Damage|r in a 450 AoE.";
 -- anam
 		t["A02C"][3][1] = "[Rare]파츄리_R";
 -- atp1 1
@@ -4930,10 +4930,10 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A03C"][65][1] = "공격시 10%확률로 전방 800범위를 향해 초당 105000데미지의 공격을 5 seconds동안 합니다.";
 -- [A03D]
 -- aub1 1
-		t["A03D"][1][1] = "＊공격 시 10% 확률로 파이어볼을 날려 대상 주변 600 범위의 적에게 55,000 |c00379BFFMagic Damage|r를 가하고 1초간 기절시킨다.";
+		t["A03D"][1][1] = "＊10% chance to deal |c00379BFFMagic Damage|r and stun for 1 second in a 600 AoE.";
 -- anam
 -- atp1 1
-		t["A03D"][4][1] = "일부『로열 플Rare』";
+		t["A03D"][4][1] = "Sun Sign 『Royal Flare』";
 -- atar 1
 -- arac
 -- aart
@@ -5032,7 +5032,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- aart
 		t["A03M"][7][1] = "ReplaceableTextures\\CommandButtons\\BTNInnerFire.blp";
 -- atp1 2
-		t["A03M"][8][1] = "화수목금Rabbit Sign 『현자의 돌』";
+		t["A03M"][8][1] = "Fire Water Wood Metal Earth Sign 『Philosopher's Stone』";
 -- atp1 4
 -- atp1 3
 -- atp1 5
@@ -23125,20 +23125,20 @@ Ice Sign 『Icicle Machine Gun』\r\
 		t["A0N7"][3][1] = "[Phantasm][파츄리]마나 스킬";
 -- atp1 1
 -- aub1 1
-		t["A0N7"][5][1] = "*공격시 마나를 1 회복합니다. 마나가 250이 됐을때 발동합니다.\r\
-*자신의 위치에 태양을 형상화한 탄막을 생성하여 2.5 seconds 뒤 폭발시킵니다. 태양 주변 800범위 적에게 750,000|c00379BFF Magical Damage|r를 입힙니다.\r\
-*로열 플Rare에 휘말린 적은 마법에 대항할 능력을 잃어버려 5 seconds간  Magical Damage를 40% 증폭하여 받습니다.";
+		t["A0N7"][5][1] = "*Restores 1 Mana on attack. Activates at 250 Mana.\r\
+*Creates a barrage at your location that detonates after 2.5 seconds. Deals 750,000|c00379BFF Magical Damage|r in an 800 AoE.\r\
+*Enemies hit by Royal Flare takes an additional 40% Magic Damage for 5 seconds.";
 -- aub1 2
-		t["A0N7"][9][1] = "*공격시 마나를 1 회복합니다. 마나가 200이 됐을때 발동합니다.\r\
-*대상 지점을 회전하는 2개의 탄막을 생성합니다. 탄막 내부의 적은 1초마다 1.5 seconds간 스턴당합니다. 탄막은 총 6초간 유지되며, 내부의 적에게 초당 200,000|c00379BFF Magical Damage|r를 입힙니다.\r\
-*새틀라이트 히마와리가 종료될 경우 파츄리는 마나를 20~50% 돌려받습니다.";
+		t["A0N7"][9][1] = "*Restores 1 Mana on attack. Activates at 200 Mana.\r\
+*Creates 2 danmaku at a target point. Enemies inside the barrage are stunned every 1 second for 1.5 seconds for a total of 6 seconds and each hit deals 200,000|c00379BFF Magical Damage|r.\r\
+*When Satellite Himwari is finished, gain 20~50% Mana.";
 -- aub1 3
-		t["A0N7"][10][1] = "*공격시 마나를 1 회복합니다. 마나가 250이 됐을때 발동합니다.\r\
-*대상 주변 700범위의 넓은 지역에 수정을 퍼뜨립니다. 수정은 4초간 지속되며, 대상 범위 내의 적에게 초당 Maximum Health 2%의 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["A0N7"][10][1] = "*Restores 1 Mana on attack. Activates at 250 Mana.\r\
+*Spreads a crystal over a large area that lasts for 4 seconds and deals 2% Maximum Health 2% |c00379BFF Magical Damage|r per second in a 700 AoE.";
 -- atp1 2
-		t["A0N7"][11][1] = "월목부『새틀라이트 히마와리』";
+		t["A0N7"][11][1] = "Moon Wood Sign 『Satellite Himawari』";
 -- atp1 3
-		t["A0N7"][12][1] = "토금부『에메랄드 메갈로폴리스』";
+		t["A0N7"][12][1] = "Earth Metal Sign 『Emerald Megalopolis』";
 -- [A02U]
 -- arac
 -- anam
@@ -29089,17 +29089,17 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- [A02I]
 -- arac
 -- aub1 1
-		t["A02I"][2][1] = "*파츄리 주변 800범위 아군 Units의 마나를 초당 2 회복시킵니다.\r\
-*파츄리 주변 800범위 적의 Movement Speed를 30% 감소시킵니다.\r\
+		t["A02I"][2][1] = "*Restores 2 Mana per second in an 800 AoE.\r\
+*Movement Speed -30% in an 800 AoE.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-화수목금Rabbit Sign 『현자의 돌』|cffffcc00(Q)|r\r\
+Fire Water Wood Metal Earth Sign 『Philosopher's Stone』|cffffcc00(Q)|r\r\
 \r\
-*사용시 마나 스킬을 랜덤한 효과로 변화시킵니다.\r\
-*파츄리는 Combination시 랜덤한 마나 스킬을 가집니다. 이 스킬을 사용하여 다른 스킬로 변화시킬 수 있습니다. 운이 좋지 않다면 스킬이 바뀌지 않을 수도 있습니다.\r\
-*사용시 마나가 모두 회복됩니다.\r\
+*Changes your mana skill to a random effect.\r\
+*Patchouli obtains a random mana skill during combination. You can use this skill to transform it to another skill.\r\
+*When used, all mana is restored.\r\
 *Cooldown 100 seconds";
 -- atp1 1
-		t["A02I"][3][1] = "일목부『포토신데시스』";
+		t["A02I"][3][1] = "Sun Wood Sign 『Photosynthesis』";
 -- ahky
 -- atar 1
 -- anam
@@ -29107,9 +29107,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- [A02J]
 -- atp1 1
-		t["A02J"][1][1] = "화금부『세인트 엘모 필러』";
+		t["A02J"][1][1] = "Fire Metal Sign 『Saint Elmo's Pillar』";
 -- aub1 1
-		t["A02J"][2][1] = "*공격시 10% 확률로 대상 주변 300범위에 2초의 스턴과 155,000|c00379BFF Magical Damage|r를 입힙니다.";
+		t["A02J"][2][1] = "*10% chance to deal 155,000|c00379BFF Magical Damage|r and stun for 2 seconds in a 300 AoE.";
 -- anam
 -- aart
 -- atar 1
@@ -29117,13 +29117,13 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["A02J"][7][1] = "B06C";
 -- [A043]
 -- aub1 1
-		t["A043"][1][1] = "*|c00FF80FF[Vitality]|r - 6초\r\
-*대상 지점 주변 450범위에 달빛을 형성시켜 범위 내의 적에게 Maximum Health 1% + 120,000|c00379BFF Magical Damage|r를 입힙니다.  \r\
-*파츄리의 마나가 절반 이상일 경우, 데미지가 2배로 적용됩니다.\r\
-*파츄리의 마나가 절반 이하일 경우, 파츄리의 마나를 5% 회복시킵니다.";
+		t["A043"][1][1] = "*|c00FF80FF[Vitality]|r - 6 seconds\r\
+*Deals 1% Maximum Health + 120,000|c00379BFF Magical Damage|r in a 450 AoE.  \r\
+*If mana is more than half full, deal double damage.\r\
+*If mana is less than half full, restore 5% Mana.";
 -- atar 1
 -- atp1 1
-		t["A043"][4][1] = "Moonlight 『사일런트 셀레네』";
+		t["A043"][4][1] = "Moon Sign 『Silent Selene』";
 -- anam
 -- aart
 -- abuf 1
