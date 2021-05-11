@@ -8321,9 +8321,9 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- anam
 -- arac
 -- atp1 1
-		t["A080"][3][1] = "홍부『엄브렐라 사이클론』";
+		t["A080"][3][1] = "Rainbow Sign 『Umbrella Cyclone』";
 -- aub1 1
-		t["A080"][4][1] = "＊공격 시 12% 확률로 우산을 휘둘러 Around yourself 450 범위의 적에게 2천4백의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A080"][4][1] = "＊12% chance to deal 2400 |c00379BFFMagic Damage|r in a 450 AoE.";
 -- aart
 		t["A080"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNHolyBolt.blp";
 -- [A083]
@@ -31348,7 +31348,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aart
 -- anam
 -- atp1 1
-		t["A0I7"][5][1] = "홍부『스칼렛 마이스터』";
+		t["A0I7"][5][1] = "Rainbow Sign 『스칼렛 마이스터』";
 -- aub1 1
 		t["A0I7"][6][1] = "*레밀리아 주변 700범위 적의 방어력을 15% 감소시킵니다.\r\
 *|c00FF80FF[Vitality]|r - 7초\r\
