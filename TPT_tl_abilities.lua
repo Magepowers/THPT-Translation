@@ -459,7 +459,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 		t["Afbk"][2][1] = "삼고『오전 영시의 쓰리 스트라이크』";
 -- aub1 1
 		t["Afbk"][3][1] = "*라이코가 공격시 10% 확률로 대상 지점에 번개를 내려꽂아 주변 400범위 적에게 Maximum Health 0.3%에 해당하는 |c00379BFF Magical Damage|r를 입힙니다.\r\
-*[오버차지]이 스펠이 발동시 전체 체력 데미지가 0.3%p 증가하며, 최대 1.2%까지 증가한 후 다시 초기 데미지로 돌아갑니다.";
+*[오버차지]이 스펠이 발동시 Maximum Health 데미지가 0.3%p 증가하며, 최대 1.2%까지 증가한 후 다시 초기 데미지로 돌아갑니다.";
 -- aart
 		t["Afbk"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNPurge.blp";
 -- atp1 2
@@ -2420,7 +2420,7 @@ Light Barrier 『Wall Break』\r\
 -- atp1 1
 		t["ACpu"][6][1] = "|c00FEE952[Unit Information]|r - Previous Hakurei Miko[Phantasm]";
 -- aub1 1
-		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Aya Shameimaru[Epic] + Hakurei Reimu[Unique] + Fragment of Ancients and Fantasy\r\
+		t["ACpu"][7][1] = "|c00A8F13A[Combination]|r: Medicine Melancholy[Epic] + Aya Shameimaru[Epic] + Reimu Hakurei[Unique] + Fragment of Ancients and Fantasy\r\
 |c00A8F13A[Type Command]|r: 환상향의 유산(sendai phan)\r\
 \r\
 [Attack Speed]: 0.56 Cooldown\r\
@@ -3307,11 +3307,11 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 		t["ANd3"][3][1] = "Textures\\TBPReimuAura.blp";
 -- anam
 -- atp1 1
-		t["ANd3"][5][1] = "대결계『하쿠레이 탄막결계』";
+		t["ANd3"][5][1] = "Great Barrier 『Hakurei Danmaku Barrier』";
 -- aub1 1
 		t["ANd3"][6][1] = "*|c00FF80FF[Vitality]|r - 20 seconds\r\
-*레이무가 대상 지점에 누구도 벗어나지 못하는 결계를 펼칩니다.\r\
-*탄막결계는 6초간 지속되며, 결계가 지속되는 동안 레이무의 마나가 1초마다 모두 회복됩니다.";
+*Creates a barrier at a target point where no one can escape.\r\
+*The barrier lasts for 6 seconds and 1 mana is restored per second while the barrier is erected.";
 -- [Asph]
 -- anam
 		t["Asph"][1][1] = "하타테 칼날 잔상";
@@ -3474,7 +3474,7 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 -- atp1 1
 		t["A00K"][5][1] = "|c00ffff00Nazrin|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A00K"][6][1] = "Rainbow UFO + Hakurei Reimu + Sunny Milk";
+		t["A00K"][6][1] = "Rainbow UFO + Reimu Hakurei + Sunny Milk";
 -- ahky
 -- acat
 		t["A00K"][8][1] = "h015,h00O,h00J";
@@ -3520,9 +3520,9 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 -- aart
 		t["A00W"][4][1] = "ReplaceableTextures\\CommandButtons\\reimu\\BTN_UP.blp";
 -- atp1 1
-		t["A00W"][5][1] = "|c00ffff00Hakurei Reimu[Homing]|r Combination|c00FF8040[D]|r";
+		t["A00W"][5][1] = "|c00ffff00Reimu Hakurei[Homing]|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A00W"][6][1] = "Hakurei Reimu + Marisa Kirisame + Sakuya Izayoi";
+		t["A00W"][6][1] = "Reimu Hakurei + Marisa Kirisame + Sakuya Izayoi";
 -- ahky
 -- acat
 		t["A00W"][8][1] = "h00O,h00L,h00P";
@@ -3747,7 +3747,7 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 		t["A016"][6][1] = "|c00ffff00Rin Kaenbyou|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A016"][8][1] = "Orin + Yamame Kurodani + Hakurei Reimu[Rare]";
+		t["A016"][8][1] = "Orin + Yamame Kurodani + Reimu Hakurei[Rare]";
 -- ahky
 -- alig
 -- atat
@@ -4051,9 +4051,9 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 -- [A025]
 -- arac
 -- atp1 1
-		t["A025"][2][1] = "몽부『이중결계』";
+		t["A025"][2][1] = "Dream Sign 『Duplex Barrier』";
 -- aub1 1
-		t["A025"][3][1] = "＊공격 시 20% 확률로 이중결계를 펼쳐 Around yourself 700 범위의 적에게 2천 5백의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A025"][3][1] = "＊20% chance to deal 2500 |c00379BFFMagic Damage|r in a 700 AoE.";
 -- anam
 -- aart
 		t["A025"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNRejuvenation.blp";
@@ -4167,9 +4167,9 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 -- arac
 		t["A02R"][1][1] = "nightelf";
 -- atp1 1
-		t["A02R"][2][1] = "주부『유령선 장기정박』";
+		t["A02R"][2][1] = "Jewel Sign 『유령선 장기정박』";
 -- aub1 1
-		t["A02R"][3][1] = "＊|c002C62EA[Mana]|r - 135 : 공격 시 마력 1 회복, 자신의 뒤에서 유령선을 호출하여 목표 지점 400 범위를 4초 동안 포격합니다. 1초마다 전체 체력 1.5% + 200,000|c00379BFFMagic Damage|r를 가합니다.";
+		t["A02R"][3][1] = "＊|c002C62EA[Mana]|r - 135 : 공격 시 마력 1 회복, 자신의 뒤에서 유령선을 호출하여 목표 지점 400 범위를 4초 동안 포격합니다. 1초마다 Maximum Health 1.5% + 200,000|c00379BFFMagic Damage|r를 가합니다.";
 -- anam
 -- aart
 -- [A02T]
@@ -4549,7 +4549,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- atp1 30
 -- aub1 1
-		t["A037"][96][1] = "＊공격 시 10% 확률로 대상에게 전체 체력 3%(보스와 미션은 1%)의 |c00FF6464Physical Damage|r를 가한다. (40 라운드까지)";
+		t["A037"][96][1] = "＊공격 시 10% 확률로 대상에게 Maximum Health 3%(보스와 미션은 1%)의 |c00FF6464Physical Damage|r를 가한다. (40 라운드까지)";
 -- aub1 2
 		t["A037"][97][1] = "주변 400범위 적 Units의 방어력을 25감소 시킵니다.";
 -- aub1 3
@@ -4592,9 +4592,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A038]
 -- arac
 -- atp1 1
-		t["A038"][2][1] = "몽경『이중 대결계』";
+		t["A038"][2][1] = "Dream Land 『Great Duplex Barrier』";
 -- aub1 1
-		t["A038"][3][1] = "＊공격 시 20% 확률로 전방 700 범위의 적에게 2,000*2의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A038"][3][1] = "＊20% chance to deal 2,000*2 |c00379BFFMagic Damage|r in a 700 AoE.";
 -- anam
 -- aart
 		t["A038"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAntiMagicShell.blp";
@@ -6161,7 +6161,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 		t["A04R"][2][1] = "심판『정파리 심판』";
 -- aub1 1
 		t["A04R"][3][1] = "＊공격 시 18% 확률로 심판을 내려 대상 주변 400 범위의 적에게 105,000|c00379BFFMagic Damage|r를 가하고 1.5 seconds간 기절시킵니다.\r\
-＊공격한 적이 보스가 아니고 체력이 50% 이하라면, 전체 체력 1%의 |c00379BFFMagic Damage|r를 가합니다.";
+＊공격한 적이 보스가 아니고 체력이 50% 이하라면, Maximum Health 1%의 |c00379BFFMagic Damage|r를 가합니다.";
 -- anam
 -- aart
 		t["A04R"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNBoneChimes.blp";
@@ -6200,7 +6200,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 31
 -- aub1 2
 		t["A04R"][36][1] = "＊공격 시 18% 확률로 심판을 내려 대상 주변 400 범위의 적에게 155,000|c00379BFFMagic Damage|r를 가하고 1.8 seconds간 기절시킵니다.\r\
-＊공격한 적이 보스가 아니고 체력이 50% 이하라면, 전체 체력 1%의 |c00379BFFMagic Damage|r를 가합니다.";
+＊공격한 적이 보스가 아니고 체력이 50% 이하라면, Maximum Health 1%의 |c00379BFFMagic Damage|r를 가합니다.";
 -- aub1 3
 		t["A04R"][37][1] = "매 공격시 마다 대상에게 |c00ffff00[3*(웨이브수*3)*(웨이브 잔류 몹*45)]|r 만큼의 데미지를 줍니다.";
 -- aub1 4
@@ -6351,7 +6351,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- arac
 -- atp1 1
 -- aub1 1
-		t["A04T"][3][1] = "＊공격 시 13% 확률로 레바테인을 휘둘러 대상 주변 400 범위의 적에게 전체 체력 0.4% + 120,000|c00379BFFMagic Damage|r를 가합니다.\r\
+		t["A04T"][3][1] = "＊공격 시 13% 확률로 레바테인을 휘둘러 대상 주변 400 범위의 적에게 Maximum Health 0.4% + 120,000|c00379BFFMagic Damage|r를 가합니다.\r\
 ＊|c00C5EA53[Combination Synergy]|r핏빛달\r\
 -Remilia Scarlet[Arcana]가 존재할 경우, 레밀리아가 공격 시 0.5% 확률로 Q.E.D『495년의 파문』을 발동시킵니다.\r\
 [내부 Cooldown은 없습니다.]";
@@ -6431,7 +6431,7 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 1
 		t["A04U"][2][1] = "『어비스 노바』 - |c0000FFFFExtended|r";
 -- aub1 1
-		t["A04U"][3][1] = "＊|c0044BBFF[Mana]|r - 115 : 공격 시 마력 1 회복, 몸 속의 핵에너지를 폭발시켜 Around yourself 1000 범위의 적에게 전체 체력 3%의 |c00AC59FF절대 피해|r를 가하고 받는 Magic Damage를 10% |c0000FFFF증폭|r시킵니다. 피해받은 적의 체력이 15% 이하라면, 즉사시킵니다.\r\
+		t["A04U"][3][1] = "＊|c0044BBFF[Mana]|r - 115 : 공격 시 마력 1 회복, 몸 속의 핵에너지를 폭발시켜 Around yourself 1000 범위의 적에게 Maximum Health 3%의 |c00AC59FF절대 피해|r를 가하고 받는 Magic Damage를 10% |c0000FFFF증폭|r시킵니다. 피해받은 적의 체력이 15% 이하라면, 즉사시킵니다.\r\
 |c00ff2222[!]Caution|r : 보스는 제외됩니다.";
 -- anam
 -- aart
@@ -7769,7 +7769,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- atp1 1
 		t["A06T"][2][1] = "난제『부처의 석발 -꺾이지 않는 의지-』";
 -- aub1 1
-		t["A06T"][3][1] = "＊공격 시 9% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 전체 체력 0.2% + 90,000|c00379BFFMagic Damage|r를 가합니다.";
+		t["A06T"][3][1] = "＊공격 시 9% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 Maximum Health 0.2% + 90,000|c00379BFFMagic Damage|r를 가합니다.";
 -- anam
 -- aart
 		t["A06T"][5][1] = "ReplaceableTextures\\PassiveButtons\\PASBTNMagicImmunity.blp";
@@ -7805,7 +7805,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A06T"][36][1] = "＊공격 시 18% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 전체 체력 0.2% + 90,000|c00379BFFMagic Damage|r를 가합니다.";
+		t["A06T"][36][1] = "＊공격 시 18% 확률로 반짝이는 무언가를 보여줘 대상 주변 600 범위 적에게 Maximum Health 0.2% + 90,000|c00379BFFMagic Damage|r를 가합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -7921,7 +7921,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- atp1 1
 		t["A06X"][2][1] = "옥부『버스팅 그루지』- 옥염 0";
 -- aub1 1
-		t["A06X"][3][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 1%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
+		t["A06X"][3][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 Maximum Health 1%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 Maximum Health 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
 |c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- anam
 -- aart
@@ -7961,19 +7961,19 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A06X"][36][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 2%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
+		t["A06X"][36][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 Maximum Health 2%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 Maximum Health 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
 |c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 3
-		t["A06X"][37][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 3%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
+		t["A06X"][37][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 Maximum Health 3%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 Maximum Health 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
 |c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 4
-		t["A06X"][38][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 4%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
+		t["A06X"][38][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 Maximum Health 4%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 Maximum Health 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
 |c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 5
-		t["A06X"][39][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 5%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
+		t["A06X"][39][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 Maximum Health 5%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 Maximum Health 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
 |c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 6
-		t["A06X"][40][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 전체 체력 6%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 전체 체력 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
+		t["A06X"][40][1] = "＊|c0044BBFF[Mana]|r - 60 : 공격 시 마력 1 회복, 폭발을 일으켜 Around yourself 600 범위의 적에게 Maximum Health 6%의 |c00AC59FF절대 피해|r를 가하고, 옥염 스택을 1 쌓습니다. 옥염 스택마다 Maximum Health 1% 증가합니다. 최대 5까지 쌓으며, 최대치가 될 시 다시 0스택으로 돌아갑니다.\r\
 |c00ff2222[!]Caution|r : 보스는 체력 감소 효과를 받지 않습니다.";
 -- aub1 7
 		t["A06X"][41][1] = "공격시 3%확률로 발동합니다. 10 seconds동안 자신의 Attack Speed를 310% 증가시킵니다. 또한 주변의 자신 소유의 Units 중 무작위로 6Units에게 똑같은 효과를 줍니다. 중복하여 받는 경우도 있을 수 있습니다.";
@@ -8056,7 +8056,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 		t["A074"][2][1] = "멸죄『정직한 자의 죽음』";
 -- aub1 1
 		t["A074"][3][1] = "＊공격 시 0~10% 확률로 대상을 즉사시킵니다. 대상의 체력이 낮을 수록 확률이 증가합니다.\r\
-＊|c0044BBFF[Mana]|r - 500 : 즉사시킨 적의 체력 비율만큼 마력 회복, 대상 주변 500 범위의 적을 멸각해 전체 체력 5~15%의 |c00379BFFMagic Damage|r를 가합니다.\r\
+＊|c0044BBFF[Mana]|r - 500 : 즉사시킨 적의 체력 비율만큼 마력 회복, 대상 주변 500 범위의 적을 멸각해 Maximum Health 5~15%의 |c00379BFFMagic Damage|r를 가합니다.\r\
 |c00ff2222[!]Caution|r : 모코우는 다른 마력 회복을 받지 않습니다.";
 -- anam
 -- aart
@@ -10365,7 +10365,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- atp1 1
 		t["A0A2"][2][1] = "전세『되돌아오는 이치죠 다리』";
 -- aub1 1
-		t["A0A2"][3][1] = "＊공격 시 20% 확률로 전체 체력 5%(보스 0.5%)의 피해를 가합니다. 체력이 50% 이상이라면 |c00FF6464Physical Damage|r로, 체력이 50% 미만이라면 |c00AC59FF절대 피해|r로 가합니다.\r\
+		t["A0A2"][3][1] = "＊공격 시 20% 확률로 Maximum Health 5%(보스 0.5%)의 피해를 가합니다. 체력이 50% 이상이라면 |c00FF6464Physical Damage|r로, 체력이 50% 미만이라면 |c00AC59FF절대 피해|r로 가합니다.\r\
 ＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 1 회복, Around yourself 600 범위의 아군의 마력을 10% 회복시킵니다.\r\
 |c00ff2222[!]Caution|r : Keine Kamishirasawa EX는 다른 마력 회복을 받지 않습니다.";
 -- anam
@@ -10998,7 +10998,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 		t["A0AN"][5][1] = "|c00ffff00Sakuya Izayoi[Special Stopwatch]|r Combination|c00FF8040[D]|r";
 -- arac
 -- aub1 1
-		t["A0AN"][7][1] = "Sakuya Izayoi + Hong Meiling + Hakurei Reimu";
+		t["A0AN"][7][1] = "Sakuya Izayoi + Hong Meiling + Reimu Hakurei";
 -- aani
 -- ahky
 -- alig
@@ -11026,7 +11026,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- [A0AR]
 -- aub1 1
 		t["A0AR"][1][1] = "＊Namazu 주변 800 범위의 자신 소유 Units Attack Speed를 10% 증가시킵니다.\r\
-＊공격 시 12% 확률로 Around yourself 600 범위의 적에게 전체 체력 0.4% + 95,000|c00FF6464Physical Damage|r를 가합니다.";
+＊공격 시 12% 확률로 Around yourself 600 범위의 적에게 Maximum Health 0.4% + 95,000|c00FF6464Physical Damage|r를 가합니다.";
 -- atar 1
 		t["A0AR"][2][1] = "invulnerable,self,player";
 -- atp1 1
@@ -11461,7 +11461,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- atp1 1
 		t["A0BL"][5][1] = "|c00ffff00Hisoutensoku|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BL"][6][1] = "Suika Ibuki[Unique] + Yugi Hoshiguma[Unique] + Hakurei Reimu[Homing]";
+		t["A0BL"][6][1] = "Suika Ibuki[Unique] + Yugi Hoshiguma[Unique] + Reimu Hakurei[Homing]";
 -- ahky
 -- acat
 		t["A0BL"][8][1] = "h035,h034,h017";
@@ -11493,7 +11493,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- atp1 1
 		t["A0BN"][5][1] = "|c00ffff00Maribel Hearn|r Combination|c00FF8040[D]|r";
 -- aub1 1
-		t["A0BN"][6][1] = "Renko Usami + Unknown + Hakurei Reimu[Homing]";
+		t["A0BN"][6][1] = "Renko Usami + Unknown + Reimu Hakurei[Homing]";
 -- ahky
 -- acat
 		t["A0BN"][8][1] = "h03S,h017,h01J";
@@ -11995,7 +11995,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0CE"][2][1] = "염부『태을진화』- 0번째 방화";
 -- aub1 1
-		t["A0CE"][3][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 전체 체력 0.3% + 70,000|c00379BFFMagic Damage|r를 가합니다. 4번째 발동할 때마다 Magic Damage를 10% 증폭시키는 효과가 추가됩니다.";
+		t["A0CE"][3][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 Maximum Health 0.3% + 70,000|c00379BFFMagic Damage|r를 가합니다. 4번째 발동할 때마다 Magic Damage를 10% 증폭시키는 효과가 추가됩니다.";
 -- anam
 -- aart
 		t["A0CE"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNFire.blp";
@@ -12038,7 +12038,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- aub1 3
 -- aub1 4
 -- aub1 5
-		t["A0CE"][39][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 전체 체력 0.3% + 70,000|c00379BFFMagic Damage|r를 가하고 Magic Damage를 10% 증폭시킵니다.";
+		t["A0CE"][39][1] = "＊공격 시 10% 확률로 방화를 일으켜 대상 주변 400 범위의 적에게 Maximum Health 0.3% + 70,000|c00379BFFMagic Damage|r를 가하고 Magic Damage를 10% 증폭시킵니다.";
 -- aub1 6
 		t["A0CE"][40][1] = "공격시 20%확률로 공격 지점에 화염폭풍을 일으켜 0.25 seconds당 75000데미지를 8회 입히며, 닿은 적에게 초당 22500데미지를 5 seconds간 줍니다.";
 -- aub1 7
@@ -12160,7 +12160,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 		t["A0BE"][5][1] = "|c00ffff00Suika Ibuki|r Combination|c00FF8040[F]|r";
 -- arac
 -- aub1 1
-		t["A0BE"][7][1] = "Hakurei Reimu + Mystia Lorelei + Hong Meiling";
+		t["A0BE"][7][1] = "Reimu Hakurei + Mystia Lorelei + Hong Meiling";
 -- ahky
 -- alig
 -- atat
@@ -12258,7 +12258,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A00N"][2][1] = "사부『취한 자의 삶, 죽음의 몽환』";
 -- aub1 1
-		t["A00N"][3][1] = "*|c00FF80FF[Vitality]|r - 7초 : 죽음의 나비로 생명을 거둬 주변 600 범위의 적에게 전체 체력을 2% 감소시킵니다.\r\
+		t["A00N"][3][1] = "*|c00FF80FF[Vitality]|r - 7초 : 죽음의 나비로 생명을 거둬 주변 600 범위의 적에게 Maximum Health을 2% 감소시킵니다.\r\
 |c00ff2222[!]Caution|r : 보스는 감소되지 않습니다.";
 -- anam
 -- aart
@@ -12383,14 +12383,14 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- [A0CO]
 -- anam
 -- atp1 1
-		t["A0CO"][2][1] = "부적『대 요괴 방위막이』";
+		t["A0CO"][2][1] = "Charm 『Anti-Youkai Houi-Yoke Prayer』";
 -- aub1 1
-		t["A0CO"][3][1] = "*레이무가 공격시 10% 확률로 대상 지점에 부적을 투척하여 요력을 막는 결계를 생성합니다. 대상 지점 주변 400범위 내의 적을 2.5 seconds간 스턴시키고, Maximum Health 0.4% + 100,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
+		t["A0CO"][3][1] = "*10% chance to deal, 0.4% Maximum Health + 100,000|c00FF6464 Physical Damage|r and stun for 2.5 seconds in a 400 AoE.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-몽부『환상일중』\r\
+Dream Sign 『Fine Line Fantasy』\r\
 \r\
-*레이무가 공격시 10% 확률로 대상 지점 주변 400범위 적을 2.5 seconds간 스턴시키고, Current Health의 0.7% + 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*이 스킬에 피격된 대상 적 1기는 Maximum Health 50%에 해당하는 |c00FF6464 Physical Damage|r를 입습니다.[보스에게는 적용되지 않습니다]";
+*10% chance to deal 0.7% Current Health + 125,000|c00FF6464 Physical Damage|r and stun for 2.5 seconds in a 400 AoE.\r\
+*To a single target, deal 50% Maximum Health |c00FF6464 Physical Damage|r.[Does not affect Bosses]";
 -- aart
 -- arac
 -- atp1 2
@@ -13242,7 +13242,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- arac
 -- anam
 -- atp1 1
-		t["A0EI"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Rare]";
+		t["A0EI"][3][1] = "|c00FEE952[Unit Information]|r - Reimu Hakurei[Rare]";
 -- aub1 1
 		t["A0EI"][4][1] = "|c00A8F13A[Combination]|r: Shizuha Aki[Magic] + Red UFO[Rare]\r\
 \r\
@@ -13477,7 +13477,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0F2"][3][1] = "|c00FEE952[Unit Information]|r - Rin Kaenbyou[Unique]";
 -- aub1 1
-		t["A0F2"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Yamame Kurodani[Rare] + Hakurei Reimu[Rare]\r\
+		t["A0F2"][4][1] = "|c00A8F13A[Combination]|r: Orin[Rare] + Yamame Kurodani[Rare] + Reimu Hakurei[Rare]\r\
 \r\
 [Attack Speed]: 1.05 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13501,7 +13501,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0F4"][3][1] = "|c00FEE952[Unit Information]|r - Suika Ibuki[Unique]";
 -- aub1 1
-		t["A0F4"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Mystia Lorelei[Rare] + Hong Meiling[Rare]\r\
+		t["A0F4"][4][1] = "|c00A8F13A[Combination]|r: Reimu Hakurei[Rare] + Mystia Lorelei[Rare] + Hong Meiling[Rare]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13607,9 +13607,9 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- arac
 -- anam
 -- atp1 1
-		t["A0FD"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Unique]";
+		t["A0FD"][3][1] = "|c00FEE952[Unit Information]|r - Reimu Hakurei[Unique]";
 -- aub1 1
-		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Rare] + Marisa Kirisame[Rare] + Sakuya Izayoi[Rare]\r\
+		t["A0FD"][4][1] = "|c00A8F13A[Combination]|r: Reimu Hakurei[Rare] + Marisa Kirisame[Rare] + Sakuya Izayoi[Rare]\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 350[Air movement]\r\
@@ -13671,7 +13671,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FI"][3][1] = "|c00FEE952[Unit Information]|r - Sakuya Izayoi[Unique]";
 -- aub1 1
-		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: Sakuya Izayoi[Rare] + Hong Meiling[Rare] + Hakurei Reimu[Rare]\r\
+		t["A0FI"][4][1] = "|c00A8F13A[Combination]|r: Sakuya Izayoi[Rare] + Hong Meiling[Rare] + Reimu Hakurei[Rare]\r\
 \r\
 [Attack Speed]: 0.45 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13683,7 +13683,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FJ"][3][1] = "|c00FEE952[Unit Information]|r - Nazrin[Unique]";
 -- aub1 1
-		t["A0FJ"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Hakurei Reimu[Rare] + Sunny Milk[Rare]\r\
+		t["A0FJ"][4][1] = "|c00A8F13A[Combination]|r: Rainbow UFO[Rare] + Reimu Hakurei[Rare] + Sunny Milk[Rare]\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13880,7 +13880,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FY"][3][1] = "|c00FEE952[Unit Information]|r - Hisoutensoku[Epic]";
 -- aub1 1
-		t["A0FY"][4][1] = "|c00A8F13A[Combination]|r: Suika Ibuki[Unique] + Yuugi Hoshiguma[Unique] + Hakurei Reimu[Unique]\r\
+		t["A0FY"][4][1] = "|c00A8F13A[Combination]|r: Suika Ibuki[Unique] + Yuugi Hoshiguma[Unique] + Reimu Hakurei[Unique]\r\
 \r\
 [Attack Speed]: 0.5 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -13894,7 +13894,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 -- atp1 1
 		t["A0FZ"][3][1] = "|c00FEE952[Unit Information]|r - Maribel Hearn[Epic]";
 -- aub1 1
-		t["A0FZ"][4][1] = "|c00A8F13A[Combination]|r: Renko Usami[Unique] + Unknown[Unique] + Hakurei Reimu[Unique]\r\
+		t["A0FZ"][4][1] = "|c00A8F13A[Combination]|r: Renko Usami[Unique] + Unknown[Unique] + Reimu Hakurei[Unique]\r\
 \r\
 [Attack Speed]: 0.57 Cooldown\r\
 [Movement Speed]: 300\r\
@@ -14163,7 +14163,7 @@ Effect : 5 seconds간 Movement Speed -35%";
 		t["A0DF"][3][1] = "검술 『기염만장의 검』";
 -- aub1 1
 		t["A0DF"][4][1] = "*텐시가 공격시 20% 확률로 대상 Units 하나에게 Maximum Health 5% + 300,000|c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.\r\
-[전체 체력 비례 데미지는 보스에게는 20%의 데미지만 입힙니다.]";
+[Maximum Health 비례 데미지는 보스에게는 20%의 데미지만 입힙니다.]";
 -- aart
 -- areq
 		t["A0DF"][6][1] = "R01J";
@@ -14992,7 +14992,7 @@ Human Sign 『역린의 매우 거친 파도』\r\
 -- atp1 1
 		t["A0A9"][2][1] = "『환상향 공중신전』";
 -- aub1 1
-		t["A0A9"][3][1] = "＊|c002C62EA[Mana]|r - 150 : 공격 시 마력 1 회복, 대상 위에 신앙심으로 건설된 공중신전을 내려꽂아 주변 600 범위의 적에게 전체 체력 5% + 400,000|c00379BFFMagic Damage|r를 가합니다. 폭발 후 남은 신앙이 스와코에게 다시 깃들어 마력을 20~50% 회복합니다.";
+		t["A0A9"][3][1] = "＊|c002C62EA[Mana]|r - 150 : 공격 시 마력 1 회복, 대상 위에 신앙심으로 건설된 공중신전을 내려꽂아 주변 600 범위의 적에게 Maximum Health 5% + 400,000|c00379BFFMagic Damage|r를 가합니다. 폭발 후 남은 신앙이 스와코에게 다시 깃들어 마력을 20~50% 회복합니다.";
 -- anam
 -- aart
 		t["A0A9"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNNecropolis.blp";
@@ -18273,8 +18273,8 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- arac
 -- atp1 1
 -- aub1 1
-		t["A0LE"][3][1] = "＊공격 시 15% 확률로 대상에게 전체 체력 6%(보스 0.6%)의 |c00379BFFMagic Damage|r를 가합니다.\r\
-＊공격 시 11% 확률로 달의 마안을 개방해 대상 주변 400 범위의 적에게 전체 체력 0.5% + 100,000|c00379BFFMagic Damage|r를 가합니다.";
+		t["A0LE"][3][1] = "＊공격 시 15% 확률로 대상에게 Maximum Health 6%(보스 0.6%)의 |c00379BFFMagic Damage|r를 가합니다.\r\
+＊공격 시 11% 확률로 달의 마안을 개방해 대상 주변 400 범위의 적에게 Maximum Health 0.5% + 100,000|c00379BFFMagic Damage|r를 가합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -18343,7 +18343,7 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 		t["A0LF"][2][1] = "『죽음의 무도』- 스택 1";
 -- aub1 1
 		t["A0LF"][3][1] = "＊공격 시 10% 확률로 대상 주변 450 범위의 적에게 85,000|c00AC59FF절대 피해|r를 가합니다.\r\
-*|c002C62EA[Mana]|r - 30 : 공격 시 마력 3 회복, 죽음을 퍼뜨려 Around yourself 600 범위의 적에게 전체 체력 0.4% + 250,000|c00379BFFMagic Damage|r를 가합니다.";
+*|c002C62EA[Mana]|r - 30 : 공격 시 마력 3 회복, 죽음을 퍼뜨려 Around yourself 600 범위의 적에게 Maximum Health 0.4% + 250,000|c00379BFFMagic Damage|r를 가합니다.";
 -- anam
 -- aart
 		t["A0LF"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNAuraOfDarkness.blp";
@@ -18515,14 +18515,14 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 		t["A09D"][5][1] = "Poison Sign 『신경의 독』";
 -- aub1 1
 		t["A09D"][6][1] = "＊독을 퍼뜨려 Around yourself 900 범위의 적 방어력을 24 감소시킵니다.\r\
-＊|c00FF80FF[Vitality]|r - 10 seconds : 6초 동안 지속되는 맹독을 대상한테 주입해 1초마다 전체 체력 1% + 50,000(보스는 30%)의 |c00AC59FF절대 피해|r를 가하고 방어력을 45 감소시킵니다. 맹독은 중첩되지 않습니다.";
+＊|c00FF80FF[Vitality]|r - 10 seconds : 6초 동안 지속되는 맹독을 대상한테 주입해 1초마다 Maximum Health 1% + 50,000(보스는 30%)의 |c00AC59FF절대 피해|r를 가하고 방어력을 45 감소시킵니다. 맹독은 중첩되지 않습니다.";
 -- abuf 1
 		t["A09D"][8][1] = "B035";
 -- atp1 2
 		t["A09D"][9][1] = "Poison Sign 『신경의 독』- |c0000FFFFExtended|r";
 -- aub1 2
 		t["A09D"][10][1] = "＊독을 퍼뜨려 Around yourself 900 범위의 적 방어력을 30 감소시킵니다.\r\
-＊|c00FF80FF[Vitality]|r - 10 seconds : 6초 동안 지속되는 맹독을 대상한테 주입해 1초마다 전체 체력 1% + 50,000(보스는 30%)의 |c00AC59FF절대 피해|r를 가하고 방어력을 45 감소시킵니다. 맹독은 중첩되지 않습니다.";
+＊|c00FF80FF[Vitality]|r - 10 seconds : 6초 동안 지속되는 맹독을 대상한테 주입해 1초마다 Maximum Health 1% + 50,000(보스는 30%)의 |c00AC59FF절대 피해|r를 가하고 방어력을 45 감소시킵니다. 맹독은 중첩되지 않습니다.";
 -- atar 2
 -- abuf 2
 -- atar 3
@@ -18708,10 +18708,10 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0LP"][4][1] = "대결계『하쿠레이 탄막결계 -신경- 절일문』";
+		t["A0LP"][4][1] = "Great Barrier 『Hakurei Danmaku Barrier -신경- 절일문』";
 -- aub1 1
-		t["A0LP"][5][1] = "*레이무가 공격시 마나를 1씩 쌓습니다. 마나가 165가 됐을때 이하의 효과를 발동합니다.\r\
-*자신의 위치에 700범위를 감싸며 5 seconds간 지속되는 결계를 생성합니다. 결계 내의 적은 받는 데미지의 25%를 |c00AC59FF True Damage|r로 추가로 입습니다.";
+		t["A0LP"][5][1] = "*Restores 1 Mana on attack. Activates at 165 Mana.\r\
+*Creates a barrier in a 700 AoE for 5 seconds. Enemies take 25% Additional |c00AC59FF True Damage|r from any damage taken.";
 -- [A0LQ]
 -- aart
 -- arac
@@ -18719,15 +18719,15 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- atp1 1
 		t["A0LQ"][4][1] = "Treasure Sign 『Yin-Yang Treasure Orb』";
 -- aub1 1
-		t["A0LQ"][5][1] = "*레이무가 공격시 11% 확률로 손에 음양옥의 기를 모아 내지르듯이 방출합니다. 대상 지점 주변 400범위 내에 있는 적에게 Missing Health 0.4% + 145,000|c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.\r\
+		t["A0LQ"][5][1] = "*11% chance to deal 0.4% Missing Health + 145,000|c00379BFF Magical Damage|r and stun for 2 seconds in a 400 AoE.\r\
 *『Yin-Yang Treasure Orb』 restores Reimu's Mana by 4.";
 -- [S009]
 -- atar 1
 -- arac
 -- atp1 1
 -- aub1 1
-		t["S009"][4][1] = "*레이무 주변 600범위 Units의 Movement Speed를 60% 감소시킵니다.\r\
-*대상 Units이 보스 Units일 경우, 공격시 60% 확률로 Current Health의 0.4% + 45,000|c00379BFF Magical Damage|r를 추가로 입히고, 1초간 스턴시킵니다.";
+		t["S009"][4][1] = "*Movement Speed -60% in a 600 AoE.\r\
+*60% chance to deal 0.4% Current Health + 45,000|c00379BFF Magical Damage|r and stun for 1 second to Boss units.";
 -- anam
 -- abuf 1
 		t["S009"][6][1] = "B03D";
@@ -18743,10 +18743,10 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 		t["S009"][12][1] = "B005";
 -- [A0LS]
 -- atp1 1
-		t["A0LS"][1][1] = "『하늘을 나는 정도의 능력』- 단축키 (D)";
+		t["A0LS"][1][1] = "『Ability to Fly』- Hotkey (D)";
 -- aub1 1
-		t["A0LS"][2][1] = "*자유로운 레이무는 2500 거리를 자유자재로 순간이동 할 수 있습니다.\r\
-*Cooldown 2초";
+		t["A0LS"][2][1] = "*Reimu can freely teleport up to a range of 2500.\r\
+*Cooldown 2 seconds";
 -- anam
 		t["A0LS"][3][1] = "[Legendary 레이무]『하늘을 나는 정도의 능력』";
 -- arac
@@ -18758,9 +18758,9 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- aart
 		t["A0LT"][4][1] = "Icon\\Unit\\BTNReimu_Leg.blp";
 -- aub1 1
-		t["A0LT"][5][1] = "Hakurei Reimu[Homing] + Mamizou Futatsuiwa[Epic] + 1 Unique Soul";
+		t["A0LT"][5][1] = "Reimu Hakurei[Homing] + Mamizou Futatsuiwa[Epic] + 1 Unique Soul";
 -- atp1 1
-		t["A0LT"][6][1] = "|c00ffff00Hakurei Reimu[Legendary]|r Combination|c00FF8040[F]|r";
+		t["A0LT"][6][1] = "|c00ffff00Reimu Hakurei[Legendary]|r Combination|c00FF8040[F]|r";
 -- anam
 -- acat
 		t["A0LT"][8][1] = "h017,h041,h05U";
@@ -18776,15 +18776,15 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- arac
 -- anam
 -- atp1 1
-		t["A0LU"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Legendary]";
+		t["A0LU"][3][1] = "|c00FEE952[Unit Information]|r - Reimu Hakurei[Legendary]";
 -- aub1 1
-		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Homing] + Mamizou Futatsuiwa[Epic] + Unique Soul\r\
+		t["A0LU"][4][1] = "|c00A8F13A[Combination]|r: Reimu Hakurei[Homing] + Mamizou Futatsuiwa[Epic] + Unique Soul\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
-*|c00C5EA53[Combination Synergy]|r신사의 멋진 탈 것\r\
--Grandfather Genji[Special]를 보유하고 있을 경우, 신사 진영 능력인『신령강림』의 Cooldown이 300 seconds에서 250 seconds로 감소합니다.";
+*|c00C5EA53[Combination Synergy]|r Shrine Maiden's Cool Ride\r\
+-Having Grandfather Genji[Special], reduce 『Faith Gathering』's cooldown from 300 seconds to 250 seconds.";
 -- aart
 -- [A0LV]
 -- ahky
@@ -18837,7 +18837,7 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 -- [A0GS]
 -- arac
 -- atp1 1
-		t["A0GS"][2][1] = "몽부『수영원의 꿈』";
+		t["A0GS"][2][1] = "Dream Sign 『수영원의 꿈』";
 -- aub1 1
 		t["A0GS"][3][1] = "＊|c0044BBFF[Mana]|r - 6 : 공격 시 마력 1 회복, 실체화한 악몽을 전방 1000거리까지 날려 닿은 적에게 66,000|c00379BFFMagic Damage|r를 가합니다.";
 -- anam
@@ -19699,7 +19699,7 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 -- anam
 -- arac
 -- atp1 1
-		t["A0M6"][3][1] = "몽부『몽아몽중』";
+		t["A0M6"][3][1] = "Dream Sign 『몽아몽중』";
 -- aub1 1
 		t["A0M6"][4][1] = "＊공격 시 10% 확률로 대상을 잠재워 Current Health 15%(보스 1%)를 깎고 3초간 기절시킵니다. 그 후, 잠에서 깨면 받는 Magic Damage를 35% |c0000FFFF증폭|r시킵니다.";
 -- aart
@@ -19735,7 +19735,7 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 -- atp1 1
 		t["A03J"][2][1] = "메기 \"액상화현상으로 대지도 진흙과 같구나!\"";
 -- aub1 1
-		t["A03J"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 2 회복, Namazu가 격렬하게 철벅거려 자신주변 500 범위의 적에게 전체 체력 2% + 300,000|c00FF6464Physical Damage|r를 가합니다.\r\
+		t["A03J"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 2 회복, Namazu가 격렬하게 철벅거려 자신주변 500 범위의 적에게 Maximum Health 2% + 300,000|c00FF6464Physical Damage|r를 가합니다.\r\
 |c00FF712D[허영갑주]|r + 15";
 -- anam
 -- aart
@@ -20233,7 +20233,7 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A07H"][5][1] = "Red UFO + Shizuha Aki";
 -- atp1 1
-		t["A07H"][6][1] = "|c00ffff00Hakurei Reimu|r Combination|c00FF8040[D]|r";
+		t["A07H"][6][1] = "|c00ffff00Reimu Hakurei|r Combination|c00FF8040[D]|r";
 -- anam
 -- acat
 		t["A07H"][8][1] = "h013,h00C";
@@ -20808,10 +20808,10 @@ Range : Around yourself 500\r\
 -- [A09U]
 -- arac
 -- atp1 1
-		t["A09U"][2][1] = "주부『팬텀쉽 하버』 - |c0000FFFFExtended|r";
+		t["A09U"][2][1] = "Jewel Sign 『팬텀쉽 하버』 - |c0000FFFFExtended|r";
 -- aub1 1
 		t["A09U"][3][1] = "＊『배 밑바닥의 비너스』의 방어력 감소가 30으로 증가합니다.\r\
-＊공격 시 10% 확률로 유령선이 지원나와 대상 지점을 향해 포격하여 주변 450 범위의 적에게 전체 체력 0.4% + 125,000|c00FF6464Physical Damage|r를 가합니다.";
+＊공격 시 10% 확률로 유령선이 지원나와 대상 지점을 향해 포격하여 주변 450 범위의 적에게 Maximum Health 0.4% + 125,000|c00FF6464Physical Damage|r를 가합니다.";
 -- anam
 -- aart
 		t["A09U"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUndeadTransport.blp";
@@ -21169,7 +21169,7 @@ Range : Around yourself 500\r\
 ───────────────────\r\
 『핵펀치』\r\
 \r\
-＊공격 시 12% 확률로 목표 지점을 있는 힘껏 타격해 대상 주변 400 범위의 적에게 전체 체력 0.3%의 |c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.";
+＊공격 시 12% 확률로 목표 지점을 있는 힘껏 타격해 대상 주변 400 범위의 적에게 Maximum Health 0.3%의 |c00FF6464Physical Damage|r를 가하고 2초간 기절시킵니다.";
 -- abuf 1
 		t["A0MH"][8][1] = "B03Q";
 -- atp1 2
@@ -21818,9 +21818,9 @@ Range : Around yourself 500\r\
 -- atp1 1
 		t["A0MT"][6][1] = "|c00ffff00『유한의 굴레』|r|c00FF8040[D]|r";
 -- aub1 1
-		t["A0MT"][7][1] = "*유카리가 Hakurei Reimu[Homing]에게 이 스킬을 사용시 『심탄막결계 -몽환포영-』스킬을 얻습니다.\r\
+		t["A0MT"][7][1] = "*유카리가 Reimu Hakurei[Homing]에게 이 스킬을 사용시 『심탄막결계 -몽환포영-』스킬을 얻습니다.\r\
 \r\
-|c00ffff00!주의 : 대상이 된 Hakurei Reimu[Homing]은 사라집니다.|r";
+|c00ffff00!주의 : 대상이 된 Reimu Hakurei[Homing]은 사라집니다.|r";
 -- aart
 -- atar 1
 -- ahky
@@ -22993,7 +22993,7 @@ Ice Sign 『Icicle Machine Gun』\r\
 -- atp1 1
 -- aub1 1
 		t["A0N2"][5][1] = "*누에가 공격시 25% 확률로 대상 Units에게 [Maximum Health 2% + 99,000]*(0.7~2.2)의 |c00379BFF Magical Damage|r를 추가로 입힙니다.\r\
-[보스에게 발동시 전체 체력 비례 데미지가 25%만 적용됩니다]";
+[보스에게 발동시 Maximum Health 비례 데미지가 25%만 적용됩니다]";
 -- [A0N3]
 -- arac
 -- aub1 1
@@ -23240,7 +23240,7 @@ Ice Sign 『Icicle Machine Gun』\r\
 		t["A06G"][3][1] = "*요리히메가 공격시 마나를 1씩 회복시킵니다.\r\
 *마나가 120이 됐을때 대상 800범위 지점을 별빛의 검기로 베어냅니다. 별빛의 검기로 베어진 적은 1.5 seconds간 스턴당하며 공격한 적의 Maximum Health 2.5% + 300,000|c00FF6464 Physical Damage|r를 입습니다. 별빛의 검기가 사라지고 난 후 3초 후에 후속타로 별빛을 폭발시켜 검기가 있던 위치에서 800범위에 있는 적들에게 150,000|c00FF6464 Physical Damage|r를 추가로 입힙니다.\r\
 *|c00C5EA53[Combination Synergy]|r신령을 받드는 몸\r\
--Hakurei Reimu[Homing]을 보유하고 있을때, Watatsuki no Toyohime[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
+-Reimu Hakurei[Homing]을 보유하고 있을때, Watatsuki no Toyohime[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
 -- anam
 		t["A06G"][4][1] = "[요리히메]아마츠미카보시";
 -- aart
@@ -23278,9 +23278,9 @@ Ice Sign 『Icicle Machine Gun』\r\
 -- aub1 2
 		t["A06G"][36][1] = "*요리히메가 공격시 마나를 1씩 회복합니다. 마나 165에 발동합니다.\r\
 *별의 신의 힘을 빌어 대상 지점의 모든 것을 베어버립니다. 대상 지점 주변 400범위내의 적에게 Maximum Health 4% + 550,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*게임 오버까지의 카운트가 5개 이하라면 전체 체력 비례 데미지가 8%로 증가합니다.\r\
+*게임 오버까지의 카운트가 5개 이하라면 Maximum Health 비례 데미지가 8%로 증가합니다.\r\
 *|c00C5EA53[Combination Synergy]|r신령을 받드는 몸\r\
--Hakurei Reimu[Homing]을 보유하고 있을때, Watatsuki no Toyohime[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
+-Reimu Hakurei[Homing]을 보유하고 있을때, Watatsuki no Toyohime[Chronicle]을 Combination할 경우 히든 스킬 확정 변경";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -23396,7 +23396,7 @@ Ice Sign 『Icicle Machine Gun』\r\
 [Movement Speed]: 350[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Watatsuki no Toyohime Upgrade\r\
 |c0097FF2F[Combination Synergy]|r신령을 받드는 몸\r\
--If you have Hakurei Reimu[Unique] while combining, Watatsuki no Toyohime[Chronicle] will gain a hidden skill.";
+-If you have Reimu Hakurei[Unique] while combining, Watatsuki no Toyohime[Chronicle] will gain a hidden skill.";
 -- aart
 		t["A0DM"][5][1] = "ReplaceableTextures\\CommandButtons\\Yorihime\\BTN_UP.blp";
 -- [A0GI]
@@ -24278,7 +24278,7 @@ Deal [125,000~375,000] |c00379BFF Magical Damage|r in an 800 AoE around yourself
 -- aub1 1
 		t["A0O4"][5][1] = "＊기본 공격이 450 범위의 적에게 50% 분산 피해를 가합니다.\r\
 ＊공격당한 적이 보스라면, 공격 시 60% 확률로 강력한 발차기를 날려 30,000|c00AC59FF절대 피해|r를 가하고 2초간 기절시킵니다.\r\
-＊공격 시 10% 확률로 궁극 리글킥을 날려 대상 주변 400 범위의 적에게 전체 체력 0.8% + 55,000|c00FF6464Physical Damage|r를 가합니다.";
+＊공격 시 10% 확률로 궁극 리글킥을 날려 대상 주변 400 범위의 적에게 Maximum Health 0.8% + 55,000|c00FF6464Physical Damage|r를 가합니다.";
 -- [A0O5]
 -- arac
 -- anam
@@ -25126,7 +25126,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 2
 		t["A0OK"][55][1] = "*시온이 공격시 10% 확률로 대상 지점에 빈곤의 기운을 해방시켜 Maximum Health 0.4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *10 골드를 소모합니다.\r\
-*100~3000 골드를 가졌다면, 전체 체력 0.6%로 강화됩니다.";
+*100~3000 골드를 가졌다면, Maximum Health 0.6%로 강화됩니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -27353,7 +27353,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 -- aub1 1
 		t["A0PX"][3][1] = "＊Around yourself 900 범위의 적 방어력을 30 감소시킵니다.\r\
-＊|c002C62EA[[Mana]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 전체 체력 2.5% + 275,000|c00FF6464Physical Damage|r를 가하고 5 seconds간 Movement Speed를 80% 감소시키며, 1.5 seconds간 기절시킨다.";
+＊|c002C62EA[[Mana]|r - 140 : 공격 시 마력 1 회복, 거대한 어둠의 구체를 만들고 폭발시켜 대상 주변 600 범위의 적에게 Maximum Health 2.5% + 275,000|c00FF6464Physical Damage|r를 가하고 5 seconds간 Movement Speed를 80% 감소시키며, 1.5 seconds간 기절시킨다.";
 -- anam
 -- aart
 -- atp1 2
@@ -27682,9 +27682,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- anam
 		t["A0Q7"][5][1] = "[진영]Hakurei Shrine";
 -- atp1 1
-		t["A0Q7"][6][1] = "|c00ffff00신앙응집|r|c00FF8040[Q]|r";
+		t["A0Q7"][6][1] = "|c00ffff00Faith Gathering|r|c00FF8040[Q]|r";
 -- aub1 1
-		t["A0Q7"][7][1] = "*대상 Normal Units을 Strange-looking Human[Magic]으로 변화시킵니다.\r\
+		t["A0Q7"][7][1] = "*Turns a target Normal unit into a Strange-looking Human[Magic].\r\
 *Cooldown 300 seconds";
 -- aart
 -- atar 1
@@ -27692,7 +27692,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 2
 -- atp1 3
 -- aub1 2
-		t["A0Q7"][13][1] = "*대상 Normal Units을 Strange-looking Human[Magic]으로 변화시킵니다.\r\
+		t["A0Q7"][13][1] = "*Turns a target Normal unit into a Strange-looking Human[Magic].\r\
 *Cooldown 250 seconds";
 -- aub1 3
 -- atar 2
@@ -29343,7 +29343,7 @@ Fire Water Wood Metal Earth Sign 『Philosopher's Stone』|cffffcc00(Q)|r\r\
 		t["A02M"][2][1] = "『고갈』";
 -- aub1 1
 		t["A02M"][3][1] = "*Kurumi가 공격시 30% 확률로 대상 Units을 흡혈합니다. 125,000|c00379BFF Magical Damage|r를 입힙니다.\r\
-*고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
+*고갈 발동시 대상 Units의 Maximum Health을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF Magical Damage|r를 대상 주변 500범위 적에게 입힙니다.\r\
 *고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 Cooldown을 1초 감소시킵니다.";
 -- anam
@@ -29381,7 +29381,7 @@ Fire Water Wood Metal Earth Sign 『Philosopher's Stone』|cffffcc00(Q)|r\r\
 -- atp1 31
 -- aub1 2
 		t["A02M"][36][1] = "*Kurumi가 공격시 60% 확률로 대상 Units을 흡혈합니다. 125,000|c00379BFF Magical Damage|r를 입힙니다.\r\
-*고갈 발동시 대상 Units의 전체 체력을 6% 감소시킵니다.[보스 미적용]\r\
+*고갈 발동시 대상 Units의 Maximum Health을 6% 감소시킵니다.[보스 미적용]\r\
 감소시킨 체력의 5%만큼의 |c00379BFF Magical Damage|r를 대상 주변 500범위 적에게 입힙니다.\r\
 *고갈이 발동될때, 대상 Units의 체력이 8% 이하라면 즉사시키고, 활력 Cooldown을 1초 감소시킵니다.";
 -- aub1 3
@@ -29538,7 +29538,7 @@ Fire Water Wood Metal Earth Sign 『Philosopher's Stone』|cffffcc00(Q)|r\r\
 *|c00FF80FF[Vitality]|r - 4초\r\
 마쿠라가 악몽을 형상화하여 적을 공포에 질리게 합니다. Around yourself 700범위 적에게 Maximum Health 1%에 해당하는 |c00AC59FF True Damage|r를 입히고, 받는  Magical Damage를 20% 증폭시킵니다.\r\
 [꿈 6개 흡수시 강화]\r\
--전체 체력 비례 데미지가 1%에서 2%로 증가하며, 발동시 25% 확률로 활력 Cooldown이 초기화됩니다.";
+-Maximum Health 비례 데미지가 1%에서 2%로 증가하며, 발동시 25% 확률로 활력 Cooldown이 초기화됩니다.";
 -- atar 1
 -- atp1 1
 		t["A05S"][4][1] = "『형성하는 공포』";
@@ -30769,7 +30769,7 @@ Fire Water Wood Metal Earth Sign 『Philosopher's Stone』|cffffcc00(Q)|r\r\
 -- atp1 1
 -- aub1 1
 		t["A0BX"][6][1] = "＊성스러운 후광으로 Around yourself 600 범위의 적 방어력을 15 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 전체 체력 0.2% + 40,000|c00AC59FF절대 피해|r를 가합니다.";
+＊공격 시 10% 확률로 대상 주변 500 범위의 적에게 Maximum Health 0.2% + 40,000|c00AC59FF절대 피해|r를 가합니다.";
 -- abuf 1
 		t["A0BX"][8][1] = "B034";
 -- atp1 2
@@ -33068,7 +33068,7 @@ Deals 1.2% Maximum Health + 200,000|c00379BFF Magical Damage|r and stun for 1.1 
 -- atp1 1
 		t["A05J"][3][1] = "|c00FEE952[Unit Information]|r - Marisa Kirisame[Arcana]";
 -- aub1 1
-		t["A05J"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Rare] + Marisa Kirisame[Rare] + Hakurei Reimu[Rare] + Arcanist's Book * 2\r\
+		t["A05J"][4][1] = "|c00A8F13A[Combination]|r: Alice Margatroid[Rare] + Marisa Kirisame[Rare] + Reimu Hakurei[Rare] + Arcanist's Book * 2\r\
 |c00A8F13A[Type Command]|r: 디어 마이 프렌드(marisa arc)\r\
 \r\
 [Attack Speed]: 0.41 Cooldown\r\
@@ -33636,13 +33636,13 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 -- arac
 -- atp1 1
-		t["S00V"][3][1] = "|c00FEE952[Unit Information]|r - Hakurei Reimu[Chronicle]";
+		t["S00V"][3][1] = "|c00FEE952[Unit Information]|r - Reimu Hakurei[Chronicle]";
 -- aub1 1
-		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Hakurei Reimu[Unique] + Ran Yakumo[Epic] + Nue Houjuu[Epic] + 5 Unique Souls\r\
+		t["S00V"][4][1] = "|c00A8F13A[Combination]|r: Reimu Hakurei[Unique] + Ran Yakumo[Epic] + Nue Houjuu[Epic] + 5 Unique Souls\r\
 \r\
 [Attack Speed]: 0.46 Cooldown\r\
 [Movement Speed]: 522[Air movement]\r\
-|c00F8BA54[Upgrade]|r : Hakurei Reimu Upgrade";
+|c00F8BA54[Upgrade]|r : Reimu Hakurei Upgrade";
 -- anam
 -- abuf 1
 -- atat
@@ -33656,13 +33656,13 @@ nhym,h02Q,hlum,e03C";
 -- atar 1
 -- atp1 1
 -- aub1 1
-		t["A0QY"][3][1] = "＊레이무 주변 600 범위의 적 방어력을 25 감소시킵니다.\r\
-＊레이무 주변 600 범위의 적 Movement Speed를 50% 감소시킵니다.\r\
-|c00ff2222[!]Caution|r : Hakurei Reimu[Legendary]의 Dream Sign 『Evil-Sealing Circle』이랑 중첩되지 않습니다.\r\
+		t["A0QY"][3][1] = "＊Defense -25 in a 600 AoE.\r\
+＊Movement Speed -50% in a 600 AoE.\r\
+|c00ff2222[!]Caution|r : Does not overlap with Reimu Hakurei[Legendary]'s Dream Sign 『Evil-Sealing Circle』.\r\
 ────────────────\r\
-주부『명주암투』\r\
-＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
-＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
+Jewel Sign 『Orbs of Light, Cast into Shade』\r\
+＊Attacks deal damage to enemies behind her target.\r\
+＊|c0044BBFF[Mana]|r - 70 : Gain 1~2 on attack, deals 1% Maximum Health + 350,000|c00FF6464Physical Damage|r and stun for 2.5 seconds in a 350 AoE.";
 -- anam
 -- aart
 -- atat
@@ -33676,11 +33676,11 @@ nhym,h02Q,hlum,e03C";
 ────────────────\r\
 Spirit Sign 『Fantasy Seal』\r\
 ＊레이무의 공격은 전방의 적에게 피해를 가합니다.\r\
-＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 2~4 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 2% + 700,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
+＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 2~4 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 Maximum Health 2% + 700,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- atp1 3
-		t["A0QY"][13][1] = "주부『명주암투』";
+		t["A0QY"][13][1] = "Jewel Sign 『Orbs of Light, Cast into Shade』";
 -- aub1 3
-		t["A0QY"][14][1] = "＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 전체 체력 1% + 350,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
+		t["A0QY"][14][1] = "＊|c0044BBFF[Mana]|r - 70 : 공격 시 마력 1~2 회복, 음양옥을 대상 위치에 던져 주변 350 범위의 적에게 Maximum Health 1% + 350,000|c00FF6464Physical Damage|r를 가하고 2.5 seconds간 기절시킵니다.";
 -- atar 3
 -- aub1 4
 -- [A0QZ]
@@ -33707,7 +33707,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 -- arac
 -- aub1 1
-		t["A0R1"][7][1] = "Hakurei Reimu[Unique] + Ran Yakumo[Epic] + Nue Houjuu[Epic] + 5 Unique Souls";
+		t["A0R1"][7][1] = "Reimu Hakurei[Unique] + Ran Yakumo[Epic] + Nue Houjuu[Epic] + 5 Unique Souls";
 -- ahky
 -- atat
 		t["A0R1"][11][1] = "nmgd";
@@ -34593,12 +34593,12 @@ Spirit Sign 『Fantasy Seal』\r\
 -- atp1 1
 		t["A032"][6][1] = "『꿈의 끝』|cffffcc00(R)|r - 모인 꿈 0개";
 -- aub1 1
-		t["A032"][7][1] = "*마쿠라 주변 700범위 적의 전체 체력을 초당 0.5% 감소시킵니다.\r\
+		t["A032"][7][1] = "*마쿠라 주변 700범위 적의 Maximum Health을 초당 0.5% 감소시킵니다.\r\
 *마쿠라는 Unique Soul을 흡수하여 꿈의 양분으로 삼아 강력해집니다. 이 스킬을 사용하여 Unique Soul을 흡수할 수 있으며, 최대 9개까지 흡수 가능합니다.\r\
 [흡수한 꿈 3개마다 마쿠라의 능력이 강화됩니다.]\r\
 [꿈을 흡수할때마다 Attack Speed가 10% 상승합니다.]\r\
 [꿈 9개 흡수시 강화]\r\
--전체 체력 감소치가 0.5%에서 1%로 증가합니다.";
+-Maximum Health 감소치가 0.5%에서 1%로 증가합니다.";
 -- aart
 -- atar 1
 -- ahky
@@ -34651,14 +34651,14 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A09H"][6][1] = "*Around yourself 700범위 적의 방어력을 24 감소시킵니다.\r\
 *공격시 25% 확률로 대상 Units 1기에게 Maximum Health 4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*보스 Units에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
+*보스 Units에게는 Maximum Health 비례 데미지가 적용되지 않습니다.";
 -- abuf 1
 		t["A09H"][8][1] = "B004";
 -- atp1 2
 -- aub1 2
 		t["A09H"][10][1] = "*Around yourself 700범위 적의 방어력을 32 감소시킵니다.\r\
 *공격시 25% 확률로 대상 Units 1기에게 Maximum Health 4% + 225,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-*보스 Units에게는 전체 체력 비례 데미지가 적용되지 않습니다.";
+*보스 Units에게는 Maximum Health 비례 데미지가 적용되지 않습니다.";
 -- atar 2
 -- abuf 2
 -- [A09J]
@@ -34671,7 +34671,7 @@ Spirit Sign 『Fantasy Seal』\r\
 *마쿠라가 꿈의 요괴인 맥을 소환하여 대상 지점을 포격합니다. 주변 800범위 적에게 Maximum Health 14%의 |c00379BFFMagic Damage|r를 입힙니다.\r\
 [다른 마나 회복 효과를 받지 않습니다.]\r\
 [꿈 9개 흡수시 강화]\r\
--다른 마나 회복 효과를 받을 수 있도록 변경되고, 전체 체력 21%의 Magic Damage로 증가합니다.";
+-다른 마나 회복 효과를 받을 수 있도록 변경되고, Maximum Health 21%의 Magic Damage로 증가합니다.";
 -- aart
 -- [A078]
 -- anam
@@ -35700,7 +35700,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0A6"][2][1] = "『이자나기 물질』";
 -- aub1 1
 		t["A0A6"][3][1] = "＊Around yourself 600 범위의 적 방어력을 24 감소시킵니다.\r\
-＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 전체 체력 0.5%의 |c00FF6464Physical Damage|r를 가합니다.";
+＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 Maximum Health 0.5%의 |c00FF6464Physical Damage|r를 가합니다.";
 -- anam
 -- aart
 -- atp1 2
@@ -36459,9 +36459,9 @@ Stuns and deals damage in a 450 AoE, dealing 3% Maximum Health + 200,000|c00FF64
 -- anam
 -- arac
 -- atp1 1
-		t["A0HQ"][3][1] = "몽부『비색의 압박악몽』";
+		t["A0HQ"][3][1] = "Dream Sign 『비색의 압박악몽』";
 -- aub1 1
-		t["A0HQ"][4][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적을 2초간 기절시킵니다. 기절당한 적의 체력이 50% 이하라면, 전체 체력 1%(밤 1.5%)의 |c00379BFFMagic Damage|r를 가합니다.";
+		t["A0HQ"][4][1] = "＊공격 시 10% 확률로 대상 주변 500 범위의 적을 2초간 기절시킵니다. 기절당한 적의 체력이 50% 이하라면, Maximum Health 1%(밤 1.5%)의 |c00379BFFMagic Damage|r를 가합니다.";
 -- aart
 -- areq
 		t["A0HQ"][6][1] = "u006";
@@ -37814,7 +37814,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 -- atp1 1
 		t["A0SO"][1][1] = "원령『이루카의 벼락』";
 -- aub1 1
-		t["A0SO"][2][1] = "＊|c0044BBFF[Mana]|r - 130 : 대상에게 각인을 5 seconds 동안 새겨 대상 주변 450 범위의 적에게 0.5 seconds마다 전체 체력 0.2% + 50,000|c00379BFFMagic Damage|r를 가합니다. 만약 각인된 대상이 사망한다면, 전체 체력 5.5% + 100,000|c00379BFFMagic Damage|r를 가하고 자신의 마력을 25% 회복합니다.";
+		t["A0SO"][2][1] = "＊|c0044BBFF[Mana]|r - 130 : 대상에게 각인을 5 seconds 동안 새겨 대상 주변 450 범위의 적에게 0.5 seconds마다 Maximum Health 0.2% + 50,000|c00379BFFMagic Damage|r를 가합니다. 만약 각인된 대상이 사망한다면, Maximum Health 5.5% + 100,000|c00379BFFMagic Damage|r를 가하고 자신의 마력을 25% 회복합니다.";
 -- anam
 -- aart
 -- atar 1
@@ -37822,7 +37822,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 -- atp1 1
 		t["A0SP"][1][1] = "뇌시『가고지 사이클론』";
 -- aub1 1
-		t["A0SP"][2][1] = "＊공격 시 20% 확률로 대상에게 500,000(보스에겐 전체 체력 0.3% + 500,000)의 |c00379BFFMagic Damage|r를 가하고 2초간 기절시킵니다.";
+		t["A0SP"][2][1] = "＊공격 시 20% 확률로 대상에게 500,000(보스에겐 Maximum Health 0.3% + 500,000)의 |c00379BFFMagic Damage|r를 가하고 2초간 기절시킵니다.";
 -- anam
 -- aart
 -- atar 1
@@ -39218,7 +39218,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 -- atp1 1
 		t["A0TR"][5][1] = "마법『순진한 손길』";
 -- aub1 1
-		t["A0TR"][6][1] = "＊|c0044BBFF[Mana]|r - 110 : 공격 시 마력 1 회복, 마력을 방출해 4초간 기절시킨 다음, 전체 체력 5% |c00FF6464물리|r + 전체 체력 5% |c00379BFF마법|r 피해를 가합니다.";
+		t["A0TR"][6][1] = "＊|c0044BBFF[Mana]|r - 110 : 공격 시 마력 1 회복, 마력을 방출해 4초간 기절시킨 다음, Maximum Health 5% |c00FF6464물리|r + Maximum Health 5% |c00379BFF마법|r 피해를 가합니다.";
 -- atat
 -- atar 2
 -- atar 3
@@ -39890,7 +39890,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 		t["A0UC"][3][1] = "함정 카드 : 죽음의 덱 파괴 바이러스 |cffffcc00[E]|r";
 -- aub1 1
 		t["A0UC"][4][1] = "＊[Active Ability] : Rare 이상의 Units을 소모하고 발동합니다.\r\
-＊대상 Units을 폭사시켜 주변 600 범위의 보스를 제외한 적을 감염시켜 1초마다 전체 체력 3%의 |c00AC59FF절대 피해|r를 가합니다. 감염된 적의 체력이 20% 이하라면, 즉사시키고 다시 주변의 적을 감염시킵니다. 감염은 중첩되지 않으며 라운드가 지나면 치료됩니다.";
+＊대상 Units을 폭사시켜 주변 600 범위의 보스를 제외한 적을 감염시켜 1초마다 Maximum Health 3%의 |c00AC59FF절대 피해|r를 가합니다. 감염된 적의 체력이 20% 이하라면, 즉사시키고 다시 주변의 적을 감염시킵니다. 감염은 중첩되지 않으며 라운드가 지나면 치료됩니다.";
 -- ahky
 -- areq
 -- Ncl6G1
@@ -40232,7 +40232,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 -- atp1 1
 		t["A0UW"][4][1] = "『죄악의 무게』";
 -- aub1 1
-		t["A0UW"][5][1] = "＊|c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, Around yourself 700 범위의 적에게 죄악의 무게를 부여해 영구히 Movement Speed를 50 감소시킵니다. 중첩이 가능하며 적의 Movement Speed가 50이면 저지른 죄업에 짓눌려져 전체 체력 5%의 |c00FF6464Physical Damage|r를 입습니다.";
+		t["A0UW"][5][1] = "＊|c0044BBFF[Mana]|r - 80 : 공격 시 마력 1 회복, Around yourself 700 범위의 적에게 죄악의 무게를 부여해 영구히 Movement Speed를 50 감소시킵니다. 중첩이 가능하며 적의 Movement Speed가 50이면 저지른 죄업에 짓눌려져 Maximum Health 5%의 |c00FF6464Physical Damage|r를 입습니다.";
 -- [A0UX]
 -- arac
 -- atp1 1

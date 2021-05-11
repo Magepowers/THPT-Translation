@@ -580,7 +580,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- [Hamg]
 -- upro
-		t["Hamg"][5][1] = "Hakurei Reimu";
+		t["Hamg"][5][1] = "Reimu Hakurei";
 -- unam
 		t["Hamg"][6][1] = "|c00FF0000양아치 무녀|r";
 -- urac
@@ -2595,7 +2595,7 @@ TPT_units_loader = function(t)
 -- [nmgd]
 -- urac
 -- unam
-		t["nmgd"][2][1] = "|c0017B5C6Hakurei Reimu|r - |c00808080Chronicle|r|N|c00F8F489Wonderful Shrine Maiden of Paradise|r";
+		t["nmgd"][2][1] = "|c0017B5C6Reimu Hakurei|r - |c00808080Chronicle|r|N|c00F8F489Wonderful Shrine Maiden of Paradise|r";
 -- uico
 		t["nmgd"][5][1] = "Icon\\Unit\\BTNReimu_Chro.blp";
 -- uabi
@@ -3216,7 +3216,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h00O"][7][1] = "Hakurei Reimu - |c00ffff00Rare|r";
+		t["h00O"][7][1] = "Reimu Hakurei - |c00ffff00Rare|r";
 -- ua1m
 		t["h00O"][10][1] = "Abilities\\Spells\\NightElf\\FanOfKnives\\FanOfKnivesMissile.mdl";
 -- umdl
@@ -3480,7 +3480,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h017"][7][1] = "Hakurei Reimu[Homing] - |c00808040Unique|r";
+		t["h017"][7][1] = "Reimu Hakurei[Homing] - |c00808040Unique|r";
 -- ua1m
 		t["h017"][10][1] = "Abilities\\Weapons\\MurgulMagicMissile\\MurgulMagicMissile.mdl";
 -- umdl
@@ -6131,7 +6131,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02J"][6][1] = "『Hakurei Reimu』|N|c0000FFFFWonderful Shrine Maiden of Paradise|r";
+		t["e02J"][6][1] = "『Reimu Hakurei』|N|c0000FFFFWonderful Shrine Maiden of Paradise|r";
 -- umdl
 -- [e02K]
 -- urac
@@ -6163,7 +6163,7 @@ TPT_units_loader = function(t)
 -- utyp
 -- uabi
 -- unam
-		t["e02M"][7][1] = "WAVE78 - Hakurei Reimu";
+		t["e02M"][7][1] = "WAVE78 - Reimu Hakurei";
 -- upgr
 -- umdl
 -- uarm
@@ -6676,7 +6676,7 @@ TPT_units_loader = function(t)
 -- utip
 		t["h04W"][12][1] = "Select Hakurei Shrine|cffffcc00(Q)|r";
 -- utub
-		t["h04W"][13][1] = "Selects the Hakurei Shrine faction. Also allows Hakurei Reimu[Legendary] to be created.\r\
+		t["h04W"][13][1] = "Selects the Hakurei Shrine faction. Also allows Reimu Hakurei[Legendary] to be created.\r\
 \r\
 |c0000FF00[Faction Unique Skill]|r Divine Spirit Advent\r\
 -Changes a target Normal unit into a Strange-Looking Human.";
@@ -7257,7 +7257,7 @@ TPT_units_loader = function(t)
 -- uhrt
 -- upgr
 -- unam
-		t["h06C"][7][1] = "Hakurei Reimu - |c00804040Legendary|r|N|c00FF9393Wonderful Shrine Maiden of Paradise|r";
+		t["h06C"][7][1] = "Reimu Hakurei - |c00804040Legendary|r|N|c00FF9393Wonderful Shrine Maiden of Paradise|r";
 -- ua1m
 -- umdl
 -- uico
@@ -7273,7 +7273,7 @@ TPT_units_loader = function(t)
 -- umdl
 		t["h06D"][3][1] = "TBPReimuAura.mdl";
 -- unam
-		t["h06D"][4][1] = "[Hakurei Reimu]대결계 더미";
+		t["h06D"][4][1] = "[Reimu Hakurei]대결계 더미";
 -- uico
 -- utyp
 -- usnd
@@ -8742,7 +8742,7 @@ TPT_units_loader = function(t)
 -- [n00C]
 -- urac
 -- unam
-		t["n00C"][2][1] = "|c0017B5C6Hakurei Reimu|r - |c00808080Chronicle|r|N|c00F8F489흉악한 재앙의 무녀|r";
+		t["n00C"][2][1] = "|c0017B5C6Reimu Hakurei|r - |c00808080Chronicle|r|N|c00F8F489흉악한 재앙의 무녀|r";
 -- uico
 -- uabi
 -- umdl
