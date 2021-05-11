@@ -42,8 +42,8 @@ TPT_abilities_loader = function(t)
 -- aub1 2
 		t["AOae"][10][1] = "*써니 주변 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
 *Sunny Milk가 공격시 10% 확률로 전방으로 눈이 멀정도로 강력한 햇빛을 발사합니다. 전방 650범위 Units에게 85,000 True Damage를 입히고, 1.5 seconds간 스턴시킵니다.\r\
-|c00FF712D[허영갑주]|r + 3\r\
-[햇빛 보너스] : 낮일 경우 허영갑주 수치가 4로 증가하며, Movement Speed 감소 효과가 22%에서 30%로 증가합니다.";
+|c00FF712D[Vanity Armor]|r + 3\r\
+[햇빛 보너스] : 낮일 경우 Vanity Armor 수치가 4로 증가하며, Movement Speed 감소 효과가 22%에서 30%로 증가합니다.";
 -- atp1 2
 -- [AIfw]
 -- anam
@@ -835,7 +835,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 -- aub1 2
 		t["AUau"][12][1] = "*Tokiko 주변 650범위 적의 Movement Speed를 40% 감소시킵니다.\r\
 *Tokiko가 공격시 10% 확률로 대상 주변 475범위의 적에게 책을 읽으라고 일갈하여 1.7초의 스턴과 55,000|c00AC59FF True Damage|r를 입힙니다.\r\
-|c00FF712D[허영갑주]|r + 4";
+|c00FF712D[Vanity Armor]|r + 4";
 -- [ANth]
 -- aart
 		t["ANth"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNDizzy.blp";
@@ -1425,7 +1425,7 @@ Elly가 낫을 크게 휘둘러 주변 900범위 적들에게 150,000|c00FF6464 
 		t["Afrz"][8][1] = "『핵열강화 증기기관』";
 -- aub1 1
 		t["Afrz"][9][1] = "＊|c00FF80FF[Vitality]|r - 5 seconds : Hisoutensoku이 핵열로 강화된 증기 기관을 통해 열기를 뿜어 Around yourself 600 범위의 적에게 잃은 체력 1% + 125,000|c00AC59FF절대 피해|r를 가합니다.\r\
-|c00FF712D[허영갑주]|r + 4";
+|c00FF712D[Vanity Armor]|r + 4";
 -- [Absk]
 -- anam
 -- arac
@@ -1616,7 +1616,7 @@ Light Barrier 『Wall Break』\r\
 -- aub1 1
 		t["ACrn"][3][1] = "*기본적으로 유기 주변 1000범위 적의 방어력을 30% 감소시킵니다.\r\
 *유기는 공격시 5% 확률로 발을 한번 크게 구릅니다. 한번 구를때마다 맵 전체 적을 1.2초간 스턴시킵니다. \r\
-|c00FF712D[허영갑주]|r + 2\r\
+|c00FF712D[Vanity Armor]|r + 2\r\
 *세 번째 발걸음에 아래의 효과가 적용됩니다.\r\
 *유기가 공격시 대상 지점에 강력한 일격을 날립니다. 대상 주변 1500범위에 적 Maximum Health 3% + 450,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *공격시 마나를 1 회복합니다. 마나가 125일때 발동하는 삼보필살은 |c00AC59FF True Damage|r로 적용되며, 데미지가 2배로 적용됩니다.";
@@ -4100,9 +4100,9 @@ Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 -- [A02F]
 -- arac
 -- atp1 1
-		t["A02F"][2][1] = "화부『파산포』";
+		t["A02F"][2][1] = "Flower Sign 『Mountain-Breaking Cannon』";
 -- aub1 1
-		t["A02F"][3][1] = "＊공격 시 12.5% 확률로 주먹을 내질러 대상 주변 450 범위의 적에게 2000 |c00FF6464Physical Damage|r를 가하고 0.3초간 기절시킨다.";
+		t["A02F"][3][1] = "＊12.5% chance to deal 2000 |c00FF6464Physical Damage|r and stun for 0.3 seconds in a 450 AoE.";
 -- anam
 		t["A02F"][4][1] = "[Rare]메이링_R";
 -- aart
@@ -11039,7 +11039,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- aub1 2
 		t["A0AR"][10][1] = "*기본적으로 Around yourself 800범위 아군의 Attack Speed를 18% 증가시킵니다.\r\
 *공격시 16% 확률로 Around yourself 600범위 적에게 80,000|c00FF6464 Physical Damage|r를 입히고, 2.5 seconds간 기절시킵니다.\r\
-|c00FF712D[허영갑주]|r + 3";
+|c00FF712D[Vanity Armor]|r + 3";
 -- atp1 2
 		t["A0AR"][11][1] = "메기『올 전화로 에콜로지다!』- |c0000FFFFExtended|r";
 -- [A0AT]
@@ -11690,7 +11690,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- aart
 		t["A0C0"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNImmolationOn.blp";
 -- atp1 1
-		t["A0C0"][4][1] = "기부『천계기상의 검』";
+		t["A0C0"][4][1] = "Chi Sign 『천계기상의 검』";
 -- aub1 1
 		t["A0C0"][5][1] = "*|c00FF80FF[Vitality]|r - 5 seconds\r\
 텐시가 전방의 Units에게 Maximum Health 0.5% + 50,000 Magical Damage를 입히고, 2.5 seconds간 스턴시킵니다.\r\
@@ -11817,7 +11817,7 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- arac
 -- anam
 -- atp1 1
-		t["A02B"][3][1] = "기부『무념무상의 경지』";
+		t["A02B"][3][1] = "Chi Sign 『무념무상의 경지』";
 -- aub1 1
 		t["A02B"][4][1] = "*텐시가 공격시 5% 확률로 자신을 강화합니다. 이미 강화된 상태에서는 발동하지 않으며, 아래의 효과를 얻습니다.\r\
 *5.5 seconds간 Attack Speed 80% 상승, 스킬 공격력 30% 상승, 스킬 발동확률 5% 상승.";
@@ -12757,7 +12757,7 @@ Dream Sign 『Fine Line Fantasy』\r\
 		t["A0DB"][2][1] = "『팔백팔 너구리 하야시』";
 -- aub1 1
 		t["A0DB"][3][1] = "＊공격 시 10% 확률로 Around yourself 650 범위의 적에게 95,000|c00FF6464Physical Damage|r를 가합니다.\r\
-|c00FF712D[허영갑주]|r + 3 (20% 확률로 5)";
+|c00FF712D[Vanity Armor]|r + 3 (20% 확률로 5)";
 -- aart
 		t["A0DB"][4][1] = "ReplaceableTextures\\CommandButtons\\BTNRacoon.blp";
 -- atp1 2
@@ -12769,7 +12769,7 @@ Dream Sign 『Fine Line Fantasy』\r\
 -- atp1 6
 -- aub1 2
 		t["A0DB"][10][1] = "*공격시 20% 확률로 Around yourself 650범위 적에게 125,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-|c00FF712D[허영갑주]|r + 3";
+|c00FF712D[Vanity Armor]|r + 3";
 -- aub1 3
 		t["A0DB"][11][1] = "공격시 13%확률로 부딪힐 시 160000데미지를 주는 여러 탄막을 4방향에서 초당 2개씩 날립니다. 충돌 크기 75, 데미지 범위 250.";
 -- aub1 4
@@ -14793,7 +14793,7 @@ Human Sign 『역린의 매우 거친 파도』\r\
 \r\
 [Attack Speed]: 0.7 Cooldown\r\
 [Movement Speed]: 350\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Units Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Units Upgrade";
 -- anam
 -- aart
 		t["A076"][5][1] = "Icon\\Unit\\BTNMinoriko_Arc.blp";
@@ -15938,7 +15938,7 @@ Human Sign 『역린의 매우 거친 파도』\r\
 -- atp1 1
 		t["A0KA"][7][1] = "Trap Sign 『Capture Web』";
 -- atp1 2
-		t["A0KA"][8][1] = "기부『역침격』";
+		t["A0KA"][8][1] = "Chi Sign 『역침격』";
 -- aub1 1
 		t["A0KA"][9][1] = "*Movement Speed -35% in a 700 AoE.\r\
 *Every 3 seconds, spread a plague that makes enemies take 22% more Magical Damage and reduce Health by 1% in a 700 AoE.\r\
@@ -16270,7 +16270,7 @@ Miasma 『Unexplained Fever』\r\
 		t["A0I2"][6][1] = "『심비의 에소테릭 세븐』";
 -- aub1 1
 		t["A0I2"][7][1] = "*공격시 6% 확률로 대상 주변 500범위에 오컬트볼을 폭발시켜 Maximum Health 1.5% + 450,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-|c00FF712D[허영갑주]|r + 6";
+|c00FF712D[Vanity Armor]|r + 6";
 -- anam
 		t["A0I2"][8][1] = "[스미레코]";
 -- [A0IN]
@@ -18617,7 +18617,7 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 [Movement Speed]: 380[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Legendary Units Upgrade\r\
 |c0097FF2F[Combination Synergy]|r행운의 토끼 드롭스\r\
--Tewi Inaba[Rare]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
+-Tewi Inaba[Rare]를 보유하고 있을 경우, 15% 확률로 Vanity Armor 수치를 3배로 적용받습니다.";
 -- aart
 		t["A0AE"][5][1] = "Icon\\Unit\\BTNUdonge_Leg.blp";
 -- [S008]
@@ -18646,9 +18646,9 @@ EX랭크 : 500범위에 150,000|c00FF6464 Physical Damage|r";
 		t["A0H5"][4][1] = "독연막『가스연막의 구슬』";
 -- aub1 1
 		t["A0H5"][5][1] = "*공격시 10% 확률로 대상 주변 650범위 내의 적에게 125,000|c00FF6464 Physical Damage|r를 입히고, 1.5 seconds간 기절시킵니다.\r\
-|c00FF712D[허영갑주]|r + 3\r\
+|c00FF712D[Vanity Armor]|r + 3\r\
 *|c00C5EA53[Combination Synergy]|r행운의 토끼 드롭스\r\
--Tewi Inaba[Rare]를 보유하고 있을 경우, 15% 확률로 허영갑주 수치를 3배로 적용받습니다.";
+-Tewi Inaba[Rare]를 보유하고 있을 경우, 15% 확률로 Vanity Armor 수치를 3배로 적용받습니다.";
 -- [A0LJ]
 -- aart
 		t["A0LJ"][1][1] = "ReplaceableTextures\\CommandButtons\\BTNFanOfKnives.blp";
@@ -19736,7 +19736,7 @@ Shinki는 자신이 가진 마력 1당 10000추가  True Damage를 얻습니다.
 		t["A03J"][2][1] = "메기 \"액상화현상으로 대지도 진흙과 같구나!\"";
 -- aub1 1
 		t["A03J"][3][1] = "＊|c0044BBFF[Mana]|r - 100 : 공격 시 마력 2 회복, Namazu가 격렬하게 철벅거려 자신주변 500 범위의 적에게 Maximum Health 2% + 300,000|c00FF6464Physical Damage|r를 가합니다.\r\
-|c00FF712D[허영갑주]|r + 15";
+|c00FF712D[Vanity Armor]|r + 15";
 -- anam
 -- aart
 		t["A03J"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNScourgeBuild.blp";
@@ -20349,7 +20349,7 @@ Range : Around yourself 500\r\
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 420[Air movement]\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Units Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Units Upgrade";
 -- aart
 		t["A08S"][4][1] = "Icon\\Unit\\BTNNazrin_Arc.blp";
 -- atp1 17
@@ -20777,7 +20777,7 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A0MB"][5][1] = "*Elly가 공격시 10% 확률로 낫을 휘두릅니다. 휘두른 낫은 600범위 적에게 115,000|c00FF6464 Physical Damage|r를 입힙니다. \r\
 *Elly가 공격시 마나를 1씩 회복합니다. 마나가 120이 되면 대상 지점 500범위를 빠른 속도로 6번 낫으로 베어 횟수당 Maximum Health 0.3% + 65,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-|c00FF712D[허영갑주]|r + 12";
+|c00FF712D[Vanity Armor]|r + 12";
 -- [A0MC]
 -- arac
 -- aart
@@ -21189,7 +21189,7 @@ Range : Around yourself 500\r\
 -- aub1 1
 		t["A0MI"][1][1] = "＊레밀리아 주변 800 범위의 적 Movement Speed를 18% 감소시킵니다.\r\
 ＊공격시 11% 확률로 대상 주변 350 범위의 적에게 75,000|c00FF6464Physical Damage|r를 가합니다.\r\
-|c00FF712D[허영갑주]|r + 3\r\
+|c00FF712D[Vanity Armor]|r + 3\r\
 ───────────────────\r\
 『데몬 로드 클로』\r\
 \r\
@@ -26945,11 +26945,11 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- arac
 -- atar 1
 -- atp1 1
-		t["A0PD"][3][1] = "기부『맹호내경』";
+		t["A0PD"][3][1] = "Chi Sign 『Fierce Tiger Energy Release』";
 -- aub1 1
-		t["A0PD"][4][1] = "*기본적으로 주변 750범위 내에 있는 적의 방어력을 20 감소시킵니다.\r\
-*메이링이 공격시 12% 확률로 몸의 기를 폭발시켜 Around yourself 550범위 내에 있는 적에게 Missing Health 0.8% + 75,000|c00FF6464 Physical Damage|r를 주고 2초간 스턴시킵니다.\r\
-|c00FF712D[허영갑주]|r + 2";
+		t["A0PD"][4][1] = "*Defense -20 in a 750 AoE.\r\
+*12% chance to deal 0.8% Missing Health + 75,000|c00FF6464 Physical Damage|r and stun for 2 seconds in a 550 AoE.\r\
+|c00FF712D[Vanity Armor]|r + 2";
 -- anam
 		t["A0PD"][5][1] = "[Arcana][홍메이링]";
 -- aart
@@ -27169,9 +27169,9 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["S00N"][2][1] = "『최흉최악의 극빈불행신』";
 -- aub1 1
 		t["S00N"][3][1] = "*기본적으로 Around yourself 700범위 적의 Movement Speed를 30% 감소시킵니다.\r\
-*|c00FF80FF[Vitality]|r - 4초\r\
+*|c00FF80FF[Vitality]|r - 4 seconds\r\
 시온의 위치에 빈곤의 기운을 퍼뜨려 Around yourself 700범위 내에 있는 적에게 80,000|c00AC59FF True Damage|r와 160,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
-|c00FF712D[허영갑주]|r + 4";
+|c00FF712D[Vanity Armor]|r + 4";
 -- anam
 -- abuf 1
 		t["S00N"][5][1] = "B05H";
@@ -27183,8 +27183,8 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 		t["S00N"][10][1] = "*기본적으로 Around yourself 700범위 적의 Movement Speed를 40% 감소시킵니다.\r\
 *|c00FF80FF[Vitality]|r - 4초\r\
 시온의 위치에 빈곤의 기운을 퍼뜨려 Around yourself 700범위 내에 있는 적에게 200,000|c00AC59FF True Damage|r를 입힙니다.\r\
-*100~3000 골드를 가졌다면, 허영갑주가 6으로 강화됩니다.\r\
-|c00FF712D[허영갑주]|r + 4";
+*100~3000 골드를 가졌다면, Vanity Armor가 6으로 강화됩니다.\r\
+|c00FF712D[Vanity Armor]|r + 4";
 -- abuf 2
 -- atp1 2
 		t["S00N"][12][1] = "『최흉최악의 극빈불행신』 - |c0080A8E6Ascended|r";
@@ -27750,7 +27750,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 ＊Around yourself 600 범위의 Units의 Attack Speed를 16%, Movement Speed를 20% 증가시킵니다.";
 -- atar 1
 -- atp1 1
-		t["A0QC"][4][1] = "화부『꺾이지 않는 꽃』";
+		t["A0QC"][4][1] = "Flower Sign 『꺾이지 않는 꽃』";
 -- anam
 -- aart
 -- abuf 1
@@ -30651,7 +30651,7 @@ Fire Water Wood Metal Earth Sign 『Philosopher's Stone』|cffffcc00(Q)|r\r\
 -- arac
 -- [A095]
 -- anam
-		t["A095"][1][1] = "[허영갑주]";
+		t["A095"][1][1] = "[Vanity Armor]";
 -- [A0A0]
 -- anam
 -- [A0AL]
@@ -33161,7 +33161,7 @@ Deals 1.2% Maximum Health + 200,000|c00379BFF Magical Damage|r and stun for 1.1 
 \r\
 [Attack Speed]: 0.4 Cooldown\r\
 [Movement Speed]: 420\r\
-|c00F8BA54[Upgrade]|r : Unique 이하 Units Upgrade";
+|c00F8BA54[Upgrade]|r : Unique and Below Units Upgrade";
 -- [A0JC]
 -- arac
 -- atp1 1
@@ -33246,7 +33246,7 @@ Deals 1.2% Maximum Health + 200,000|c00379BFF Magical Damage|r and stun for 1.1 
 \r\
 [Attack Speed]: 0.41 Cooldown\r\
 [Movement Speed]: 450[Air movement]\r\
-|c00F8BA54[Upgrade]|r : Arcana Units Upgrade , Unique 이하 Units Upgrade";
+|c00F8BA54[Upgrade]|r : Arcana Units Upgrade , Unique and Below Units Upgrade";
 -- aart
 		t["A0JG"][4][1] = "Icon\\Unit\\BTNIku_Arc.blp";
 -- atp1 17
@@ -35594,7 +35594,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0I5"][2][1] = "신부『신이 걸어간 오미와타리』";
 -- aub1 1
 		t["A0I5"][3][1] = "＊공격 시 12% 확률로 전방의 적에게 50,000|c00FF6464Physical Damage|r를 가하고 3초간 기절시킵니다.\r\
-|c00FF712D[허영갑주]|r + 2";
+|c00FF712D[Vanity Armor]|r + 2";
 -- anam
 -- aart
 -- atp1 2
@@ -35952,7 +35952,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["A0PS"][6][1] = "＊Tokiko 주변 650 범위의 적 방어력을 20 감소시킵니다.\r\
 ＊공격 시 10% 확률로 대상 주변 475 범위의 적에게 책을 읽으라고 일갈하여 55,000|c00AC59FF절대 피해|r를 가하고 2초간 기절시킵니다.\r\
-|c00FF712D[허영갑주]|r + 2";
+|c00FF712D[Vanity Armor]|r + 2";
 -- abuf 1
 		t["A0PS"][8][1] = "B07D";
 -- atp1 2
@@ -35967,7 +35967,7 @@ Spirit Sign 『Fantasy Seal』\r\
 -- aub1 1
 		t["S002"][4][1] = "＊주변 700 범위 자신을 제외한 아군의 Attack Speed를 12% 증가시킵니다.\r\
 *공격 시 10% 확률로 자신의 신력을 해방시켜 대상 주변 400범위 적에게 Missing Health 1% + 100,000|c00FF6464Physical Damage|r를 가하고 1.5 seconds간 기절시킵니다.\r\
-|c00FF712D[허영갑주]|r + 3";
+|c00FF712D[Vanity Armor]|r + 3";
 -- anam
 -- abuf 1
 -- aart
@@ -35983,7 +35983,7 @@ Spirit Sign 『Fantasy Seal』\r\
 		t["A0AX"][2][1] = "소장『스티전 리버사이드』";
 -- aub1 1
 		t["A0AX"][3][1] = "＊공격 시 10% 확률로 대상 주변 600 범위의 적에게 음침한 음악을 들려줘 받는 Magic Damage를 10% |c0000FFFF증폭|r시킵니다.\r\
-|c00FF712D[허영갑주]|r + 1";
+|c00FF712D[Vanity Armor]|r + 1";
 -- atar 2
 -- atar 3
 -- atar 4
@@ -36526,7 +36526,7 @@ Stuns and deals damage in a 450 AoE, dealing 3% Maximum Health + 200,000|c00FF64
 		t["A0AI"][2][1] = "[유기]삼보";
 -- aub1 1
 		t["A0AI"][3][1] = "*유기는 공격시 5% 확률로 발을 한번 크게 구릅니다. 한번 구를때마다 맵 전체 적을 1.2초간 스턴시킵니다. \r\
-|c00FF712D[허영갑주]|r + 2\r\
+|c00FF712D[Vanity Armor]|r + 2\r\
 *세 번째 발걸음에 아래의 효과가 적용됩니다.\r\
 *유기가 공격시 대상 지점에 강력한 일격을 날립니다. 대상 주변 1500범위에 적 Maximum Health 3% + 450,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
 *공격시 마나를 1 회복합니다. 마나가 125일때 발동하는 삼보필살은 |c00AC59FF True Damage|r로 적용되며, 데미지가 2배로 적용됩니다.";
@@ -39208,7 +39208,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 -- atp1 2
 -- aub1 2
 		t["A0TO"][17][1] = "＊공격 시 9% 확률로 마계의 기운을 퍼뜨려 Around yourself 700 범위의 적에게 Current Health 1%의 |c00FF6464물리|r + Current Health 1%의 |c00379BFF마법|r 피해를 가하고 1.5 seconds간 기절시키고 받는 Magic Damage를 45% 증폭시킵니다.\r\
-|c00FF712D[허영갑주]|r + 60";
+|c00FF712D[Vanity Armor]|r + 60";
 -- [A0TR]
 -- arac
 -- atar 1
@@ -39625,7 +39625,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 		t["A0TS"][4][1] = "＊[Active Ability] : Devil의 계약으로 이익을 줌과 동시에 대가를 가져갑니다. 계약이 성사되면 이 스킬은 사라집니다. 같은 계약을 하면 대가만 지불합니다.\r\
 -Extended 부적을 하나 갖지만, 자신 소유 Units의 Attack Speed를 20% 감소시킨다.\r\
 -Around yourself 500 범위의 아군 Attack Speed를 40% 증가시키지만, 적의 Movement Speed를 60% 증가시킨다.\r\
--마경『비나의 폐허』에 허영갑주 60과 받는 Magic Damage 45% 증폭 효과가 추가되지만, 자신의 Units 카운트를 20 감소시킨다.\r\
+-마경『비나의 폐허』에 Vanity Armor 60과 받는 Magic Damage 45% 증폭 효과가 추가되지만, 자신의 Units 카운트를 20 감소시킨다.\r\
 -지정된 대상의 활력과 마력을 1초마다 10% 회복시키지만, Attack Speed를 800% 감소시킨다. 회복 효과를 받지 않는 Units도 회복시킵니다.";
 -- atp1 1
 		t["A0TS"][5][1] = "『클리포트 컨트렉트』|c00FF8040[W]|r";
@@ -39717,7 +39717,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 -- atp1 1
 		t["A0U0"][4][1] = "세 번째 계약 |c00FF8040[E]|r";
 -- aub1 1
-		t["A0U0"][5][1] = "＊마경『비나의 폐허』에 허영갑주 60과 받는 Magic Damage 45% 증폭 효과가 추가되지만, 자신의 Units 카운트를 20 감소시킨다.";
+		t["A0U0"][5][1] = "＊마경『비나의 폐허』에 Vanity Armor 60과 받는 Magic Damage 45% 증폭 효과가 추가되지만, 자신의 Units 카운트를 20 감소시킨다.";
 -- ahky
 -- acat
 -- alig
