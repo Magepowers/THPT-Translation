@@ -2538,9 +2538,9 @@ Light Barrier 『Wall Break』\r\
 -- aart
 		t["Acan"][6][1] = "ReplaceableTextures\\CommandButtons\\BTNWispSplode.blp";
 -- aub1 1
-		t["Acan"][7][1] = "*마리사가 공격시 10% 확률로 공격한 대상의 위치에 소행성을 떨어뜨립니다. 소행성은 떨어지면서 대상 주변 550범위 내에 있는 적에게 Missing Health 0.5% + 65,000|c00379BFF Magical Damage|r를 입히고 2초간 스턴시킵니다.";
+		t["Acan"][7][1] = "*10% chance to drop an asteroid, dealing 0.5% Missing Health + 65,000|c00379BFF Magical Damage|r and stun for 2 seconds in a 550 AoE.";
 -- atp1 1
-		t["Acan"][8][1] = "성부『익센트릭 애스터로이드』";
+		t["Acan"][8][1] = "Star Sign 『Eccentric Asteroid』";
 -- anam
 -- [AUav]
 -- [Aeat]
@@ -2549,10 +2549,10 @@ Light Barrier 『Wall Break』\r\
 -- aspt
 -- aart
 -- atp1 1
-		t["Aeat"][7][1] = "마폐『딥 이콜로지컬 봄』";
+		t["Aeat"][7][1] = "Magic Waste 『Deep Ecological Bomb』";
 -- aub1 1
-		t["Aeat"][8][1] = "*마리사가 공격시 11% 확률로 공격한 대상의 위치에 마법폭탄병을 던져 폭발시킵니다. 대상 주변 550범위 내에 있는 적에게 125,000|c00379BFF Magical Damage|r를 입힙니다. 이 효과로 데미지를 입힌 적 하나당 마리사의 마나를 0.5씩 회복시킵니다.\r\
-*보스 공격시 30% 확률로 1.5 seconds간 스턴시키고 Maximum Health 0.3% + 90,000추가 |c00379BFF Magical Damage|r를 입힙니다.";
+		t["Aeat"][8][1] = "*11% chance to deal 125,000|c00379BFF Magical Damage|r in a 550 AoE. Restores 0.5 Mana per enemy hit.\r\
+*30% chance to deal 0.3% Maximum Health + 90,000 Additional |c00379BFF Magical Damage|r 1.5 seconds when attacking a Boss.";
 -- atar 1
 		t["Aeat"][9][1] = "none";
 -- [ACce]
@@ -4832,9 +4832,9 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- [A03C]
 -- arac
 -- atp1 1
-		t["A03C"][2][1] = "연부『마스터 스파크』";
+		t["A03C"][2][1] = "Love Sign 『Master Spark』";
 -- aub1 1
-		t["A03C"][3][1] = "＊공격 시 10% 확률로 전방 800 범위의 적에게 7,000|c00379BFFMagic Damage|r를 가한다.";
+		t["A03C"][3][1] = "＊10% chance to deal 7,000|c00379BFFMagic Damage|r in an 800 AoE.";
 -- anam
 -- aart
 		t["A03C"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNUsedSoulGem.blp";
@@ -4869,45 +4869,45 @@ Seija Kijin[Extended] + Shinmyoumaru Sukuna[Epic] + Nishida Satono[Epic] + Mai T
 -- atp1 30
 -- atp1 31
 -- aub1 2
-		t["A03C"][36][1] = "공격시 20%확률로 전방 800범위를 향해 초당 25000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][36][1] = "공격시 20%확률로 전방 800범위를 향해 초당 25000데미지의 Master Spark를 날립니다.";
 -- aub1 3
-		t["A03C"][37][1] = "공격시 30%확률로 전방 800범위를 향해 초당 35000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][37][1] = "공격시 30%확률로 전방 800범위를 향해 초당 35000데미지의 Master Spark를 날립니다.";
 -- aub1 4
-		t["A03C"][38][1] = "공격시 40%확률로 전방 800범위를 향해 초당 45000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][38][1] = "공격시 40%확률로 전방 800범위를 향해 초당 45000데미지의 Master Spark를 날립니다.";
 -- aub1 5
-		t["A03C"][39][1] = "공격시 50%확률로 전방 800범위를 향해 초당 55000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][39][1] = "공격시 50%확률로 전방 800범위를 향해 초당 55000데미지의 Master Spark를 날립니다.";
 -- aub1 6
-		t["A03C"][40][1] = "공격시 60%확률로 전방 800범위를 향해 초당 65000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][40][1] = "공격시 60%확률로 전방 800범위를 향해 초당 65000데미지의 Master Spark를 날립니다.";
 -- aub1 7
-		t["A03C"][41][1] = "공격시 70%확률로 전방 800범위를 향해 초당 75000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][41][1] = "공격시 70%확률로 전방 800범위를 향해 초당 75000데미지의 Master Spark를 날립니다.";
 -- aub1 8
-		t["A03C"][42][1] = "공격시 80%확률로 전방 800범위를 향해 초당 85000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][42][1] = "공격시 80%확률로 전방 800범위를 향해 초당 85000데미지의 Master Spark를 날립니다.";
 -- aub1 9
-		t["A03C"][43][1] = "공격시 90%확률로 전방 800범위를 향해 초당 95000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][43][1] = "공격시 90%확률로 전방 800범위를 향해 초당 95000데미지의 Master Spark를 날립니다.";
 -- aub1 11
-		t["A03C"][44][1] = "공격시 110%확률로 전방 800범위를 향해 초당 115000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][44][1] = "공격시 110%확률로 전방 800범위를 향해 초당 115000데미지의 Master Spark를 날립니다.";
 -- aub1 10
-		t["A03C"][45][1] = "공격시 100%확률로 전방 800범위를 향해 초당 105000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][45][1] = "공격시 100%확률로 전방 800범위를 향해 초당 105000데미지의 Master Spark를 날립니다.";
 -- aub1 12
-		t["A03C"][46][1] = "공격시 120%확률로 전방 800범위를 향해 초당 125000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][46][1] = "공격시 120%확률로 전방 800범위를 향해 초당 125000데미지의 Master Spark를 날립니다.";
 -- aub1 13
-		t["A03C"][47][1] = "공격시 130%확률로 전방 800범위를 향해 초당 135000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][47][1] = "공격시 130%확률로 전방 800범위를 향해 초당 135000데미지의 Master Spark를 날립니다.";
 -- aub1 14
-		t["A03C"][48][1] = "공격시 140%확률로 전방 800범위를 향해 초당 145000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][48][1] = "공격시 140%확률로 전방 800범위를 향해 초당 145000데미지의 Master Spark를 날립니다.";
 -- aub1 15
-		t["A03C"][49][1] = "공격시 150%확률로 전방 800범위를 향해 초당 155000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][49][1] = "공격시 150%확률로 전방 800범위를 향해 초당 155000데미지의 Master Spark를 날립니다.";
 -- aub1 16
-		t["A03C"][50][1] = "공격시 160%확률로 전방 800범위를 향해 초당 165000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][50][1] = "공격시 160%확률로 전방 800범위를 향해 초당 165000데미지의 Master Spark를 날립니다.";
 -- aub1 17
-		t["A03C"][51][1] = "공격시 170%확률로 전방 800범위를 향해 초당 175000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][51][1] = "공격시 170%확률로 전방 800범위를 향해 초당 175000데미지의 Master Spark를 날립니다.";
 -- aub1 18
-		t["A03C"][52][1] = "공격시 180%확률로 전방 800범위를 향해 초당 185000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][52][1] = "공격시 180%확률로 전방 800범위를 향해 초당 185000데미지의 Master Spark를 날립니다.";
 -- aub1 19
-		t["A03C"][53][1] = "공격시 190%확률로 전방 800범위를 향해 초당 195000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][53][1] = "공격시 190%확률로 전방 800범위를 향해 초당 195000데미지의 Master Spark를 날립니다.";
 -- aub1 20
-		t["A03C"][54][1] = "공격시 200%확률로 전방 800범위를 향해 초당 205000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][54][1] = "공격시 200%확률로 전방 800범위를 향해 초당 205000데미지의 Master Spark를 날립니다.";
 -- aub1 21
-		t["A03C"][55][1] = "공격시 210%확률로 전방 800범위를 향해 초당 215000데미지의 마스터 스파크를 날립니다.";
+		t["A03C"][55][1] = "공격시 210%확률로 전방 800범위를 향해 초당 215000데미지의 Master Spark를 날립니다.";
 -- aub1 22
 		t["A03C"][56][1] = "공격시 10%확률로 전방 800범위를 향해 초당 78000데미지의 공격을 5 seconds동안 합니다.";
 -- aub1 24
@@ -11017,9 +11017,9 @@ Youkai Extermination 『Yokai Power Spoiler』\r\
 -- [A0AP]
 -- aub1 1
 		t["A0AP"][1][1] = "*|c00FF80FF[Vitality]|r - 15 seconds\r\
-*마리사가 자신의 마력을 총동원한 최강의 빔을 전방에 발사합니다. 피격당한 적은 666,000|c00379BFF Magical Damage|r를 입습니다.";
+*Deals 666,000|c00379BFF Magical Damage|r to the enemy.";
 -- anam
-		t["A0AP"][3][1] = "[Arcana][마리사]마스터 스파크";
+		t["A0AP"][3][1] = "[Arcana][마리사]Master Spark";
 -- atp1 1
 -- atar 1
 -- aart
@@ -17375,9 +17375,9 @@ Miasma 『Unexplained Fever』\r\
 -- atar 1
 -- anam
 -- atp1 1
-		t["A02G"][4][1] = "Magic Sign 『스타더스트 레바리에』";
+		t["A02G"][4][1] = "Magic Sign 『Stardust Reverie』";
 -- aub1 1
-		t["A02G"][5][1] = "＊최대 7명을 추가로 공격한다.";
+		t["A02G"][5][1] = "＊Attack up to 7 additional units.";
 -- aart
 -- arac
 -- [S005]
@@ -25366,11 +25366,11 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- atp1 1
 		t["A0OQ"][3][1] = "『세번째의 분식마』";
 -- aub1 1
-		t["A0OQ"][4][1] = "*기본적으로 마리사 주변 850범위 아군의 마나를 초당 1.2씩 회복시킵니다.\r\
-*마리사가 공격시 마나를 1씩 회복합니다. 마리사의 마나가 33이 될 경우, 마나를 0으로 만들고 발동하는 다음 스킬을 강화시킵니다. \r\
+		t["A0OQ"][4][1] = "*Restores 1.2 Mana per second in an 850 AoE.\r\
+*Restores 1 Mana on attack. When reaching 33 Mana, make your mana 0 and strengthen the next skill used. \r\
 \r\
-*『익센트릭 애스터로이드』: 유성의 데미지가 3배가 됩니다.\r\
-*『딥 이콜로지컬 봄』: 대상 주변 300범위 내에 3번의 연쇄폭발이 발생합니다.";
+*『Eccentric Asteroid』: Meteor damage is tripled.\r\
+*『Deep Ecological Bomb』: Three consecutive explosions occur within a 300 AoE around the target.";
 -- atar 1
 		t["A0OQ"][5][1] = "invulnerable,nonancient,self,notself,player";
 -- atat
@@ -25416,7 +25416,7 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- aub1 2
 		t["A0OQ"][35][1] = "*주변 850범위 내에 있는 아군의 마나를 초당 1씩 회복시킵니다.\r\
 *마리사는 기본적으로 공중 이동이 가능합니다.\r\
-*마리사가 스킬을 발동할때마다 팔괘로에 마력을 충전합니다. 마리사가 공격할시 팔괘로 내에 마력이 10회 충전되어 있다면 마력을 해방시켜 자신의 전방 1500거리 350범위에 250,000 Magical Damage를 입히는 『마스터 스파크』를 발사합니다.";
+*마리사가 스킬을 발동할때마다 팔괘로에 마력을 충전합니다. 마리사가 공격할시 팔괘로 내에 마력이 10회 충전되어 있다면 마력을 해방시켜 자신의 전방 1500거리 350범위에 250,000 Magical Damage를 입히는 『Master Spark』를 발사합니다.";
 -- aub1 3
 -- aub1 4
 -- aub1 5
@@ -33074,8 +33074,8 @@ Deals 1.2% Maximum Health + 200,000|c00379BFF Magical Damage|r and stun for 1.1 
 [Attack Speed]: 0.41 Cooldown\r\
 [Movement Speed]: 522[Air movement]\r\
 |c00F8BA54[Upgrade]|r : Arcana Units Upgrade\r\
-|c00C5EA53[Combination Synergy]|r기적의 마법!\r\
--이 스킬은 Sanae Kochiya[Arcana]를 보유하고 있을때 연부『마스터 스파크』를 발동할 수 있게 됩니다.";
+|c00C5EA53[Combination Synergy]|r Miracle Magic!\r\
+-Having Sanae Kochiya[Arcana] allows you to use Love Sign 『Master Spark』.";
 -- aart
 		t["A05J"][5][1] = "Icon\\Unit\\BTNMarisa_Arc.blp";
 -- [A0HH]
