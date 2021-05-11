@@ -3104,7 +3104,7 @@ Light Barrier 『Wall Break』\r\
 -- aut1 1
 		t["ANms"][3][1] = "검기『앵화섬섬』";
 -- atp1 1
-		t["ANms"][4][1] = "검기『앵화섬섬』/단미검『미진지향참』";
+		t["ANms"][4][1] = "검기『앵화섬섬』/Hesitation-Cutting Sword 『Slash of Departure from Hesitation』";
 -- auar
 		t["ANms"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNThoriumRanged.blp";
 -- aart
@@ -3114,7 +3114,7 @@ Light Barrier 『Wall Break』\r\
 요우무가 공격한 대상 적 Maximum Health 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
 [보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-단미검『미진지향참』\r\
+Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 \r\
 *공격시 마나를 2 회복합니다. 마나가 100이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
 *범위 내의 적에게 Maximum Health 1% + 200,000|c00AC59FF True Damage|r를 입힙니다.";
@@ -3123,7 +3123,7 @@ Light Barrier 『Wall Break』\r\
 요우무가 공격한 대상 적 Maximum Health 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
 [보스 Units의 경우 10%의 데미지만 입습니다]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-단미검『미진지향참』\r\
+Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 \r\
 *공격시 마나를 2 회복합니다. 마나가 150이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
 *범위 내의 적에게 Maximum Health 1% + 200,000|c00AC59FF True Damage|r를 입힙니다.";
@@ -4080,9 +4080,9 @@ Light Barrier 『Wall Break』\r\
 -- [A029]
 -- arac
 -- atp1 1
-		t["A029"][2][1] = "인부『현세참』";
+		t["A029"][2][1] = "Human Sign 『Slash of Present World』";
 -- aub1 1
-		t["A029"][3][1] = "＊공격 시 10% 확률로 전방 800 범위의 적에게 1천2백의 |c00379BFFMagic Damage|r를 가한다.";
+		t["A029"][3][1] = "＊10% chance to deal 1200 |c00379BFFMagic Damage|r in a 800 AoE.";
 -- anam
 		t["A029"][4][1] = "[Rare]요우무_R";
 -- aart
@@ -14718,7 +14718,7 @@ Around yourself 650범위 내에 있는 아군의 마나를 6 회복시킵니다
 		t["A0HX"][3][1] = "*공격시 마나를 3 회복합니다. 마나가 115일때 발동합니다.\r\
 *지느러미에 기류를 모아 대상 Units에게 폭발시킵니다. 대상 주변 450범위 내의 적에게 Current Health의 4% + 300,000|c00FF6464 Physical Damage|r를 입히고, 방어력을 영구히 12 감소시킵니다.\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-인부『역린의 매우 거친 파도』\r\
+Human Sign 『역린의 매우 거친 파도』\r\
 \r\
 *Wakasagihime가 공격시 20% 확률로 대상 지점에 격류를 뿜어냅니다. 뿜어낸 격류는 350범위 내에 있는 적에게 125,000|c00FF6464 Physical Damage|r를 입히고, 3초간 스턴시킵니다.";
 -- abuf 2
@@ -22562,7 +22562,7 @@ Ice Sign 『Icicle Machine Gun』\r\
 *맵 전체 아군의 Attack Speed를 10% 상승시킵니다.";
 -- aub1 3
 -- atp1 2
-		t["S00I"][23][1] = "인부『권선징악은 옛적의 옳으신 말씀이니』";
+		t["S00I"][23][1] = "Human Sign 『권선징악은 옛적의 옳으신 말씀이니』";
 -- atp1 3
 -- atp1 4
 -- atp1 5
@@ -22814,7 +22814,7 @@ Ice Sign 『Icicle Machine Gun』\r\
 -- arac
 -- anam
 -- atp1 1
-		t["A03Z"][4][1] = "인부『야만바의 부엌칼 갈기』";
+		t["A03Z"][4][1] = "Human Sign 『야만바의 부엌칼 갈기』";
 -- aub1 1
 		t["A03Z"][5][1] = "*공격시 20% 확률로 네무노가 자신의 칼을 날카롭게 갈아냅니다. 칼을 갈아낸 후 첫번째 공격은 적 Maximum Health 12%의 |c00FF6464 Physical Damage|r를 입히고 1.5 seconds간 스턴시킵니다. \r\
 *공격받은 적 450범위 주변 Units에게는 65,000|c00FF6464 Physical Damage|r를 입힙니다.\r\
@@ -27902,12 +27902,12 @@ Suika Ibuki[Unique]에게 사용시 퀘스트가 완료됩니다.\r\
 -- anam
 		t["A09P"][1][1] = "[Legendary][요우무]";
 -- atp1 1
-		t["A09P"][2][1] = "단령검『성불득탈참』";
+		t["A09P"][2][1] = "Spirit Cutting Sword 『Slash of Ascension to Buddhahood』";
 -- aart
 		t["A09P"][3][1] = "ReplaceableTextures\\CommandButtons\\BTNCurse.blp";
 -- aub1 1
-		t["A09P"][4][1] = "*요우무가 공격시 10% 확률로 대상 지점 350범위 내의 적을 2초간 스턴시키고, 85,000|c00AC59FF True Damage|r를 입힙니다.\r\
-*요우무가 공격한 적이 보스 Units이라면 40% 확률로 2초간 기절시키고 3.5배의 치명타 데미지를 입힙니다.";
+		t["A09P"][4][1] = "*10% chance to deal 85,000|c00AC59FF True Damage|r and stun for 2 seconds in a 350 AoE.\r\
+*40% chance to deal 3.5x Damage and stun for 2 seconds when attacking a Boss.";
 -- abuf 1
 -- atar 1
 -- [A0H4]
@@ -34003,12 +34003,12 @@ Spirit Sign 『Fantasy Seal』\r\
 -- [A0RH]
 -- atar 1
 -- atp1 1
-		t["A0RH"][2][1] = "인지검『현세참』";
+		t["A0RH"][2][1] = "Human Knowledge Sword 『Slash of Present World』";
 -- aub1 1
-		t["A0RH"][3][1] = "*요우무 주변 750범위 적의 방어력을 25 감소시킵니다.\r\
-*요우무가 적에게 평타 공격을 가할시 25% 확률로 [평타 공격력 * 4~8]에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
-[+ 공격력을 포함한 모든 버프가 적용됩니다]\r\
-[평타 공격에는 치명타가 포함됩니다.]";
+		t["A0RH"][3][1] = "*Defense -25 in a 750 AoE.\r\
+*25% chance to deal [Normal Attack * 4~8] |c00AC59FF True Damage|r to a single target.\r\
+[All buffs that add Attack are applied]\r\
+[Includes critical hits.]";
 -- anam
 -- aart
 		t["A0RH"][5][1] = "ReplaceableTextures\\CommandButtons\\BTNWindWalkOn.blp";
@@ -36642,14 +36642,14 @@ Stuns and deals damage in a 450 AoE, dealing 3% Maximum Health + 200,000|c00FF64
 -- atp1 1
 -- aart
 -- aub1 1
-		t["A0AD"][4][1] = "*|c00FF80FF[Vitality]|r - 4초\r\
-요우무가 공격한 대상 적 Maximum Health 20%에 해당하는 |c00AC59FF True Damage|r를 입힙니다.\r\
-[보스 Units의 경우 10%의 데미지만 입습니다]\r\
+		t["A0AD"][4][1] = "*|c00FF80FF[Vitality]|r - 4 seconds\r\
+Deal 20% Maximum Health |c00AC59FF True Damage|r to the target enemy.\r\
+[Boss units only take 10% damage]\r\
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\r\
-단미검『미진지향참』\r\
+Hesitation-Cutting Sword 『Slash of Departure from Hesitation』\r\
 \r\
-*공격시 마나를 2 회복합니다. 마나가 120이 됐을때, 자신 전방 600거리 250범위 적 Units을 요력을 담은 검기로 베어버립니다.\r\
-*범위 내의 적에게 Maximum Health 1% + 200,000|c00AC59FF True Damage|r를 입힙니다.";
+*Gain 2 Mana on attack. At 120 Mana, deal damage to enemies in a 600 AoE and 250 AoE in front of you.\r\
+*Deals 1% Maximum Health + 200,000|c00AC59FF True Damage|r.";
 -- abuf 1
 -- atar 1
 -- [A0SA]
@@ -39097,7 +39097,7 @@ From the above effect, activates 『Silver Acute 360』 regardless of chance. Da
 -- atp1 1
 		t["A0TG"][4][1] = "『명을 받들면 반드시 공경하라』";
 -- aub1 1
-		t["A0TG"][5][1] = "＊인부『권선징악은 옛적의 옳으신 말씀이니』의 Attack Speed 증가가 15%로 강화됩니다.\r\
+		t["A0TG"][5][1] = "＊Human Sign 『권선징악은 옛적의 옳으신 말씀이니』의 Attack Speed 증가가 15%로 강화됩니다.\r\
 ＊『별이 내리는 신령묘』의 마력 회복이 전 맵 아군으로 변경됩니다.";
 -- [A0TH]
 -- anam
